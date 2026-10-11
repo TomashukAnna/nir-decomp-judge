@@ -23,6 +23,8 @@ uv lock --check
 
 On Windows without symlink privileges, open skills directly from `.agents/overlay/skills/<skill>/SKILL.md`. Restart Codex after installing tools so it receives the updated PATH.
 
+On Windows, create commits with `uv run git commit` so the Git hook can find pre-commit in `.venv`, including when the project path contains Cyrillic characters.
+
 ## Layout
 
 ```
