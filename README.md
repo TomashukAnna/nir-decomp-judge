@@ -4,11 +4,33 @@
 
 Semester research project by Anna Tomashuk.
 
-The preliminary goal is to develop and study requirements coverage evaluation for automatically generated software. The proposed approach decomposes requirements into checkable checklist items and combines automated checks with an LLM judge. The checks, metrics and reliability evaluation protocol will be specified during the research and agreed with the supervisor.
+## Problem and goal
 
-Research question: how reliably does a hybrid checklist judge evaluate individual requirements and overall coverage?
+Multi-agent LLM systems generate web applications from textual specifications. Assessing whether an application satisfies its specification requires human evaluation or an LLM judge. A holistic evaluation using a single prompt itself requires reliability validation.
 
-Expected outputs: an evaluator prototype, a reproducible experimental protocol and an analysis of evaluation reliability. No research results are available yet.
+The goal is to develop a hybrid checklist judge for decomposition-based requirements coverage evaluation and study its reliability, cost and robustness to bias.
+
+## Proposed approach
+
+1. Extract a hierarchy of requirements from the textual specification.
+2. Assign a verification rule to each requirement: deterministic or LLM-based.
+3. Execute the rules against the generated web application's artifacts.
+4. Attach supporting evidence to every verdict.
+
+## Research question
+
+Is the decomposition-based hybrid judge more reliable, less expensive and more robust to bias than a holistic single-prompt evaluation and the agent-based Agent-as-a-Judge?
+
+The methods will be compared under the same conditions. Hypotheses will be formulated and recorded before experiments. The analysis should explain where decomposition helps and where it offers no advantage.
+
+## Expected outputs
+
+- A repository with the judge implementation and reproducible experiment configurations.
+- An annotated requirements corpus with an assessment of annotator agreement.
+- A preprint with hypotheses recorded before experiments, comparisons under the same conditions, effect sizes and confidence intervals.
+- A presentation of the research results.
+
+The project is in preparation. Research experiments have not yet been conducted; metrics and the comparison protocol remain to be specified.
 
 ## Quick start
 
