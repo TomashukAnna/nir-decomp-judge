@@ -1,0 +1,3 @@
+[submodule ".agents/overlay"]
+	path = .agents/overlay
+	url = https://github.com/Industrial-AI-Research-Lab/nir-agent-overlay.git

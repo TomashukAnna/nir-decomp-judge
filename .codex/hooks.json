@@ -1,0 +1,16 @@
+{
+  "description": "Same checks as .claude/settings.json: run make check on Stop while the working tree is dirty.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -z \"$(git status --porcelain)\" ] || make check >&2 || exit 2",
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  }
+}

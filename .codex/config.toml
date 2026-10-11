@@ -1,0 +1,4 @@
+# Project-level Codex settings. Loaded once you trust this project in Codex.
+# Hooks (.codex/hooks.json) are behind a feature flag; this turns them on for this repository.
+[features]
+hooks = true
