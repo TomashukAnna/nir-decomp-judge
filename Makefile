@@ -18,7 +18,7 @@ fmt:
 	uv run ruff check --fix .
 
 run:
-	uv run python -m nir_project --config configs/smoke.yaml
+	uv run python -m decomp_judge --config configs/smoke.yaml
 
 mlflow:
 	uv run mlflow ui --backend-store-uri sqlite:///mlflow.db

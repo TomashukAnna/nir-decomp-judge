@@ -4,12 +4,14 @@ Instructions for LLM assistants working in this repository. People: read README.
 Also follow `.agents/overlay/AGENTS.md` and every file in `.agents/overlay/rules/`: read them
 before the first edit (Claude Code imports them from CLAUDE.md; Codex and others must open them).
 This file wins on conflict. Skills are in `.agents/skills/` (links into `.agents/overlay/skills/`).
+On Windows without symlink privileges, open the matching
+`.agents/overlay/skills/<skill>/SKILL.md` directly; the link files are not skill instructions.
 
 ## Project
 
 Semester research project (NIR). Python >= 3.12, uv, MLflow with a local SQLite store by default.
-Package `src/nir_project/` (rename once with `make rename NAME=<package>`). Experiments run as
-scripts: `uv run python -m nir_project --config configs/<name>.yaml`.
+Package `src/decomp_judge/`. Experiments run as
+scripts: `uv run python -m decomp_judge --config configs/<name>.yaml`.
 
 ## Commands
 
