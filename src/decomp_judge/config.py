@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     mlflow_tracking_uri: str = "sqlite:///mlflow.db"
-    mlflow_experiment_name: str = "nir-project"
+    mlflow_experiment_name: str = "nir-decomp-judge"
     seed: int = 42
     data_dir: Path = Path("data")
     results_dir: Path = Path("results")

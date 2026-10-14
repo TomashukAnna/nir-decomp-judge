@@ -17,7 +17,7 @@ import numpy as np
 import yaml
 from numpy.typing import NDArray
 
-from nir_project.config import Settings
+from decomp_judge.config import Settings
 
 Array = NDArray[np.float64]
 
