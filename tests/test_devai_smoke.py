@@ -4,9 +4,11 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from types import ModuleType, SimpleNamespace
 
 import pytest
 from mlflow import MlflowClient
+from pydantic import SecretStr
 
 from decomp_judge import devai_smoke
 from decomp_judge.devai_smoke import load_messages, parse_judgment
@@ -77,7 +79,7 @@ def test_default_cli_cannot_call_model(
     assert "DRY RUN" in capsys.readouterr().out
 
 
-@pytest.mark.parametrize("mode", ["valid", "invalid", "request-error"])
+@pytest.mark.parametrize("mode", ["valid", "invalid", "request-error", "provider-error"])
 def test_mlflow_keeps_inputs_and_failed_responses(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch, mode: str
 ) -> None:
@@ -103,6 +105,8 @@ def test_mlflow_keeps_inputs_and_failed_responses(
         calls.append(seed)
         if mode == "request-error":
             raise RuntimeError("provider details must not be stored")
+        if mode == "provider-error":
+            raise devai_smoke.ModelRequestError("BadRequestError", "Test parameter rejected", 400)
         return raw
 
     def forbidden(*args: object, **kwargs: object) -> None:
@@ -136,10 +140,18 @@ def test_mlflow_keeps_inputs_and_failed_responses(
     assert saved_messages.read_text(encoding="utf-8") == message_text
     saved_config = Path(client.download_artifacts(run_id, "inputs/config.yaml"))
     assert saved_config.read_text(encoding="utf-8") == config.read_text(encoding="utf-8")
-    if mode == "request-error":
-        assert run.data.tags["request_error_type"] == "RuntimeError"
+    if mode in {"request-error", "provider-error"}:
+        expected_kind = "RuntimeError" if mode == "request-error" else "BadRequestError"
+        assert run.data.tags["request_error_type"] == expected_kind
         assert not (output / "raw-response.txt").exists()
         assert "provider details" not in str(run.data)
+        if mode == "provider-error":
+            saved_error = Path(client.download_artifacts(run_id, "outputs/request-error.json"))
+            diagnostic = json.loads(saved_error.read_text(encoding="utf-8"))
+            assert diagnostic["http_status"] == 400
+            assert diagnostic == json.loads(
+                (output / "request-error.json").read_text(encoding="utf-8")
+            )
     else:
         assert run.data.metrics["response_valid"] == int(mode == "valid")
         saved_raw = Path(client.download_artifacts(run_id, "outputs/raw-response.txt"))
@@ -175,3 +187,36 @@ def test_real_execution_requires_a_clean_checkout(
     else:
         assert devai_smoke.committed_version() == ("a" * 40, "docs/devai-data-smoke-test")
         assert len(commands) == 3
+
+
+def test_provider_diagnostics_remove_credentials(monkeypatch: pytest.MonkeyPatch) -> None:
+    config_path = Path(__file__).resolve().parents[1] / "configs" / "devai-smoke.yaml"
+    import yaml
+
+    config = devai_smoke.RequestConfig.model_validate(
+        yaml.safe_load(config_path.read_text(encoding="utf-8"))
+    )
+    placeholder = "offline-placeholder"
+
+    class BadRequestError(RuntimeError):
+        status_code = 400
+
+    def reject(**kwargs: object) -> None:
+        raise BadRequestError(f"Test rejection: key={placeholder}, Bearer another-placeholder")
+
+    fake = ModuleType("litellm")
+    monkeypatch.setattr(fake, "completion", reject, raising=False)
+    monkeypatch.setitem(sys.modules, "litellm", fake)
+    monkeypatch.setattr(
+        devai_smoke,
+        "Credentials",
+        lambda: SimpleNamespace(litellm_api_key=SecretStr(placeholder)),
+    )
+    with pytest.raises(devai_smoke.ModelRequestError) as caught:
+        devai_smoke.request_once(config, [{"role": "user", "content": "test"}], 42)
+    diagnostic = caught.value.diagnostic
+    assert diagnostic["http_status"] == 400
+    assert diagnostic["error_type"] == "BadRequestError"
+    assert placeholder not in str(diagnostic)
+    assert "another-placeholder" not in str(diagnostic)
+    assert "Test rejection" in str(diagnostic)

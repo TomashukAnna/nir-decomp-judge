@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import re
 import subprocess
 from hashlib import sha256
 from pathlib import Path
@@ -73,6 +74,14 @@ class Judgment(BaseModel):
     verdicts: list[Verdict]
 
 
+class ModelRequestError(RuntimeError):
+    """Provider diagnostics with the known API key removed before tracking."""
+
+    def __init__(self, kind: str, detail: str, status: int | None) -> None:
+        super().__init__("Model request failed")
+        self.diagnostic = {"error_type": kind, "detail": detail, "http_status": status}
+
+
 def load_messages(path: Path) -> list[dict[str, str]]:
     return parse_messages(path.read_text(encoding="utf-8"))
 
@@ -102,17 +111,26 @@ def request_once(config: RequestConfig, messages: list[dict[str, str]], seed: in
     if credentials.litellm_api_key is None:
         raise ValueError("Set LITELLM_API_KEY in the process environment before execution")
     litellm.telemetry = False
-    response = litellm.completion(
-        model=config.model,
-        api_base=config.api_base,
-        api_key=credentials.litellm_api_key.get_secret_value(),
-        messages=messages,
-        max_tokens=config.max_tokens,
-        timeout=config.timeout_seconds,
-        num_retries=0,
-        caching=False,
-        seed=seed,
-    )
+    api_key = credentials.litellm_api_key.get_secret_value()
+    try:
+        response = litellm.completion(
+            model=config.model,
+            api_base=config.api_base,
+            api_key=api_key,
+            messages=messages,
+            max_tokens=config.max_tokens,
+            timeout=config.timeout_seconds,
+            num_retries=0,
+            caching=False,
+            seed=seed,
+        )
+    except Exception as exc:
+        detail = str(exc).replace(api_key, "[REDACTED]")
+        detail = re.sub(r"(?i)Bearer\s+[^\s'\"<>]+", "Bearer [REDACTED]", detail)
+        status = getattr(exc, "status_code", None)
+        raise ModelRequestError(
+            type(exc).__name__, detail[:2000], status if type(status) is int else None
+        ) from None
     content = response.choices[0].message.content
     if not isinstance(content, str) or not content.strip():
         raise ValueError("The model returned no text")
@@ -189,9 +207,18 @@ def run_tracked(
         try:
             raw = request_once(config, messages, settings.seed)
         except Exception as exc:
-            # Provider errors can contain request details; store only the exception class.
-            mlflow.set_tag("request_error_type", type(exc).__name__)
-            raise RuntimeError(f"Model request failed; see MLflow run {run_id}") from None
+            if isinstance(exc, ModelRequestError):
+                diagnostic = exc.diagnostic
+                mlflow.log_dict(diagnostic, "outputs/request-error.json")
+                (output / "request-error.json").write_text(
+                    json.dumps(diagnostic, ensure_ascii=False, indent=2), encoding="utf-8"
+                )
+                mlflow.set_tag("request_error_type", str(diagnostic["error_type"]))
+            else:
+                mlflow.set_tag("request_error_type", type(exc).__name__)
+            raise RuntimeError(
+                f"Model request failed; see MLflow run {run_id} and {output}"
+            ) from None
         finally:
             mlflow.log_metric("request_seconds", perf_counter() - started)
         (output / "raw-response.txt").write_text(raw, encoding="utf-8")
