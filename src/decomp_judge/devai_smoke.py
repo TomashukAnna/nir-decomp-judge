@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import os
 import re
 import subprocess
 from hashlib import sha256
@@ -29,6 +30,7 @@ class RequestConfig(BaseModel):
     task: str
     issue: int = Field(gt=0)
     pr: str
+    custom_llm_provider: str | None = None
 
     @field_validator("expected_ids")
     @classmethod
@@ -47,6 +49,24 @@ class Credentials(BaseSettings):
 class TrackingSettings(Settings):
     # Tracking uses environment variables without loading a credentials file.
     model_config = SettingsConfigDict(env_file=None, extra="ignore")
+
+
+class RuntimeOverrides(BaseSettings):
+    """Cluster-specific values that do not require editing committed YAML."""
+
+    model_config = SettingsConfigDict(env_prefix="DEVAI_", env_file=None, extra="ignore")
+    api_base: str | None = None
+    model: str | None = None
+    custom_llm_provider: str | None = None
+    max_tokens: int | None = Field(default=None, gt=0)
+    timeout_seconds: float | None = Field(default=None, gt=0)
+    pr: str | None = None
+
+
+def effective_config(text: str) -> RequestConfig:
+    values = RequestConfig.model_validate(yaml.safe_load(text)).model_dump()
+    values.update(RuntimeOverrides().model_dump(exclude_none=True))
+    return RequestConfig.model_validate(values)
 
 
 class Message(BaseModel):
@@ -105,6 +125,7 @@ def parse_judgment(raw: str, expected_ids: list[int]) -> Judgment:
 
 
 def request_once(config: RequestConfig, messages: list[dict[str, str]], seed: int) -> str:
+    os.environ.setdefault("LITELLM_LOCAL_MODEL_COST_MAP", "True")
     import litellm
 
     credentials = Credentials()
@@ -123,6 +144,7 @@ def request_once(config: RequestConfig, messages: list[dict[str, str]], seed: in
             num_retries=0,
             caching=False,
             seed=seed,
+            custom_llm_provider=config.custom_llm_provider,
         )
     except Exception as exc:
         detail = str(exc).replace(api_key, "[REDACTED]")
@@ -162,7 +184,7 @@ def run_tracked(
     # Keep one snapshot so saved inputs are exactly the inputs used for the call.
     config_text = config_path.read_text(encoding="utf-8")
     messages_text = messages_path.read_text(encoding="utf-8")
-    config = RequestConfig.model_validate(yaml.safe_load(config_text))
+    config = effective_config(config_text)
     messages = parse_messages(messages_text)
     output.mkdir(parents=True, exist_ok=False)
     mlflow.set_tracking_uri(settings.mlflow_tracking_uri)
@@ -200,7 +222,20 @@ def run_tracked(
         )
         mlflow.log_text(config_text, "inputs/config.yaml")
         mlflow.log_text(messages_text, "inputs/messages.json")
-        provenance = {"run_id": run_id, "commit": commit, "seed": settings.seed}
+        mlflow.log_dict(config.model_dump(), "inputs/effective-config.json")
+        (output / "effective-config.json").write_text(
+            config.model_dump_json(indent=2) + "\n", encoding="utf-8"
+        )
+        provenance = {
+            "run_id": run_id,
+            "commit": commit,
+            "seed": settings.seed,
+            "source_commit": config.source_commit,
+            "task": config.task,
+            "messages_sha256": sha256(messages_text.encode("utf-8")).hexdigest(),
+            "config_path": str(config_path),
+            "model": config.model,
+        }
         (output / "run.json").write_text(json.dumps(provenance, indent=2), encoding="utf-8")
         mlflow.log_dict(provenance, "run.json")
         started = perf_counter()
@@ -242,7 +277,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path)
     parser.add_argument("--execute", action="store_true")
     args = parser.parse_args()
-    config = RequestConfig.model_validate(yaml.safe_load(args.config.read_text(encoding="utf-8")))
+    config = effective_config(args.config.read_text(encoding="utf-8"))
     messages = load_messages(args.messages)
     if not args.execute:
         print(f"DRY RUN: {len(messages)} messages; expected IDs: {config.expected_ids}")

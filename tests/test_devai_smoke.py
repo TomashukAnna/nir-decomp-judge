@@ -98,11 +98,17 @@ def test_mlflow_keeps_inputs_and_failed_responses(
     messages.write_text(message_text, encoding="utf-8")
     raw = response(list(range(7))) if mode == "valid" else "not JSON"
     calls: list[int] = []
+    monkeypatch.setenv("DEVAI_API_BASE", "http://internal.invalid/v1")
+    monkeypatch.setenv("DEVAI_MODEL", "internal-model")
+    monkeypatch.setenv("DEVAI_CUSTOM_LLM_PROVIDER", "openai")
 
     def fake_request(
         config: devai_smoke.RequestConfig, messages: list[dict[str, str]], seed: int
     ) -> str:
         calls.append(seed)
+        assert config.api_base == "http://internal.invalid/v1"
+        assert config.model == "internal-model"
+        assert config.custom_llm_provider == "openai"
         if mode == "request-error":
             raise RuntimeError("provider details must not be stored")
         if mode == "provider-error":
@@ -136,6 +142,14 @@ def test_mlflow_keeps_inputs_and_failed_responses(
     assert run.data.tags["commit"] == "offline-test"
     assert run.data.tags["issue"] == "4"
     assert run.data.params["seed"] == "7"
+    assert run.data.params["model"] == "internal-model"
+    effective = json.loads((output / "effective-config.json").read_text(encoding="utf-8"))
+    assert effective["api_base"] == "http://internal.invalid/v1"
+    assert effective["custom_llm_provider"] == "openai"
+    assert "api_key" not in str(effective)
+    provenance = json.loads((output / "run.json").read_text(encoding="utf-8"))
+    assert provenance["model"] == "internal-model"
+    assert provenance["messages_sha256"] == run.data.params["messages_sha256"]
     saved_messages = Path(client.download_artifacts(run_id, "inputs/messages.json"))
     assert saved_messages.read_text(encoding="utf-8") == message_text
     saved_config = Path(client.download_artifacts(run_id, "inputs/config.yaml"))
@@ -202,6 +216,9 @@ def test_provider_diagnostics_remove_credentials(monkeypatch: pytest.MonkeyPatch
         status_code = 400
 
     def reject(**kwargs: object) -> None:
+        assert kwargs["model"] == config.model
+        assert kwargs["api_base"] == config.api_base
+        assert kwargs["num_retries"] == 0
         raise BadRequestError(f"Test rejection: key={placeholder}, Bearer another-placeholder")
 
     fake = ModuleType("litellm")
@@ -220,3 +237,39 @@ def test_provider_diagnostics_remove_credentials(monkeypatch: pytest.MonkeyPatch
     assert placeholder not in str(diagnostic)
     assert "another-placeholder" not in str(diagnostic)
     assert "Test rejection" in str(diagnostic)
+
+
+@pytest.mark.parametrize("tokens", ["0", "-1", "not-an-integer"])
+def test_invalid_runtime_override_fails_before_request(
+    monkeypatch: pytest.MonkeyPatch, tokens: str
+) -> None:
+    config = Path(__file__).resolve().parents[1] / "configs" / "devai-smoke.yaml"
+    monkeypatch.setenv("DEVAI_MAX_TOKENS", tokens)
+    with pytest.raises(ValueError):
+        devai_smoke.effective_config(config.read_text(encoding="utf-8"))
+
+
+def test_adapter_receives_runtime_model_without_prefix(monkeypatch: pytest.MonkeyPatch) -> None:
+    config_path = Path(__file__).resolve().parents[1] / "configs" / "devai-smoke.yaml"
+    monkeypatch.setenv("DEVAI_MODEL", "iairlab/qwen3.8-27b")
+    monkeypatch.setenv("DEVAI_CUSTOM_LLM_PROVIDER", "openai")
+    monkeypatch.setenv("DEVAI_API_BASE", "http://internal.invalid/v1")
+    config = devai_smoke.effective_config(config_path.read_text(encoding="utf-8"))
+    calls: list[dict[str, object]] = []
+
+    def complete(**kwargs: object) -> SimpleNamespace:
+        calls.append(kwargs)
+        return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content="raw"))])
+
+    fake = ModuleType("litellm")
+    monkeypatch.setattr(fake, "completion", complete, raising=False)
+    monkeypatch.setitem(sys.modules, "litellm", fake)
+    monkeypatch.setattr(
+        devai_smoke, "Credentials", lambda: SimpleNamespace(litellm_api_key=SecretStr("fake"))
+    )
+    assert devai_smoke.request_once(config, [], 42) == "raw"
+    assert len(calls) == 1
+    assert calls[0]["model"] == "iairlab/qwen3.8-27b"
+    assert calls[0]["custom_llm_provider"] == "openai"
+    assert calls[0]["api_base"] == "http://internal.invalid/v1"
+    assert calls[0]["num_retries"] == 0
