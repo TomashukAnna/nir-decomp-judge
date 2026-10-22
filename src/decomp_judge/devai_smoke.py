@@ -148,7 +148,32 @@ def request_once(config: RequestConfig, messages: list[dict[str, str]], seed: in
         )
         content = response.choices[0].message.content
         if not isinstance(content, str) or not content.strip():
-            raise ValueError("The model returned no text in choices[0].message.content")
+            choice = response.choices[0]
+            message = choice.message
+            usage = getattr(response, "usage", None)
+            reasoning = getattr(message, "reasoning_content", None)
+            counters = {
+                name: value
+                for name in ("prompt_tokens", "completion_tokens", "total_tokens")
+                if type(value := getattr(usage, name, None)) is int
+            }
+            details = getattr(usage, "completion_tokens_details", None)
+            reasoning_tokens = getattr(details, "reasoning_tokens", None)
+            if type(reasoning_tokens) is int:
+                counters["reasoning_tokens"] = reasoning_tokens
+            summary = {
+                "finish_reason": getattr(choice, "finish_reason", None),
+                "usage": counters,
+                "message_fields": sorted(vars(message)),
+                "content_type": type(content).__name__,
+                "reasoning_content_chars": len(reasoning) if isinstance(reasoning, str) else 0,
+                "has_tool_calls": bool(getattr(message, "tool_calls", None)),
+                "has_refusal": bool(getattr(message, "refusal", None)),
+            }
+            raise ValueError(
+                "The model returned no text in choices[0].message.content; "
+                + json.dumps(summary, ensure_ascii=False)
+            )
         return content
     except Exception as exc:
         detail = str(exc)

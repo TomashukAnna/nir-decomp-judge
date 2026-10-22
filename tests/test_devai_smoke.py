@@ -283,7 +283,20 @@ def test_empty_or_nontext_reply_has_safe_diagnostic(
     config = devai_smoke.effective_config(config_path.read_text(encoding="utf-8"))
 
     def complete(**kwargs: object) -> SimpleNamespace:
-        return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=content))])
+        return SimpleNamespace(
+            choices=[
+                SimpleNamespace(
+                    finish_reason="length",
+                    message=SimpleNamespace(content=content, reasoning_content="private reasoning"),
+                )
+            ],
+            usage=SimpleNamespace(
+                prompt_tokens=200,
+                completion_tokens=4096,
+                total_tokens=4296,
+                completion_tokens_details=SimpleNamespace(reasoning_tokens=4096),
+            ),
+        )
 
     fake = ModuleType("litellm")
     monkeypatch.setattr(fake, "completion", complete, raising=False)
@@ -295,6 +308,13 @@ def test_empty_or_nontext_reply_has_safe_diagnostic(
         devai_smoke.request_once(config, [], 42)
     assert caught.value.diagnostic["error_type"] == "ValueError"
     assert "returned no text" in str(caught.value.diagnostic["detail"])
+    detail = str(caught.value.diagnostic["detail"])
+    summary = json.loads(detail.split("; ", 1)[1])
+    assert summary["finish_reason"] == "length"
+    assert summary["usage"]["reasoning_tokens"] == 4096
+    assert summary["reasoning_content_chars"] == len("private reasoning")
+    assert "reasoning_content" in summary["message_fields"]
+    assert "private reasoning" not in detail
 
 
 def test_import_error_is_redacted(monkeypatch: pytest.MonkeyPatch) -> None:
