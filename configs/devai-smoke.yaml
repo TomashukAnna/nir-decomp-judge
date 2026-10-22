@@ -1,7 +1,7 @@
 # LiteLLM removes the openai/ routing prefix before calling the lab endpoint.
 model: openai/iairlab/qwen3.8-27b
 api_base: https://api.duckduck.cloud/v1
-max_tokens: 4096
+max_tokens: 16384
 timeout_seconds: 180
 expected_ids: [0, 1, 2, 3, 4, 5, 6]
 source_commit: 43c2fa7b84ef0c1522e8250576e6798bace29dd0
