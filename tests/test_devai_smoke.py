@@ -273,3 +273,50 @@ def test_adapter_receives_runtime_model_without_prefix(monkeypatch: pytest.Monke
     assert calls[0]["custom_llm_provider"] == "openai"
     assert calls[0]["api_base"] == "http://internal.invalid/v1"
     assert calls[0]["num_retries"] == 0
+
+
+@pytest.mark.parametrize("content", [None, "", " \n", 123])
+def test_empty_or_nontext_reply_has_safe_diagnostic(
+    monkeypatch: pytest.MonkeyPatch, content: object
+) -> None:
+    config_path = Path(__file__).resolve().parents[1] / "configs" / "devai-smoke.yaml"
+    config = devai_smoke.effective_config(config_path.read_text(encoding="utf-8"))
+
+    def complete(**kwargs: object) -> SimpleNamespace:
+        return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=content))])
+
+    fake = ModuleType("litellm")
+    monkeypatch.setattr(fake, "completion", complete, raising=False)
+    monkeypatch.setitem(sys.modules, "litellm", fake)
+    monkeypatch.setattr(
+        devai_smoke, "Credentials", lambda: SimpleNamespace(litellm_api_key=SecretStr("fake"))
+    )
+    with pytest.raises(devai_smoke.ModelRequestError) as caught:
+        devai_smoke.request_once(config, [], 42)
+    assert caught.value.diagnostic["error_type"] == "ValueError"
+    assert "returned no text" in str(caught.value.diagnostic["detail"])
+
+
+def test_import_error_is_redacted(monkeypatch: pytest.MonkeyPatch) -> None:
+    import builtins
+
+    original_import = builtins.__import__
+    config_path = Path(__file__).resolve().parents[1] / "configs" / "devai-smoke.yaml"
+    config = devai_smoke.effective_config(config_path.read_text(encoding="utf-8"))
+
+    def fail_import(name: str, *args: object, **kwargs: object) -> object:
+        if name == "litellm":
+            raise ValueError("Import failed: offline-placeholder")
+        return original_import(name, *args, **kwargs)  # type: ignore[arg-type]
+
+    monkeypatch.setattr(
+        devai_smoke,
+        "Credentials",
+        lambda: SimpleNamespace(litellm_api_key=SecretStr("offline-placeholder")),
+    )
+    monkeypatch.setattr(builtins, "__import__", fail_import)
+    with pytest.raises(devai_smoke.ModelRequestError) as caught:
+        devai_smoke.request_once(config, [], 42)
+    assert caught.value.diagnostic["error_type"] == "ValueError"
+    assert "offline-placeholder" not in str(caught.value.diagnostic)
+    assert "Import failed" in str(caught.value.diagnostic)

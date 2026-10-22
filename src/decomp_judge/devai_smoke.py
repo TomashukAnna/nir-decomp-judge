@@ -126,14 +126,14 @@ def parse_judgment(raw: str, expected_ids: list[int]) -> Judgment:
 
 def request_once(config: RequestConfig, messages: list[dict[str, str]], seed: int) -> str:
     os.environ.setdefault("LITELLM_LOCAL_MODEL_COST_MAP", "True")
-    import litellm
-
     credentials = Credentials()
     if credentials.litellm_api_key is None:
-        raise ValueError("Set LITELLM_API_KEY in the process environment before execution")
-    litellm.telemetry = False
+        raise ModelRequestError("ValueError", "Set LITELLM_API_KEY before execution", None)
     api_key = credentials.litellm_api_key.get_secret_value()
     try:
+        import litellm
+
+        litellm.telemetry = False
         response = litellm.completion(
             model=config.model,
             api_base=config.api_base,
@@ -146,17 +146,19 @@ def request_once(config: RequestConfig, messages: list[dict[str, str]], seed: in
             seed=seed,
             custom_llm_provider=config.custom_llm_provider,
         )
+        content = response.choices[0].message.content
+        if not isinstance(content, str) or not content.strip():
+            raise ValueError("The model returned no text in choices[0].message.content")
+        return content
     except Exception as exc:
-        detail = str(exc).replace(api_key, "[REDACTED]")
+        detail = str(exc)
+        if api_key:
+            detail = detail.replace(api_key, "[REDACTED]")
         detail = re.sub(r"(?i)Bearer\s+[^\s'\"<>]+", "Bearer [REDACTED]", detail)
         status = getattr(exc, "status_code", None)
         raise ModelRequestError(
             type(exc).__name__, detail[:2000], status if type(status) is int else None
         ) from None
-    content = response.choices[0].message.content
-    if not isinstance(content, str) or not content.strip():
-        raise ValueError("The model returned no text")
-    return content
 
 
 def committed_version() -> tuple[str, str]:
