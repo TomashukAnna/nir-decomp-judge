@@ -4,6 +4,8 @@
 
 Semester research project by Anna Tomashuk.
 
+[DevAI data and smoke test (in Russian)](docs/devai-data.md): pinned data source, human-label summary, workspace availability, model response and task 39 comparison.
+
 ## Problem and goal
 
 Multi-agent LLM systems generate web applications from textual specifications. Assessing whether an application satisfies its specification requires human evaluation or an LLM judge. A holistic evaluation using a single prompt itself requires reliability validation.
