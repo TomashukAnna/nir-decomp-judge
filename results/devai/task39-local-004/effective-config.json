@@ -1,0 +1,20 @@
+{
+  "model": "openai/iairlab/qwen3.8-27b",
+  "api_base": "https://api.duckduck.cloud/v1",
+  "max_tokens": 16384,
+  "timeout_seconds": 180.0,
+  "expected_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_commit": "43c2fa7b84ef0c1522e8250576e6798bace29dd0",
+  "task": "39_Drug_Response_Prediction_SVM_GDSC_ML",
+  "issue": 4,
+  "pr": "not-opened",
+  "custom_llm_provider": null
+}

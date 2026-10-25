@@ -1,0 +1,10 @@
+{
+  "run_id": "062509bc4fcb43be98430081deb9bfe1",
+  "commit": "3c773111fdfd9f0ea5437afc004f2d3fc6ee9e34",
+  "seed": 42,
+  "source_commit": "43c2fa7b84ef0c1522e8250576e6798bace29dd0",
+  "task": "39_Drug_Response_Prediction_SVM_GDSC_ML",
+  "messages_sha256": "3fe3d221d2bdaddfc8b7b3b39a5ac8af86637f03df555d04134fdb90987eb20a",
+  "config_path": "configs\\devai-smoke.yaml",
+  "model": "openai/iairlab/qwen3.8-27b"
+}
