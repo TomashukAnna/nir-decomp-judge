@@ -1,0 +1,1 @@
+Use a file tool to open src/model.py in the current project. Report which regressor and preprocessing steps it implements. Cite the file and line numbers. Do not modify or execute anything, do not inspect other files, and do not assess the full requirements yet. Answer briefly in Russian. You must actually read the file with a tool before answering.

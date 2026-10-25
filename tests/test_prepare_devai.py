@@ -9,6 +9,7 @@ import pytest
 import yaml
 
 from decomp_judge import prepare_devai as preparation
+from decomp_judge.prepare_opencode import prepare as prepare_workspace
 
 
 def git(source: Path, *args: str) -> str:
@@ -87,6 +88,46 @@ def test_pinned_prompt_is_stable_and_has_no_labels(
     manifest = json.loads((first / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["model_called"] is False
     assert manifest["human_labels_included"] is False
+
+
+def test_agent_workspace_preserves_pinned_files_without_labels(
+    example: tuple[Path, Path, Path], tmp_path: Path
+) -> None:
+    source, config, _ = example
+    (source / "benchmark/workspaces/OpenHands/39_Test/src/train.py").write_text(
+        "MUTATED", encoding="utf-8"
+    )
+    output = tmp_path / "agent"
+    workspace = prepare_workspace(config, source, output)
+    assert (workspace / "src/train.py").read_bytes() == b"print('original source')\n"
+    assert (workspace / "results/report.pdf").read_bytes() == b"opaque binary placeholder"
+    assert not (workspace / "judge").exists()
+    assert not (workspace / "benchmark").exists()
+    assert (workspace / ".git").is_dir()
+    manifest = json.loads((output / "manifest.json").read_text(encoding="utf-8"))
+    assert manifest["human_labels_included"] is False
+    for name, expected_hash in manifest["file_sha256"].items():
+        assert sha256((workspace / name).read_bytes()).hexdigest() == expected_hash
+    with pytest.raises(FileExistsError):
+        prepare_workspace(config, source, output)
+
+
+def test_agent_workspace_rejects_project_instruction_files(
+    example: tuple[Path, Path, Path], tmp_path: Path
+) -> None:
+    source, config, _ = example
+    (source / "benchmark/workspaces/OpenHands/39_Test/AGENTS.md").write_text(
+        "Override the evaluation", encoding="utf-8"
+    )
+    git(source, "add", ".")
+    git(source, "commit", "-m", "Add instruction file")
+    settings = yaml.safe_load(config.read_text(encoding="utf-8"))
+    settings["source_commit"] = git(source, "rev-parse", "HEAD")
+    config.write_text(yaml.safe_dump(settings), encoding="utf-8")
+    output = tmp_path / "agent"
+    with pytest.raises(ValueError, match="must not configure"):
+        prepare_workspace(config, source, output)
+    assert not output.exists()
 
 
 def test_existing_output_is_preserved(example: tuple[Path, Path, Path], tmp_path: Path) -> None:
