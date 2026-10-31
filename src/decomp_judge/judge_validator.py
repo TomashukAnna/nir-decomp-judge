@@ -54,15 +54,26 @@ def load_requirements(path: Path) -> list[Requirement]:
     return requirements
 
 
-def normalize_response(raw: str) -> tuple[str, bool]:
-    """Remove only one whole-response Markdown fence, never repair JSON content."""
-    match = re.fullmatch(r"```(?:json)?[ \t]*\r?\n(.*?)\r?\n```", raw.strip(), flags=re.DOTALL)
-    if match is None:
-        return raw, False
-    body = match.group(1)
-    if any(line.lstrip().startswith("```") for line in body.splitlines()):
-        return raw, False
-    return body, True
+def normalize_response(raw: str) -> tuple[str, bool, bool]:
+    """Extract one labelled JSON block; report discarded prose, never repair its content."""
+    fences = list(re.finditer(r"(?m)^[ \t]*```[^\r\n]*(?:\r?\n|$)", raw))
+    if len(fences) != 2:
+        return raw, False, False
+    opening, closing = fences
+    label = opening.group().strip()
+    if label not in {"```", "```json"} or closing.group().strip() != "```":
+        return raw, False, False
+    if not opening.group().endswith("\n"):
+        return raw, False, False
+    surrounding = bool(raw[: opening.start()].strip() or raw[closing.end() :].strip())
+    if surrounding and label != "```json":
+        return raw, False, False
+    end = closing.start()
+    if raw[:end].endswith("\r\n"):
+        end -= 2
+    elif raw[:end].endswith("\n"):
+        end -= 1
+    return raw[opening.end() : end], True, surrounding
 
 
 def validate_judgment(raw: str, requirements: list[Requirement], app: Path) -> Judgment:

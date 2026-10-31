@@ -124,9 +124,10 @@ def test_extra_null_fields_in_evidence_are_not_silently_removed(
 def test_single_outer_fence_preserves_json_content(opening: str, newline: str) -> None:
     body = "  " + reply() + "  "
     raw = "\n" + opening + newline + body + newline + "```\n"
-    normalized, removed = normalize_response(raw)
+    normalized, removed, surrounding = normalize_response(raw)
     assert removed is True
     assert normalized == body
+    assert surrounding is False
 
 
 @pytest.mark.parametrize(
@@ -137,22 +138,51 @@ def test_single_outer_fence_preserves_json_content(opening: str, newline: str) -
         "not JSON",
         "```python\n{}\n```",
         "```json\n{}",
-        "Explanation\n```json\n{}\n```",
-        "```json\n{}\n```\nExplanation",
+        "Explanation\n```\n{}\n```",
+        "```\n{}\n```\nExplanation",
         "```json\n{}\n```\n```json\n{}\n```",
     ],
 )
 def test_other_formats_are_not_repaired(raw: str) -> None:
-    assert normalize_response(raw) == (raw, False)
+    assert normalize_response(raw) == (raw, False, False)
 
 
 def test_wrapped_invalid_schema_still_fails(inputs: tuple[Path, Path, Path]) -> None:
     data = json.loads(reply())
     data["verdicts"][0]["evidence"][0]["unexpected"] = None
     raw = "```json\n" + json.dumps(data) + "\n```"
-    normalized, removed = normalize_response(raw)
+    normalized, removed, _ = normalize_response(raw)
     assert removed
     with pytest.raises(ValueError, match="unexpected"):
+        validate_judgment(normalized, [Requirement(requirement_id="R1.1", criteria="x")], inputs[0])
+
+
+@pytest.mark.parametrize(
+    "prefix,suffix,newline",
+    [
+        ("Explanation", "", "\n"),
+        ("", "Explanation", "\n"),
+        ("Before", "After", "\r\n"),
+    ],
+)
+def test_one_labelled_json_block_with_prose(
+    prefix: str,
+    suffix: str,
+    newline: str,
+) -> None:
+    body = "  " + reply() + "  "
+    raw = newline.join([prefix, "```json", body, "```", suffix])
+    assert normalize_response(raw) == (body, True, True)
+
+
+@pytest.mark.parametrize("body", ["{broken JSON}", reply("missing.txt")])
+def test_extraction_does_not_repair_json_or_evidence(
+    inputs: tuple[Path, Path, Path],
+    body: str,
+) -> None:
+    normalized, removed, surrounding = normalize_response("Note\n```json\n" + body + "\n```")
+    assert normalized == body and removed and surrounding
+    with pytest.raises(ValueError):
         validate_judgment(normalized, [Requirement(requirement_id="R1.1", criteria="x")], inputs[0])
 
 
@@ -185,7 +215,9 @@ def test_dry_run_cannot_read_key_or_call_opencode(
     assert "DRY RUN" in capsys.readouterr().out
 
 
-@pytest.mark.parametrize("mode", ["valid", "wrapped", "bad-evidence", "timeout", "mutated"])
+@pytest.mark.parametrize(
+    "mode", ["valid", "wrapped", "prose", "bad-evidence", "timeout", "mutated"]
+)
 def test_tracked_run(
     inputs: tuple[Path, Path, Path],
     tmp_path: Path,
@@ -214,8 +246,10 @@ def test_tracked_run(
         if mode == "mutated":
             (app / "unexpected.txt").write_text("changed", encoding="utf-8")
         raw = reply("missing.txt") if mode == "bad-evidence" else reply()
-        if mode == "wrapped":
+        if mode in {"wrapped", "prose"}:
             raw = "```json\n" + raw + "\n```"
+        if mode == "prose":
+            raw = "Explanation\n" + raw + "\nEnd"
         events = [
             {"type": "step_start"},
             {"type": "tool_use", "part": {"tool": "read", "state": {"status": "completed"}}},
@@ -249,34 +283,40 @@ def test_tracked_run(
         agent.AgentSettings(max_steps=4),
         tracking,
     )
-    if mode in {"valid", "wrapped"}:
+    if mode in {"valid", "wrapped", "prose"}:
         run_id = agent.run(*arguments)
     else:
         with pytest.raises(RuntimeError):
             agent.run(*arguments)
         run_id = json.loads((output / "run.json").read_text())["run_id"]
     record = MlflowClient(tracking_uri=tracking.mlflow_tracking_uri).get_run(run_id)
-    assert record.info.status == ("FINISHED" if mode in {"valid", "wrapped"} else "FAILED")
+    assert record.info.status == ("FINISHED" if mode in {"valid", "wrapped", "prose"} else "FAILED")
     assert record.data.params["temperature"] == "0"
     assert (output / "timing.json").exists()
     assert (output / "tokens.json").exists()
     assert (output / "trace.json").exists()
-    if mode not in {"valid", "wrapped"}:
+    if mode not in {"valid", "wrapped", "prose"}:
         assert (output / "error.json").exists()
     assert "fake-secret" not in "".join(
         p.read_text(encoding="utf-8") for p in output.iterdir() if p.is_file()
     )
-    if mode in {"valid", "wrapped"}:
+    if mode in {"valid", "wrapped", "prose"}:
         assert record.data.metrics["tokens_total"] == 30
         assert record.data.metrics["workspace_unchanged"] == 1
         assert record.data.metrics["completed_steps"] == 1
         steps = json.loads((output / "steps.json").read_text())
         assert steps == {"completed_steps": 1, "configured_limit": 4, "at_least_limit": False}
         assert (output / "verdicts.json").exists()
-        assert record.data.metrics["markdown_fence_removed"] == int(mode == "wrapped")
-        assert record.data.metrics["format_violation"] == int(mode == "wrapped")
+        assert record.data.metrics["markdown_fence_removed"] == int(mode in {"wrapped", "prose"})
+        assert record.data.metrics["format_violation"] == int(mode in {"wrapped", "prose"})
+        assert record.data.metrics["surrounding_text_removed"] == int(mode == "prose")
         if mode == "wrapped":
             assert (output / "raw-response.txt").read_text(encoding="utf-8").startswith("```json")
+            assert (output / "normalized-response.txt").read_text(encoding="utf-8") == reply()
+        if mode == "prose":
+            assert (
+                (output / "raw-response.txt").read_text(encoding="utf-8").startswith("Explanation")
+            )
             assert (output / "normalized-response.txt").read_text(encoding="utf-8") == reply()
     elif mode == "bad-evidence":
         assert (output / "raw-response.txt").read_text(encoding="utf-8") == reply("missing.txt")

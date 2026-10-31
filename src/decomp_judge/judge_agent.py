@@ -261,7 +261,9 @@ def run(
             collected = collect_events(stdout)
             save("trace.json", json.dumps(collected["tools"], ensure_ascii=False, indent=2))
             save("raw-response.txt", collected["raw_response"])
-            normalized, fence_removed = normalize_response(collected["raw_response"])
+            normalized, fence_removed, surrounding_removed = normalize_response(
+                collected["raw_response"]
+            )
             save("normalized-response.txt", normalized)
             try:
                 json.loads(collected["raw_response"])
@@ -273,6 +275,7 @@ def run(
                 json.dumps(
                     {
                         "markdown_fence_removed": fence_removed,
+                        "surrounding_text_removed": surrounding_removed,
                         "raw_json_valid": raw_json_valid,
                         "format_violation": not raw_json_valid,
                     }
@@ -281,6 +284,7 @@ def run(
             mlflow.log_metrics(
                 {
                     "markdown_fence_removed": int(fence_removed),
+                    "surrounding_text_removed": int(surrounding_removed),
                     "raw_json_valid": int(raw_json_valid),
                     "format_violation": int(not raw_json_valid),
                 }
