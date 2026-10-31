@@ -14,7 +14,7 @@ from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from decomp_judge.devai_smoke import Credentials, TrackingSettings, committed_version
-from decomp_judge.judge_protocol import load_requirements, validate_judgment
+from decomp_judge.judge_validator import load_requirements, validate_judgment
 from decomp_judge.opencode_smoke import redact
 
 

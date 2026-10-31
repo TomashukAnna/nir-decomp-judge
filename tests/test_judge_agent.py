@@ -13,7 +13,7 @@ from pydantic import SecretStr
 
 from decomp_judge import judge_agent as agent
 from decomp_judge.devai_smoke import TrackingSettings
-from decomp_judge.judge_protocol import Requirement, validate_judgment
+from decomp_judge.judge_validator import Requirement, validate_judgment
 
 
 def reply(file: str = "src/app.txt", start: int = 1, end: int = 2) -> str:
@@ -106,6 +106,17 @@ def test_tokens_count_once_and_final_step_only() -> None:
     result = agent.collect_events("\n".join(json.dumps(e) for e in events))
     assert result["raw_response"] == reply()
     assert result["tokens"]["totals"] == {"input": 30, "output": 6, "reasoning": 4, "total": 40}
+
+
+def test_extra_null_fields_in_evidence_are_not_silently_removed(
+    inputs: tuple[Path, Path, Path],
+) -> None:
+    data = json.loads(reply())
+    data["verdicts"][0]["evidence"][0]["extra_metadata"] = None
+    with pytest.raises(ValueError, match="extra_metadata"):
+        validate_judgment(
+            json.dumps(data), [Requirement(requirement_id="R1.1", criteria="x")], inputs[0]
+        )
 
 
 def test_dry_run_cannot_read_key_or_call_opencode(
