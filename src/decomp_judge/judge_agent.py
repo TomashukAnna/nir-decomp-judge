@@ -20,7 +20,7 @@ from decomp_judge.opencode_smoke import redact
 
 class AgentSettings(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="JUDGE_", env_file=None, extra="ignore")
-    max_steps: int = Field(default=8, gt=0)
+    max_steps: int = Field(default=16, gt=0)
     timeout_seconds: float = Field(default=600, gt=0)
     expected_version: str = "1.19.4"
     dataset: str = "application"
@@ -82,6 +82,7 @@ def collect_events(raw: str) -> dict[str, Any]:
     }
     return {
         "event_count": len(events),
+        "step_count": sum(e.get("type") == "step_finish" for e in events),
         "tools": tools,
         "errors": errors,
         "raw_response": "".join(texts),
@@ -139,6 +140,8 @@ def run(
         + json.dumps([r.model_dump() for r in requirements], ensure_ascii=False)
         + "\n\nInspect the current application directory using file tools. "
         "Return the judgment JSON required by your instruction."
+        f" You have a budget of {settings.max_steps} agent iterations. "
+        "Finish with the judgment JSON before exhausting this budget."
     )
     commit, branch = committed_version()
     credential = Credentials().litellm_api_key
@@ -283,6 +286,17 @@ def run(
                 }
             )
             save("tokens.json", json.dumps(collected["tokens"], indent=2))
+            save(
+                "steps.json",
+                json.dumps(
+                    {
+                        "completed_steps": collected["step_count"],
+                        "configured_limit": settings.max_steps,
+                        "at_least_limit": collected["step_count"] >= settings.max_steps,
+                    }
+                ),
+            )
+            mlflow.log_metric("completed_steps", collected["step_count"])
             mlflow.log_metrics({f"tokens_{k}": v for k, v in collected["tokens"]["totals"].items()})
             if process.returncode or collected["errors"]:
                 raise ValueError("OpenCode returned an error; inspect raw output")

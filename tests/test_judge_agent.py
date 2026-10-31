@@ -105,6 +105,7 @@ def test_tokens_count_once_and_final_step_only() -> None:
     ]
     result = agent.collect_events("\n".join(json.dumps(e) for e in events))
     assert result["raw_response"] == reply()
+    assert result["step_count"] == 2
     assert result["tokens"]["totals"] == {"input": 30, "output": 6, "reasoning": 4, "total": 40}
 
 
@@ -268,6 +269,9 @@ def test_tracked_run(
     if mode in {"valid", "wrapped"}:
         assert record.data.metrics["tokens_total"] == 30
         assert record.data.metrics["workspace_unchanged"] == 1
+        assert record.data.metrics["completed_steps"] == 1
+        steps = json.loads((output / "steps.json").read_text())
+        assert steps == {"completed_steps": 1, "configured_limit": 4, "at_least_limit": False}
         assert (output / "verdicts.json").exists()
         assert record.data.metrics["markdown_fence_removed"] == int(mode == "wrapped")
         assert record.data.metrics["format_violation"] == int(mode == "wrapped")

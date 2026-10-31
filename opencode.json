@@ -37,7 +37,7 @@
       "description": "Inspect project files and assess requirements without edits",
       "mode": "primary",
       "temperature": 0,
-      "steps": 8,
+      "steps": 16,
       "prompt": "{file:./configs/judge-agent.md}"
     }
   }
