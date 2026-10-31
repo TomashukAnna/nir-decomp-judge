@@ -14,7 +14,7 @@ from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from decomp_judge.devai_smoke import Credentials, TrackingSettings, committed_version
-from decomp_judge.judge_validator import load_requirements, validate_judgment
+from decomp_judge.judge_validator import load_requirements, normalize_response, validate_judgment
 from decomp_judge.opencode_smoke import redact
 
 
@@ -258,6 +258,30 @@ def run(
             collected = collect_events(stdout)
             save("trace.json", json.dumps(collected["tools"], ensure_ascii=False, indent=2))
             save("raw-response.txt", collected["raw_response"])
+            normalized, fence_removed = normalize_response(collected["raw_response"])
+            save("normalized-response.txt", normalized)
+            try:
+                json.loads(collected["raw_response"])
+                raw_json_valid = True
+            except ValueError:
+                raw_json_valid = False
+            save(
+                "format.json",
+                json.dumps(
+                    {
+                        "markdown_fence_removed": fence_removed,
+                        "raw_json_valid": raw_json_valid,
+                        "format_violation": not raw_json_valid,
+                    }
+                ),
+            )
+            mlflow.log_metrics(
+                {
+                    "markdown_fence_removed": int(fence_removed),
+                    "raw_json_valid": int(raw_json_valid),
+                    "format_violation": int(not raw_json_valid),
+                }
+            )
             save("tokens.json", json.dumps(collected["tokens"], indent=2))
             mlflow.log_metrics({f"tokens_{k}": v for k, v in collected["tokens"]["totals"].items()})
             if process.returncode or collected["errors"]:
@@ -270,7 +294,7 @@ def run(
             ]
             if not completed:
                 raise ValueError("No completed file-reading or search tool calls")
-            result = validate_judgment(collected["raw_response"], requirements, app)
+            result = validate_judgment(normalized, requirements, app)
             save("verdicts.json", result.model_dump_json(indent=2))
             mlflow.log_metric("verdict_count", len(result.verdicts))
             valid = True

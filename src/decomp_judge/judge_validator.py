@@ -1,6 +1,7 @@
 """Shared input and evidence protocol for static requirements judges."""
 
 import json
+import re
 from pathlib import Path, PurePosixPath
 from typing import Literal
 
@@ -51,6 +52,17 @@ def load_requirements(path: Path) -> list[Requirement]:
     if len(set(ids)) != len(ids):
         raise ValueError("Duplicate requirement IDs")
     return requirements
+
+
+def normalize_response(raw: str) -> tuple[str, bool]:
+    """Remove only one whole-response Markdown fence, never repair JSON content."""
+    match = re.fullmatch(r"```(?:json)?[ \t]*\r?\n(.*?)\r?\n```", raw.strip(), flags=re.DOTALL)
+    if match is None:
+        return raw, False
+    body = match.group(1)
+    if any(line.lstrip().startswith("```") for line in body.splitlines()):
+        return raw, False
+    return body, True
 
 
 def validate_judgment(raw: str, requirements: list[Requirement], app: Path) -> Judgment:

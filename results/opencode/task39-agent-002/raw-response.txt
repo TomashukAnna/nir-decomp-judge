@@ -1,0 +1,65 @@
+
+
+```json
+{
+  "verdicts": [
+    {
+      "requirement_id": 0,
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/data_loader.py", "line_start": 4, "line_end": 24}
+      ],
+      "reason": "load_and_select_features в src/data_loader.py загружает датасет через pd.read_csv(data_path), а в workspace лежит gdsc_dataset.csv, и __main__ вызывает загрузку; путь задан плейсхолдером 'path_to_gdsc_dataset.csv', но механизм загрузки GDSC-датасета в требуемом файле присутствует."
+    },
+    {
+      "requirement_id": 1,
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/data_loader.py", "line_start": 2, "line_end": 19}
+      ],
+      "reason": "В src/data_loader.py выполняется селекция признаков: SelectKBest с f_regression, fit_transform по целевой переменной и получение имен выбранных признаков через get_support()."
+    },
+    {
+      "requirement_id": 2,
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/model.py", "line_start": 1, "line_end": 12}
+      ],
+      "reason": "В src/model.py реализован SVM-регрессор: импорт SVR из sklearn.svm, конвейер StandardScaler + SVR(kernel='linear') и его обучение в train_svm_regressor."
+    },
+    {
+      "requirement_id": 3,
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/train.py", "line_start": 16, "line_end": 18}
+      ],
+      "reason": "В src/train.py модель оценивается кросс-валидацией: cross_val_score(model, X, y, cv=5, scoring='neg_mean_squared_error') с пересчетом RMSE по фолдам."
+    },
+    {
+      "requirement_id": 4,
+      "verdict": "FAIL",
+      "evidence": [
+        {"file": "src/train.py", "line_start": 21, "line_end": 26},
+        {"file": "results/performance.txt", "line_start": 1, "line_end": 6}
+      ],
+      "reason": "Код пишет результаты в 'results/metrics/performance.txt', но в каталоге results/ подкаталог metrics/ отсутствует (glob 'results/metrics/*' не нашел файлов), а фактический артефакт results/performance.txt лежит в корне results/ — файл на требуемом пути results/metrics/performance.txt отсутствует, противоречие между кодом и опубликованными артефактами."
+    },
+    {
+      "requirement_id": 5,
+      "verdict": "FAIL",
+      "evidence": [
+        {"file": "src/train.py", "line_start": 28, "line_end": 35}
+      ],
+      "reason": "Код сохраняет график seaborn в 'results/figures/rmse_scores.png', но подкаталог figures/ отсутствует (glob 'results/figures/*' пуст), фактический PNG лежит в results/rmse_scores.png; кроме того, это гистограмма RMSE по фолдам кросс-валидации, а не визуализация результатов регрессии, отражающая связь выбранных признаков с предсказанным ответом на препарат."
+    },
+    {
+      "requirement_id": 6,
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "results/drug_response_prediction_report.md", "line_start": 1, "line_end": 32}
+      ],
+      "reason": "Артефакт results/drug_response_prediction_report.pdf присутствует в каталоге (glob), а исходный results/drug_response_prediction_report.md содержит все требуемые разделы: Data Preprocessing (загрузка GDSC, селекция признаков), Model Training (SVM-регрессор), Model Evaluation (5-кратная кросс-валидация, RMSE) и Visualization со ссылкой на график; содержимое самого PDF статически не читается (инструмент не поддерживает PDF), что отражено в ограничении."
+    }
+  ]
+}
+```

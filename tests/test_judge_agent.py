@@ -13,7 +13,7 @@ from pydantic import SecretStr
 
 from decomp_judge import judge_agent as agent
 from decomp_judge.devai_smoke import TrackingSettings
-from decomp_judge.judge_validator import Requirement, validate_judgment
+from decomp_judge.judge_validator import Requirement, normalize_response, validate_judgment
 
 
 def reply(file: str = "src/app.txt", start: int = 1, end: int = 2) -> str:
@@ -119,6 +119,42 @@ def test_extra_null_fields_in_evidence_are_not_silently_removed(
         )
 
 
+@pytest.mark.parametrize("opening,newline", [("```json", "\n"), ("```", "\n"), ("```json", "\r\n")])
+def test_single_outer_fence_preserves_json_content(opening: str, newline: str) -> None:
+    body = "  " + reply() + "  "
+    raw = "\n" + opening + newline + body + newline + "```\n"
+    normalized, removed = normalize_response(raw)
+    assert removed is True
+    assert normalized == body
+
+
+@pytest.mark.parametrize(
+    "raw",
+    [
+        reply(),
+        "",
+        "not JSON",
+        "```python\n{}\n```",
+        "```json\n{}",
+        "Explanation\n```json\n{}\n```",
+        "```json\n{}\n```\nExplanation",
+        "```json\n{}\n```\n```json\n{}\n```",
+    ],
+)
+def test_other_formats_are_not_repaired(raw: str) -> None:
+    assert normalize_response(raw) == (raw, False)
+
+
+def test_wrapped_invalid_schema_still_fails(inputs: tuple[Path, Path, Path]) -> None:
+    data = json.loads(reply())
+    data["verdicts"][0]["evidence"][0]["unexpected"] = None
+    raw = "```json\n" + json.dumps(data) + "\n```"
+    normalized, removed = normalize_response(raw)
+    assert removed
+    with pytest.raises(ValueError, match="unexpected"):
+        validate_judgment(normalized, [Requirement(requirement_id="R1.1", criteria="x")], inputs[0])
+
+
 def test_dry_run_cannot_read_key_or_call_opencode(
     inputs: tuple[Path, Path, Path],
     monkeypatch: pytest.MonkeyPatch,
@@ -148,7 +184,7 @@ def test_dry_run_cannot_read_key_or_call_opencode(
     assert "DRY RUN" in capsys.readouterr().out
 
 
-@pytest.mark.parametrize("mode", ["valid", "bad-evidence", "timeout", "mutated"])
+@pytest.mark.parametrize("mode", ["valid", "wrapped", "bad-evidence", "timeout", "mutated"])
 def test_tracked_run(
     inputs: tuple[Path, Path, Path],
     tmp_path: Path,
@@ -177,6 +213,8 @@ def test_tracked_run(
         if mode == "mutated":
             (app / "unexpected.txt").write_text("changed", encoding="utf-8")
         raw = reply("missing.txt") if mode == "bad-evidence" else reply()
+        if mode == "wrapped":
+            raw = "```json\n" + raw + "\n```"
         events = [
             {"type": "step_start"},
             {"type": "tool_use", "part": {"tool": "read", "state": {"status": "completed"}}},
@@ -210,27 +248,32 @@ def test_tracked_run(
         agent.AgentSettings(max_steps=4),
         tracking,
     )
-    if mode == "valid":
+    if mode in {"valid", "wrapped"}:
         run_id = agent.run(*arguments)
     else:
         with pytest.raises(RuntimeError):
             agent.run(*arguments)
         run_id = json.loads((output / "run.json").read_text())["run_id"]
     record = MlflowClient(tracking_uri=tracking.mlflow_tracking_uri).get_run(run_id)
-    assert record.info.status == ("FINISHED" if mode == "valid" else "FAILED")
+    assert record.info.status == ("FINISHED" if mode in {"valid", "wrapped"} else "FAILED")
     assert record.data.params["temperature"] == "0"
     assert (output / "timing.json").exists()
     assert (output / "tokens.json").exists()
     assert (output / "trace.json").exists()
-    if mode != "valid":
+    if mode not in {"valid", "wrapped"}:
         assert (output / "error.json").exists()
     assert "fake-secret" not in "".join(
         p.read_text(encoding="utf-8") for p in output.iterdir() if p.is_file()
     )
-    if mode == "valid":
+    if mode in {"valid", "wrapped"}:
         assert record.data.metrics["tokens_total"] == 30
         assert record.data.metrics["workspace_unchanged"] == 1
         assert (output / "verdicts.json").exists()
+        assert record.data.metrics["markdown_fence_removed"] == int(mode == "wrapped")
+        assert record.data.metrics["format_violation"] == int(mode == "wrapped")
+        if mode == "wrapped":
+            assert (output / "raw-response.txt").read_text(encoding="utf-8").startswith("```json")
+            assert (output / "normalized-response.txt").read_text(encoding="utf-8") == reply()
     elif mode == "bad-evidence":
         assert (output / "raw-response.txt").read_text(encoding="utf-8") == reply("missing.txt")
         assert not (output / "verdicts.json").exists()
