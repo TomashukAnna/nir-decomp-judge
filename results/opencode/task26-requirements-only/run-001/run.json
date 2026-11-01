@@ -1,0 +1,14 @@
+{
+  "run_id": "bf652f706fac48ee9f37e0bff3445db2",
+  "commit": "d5b696ef8f27e38a6e03b82d6fa8eab11a09bebb",
+  "config_path": "opencode.json",
+  "seed": 42,
+  "seed_applied_to_model": false,
+  "task": "26",
+  "dataset": "supervisor-workspace",
+  "model": "lab/iairlab/qwen3.8-27b",
+  "temperature": 0,
+  "max_steps": 16,
+  "input_mode": "requirements_only",
+  "specification_available": false
+}
