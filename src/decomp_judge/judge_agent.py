@@ -36,7 +36,7 @@ def snapshot(app: Path) -> dict[str, str]:
         relative = path.relative_to(app)
         if ".git" in relative.parts:
             continue
-        if path.name == ".env" or path.name.startswith(".env."):
+        if path.name.endswith(".env") or ".env." in path.name:
             continue
         if path.is_symlink():
             raise ValueError("Application symlinks are not supported")

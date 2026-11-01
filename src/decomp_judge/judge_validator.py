@@ -94,8 +94,8 @@ def validate_judgment(raw: str, requirements: list[Requirement], app: Path) -> J
                 or "\\" in evidence.file
                 or ":" in evidence.file
                 or ".git" in name.parts
-                or name.name == ".env"
-                or name.name.startswith(".env.")
+                or name.name.endswith(".env")
+                or ".env." in name.name
             ):
                 raise ValueError("Evidence path must be relative and inside the application")
             target = (root / evidence.file).resolve()

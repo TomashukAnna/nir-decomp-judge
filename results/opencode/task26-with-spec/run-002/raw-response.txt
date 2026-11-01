@@ -1,0 +1,120 @@
+
+
+I have gathered sufficient static evidence for all 11 criteria. Final assessment:
+
+- **R1 / R1.1**: Home route renders `PromotionListPage` → `PromotionList` → `PromotionCard`, which shows description, discount, category, author. PASS.
+- **R2 / R2.1**: `SharePromotionPage` form submits to `actions.addPromotion`, which validates title/description/discount/category and shows errors. PASS.
+- **R2.2**: `addPromotion` persists to shared store/localStorage; list page renders all promotions without author filter. PASS (frontend-only demo, noted).
+- **R3**: Search input in header wired to store, list filters by query. PASS.
+- **R3.1**: `filter.js` search matches only `title` and `description`, **not** `category` — a query matching only a category (e.g. "Electronics" for seeded "Laptop clearance") returns nothing. FAIL.
+- **R4 / R4.1 / R4.2**: Admin panel has users/promotions/settings tabs; UsersTable lists users with role change and delete; admin route guarded by `currentUser.isAdmin` with redirect otherwise. PASS.
+- **R5**: CSS variables `--ivory: #FFFFF0` on body background, `--forest-green: #228B22` on `.header`/`.card` UI blocks. PASS.
+
+```json
+{
+  "verdicts": [
+    {
+      "requirement_id": "R1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/App.jsx", "line_start": 44, "line_end": 45},
+        {"file": "src/pages/PromotionListPage.jsx", "line_start": 20, "line_end": 39},
+        {"file": "src/components/PromotionList.jsx", "line_start": 5, "line_end": 13}
+      ],
+      "reason": "Маршрут по умолчанию рендерит PromotionListPage, который через PromotionList отображает карточки всех акций из state.promotions; есть и обработка пустого списка."
+    },
+    {
+      "requirement_id": "R1.1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/components/PromotionCard.jsx", "line_start": 10, "line_end": 22}
+      ],
+      "reason": "Карточка акции отображает описание (promo-desc, с усечением), скидку (promo-discount), категорию (tag) и автора (authorName)."
+    },
+    {
+      "requirement_id": "R2",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/pages/SharePromotionPage.jsx", "line_start": 13, "line_end": 22},
+        {"file": "src/pages/SharePromotionPage.jsx", "line_start": 24, "line_end": 69},
+        {"file": "src/store/actions.js", "line_start": 25, "line_end": 48}
+      ],
+      "reason": "Страница #/share содержит форму с полями title/description/discount/category/link; submit вызывает actions.addPromotion, которая создаёт акцию и добавляет её в начало общего списка, после чего пользователь возвращается к списку."
+    },
+    {
+      "requirement_id": "R2.1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/store/actions.js", "line_start": 27, "line_end": 32},
+        {"file": "src/pages/SharePromotionPage.jsx", "line_start": 31, "line_end": 58}
+      ],
+      "reason": "addPromotion проверяет обязательные поля (title, description, discount, category) на пустоту и возвращает errors; форма с noValidate выводит сообщения об ошибках под соответствующими полями и не публикует акцию при невалидности."
+    },
+    {
+      "requirement_id": "R2.2",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/store/actions.js", "line_start": 8, "line_end": 11},
+        {"file": "src/store/actions.js", "line_start": 47, "line_end": 48},
+        {"file": "src/pages/PromotionListPage.jsx", "line_start": 20, "line_end": 24}
+      ],
+      "reason": "Опубликованная акция сохраняется в общий store с персистом в localStorage (setPromotions/persist), а список акций рендерится из state.promotions без фильтрации по автору, поэтому она видна любой другой сессии пользователя внутри приложения. Ограничение: приложение фронтенд-only без бэкенда (подтверждено футером), поэтому видимость ограничена одним браузером/устройством."
+    },
+    {
+      "requirement_id": "R3",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/components/Header.jsx", "line_start": 13, "line_end": 35},
+        {"file": "src/utils/filter.js", "line_start": 6, "line_end": 13}
+      ],
+      "reason": "В шапке есть поле поиска, пишущее в state.searchQuery (с кнопкой очистки и Esc), а getVisiblePromotions фильтрует акции по этому запросу на странице списка."
+    },
+    {
+      "requirement_id": "R3.1",
+      "verdict": "FAIL",
+      "evidence": [
+        {"file": "src/utils/filter.js", "line_start": 8, "line_end": 13},
+        {"file": "src/store/seed.js", "line_start": 12, "line_end": 15}
+      ],
+      "reason": "Критерий требует, чтобы поиск находил акции по теме, включая категорию. Фактически фильтр ищет запрос только в title и description (строки 10-11 filter.js) и не учитывает p.category. Например, для сид-акции 'Laptop clearance' (категория Electronics) запрос 'electronics' ничего не найдёт, т.к. в заголовке и описании слова Electronics нет; категория доступна лишь как отдельный выпадающий фильтр, а не как поле поиска."
+    },
+    {
+      "requirement_id": "R4",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/pages/AdminPanelPage.jsx", "line_start": 6, "line_end": 19},
+        {"file": "src/hooks/useHashRoute.js", "line_start": 11, "line_end": 14}
+      ],
+      "reason": "Административный раздел существует (маршрут #/admin/*) и содержит три вкладки: Users, Promotions, Settings, рендерящие UsersTable, PromotionsTable и SettingsForm соответственно."
+    },
+    {
+      "requirement_id": "R4.1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/pages/admin/UsersTable.jsx", "line_start": 26, "line_end": 55},
+        {"file": "src/store/actions.js", "line_start": 93, "line_end": 115}
+      ],
+      "reason": "Администратор видит таблицу всех пользователей (nickname, роль, число акций) и может менять их данные: переключать роль (setUserRole с защитой последнего админа) и удалять пользователя (deleteUser с подтверждением)."
+    },
+    {
+      "requirement_id": "R4.2",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/App.jsx", "line_start": 38, "line_end": 43},
+        {"file": "src/components/Header.jsx", "line_start": 41, "line_end": 41}
+      ],
+      "reason": "Маршрут #/admin рендерит AdminPanelPage только если есть текущий пользователь с isAdmin=true, иначе происходит редирект на главную; ссылка 'Admin' в навигации тоже отображается только администратору."
+    },
+    {
+      "requirement_id": "R5",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/styles/global.css", "line_start": 1, "line_end": 14},
+        {"file": "src/styles/global.css", "line_start": 36, "line_end": 40},
+        {"file": "src/styles/global.css", "line_start": 110, "line_end": 115}
+      ],
+      "reason": "Внешний слой (background body) использует --ivory: #FFFFF0, а блоки интерфейса (.header, .card, кнопки .search-clear) — --forest-green: #228B22, что соответствует требованию ivory для внешнего слоя и forest green для UI-блоков."
+    }
+  ]
+}
+```
