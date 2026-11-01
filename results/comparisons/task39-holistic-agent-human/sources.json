@@ -1,0 +1,32 @@
+{
+  "source_commit": "43c2fa7b84ef0c1522e8250576e6798bace29dd0",
+  "human_label_path": "benchmark/judgment/OpenHands/human_as_a_judge/39_Drug_Response_Prediction_SVM_GDSC_ML.json",
+  "holistic": {
+    "run_id": "062509bc4fcb43be98430081deb9bfe1",
+    "commit": "3c773111fdfd9f0ea5437afc004f2d3fc6ee9e34",
+    "seed": 42,
+    "source_commit": "43c2fa7b84ef0c1522e8250576e6798bace29dd0",
+    "task": "39_Drug_Response_Prediction_SVM_GDSC_ML",
+    "messages_sha256": "3fe3d221d2bdaddfc8b7b3b39a5ac8af86637f03df555d04134fdb90987eb20a",
+    "config_path": "configs\\devai-smoke.yaml",
+    "model": "openai/iairlab/qwen3.8-27b"
+  },
+  "agent": {
+    "run_id": "641fd4f0195c45069517dd5a1ab49067",
+    "commit": "5cccb3c5ccad0331851416075b4a497a3743ce08",
+    "config_path": "opencode.json",
+    "seed": 42,
+    "seed_applied_to_model": false,
+    "task": "39_Drug_Response_Prediction_SVM_GDSC_ML",
+    "dataset": "DevAI",
+    "model": "lab/iairlab/qwen3.8-27b",
+    "temperature": 0,
+    "max_steps": 16
+  },
+  "counts": {
+    "holistic_matches_human": 5,
+    "agent_matches_human": 5,
+    "judges_agree": 5
+  },
+  "requirements_compared": 7
+}

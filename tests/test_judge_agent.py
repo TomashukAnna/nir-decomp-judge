@@ -216,7 +216,7 @@ def test_dry_run_cannot_read_key_or_call_opencode(
 
 
 @pytest.mark.parametrize(
-    "mode", ["valid", "wrapped", "prose", "bad-evidence", "timeout", "mutated"]
+    "mode", ["valid", "wrapped", "prose", "bad-evidence", "timeout", "mutated", "requirements-only"]
 )
 def test_tracked_run(
     inputs: tuple[Path, Path, Path],
@@ -241,6 +241,9 @@ def test_tracked_run(
         assert kwargs["cwd"] == app.resolve()
         assert kwargs["stdin"] == subprocess.DEVNULL
         assert "PRIVATE_SOURCE_MARKER" not in command[-1]
+        if mode == "requirements-only":
+            assert "SPECIFICATION NOT PROVIDED" in command[-1]
+            assert "Specification\n" not in command[-1]
         if mode == "timeout":
             raise subprocess.TimeoutExpired(command, 10, output=b"partial", stderr=b"fake-secret")
         if mode == "mutated":
@@ -276,31 +279,38 @@ def test_tracked_run(
         tmp_path / "opencode.exe",
         root / "opencode.json",
         root / "configs/judge-agent.md",
-        spec,
+        None if mode == "requirements-only" else spec,
         requirements,
         app,
         output,
         agent.AgentSettings(max_steps=4),
         tracking,
     )
-    if mode in {"valid", "wrapped", "prose"}:
-        run_id = agent.run(*arguments)
+    if mode in {"valid", "wrapped", "prose", "requirements-only"}:
+        run_id = agent.run(*arguments, requirements_only=mode == "requirements-only")
     else:
         with pytest.raises(RuntimeError):
-            agent.run(*arguments)
+            agent.run(*arguments, requirements_only=mode == "requirements-only")
         run_id = json.loads((output / "run.json").read_text())["run_id"]
     record = MlflowClient(tracking_uri=tracking.mlflow_tracking_uri).get_run(run_id)
-    assert record.info.status == ("FINISHED" if mode in {"valid", "wrapped", "prose"} else "FAILED")
+    assert record.info.status == (
+        "FINISHED" if mode in {"valid", "wrapped", "prose", "requirements-only"} else "FAILED"
+    )
     assert record.data.params["temperature"] == "0"
+    assert record.data.tags["input_mode"] == (
+        "requirements_only" if mode == "requirements-only" else "specification_and_requirements"
+    )
+    provenance = json.loads((output / "run.json").read_text())
+    assert provenance["specification_available"] is (mode != "requirements-only")
     assert (output / "timing.json").exists()
     assert (output / "tokens.json").exists()
     assert (output / "trace.json").exists()
-    if mode not in {"valid", "wrapped", "prose"}:
+    if mode not in {"valid", "wrapped", "prose", "requirements-only"}:
         assert (output / "error.json").exists()
     assert "fake-secret" not in "".join(
         p.read_text(encoding="utf-8") for p in output.iterdir() if p.is_file()
     )
-    if mode in {"valid", "wrapped", "prose"}:
+    if mode in {"valid", "wrapped", "prose", "requirements-only"}:
         assert record.data.metrics["tokens_total"] == 30
         assert record.data.metrics["workspace_unchanged"] == 1
         assert record.data.metrics["completed_steps"] == 1

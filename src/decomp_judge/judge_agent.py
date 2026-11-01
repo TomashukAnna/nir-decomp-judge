@@ -98,17 +98,22 @@ def run(
     executable: Path,
     config_path: Path,
     instruction_path: Path,
-    spec_path: Path,
+    spec_path: Path | None,
     requirements_path: Path,
     app: Path,
     output: Path,
     settings: AgentSettings,
     tracking: TrackingSettings,
+    *,
+    requirements_only: bool = False,
 ) -> str:
     requirements = load_requirements(requirements_path)
-    spec = spec_path.read_text(encoding="utf-8")
-    if not spec.strip():
+    if requirements_only == (spec_path is not None):
+        raise ValueError("Provide either a specification or explicit requirements-only mode")
+    spec = spec_path.read_text(encoding="utf-8") if spec_path is not None else ""
+    if spec_path is not None and not spec.strip():
         raise ValueError("Specification must not be empty")
+    input_mode = "requirements_only" if requirements_only else "specification_and_requirements"
     app = app.resolve()
     before = snapshot(app)
     if output.resolve().is_relative_to(app):
@@ -134,8 +139,12 @@ def run(
     if config["provider"]["lab"]["options"]["apiKey"] != "{env:LITELLM_API_KEY}":
         raise ValueError("Provider key must reference LITELLM_API_KEY")
     prompt = (
-        "SPECIFICATION\n"
-        + spec
+        (
+            "SPECIFICATION NOT PROVIDED. Preliminary requirements-only evaluation. "
+            "Evaluate only the supplied criteria. Do not invent or reconstruct a specification."
+            if requirements_only
+            else "SPECIFICATION\n" + spec
+        )
         + "\n\nREQUIREMENTS\n"
         + json.dumps([r.model_dump() for r in requirements], ensure_ascii=False)
         + "\n\nInspect the current application directory using file tools. "
@@ -182,6 +191,7 @@ def run(
                 "pr": settings.pr,
                 "commit": commit,
                 "task": settings.task,
+                "input_mode": input_mode,
                 "mlflow.note.content": "Static read-only judge. Seed recorded, not forced "
                 "through the model adapter. Temperature zero does not ensure determinism.",
             }
@@ -208,6 +218,8 @@ def run(
             "model": config["model"],
             "temperature": 0,
             "max_steps": settings.max_steps,
+            "input_mode": input_mode,
+            "specification_available": spec_path is not None,
         }
         save("run.json", json.dumps(provenance, indent=2))
         save("config.json", json.dumps(config, ensure_ascii=False, indent=2))
@@ -367,7 +379,9 @@ def main() -> None:
     parser.add_argument("--executable", type=Path)
     parser.add_argument("--config", type=Path, default=Path("opencode.json"))
     parser.add_argument("--instruction", type=Path, default=Path("configs/judge-agent.md"))
-    parser.add_argument("--spec", type=Path, required=True)
+    specification = parser.add_mutually_exclusive_group(required=True)
+    specification.add_argument("--spec", type=Path)
+    specification.add_argument("--requirements-only", action="store_true")
     parser.add_argument("--requirements", type=Path, required=True)
     parser.add_argument("--app", type=Path, required=True)
     parser.add_argument("--output", type=Path)
@@ -375,7 +389,7 @@ def main() -> None:
     parser.add_argument("--execute", action="store_true")
     args = parser.parse_args()
     requirements = load_requirements(args.requirements)
-    if not args.spec.read_text(encoding="utf-8").strip():
+    if args.spec is not None and not args.spec.read_text(encoding="utf-8").strip():
         parser.error("Specification is empty")
     files = snapshot(args.app)
     if not args.execute:
@@ -400,6 +414,7 @@ def main() -> None:
         args.output,
         settings,
         TrackingSettings(),
+        requirements_only=args.requirements_only,
     )
     print(f"Judgment validated. MLflow run: {run_id}; output: {args.output}")
 
