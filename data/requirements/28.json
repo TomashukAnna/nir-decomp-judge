@@ -1,0 +1,172 @@
+{
+  "task_index": 28,
+  "webgen_id": "000029",
+  "query": "Please implement a forum webpage with multiple features. The forum webpage should have functionalities for posting, replying, searching, and browsing by category. Users should be able to browse and search for posts, create new posts, reply to others' posts, and browse posts by category. The forum should also have a user center where users can view their own posts, reply records, and personal information. Choose ghost white for global background and slate gray for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать публикации форума.",
+      "source": "“browse … posts”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Пользователь может просмотреть полный текст выбранной публикации.",
+      "source": "“browse … posts”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать новые публикации.",
+      "source": "“create new posts”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Созданная публикация появляется среди публикаций форума.",
+      "source": "“posting”; “create new posts”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отвечать на чужие публикации.",
+      "source": "“reply to others' posts”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Созданный ответ отображается у той публикации, на которую он отправлен.",
+      "source": "“reply to others' posts”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может искать публикации.",
+      "source": "“search for posts”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Результаты поиска содержат публикации, соответствующие запросу.",
+      "source": "“search for posts”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать публикации по выбранной категории.",
+      "source": "“browse posts by category”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "При выборе категории отображаются только публикации этой категории.",
+      "source": "“browse posts by category”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователю доступен личный кабинет.",
+      "source": "“a user center”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "В личном кабинете пользователь может просматривать свои публикации.",
+      "source": "“view their own posts”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": [
+        "R6"
+      ]
+    },
+    {
+      "requirement_id": "R6.2",
+      "criteria": "В личном кабинете пользователь может просматривать историю своих ответов.",
+      "source": "“view their … reply records”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": [
+        "R6"
+      ]
+    },
+    {
+      "requirement_id": "R6.3",
+      "criteria": "В личном кабинете пользователь может просматривать свою персональную информацию.",
+      "source": "“view their … personal information”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": [
+        "R6"
+      ]
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Глобальный фон страницы имеет цвет `ghostwhite` (`#F8F8FF`).",
+      "source": "“ghost white for global background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Все компоненты интерфейса оформлены цветом `slategray` (`#708090`).",
+      "source": "“slate gray for all components”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

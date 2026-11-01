@@ -1,0 +1,124 @@
+{
+  "task_index": 72,
+  "webgen_id": "000073",
+  "query": "Please implement a link tree website for displaying and managing links. The website should have functionalities for adding, editing, and deleting links. Users should be able to create and manage their own link tree, including adding new links, editing existing links, deleting unnecessary links, and sharing their link tree with others through link tree's shareable link. Set overall background to papaya whip, then style components with dark orange.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создать собственную страницу со списком ссылок.",
+      "source": "“create … their own link tree”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "На странице отображаются добавленные пользователем ссылки.",
+      "source": "“displaying … links”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "Каждая отображаемая ссылка позволяет перейти по заданному адресу.",
+      "source": "“link tree website for displaying … links”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1.1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может добавлять новые ссылки в свою подборку.",
+      "source": "“adding new links”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать существующие ссылки в своей подборке.",
+      "source": "“editing existing links”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "После редактирования ссылка отображает актуальные данные и ведёт по обновлённому адресу.",
+      "source": "“editing existing links”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может удалять ссылки из своей подборки.",
+      "source": "“deleting unnecessary links”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может получить ссылку для доступа к своей подборке.",
+      "source": "“link tree's shareable link”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Другой пользователь может открыть подборку по её общей ссылке и просмотреть добавленные ссылки.",
+      "source": "“sharing their link tree with others through link tree's shareable link”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5",
+        "R1.1"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон сайта имеет цвет `papayawhip` (`#FFEFD5`).",
+      "source": "“Set overall background to papaya whip”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса оформлены цветом `darkorange` (`#FF8C00`).",
+      "source": "“style components with dark orange”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

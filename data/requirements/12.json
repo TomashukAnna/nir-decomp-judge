@@ -1,0 +1,209 @@
+{
+  "task_index": 12,
+  "webgen_id": "000013",
+  "query": "Please implement a 2048 game website for users to play the 2048 game. The website should have functionalities for starting a new game, moving tiles, merging tiles, game over, and reviving. Users should be able to start a new game, move tiles up, down, left, or right, merge identical tiles, and win the game by achieving the 2048 result. If the game is over, users can choose to revive and continue playing. Choose linen for the background; set all component colors to maroon.",
+  "requirements": [
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Пользователь может начать новую игру: предыдущая партия заменяется начальным игровым состоянием, игра активна.",
+      "source": "“start a new game”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1.2",
+      "criteria": "В начале игры на доске находятся ровно две плитки со значениями 2 или 4.",
+      "source": "“2048 game”; “start a new game”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1.1",
+      "prerequisites": [
+        "R1.1"
+      ]
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "Пользователь может перемещать плитки вверх, вниз, влево и вправо.",
+      "source": "“move tiles up, down, left, or right”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1.1"
+      ]
+    },
+    {
+      "requirement_id": "R1.2.1",
+      "criteria": "При движении вверх плитки сдвигаются к верхней границе, сохраняя порядок в столбцах, кроме слияний.",
+      "source": "“move tiles up”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1.2",
+      "prerequisites": [
+        "R1.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.2.2",
+      "criteria": "При движении вниз плитки сдвигаются к нижней границе, сохраняя порядок в столбцах, кроме слияний.",
+      "source": "“move tiles … down”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1.2",
+      "prerequisites": [
+        "R1.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.2.3",
+      "criteria": "При движении влево плитки сдвигаются к левой границе, сохраняя порядок в строках, кроме слияний.",
+      "source": "“move tiles … left”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1.2",
+      "prerequisites": [
+        "R1.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.2.4",
+      "criteria": "При движении вправо плитки сдвигаются к правой границе, сохраняя порядок в строках, кроме слияний.",
+      "source": "“move tiles … right”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1.2",
+      "prerequisites": [
+        "R1.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.2.5",
+      "criteria": "После хода, изменившего доску, в случайной свободной ячейке появляется ровно одна новая плитка со значением 2 или 4.",
+      "source": "“2048 game”; “moving tiles”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1.2",
+      "prerequisites": [
+        "R1.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.2.6",
+      "criteria": "Команда движения, не изменяющая доску, не создаёт новую плитку.",
+      "source": "“2048 game”; “moving tiles”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1.2",
+      "prerequisites": [
+        "R1.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.3",
+      "criteria": "Две одинаковые плитки, столкнувшиеся при движении, объединяются в одну с удвоенным значением.",
+      "source": "“merge identical tiles”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.3.2",
+      "criteria": "Плитки с разными значениями не объединяются.",
+      "source": "“merge identical tiles”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1.3",
+      "prerequisites": [
+        "R1.3"
+      ]
+    },
+    {
+      "requirement_id": "R1.3.3",
+      "criteria": "Плитка, созданная слиянием, не объединяется повторно в том же ходу.",
+      "source": "“2048 game”; “merging tiles”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1.3",
+      "prerequisites": [
+        "R1.3"
+      ]
+    },
+    {
+      "requirement_id": "R1.4.1",
+      "criteria": "При появлении плитки 2048 приложение обозначает победу.",
+      "source": "“win the game by achieving the 2048 result”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1.3"
+      ]
+    },
+    {
+      "requirement_id": "R1.4.2",
+      "criteria": "Приложение обозначает окончание игры, когда нет ходов, позволяющих сдвинуть или объединить плитки.",
+      "source": "“game over”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1.2",
+        "R1.3"
+      ]
+    },
+    {
+      "requirement_id": "R1.4.3",
+      "criteria": "После окончания игры пользователь может активировать возрождение.",
+      "source": "“If the game is over, users can choose to revive”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1.4.2"
+      ]
+    },
+    {
+      "requirement_id": "R1.4.4",
+      "criteria": "Возрождение снимает состояние окончания игры, сохраняет часть прогресса и позволяет сделать ход, изменяющий доску.",
+      "source": "“revive and continue playing”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1.4.3",
+      "prerequisites": [
+        "R1.4.3"
+      ]
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Основной видимый фон страницы имеет цвет `linen` (`#FAF0E6`).",
+      "source": "“Choose linen for the background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "Основной фон плиток, кнопок и панелей имеет цвет `maroon` (`#800000`).",
+      "source": "“set all component colors to maroon”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.3",
+      "criteria": "Игровая доска содержит 16 ячеек, расположенных в четыре строки и четыре столбца.",
+      "source": "“2048 game”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

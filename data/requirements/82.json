@@ -1,0 +1,181 @@
+{
+  "task_index": 82,
+  "webgen_id": "000083",
+  "query": "Please implement a detective agency case management app for managing cases and tracking work hours. The app should have functionalities for real-time reporting, data collection and storage, work hours tracking, estimated expense sheet generation, and service assignment sheet. Users should be able to browse case information, submit real-time reports, log work hours, and view estimated expense sheets and service assignment sheets. Apply beige as the background; style all components with saddle brown.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать информацию о делах детективного агентства.",
+      "source": "“browse case information”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Отображаемая информация позволяет определить дело и понять его содержание.",
+      "source": "“case information”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может вносить и сохранять данные по делу.",
+      "source": "“data collection and storage”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Сохранённые данные доступны при повторном открытии дела.",
+      "source": "“data … storage”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять оперативные отчёты по делу.",
+      "source": "“submit real-time reports”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Отправленный отчёт доступен для просмотра сразу после отправки.",
+      "source": "“real-time reporting”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Отправленный отчёт отображается у того дела, к которому он относится.",
+      "source": "“case management”; “submit real-time reports”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R1",
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может записывать отработанное время.",
+      "source": "“log work hours”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Записи рабочего времени связаны с соответствующими делами и доступны для просмотра.",
+      "source": "“managing cases and tracking work hours”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R1",
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Система подсчитывает суммарное рабочее время по записям.",
+      "source": "“work hours tracking”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система формирует предварительную смету расходов по делу.",
+      "source": "“estimated expense sheet generation”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Пользователь может просматривать сформированную смету расходов.",
+      "source": "“view estimated expense sheets”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5"
+      ]
+    },
+    {
+      "requirement_id": "R5.2",
+      "criteria": "Смета содержит предполагаемые расходы и их суммы.",
+      "source": "“estimated expense sheet”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R5",
+      "prerequisites": [
+        "R5.1"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать лист служебного задания по делу.",
+      "source": "“view … service assignment sheets”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "Лист служебного задания содержит назначенную работу и её исполнителя.",
+      "source": "“service assignment sheet”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R6",
+      "prerequisites": [
+        "R6"
+      ]
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон приложения имеет цвет `beige` (`#F5F5DC`).",
+      "source": "“Apply beige as the background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Все компоненты интерфейса оформлены цветом `saddlebrown` (`#8B4513`).",
+      "source": "“style all components with saddle brown”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

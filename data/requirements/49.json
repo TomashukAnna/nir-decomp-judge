@@ -1,0 +1,142 @@
+{
+  "task_index": 49,
+  "webgen_id": "000050",
+  "query": "Please implement a health survey website for women to fill out and submit health information. The website should have functionalities for filling out the survey, and submitting information. Users can fill out the relevant survey, and submit their information. The system will automatically collect the information and provide data management, permission management, data review, and reporting functions. Use whitesmoke as the default background and dark cyan for component styling.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может заполнять анкету о здоровье.",
+      "source": "“filling out the survey”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Вопросы анкеты относятся к сбору информации о здоровье женщин.",
+      "source": "“a health survey website for women”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправить заполненную анкету.",
+      "source": "“submit their information”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Отправленные ответы автоматически сохраняются и доступны в системе.",
+      "source": "“automatically collect the information”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "В системе доступны просмотр собранных анкет и действия по управлению ими.",
+      "source": "“data management”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "При просмотре анкеты отображаются ответы, отправленные пользователем.",
+      "source": "“collect the information”; “data management”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "В системе можно назначать или изменять права доступа пользователей.",
+      "source": "“permission management”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Пользователь не может выполнить действие, на которое у него нет разрешения.",
+      "source": "“permission management”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "В системе можно проверять собранные анкеты и фиксировать результат проверки.",
+      "source": "“data review”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "В системе можно сформировать и просмотреть отчёт по собранным данным.",
+      "source": "“reporting functions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "Содержимое отчёта соответствует собранным данным, на которых он построен.",
+      "source": "“reporting functions”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": [
+        "R6"
+      ]
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон сайта имеет цвет `whitesmoke` (`#F5F5F5`).",
+      "source": "“whitesmoke as the default background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса оформлены цветом `darkcyan` (`#008B8B`).",
+      "source": "“dark cyan for component styling”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

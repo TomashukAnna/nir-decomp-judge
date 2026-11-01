@@ -1,0 +1,154 @@
+{
+  "task_index": 97,
+  "webgen_id": "000098",
+  "query": "Please implement a comprehensive car rental platform for booking car rental services. The platform should have a user-friendly interface, allowing users to easily browse and book car rental services. Users should be able to browse different types of cars, select rental dates and times, book selected cars, and view booking records. The platform should support multiple payment methods and provide order management functionality. Set the background to papaya whip, and apply dark orange to components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать автомобили разных типов, доступные для аренды.",
+      "source": "“browse different types of cars”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Интерфейс позволяет понятно найти автомобиль и перейти к бронированию.",
+      "source": "“a user-friendly interface”; “easily browse and book”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R1",
+      "prerequisites": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может забронировать выбранный автомобиль.",
+      "source": "“book selected cars”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Пользователь может выбрать даты и время начала и окончания аренды.",
+      "source": "“select rental dates and times”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "Бронирование содержит выбранный автомобиль и указанный период аренды.",
+      "source": "“select rental dates and times, book selected cars”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R2",
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать свои бронирования.",
+      "source": "“view booking records”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Созданное бронирование появляется в списке бронирований пользователя.",
+      "source": "“book selected cars, and view booking records”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оплачивать бронирование несколькими способами.",
+      "source": "“support multiple payment methods”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Выбранный способ оплаты используется при обработке платежа, а результат оплаты отображается пользователю.",
+      "source": "“support multiple payment methods”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять заказами на аренду.",
+      "source": "“provide order management functionality”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Пользователь может изменить или отменить существующий заказ.",
+      "source": "“order management functionality”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5"
+      ]
+    },
+    {
+      "requirement_id": "R5.2",
+      "criteria": "После изменения или отмены заказа отображаются его актуальные данные или статус.",
+      "source": "“order management functionality”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5.1"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон платформы имеет цвет `papayawhip` (`#FFEFD5`).",
+      "source": "“Set the background to papaya whip”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса оформлены цветом `darkorange` (`#FF8C00`).",
+      "source": "“apply dark orange to components”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}
