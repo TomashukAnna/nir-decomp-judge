@@ -1,0 +1,10 @@
+trial,run_id,status,commit,config_path,seed,seed_applied_to_model,input_mode,specification_available,seconds,steps,max_steps,temperature,workspace_unchanged,raw_format_violation,reported_total_tokens,error
+1,bf652f706fac48ee9f37e0bff3445db2,FINISHED,d5b696ef8f27e38a6e03b82d6fa8eab11a09bebb,opencode.json,42,False,requirements_only,False,65.43853989988565,9,16,0,True,True,114580,
+2,d52799d25f6a4094a97bd7680100baeb,FAILED,d5b696ef8f27e38a6e03b82d6fa8eab11a09bebb,opencode.json,42,False,requirements_only,False,90.42849939968437,8,16,0,True,True,89336,"1 validation error for Judgment
+verdicts.0.evidence.0.line_start_end
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+3,8d09f7ecc2ba46018ef7ba67f0fbaaab,FAILED,d5b696ef8f27e38a6e03b82d6fa8eab11a09bebb,opencode.json,42,False,requirements_only,False,71.60743190022185,9,16,0,True,True,115483,"1 validation error for Judgment
+verdicts.0.evidence.0.line_start_end
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"

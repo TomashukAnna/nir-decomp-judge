@@ -1,0 +1,198 @@
+
+
+{
+  "verdicts": [
+    {
+      "requirement_id": "R1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/App.jsx",
+          "line_start": 44,
+          "line_end": 46
+        },
+        {
+          "file": "src/pages/PromotionListPage.jsx",
+          "line_start": 20,
+          "line_end": 39
+        },
+        {
+          "file": "src/components/PromotionList.jsx",
+          "line_start": 5,
+          "line_end": 14
+        }
+      ],
+      "reason": "Стартовый маршрут рендерит PromotionListPage, который отображает список акций из state.promotions через PromotionList."
+    },
+    {
+      "requirement_id": "R1.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/components/PromotionCard.jsx",
+          "line_start": 10,
+          "line_end": 22
+        }
+      ],
+      "reason": "PromotionCard выводит description, discount, category и authorName."
+    },
+    {
+      "requirement_id": "R2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/SharePromotionPage.jsx",
+          "line_start": 13,
+          "line_end": 22
+        },
+        {
+          "file": "src/store/actions.js",
+          "line_start": 25,
+          "line_end": 49
+        }
+      ],
+      "reason": "Форма SharePromotionPage отправляет данные в actions.addPromotion, который создаёт акцию и добавляет её в store."
+    },
+    {
+      "requirement_id": "R2.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/store/actions.js",
+          "line_start": 25,
+          "line_end": 32
+        },
+        {
+          "file": "src/pages/SharePromotionPage.jsx",
+          "line_start": 31,
+          "line_end": 58
+        }
+      ],
+      "reason": "addPromotion проверяет обязательные title, description, discount, category, а форма показывает ошибки."
+    },
+    {
+      "requirement_id": "R2.2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/store/actions.js",
+          "line_start": 36,
+          "line_end": 48
+        },
+        {
+          "file": "src/pages/PromotionListPage.jsx",
+          "line_start": 20,
+          "line_end": 24
+        }
+      ],
+      "reason": "Добавленная акция сохраняется в общий state.promotions, а список акций отображается без ограничения по автору, поэтому она видна другим пользователям в приложении."
+    },
+    {
+      "requirement_id": "R3",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/components/Header.jsx",
+          "line_start": 13,
+          "line_end": 36
+        },
+        {
+          "file": "src/pages/PromotionListPage.jsx",
+          "line_start": 20,
+          "line_end": 24
+        },
+        {
+          "file": "src/utils/filter.js",
+          "line_start": 6,
+          "line_end": 13
+        }
+      ],
+      "reason": "В Header есть поле поиска, обновляющее state.searchQuery, а PromotionListPage передаёт его в getVisiblePromotions."
+    },
+    {
+      "requirement_id": "R3.1",
+      "verdict": "FAIL",
+      "evidence": [
+        {
+          "file": "src/utils/filter.js",
+          "line_start": 9,
+          "line_end": 13
+        }
+      ],
+      "reason": "getVisiblePromotions фильтрует по searchQuery только title и description, не включая category, поэтому поиск по категории не выполняется."
+    },
+    {
+      "requirement_id": "R4",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/App.jsx",
+          "line_start": 38,
+          "line_end": 43
+        },
+        {
+          "file": "src/pages/AdminPanelPage.jsx",
+          "line_start": 6,
+          "line_end": 18
+        }
+      ],
+      "reason": "Маршрут admin рендерит AdminPanelPage с вкладками users, promotions, settings."
+    },
+    {
+      "requirement_id": "R4.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/admin/UsersTable.jsx",
+          "line_start": 29,
+          "line_end": 55
+        },
+        {
+          "file": "src/store/actions.js",
+          "line_start": 93,
+          "line_end": 115
+        }
+      ],
+      "reason": "UsersTable показывает список пользователей и позволяет менять роль или удалять пользователя через actions.setUserRole/deleteUser."
+    },
+    {
+      "requirement_id": "R4.2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/App.jsx",
+          "line_start": 38,
+          "line_end": 43
+        },
+        {
+          "file": "src/components/Header.jsx",
+          "line_start": 41,
+          "line_end": 41
+        }
+      ],
+      "reason": "App разрешает admin только если currentUser.isAdmin, иначе редирект, а ссылка Admin в Header видна только администратору."
+    },
+    {
+      "requirement_id": "R5",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/styles/global.css",
+          "line_start": 1,
+          "line_end": 14
+        },
+        {
+          "file": "src/styles/global.css",
+          "line_start": 36,
+          "line_end": 40
+        },
+        {
+          "file": "src/styles/global.css",
+          "line_start": 110,
+          "line_end": 115
+        }
+      ],
+      "reason": "В global.css заданы --ivory и --forest-green, body имеет ivory, а карточки и header используют forest green."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "45ab39bd56f1430198359c0fa6ddff43",
+  "commit": "2ec4e7829cae5a5088c9079e9b04e8f9bff10846",
+  "config_path": "opencode.json",
+  "seed": 42,
+  "seed_applied_to_model": false,
+  "task": "39_Drug_Response_Prediction_SVM_GDSC_ML",
+  "dataset": "DevAI",
+  "model": "lab/iairlab/qwen3.8-27b",
+  "temperature": 0,
+  "max_steps": 16
+}

@@ -41,8 +41,8 @@
 
 ## Сохранённые результаты
 
-- [raw-response.txt](raw-response.txt) — исходный текст ответа, скопирован побайтно без исправлений.
-- [verdicts.json](verdicts.json) — проверенный JSON с семью вердиктами и причинами модели.
+- [raw-response.txt](../../devai/task39-local-004/raw-response.txt) — исходный текст ответа, скопирован побайтно без исправлений.
+- [verdicts.json](../../devai/task39-local-004/verdicts.json) — проверенный JSON с семью вердиктами и причинами модели.
 - [comparison.csv](comparison.csv) — полные критерии, оценки, совпадения, причины модели и ID запуска.
-- [run.json](run.json) и [effective-config.json](effective-config.json) — исходные сведения о запуске, скопированы без изменений.
+- [run.json](../../devai/task39-local-004/run.json) и [effective-config.json](../../devai/task39-local-004/effective-config.json) — исходные сведения о запуске, скопированы без изменений.
 

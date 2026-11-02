@@ -1,0 +1,44 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "lab/iairlab/qwen3.8-27b",
+  "small_model": "lab/iairlab/qwen3.8-27b",
+  "enabled_providers": ["lab"],
+  "default_agent": "requirements-judge",
+  "autoupdate": false,
+  "snapshot": false,
+  "provider": {
+    "lab": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Lab API",
+      "options": {
+        "baseURL": "https://api.duckduck.cloud/v1",
+        "apiKey": "{env:LITELLM_API_KEY}"
+      },
+      "models": {
+        "iairlab/qwen3.8-27b": {
+          "name": "Qwen 3.8 27B (lab)"
+        }
+      }
+    }
+  },
+  "permission": {
+    "*": "deny",
+    "read": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny"
+    },
+    "glob": "allow",
+    "grep": "allow",
+    "external_directory": "deny"
+  },
+  "agent": {
+    "requirements-judge": {
+      "description": "Inspect project files and assess requirements without edits",
+      "mode": "primary",
+      "temperature": 0,
+      "steps": 16,
+      "prompt": "{file:./configs/judge-agent.md}"
+    }
+  }
+}
