@@ -17,6 +17,23 @@ build/
 # data and experiment stores
 data/*
 !data/README.md
+!data/requirements/
+data/requirements/*
+!data/requirements/11.json
+!data/requirements/12.json
+!data/requirements/16.json
+!data/requirements/26.json
+!data/requirements/28.json
+!data/requirements/47.json
+!data/requirements/49.json
+!data/requirements/57.json
+!data/requirements/58.json
+!data/requirements/72.json
+!data/requirements/82.json
+!data/requirements/84.json
+!data/requirements/92.json
+!data/requirements/96.json
+!data/requirements/97.json
 mlflow.db
 mlruns/
 mlartifacts/

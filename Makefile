@@ -1,7 +1,10 @@
 # One target for the agent hook, pre-commit and CI: `make check`.
-.PHONY: check lint types test fmt run mlflow overlay rename
+.PHONY: check lint types test requirements fmt run mlflow overlay rename
 
-check: lint types test
+check: lint types test requirements
+
+requirements:
+	uv run python -m decomp_judge.requirements_bank check --require-complete
 
 lint:
 	uv run ruff format --check .

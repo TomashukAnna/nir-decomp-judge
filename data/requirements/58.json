@@ -1,0 +1,147 @@
+{
+  "task_index": 58,
+  "webgen_id": "000059",
+  "query": "Please implement a virtual study group website where users can create or join study groups, share resources, and collaborate on projects. The website should have functionalities for creating and joining groups, sharing resources, and collaborating on projects. Users should be able to join groups, download resources, and participate in project discussions. The website should also have a personal center where users can view their personal information. Configure all backgrounds with alice blue and all components with steel blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать учебные группы.",
+      "source": "“create … study groups”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Созданная группа доступна другим пользователям для вступления.",
+      "source": "“users can create or join study groups”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может вступать в существующие учебные группы.",
+      "source": "“join study groups”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "После вступления пользователь отображается как участник выбранной группы.",
+      "source": "“join groups”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может делиться учебными ресурсами в группе.",
+      "source": "“share resources”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Ресурс, которым поделился пользователь, доступен другим участникам группы.",
+      "source": "“sharing resources”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Пользователь может скачивать доступные учебные ресурсы.",
+      "source": "“download resources”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователи могут совместно обсуждать проекты.",
+      "source": "“collaborate on projects”; “participate in project discussions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Пользователь может отправлять сообщения в обсуждение выбранного проекта.",
+      "source": "“participate in project discussions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Сообщения в обсуждении проекта доступны другим его участникам.",
+      "source": "“collaborate on projects”; “project discussions”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4.1"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователю доступен личный кабинет.",
+      "source": "“a personal center”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "В личном кабинете пользователь может просматривать свою персональную информацию.",
+      "source": "“view their personal information”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Все фоны страниц имеют цвет `aliceblue` (`#F0F8FF`).",
+      "source": "“all backgrounds with alice blue”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Все компоненты интерфейса оформлены цветом `steelblue` (`#4682B4`).",
+      "source": "“all components with steel blue”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

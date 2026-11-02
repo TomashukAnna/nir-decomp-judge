@@ -1,0 +1,119 @@
+{
+  "task_index": 26,
+  "webgen_id": "000027",
+  "query": "Please implement a community website for sharing promotions and discounts. The website should have functionalities for browsing promotions, sharing promotions, and searching promotions. Users should be able to browse and share promotions, and search for promotions of interest. The website should also have a management backend for managing users, promotions, and website settings. Use ivory for the outer layout and forest green for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Список акций доступен для просмотра.",
+      "source": "“browsing promotions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Карточка акции показывает описание, скидку, категорию и автора.",
+      "source": "“sharing promotions and discounts”; “browsing promotions”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может опубликовать акцию через форму.",
+      "source": "“Users should be able to … share promotions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Форма не позволяет опубликовать акцию с незаполненными обязательными полями.",
+      "source": "“sharing promotions”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "Опубликованная акция доступна для просмотра другим пользователям.",
+      "source": "“community website for sharing promotions and discounts”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R2",
+      "prerequisites": [
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может искать акции.",
+      "source": "“searching promotions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Поиск находит акции по теме запроса, включая поиск по категории.",
+      "source": "“search for promotions of interest”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Доступен административный раздел для управления пользователями, акциями и настройками сайта.",
+      "source": "“a management backend for managing users, promotions, and website settings”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Администратор может просматривать список пользователей и изменять их данные.",
+      "source": "“managing users”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Административный раздел доступен только администратору.",
+      "source": "“management backend”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Внешний фон сайта имеет цвет `ivory` (`#FFFFF0`), а блоки интерфейса — `forestgreen` (`#228B22`).",
+      "source": "“Use ivory for the outer layout and forest green for UI blocks”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

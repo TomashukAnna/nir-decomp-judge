@@ -1,0 +1,125 @@
+{
+  "task_index": 92,
+  "webgen_id": "000093",
+  "query": "Please implement a website called \"World of Imagination\" to showcase and inspire users' imagination. The website should have functionalities for showcasing user-created content, sharing ideas, discussing, and interacting. Users should be able to browse others' creative works, share their own ideas via the share ideas form, participate in discussions, and interact with other users. Choose azure mist for the background; set all component colors to dark slate blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "На сайте отображается название «World of Imagination».",
+      "source": "“a website called ‘World of Imagination’”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать творческие работы других пользователей.",
+      "source": "“browse others' creative works”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Представленные работы содержат творческий контент и связаны с их авторами.",
+      "source": "“showcasing user-created content”; “others' creative works”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R2",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправить собственную идею через форму.",
+      "source": "“share their own ideas via the share ideas form”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Отправленная идея доступна для просмотра другим пользователям.",
+      "source": "“sharing ideas”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может участвовать в обсуждениях.",
+      "source": "“participate in discussions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Пользователь может отправлять сообщения в выбранное обсуждение.",
+      "source": "“participate in discussions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Сообщение отображается в выбранном обсуждении и доступно другим его участникам.",
+      "source": "“discussing”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4.1"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может взаимодействовать с другими пользователями.",
+      "source": "“interact with other users”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Действие взаимодействия связано с конкретным пользователем или его публикацией и имеет видимый результат.",
+      "source": "“interact with other users”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон сайта имеет цвет `azure` (`#F0FFFF`).",
+      "source": "“azure mist for the background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Все компоненты интерфейса оформлены цветом `darkslateblue` (`#483D8B`).",
+      "source": "“set all component colors to dark slate blue”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

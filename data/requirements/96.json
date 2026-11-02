@@ -1,0 +1,132 @@
+{
+  "task_index": 96,
+  "webgen_id": "000097",
+  "query": "Please implement a travel and camping website and web app for Europe, showcasing tourist attractions and campsites across the continent. The website should have functionalities for searching, booking, and reviewing. Users should be able to browse tourist attractions and campsites in different countries and cities, book attractions and campsites of interest, and review the attractions and campsites they have visited. Establish light pink as the main background and medium violet red for the controls.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать туристические достопримечательности и кемпинги Европы.",
+      "source": "“browse tourist attractions and campsites”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Представленные объекты расположены в Европе и содержат сведения, позволяющие понять, что это за место.",
+      "source": "“for Europe, showcasing tourist attractions and campsites across the continent”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "Пользователь может просматривать объекты по выбранной стране и городу.",
+      "source": "“in different countries and cities”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может искать достопримечательности и кемпинги.",
+      "source": "“functionalities for searching”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Результаты поиска соответствуют запросу или выбранным условиям.",
+      "source": "“searching”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R2",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может бронировать достопримечательности и кемпинги.",
+      "source": "“book attractions and campsites of interest”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "При бронировании пользователь может указать дату посещения достопримечательности или период проживания в кемпинге.",
+      "source": "“book attractions and campsites”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "После оформления пользователь видит подтверждение бронирования выбранного объекта с указанными датами.",
+      "source": "“book attractions and campsites”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3",
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оставлять отзывы о достопримечательностях и кемпингах.",
+      "source": "“review the attractions and campsites they have visited”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Опубликованный отзыв отображается у соответствующего объекта и доступен другим пользователям.",
+      "source": "“reviewing”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Основной фон сайта имеет цвет `lightpink` (`#FFB6C1`).",
+      "source": "“light pink as the main background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Элементы управления оформлены цветом `mediumvioletred` (`#C71585`).",
+      "source": "“medium violet red for the controls”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

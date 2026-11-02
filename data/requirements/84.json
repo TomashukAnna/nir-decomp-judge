@@ -1,0 +1,199 @@
+{
+  "task_index": 84,
+  "webgen_id": "000085",
+  "query": "Please develop a construction management website for managing projects and documents. The website should have functionalities for document management, project scheduling, communication tools, estimating job costing, time tracking, and resource management. Users should be able to create and manage projects, schedule project timelines, communicate with team members, estimate project costs, track project progress, and manage resources. Assign light gray to the background and dark red to the UI elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать строительные проекты.",
+      "source": "“create … projects”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Пользователь может просматривать и изменять данные созданного проекта.",
+      "source": "“manage projects”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может добавлять и просматривать документы проекта.",
+      "source": "“document management”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Пользователь может изменять сведения о документе или удалять его из проекта.",
+      "source": "“document management”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может задавать сроки выполнения проекта.",
+      "source": "“schedule project timelines”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Пользователь может изменять сроки и просматривать актуальное расписание проекта.",
+      "source": "“project scheduling”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять сообщения участникам команды проекта.",
+      "source": "“communicate with team members”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Отправленные сообщения доступны соответствующим участникам команды.",
+      "source": "“communication tools”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может рассчитывать предварительную стоимость проекта.",
+      "source": "“estimate project costs”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Итоговая оценка стоимости пересчитывается при изменении исходных затрат.",
+      "source": "“estimating job costing”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может записывать затраченное на проект рабочее время.",
+      "source": "“time tracking”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "Пользователь может просматривать записи рабочего времени по проекту.",
+      "source": "“time tracking”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": [
+        "R6"
+      ]
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать прогресс проекта.",
+      "source": "“track project progress”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R7.1",
+      "criteria": "Прогресс проекта обновляется при изменении данных о выполнении работ.",
+      "source": "“track project progress”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": [
+        "R7"
+      ]
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может добавлять ресурсы в проект и просматривать их.",
+      "source": "“resource management”; “manage resources”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R8.1",
+      "criteria": "Пользователь может изменять данные ресурсов или их назначение проекту.",
+      "source": "“manage resources”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R8",
+      "prerequisites": [
+        "R8"
+      ]
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон сайта имеет цвет `lightgray` (`#D3D3D3`).",
+      "source": "“Assign light gray to the background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Элементы интерфейса оформлены цветом `darkred` (`#8B0000`).",
+      "source": "“dark red to the UI elements”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "task_index": 47,
+  "webgen_id": "000048",
+  "query": "Please implement a time attendance system to record employee attendance. The system should have functionalities for employee clocking in and out, and viewing attendance records. Employees should be able to clock in and out, and view their own attendance records, including attendance time and absence time. Administrators should be able to view all employees' attendance records, perform statistics, and analysis. Specify papaya whip as the base color and dark orange for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1.1",
+      "criteria": "При начале работы система сохраняет дату и время начала, связанные с текущим сотрудником.",
+      "source": "“employee clocking in”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "При окончании работы система сохраняет дату и время окончания и закрывает открытый период текущего сотрудника.",
+      "source": "“employee clocking … out”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1.1"
+      ]
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Сотрудник может просматривать свою историю посещаемости с датами и отметками начала и окончания работы.",
+      "source": "“view their own attendance records”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "В истории отображается продолжительность присутствия сотрудника.",
+      "source": "“including attendance time”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2.1",
+      "prerequisites": [
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R2.3",
+      "criteria": "В истории отображается продолжительность отсутствия сотрудника.",
+      "source": "“including … absence time”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2.1",
+      "prerequisites": [
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Администратор может просматривать записи посещаемости всех сотрудников.",
+      "source": "“view all employees' attendance records”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Администратор может получать статистические сводки по зарегистрированной посещаемости.",
+      "source": "“perform statistics”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3.1",
+      "prerequisites": [
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Администратору доступны средства анализа данных посещаемости.",
+      "source": "“perform … analysis”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R3.1",
+      "prerequisites": [
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Основной видимый фон страницы имеет цвет `papayawhip` (`#FFEFD5`).",
+      "source": "“papaya whip as the base color”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Основной фон кнопок, карточек и панелей имеет цвет `darkorange` (`#FF8C00`).",
+      "source": "“dark orange for all components”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Система различает сотрудника и администратора: сотруднику доступны только свои записи, администратору — все; доступ сотрудника к админ-панели блокируется.",
+      "source": "“Employees … view their own”; “Administrators … view all employees'”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.3",
+      "criteria": "Зарегистрированные отметки доступны при последующем просмотре записей посещаемости.",
+      "source": "“record employee attendance”; “view their own attendance records”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1.1",
+        "R1.2",
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R5.4",
+      "criteria": "Одна и та же запись содержит одинаковые данные в представлениях сотрудника и администратора.",
+      "source": "“view their own attendance records”; “view all employees' attendance records”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2.1",
+        "R3.1"
+      ]
+    }
+  ]
+}

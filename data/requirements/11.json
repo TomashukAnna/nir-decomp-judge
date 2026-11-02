@@ -1,0 +1,192 @@
+{
+  "task_index": 11,
+  "webgen_id": "000012",
+  "query": "Please implement a baseball simulation website for simulating baseball games and managing baseball teams. The website should have functionalities for player statistics tracking, team management, and live game simulation. Users should be able to view detailed player statistics, manage team rosters and finances, simulate games, and view the results. Users should also be able to adjust team strategies and lineups based on their management decisions. Apply floral white for the layout background and dark goldenrod for interactive elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать статистику игроков.",
+      "source": "“view detailed player statistics”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Статистика игрока содержит несколько бейсбольных показателей его выступления.",
+      "source": "“detailed player statistics”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "Статистика игроков обновляется по результатам симулируемых матчей.",
+      "source": "“player statistics tracking”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1",
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может изменять настройки или состав команды.",
+      "source": "“team management”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Пользователь может добавлять игроков в состав команды и исключать их из состава.",
+      "source": "“manage team rosters”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "Пользователь может просматривать финансы команды и выполнять действия, изменяющие их.",
+      "source": "“manage … finances”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.3",
+      "criteria": "Пользователь может изменять стратегию команды.",
+      "source": "“adjust team strategies”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.3.1",
+      "criteria": "Выбранная стратегия команды учитывается при симуляции матча.",
+      "source": "“adjust team strategies … based on their management decisions”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2.3",
+      "prerequisites": [
+        "R2.3",
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R2.4",
+      "criteria": "Пользователь может изменять игровой состав или порядок отбивания.",
+      "source": "“adjust … lineups”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R2.4.1",
+      "criteria": "Симуляция матча использует выбранный игровой состав или порядок отбивания.",
+      "source": "“adjust … lineups based on their management decisions”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R2.4",
+      "prerequisites": [
+        "R2.4",
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может запускать симуляцию бейсбольного матча.",
+      "source": "“simulate games”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Симуляция рассчитывает ход матча и его итоговый счёт.",
+      "source": "“simulating baseball games”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R3.1.1",
+      "criteria": "Игровые события и состояния симуляции соответствуют бейсболу.",
+      "source": "“baseball simulation”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R3.1",
+      "prerequisites": [
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Пользователь видит обновления хода матча во время симуляции.",
+      "source": "“live game simulation”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Пользователь может просмотреть команды и итоговый счёт завершённого матча.",
+      "source": "“view the results”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3.1"
+      ]
+    },
+    {
+      "requirement_id": "R3.3.1",
+      "criteria": "Отображаемый итоговый счёт совпадает с результатом симуляции.",
+      "source": "“simulate games, and view the results”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R3.3",
+      "prerequisites": [
+        "R3.3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Основной фон сайта имеет цвет `floralwhite` (`#FFFAF0`).",
+      "source": "“floral white for the layout background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Интерактивные элементы оформлены цветом `darkgoldenrod` (`#B8860B`).",
+      "source": "“dark goldenrod for interactive elements”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

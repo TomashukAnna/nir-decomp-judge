@@ -1,0 +1,102 @@
+{
+  "$defs": {
+    "BankRequirement": {
+      "additionalProperties": false,
+      "properties": {
+        "requirement_id": {
+          "minLength": 1,
+          "title": "Requirement Id",
+          "type": "string"
+        },
+        "criteria": {
+          "minLength": 1,
+          "title": "Criteria",
+          "type": "string"
+        },
+        "source": {
+          "minLength": 1,
+          "title": "Source",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "explicit",
+            "implicit"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "rule": {
+          "enum": [
+            "code",
+            "llm"
+          ],
+          "title": "Rule",
+          "type": "string"
+        },
+        "parent": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Parent"
+        },
+        "prerequisites": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Prerequisites",
+          "type": "array"
+        }
+      },
+      "required": [
+        "requirement_id",
+        "criteria",
+        "source",
+        "kind",
+        "rule",
+        "parent",
+        "prerequisites"
+      ],
+      "title": "BankRequirement",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "task_index": {
+      "minimum": 0,
+      "title": "Task Index",
+      "type": "integer"
+    },
+    "webgen_id": {
+      "pattern": "^\\d{6}$",
+      "title": "Webgen Id",
+      "type": "string"
+    },
+    "query": {
+      "minLength": 1,
+      "title": "Query",
+      "type": "string"
+    },
+    "requirements": {
+      "items": {
+        "$ref": "#/$defs/BankRequirement"
+      },
+      "title": "Requirements",
+      "type": "array"
+    }
+  },
+  "required": [
+    "task_index",
+    "webgen_id",
+    "query",
+    "requirements"
+  ],
+  "title": "BankTask",
+  "type": "object"
+}

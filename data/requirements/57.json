@@ -1,0 +1,171 @@
+{
+  "task_index": 57,
+  "webgen_id": "000058",
+  "query": "Please implement a web application for one-to-one coaching sessions to match coaches and users. The application should have functionalities such as personality assessment, user profiles, coaching and mentorship matching, scheduling and session management, and goal setting and progress tracking. Users should be able to complete a personality assessment, create and manage their profiles, search for and select suitable coaches, schedule coaching sessions, and set and track goals. Set the background to beige, and apply saddle brown to components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может пройти оценку личности.",
+      "source": "“complete a personality assessment”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Вопросы оценки направлены на выявление личностных особенностей пользователя.",
+      "source": "“personality assessment”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "После завершения оценки пользователь получает результат на основе своих ответов.",
+      "source": "“personality assessment”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создать свой профиль.",
+      "source": "“create … their profiles”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Пользователь может просматривать и изменять данные своего профиля.",
+      "source": "“manage their profiles”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может искать и выбирать коучей для индивидуальной работы.",
+      "source": "“search for and select suitable coaches”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Результаты поиска соответствуют заданному запросу или условиям поиска.",
+      "source": "“search for … suitable coaches”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Пользователь может просмотреть сведения о коуче, позволяющие оценить его соответствие своим потребностям.",
+      "source": "“select suitable coaches”",
+      "kind": "implicit",
+      "rule": "llm",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Система подбирает коучей или наставников с учётом данных или предпочтений пользователя.",
+      "source": "“coaching and mentorship matching”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может запланировать индивидуальную сессию с выбранным коучем.",
+      "source": "“schedule coaching sessions”; “one-to-one coaching sessions”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "При планировании сессии пользователь может выбрать дату и время.",
+      "source": "“scheduling”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Пользователь может просматривать запланированные сессии и изменять их время или отменять их.",
+      "source": "“session management”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать цели для работы с коучем.",
+      "source": "“set … goals”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Пользователь может обновлять и просматривать прогресс по своим целям.",
+      "source": "“progress tracking”; “track goals”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": [
+        "R5"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон приложения имеет цвет `beige` (`#F5F5DC`).",
+      "source": "“Set the background to beige”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса оформлены цветом `saddlebrown` (`#8B4513`).",
+      "source": "“apply saddle brown to components”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

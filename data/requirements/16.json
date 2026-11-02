@@ -1,0 +1,136 @@
+{
+  "task_index": 16,
+  "webgen_id": "000017",
+  "query": "Please create a one-page website for promoting Fundraiser Day, including introduction to the event, fundraiser testimonials, offer information, and company information. The website should have functionalities such as an automatically moving carousel for displaying offers, a section for displaying fundraiser testimonials, and a section for displaying company information. Users should be able to browse the website to learn more about the Fundraiser Day event. Establish cornsilk as the main background and peru for the controls.",
+  "requirements": [
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Введение, отзывы, предложения и сведения о компании доступны на одной странице.",
+      "source": "“one-page website”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "На странице есть видимый непустой раздел введения в Fundraiser Day.",
+      "source": "“introduction to the event”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1.1",
+      "criteria": "Введение объясняет, что такое Fundraiser Day и с какой целью он проводится.",
+      "source": "“introduction to the event”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R2.1",
+      "prerequisites": [
+        "R2.1"
+      ]
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "На странице есть видимый раздел с непустыми текстами отзывов.",
+      "source": "“a section for displaying fundraiser testimonials”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.2.1",
+      "criteria": "Отзывы описывают опыт или мнение участников сбора средств.",
+      "source": "“fundraiser testimonials”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R2.2",
+      "prerequisites": [
+        "R2.2"
+      ]
+    },
+    {
+      "requirement_id": "R2.3",
+      "criteria": "На странице есть непустые предложения, доступные для просмотра.",
+      "source": "“offer information”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.3.1",
+      "criteria": "Каждое предложение объясняет, что предлагается и как это связано с Fundraiser Day.",
+      "source": "“offer information”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R2.3",
+      "prerequisites": [
+        "R2.3"
+      ]
+    },
+    {
+      "requirement_id": "R2.3.2",
+      "criteria": "Карусель показывает предложения и при перемещении открывает разные предложения.",
+      "source": "“carousel for displaying offers”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2.3",
+      "prerequisites": [
+        "R2.3"
+      ]
+    },
+    {
+      "requirement_id": "R2.3.3",
+      "criteria": "Карусель автоматически меняет отображаемые предложения без действий пользователя.",
+      "source": "“automatically moving carousel”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2.3.2",
+      "prerequisites": [
+        "R2.3.2"
+      ]
+    },
+    {
+      "requirement_id": "R2.4",
+      "criteria": "На странице есть видимый непустой раздел со сведениями о компании.",
+      "source": "“a section for displaying company information”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.4.1",
+      "criteria": "Сведения о компании позволяют понять, чем она занимается.",
+      "source": "“company information”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": "R2.4",
+      "prerequisites": [
+        "R2.4"
+      ]
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Основной видимый фон страницы имеет цвет `cornsilk` (`#FFF8DC`).",
+      "source": "“cornsilk as the main background”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Элементы управления используют `peru` (`#CD853F`) как основной цвет оформления.",
+      "source": "“peru for the controls”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}
