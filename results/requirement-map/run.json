@@ -1,0 +1,9 @@
+{
+  "run_id": "698914f75fe54dd692b176f689d82719",
+  "commit": "156a2a5fe2e2ff8588b4b02fec99896689d02cb4",
+  "seed": 42,
+  "source": "data\\requirements",
+  "neighbors": 5,
+  "ngram_range": "3-5",
+  "projection": "TruncatedSVD"
+}
