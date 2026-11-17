@@ -1,0 +1,3829 @@
+[
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может просматривать статистику игроков.",
+    "source": "“view detailed player statistics”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-011-R1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Статистика игрока содержит несколько бейсбольных показателей его выступления.",
+    "source": "“detailed player statistics”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-011-R1.1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R1",
+    "prerequisite_global_ids": [
+      "webgen-011-R1"
+    ]
+  },
+  {
+    "requirement_id": "R1.2",
+    "criteria": "Статистика игроков обновляется по результатам симулируемых матчей.",
+    "source": "“player statistics tracking”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1",
+      "R3.1"
+    ],
+    "global_id": "webgen-011-R1.2",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R1",
+    "prerequisite_global_ids": [
+      "webgen-011-R1",
+      "webgen-011-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может изменять настройки или состав команды.",
+    "source": "“team management”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-011-R2",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Пользователь может добавлять игроков в состав команды и исключать их из состава.",
+    "source": "“manage team rosters”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [],
+    "global_id": "webgen-011-R2.1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R2",
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.2",
+    "criteria": "Пользователь может просматривать финансы команды и выполнять действия, изменяющие их.",
+    "source": "“manage … finances”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [],
+    "global_id": "webgen-011-R2.2",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R2",
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.3",
+    "criteria": "Пользователь может изменять стратегию команды.",
+    "source": "“adjust team strategies”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [],
+    "global_id": "webgen-011-R2.3",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R2",
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.3.1",
+    "criteria": "Выбранная стратегия команды учитывается при симуляции матча.",
+    "source": "“adjust team strategies … based on their management decisions”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2.3",
+    "prerequisites": [
+      "R2.3",
+      "R3.1"
+    ],
+    "global_id": "webgen-011-R2.3.1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R2.3",
+    "prerequisite_global_ids": [
+      "webgen-011-R2.3",
+      "webgen-011-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R2.4",
+    "criteria": "Пользователь может изменять игровой состав или порядок отбивания.",
+    "source": "“adjust … lineups”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R2.1"
+    ],
+    "global_id": "webgen-011-R2.4",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R2",
+    "prerequisite_global_ids": [
+      "webgen-011-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R2.4.1",
+    "criteria": "Симуляция матча использует выбранный игровой состав или порядок отбивания.",
+    "source": "“adjust … lineups based on their management decisions”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2.4",
+    "prerequisites": [
+      "R2.4",
+      "R3.1"
+    ],
+    "global_id": "webgen-011-R2.4.1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R2.4",
+    "prerequisite_global_ids": [
+      "webgen-011-R2.4",
+      "webgen-011-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может запускать симуляцию бейсбольного матча.",
+    "source": "“simulate games”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-011-R3",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Симуляция рассчитывает ход матча и его итоговый счёт.",
+    "source": "“simulating baseball games”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-011-R3.1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R3",
+    "prerequisite_global_ids": [
+      "webgen-011-R3"
+    ]
+  },
+  {
+    "requirement_id": "R3.1.1",
+    "criteria": "Игровые события и состояния симуляции соответствуют бейсболу.",
+    "source": "“baseball simulation”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R3.1",
+    "prerequisites": [
+      "R3.1"
+    ],
+    "global_id": "webgen-011-R3.1.1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R3.1",
+    "prerequisite_global_ids": [
+      "webgen-011-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R3.2",
+    "criteria": "Пользователь видит обновления хода матча во время симуляции.",
+    "source": "“live game simulation”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3.1"
+    ],
+    "global_id": "webgen-011-R3.2",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R3",
+    "prerequisite_global_ids": [
+      "webgen-011-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R3.3",
+    "criteria": "Пользователь может просмотреть команды и итоговый счёт завершённого матча.",
+    "source": "“view the results”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3.1"
+    ],
+    "global_id": "webgen-011-R3.3",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R3",
+    "prerequisite_global_ids": [
+      "webgen-011-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R3.3.1",
+    "criteria": "Отображаемый итоговый счёт совпадает с результатом симуляции.",
+    "source": "“simulate games, and view the results”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3.3",
+    "prerequisites": [
+      "R3.3"
+    ],
+    "global_id": "webgen-011-R3.3.1",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": "webgen-011-R3.3",
+    "prerequisite_global_ids": [
+      "webgen-011-R3.3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Основной фон сайта имеет цвет `floralwhite` (`#FFFAF0`).",
+    "source": "“floral white for the layout background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-011-R4",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Интерактивные элементы оформлены цветом `darkgoldenrod` (`#B8860B`).",
+    "source": "“dark goldenrod for interactive elements”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-011-R5",
+    "task_index": 11,
+    "webgen_id": "000012",
+    "document": "docs/requirements/11.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Пользователь может начать новую игру: предыдущая партия заменяется начальным игровым состоянием, игра активна.",
+    "source": "“start a new game”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-012-R1.1",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1.2",
+    "criteria": "В начале игры на доске находятся ровно две плитки со значениями 2 или 4.",
+    "source": "“2048 game”; “start a new game”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1.1",
+    "prerequisites": [
+      "R1.1"
+    ],
+    "global_id": "webgen-012-R1.1.2",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.1",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.1"
+    ]
+  },
+  {
+    "requirement_id": "R1.2",
+    "criteria": "Пользователь может перемещать плитки вверх, вниз, влево и вправо.",
+    "source": "“move tiles up, down, left, or right”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1.1"
+    ],
+    "global_id": "webgen-012-R1.2",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-012-R1.1"
+    ]
+  },
+  {
+    "requirement_id": "R1.2.1",
+    "criteria": "При движении вверх плитки сдвигаются к верхней границе, сохраняя порядок в столбцах, кроме слияний.",
+    "source": "“move tiles up”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1.2",
+    "prerequisites": [
+      "R1.2"
+    ],
+    "global_id": "webgen-012-R1.2.1",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.2",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.2.2",
+    "criteria": "При движении вниз плитки сдвигаются к нижней границе, сохраняя порядок в столбцах, кроме слияний.",
+    "source": "“move tiles … down”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1.2",
+    "prerequisites": [
+      "R1.2"
+    ],
+    "global_id": "webgen-012-R1.2.2",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.2",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.2.3",
+    "criteria": "При движении влево плитки сдвигаются к левой границе, сохраняя порядок в строках, кроме слияний.",
+    "source": "“move tiles … left”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1.2",
+    "prerequisites": [
+      "R1.2"
+    ],
+    "global_id": "webgen-012-R1.2.3",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.2",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.2.4",
+    "criteria": "При движении вправо плитки сдвигаются к правой границе, сохраняя порядок в строках, кроме слияний.",
+    "source": "“move tiles … right”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1.2",
+    "prerequisites": [
+      "R1.2"
+    ],
+    "global_id": "webgen-012-R1.2.4",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.2",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.2.5",
+    "criteria": "После хода, изменившего доску, в случайной свободной ячейке появляется ровно одна новая плитка со значением 2 или 4.",
+    "source": "“2048 game”; “moving tiles”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1.2",
+    "prerequisites": [
+      "R1.2"
+    ],
+    "global_id": "webgen-012-R1.2.5",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.2",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.2.6",
+    "criteria": "Команда движения, не изменяющая доску, не создаёт новую плитку.",
+    "source": "“2048 game”; “moving tiles”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1.2",
+    "prerequisites": [
+      "R1.2"
+    ],
+    "global_id": "webgen-012-R1.2.6",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.2",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.3",
+    "criteria": "Две одинаковые плитки, столкнувшиеся при движении, объединяются в одну с удвоенным значением.",
+    "source": "“merge identical tiles”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1.2"
+    ],
+    "global_id": "webgen-012-R1.3",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.3.2",
+    "criteria": "Плитки с разными значениями не объединяются.",
+    "source": "“merge identical tiles”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1.3",
+    "prerequisites": [
+      "R1.3"
+    ],
+    "global_id": "webgen-012-R1.3.2",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.3",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.3"
+    ]
+  },
+  {
+    "requirement_id": "R1.3.3",
+    "criteria": "Плитка, созданная слиянием, не объединяется повторно в том же ходу.",
+    "source": "“2048 game”; “merging tiles”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1.3",
+    "prerequisites": [
+      "R1.3"
+    ],
+    "global_id": "webgen-012-R1.3.3",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.3",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.3"
+    ]
+  },
+  {
+    "requirement_id": "R1.4.1",
+    "criteria": "При появлении плитки 2048 приложение обозначает победу.",
+    "source": "“win the game by achieving the 2048 result”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1.3"
+    ],
+    "global_id": "webgen-012-R1.4.1",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-012-R1.3"
+    ]
+  },
+  {
+    "requirement_id": "R1.4.2",
+    "criteria": "Приложение обозначает окончание игры, когда нет ходов, позволяющих сдвинуть или объединить плитки.",
+    "source": "“game over”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1.2",
+      "R1.3"
+    ],
+    "global_id": "webgen-012-R1.4.2",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-012-R1.2",
+      "webgen-012-R1.3"
+    ]
+  },
+  {
+    "requirement_id": "R1.4.3",
+    "criteria": "После окончания игры пользователь может активировать возрождение.",
+    "source": "“If the game is over, users can choose to revive”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1.4.2"
+    ],
+    "global_id": "webgen-012-R1.4.3",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-012-R1.4.2"
+    ]
+  },
+  {
+    "requirement_id": "R1.4.4",
+    "criteria": "Возрождение снимает состояние окончания игры, сохраняет часть прогресса и позволяет сделать ход, изменяющий доску.",
+    "source": "“revive and continue playing”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1.4.3",
+    "prerequisites": [
+      "R1.4.3"
+    ],
+    "global_id": "webgen-012-R1.4.4",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": "webgen-012-R1.4.3",
+    "prerequisite_global_ids": [
+      "webgen-012-R1.4.3"
+    ]
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Основной видимый фон страницы имеет цвет `linen` (`#FAF0E6`).",
+    "source": "“Choose linen for the background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-012-R2.1",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.2",
+    "criteria": "Основной фон плиток, кнопок и панелей имеет цвет `maroon` (`#800000`).",
+    "source": "“set all component colors to maroon”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-012-R2.2",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.3",
+    "criteria": "Игровая доска содержит 16 ячеек, расположенных в четыре строки и четыре столбца.",
+    "source": "“2048 game”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-012-R2.3",
+    "task_index": 12,
+    "webgen_id": "000013",
+    "document": "docs/requirements/12.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Введение, отзывы, предложения и сведения о компании доступны на одной странице.",
+    "source": "“one-page website”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-016-R1.1",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "На странице есть видимый непустой раздел введения в Fundraiser Day.",
+    "source": "“introduction to the event”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-016-R2.1",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1.1",
+    "criteria": "Введение объясняет, что такое Fundraiser Day и с какой целью он проводится.",
+    "source": "“introduction to the event”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R2.1",
+    "prerequisites": [
+      "R2.1"
+    ],
+    "global_id": "webgen-016-R2.1.1",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": "webgen-016-R2.1",
+    "prerequisite_global_ids": [
+      "webgen-016-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R2.2",
+    "criteria": "На странице есть видимый раздел с непустыми текстами отзывов.",
+    "source": "“a section for displaying fundraiser testimonials”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-016-R2.2",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.2.1",
+    "criteria": "Отзывы описывают опыт или мнение участников сбора средств.",
+    "source": "“fundraiser testimonials”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R2.2",
+    "prerequisites": [
+      "R2.2"
+    ],
+    "global_id": "webgen-016-R2.2.1",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": "webgen-016-R2.2",
+    "prerequisite_global_ids": [
+      "webgen-016-R2.2"
+    ]
+  },
+  {
+    "requirement_id": "R2.3",
+    "criteria": "На странице есть непустые предложения, доступные для просмотра.",
+    "source": "“offer information”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-016-R2.3",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.3.1",
+    "criteria": "Каждое предложение объясняет, что предлагается и как это связано с Fundraiser Day.",
+    "source": "“offer information”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R2.3",
+    "prerequisites": [
+      "R2.3"
+    ],
+    "global_id": "webgen-016-R2.3.1",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": "webgen-016-R2.3",
+    "prerequisite_global_ids": [
+      "webgen-016-R2.3"
+    ]
+  },
+  {
+    "requirement_id": "R2.3.2",
+    "criteria": "Карусель показывает предложения и при перемещении открывает разные предложения.",
+    "source": "“carousel for displaying offers”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2.3",
+    "prerequisites": [
+      "R2.3"
+    ],
+    "global_id": "webgen-016-R2.3.2",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": "webgen-016-R2.3",
+    "prerequisite_global_ids": [
+      "webgen-016-R2.3"
+    ]
+  },
+  {
+    "requirement_id": "R2.3.3",
+    "criteria": "Карусель автоматически меняет отображаемые предложения без действий пользователя.",
+    "source": "“automatically moving carousel”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2.3.2",
+    "prerequisites": [
+      "R2.3.2"
+    ],
+    "global_id": "webgen-016-R2.3.3",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": "webgen-016-R2.3.2",
+    "prerequisite_global_ids": [
+      "webgen-016-R2.3.2"
+    ]
+  },
+  {
+    "requirement_id": "R2.4",
+    "criteria": "На странице есть видимый непустой раздел со сведениями о компании.",
+    "source": "“a section for displaying company information”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-016-R2.4",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.4.1",
+    "criteria": "Сведения о компании позволяют понять, чем она занимается.",
+    "source": "“company information”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R2.4",
+    "prerequisites": [
+      "R2.4"
+    ],
+    "global_id": "webgen-016-R2.4.1",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": "webgen-016-R2.4",
+    "prerequisite_global_ids": [
+      "webgen-016-R2.4"
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Основной видимый фон страницы имеет цвет `cornsilk` (`#FFF8DC`).",
+    "source": "“cornsilk as the main background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-016-R3.1",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.2",
+    "criteria": "Элементы управления используют `peru` (`#CD853F`) как основной цвет оформления.",
+    "source": "“peru for the controls”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-016-R3.2",
+    "task_index": 16,
+    "webgen_id": "000017",
+    "document": "docs/requirements/16.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Список акций доступен для просмотра.",
+    "source": "“browsing promotions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-026-R1",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Карточка акции показывает описание, скидку, категорию и автора.",
+    "source": "“sharing promotions and discounts”; “browsing promotions”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-026-R1.1",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": "webgen-026-R1",
+    "prerequisite_global_ids": [
+      "webgen-026-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может опубликовать акцию через форму.",
+    "source": "“Users should be able to … share promotions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-026-R2",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Форма не позволяет опубликовать акцию с незаполненными обязательными полями.",
+    "source": "“sharing promotions”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-026-R2.1",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": "webgen-026-R2",
+    "prerequisite_global_ids": [
+      "webgen-026-R2"
+    ]
+  },
+  {
+    "requirement_id": "R2.2",
+    "criteria": "Опубликованная акция доступна для просмотра другим пользователям.",
+    "source": "“community website for sharing promotions and discounts”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R2",
+    "prerequisites": [
+      "R1",
+      "R2"
+    ],
+    "global_id": "webgen-026-R2.2",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": "webgen-026-R2",
+    "prerequisite_global_ids": [
+      "webgen-026-R1",
+      "webgen-026-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может искать акции.",
+    "source": "“searching promotions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-026-R3",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Поиск находит акции по теме запроса, включая поиск по категории.",
+    "source": "“search for promotions of interest”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-026-R3.1",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": "webgen-026-R3",
+    "prerequisite_global_ids": [
+      "webgen-026-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Доступен административный раздел для управления пользователями, акциями и настройками сайта.",
+    "source": "“a management backend for managing users, promotions, and website settings”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-026-R4",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Администратор может просматривать список пользователей и изменять их данные.",
+    "source": "“managing users”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-026-R4.1",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": "webgen-026-R4",
+    "prerequisite_global_ids": [
+      "webgen-026-R4"
+    ]
+  },
+  {
+    "requirement_id": "R4.2",
+    "criteria": "Административный раздел доступен только администратору.",
+    "source": "“management backend”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-026-R4.2",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": "webgen-026-R4",
+    "prerequisite_global_ids": [
+      "webgen-026-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Внешний фон сайта имеет цвет `ivory` (`#FFFFF0`), а блоки интерфейса — `forestgreen` (`#228B22`).",
+    "source": "“Use ivory for the outer layout and forest green for UI blocks”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-026-R5",
+    "task_index": 26,
+    "webgen_id": "000027",
+    "document": "docs/requirements/26.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может просматривать публикации форума.",
+    "source": "“browse … posts”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-028-R1",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Пользователь может просмотреть полный текст выбранной публикации.",
+    "source": "“browse … posts”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-028-R1.1",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R1",
+    "prerequisite_global_ids": [
+      "webgen-028-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может создавать новые публикации.",
+    "source": "“create new posts”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-028-R2",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Созданная публикация появляется среди публикаций форума.",
+    "source": "“posting”; “create new posts”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R1",
+      "R2"
+    ],
+    "global_id": "webgen-028-R2.1",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R2",
+    "prerequisite_global_ids": [
+      "webgen-028-R1",
+      "webgen-028-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может отвечать на чужие публикации.",
+    "source": "“reply to others' posts”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-028-R3",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-028-R1"
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Созданный ответ отображается у той публикации, на которую он отправлен.",
+    "source": "“reply to others' posts”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-028-R3.1",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R3",
+    "prerequisite_global_ids": [
+      "webgen-028-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может искать публикации.",
+    "source": "“search for posts”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-028-R4",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Результаты поиска содержат публикации, соответствующие запросу.",
+    "source": "“search for posts”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-028-R4.1",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R4",
+    "prerequisite_global_ids": [
+      "webgen-028-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Пользователь может просматривать публикации по выбранной категории.",
+    "source": "“browse posts by category”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-028-R5",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-028-R1"
+    ]
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "При выборе категории отображаются только публикации этой категории.",
+    "source": "“browse posts by category”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5"
+    ],
+    "global_id": "webgen-028-R5.1",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R5",
+    "prerequisite_global_ids": [
+      "webgen-028-R5"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Пользователю доступен личный кабинет.",
+    "source": "“a user center”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-028-R6",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R6.1",
+    "criteria": "В личном кабинете пользователь может просматривать свои публикации.",
+    "source": "“view their own posts”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R6",
+    "prerequisites": [
+      "R6"
+    ],
+    "global_id": "webgen-028-R6.1",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R6",
+    "prerequisite_global_ids": [
+      "webgen-028-R6"
+    ]
+  },
+  {
+    "requirement_id": "R6.2",
+    "criteria": "В личном кабинете пользователь может просматривать историю своих ответов.",
+    "source": "“view their … reply records”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R6",
+    "prerequisites": [
+      "R6"
+    ],
+    "global_id": "webgen-028-R6.2",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R6",
+    "prerequisite_global_ids": [
+      "webgen-028-R6"
+    ]
+  },
+  {
+    "requirement_id": "R6.3",
+    "criteria": "В личном кабинете пользователь может просматривать свою персональную информацию.",
+    "source": "“view their … personal information”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R6",
+    "prerequisites": [
+      "R6"
+    ],
+    "global_id": "webgen-028-R6.3",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": "webgen-028-R6",
+    "prerequisite_global_ids": [
+      "webgen-028-R6"
+    ]
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Глобальный фон страницы имеет цвет `ghostwhite` (`#F8F8FF`).",
+    "source": "“ghost white for global background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-028-R7",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R8",
+    "criteria": "Все компоненты интерфейса оформлены цветом `slategray` (`#708090`).",
+    "source": "“slate gray for all components”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-028-R8",
+    "task_index": 28,
+    "webgen_id": "000029",
+    "document": "docs/requirements/28.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "При начале работы система сохраняет дату и время начала, связанные с текущим сотрудником.",
+    "source": "“employee clocking in”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-047-R1.1",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.2",
+    "criteria": "При окончании работы система сохраняет дату и время окончания и закрывает открытый период текущего сотрудника.",
+    "source": "“employee clocking … out”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1.1"
+    ],
+    "global_id": "webgen-047-R1.2",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-047-R1.1"
+    ]
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Сотрудник может просматривать свою историю посещаемости с датами и отметками начала и окончания работы.",
+    "source": "“view their own attendance records”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-047-R2.1",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.2",
+    "criteria": "В истории отображается продолжительность присутствия сотрудника.",
+    "source": "“including attendance time”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2.1",
+    "prerequisites": [
+      "R2.1"
+    ],
+    "global_id": "webgen-047-R2.2",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": "webgen-047-R2.1",
+    "prerequisite_global_ids": [
+      "webgen-047-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R2.3",
+    "criteria": "В истории отображается продолжительность отсутствия сотрудника.",
+    "source": "“including … absence time”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2.1",
+    "prerequisites": [
+      "R2.1"
+    ],
+    "global_id": "webgen-047-R2.3",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": "webgen-047-R2.1",
+    "prerequisite_global_ids": [
+      "webgen-047-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Администратор может просматривать записи посещаемости всех сотрудников.",
+    "source": "“view all employees' attendance records”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-047-R3.1",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.2",
+    "criteria": "Администратор может получать статистические сводки по зарегистрированной посещаемости.",
+    "source": "“perform statistics”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3.1",
+    "prerequisites": [
+      "R3.1"
+    ],
+    "global_id": "webgen-047-R3.2",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": "webgen-047-R3.1",
+    "prerequisite_global_ids": [
+      "webgen-047-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R3.3",
+    "criteria": "Администратору доступны средства анализа данных посещаемости.",
+    "source": "“perform … analysis”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R3.1",
+    "prerequisites": [
+      "R3.1"
+    ],
+    "global_id": "webgen-047-R3.3",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": "webgen-047-R3.1",
+    "prerequisite_global_ids": [
+      "webgen-047-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Основной видимый фон страницы имеет цвет `papayawhip` (`#FFEFD5`).",
+    "source": "“papaya whip as the base color”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-047-R4.1",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R4.2",
+    "criteria": "Основной фон кнопок, карточек и панелей имеет цвет `darkorange` (`#FF8C00`).",
+    "source": "“dark orange for all components”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-047-R4.2",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "Система различает сотрудника и администратора: сотруднику доступны только свои записи, администратору — все; доступ сотрудника к админ-панели блокируется.",
+    "source": "“Employees … view their own”; “Administrators … view all employees'”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-047-R5.1",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R5.3",
+    "criteria": "Зарегистрированные отметки доступны при последующем просмотре записей посещаемости.",
+    "source": "“record employee attendance”; “view their own attendance records”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1.1",
+      "R1.2",
+      "R2.1"
+    ],
+    "global_id": "webgen-047-R5.3",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-047-R1.1",
+      "webgen-047-R1.2",
+      "webgen-047-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R5.4",
+    "criteria": "Одна и та же запись содержит одинаковые данные в представлениях сотрудника и администратора.",
+    "source": "“view their own attendance records”; “view all employees' attendance records”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R2.1",
+      "R3.1"
+    ],
+    "global_id": "webgen-047-R5.4",
+    "task_index": 47,
+    "webgen_id": "000048",
+    "document": "docs/requirements/47.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-047-R2.1",
+      "webgen-047-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может заполнять анкету о здоровье.",
+    "source": "“filling out the survey”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-049-R1",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Вопросы анкеты относятся к сбору информации о здоровье женщин.",
+    "source": "“a health survey website for women”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-049-R1.1",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": "webgen-049-R1",
+    "prerequisite_global_ids": [
+      "webgen-049-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может отправить заполненную анкету.",
+    "source": "“submit their information”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-049-R2",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-049-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Отправленные ответы автоматически сохраняются и доступны в системе.",
+    "source": "“automatically collect the information”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-049-R2.1",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": "webgen-049-R2",
+    "prerequisite_global_ids": [
+      "webgen-049-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "В системе доступны просмотр собранных анкет и действия по управлению ими.",
+    "source": "“data management”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R2.1"
+    ],
+    "global_id": "webgen-049-R3",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-049-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "При просмотре анкеты отображаются ответы, отправленные пользователем.",
+    "source": "“collect the information”; “data management”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-049-R3.1",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": "webgen-049-R3",
+    "prerequisite_global_ids": [
+      "webgen-049-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "В системе можно назначать или изменять права доступа пользователей.",
+    "source": "“permission management”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-049-R4",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Пользователь не может выполнить действие, на которое у него нет разрешения.",
+    "source": "“permission management”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-049-R4.1",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": "webgen-049-R4",
+    "prerequisite_global_ids": [
+      "webgen-049-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "В системе можно проверять собранные анкеты и фиксировать результат проверки.",
+    "source": "“data review”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R2.1"
+    ],
+    "global_id": "webgen-049-R5",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-049-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "В системе можно сформировать и просмотреть отчёт по собранным данным.",
+    "source": "“reporting functions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R2.1"
+    ],
+    "global_id": "webgen-049-R6",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-049-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R6.1",
+    "criteria": "Содержимое отчёта соответствует собранным данным, на которых он построен.",
+    "source": "“reporting functions”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R6",
+    "prerequisites": [
+      "R6"
+    ],
+    "global_id": "webgen-049-R6.1",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": "webgen-049-R6",
+    "prerequisite_global_ids": [
+      "webgen-049-R6"
+    ]
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Основной фон сайта имеет цвет `whitesmoke` (`#F5F5F5`).",
+    "source": "“whitesmoke as the default background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-049-R7",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R8",
+    "criteria": "Компоненты интерфейса оформлены цветом `darkcyan` (`#008B8B`).",
+    "source": "“dark cyan for component styling”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-049-R8",
+    "task_index": 49,
+    "webgen_id": "000050",
+    "document": "docs/requirements/49.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может пройти оценку личности.",
+    "source": "“complete a personality assessment”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-057-R1",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Вопросы оценки направлены на выявление личностных особенностей пользователя.",
+    "source": "“personality assessment”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-057-R1.1",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R1",
+    "prerequisite_global_ids": [
+      "webgen-057-R1"
+    ]
+  },
+  {
+    "requirement_id": "R1.2",
+    "criteria": "После завершения оценки пользователь получает результат на основе своих ответов.",
+    "source": "“personality assessment”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-057-R1.2",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R1",
+    "prerequisite_global_ids": [
+      "webgen-057-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может создать свой профиль.",
+    "source": "“create … their profiles”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-057-R2",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Пользователь может просматривать и изменять данные своего профиля.",
+    "source": "“manage their profiles”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-057-R2.1",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R2",
+    "prerequisite_global_ids": [
+      "webgen-057-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может искать и выбирать коучей для индивидуальной работы.",
+    "source": "“search for and select suitable coaches”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-057-R3",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Результаты поиска соответствуют заданному запросу или условиям поиска.",
+    "source": "“search for … suitable coaches”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-057-R3.1",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R3",
+    "prerequisite_global_ids": [
+      "webgen-057-R3"
+    ]
+  },
+  {
+    "requirement_id": "R3.2",
+    "criteria": "Пользователь может просмотреть сведения о коуче, позволяющие оценить его соответствие своим потребностям.",
+    "source": "“select suitable coaches”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-057-R3.2",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R3",
+    "prerequisite_global_ids": [
+      "webgen-057-R3"
+    ]
+  },
+  {
+    "requirement_id": "R3.3",
+    "criteria": "Система подбирает коучей или наставников с учётом данных или предпочтений пользователя.",
+    "source": "“coaching and mentorship matching”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-057-R3.3",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R3",
+    "prerequisite_global_ids": [
+      "webgen-057-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может запланировать индивидуальную сессию с выбранным коучем.",
+    "source": "“schedule coaching sessions”; “one-to-one coaching sessions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-057-R4",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-057-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "При планировании сессии пользователь может выбрать дату и время.",
+    "source": "“scheduling”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-057-R4.1",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R4",
+    "prerequisite_global_ids": [
+      "webgen-057-R4"
+    ]
+  },
+  {
+    "requirement_id": "R4.2",
+    "criteria": "Пользователь может просматривать запланированные сессии и изменять их время или отменять их.",
+    "source": "“session management”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-057-R4.2",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R4",
+    "prerequisite_global_ids": [
+      "webgen-057-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Пользователь может создавать цели для работы с коучем.",
+    "source": "“set … goals”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-057-R5",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "Пользователь может обновлять и просматривать прогресс по своим целям.",
+    "source": "“progress tracking”; “track goals”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5"
+    ],
+    "global_id": "webgen-057-R5.1",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": "webgen-057-R5",
+    "prerequisite_global_ids": [
+      "webgen-057-R5"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Основной фон приложения имеет цвет `beige` (`#F5F5DC`).",
+    "source": "“Set the background to beige”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-057-R6",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Компоненты интерфейса оформлены цветом `saddlebrown` (`#8B4513`).",
+    "source": "“apply saddle brown to components”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-057-R7",
+    "task_index": 57,
+    "webgen_id": "000058",
+    "document": "docs/requirements/57.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может создавать учебные группы.",
+    "source": "“create … study groups”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-058-R1",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Созданная группа доступна другим пользователям для вступления.",
+    "source": "“users can create or join study groups”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-058-R1.1",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": "webgen-058-R1",
+    "prerequisite_global_ids": [
+      "webgen-058-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может вступать в существующие учебные группы.",
+    "source": "“join study groups”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-058-R2",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "После вступления пользователь отображается как участник выбранной группы.",
+    "source": "“join groups”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-058-R2.1",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": "webgen-058-R2",
+    "prerequisite_global_ids": [
+      "webgen-058-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может делиться учебными ресурсами в группе.",
+    "source": "“share resources”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-058-R3",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Ресурс, которым поделился пользователь, доступен другим участникам группы.",
+    "source": "“sharing resources”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-058-R3.1",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": "webgen-058-R3",
+    "prerequisite_global_ids": [
+      "webgen-058-R3"
+    ]
+  },
+  {
+    "requirement_id": "R3.2",
+    "criteria": "Пользователь может скачивать доступные учебные ресурсы.",
+    "source": "“download resources”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-058-R3.2",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": "webgen-058-R3",
+    "prerequisite_global_ids": [
+      "webgen-058-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователи могут совместно обсуждать проекты.",
+    "source": "“collaborate on projects”; “participate in project discussions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-058-R4",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Пользователь может отправлять сообщения в обсуждение выбранного проекта.",
+    "source": "“participate in project discussions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-058-R4.1",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": "webgen-058-R4",
+    "prerequisite_global_ids": [
+      "webgen-058-R4"
+    ]
+  },
+  {
+    "requirement_id": "R4.2",
+    "criteria": "Сообщения в обсуждении проекта доступны другим его участникам.",
+    "source": "“collaborate on projects”; “project discussions”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4.1"
+    ],
+    "global_id": "webgen-058-R4.2",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": "webgen-058-R4",
+    "prerequisite_global_ids": [
+      "webgen-058-R4.1"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Пользователю доступен личный кабинет.",
+    "source": "“a personal center”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-058-R5",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "В личном кабинете пользователь может просматривать свою персональную информацию.",
+    "source": "“view their personal information”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5"
+    ],
+    "global_id": "webgen-058-R5.1",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": "webgen-058-R5",
+    "prerequisite_global_ids": [
+      "webgen-058-R5"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Все фоны страниц имеют цвет `aliceblue` (`#F0F8FF`).",
+    "source": "“all backgrounds with alice blue”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-058-R6",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Все компоненты интерфейса оформлены цветом `steelblue` (`#4682B4`).",
+    "source": "“all components with steel blue”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-058-R7",
+    "task_index": 58,
+    "webgen_id": "000059",
+    "document": "docs/requirements/58.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может создать собственную страницу со списком ссылок.",
+    "source": "“create … their own link tree”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-072-R1",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "На странице отображаются добавленные пользователем ссылки.",
+    "source": "“displaying … links”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1",
+      "R2"
+    ],
+    "global_id": "webgen-072-R1.1",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R1",
+    "prerequisite_global_ids": [
+      "webgen-072-R1",
+      "webgen-072-R2"
+    ]
+  },
+  {
+    "requirement_id": "R1.2",
+    "criteria": "Каждая отображаемая ссылка позволяет перейти по заданному адресу.",
+    "source": "“link tree website for displaying … links”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1.1"
+    ],
+    "global_id": "webgen-072-R1.2",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R1",
+    "prerequisite_global_ids": [
+      "webgen-072-R1.1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может добавлять новые ссылки в свою подборку.",
+    "source": "“adding new links”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-072-R2",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R1",
+    "prerequisite_global_ids": [
+      "webgen-072-R1"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может редактировать существующие ссылки в своей подборке.",
+    "source": "“editing existing links”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-072-R3",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R1",
+    "prerequisite_global_ids": [
+      "webgen-072-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "После редактирования ссылка отображает актуальные данные и ведёт по обновлённому адресу.",
+    "source": "“editing existing links”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-072-R3.1",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R3",
+    "prerequisite_global_ids": [
+      "webgen-072-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может удалять ссылки из своей подборки.",
+    "source": "“deleting unnecessary links”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-072-R4",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R1",
+    "prerequisite_global_ids": [
+      "webgen-072-R2"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Пользователь может получить ссылку для доступа к своей подборке.",
+    "source": "“link tree's shareable link”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-072-R5",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R1",
+    "prerequisite_global_ids": [
+      "webgen-072-R1"
+    ]
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "Другой пользователь может открыть подборку по её общей ссылке и просмотреть добавленные ссылки.",
+    "source": "“sharing their link tree with others through link tree's shareable link”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5",
+      "R1.1"
+    ],
+    "global_id": "webgen-072-R5.1",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": "webgen-072-R5",
+    "prerequisite_global_ids": [
+      "webgen-072-R5",
+      "webgen-072-R1.1"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Основной фон сайта имеет цвет `papayawhip` (`#FFEFD5`).",
+    "source": "“Set overall background to papaya whip”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-072-R6",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Компоненты интерфейса оформлены цветом `darkorange` (`#FF8C00`).",
+    "source": "“style components with dark orange”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-072-R7",
+    "task_index": 72,
+    "webgen_id": "000073",
+    "document": "docs/requirements/72.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может просматривать информацию о делах детективного агентства.",
+    "source": "“browse case information”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R1",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Отображаемая информация позволяет определить дело и понять его содержание.",
+    "source": "“case information”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-082-R1.1",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R1",
+    "prerequisite_global_ids": [
+      "webgen-082-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может вносить и сохранять данные по делу.",
+    "source": "“data collection and storage”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R2",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Сохранённые данные доступны при повторном открытии дела.",
+    "source": "“data … storage”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R1",
+      "R2"
+    ],
+    "global_id": "webgen-082-R2.1",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R2",
+    "prerequisite_global_ids": [
+      "webgen-082-R1",
+      "webgen-082-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может отправлять оперативные отчёты по делу.",
+    "source": "“submit real-time reports”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R3",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Отправленный отчёт доступен для просмотра сразу после отправки.",
+    "source": "“real-time reporting”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-082-R3.1",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R3",
+    "prerequisite_global_ids": [
+      "webgen-082-R3"
+    ]
+  },
+  {
+    "requirement_id": "R3.2",
+    "criteria": "Отправленный отчёт отображается у того дела, к которому он относится.",
+    "source": "“case management”; “submit real-time reports”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R1",
+      "R3"
+    ],
+    "global_id": "webgen-082-R3.2",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R3",
+    "prerequisite_global_ids": [
+      "webgen-082-R1",
+      "webgen-082-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может записывать отработанное время.",
+    "source": "“log work hours”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R4",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Записи рабочего времени связаны с соответствующими делами и доступны для просмотра.",
+    "source": "“managing cases and tracking work hours”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R1",
+      "R4"
+    ],
+    "global_id": "webgen-082-R4.1",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R4",
+    "prerequisite_global_ids": [
+      "webgen-082-R1",
+      "webgen-082-R4"
+    ]
+  },
+  {
+    "requirement_id": "R4.2",
+    "criteria": "Система подсчитывает суммарное рабочее время по записям.",
+    "source": "“work hours tracking”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-082-R4.2",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R4",
+    "prerequisite_global_ids": [
+      "webgen-082-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Система формирует предварительную смету расходов по делу.",
+    "source": "“estimated expense sheet generation”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R5",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "Пользователь может просматривать сформированную смету расходов.",
+    "source": "“view estimated expense sheets”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5"
+    ],
+    "global_id": "webgen-082-R5.1",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R5",
+    "prerequisite_global_ids": [
+      "webgen-082-R5"
+    ]
+  },
+  {
+    "requirement_id": "R5.2",
+    "criteria": "Смета содержит предполагаемые расходы и их суммы.",
+    "source": "“estimated expense sheet”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R5",
+    "prerequisites": [
+      "R5.1"
+    ],
+    "global_id": "webgen-082-R5.2",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R5",
+    "prerequisite_global_ids": [
+      "webgen-082-R5.1"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Пользователь может просматривать лист служебного задания по делу.",
+    "source": "“view … service assignment sheets”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R6",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R6.1",
+    "criteria": "Лист служебного задания содержит назначенную работу и её исполнителя.",
+    "source": "“service assignment sheet”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R6",
+    "prerequisites": [
+      "R6"
+    ],
+    "global_id": "webgen-082-R6.1",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": "webgen-082-R6",
+    "prerequisite_global_ids": [
+      "webgen-082-R6"
+    ]
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Основной фон приложения имеет цвет `beige` (`#F5F5DC`).",
+    "source": "“Apply beige as the background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R7",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R8",
+    "criteria": "Все компоненты интерфейса оформлены цветом `saddlebrown` (`#8B4513`).",
+    "source": "“style all components with saddle brown”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-082-R8",
+    "task_index": 82,
+    "webgen_id": "000083",
+    "document": "docs/requirements/82.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может создавать строительные проекты.",
+    "source": "“create … projects”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-084-R1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Пользователь может просматривать и изменять данные созданного проекта.",
+    "source": "“manage projects”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R1.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R1",
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может добавлять и просматривать документы проекта.",
+    "source": "“document management”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R2",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Пользователь может изменять сведения о документе или удалять его из проекта.",
+    "source": "“document management”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-084-R2.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R2",
+    "prerequisite_global_ids": [
+      "webgen-084-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может задавать сроки выполнения проекта.",
+    "source": "“schedule project timelines”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R3",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Пользователь может изменять сроки и просматривать актуальное расписание проекта.",
+    "source": "“project scheduling”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-084-R3.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R3",
+    "prerequisite_global_ids": [
+      "webgen-084-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может отправлять сообщения участникам команды проекта.",
+    "source": "“communicate with team members”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R4",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Отправленные сообщения доступны соответствующим участникам команды.",
+    "source": "“communication tools”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-084-R4.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R4",
+    "prerequisite_global_ids": [
+      "webgen-084-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Пользователь может рассчитывать предварительную стоимость проекта.",
+    "source": "“estimate project costs”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R5",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "Итоговая оценка стоимости пересчитывается при изменении исходных затрат.",
+    "source": "“estimating job costing”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5"
+    ],
+    "global_id": "webgen-084-R5.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R5",
+    "prerequisite_global_ids": [
+      "webgen-084-R5"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Пользователь может записывать затраченное на проект рабочее время.",
+    "source": "“time tracking”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R6",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R6.1",
+    "criteria": "Пользователь может просматривать записи рабочего времени по проекту.",
+    "source": "“time tracking”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R6",
+    "prerequisites": [
+      "R6"
+    ],
+    "global_id": "webgen-084-R6.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R6",
+    "prerequisite_global_ids": [
+      "webgen-084-R6"
+    ]
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Пользователь может просматривать прогресс проекта.",
+    "source": "“track project progress”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R7",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R7.1",
+    "criteria": "Прогресс проекта обновляется при изменении данных о выполнении работ.",
+    "source": "“track project progress”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R7",
+    "prerequisites": [
+      "R7"
+    ],
+    "global_id": "webgen-084-R7.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R7",
+    "prerequisite_global_ids": [
+      "webgen-084-R7"
+    ]
+  },
+  {
+    "requirement_id": "R8",
+    "criteria": "Пользователь может добавлять ресурсы в проект и просматривать их.",
+    "source": "“resource management”; “manage resources”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-084-R8",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-084-R1"
+    ]
+  },
+  {
+    "requirement_id": "R8.1",
+    "criteria": "Пользователь может изменять данные ресурсов или их назначение проекту.",
+    "source": "“manage resources”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R8",
+    "prerequisites": [
+      "R8"
+    ],
+    "global_id": "webgen-084-R8.1",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": "webgen-084-R8",
+    "prerequisite_global_ids": [
+      "webgen-084-R8"
+    ]
+  },
+  {
+    "requirement_id": "R9",
+    "criteria": "Основной фон сайта имеет цвет `lightgray` (`#D3D3D3`).",
+    "source": "“Assign light gray to the background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-084-R9",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R10",
+    "criteria": "Элементы интерфейса оформлены цветом `darkred` (`#8B0000`).",
+    "source": "“dark red to the UI elements”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-084-R10",
+    "task_index": 84,
+    "webgen_id": "000085",
+    "document": "docs/requirements/84.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "На сайте отображается название «World of Imagination».",
+    "source": "“a website called ‘World of Imagination’”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-092-R1",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может просматривать творческие работы других пользователей.",
+    "source": "“browse others' creative works”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-092-R2",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Представленные работы содержат творческий контент и связаны с их авторами.",
+    "source": "“showcasing user-created content”; “others' creative works”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R2",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-092-R2.1",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": "webgen-092-R2",
+    "prerequisite_global_ids": [
+      "webgen-092-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может отправить собственную идею через форму.",
+    "source": "“share their own ideas via the share ideas form”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-092-R3",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Отправленная идея доступна для просмотра другим пользователям.",
+    "source": "“sharing ideas”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-092-R3.1",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": "webgen-092-R3",
+    "prerequisite_global_ids": [
+      "webgen-092-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может участвовать в обсуждениях.",
+    "source": "“participate in discussions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-092-R4",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Пользователь может отправлять сообщения в выбранное обсуждение.",
+    "source": "“participate in discussions”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-092-R4.1",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": "webgen-092-R4",
+    "prerequisite_global_ids": [
+      "webgen-092-R4"
+    ]
+  },
+  {
+    "requirement_id": "R4.2",
+    "criteria": "Сообщение отображается в выбранном обсуждении и доступно другим его участникам.",
+    "source": "“discussing”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4.1"
+    ],
+    "global_id": "webgen-092-R4.2",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": "webgen-092-R4",
+    "prerequisite_global_ids": [
+      "webgen-092-R4.1"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Пользователь может взаимодействовать с другими пользователями.",
+    "source": "“interact with other users”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-092-R5",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "Действие взаимодействия связано с конкретным пользователем или его публикацией и имеет видимый результат.",
+    "source": "“interact with other users”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5"
+    ],
+    "global_id": "webgen-092-R5.1",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": "webgen-092-R5",
+    "prerequisite_global_ids": [
+      "webgen-092-R5"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Основной фон сайта имеет цвет `azure` (`#F0FFFF`).",
+    "source": "“azure mist for the background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-092-R6",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Все компоненты интерфейса оформлены цветом `darkslateblue` (`#483D8B`).",
+    "source": "“set all component colors to dark slate blue”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-092-R7",
+    "task_index": 92,
+    "webgen_id": "000093",
+    "document": "docs/requirements/92.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может просматривать туристические достопримечательности и кемпинги Европы.",
+    "source": "“browse tourist attractions and campsites”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-096-R1",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Представленные объекты расположены в Европе и содержат сведения, позволяющие понять, что это за место.",
+    "source": "“for Europe, showcasing tourist attractions and campsites across the continent”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-096-R1.1",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": "webgen-096-R1",
+    "prerequisite_global_ids": [
+      "webgen-096-R1"
+    ]
+  },
+  {
+    "requirement_id": "R1.2",
+    "criteria": "Пользователь может просматривать объекты по выбранной стране и городу.",
+    "source": "“in different countries and cities”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R1",
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-096-R1.2",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": "webgen-096-R1",
+    "prerequisite_global_ids": [
+      "webgen-096-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может искать достопримечательности и кемпинги.",
+    "source": "“functionalities for searching”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-096-R2",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Результаты поиска соответствуют запросу или выбранным условиям.",
+    "source": "“searching”",
+    "kind": "implicit",
+    "rule": "llm",
+    "parent": "R2",
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-096-R2.1",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": "webgen-096-R2",
+    "prerequisite_global_ids": [
+      "webgen-096-R2"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может бронировать достопримечательности и кемпинги.",
+    "source": "“book attractions and campsites of interest”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-096-R3",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-096-R1"
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "При бронировании пользователь может указать дату посещения достопримечательности или период проживания в кемпинге.",
+    "source": "“book attractions and campsites”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-096-R3.1",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": "webgen-096-R3",
+    "prerequisite_global_ids": [
+      "webgen-096-R3"
+    ]
+  },
+  {
+    "requirement_id": "R3.2",
+    "criteria": "После оформления пользователь видит подтверждение бронирования выбранного объекта с указанными датами.",
+    "source": "“book attractions and campsites”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R3",
+      "R3.1"
+    ],
+    "global_id": "webgen-096-R3.2",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": "webgen-096-R3",
+    "prerequisite_global_ids": [
+      "webgen-096-R3",
+      "webgen-096-R3.1"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может оставлять отзывы о достопримечательностях и кемпингах.",
+    "source": "“review the attractions and campsites they have visited”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-096-R4",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-096-R1"
+    ]
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Опубликованный отзыв отображается у соответствующего объекта и доступен другим пользователям.",
+    "source": "“reviewing”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-096-R4.1",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": "webgen-096-R4",
+    "prerequisite_global_ids": [
+      "webgen-096-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Основной фон сайта имеет цвет `lightpink` (`#FFB6C1`).",
+    "source": "“light pink as the main background”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-096-R5",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Элементы управления оформлены цветом `mediumvioletred` (`#C71585`).",
+    "source": "“medium violet red for the controls”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-096-R6",
+    "task_index": 96,
+    "webgen_id": "000097",
+    "document": "docs/requirements/96.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1",
+    "criteria": "Пользователь может просматривать автомобили разных типов, доступные для аренды.",
+    "source": "“browse different types of cars”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-097-R1",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R1.1",
+    "criteria": "Интерфейс позволяет понятно найти автомобиль и перейти к бронированию.",
+    "source": "“a user-friendly interface”; “easily browse and book”",
+    "kind": "explicit",
+    "rule": "llm",
+    "parent": "R1",
+    "prerequisites": [
+      "R1",
+      "R2"
+    ],
+    "global_id": "webgen-097-R1.1",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": "webgen-097-R1",
+    "prerequisite_global_ids": [
+      "webgen-097-R1",
+      "webgen-097-R2"
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "criteria": "Пользователь может забронировать выбранный автомобиль.",
+    "source": "“book selected cars”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R1"
+    ],
+    "global_id": "webgen-097-R2",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-097-R1"
+    ]
+  },
+  {
+    "requirement_id": "R2.1",
+    "criteria": "Пользователь может выбрать даты и время начала и окончания аренды.",
+    "source": "“select rental dates and times”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [],
+    "global_id": "webgen-097-R2.1",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": "webgen-097-R2",
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R2.2",
+    "criteria": "Бронирование содержит выбранный автомобиль и указанный период аренды.",
+    "source": "“select rental dates and times, book selected cars”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R2",
+    "prerequisites": [
+      "R2",
+      "R2.1"
+    ],
+    "global_id": "webgen-097-R2.2",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": "webgen-097-R2",
+    "prerequisite_global_ids": [
+      "webgen-097-R2",
+      "webgen-097-R2.1"
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "criteria": "Пользователь может просматривать свои бронирования.",
+    "source": "“view booking records”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-097-R3",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R3.1",
+    "criteria": "Созданное бронирование появляется в списке бронирований пользователя.",
+    "source": "“book selected cars, and view booking records”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R3",
+    "prerequisites": [
+      "R2",
+      "R3"
+    ],
+    "global_id": "webgen-097-R3.1",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": "webgen-097-R3",
+    "prerequisite_global_ids": [
+      "webgen-097-R2",
+      "webgen-097-R3"
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "criteria": "Пользователь может оплачивать бронирование несколькими способами.",
+    "source": "“support multiple payment methods”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R2"
+    ],
+    "global_id": "webgen-097-R4",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-097-R2"
+    ]
+  },
+  {
+    "requirement_id": "R4.1",
+    "criteria": "Выбранный способ оплаты используется при обработке платежа, а результат оплаты отображается пользователю.",
+    "source": "“support multiple payment methods”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R4",
+    "prerequisites": [
+      "R4"
+    ],
+    "global_id": "webgen-097-R4.1",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": "webgen-097-R4",
+    "prerequisite_global_ids": [
+      "webgen-097-R4"
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "criteria": "Пользователь может управлять заказами на аренду.",
+    "source": "“provide order management functionality”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [
+      "R3"
+    ],
+    "global_id": "webgen-097-R5",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": [
+      "webgen-097-R3"
+    ]
+  },
+  {
+    "requirement_id": "R5.1",
+    "criteria": "Пользователь может изменить или отменить существующий заказ.",
+    "source": "“order management functionality”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5"
+    ],
+    "global_id": "webgen-097-R5.1",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": "webgen-097-R5",
+    "prerequisite_global_ids": [
+      "webgen-097-R5"
+    ]
+  },
+  {
+    "requirement_id": "R5.2",
+    "criteria": "После изменения или отмены заказа отображаются его актуальные данные или статус.",
+    "source": "“order management functionality”",
+    "kind": "implicit",
+    "rule": "code",
+    "parent": "R5",
+    "prerequisites": [
+      "R5.1"
+    ],
+    "global_id": "webgen-097-R5.2",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": "webgen-097-R5",
+    "prerequisite_global_ids": [
+      "webgen-097-R5.1"
+    ]
+  },
+  {
+    "requirement_id": "R6",
+    "criteria": "Основной фон платформы имеет цвет `papayawhip` (`#FFEFD5`).",
+    "source": "“Set the background to papaya whip”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-097-R6",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  },
+  {
+    "requirement_id": "R7",
+    "criteria": "Компоненты интерфейса оформлены цветом `darkorange` (`#FF8C00`).",
+    "source": "“apply dark orange to components”",
+    "kind": "explicit",
+    "rule": "code",
+    "parent": null,
+    "prerequisites": [],
+    "global_id": "webgen-097-R7",
+    "task_index": 97,
+    "webgen_id": "000098",
+    "document": "docs/requirements/97.md",
+    "parent_global_id": null,
+    "prerequisite_global_ids": []
+  }
+]
