@@ -216,7 +216,17 @@ def test_dry_run_cannot_read_key_or_call_opencode(
 
 
 @pytest.mark.parametrize(
-    "mode", ["valid", "wrapped", "prose", "bad-evidence", "timeout", "mutated", "requirements-only"]
+    "mode",
+    [
+        "valid",
+        "wrapped",
+        "prose",
+        "bad-evidence",
+        "repaired",
+        "timeout",
+        "mutated",
+        "requirements-only",
+    ],
 )
 def test_tracked_run(
     inputs: tuple[Path, Path, Path],
@@ -231,6 +241,8 @@ def test_tracked_run(
     monkeypatch.setattr(
         agent, "Credentials", lambda: SimpleNamespace(litellm_api_key=SecretStr("fake-secret"))
     )
+
+    attempts: list[str] = []
 
     def fake_run(command: list[str], **kwargs: Any) -> subprocess.CompletedProcess[bytes]:
         if "--version" in command:
@@ -248,7 +260,17 @@ def test_tracked_run(
             raise subprocess.TimeoutExpired(command, 10, output=b"partial", stderr=b"fake-secret")
         if mode == "mutated":
             (app / "unexpected.txt").write_text("changed", encoding="utf-8")
+        if attempts:
+            assert command[-3:-1] == ["--session", "ses_test"]
+            assert "validator rejected" in command[-1]
+        attempts.append(command[-1])
         raw = reply("missing.txt") if mode == "bad-evidence" else reply()
+        if mode == "repaired" and len(attempts) < 4:
+            invalid = json.loads(raw)
+            invalid["verdicts"][0]["evidence"][0]["line_start_note"] = None
+            raw = json.dumps(invalid)
+        if mode == "repaired" and len(attempts) > 1:
+            assert "line_start_note" in command[-1]
         if mode in {"wrapped", "prose"}:
             raw = "```json\n" + raw + "\n```"
         if mode == "prose":
@@ -256,7 +278,7 @@ def test_tracked_run(
         events = [
             {"type": "step_start"},
             {"type": "tool_use", "part": {"tool": "read", "state": {"status": "completed"}}},
-            {"type": "text", "part": {"text": raw}},
+            {"type": "text", "sessionID": "ses_test", "part": {"text": raw}},
             {
                 "type": "step_finish",
                 "part": {"tokens": {"input": 10, "output": 20, "reasoning": 0, "total": 30}},
@@ -286,7 +308,7 @@ def test_tracked_run(
         agent.AgentSettings(max_steps=4),
         tracking,
     )
-    if mode in {"valid", "wrapped", "prose", "requirements-only"}:
+    if mode in {"valid", "wrapped", "prose", "requirements-only", "repaired"}:
         run_id = agent.run(*arguments, requirements_only=mode == "requirements-only")
     else:
         with pytest.raises(RuntimeError):
@@ -294,9 +316,15 @@ def test_tracked_run(
         run_id = json.loads((output / "run.json").read_text())["run_id"]
     record = MlflowClient(tracking_uri=tracking.mlflow_tracking_uri).get_run(run_id)
     assert record.info.status == (
-        "FINISHED" if mode in {"valid", "wrapped", "prose", "requirements-only"} else "FAILED"
+        "FINISHED"
+        if mode in {"valid", "wrapped", "prose", "requirements-only", "repaired"}
+        else "FAILED"
     )
     assert record.data.params["temperature"] == "0"
+    if mode == "repaired":
+        assert len(attempts) == 4
+        assert (output / "attempt-1-validation.txt").exists()
+        assert not (output / "attempt-4-validation.txt").exists()
     assert record.data.tags["input_mode"] == (
         "requirements_only" if mode == "requirements-only" else "specification_and_requirements"
     )
@@ -305,17 +333,21 @@ def test_tracked_run(
     assert (output / "timing.json").exists()
     assert (output / "tokens.json").exists()
     assert (output / "trace.json").exists()
-    if mode not in {"valid", "wrapped", "prose", "requirements-only"}:
+    if mode not in {"valid", "wrapped", "prose", "requirements-only", "repaired"}:
         assert (output / "error.json").exists()
     assert "fake-secret" not in "".join(
         p.read_text(encoding="utf-8") for p in output.iterdir() if p.is_file()
     )
-    if mode in {"valid", "wrapped", "prose", "requirements-only"}:
-        assert record.data.metrics["tokens_total"] == 30
+    if mode in {"valid", "wrapped", "prose", "requirements-only", "repaired"}:
+        assert record.data.metrics["tokens_total"] == (120 if mode == "repaired" else 30)
         assert record.data.metrics["workspace_unchanged"] == 1
-        assert record.data.metrics["completed_steps"] == 1
+        assert record.data.metrics["completed_steps"] == (4 if mode == "repaired" else 1)
         steps = json.loads((output / "steps.json").read_text())
-        assert steps == {"completed_steps": 1, "configured_limit": 4, "at_least_limit": False}
+        assert steps == {
+            "completed_steps": 4 if mode == "repaired" else 1,
+            "configured_limit": 4,
+            "at_least_limit": False,
+        }
         assert (output / "verdicts.json").exists()
         assert record.data.metrics["markdown_fence_removed"] == int(mode in {"wrapped", "prose"})
         assert record.data.metrics["format_violation"] == int(mode in {"wrapped", "prose"})
@@ -329,5 +361,6 @@ def test_tracked_run(
             )
             assert (output / "normalized-response.txt").read_text(encoding="utf-8") == reply()
     elif mode == "bad-evidence":
+        assert len(attempts) == 4
         assert (output / "raw-response.txt").read_text(encoding="utf-8") == reply("missing.txt")
         assert not (output / "verdicts.json").exists()
