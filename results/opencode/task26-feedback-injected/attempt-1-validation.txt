@@ -1,0 +1,4 @@
+1 validation error for Judgment
+verdicts.0.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden

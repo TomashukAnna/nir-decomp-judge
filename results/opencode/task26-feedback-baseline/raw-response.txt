@@ -1,0 +1,113 @@
+
+
+```json
+{
+  "verdicts": [
+    {
+      "requirement_id": "R1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/App.jsx", "line_start": 44, "line_end": 46},
+        {"file": "src/pages/PromotionListPage.jsx", "line_start": 20, "line_end": 39},
+        {"file": "src/components/PromotionList.jsx", "line_start": 5, "line_end": 13}
+      ],
+      "reason": "Корневой маршрут по умолчанию рендерит PromotionListPage, который вычисляет видимые акции через getVisiblePromotions и передаёт их в PromotionList; компонент рендерит список карточек PromotionCard (или EmptyState), т.е. список акций доступен для просмотра."
+    },
+    {
+      "requirement_id": "R1.1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/components/PromotionCard.jsx", "line_start": 10, "line_end": 22}
+      ],
+      "reason": "Карточка акции отображает все четыре поля: описание (truncate(promotion.description), строка 17), скидку (promo-discount, строка 15), категорию (tag, строка 19) и автора (by promotion.authorName, строка 20)."
+    },
+    {
+      "requirement_id": "R2",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/pages/SharePromotionPage.jsx", "line_start": 13, "line_end": 22},
+        {"file": "src/pages/SharePromotionPage.jsx", "line_start": 25, "line_end": 69},
+        {"file": "src/App.jsx", "line_start": 30, "line_end": 31}
+      ],
+      "reason": "Маршрут #/share открывает форму публикации: поля title/description/discount/category/link с onSubmit, который вызывает actions.addPromotion(form) и при успехе перенаправляет на '#/' со списком акций, где новая акция появляется первой."
+    },
+    {
+      "requirement_id": "R2.1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/store/actions.js", "line_start": 25, "line_end": 32},
+        {"file": "src/pages/SharePromotionPage.jsx", "line_start": 31, "line_end": 57}
+      ],
+      "reason": "addPromotion проверяет обязательные поля title, description, discount, category и возвращает {ok:false, errors}; форма помечает noValidate и отображает полученные ошибки под каждым обязательным полем (span.error), блокируя отправку."
+    },
+    {
+      "requirement_id": "R2.2",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/store/actions.js", "line_start": 34, "line_end": 48},
+        {"file": "src/store/seed.js", "line_start": 49, "line_end": 55},
+        {"file": "src/pages/PromotionListPage.jsx", "line_start": 20, "line_end": 24}
+      ],
+      "reason": "Опубликованная акция добавляется в общий state.promotions и персистится в localStorage (persist), который используется всеми сессиями приложения; PromotionListPage отображает все акции из state без фильтрации по автору, поэтому акция видна другим пользователям. Ограничение: это статический вывод для демо-приложения без бэкенда."
+    },
+    {
+      "requirement_id": "R3",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/components/Header.jsx", "line_start": 13, "line_end": 36},
+        {"file": "src/utils/filter.js", "line_start": 6, "line_end": 13}
+      ],
+      "reason": "В шапке есть поисковое поле, которое по вводу обновляет state.searchQuery (actions.setSearchQuery) с кнопкой очистки; getVisiblePromotions фильтрует список по введённому запросу по title и description, т.е. поиск акций реализован."
+    },
+    {
+      "requirement_id": "R3.1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/utils/filter.js", "line_start": 8, "line_end": 14},
+        {"file": "src/components/FilterToolbar.jsx", "line_start": 5, "line_end": 14}
+      ],
+      "reason": "По теме поиск находит акции по совпадению запроса с title/description (строки 9–12 filter.js); по категории — через выделенный фильтр категории в FilterToolbar, применяемый строкой 14 filter.js (p.category === category). Тематический поиск и поиск по категории как целое реализованы; точное совпадение категории текстовым поиском (без фильтра) не выполняется."
+    },
+    {
+      "requirement_id": "R4",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/pages/AdminPanelPage.jsx", "line_start": 6, "line_end": 18},
+        {"file": "src/pages/admin/UsersTable.jsx", "line_start": 26, "line_end": 55},
+        {"file": "src/pages/admin/PromotionsTable.jsx", "line_start": 10, "line_end": 37},
+        {"file": "src/pages/admin/SettingsForm.jsx", "line_start": 49, "line_end": 89}
+      ],
+      "reason": "Административный раздел существует и содержит три вкладки: Users (таблица пользователей), Promotions (таблица акций с удалением) и Settings (название сайта и управление категориями), что покрывает управление пользователями, акциями и настройками сайта."
+    },
+    {
+      "requirement_id": "R4.1",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/pages/admin/UsersTable.jsx", "line_start": 13, "line_end": 24},
+        {"file": "src/pages/admin/UsersTable.jsx", "line_start": 38, "line_end": 53},
+        {"file": "src/store/actions.js", "line_start": 93, "line_end": 115}
+      ],
+      "reason": "Администратор видит таблицу всех пользователей (ник, роль, число акций) и может менять их данные: переключать роль через setUserRole (с защитой последнего админа) и удалять пользователя через deleteUser с диалогом подтверждения."
+    },
+    {
+      "requirement_id": "R4.2",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/App.jsx", "line_start": 38, "line_end": 43},
+        {"file": "src/components/Header.jsx", "line_start": 41, "line_end": 41}
+      ],
+      "reason": "Маршрут #/admin/* рендерит AdminPanelPage только если currentUser существует и имеет isAdmin; иначе user перенаправляется на '#/' (redirectHash), а ссылка Admin в шапке видна только администратору. Раздел доступен только администратору."
+    },
+    {
+      "requirement_id": "R5",
+      "verdict": "PASS",
+      "evidence": [
+        {"file": "src/styles/global.css", "line_start": 1, "line_end": 14},
+        {"file": "src/styles/global.css", "line_start": 36, "line_end": 40},
+        {"file": "src/styles/global.css", "line_start": 110, "line_end": 115}
+      ],
+      "reason": "В :root определены --ivory: #FFFFF0 и --forest-green: #228B22; внешний фон body задан ivory (строка 11), а блоки интерфейса — шапка .header (строка 37) и карточки .card (строка 111, используются для карточек акций, форм и админ-панели) — forest green."
+    }
+  ]
+}
+```
