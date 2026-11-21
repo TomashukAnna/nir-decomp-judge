@@ -1,0 +1,14 @@
+{
+  "run_id": "b8f699dbc2a947248a7ccfd162c95cfd",
+  "commit": "285383d5e8d1e211dd7e3f1f4bd55c9a18adbb14",
+  "config_path": "opencode.json",
+  "seed": 42,
+  "seed_applied_to_model": false,
+  "task": "39",
+  "dataset": "DevAI",
+  "model": "lab/iairlab/qwen3.8-27b",
+  "temperature": 0,
+  "max_steps": 16,
+  "input_mode": "specification_and_requirements",
+  "specification_available": true
+}

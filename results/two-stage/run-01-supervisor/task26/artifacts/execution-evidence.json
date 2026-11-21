@@ -1,0 +1,53 @@
+{
+  "source": "Выдержка из observations.json и response-8.txt. Индексы наблюдений сохранены.",
+  "observations": [
+    {
+      "index": 0,
+      "kind": "browser",
+      "path": "/",
+      "visible_text_excerpt": [
+        "PromoHub",
+        "Home",
+        "Share a promotion",
+        "Log in",
+        "Register"
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "source",
+      "path": "src/App.jsx"
+    },
+    {
+      "index": 7,
+      "kind": "source",
+      "path": "src/pages/SharePromotionPage.jsx"
+    },
+    {
+      "index": 9,
+      "kind": "validation_error",
+      "message": "PASS and FAIL require execution evidence"
+    }
+  ],
+  "submitted_verdicts": [
+    {
+      "requirement_id": "R2.1",
+      "verdict": "PASS",
+      "evidence": [
+        7
+      ]
+    },
+    {
+      "requirement_id": "R4.2",
+      "verdict": "PASS",
+      "evidence": [
+        3
+      ]
+    }
+  ],
+  "observation_types": {
+    "browser": 1,
+    "source": 7,
+    "error": 2
+  }
+}

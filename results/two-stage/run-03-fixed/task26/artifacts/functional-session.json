@@ -1,0 +1,19 @@
+{
+  "actions": 20,
+  "repairs": 0,
+  "max_repairs": 3,
+  "accepted_ids": [
+    "R1",
+    "R1.1",
+    "R2",
+    "R2.1",
+    "R2.2",
+    "R3",
+    "R3.1",
+    "R4",
+    "R4.1",
+    "R4.2",
+    "R5"
+  ],
+  "pending_ids": []
+}

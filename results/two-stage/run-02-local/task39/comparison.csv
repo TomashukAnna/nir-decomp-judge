@@ -1,0 +1,29 @@
+﻿requirement_id,criteria,human,holistic,agent,browser_agent,browser_agent_source,functional,browser_agent_reason,holistic_run_id,agent_run_id,functional_run_id,code_run_id
+0,"The ""GDSC"" drug response dataset is loaded in `src/data_loader.py`.",FAIL,PASS,PASS,INVALID_RESPONSE,none,UNRESOLVED,"No accepted result: 1 validation error for Judgment
+verdicts.6.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",062509bc4fcb43be98430081deb9bfe1,641fd4f0195c45069517dd5a1ab49067,92739c0276f7414e9efe01df6a9f4578,3000a1308551450f8119fd4bb11d8a78
+1,Feature selection is performed to identify important features in `src/data_loader.py`.,PASS,PASS,PASS,INVALID_RESPONSE,none,UNRESOLVED,"No accepted result: 1 validation error for Judgment
+verdicts.6.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",062509bc4fcb43be98430081deb9bfe1,641fd4f0195c45069517dd5a1ab49067,92739c0276f7414e9efe01df6a9f4578,3000a1308551450f8119fd4bb11d8a78
+2,"The ""SVM regressor"" is implemented in `src/model.py`.",PASS,PASS,PASS,INVALID_RESPONSE,none,UNRESOLVED,"No accepted result: 1 validation error for Judgment
+verdicts.6.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",062509bc4fcb43be98430081deb9bfe1,641fd4f0195c45069517dd5a1ab49067,92739c0276f7414e9efe01df6a9f4578,3000a1308551450f8119fd4bb11d8a78
+3,Cross-validation is used to evaluate the model in `src/train.py`.,PASS,PASS,PASS,INVALID_RESPONSE,none,UNRESOLVED,"No accepted result: 1 validation error for Judgment
+verdicts.6.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",062509bc4fcb43be98430081deb9bfe1,641fd4f0195c45069517dd5a1ab49067,92739c0276f7414e9efe01df6a9f4578,3000a1308551450f8119fd4bb11d8a78
+4,The performance results are saved as `results/metrics/performance.txt`.,PASS,FAIL,PASS,INVALID_RESPONSE,none,UNRESOLVED,"No accepted result: 1 validation error for Judgment
+verdicts.6.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",062509bc4fcb43be98430081deb9bfe1,641fd4f0195c45069517dd5a1ab49067,92739c0276f7414e9efe01df6a9f4578,3000a1308551450f8119fd4bb11d8a78
+5,"The regression results are visualized using ""seaborn,"" and saved to `results/figures/`.",FAIL,FAIL,PASS,INVALID_RESPONSE,none,UNRESOLVED,"No accepted result: 1 validation error for Judgment
+verdicts.6.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",062509bc4fcb43be98430081deb9bfe1,641fd4f0195c45069517dd5a1ab49067,92739c0276f7414e9efe01df6a9f4578,3000a1308551450f8119fd4bb11d8a78
+6,"A report containing data preprocessing, model training, evaluation process, and the regression results visualization, is created and saved as `results/drug_response_prediction_report.pdf`.",PASS,PASS,PASS,INVALID_RESPONSE,none,UNRESOLVED,"No accepted result: 1 validation error for Judgment
+verdicts.6.evidence.0.line_start_note
+  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",062509bc4fcb43be98430081deb9bfe1,641fd4f0195c45069517dd5a1ab49067,92739c0276f7414e9efe01df6a9f4578,3000a1308551450f8119fd4bb11d8a78

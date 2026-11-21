@@ -1,0 +1,51 @@
+[
+  {
+    "index": 0,
+    "url": "http://127.0.0.1:30310",
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nLaptop clearance\n-50%\n\nLast year's models, up to "
+  },
+  {
+    "index": 1,
+    "kind": "source",
+    "path": "src/App.jsx"
+  },
+  {
+    "index": 2,
+    "kind": "source",
+    "path": "src/pages/PromotionListPage.jsx"
+  },
+  {
+    "index": 3,
+    "kind": "source",
+    "path": "src/components/PromotionList.jsx"
+  },
+  {
+    "index": 4,
+    "kind": "source",
+    "path": "src/components/PromotionCard.jsx"
+  },
+  {
+    "index": 5,
+    "kind": "source",
+    "path": "src/pages/SharePromotionPage.jsx"
+  },
+  {
+    "index": 6,
+    "kind": "source",
+    "path": "src/hooks/useStore.js"
+  },
+  {
+    "index": 7,
+    "kind": "source",
+    "path": "src/store/StoreContext.jsx"
+  },
+  {
+    "index": 8,
+    "kind": "source",
+    "path": "src/store/actions.js"
+  },
+  {
+    "index": 9,
+    "error": "PASS and FAIL require execution evidence"
+  }
+]

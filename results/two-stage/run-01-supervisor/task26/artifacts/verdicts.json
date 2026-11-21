@@ -1,0 +1,232 @@
+{
+  "commit": "87776c1ed35aeed10ce2f1cc754373fe0ef7a00b",
+  "functional_run_id": "6d797ea62eb34cc7b17a2251667ea55f",
+  "functional_source": "functional",
+  "code_run_id": "281e6415654a4e56bf6b9f761d008abe",
+  "verdicts": [
+    {
+      "requirement_id": "R1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/PromotionListPage.jsx",
+          "line_start": 7,
+          "line_end": 42
+        },
+        {
+          "file": "src/components/PromotionList.jsx",
+          "line_start": 5,
+          "line_end": 13
+        },
+        {
+          "file": "src/App.jsx",
+          "line_start": 44,
+          "line_end": 46
+        }
+      ],
+      "reason": "PromotionListPage is the default route (App.jsx line 45) and renders a list of promotions via PromotionList, which maps each promotion to a PromotionCard. The list is available for viewing on the home screen.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R1.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/components/PromotionCard.jsx",
+          "line_start": 10,
+          "line_end": 23
+        }
+      ],
+      "reason": "PromotionCard displays description (line 17, truncated), discount (line 15), category (line 19), and author name (line 20, 'by {promotion.authorName}').",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/SharePromotionPage.jsx",
+          "line_start": 4,
+          "line_end": 22
+        },
+        {
+          "file": "src/store/actions.js",
+          "line_start": 25,
+          "line_end": 49
+        }
+      ],
+      "reason": "SharePromotionPage provides a form with title, description, discount, category, and link fields. On submit, it calls actions.addPromotion which validates, creates a promotion object with author info, and prepends it to the promotions list.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R2.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/store/actions.js",
+          "line_start": 27,
+          "line_end": 32
+        },
+        {
+          "file": "src/pages/SharePromotionPage.jsx",
+          "line_start": 13,
+          "line_end": 22
+        }
+      ],
+      "reason": "actions.addPromotion validates that title, description, discount, and category are non-empty (lines 28-31). If validation fails, it returns {ok:false, errors} and SharePromotionPage displays the error messages next to each field (lines 34, 40, 46, 57).",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R2.2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/store/actions.js",
+          "line_start": 8,
+          "line_end": 11
+        },
+        {
+          "file": "src/store/seed.js",
+          "line_start": 49,
+          "line_end": 55
+        },
+        {
+          "file": "src/pages/PromotionListPage.jsx",
+          "line_start": 20,
+          "line_end": 24
+        }
+      ],
+      "reason": "addPromotion persists the updated promotions array to localStorage (via persist on line 9) and updates React state. PromotionListPage reads from state.promotions, so the newly added promotion appears in the list for any user session in the same storage.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R3",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/components/Header.jsx",
+          "line_start": 13,
+          "line_end": 36
+        },
+        {
+          "file": "src/utils/filter.js",
+          "line_start": 6,
+          "line_end": 13
+        }
+      ],
+      "reason": "Header contains a search input bound to state.searchQuery. getVisiblePromotions filters promotions by matching the search query against title and description (filter.js lines 9-12).",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R3.1",
+      "verdict": "FAIL",
+      "evidence": [
+        {
+          "file": "src/utils/filter.js",
+          "line_start": 9,
+          "line_end": 12
+        }
+      ],
+      "reason": "The search query only matches against promotion.title and promotion.description (filter.js lines 10-11). The category field is not included in the search text matching. Although a separate category filter exists in FilterToolbar, the criterion requires the search itself to find promotions 'including category' (по теме, включая категорию), which is not implemented in the search logic.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R4",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/AdminPanelPage.jsx",
+          "line_start": 6,
+          "line_end": 20
+        },
+        {
+          "file": "src/pages/admin/UsersTable.jsx",
+          "line_start": 1,
+          "line_end": 10
+        },
+        {
+          "file": "src/pages/admin/PromotionsTable.jsx",
+          "line_start": 1,
+          "line_end": 10
+        },
+        {
+          "file": "src/pages/admin/SettingsForm.jsx",
+          "line_start": 1,
+          "line_end": 10
+        }
+      ],
+      "reason": "AdminPanelPage provides three tabs: Users (UsersTable), Promotions (PromotionsTable), and Settings (SettingsForm), covering all three required management areas.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R4.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/admin/UsersTable.jsx",
+          "line_start": 26,
+          "line_end": 65
+        },
+        {
+          "file": "src/store/actions.js",
+          "line_start": 93,
+          "line_end": 115
+        }
+      ],
+      "reason": "UsersTable renders a table of all users with nickname, role, and promotion count. Admin can change a user's role via changeRole (actions.setUserRole) and delete users via confirmDelete (actions.deleteUser), both of which modify user data.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R4.2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/App.jsx",
+          "line_start": 38,
+          "line_end": 43
+        },
+        {
+          "file": "src/components/Header.jsx",
+          "line_start": 41,
+          "line_end": 41
+        }
+      ],
+      "reason": "In App.jsx, the 'admin' route renders AdminPanelPage only if currentUser exists and currentUser.isAdmin is true; otherwise it redirects to '#/'. Additionally, the Admin nav link in Header is only shown to administrators (line 41).",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R5",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/styles/global.css",
+          "line_start": 1,
+          "line_end": 14
+        },
+        {
+          "file": "src/styles/global.css",
+          "line_start": 36,
+          "line_end": 40
+        },
+        {
+          "file": "src/styles/global.css",
+          "line_start": 110,
+          "line_end": 115
+        }
+      ],
+      "reason": "CSS variables define --ivory: #FFFFF0 and --forest-green: #228B22. The body (outer layer) uses background: var(--ivory) (line 11), while UI blocks such as .header (line 37) and .card (line 111) use background: var(--forest-green).",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    }
+  ]
+}

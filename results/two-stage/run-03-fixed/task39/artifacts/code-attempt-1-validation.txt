@@ -1,0 +1,3 @@
+1 validation error for Judgment
+  Invalid JSON: expected `,` or `]` at line 3 column 369 [type=json_invalid, input_value='\n\n{"verdicts":[{"requi...red report content."}]}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid

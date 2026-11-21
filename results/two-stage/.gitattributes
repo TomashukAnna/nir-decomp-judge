@@ -1,0 +1,2 @@
+# Keep imported response bytes unchanged so published SHA-256 checks remain valid.
+**/artifacts/* -text

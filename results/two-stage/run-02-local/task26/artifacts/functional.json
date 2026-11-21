@@ -1,0 +1,68 @@
+[
+  {
+    "requirement_id": "R1",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R1.1",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R2",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R2.1",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R2.2",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R3",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R3.1",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R4",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R4.1",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R4.2",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  },
+  {
+    "requirement_id": "R5",
+    "source": "functional",
+    "verdict": "UNRESOLVED",
+    "reason": "Functional evaluation could not finish (ValueError)"
+  }
+]

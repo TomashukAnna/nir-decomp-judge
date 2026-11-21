@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-19",
+  "valid_final_result": false,
+  "commit": "87776c1ed35aeed10ce2f1cc754373fe0ef7a00b",
+  "config": "opencode.json",
+  "config_sha256": "471dd2973307e84273d847366392744550db91a5040aa6415c037065710defee",
+  "seed": 42,
+  "functional_run_id": "92739c0276f7414e9efe01df6a9f4578",
+  "code_run_id": "3000a1308551450f8119fd4bb11d8a78",
+  "full_artifacts": "data\\judge-runs\\task39-two-stage-20261119-221556",
+  "metrics_from_local_mlflow": {
+    "92739c0276f7414e9efe01df6a9f4578": {
+      "prompt_tokens": 27504.0,
+      "completion_tokens": 12076.0,
+      "total_tokens": 39580.0,
+      "pass": 0.0,
+      "fail": 0.0,
+      "unresolved": 7.0
+    },
+    "3000a1308551450f8119fd4bb11d8a78": {
+      "markdown_fence_removed": 0.0,
+      "surrounding_text_removed": 0.0,
+      "raw_json_valid": 1.0,
+      "format_violation": 0.0,
+      "completed_steps": 5.0,
+      "tokens_input": 26604.0,
+      "tokens_output": 1531.0,
+      "tokens_reasoning": 6291.0,
+      "tokens_total": 34426.0,
+      "session_seconds": 86.04426669998793,
+      "workspace_unchanged": 1.0,
+      "response_valid": 0.0
+    }
+  },
+  "functional_final_response_chars": 0,
+  "functional_final_response_non_whitespace_chars": 0,
+  "origin": "Первый локальный запуск, до исправлений",
+  "artifacts_sha256": [
+    {
+      "file": "code-error.json",
+      "sha256": "a52cf2bdc5b8716ca8f59504d238c94fc64720274bd366de3c7e6aac0162dca7"
+    },
+    {
+      "file": "code-raw-response.txt",
+      "sha256": "d56936876af36d91fbc9e70d2136a6a62d36765ebabafcae38b99ce761b935cb"
+    },
+    {
+      "file": "code-run.json",
+      "sha256": "ca8c0c658e89304c30e873dafa1fff2af741a282033e38e10ae70192d7a8b492"
+    },
+    {
+      "file": "code-timing.json",
+      "sha256": "e32c0130b22583afc5a46d3b5fdb1fdd80946f499be8cead434b1f73c7364962"
+    },
+    {
+      "file": "code-tokens.json",
+      "sha256": "c914d1e055718aeead9a38838a2aabc0bda2bf6f9d3e107d8ab1e721813cb594"
+    },
+    {
+      "file": "execution-evidence.json",
+      "sha256": "669f686f51e18307f5d8a8932a852da62525fae7e1747cf2951c34ccc9c53ec2"
+    },
+    {
+      "file": "functional-final-response.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "functional.json",
+      "sha256": "bf5b369f80a8fc5f77d4b0a11330e96c05e585c082cd903818796c28419ea8e2"
+    },
+    {
+      "file": "unresolved.json",
+      "sha256": "4077219d6c5856c57d749211fa0abf97fd908ce8c2644010367ea3e07b634072"
+    }
+  ]
+}

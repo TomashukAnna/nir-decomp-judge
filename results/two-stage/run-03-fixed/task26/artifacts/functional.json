@@ -1,0 +1,110 @@
+[
+  {
+    "requirement_id": "R1",
+    "source": "functional",
+    "verdict": "PASS",
+    "reason": "Promotion list is displayed on the home page with multiple promotion cards",
+    "evidence": [
+      0,
+      12,
+      19
+    ]
+  },
+  {
+    "requirement_id": "R1.1",
+    "source": "functional",
+    "verdict": "PASS",
+    "reason": "Each card shows title, discount (-50%), description, category (Electronics), and author (by Anonymous)",
+    "evidence": [
+      0,
+      19
+    ]
+  },
+  {
+    "requirement_id": "R2",
+    "source": "functional",
+    "verdict": "PASS",
+    "reason": "User filled the share form and submitted; new promotion 'Summer Sale 2024' appeared in the list",
+    "evidence": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      19
+    ]
+  },
+  {
+    "requirement_id": "R2.1",
+    "source": "functional",
+    "verdict": "PASS",
+    "reason": "Submitting empty form shows 'Title is required', 'Description is required', 'Discount value is required', 'Please select a category'",
+    "evidence": [
+      8
+    ]
+  },
+  {
+    "requirement_id": "R2.2",
+    "source": "functional",
+    "verdict": "PASS",
+    "reason": "Published promotion appears in the public listing visible to all visitors of the home page",
+    "evidence": [
+      19
+    ]
+  },
+  {
+    "requirement_id": "R3",
+    "source": "functional",
+    "verdict": "PASS",
+    "reason": "Search input filters promotions; typing 'coffee' narrows results to only the Coffee promotion",
+    "evidence": [
+      3
+    ]
+  },
+  {
+    "requirement_id": "R3.1",
+    "source": "functional",
+    "verdict": "FAIL",
+    "reason": "Searching by category name 'Electronics' returns 'No promotions found' even though a promotion in that category exists; category is not included in search matching",
+    "evidence": [
+      6
+    ]
+  },
+  {
+    "requirement_id": "R4",
+    "source": "functional",
+    "verdict": "FAIL",
+    "reason": "Navigating to #/admin shows the home page; no admin section with users, promotions, or settings is present",
+    "evidence": [
+      20
+    ]
+  },
+  {
+    "requirement_id": "R4.1",
+    "source": "functional",
+    "verdict": "FAIL",
+    "reason": "No admin user management interface was found or accessible",
+    "evidence": [
+      20
+    ]
+  },
+  {
+    "requirement_id": "R4.2",
+    "source": "functional",
+    "verdict": "FAIL",
+    "reason": "No admin section exists to verify access restriction; the route #/admin renders the public home page",
+    "evidence": [
+      20
+    ]
+  },
+  {
+    "requirement_id": "R5",
+    "source": "functional",
+    "verdict": "PASS",
+    "reason": "Body background is rgb(255,255,240) (ivory) and header/UI block background is rgb(34,139,34) (forest green)",
+    "evidence": [
+      1,
+      2
+    ]
+  }
+]
