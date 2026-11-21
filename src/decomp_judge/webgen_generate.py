@@ -33,8 +33,8 @@ class GenerationConfig(BaseModel):
     api_base: str
     opencode_version: str
     temperature: int = Field(default=0, ge=0, le=0)
-    max_steps: int = Field(default=50, ge=1, le=200)
-    timeout_seconds: int = Field(default=1200, ge=1, le=7200)
+    max_steps: int | None = Field(default=None, ge=1)
+    timeout_seconds: int | None = Field(default=None, ge=1)
     max_consecutive_failures: int = Field(default=3, ge=1, le=10)
     instruction: str
 
@@ -103,7 +103,9 @@ def source_version() -> str:
 
 
 def build_config(settings: GenerationConfig, instruction: str) -> dict[str, Any]:
+    plugin = Path(__file__).resolve().parents[2] / "configs/webgen-no-output-cap.mjs"
     return {
+        "plugin": [plugin.as_uri()],
         "model": f"lab/{settings.model}",
         "small_model": f"lab/{settings.model}",
         "enabled_providers": ["lab"],
@@ -130,7 +132,7 @@ def build_config(settings: GenerationConfig, instruction: str) -> dict[str, Any]
             "webgen-builder": {
                 "mode": "primary",
                 "temperature": settings.temperature,
-                "steps": settings.max_steps,
+                **({"steps": settings.max_steps} if settings.max_steps is not None else {}),
                 "prompt": instruction,
             }
         },
@@ -167,7 +169,7 @@ def clean_dependencies(app: Path) -> None:
 
 
 def run_process(
-    command: list[str], app: Path, env: dict[str, str], timeout: int
+    command: list[str], app: Path, env: dict[str, str], timeout: int | None
 ) -> tuple[str, str, int]:
     if sys.platform == "win32":
         raise ValueError("Execute generation inside the Linux container")
@@ -250,8 +252,11 @@ def run_task(
             "webgen_id": task.id,
             "model": settings.model,
             "temperature": settings.temperature,
-            "max_steps": settings.max_steps,
-            "timeout_seconds": settings.timeout_seconds,
+            "max_steps": settings.max_steps if settings.max_steps is not None else "unlimited",
+            "timeout_seconds": (
+                settings.timeout_seconds if settings.timeout_seconds is not None else "unlimited"
+            ),
+            "output_token_limit": "server_default",
             "opencode_version": settings.opencode_version,
             "dataset_sha256": dataset_sha256,
         }
@@ -284,7 +289,6 @@ def run_task(
         stdout, stderr, code = run_process(
             [
                 "opencode",
-                "--pure",
                 "run",
                 "--format",
                 "json",
@@ -415,6 +419,9 @@ def main() -> None:
         "seed": tracking.seed,
         "settings": settings.model_dump(),
         "instruction_sha256": sha256(instruction.encode()).hexdigest(),
+        "output_plugin_sha256": sha256(
+            (Path(__file__).resolve().parents[2] / "configs/webgen-no-output-cap.mjs").read_bytes()
+        ).hexdigest(),
     }
     with batch_lock(output / ".batch.lock"):
         target = output / "manifest.json"

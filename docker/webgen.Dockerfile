@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends git ca-certific
 WORKDIR /opt/generator
 COPY pyproject.toml uv.lock README.md ./
 COPY src ./src
-COPY configs/webgen-generation.yaml configs/webgen-builder.md ./configs/
+COPY configs/webgen-generation.yaml configs/webgen-builder.md configs/webgen-no-output-cap.mjs ./configs/
 RUN uv sync --locked --no-dev \
     && useradd --create-home --uid 1000 generator
 ARG SOURCE_COMMIT

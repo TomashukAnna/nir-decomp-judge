@@ -9,8 +9,8 @@ mockup. Do not add capabilities that are not requested just to make a larger app
 
 Use your file and shell tools to implement and check the application. Install
 project dependencies locally when necessary. Do not leave a development server
-running. Finish within the step budget and save the source files before the last
-step. A final explanation alone is not a deliverable.
+running. Save the application source files using your tools. A final explanation
+alone is not a deliverable.
 
 Add README.md with the dependency installation command and the exact command to
 start the application. State any limitations honestly. Do not include API keys,

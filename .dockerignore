@@ -8,6 +8,7 @@
 !configs/
 !configs/webgen-generation.yaml
 !configs/webgen-builder.md
+!configs/webgen-no-output-cap.mjs
 !docker/
 !docker/webgen.Dockerfile
 **/.env

@@ -22,6 +22,16 @@ def settings() -> generation.GenerationConfig:
     )
 
 
+def test_generation_limits_can_be_disabled_or_set_explicitly() -> None:
+    default = settings()
+    config = generation.build_config(default, "Implement")
+    assert default.timeout_seconds is None
+    assert "steps" not in config["agent"]["webgen-builder"]
+    assert config["plugin"][0].endswith("/configs/webgen-no-output-cap.mjs")
+    bounded = default.model_copy(update={"max_steps": 10, "timeout_seconds": 60})
+    assert generation.build_config(bounded, "Implement")["agent"]["webgen-builder"]["steps"] == 10
+
+
 @pytest.mark.parametrize(
     "rows",
     [
@@ -92,9 +102,11 @@ def test_task_status_and_provenance_are_saved(
         command: list[str],
         app: Path,
         env: dict[str, str],
-        timeout: int,
+        timeout: int | None,
     ) -> tuple[str, str, int]:
         assert "HIDDEN REQUIREMENT" not in command[-1]
+        assert "--pure" not in command  # Pure mode disables the output-limit plugin.
+        assert timeout is None
         assert env["LITELLM_API_KEY"] == "test-key"
         if mode == "success":
             (app / "index.html").write_text("<h1>App</h1>")
@@ -178,7 +190,7 @@ def test_resume_skips_generated_apps_and_refuses_changed_inputs(
     calls = []
 
     def fake_process(
-        command: list[str], app: Path, env: dict[str, str], timeout: int
+        command: list[str], app: Path, env: dict[str, str], timeout: int | None
     ) -> tuple[str, str, int]:
         calls.append(app)
         (app / "index.html").write_text("<h1>App</h1>")
