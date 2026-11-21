@@ -1,0 +1,8 @@
+model: iairlab/qwen3.8-27b
+api_base: https://api.duckduck.cloud/v1
+opencode_version: 1.19.4
+temperature: 0
+max_steps: 50
+timeout_seconds: 1200
+max_consecutive_failures: 3
+instruction: configs/webgen-builder.md
