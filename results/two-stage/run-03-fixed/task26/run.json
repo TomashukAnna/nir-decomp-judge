@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-19",
+  "commit": "285383d5e8d1e211dd7e3f1f4bd55c9a18adbb14",
+  "config": "opencode.json",
+  "config_sha256": "471dd2973307e84273d847366392744550db91a5040aa6415c037065710defee",
+  "seed": 42,
+  "functional_run_id": "03402639c4c8486e81000ade3d57b3ed",
+  "code_run_id": null,
+  "code_repairs": 0,
+  "full_artifacts": "data\\judge-runs\\task26-two-stage-fixed-20261119-223952",
+  "metrics_from_local_mlflow": {
+    "03402639c4c8486e81000ade3d57b3ed": {
+      "prompt_tokens": 162811.0,
+      "completion_tokens": 9338.0,
+      "total_tokens": 172149.0,
+      "pass": 7.0,
+      "fail": 4.0,
+      "unresolved": 0.0
+    }
+  },
+  "origin": "Локальный запуск после исправлений",
+  "artifacts_sha256": [
+    {
+      "file": "execution-evidence.json",
+      "sha256": "90024d88b040bddde04c7fc8e7f042eb08981027721221d951caedc5b342e714"
+    },
+    {
+      "file": "functional-session.json",
+      "sha256": "529ccf4d17179374d52d1ae2b3cc90555e95cea188628081e4a54b6b21a5a450"
+    },
+    {
+      "file": "functional-usage.json",
+      "sha256": "dc4b940c75681438946d24297e8ded4d528fcf579a5aa8c68e06df0cbccabbe1"
+    },
+    {
+      "file": "functional.json",
+      "sha256": "b681b425e770497c85fc2a7ad66fd2012b956f922eb41f2a40c32f9503e7031f"
+    },
+    {
+      "file": "verdicts.json",
+      "sha256": "5e1d2ec4b9ac842a893028d12f2a213e27f9fc96c57054ecf65f4ce98dde95c6"
+    }
+  ]
+}

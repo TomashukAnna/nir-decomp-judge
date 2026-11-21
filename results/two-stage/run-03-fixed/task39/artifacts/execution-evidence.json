@@ -1,0 +1,29 @@
+[
+  {
+    "index": 0,
+    "kind": "python_launch",
+    "changed_files": [],
+    "launch_exit_code": 1,
+    "launch_error_excerpt": "             ^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'path_to_gdsc_dataset.csv'"
+  },
+  {
+    "index": 1,
+    "kind": "source",
+    "path": "src/data_loader.py"
+  },
+  {
+    "index": 2,
+    "kind": "source",
+    "path": "src/train.py"
+  },
+  {
+    "index": 3,
+    "kind": "source",
+    "path": "src/model.py"
+  },
+  {
+    "index": 4,
+    "kind": "action_error",
+    "error": "Source-reading budget exhausted; execute a probe or finish"
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-19",
+  "commit": "285383d5e8d1e211dd7e3f1f4bd55c9a18adbb14",
+  "config": "opencode.json",
+  "config_sha256": "471dd2973307e84273d847366392744550db91a5040aa6415c037065710defee",
+  "seed": 42,
+  "functional_run_id": "d230c732c37445ddb58e22487c73fbea",
+  "code_run_id": "b8f699dbc2a947248a7ccfd162c95cfd",
+  "code_repairs": 1,
+  "full_artifacts": "data\\judge-runs\\task39-two-stage-fixed-20261119-223952",
+  "metrics_from_local_mlflow": {
+    "d230c732c37445ddb58e22487c73fbea": {
+      "prompt_tokens": 11894.0,
+      "completion_tokens": 11082.0,
+      "total_tokens": 22976.0,
+      "pass": 0.0,
+      "fail": 1.0,
+      "unresolved": 6.0
+    },
+    "b8f699dbc2a947248a7ccfd162c95cfd": {
+      "repair_attempts": 1.0,
+      "markdown_fence_removed": 0.0,
+      "surrounding_text_removed": 0.0,
+      "raw_json_valid": 1.0,
+      "format_violation": 0.0,
+      "completed_steps": 9.0,
+      "tokens_input": 52986.0,
+      "tokens_output": 2284.0,
+      "tokens_reasoning": 15953.0,
+      "tokens_total": 71223.0,
+      "verdict_count": 6.0,
+      "session_seconds": 190.60823370004073,
+      "workspace_unchanged": 1.0,
+      "response_valid": 1.0
+    }
+  },
+  "origin": "Локальный запуск после исправлений",
+  "artifacts_sha256": [
+    {
+      "file": "code-attempt-1-response.txt",
+      "sha256": "5d557a673721c3adf17e06107de544292a308dcaf60355dd303f6e445352751b"
+    },
+    {
+      "file": "code-attempt-1-validation.txt",
+      "sha256": "b80cdac15dd1b06c31c4fc60b9e3c40b6462bb239bd6d30239b432ac06a4674a"
+    },
+    {
+      "file": "code-attempt-2-response.txt",
+      "sha256": "e434fda7b3c2f785118e7d7b8d97b9f7e4ee444e9daf5c3b7d428f88508c1c1c"
+    },
+    {
+      "file": "code-raw-response.txt",
+      "sha256": "e434fda7b3c2f785118e7d7b8d97b9f7e4ee444e9daf5c3b7d428f88508c1c1c"
+    },
+    {
+      "file": "code-repair-1-prompt.txt",
+      "sha256": "392032f5c32460acdf7f5293e0ccab72360d1ce03774be0b90d8f160a3e2b35e"
+    },
+    {
+      "file": "code-run.json",
+      "sha256": "1965b47e6ed2055c727e1cefc016299a7dc8286d595bd92e7325fa991c107b06"
+    },
+    {
+      "file": "code-timing.json",
+      "sha256": "1f8a983fe6ad9e27a7e01641453ea4b14d6219821339496602115a158e4175ff"
+    },
+    {
+      "file": "code-tokens.json",
+      "sha256": "872a86c69747aaf6a7eed1eb48c5dafec8e0fb554ffbead0476e24ac287eb6b1"
+    },
+    {
+      "file": "code-verdicts.json",
+      "sha256": "012a41d52ddb5d30d1462a9eec2eba6508e0d8e553c8fa2c4e0ad1295b09f0ed"
+    },
+    {
+      "file": "execution-evidence.json",
+      "sha256": "5e260a09a8af13e2c0ea4648935f2c647ea6feaa51450cc787ee57aa9133ee34"
+    },
+    {
+      "file": "functional-session.json",
+      "sha256": "4933f1f0ddc31d69ca88991f226fb0c7eae5206afbd74817439b84bdcf0080ed"
+    },
+    {
+      "file": "functional-usage.json",
+      "sha256": "a6d242b364195e542e42a114c205f9bb518ee04ab3f4ed937cb233e87e7f9d4a"
+    },
+    {
+      "file": "functional.json",
+      "sha256": "72775a55a7d24e80fac9acde85fc0ca8013ff48cc9b882fd054e094538a7ca91"
+    },
+    {
+      "file": "unresolved.json",
+      "sha256": "9a5df734331631512159723cf000561855d37a99c57c7faf71023ef1976a4232"
+    },
+    {
+      "file": "verdicts.json",
+      "sha256": "643e1364f8ea6ea2fe1dfe46dc0a9bcc2cbc6c9c20c22deaf9a0163e448179ed"
+    }
+  ]
+}

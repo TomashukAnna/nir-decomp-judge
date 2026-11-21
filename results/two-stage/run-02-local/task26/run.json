@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-19",
+  "valid_final_result": true,
+  "commit": "87776c1ed35aeed10ce2f1cc754373fe0ef7a00b",
+  "config": "opencode.json",
+  "config_sha256": "471dd2973307e84273d847366392744550db91a5040aa6415c037065710defee",
+  "seed": 42,
+  "functional_run_id": "2d429ec51de845c3873f0fa7fb45d42d",
+  "code_run_id": "fb1d6b70f36040e69d6ed6b79da373a1",
+  "full_artifacts": "data\\judge-runs\\task26-two-stage-20261119-221556",
+  "metrics_from_local_mlflow": {
+    "2d429ec51de845c3873f0fa7fb45d42d": {
+      "prompt_tokens": 23641.0,
+      "completion_tokens": 4899.0,
+      "total_tokens": 28540.0,
+      "pass": 0.0,
+      "fail": 0.0,
+      "unresolved": 11.0
+    },
+    "fb1d6b70f36040e69d6ed6b79da373a1": {
+      "markdown_fence_removed": 1.0,
+      "surrounding_text_removed": 0.0,
+      "raw_json_valid": 0.0,
+      "format_violation": 1.0,
+      "completed_steps": 6.0,
+      "tokens_input": 59692.0,
+      "tokens_output": 2723.0,
+      "tokens_reasoning": 2833.0,
+      "tokens_total": 65248.0,
+      "verdict_count": 11.0,
+      "session_seconds": 62.4834749000147,
+      "workspace_unchanged": 1.0,
+      "response_valid": 1.0
+    }
+  },
+  "functional_final_response_chars": 3023,
+  "functional_final_response_non_whitespace_chars": 3021,
+  "origin": "Первый локальный запуск, до исправлений",
+  "artifacts_sha256": [
+    {
+      "file": "code-raw-response.txt",
+      "sha256": "8171e39cbf09aa28d88755aec63c9d885ef8549aed6d7a103a6dc768797f0b22"
+    },
+    {
+      "file": "code-run.json",
+      "sha256": "490c23abfbcf14496865679b931d47e7c45f8092d2215c4bbbad300c704f6d41"
+    },
+    {
+      "file": "code-timing.json",
+      "sha256": "c2a1defbe2ecceae00577817e42e9df5bd543a0ead9a3d7f2e252594e9c1d526"
+    },
+    {
+      "file": "code-tokens.json",
+      "sha256": "b646bdfe8443eec72d659c1e981a17b7d2659c7855a50ba0db5013c57b2c6450"
+    },
+    {
+      "file": "code-verdicts.json",
+      "sha256": "641795454674fffb846157c0f08dca3448935c66b3f737e75c8357bc9c3179ad"
+    },
+    {
+      "file": "execution-evidence.json",
+      "sha256": "13bedfc08e0da7a4f3f1eff7009fd87e698d16b27756bf7ee77a1835450657aa"
+    },
+    {
+      "file": "functional-final-response.txt",
+      "sha256": "37b4dbfa4f1fb49dfa7ef4774520107eee32f2cf9d2b867fc48be26b17b3d1cc"
+    },
+    {
+      "file": "functional.json",
+      "sha256": "17b1838482fc72daa20be4e3c6b988bbbe600ddcead8a92e673008e6bcbccdb7"
+    },
+    {
+      "file": "unresolved.json",
+      "sha256": "43d202df556e4da141609beec117a7bce7bd1607472a6dfdaeaf514dcf9e18a2"
+    },
+    {
+      "file": "verdicts.json",
+      "sha256": "fee7d73c08611a0c3a16e9ea19eb74c185cb5e2c8b3a9450d3fd4395e35df301"
+    }
+  ]
+}

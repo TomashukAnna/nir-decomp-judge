@@ -1,0 +1,48 @@
+[
+  {
+    "index": 0,
+    "changed_files": [],
+    "launch_exit_code": 1,
+    "launch_error_excerpt": "             ^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'path_to_gdsc_dataset.csv'"
+  },
+  {
+    "index": 1,
+    "error": "Expecting value: line 3 column 1 (char 2)"
+  },
+  {
+    "index": 2,
+    "error": "Expecting value: line 3 column 1 (char 2)"
+  },
+  {
+    "index": 3,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "index": 4,
+    "kind": "source",
+    "path": "src/train.py"
+  },
+  {
+    "index": 5,
+    "kind": "source",
+    "path": "src/data_loader.py"
+  },
+  {
+    "index": 6,
+    "kind": "source",
+    "path": "src/model.py"
+  },
+  {
+    "index": 7,
+    "kind": "source",
+    "path": "gdsc_dataset.csv"
+  },
+  {
+    "index": 8,
+    "error": "Expecting value: line 3 column 1 (char 2)"
+  },
+  {
+    "index": 9,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+]

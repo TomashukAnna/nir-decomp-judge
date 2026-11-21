@@ -1,0 +1,14 @@
+{
+  "run_id": "fb1d6b70f36040e69d6ed6b79da373a1",
+  "commit": "87776c1ed35aeed10ce2f1cc754373fe0ef7a00b",
+  "config_path": "opencode.json",
+  "seed": 42,
+  "seed_applied_to_model": false,
+  "task": "26",
+  "dataset": "WebGen-Bench",
+  "model": "lab/iairlab/qwen3.8-27b",
+  "temperature": 0,
+  "max_steps": 16,
+  "input_mode": "specification_and_requirements",
+  "specification_available": true
+}

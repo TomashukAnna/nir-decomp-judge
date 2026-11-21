@@ -1,0 +1,101 @@
+{
+  "steps": [
+    {
+      "total": 3505,
+      "input": 3406,
+      "output": 87,
+      "reasoning": 12,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 4153,
+      "input": 3902,
+      "output": 188,
+      "reasoning": 63,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 5888,
+      "input": 5226,
+      "output": 135,
+      "reasoning": 527,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 7068,
+      "input": 6052,
+      "output": 144,
+      "reasoning": 872,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 9681,
+      "input": 6482,
+      "output": 128,
+      "reasoning": 3071,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 12870,
+      "input": 6595,
+      "output": 79,
+      "reasoning": 6196,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 6983,
+      "input": 6778,
+      "output": 88,
+      "reasoning": 117,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 11315,
+      "input": 6882,
+      "output": 688,
+      "reasoning": 3745,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    },
+    {
+      "total": 9760,
+      "input": 7663,
+      "output": 747,
+      "reasoning": 1350,
+      "cache": {
+        "write": 0,
+        "read": 0
+      }
+    }
+  ],
+  "totals": {
+    "input": 52986,
+    "output": 2284,
+    "reasoning": 15953,
+    "total": 71223
+  },
+  "scope": "Reported step_finish events only; not total API billing"
+}

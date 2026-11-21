@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-18",
+  "origin": "Запуск преподавателя",
+  "directory": "task26-internal-001",
+  "commit": "87776c1ed35aeed10ce2f1cc754373fe0ef7a00b",
+  "functional_run_id": "6d797ea62eb34cc7b17a2251667ea55f",
+  "code_run_id": "281e6415654a4e56bf6b9f761d008abe",
+  "code_model": "lab/qwen3.8-27b",
+  "code_temperature": 0,
+  "code_stage_seconds": 228.56,
+  "run_exit_code": 0,
+  "original_sha256": {
+    "functional.json": "cee09cb6f1dcc718e4b63fa5ab445b309aac1a3a813d2f57a59c44fa052bc756",
+    "unresolved.json": "43d202df556e4da141609beec117a7bce7bd1607472a6dfdaeaf514dcf9e18a2",
+    "verdicts.json": "20f9beb53bffd8393276c76e9c1dfdab87a73a63b6e498ec5c7c4f0088b7474c"
+  },
+  "config": "не передан",
+  "seed": null,
+  "valid_final_result": true,
+  "artifacts_sha256": [
+    {
+      "file": "execution-evidence.json",
+      "sha256": "7b2ad262d610f4ed7c8b9b4e7816aed8bd12aa5df1cf23d4697c66e9afe267b3"
+    },
+    {
+      "file": "functional.json",
+      "sha256": "cee09cb6f1dcc718e4b63fa5ab445b309aac1a3a813d2f57a59c44fa052bc756"
+    },
+    {
+      "file": "unresolved.json",
+      "sha256": "43d202df556e4da141609beec117a7bce7bd1607472a6dfdaeaf514dcf9e18a2"
+    },
+    {
+      "file": "verdicts.json",
+      "sha256": "20f9beb53bffd8393276c76e9c1dfdab87a73a63b6e498ec5c7c4f0088b7474c"
+    }
+  ]
+}

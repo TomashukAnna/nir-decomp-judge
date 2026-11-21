@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-18",
+  "origin": "Запуск преподавателя",
+  "directory": "task39-internal-001",
+  "commit": "87776c1ed35aeed10ce2f1cc754373fe0ef7a00b",
+  "functional_run_id": "182f433322c44ff9b99a9b689e1de847",
+  "code_run_id": "f79faabde23d457b9235d506efc86959",
+  "code_model": "lab/qwen3.8-27b",
+  "code_temperature": 0,
+  "code_stage_seconds": 144.39,
+  "run_exit_code": 0,
+  "original_sha256": {
+    "functional.json": "e9da17774fd7bb01707424e1507a4fe7f08bfbb1de4436d0425c83943403fec0",
+    "unresolved.json": "9a5df734331631512159723cf000561855d37a99c57c7faf71023ef1976a4232",
+    "verdicts.json": "cfc0347b54ff17b8921b2e8c74158caeeabce11d6637938c7f089da26f5ec5fd"
+  },
+  "config": "не передан",
+  "seed": null,
+  "valid_final_result": true,
+  "artifacts_sha256": [
+    {
+      "file": "execution-evidence.json",
+      "sha256": "d2c6e53d113fc184cbf257b87d1527ac00824929477cb8fa3c36fc1e971f0585"
+    },
+    {
+      "file": "functional.json",
+      "sha256": "e9da17774fd7bb01707424e1507a4fe7f08bfbb1de4436d0425c83943403fec0"
+    },
+    {
+      "file": "human-comparison.csv",
+      "sha256": "8a9ea09409566bf545af17b41584faa9c17f0c3a08bfce64644868a16b2114b1"
+    },
+    {
+      "file": "unresolved.json",
+      "sha256": "9a5df734331631512159723cf000561855d37a99c57c7faf71023ef1976a4232"
+    },
+    {
+      "file": "verdicts.json",
+      "sha256": "cfc0347b54ff17b8921b2e8c74158caeeabce11d6637938c7f089da26f5ec5fd"
+    }
+  ]
+}

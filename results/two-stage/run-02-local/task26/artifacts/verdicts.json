@@ -1,0 +1,222 @@
+{
+  "commit": "87776c1ed35aeed10ce2f1cc754373fe0ef7a00b",
+  "functional_run_id": "2d429ec51de845c3873f0fa7fb45d42d",
+  "functional_source": "functional",
+  "code_run_id": "fb1d6b70f36040e69d6ed6b79da373a1",
+  "verdicts": [
+    {
+      "requirement_id": "R1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/App.jsx",
+          "line_start": 44,
+          "line_end": 46
+        },
+        {
+          "file": "src/pages/PromotionListPage.jsx",
+          "line_start": 20,
+          "line_end": 40
+        },
+        {
+          "file": "src/components/PromotionList.jsx",
+          "line_start": 5,
+          "line_end": 13
+        }
+      ],
+      "reason": "По умолчанию (и для '#/') AppShell рендерит PromotionListPage, который строит список из getVisiblePromotions и отображает его через PromotionList с карточками; при пустом списке показывается EmptyState.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R1.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/components/PromotionCard.jsx",
+          "line_start": 10,
+          "line_end": 22
+        }
+      ],
+      "reason": "Карточка акции отображает заголовок, скидку (promo-discount, строка 15), описание (promo-desc, строка 17), категорию (tag, строка 19) и автора ('by {authorName}', строка 20).",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/SharePromotionPage.jsx",
+          "line_start": 13,
+          "line_end": 22
+        },
+        {
+          "file": "src/pages/SharePromotionPage.jsx",
+          "line_start": 25,
+          "line_end": 68
+        }
+      ],
+      "reason": "Страница '#/share' содержит форму с полями title/description/discount/category/link; submit вызывает actions.addPromotion(form), после успешной отправки редирект на главную, где акция появляется в списке.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R2.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/store/actions.js",
+          "line_start": 25,
+          "line_end": 32
+        },
+        {
+          "file": "src/pages/SharePromotionPage.jsx",
+          "line_start": 31,
+          "line_end": 58
+        }
+      ],
+      "reason": "addPromotion проверяет обязательные поля (title, description, discount, category) и возвращает errors; форма отображает сообщения об ошибках под каждым обязательным полем и не публикует акцию при невалидных данных.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R2.2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/store/actions.js",
+          "line_start": 8,
+          "line_end": 11
+        },
+        {
+          "file": "src/store/actions.js",
+          "line_start": 47,
+          "line_end": 48
+        },
+        {
+          "file": "src/store/seed.js",
+          "line_start": 49,
+          "line_end": 55
+        }
+      ],
+      "reason": "Опубликованная акция добавляется в общий store и персистится в localStorage (cps.promotions); список акций на главной строится из этого общего состояния, поэтому опубликованная акция видна другим пользователям/сессиям в пределах статической проверки (демо без бэкенда).",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R3",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/components/Header.jsx",
+          "line_start": 13,
+          "line_end": 35
+        },
+        {
+          "file": "src/utils/filter.js",
+          "line_start": 6,
+          "line_end": 13
+        }
+      ],
+      "reason": "В шапке есть поле поиска, которое записывает запрос в state.searchQuery (с кнопкой очистки и Esc); getVisiblePromotions фильтрует список акций по searchQuery, а PromotionListPage использует этот фильтр.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R3.1",
+      "verdict": "FAIL",
+      "evidence": [
+        {
+          "file": "src/utils/filter.js",
+          "line_start": 9,
+          "line_end": 13
+        }
+      ],
+      "reason": "Поиск ищет совпадения только в p.title и p.description и не включает категорию (p.category) в область поиска — критерию «включая категорию» это противоречит; отдельный фильтр по категории в тулбаре не является частью поискового запроса.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R4",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/AdminPanelPage.jsx",
+          "line_start": 1,
+          "line_end": 19
+        }
+      ],
+      "reason": "Админ-панель содержит три вкладки: Users (UsersTable), Promotions (PromotionsTable) и Settings (SettingsForm) — управление пользователями, акциями и настройками сайта.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R4.1",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/pages/admin/UsersTable.jsx",
+          "line_start": 29,
+          "line_end": 53
+        },
+        {
+          "file": "src/store/actions.js",
+          "line_start": 93,
+          "line_end": 115
+        }
+      ],
+      "reason": "Админ видит таблицу всех пользователей (никнейм, роль, число акций) и может менять их данные: переключать роль setUserRole и удалять deleteUser (с защитой от снятия/удаления последнего администратора).",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R4.2",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/App.jsx",
+          "line_start": 38,
+          "line_end": 43
+        },
+        {
+          "file": "src/components/Header.jsx",
+          "line_start": 41,
+          "line_end": 41
+        }
+      ],
+      "reason": "Маршрут '#/admin/*' рендерит AdminPanelPage только если currentUser и currentUser.isAdmin, иначе устанавливает редирект на главную; ссылка на админку в шапке показывается только администратору.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    },
+    {
+      "requirement_id": "R5",
+      "verdict": "PASS",
+      "evidence": [
+        {
+          "file": "src/styles/global.css",
+          "line_start": 1,
+          "line_end": 5
+        },
+        {
+          "file": "src/styles/global.css",
+          "line_start": 9,
+          "line_end": 14
+        },
+        {
+          "file": "src/styles/global.css",
+          "line_start": 110,
+          "line_end": 115
+        },
+        {
+          "file": "src/styles/global.css",
+          "line_start": 36,
+          "line_end": 40
+        }
+      ],
+      "reason": "Внешний слой (body) имеет фон var(--ivory) #FFFFF0, а блоки интерфейса (.card — карточки акций, формы, админ-панель, тулбар) и шапка используют var(--forest-green) #228B22.",
+      "source": "code",
+      "functional_reason": "Functional evaluation could not finish (ValueError)"
+    }
+  ]
+}

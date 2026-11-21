@@ -1,0 +1,228 @@
+[
+  {
+    "index": 0,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/",
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nLaptop clearance\n-50%\n\nLast year's models, up to half price.\n\nElectronics\nby Anonymous\nCoffee -30%\n-30%\n\nLocal coffee chain, all hot drinks.\n\nFood\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 1,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/",
+    "selector": "body",
+    "property": "background-color",
+    "values": [
+      "rgb(255, 255, 240)"
+    ],
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nLaptop clearance\n-50%\n\nLast year's models, up to half price.\n\nElectronics\nby Anonymous\nCoffee -30%\n-30%\n\nLocal coffee chain, all hot drinks.\n\nFood\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 2,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/",
+    "selector": "header",
+    "property": "background-color",
+    "values": [
+      "rgb(34, 139, 34)"
+    ],
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nLaptop clearance\n-50%\n\nLast year's models, up to half price.\n\nElectronics\nby Anonymous\nCoffee -30%\n-30%\n\nLocal coffee chain, all hot drinks.\n\nFood\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 3,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='Search promotions…']",
+      "value": "coffee"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\n×\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nCoffee -30%\n-30%\n\nLocal coffee chain, all hot drinks.\n\nFood\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 4,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='Search promotions…']",
+      "value": "electronics"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\n×\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nNo promotions found\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 5,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='Search promotions…']",
+      "value": "Laptop"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\n×\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nLaptop clearance\n-50%\n\nLast year's models, up to half price.\n\nElectronics\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 6,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='Search promotions…']",
+      "value": "Electronics"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\n×\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nNo promotions found\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 7,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "click",
+      "selector": "a:has-text('Share a promotion')"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\n×\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nDescription *\nDiscount value *\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 8,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "click",
+      "selector": "button[type='submit']"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\n×\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nTitle is required.\nDescription *\nDescription is required.\nDiscount value *\nDiscount value is required.\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nPlease select a category.\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 9,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='Search promotions…']",
+      "value": ""
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nTitle is required.\nDescription *\nDescription is required.\nDiscount value *\nDiscount value is required.\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nPlease select a category.\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 10,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='Search promotions…']",
+      "value": ""
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nTitle is required.\nDescription *\nDescription is required.\nDiscount value *\nDiscount value is required.\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nPlease select a category.\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 11,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='Search promotions…']",
+      "value": ""
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nTitle is required.\nDescription *\nDescription is required.\nDiscount value *\nDiscount value is required.\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nPlease select a category.\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 12,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/",
+    "step": {
+      "op": "click",
+      "selector": "a:has-text('Home')"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nLaptop clearance\n-50%\n\nLast year's models, up to half price.\n\nElectronics\nby Anonymous\nCoffee -30%\n-30%\n\nLocal coffee chain, all hot drinks.\n\nFood\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 13,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "click",
+      "selector": "a:has-text('Share a promotion')"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nDescription *\nDiscount value *\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 14,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "fill",
+      "selector": "input:not([placeholder])",
+      "value": "Summer Sale 2024"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nDescription *\nDiscount value *\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 15,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "fill",
+      "selector": "textarea",
+      "value": "Big summer sale on all items, up to 70% off."
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nDescription *\nDiscount value *\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 16,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "fill",
+      "selector": "input[placeholder='e.g. -50% or 3 for 2']",
+      "value": "-70%"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nDescription *\nDiscount value *\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 17,
+    "kind": "action_error",
+    "error": "Locator.select_option: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"select:has(option[value='clothing'])\")\n"
+  },
+  {
+    "index": 18,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/share",
+    "step": {
+      "op": "select",
+      "selector": "select",
+      "value": "Clothing"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nShare a promotion\n\nPosting as Anonymous\n\nTitle *\nDescription *\nDiscount value *\nCategory *\nSelect category…\nElectronics\nFood\nTravel\nClothing\nOther\nLink / store (optional)\nSubmit\nCancel\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 19,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/",
+    "step": {
+      "op": "click",
+      "selector": "button[type='submit']"
+    },
+    "matched": true,
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nSummer Sale 2024\n-70%\n\nBig summer sale on all items, up to 70% off.\n\nClothing\nby Anonymous\nLaptop clearance\n-50%\n\nLast year's models, up to half price.\n\nElectronics\nby Anonymous\nCoffee -30%\n-30%\n\nLocal coffee chain, all hot drinks.\n\nFood\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  },
+  {
+    "index": 20,
+    "kind": "browser",
+    "url": "http://127.0.0.1:32573/#/admin",
+    "visible_text_excerpt": "PromoHub\nHome\nShare a promotion\nLog in\nRegister\nCategory:\nAll categories\nElectronics\nFood\nTravel\nClothing\nOther\nSort by:\nNewest first\nHighest discount\nSummer Sale 2024\n-70%\n\nBig summer sale on all items, up to 70% off.\n\nClothing\nby Anonymous\nLaptop clearance\n-50%\n\nLast year's models, up to half price.\n\nElectronics\nby Anonymous\nCoffee -30%\n-30%\n\nLocal coffee chain, all hot drinks.\n\nFood\nby Anonymous\nCommunity promotion sharing · demo app (no backend)"
+  }
+]
