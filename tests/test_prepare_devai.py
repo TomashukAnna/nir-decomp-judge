@@ -18,6 +18,14 @@ def git(source: Path, *args: str) -> str:
     ).stdout.strip()
 
 
+@pytest.fixture(autouse=True)
+def isolate_git_environment(monkeypatch: pytest.MonkeyPatch) -> None:
+    # Hooks in a linked worktree can point subprocesses at the parent index.
+    variables = subprocess.check_output(["git", "rev-parse", "--local-env-vars"], text=True)
+    for name in variables.splitlines():
+        monkeypatch.delenv(name, raising=False)
+
+
 @pytest.fixture
 def example(tmp_path: Path) -> tuple[Path, Path, Path]:
     source = tmp_path / "source"
