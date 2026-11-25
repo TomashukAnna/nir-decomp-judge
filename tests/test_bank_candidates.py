@@ -203,3 +203,17 @@ def test_existing_results_are_never_overwritten(tmp_path: Path) -> None:
         candidates.write_catalog(
             tmp_path, tmp_path, tmp_path / "families.json", seed=42, run_id="test", commit="test"
         )
+
+
+def test_chat_search_does_not_match_unrelated_substrings(annotation_root: Path) -> None:
+    rows, _ = candidates.build_catalog(annotation_root)
+    config = Path(__file__).resolve().parents[1] / "configs/requirement-families.json"
+    family = next(
+        item for item in candidates.load_families(config) if item.id == "communication.messages"
+    )
+    samples = [
+        rows[0].model_copy(update={"criteria": "Пользователь может получать отчёты."}),
+        rows[1].model_copy(update={"criteria": "Пользователь может скачать файл."}),
+        rows[2].model_copy(update={"criteria": "Пользователь может открыть чат."}),
+    ]
+    assert candidates.candidate_memberships(samples, [family])[family.id] == [samples[2].global_id]
