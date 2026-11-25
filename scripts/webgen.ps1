@@ -4,16 +4,28 @@ param(
     [string]$Action,
     [string]$InputPath,
     [string]$OutputPath,
+    [ValidateRange(1,2147483647)]
+    [int]$Count,
+    [string]$WorkspaceRoot,
+    [ValidateSet('nir-webgen-qwen')]
     [string]$ContainerName = 'nir-webgen-qwen',
     [string]$Image = 'nir-webgen-generator:1.19.4'
 )
 $ErrorActionPreference = 'Stop'
 $repo = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
-if (-not $InputPath) { $InputPath = Join-Path $repo '../data WebGen-Bench/test.jsonl' }
-if (-not $OutputPath) { $OutputPath = Join-Path $repo 'data/generated-apps/webgen-qwen-001' }
+if ($Action -in @('Start','Resume') -and -not $PSBoundParameters.ContainsKey('Count')) {
+    throw 'Specify -Count: the maximum number of new tasks to attempt in this launch.'
+}
+if ($Action -eq 'Pilot' -and $PSBoundParameters.ContainsKey('Count') -and $Count -ne 1) {
+    throw 'Pilot runs one task. Use Start -Count N for a batch.'
+}
+if (-not $WorkspaceRoot) { $WorkspaceRoot = $repo }
+$WorkspaceRoot = [IO.Path]::GetFullPath($WorkspaceRoot)
+if (-not $InputPath) { $InputPath = Join-Path $WorkspaceRoot '../data WebGen-Bench/test.jsonl' }
+if (-not $OutputPath) { $OutputPath = Join-Path $WorkspaceRoot 'data/generated-apps/webgen-qwen-001' }
 $InputPath = [IO.Path]::GetFullPath($InputPath)
 $OutputPath = [IO.Path]::GetFullPath($OutputPath)
-$dataRoot = [IO.Path]::GetFullPath((Join-Path $repo 'data'))
+$dataRoot = [IO.Path]::GetFullPath((Join-Path $WorkspaceRoot 'data'))
 if (-not $OutputPath.StartsWith($dataRoot+[IO.Path]::DirectorySeparatorChar,[StringComparison]::OrdinalIgnoreCase)) {
     throw 'OutputPath must be under the ignored project data directory.'
 }
@@ -47,20 +59,35 @@ if ($Action -eq 'Status') {
     exit
 }
 if ($Action -eq 'Stop') {
-    if ($owned) { Invoke-DockerCommand @('stop','--time','20',$ContainerName) }
+    if ($owned) { Invoke-DockerCommand @('stop','--timeout','20',$ContainerName) }
     exit
 }
+if (-not (Test-Path -LiteralPath $InputPath -PathType Leaf)) { throw 'Dataset not found.' }
+if ($Action -ne 'Check' -and [string]::IsNullOrWhiteSpace($env:LITELLM_API_KEY)) {
+    throw 'Set LITELLM_API_KEY in the current process.'
+}
+$named = & docker ps -a --filter "name=^/$ContainerName`$" --format '{{.Names}}'
+if ($LASTEXITCODE -ne 0) { throw 'Cannot inspect the existing container.' }
+if ($named -and -not $owned) { throw 'The container name belongs to another application.' }
+$others = & docker ps -a --filter "label=$label" --format '{{.Names}}'
+if ($LASTEXITCODE -ne 0) { throw 'Cannot inspect generator containers.' }
+if (@($others | Where-Object { $_ -and $_ -ne $ContainerName }).Count) {
+    throw 'Another generator container exists. Keep only nir-webgen-qwen before starting.'
+}
+$imageId = & docker image inspect --format '{{.Id}}' $Image
+if ($LASTEXITCODE -ne 0 -or -not $imageId) { throw 'Build the generator image first.' }
 if ($owned) {
     $running = & docker inspect --format '{{.State.Running}}' $ContainerName
+    if ($LASTEXITCODE -ne 0) { throw 'Cannot inspect the running container.' }
     if ($running -eq 'true') { throw 'The batch is already running. Use Status or Stop.' }
     New-Item -ItemType Directory -Path $OutputPath -Force | Out-Null
     $logDirectory = Join-Path $dataRoot 'generated-apps/controller-logs'
     New-Item -ItemType Directory -Path $logDirectory -Force | Out-Null
     $log = Join-Path $logDirectory ('controller-'+(Get-Date -Format 'yyyyMMdd-HHmmss')+'.log')
     & docker logs $ContainerName 2>&1 | Set-Content -LiteralPath $log -Encoding utf8
+    if ($LASTEXITCODE -ne 0) { throw 'Cannot preserve controller logs; old container retained.' }
     Invoke-DockerCommand @('rm',$ContainerName)
 }
-if (-not (Test-Path -LiteralPath $InputPath -PathType Leaf)) { throw 'Dataset not found.' }
 New-Item -ItemType Directory -Path $OutputPath -Force | Out-Null
 $arguments = @('run','--name',$ContainerName,'--init','--label',$label,
     '--cpus','2','--memory','4g','--pids-limit','256',
@@ -72,14 +99,14 @@ $arguments = @('run','--name',$ContainerName,'--init','--label',$label,
     '--env','npm_config_cache=/output/.cache/npm',
     '--env','UV_CACHE_DIR=/output/.cache/uv','--env','PIP_CACHE_DIR=/output/.cache/pip')
 if ($Action -ne 'Check') {
-    if ([string]::IsNullOrWhiteSpace($env:LITELLM_API_KEY)) { throw 'Set LITELLM_API_KEY in the current process.' }
     $arguments += @('--env','LITELLM_API_KEY')
 }
 if ($Action -in @('Start','Resume')) { $arguments += '--detach' }
-$arguments += @($Image,'--input','/input/test.jsonl','--output','/output')
+$arguments += @($imageId,'--input','/input/test.jsonl','--output','/output')
 if ($Action -ne 'Check') { $arguments += '--execute' }
 if (Test-Path -LiteralPath (Join-Path $OutputPath 'manifest.json')) { $arguments += '--resume' }
 if ($Action -eq 'Pilot') { $arguments += @('--limit','1') }
+if ($Action -in @('Start','Resume')) { $arguments += @('--limit',"$Count") }
 Invoke-DockerCommand $arguments
 Write-Output "Results: $OutputPath"
 
