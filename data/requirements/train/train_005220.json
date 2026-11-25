@@ -1,0 +1,70 @@
+{
+  "task_index": 5219,
+  "webgen_id": "train_005220",
+  "query": "Please implement a data entry website for inputting and managing data. The website should have functionalities for data entry, data viewing, data editing, and data deletion. Users should be able to log in, input new data, view existing data, edit existing data, and delete unnecessary data. Configure all backgrounds with light slate gray and all components with navy.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, input new data, view existing data, edit existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может вводить новые данные.",
+      "source": "“Users should be able to log in, input new data, view existing data, edit existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать данные.",
+      "source": "“Users should be able to log in, input new data, view existing data, edit existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать данные.",
+      "source": "“Users should be able to log in, input new data, view existing data, edit existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять данные.",
+      "source": "“Users should be able to log in, input new data, view existing data, edit existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Все фоновые области имеют цвет `light slate gray` (`#778899`).",
+      "source": "“Configure all backgrounds with light slate gray and all components with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Все компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Configure all backgrounds with light slate gray and all components with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

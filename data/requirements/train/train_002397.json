@@ -1,0 +1,115 @@
+{
+  "task_index": 2396,
+  "webgen_id": "train_002397",
+  "query": "Please implement a debt management system for managing pre-loan, loan, and post-loan related businesses. The system should have functionalities for pre-loan quota issuance, customer management, project management, and credit management. Users should be able to log in, manage customer information, create and manage projects, perform credit management, and issue pre-loan quotas. The system should also be able to record and track loan and post-loan related business processes. Define background as azure; define components with slate blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, manage customer information, create and manage projects, perform credit management, and issue pre-loan quotas.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может управлять информацией о клиентах.",
+      "source": "“Users should be able to log in, manage customer information, create and manage projects, perform credit management, and issue pre-loan quotas.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать проекты.",
+      "source": "“Users should be able to log in, manage customer information, create and manage projects, perform credit management, and issue pre-loan quotas.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может управлять проектами.",
+      "source": "“Users should be able to log in, manage customer information, create and manage projects, perform credit management, and issue pre-loan quotas.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может выполнять управление кредитованием.",
+      "source": "“Users should be able to log in, manage customer information, create and manage projects, perform credit management, and issue pre-loan quotas.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может выдавать предкредитные квоты.",
+      "source": "“Users should be able to log in, manage customer information, create and manage projects, perform credit management, and issue pre-loan quotas.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна записывать процессы кредитного этапа.",
+      "source": "“The system should also be able to record and track loan and post-loan related business processes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна отслеживать процессы кредитного этапа.",
+      "source": "“The system should also be able to record and track loan and post-loan related business processes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна записывать процессы после выдачи кредита.",
+      "source": "“The system should also be able to record and track loan and post-loan related business processes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна отслеживать процессы после выдачи кредита.",
+      "source": "“The system should also be able to record and track loan and post-loan related business processes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `azure` (`#F0FFFF`).",
+      "source": "“Define background as azure; define components with slate blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `slate blue` (`#6A5ACD`).",
+      "source": "“Define background as azure; define components with slate blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

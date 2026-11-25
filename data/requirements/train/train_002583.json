@@ -1,0 +1,97 @@
+{
+  "task_index": 2582,
+  "webgen_id": "train_002583",
+  "query": "Please implement a cryptocurrency trading bot for quick trading on exchanges. The bot should execute trades every minute and be able to detect and act on price changes quickly. Users should be able to set specific trading pairs and cryptocurrencies, and the bot should trade based on these settings. The bot should also display real-time trade records and account balances. Choose pearl for global background and charcoal for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна выполнять торговые операции каждую минуту.",
+      "source": "“The bot should execute trades every minute and be able to detect and act on price changes quickly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна быстро обнаруживать изменения цены.",
+      "source": "“The bot should execute trades every minute and be able to detect and act on price changes quickly.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна быстро реагировать на изменения цены.",
+      "source": "“The bot should execute trades every minute and be able to detect and act on price changes quickly.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может задавать торговые пары.",
+      "source": "“Users should be able to set specific trading pairs and cryptocurrencies, and the bot should trade based on these settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может задавать криптовалюты для торговли.",
+      "source": "“Users should be able to set specific trading pairs and cryptocurrencies, and the bot should trade based on these settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна торговать в соответствии с выбранными парами и криптовалютами.",
+      "source": "“Users should be able to set specific trading pairs and cryptocurrencies, and the bot should trade based on these settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна показывать торговые записи в реальном времени.",
+      "source": "“The bot should also display real-time trade records and account balances.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна показывать баланс счёта.",
+      "source": "“The bot should also display real-time trade records and account balances.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `pearl`.",
+      "source": "“Choose pearl for global background and charcoal for all components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `charcoal`.",
+      "source": "“Choose pearl for global background and charcoal for all components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

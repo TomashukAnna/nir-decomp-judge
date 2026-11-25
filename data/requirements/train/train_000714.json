@@ -1,0 +1,52 @@
+{
+  "task_index": 713,
+  "webgen_id": "train_000714",
+  "query": "Please implement an interactive conversation teaching website to help learners learn database technology. The website should have interactive conversation functionality, where learners can click to reveal conversation content, focusing their attention on learning. At the same time, the website should have a database interface, where learners can practice while learning, solidifying their knowledge system. The website should also have a hands-on function, where learners can follow conversation guidance to assist in hands-on practice, understanding complex knowledge language and English code. Apply ivory for the layout background and chocolate for interactive elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Учащийся может раскрывать содержимое обучающего диалога щелчком.",
+      "source": "“The website should have interactive conversation functionality, where learners can click to reveal conversation content, focusing their attention on learning.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять интерфейс базы данных для практики во время обучения.",
+      "source": "“At the same time, the website should have a database interface, where learners can practice while learning, solidifying their knowledge system.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Учащийся может выполнять практические задания по указаниям диалога.",
+      "source": "“The website should also have a hands-on function, where learners can follow conversation guidance to assist in hands-on practice, understanding complex knowledge language and English code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`).",
+      "source": "“Apply ivory for the layout background and chocolate for interactive elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Элементы управления имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Apply ivory for the layout background and chocolate for interactive elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "task_index": 733,
+  "webgen_id": "train_000734",
+  "query": "Please implement an embedded HTTP service website to provide web services. The website should have the functionality to handle HTTP requests and responses, support access from multiple devices, and be able to parse and execute embedded code. Users should be able to access the website through a browser, send HTTP requests, and the website will process the requests and return the corresponding responses. Use sky blue as the screen background and navy for component highlights.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна обрабатывать HTTP-запросы.",
+      "source": "“The website should have the functionality to handle HTTP requests and responses, support access from multiple devices, and be able to parse and execute embedded code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна возвращать HTTP-ответы.",
+      "source": "“The website should have the functionality to handle HTTP requests and responses, support access from multiple devices, and be able to parse and execute embedded code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать доступ с разных устройств.",
+      "source": "“The website should have the functionality to handle HTTP requests and responses, support access from multiple devices, and be able to parse and execute embedded code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна разбирать встроенный код.",
+      "source": "“The website should have the functionality to handle HTTP requests and responses, support access from multiple devices, and be able to parse and execute embedded code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна выполнять встроенный код.",
+      "source": "“The website should have the functionality to handle HTTP requests and responses, support access from multiple devices, and be able to parse and execute embedded code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может открывать сайт через браузер.",
+      "source": "“Users should be able to access the website through a browser, send HTTP requests, and the website will process the requests and return the corresponding responses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отправлять HTTP-запросы.",
+      "source": "“Users should be able to access the website through a browser, send HTTP requests, and the website will process the requests and return the corresponding responses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`).",
+      "source": "“Use sky blue as the screen background and navy for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Выделения компонентов имеют цвет `navy` (`#000080`).",
+      "source": "“Use sky blue as the screen background and navy for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "task_index": 5233,
+  "webgen_id": "train_005234",
+  "query": "Please implement a website security system to defend against DDoS attacks. The system should have the functionality to detect and defend against DDoS attacks, including preventing flood attacks and malicious requests. The system should also be able to record and analyze attack logs, providing real-time security reports. Users should be able to configure security settings, customize defense strategies, and receive security alerts. Initialize the background color with linen and component color with saddle brown.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна обнаруживать DDoS-атаки.",
+      "source": "“The system should have the functionality to detect and defend against DDoS attacks, including preventing flood attacks and malicious requests.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна защищаться от DDoS-атак.",
+      "source": "“The system should have the functionality to detect and defend against DDoS attacks, including preventing flood attacks and malicious requests.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предотвращать flood-атаки.",
+      "source": "“The system should have the functionality to detect and defend against DDoS attacks, including preventing flood attacks and malicious requests.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна блокировать вредоносные запросы.",
+      "source": "“The system should have the functionality to detect and defend against DDoS attacks, including preventing flood attacks and malicious requests.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна записывать журналы атак.",
+      "source": "“The system should also be able to record and analyze attack logs, providing real-time security reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна анализировать журналы атак.",
+      "source": "“The system should also be able to record and analyze attack logs, providing real-time security reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна формировать отчёты безопасности в реальном времени.",
+      "source": "“The system should also be able to record and analyze attack logs, providing real-time security reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может настраивать параметры безопасности.",
+      "source": "“Users should be able to configure security settings, customize defense strategies, and receive security alerts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может настраивать собственные стратегии защиты.",
+      "source": "“Users should be able to configure security settings, customize defense strategies, and receive security alerts.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может получать предупреждения безопасности.",
+      "source": "“Users should be able to configure security settings, customize defense strategies, and receive security alerts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `linen` (`#FAF0E6`).",
+      "source": "“Initialize the background color with linen and component color with saddle brown.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`).",
+      "source": "“Initialize the background color with linen and component color with saddle brown.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

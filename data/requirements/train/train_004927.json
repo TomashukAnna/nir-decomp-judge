@@ -1,0 +1,106 @@
+{
+  "task_index": 4926,
+  "webgen_id": "train_004927",
+  "query": "Please implement a website server management software for managing website servers. The software should have functionalities for adding, deleting, and modifying servers, managing server configurations, monitoring server status, and setting security policies. Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies. Use rosy brown as the screen background and brown for component highlights.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать список серверов.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может добавлять серверы.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может удалять существующие серверы.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может изменять существующие серверы.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о сервере.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может настраивать конфигурацию сервера.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может отслеживать состояние работы серверов.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может задавать политики безопасности.",
+      "source": "“Users should be able to log in, browse the server list, add new servers, delete or modify existing servers, view server details, set server configurations, monitor server running status, and set security policies.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `rosy brown` (`#BC8F8F`).",
+      "source": "“Use rosy brown as the screen background and brown for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Выделения компонентов имеют цвет `brown` (`#A52A2A`).",
+      "source": "“Use rosy brown as the screen background and brown for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

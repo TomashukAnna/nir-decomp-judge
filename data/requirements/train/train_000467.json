@@ -1,0 +1,106 @@
+{
+  "task_index": 466,
+  "webgen_id": "train_000467",
+  "query": "Please create a responsive dating community website with 16 pages. The website should have a layout that adapts to different screen sizes, including mobile devices. Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more. The website should have a responsive design to ensure consistent display across different devices. Set overall background to light slate gray, then style components with navy.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна содержать шестнадцать страниц.",
+      "source": "“Please create a responsive dating community website with 16 pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна адаптировать компоновку к разным экранам, включая мобильные устройства.",
+      "source": "“The website should have a layout that adapts to different screen sizes, including mobile devices.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять главную страницу.",
+      "source": "“Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять страницу регистрации.",
+      "source": "“Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять страницу входа.",
+      "source": "“Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предоставлять страницу профиля.",
+      "source": "“Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять страницу поиска.",
+      "source": "“Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна предоставлять страницу чата.",
+      "source": "“Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать страницы сообщества знакомств.",
+      "source": "“Users should be able to browse different pages, including the homepage, registration page, login page, profile page, search page, chat page, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `light slate gray` (`#778899`).",
+      "source": "“Set overall background to light slate gray, then style components with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Set overall background to light slate gray, then style components with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

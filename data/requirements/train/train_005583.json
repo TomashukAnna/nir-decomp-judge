@@ -1,0 +1,97 @@
+{
+  "task_index": 5582,
+  "webgen_id": "train_005583",
+  "query": "Please implement a fully automated system for Telegram and WhatsApp messaging. The system should have functionalities for creating bots, searching for specific phrases or text in Telegram groups, forwarding messages to WhatsApp, and making calls when search conditions are met. Users should be able to configure search conditions and forwarding rules, and view system logs and error reports. Initialize the background color with papaya whip and component color with peru.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать ботов.",
+      "source": "“The system should have functionalities for creating bots, searching for specific phrases or text in Telegram groups, forwarding messages to WhatsApp, and making calls when search conditions are met.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна искать заданные фразы в группах Telegram.",
+      "source": "“The system should have functionalities for creating bots, searching for specific phrases or text in Telegram groups, forwarding messages to WhatsApp, and making calls when search conditions are met.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна пересылать найденные сообщения в WhatsApp.",
+      "source": "“The system should have functionalities for creating bots, searching for specific phrases or text in Telegram groups, forwarding messages to WhatsApp, and making calls when search conditions are met.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна совершать звонок при выполнении условия поиска.",
+      "source": "“The system should have functionalities for creating bots, searching for specific phrases or text in Telegram groups, forwarding messages to WhatsApp, and making calls when search conditions are met.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может задавать условия поиска.",
+      "source": "“Users should be able to configure search conditions and forwarding rules, and view system logs and error reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может задавать правила пересылки.",
+      "source": "“Users should be able to configure search conditions and forwarding rules, and view system logs and error reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать системный журнал.",
+      "source": "“Users should be able to configure search conditions and forwarding rules, and view system logs and error reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать отчёты об ошибках.",
+      "source": "“Users should be able to configure search conditions and forwarding rules, and view system logs and error reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `papaya whip` (`#FFEFD5`).",
+      "source": "“Initialize the background color with papaya whip and component color with peru.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `peru` (`#CD853F`).",
+      "source": "“Initialize the background color with papaya whip and component color with peru.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

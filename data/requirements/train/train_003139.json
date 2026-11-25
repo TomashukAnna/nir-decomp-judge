@@ -1,0 +1,133 @@
+{
+  "task_index": 3138,
+  "webgen_id": "train_003139",
+  "query": "Please implement an online shopping mall website for selling products and managing orders. The website should have functionalities for product management, order management, product promotion, payment methods, shipping methods, member module, administrator module, order management module, product price management, and mall marketing. Users can browse products, place orders, make payments, check order status, and register as members to enjoy discounts. Administrators can manage product information, orders, members, and perform marketing promotions. Use a amber background and apply chocolate to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать выбор способа доставки.",
+      "source": "“The website should have functionalities for product management, order management, product promotion, payment methods, shipping methods, member module, administrator module, order management module, product price management, and mall marketing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать настройку цен товаров.",
+      "source": "“The website should have functionalities for product management, order management, product promotion, payment methods, shipping methods, member module, administrator module, order management module, product price management, and mall marketing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users can browse products, place orders, make payments, check order status, and register as members to enjoy discounts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users can browse products, place orders, make payments, check order status, and register as members to enjoy discounts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оплачивать заказы.",
+      "source": "“Users can browse products, place orders, make payments, check order status, and register as members to enjoy discounts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может проверять состояние заказа.",
+      "source": "“Users can browse products, place orders, make payments, check order status, and register as members to enjoy discounts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может регистрироваться в качестве участника.",
+      "source": "“Users can browse products, place orders, make payments, check order status, and register as members to enjoy discounts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может получать скидки участника.",
+      "source": "“Users can browse products, place orders, make payments, check order status, and register as members to enjoy discounts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Администратор может управлять сведениями о товарах.",
+      "source": "“Administrators can manage product information, orders, members, and perform marketing promotions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Администратор может управлять заказами.",
+      "source": "“Administrators can manage product information, orders, members, and perform marketing promotions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может управлять участниками.",
+      "source": "“Administrators can manage product information, orders, members, and perform marketing promotions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Администратор может проводить маркетинговые акции.",
+      "source": "“Administrators can manage product information, orders, members, and perform marketing promotions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `amber`.",
+      "source": "“Use a amber background and apply chocolate to the UI components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Use a amber background and apply chocolate to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

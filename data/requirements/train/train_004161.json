@@ -1,0 +1,151 @@
+{
+  "task_index": 4160,
+  "webgen_id": "train_004161",
+  "query": "Please implement a payment system website for handling various payment services. The website should have functionalities for merchant center, agent center, payment center, and settlement center. Users should be able to log in, browse different services, perform payment operations, view payment records, and manage account information. The merchant center should allow merchants to manage their products and services, the agent center should allow agents to manage their agency business, the payment center should process payment requests, and the settlement center should process settlement business. Apply light yellow to the canvas background and dark khaki to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять центр продавца.",
+      "source": "“The website should have functionalities for merchant center, agent center, payment center, and settlement center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять центр агента.",
+      "source": "“The website should have functionalities for merchant center, agent center, payment center, and settlement center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять платёжный центр.",
+      "source": "“The website should have functionalities for merchant center, agent center, payment center, and settlement center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять расчётный центр.",
+      "source": "“The website should have functionalities for merchant center, agent center, payment center, and settlement center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse different services, perform payment operations, view payment records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать доступные услуги.",
+      "source": "“Users should be able to log in, browse different services, perform payment operations, view payment records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может выполнять платёжные операции.",
+      "source": "“Users should be able to log in, browse different services, perform payment operations, view payment records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать историю платежей.",
+      "source": "“Users should be able to log in, browse different services, perform payment operations, view payment records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять сведениями своего счёта.",
+      "source": "“Users should be able to log in, browse different services, perform payment operations, view payment records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Продавец может управлять своими товарами.",
+      "source": "“The merchant center should allow merchants to manage their products and services, the agent center should allow agents to manage their agency business, the payment center should process payment requests, and the settlement center should process settlement business.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Продавец может управлять своими услугами.",
+      "source": "“The merchant center should allow merchants to manage their products and services, the agent center should allow agents to manage their agency business, the payment center should process payment requests, and the settlement center should process settlement business.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Агент может управлять агентской деятельностью.",
+      "source": "“The merchant center should allow merchants to manage their products and services, the agent center should allow agents to manage their agency business, the payment center should process payment requests, and the settlement center should process settlement business.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна обрабатывать платёжные запросы.",
+      "source": "“The merchant center should allow merchants to manage their products and services, the agent center should allow agents to manage their agency business, the payment center should process payment requests, and the settlement center should process settlement business.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Система должна обрабатывать расчётные операции.",
+      "source": "“The merchant center should allow merchants to manage their products and services, the agent center should allow agents to manage their agency business, the payment center should process payment requests, and the settlement center should process settlement business.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Фон рабочей области имеет цвет `light yellow` (`#FFFFE0`).",
+      "source": "“Apply light yellow to the canvas background and dark khaki to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`).",
+      "source": "“Apply light yellow to the canvas background and dark khaki to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

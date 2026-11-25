@@ -1,0 +1,135 @@
+{
+  "task_index": 6606,
+  "webgen_id": "train_006607",
+  "query": "Please implement a movie recommendation website that provides personalized movie suggestions based on user input. The website should have a user input form that allows users to enter their movie preferences, such as favorite genres, actors, and directors. After submitting their input, the website should display a list of ten movie suggestions that align with the user's interests, including movie title, genre, and a brief description. The website should also have user login and registration functionality to provide personalized recommendations. Use light coral as the screen background and brown for component highlights.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить предпочтения для рекомендаций фильмов.",
+      "source": "“The website should have a user input form that allows users to enter their movie preferences, such as favorite genres, actors, and directors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Пользователь может указывать любимые жанры.",
+      "source": "“The website should have a user input form that allows users to enter their movie preferences, such as favorite genres, actors, and directors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "Пользователь может указывать любимых актёров.",
+      "source": "“The website should have a user input form that allows users to enter their movie preferences, such as favorite genres, actors, and directors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.3",
+      "criteria": "Пользователь может указывать любимых режиссёров.",
+      "source": "“The website should have a user input form that allows users to enter their movie preferences, such as favorite genres, actors, and directors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправлять предпочтения.",
+      "source": "“After submitting their input, the website should display a list of ten movie suggestions that align with the user's interests, including movie title, genre, and a brief description.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна после отправки предпочтений показывать десять рекомендаций.",
+      "source": "“After submitting their input, the website should display a list of ten movie suggestions that align with the user's interests, including movie title, genre, and a brief description.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна подбирать фильмы, соответствующие интересам пользователя.",
+      "source": "“After submitting their input, the website should display a list of ten movie suggestions that align with the user's interests, including movie title, genre, and a brief description.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать название рекомендованного фильма.",
+      "source": "“After submitting their input, the website should display a list of ten movie suggestions that align with the user's interests, including movie title, genre, and a brief description.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна показывать жанр рекомендованного фильма.",
+      "source": "“After submitting their input, the website should display a list of ten movie suggestions that align with the user's interests, including movie title, genre, and a brief description.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна показывать краткое описание рекомендованного фильма.",
+      "source": "“After submitting their input, the website should display a list of ten movie suggestions that align with the user's interests, including movie title, genre, and a brief description.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“The website should also have user login and registration functionality to provide personalized recommendations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“The website should also have user login and registration functionality to provide personalized recommendations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `light coral` (`#F08080`).",
+      "source": "“Use light coral as the screen background and brown for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Выделения компонентов имеют цвет `brown` (`#A52A2A`).",
+      "source": "“Use light coral as the screen background and brown for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

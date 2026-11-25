@@ -1,0 +1,97 @@
+{
+  "task_index": 2018,
+  "webgen_id": "train_002019",
+  "query": "Please implement a web development platform based on the Go language, with functionalities such as route management, request handling, and response generation. Users should be able to use the platform to create web applications, manage routes, handle HTTP requests, generate responses, and perform error handling. The platform should support multiple template engines and database connections. Use platinum in the background layer and midnight blue for the component layer.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать язык Go.",
+      "source": "“Please implement a web development platform based on the Go language, with functionalities such as route management, request handling, and response generation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Разработчик может создавать веб-приложения.",
+      "source": "“The platform should support multiple template engines and database connections.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Разработчик может управлять маршрутами.",
+      "source": "“The platform should support multiple template engines and database connections.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Разработчик может обрабатывать HTTP-запросы.",
+      "source": "“The platform should support multiple template engines and database connections.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Разработчик может генерировать ответы.",
+      "source": "“The platform should support multiple template engines and database connections.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Разработчик может обрабатывать ошибки.",
+      "source": "“The platform should support multiple template engines and database connections.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать несколько шаблонизаторов.",
+      "source": "“Use platinum in the background layer and midnight blue for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать подключения к базам данных.",
+      "source": "“Use platinum in the background layer and midnight blue for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `platinum`.",
+      "source": "“Use platinum in the background layer and midnight blue for the component layer.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `midnight blue` (`#191970`).",
+      "source": "“Use platinum in the background layer and midnight blue for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "task_index": 1252,
+  "webgen_id": "train_001253",
+  "query": "Please implement a Forex trading platform that provides real-time currency exchange rates and trading functionalities. The platform should support various user roles, including traders, administrators, and support staff. Traders should be able to use a manual trading interface, automated trading options, and copy trading functionality to conduct trades. Administrators should be able to manage users and transaction records, while support staff should be able to provide assistance and resolve issues. Choose sky blue for global background and navy for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать валютные курсы в реальном времени.",
+      "source": "“Please implement a Forex trading platform that provides real-time currency exchange rates and trading functionalities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна различать роли трейдера, администратора и сотрудника поддержки.",
+      "source": "“The platform should support various user roles, including traders, administrators, and support staff.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Трейдер может выполнять сделки вручную.",
+      "source": "“Traders should be able to use a manual trading interface, automated trading options, and copy trading functionality to conduct trades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Трейдер может настраивать автоматическую торговлю.",
+      "source": "“Traders should be able to use a manual trading interface, automated trading options, and copy trading functionality to conduct trades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Трейдер может копировать сделки других трейдеров.",
+      "source": "“Traders should be able to use a manual trading interface, automated trading options, and copy trading functionality to conduct trades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Администратор может управлять пользователями.",
+      "source": "“Administrators should be able to manage users and transaction records, while support staff should be able to provide assistance and resolve issues.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Администратор может управлять записями операций.",
+      "source": "“Administrators should be able to manage users and transaction records, while support staff should be able to provide assistance and resolve issues.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Сотрудник поддержки может оказывать помощь пользователям.",
+      "source": "“Administrators should be able to manage users and transaction records, while support staff should be able to provide assistance and resolve issues.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Сотрудник поддержки может решать проблемы пользователей.",
+      "source": "“Administrators should be able to manage users and transaction records, while support staff should be able to provide assistance and resolve issues.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`).",
+      "source": "“Choose sky blue for global background and navy for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Все компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Choose sky blue for global background and navy for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

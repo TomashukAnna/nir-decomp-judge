@@ -1,0 +1,61 @@
+{
+  "task_index": 1206,
+  "webgen_id": "train_001207",
+  "query": "Please develop a website for artificial intelligence and machine learning consultation, providing related services. The website should have functionalities for consultation services, project showcases, team introductions, and contact information. Users should be able to browse the website, understand the services provided, view project cases, learn about the team, and obtain consultation services through the contact information. Use a morning mist background and apply navy to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать описание консультационных услуг по ИИ и машинному обучению.",
+      "source": "“Users should be able to browse the website, understand the services provided, view project cases, learn about the team, and obtain consultation services through the contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать выполненные проекты.",
+      "source": "“Users should be able to browse the website, understand the services provided, view project cases, learn about the team, and obtain consultation services through the contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать сведения о команде.",
+      "source": "“Users should be able to browse the website, understand the services provided, view project cases, learn about the team, and obtain consultation services through the contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может получать контакты для обращения за консультацией.",
+      "source": "“Users should be able to browse the website, understand the services provided, view project cases, learn about the team, and obtain consultation services through the contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Основной фон интерфейса имеет цвет `morning mist`.",
+      "source": "“Use a morning mist background and apply navy to the UI components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Use a morning mist background and apply navy to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

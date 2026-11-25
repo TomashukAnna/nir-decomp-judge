@@ -1,0 +1,160 @@
+{
+  "task_index": 3154,
+  "webgen_id": "train_003155",
+  "query": "Please design a minimalistic website that includes a contact form and an e-commerce platform. The website should have a user-friendly interface that is easy to navigate. The contact form should allow users to input their name, email, and message, and send it to the website owner. The e-commerce platform should allow users to browse and purchase products, including product descriptions, prices, and images. Users should be able to add products to a shopping cart, view the cart, checkout, and make payments. Apply light slate gray for the layout background and navy for interactive elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять минималистичное оформление.",
+      "source": "“Please design a minimalistic website that includes a contact form and an e-commerce platform.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна обеспечивать удобную навигацию.",
+      "source": "“The website should have a user-friendly interface that is easy to navigate.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять контактное сообщение владельцу сайта.",
+      "source": "“The contact form should allow users to input their name, email, and message, and send it to the website owner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Пользователь может вводить имя в контактной форме.",
+      "source": "“The contact form should allow users to input their name, email, and message, and send it to the website owner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Пользователь может вводить email в контактной форме.",
+      "source": "“The contact form should allow users to input their name, email, and message, and send it to the website owner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Пользователь может вводить текст сообщения.",
+      "source": "“The contact form should allow users to input their name, email, and message, and send it to the website owner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“The e-commerce platform should allow users to browse and purchase products, including product descriptions, prices, and images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может покупать товары.",
+      "source": "“The e-commerce platform should allow users to browse and purchase products, including product descriptions, prices, and images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна показывать описание товара.",
+      "source": "“The e-commerce platform should allow users to browse and purchase products, including product descriptions, prices, and images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна показывать цену товара.",
+      "source": "“The e-commerce platform should allow users to browse and purchase products, including product descriptions, prices, and images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна показывать изображение товара.",
+      "source": "“The e-commerce platform should allow users to browse and purchase products, including product descriptions, prices, and images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может добавлять товары в корзину.",
+      "source": "“Users should be able to add products to a shopping cart, view the cart, checkout, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать корзину.",
+      "source": "“Users should be able to add products to a shopping cart, view the cart, checkout, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может оформлять заказ.",
+      "source": "“Users should be able to add products to a shopping cart, view the cart, checkout, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может оплачивать заказ.",
+      "source": "“Users should be able to add products to a shopping cart, view the cart, checkout, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `light slate gray` (`#778899`).",
+      "source": "“Apply light slate gray for the layout background and navy for interactive elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Элементы управления имеют цвет `navy` (`#000080`).",
+      "source": "“Apply light slate gray for the layout background and navy for interactive elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

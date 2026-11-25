@@ -1,0 +1,70 @@
+{
+  "task_index": 2765,
+  "webgen_id": "train_002766",
+  "query": "Please implement a WeChat mini-program to display project information and industry news for Hai Luo industrial factory buildings. The mini-program should have functions such as project information display, industry news browsing, distribution agent operation tools, and project assistant operation tools. Users should be able to browse project information, view news, use distribution agent and project assistant tools, and perform related operations. Assign linen white to body backgrounds and burlywood to main components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать сведения о проектах.",
+      "source": "“Users should be able to browse project information, view news, use distribution agent and project assistant tools, and perform related operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать отраслевые новости.",
+      "source": "“Users should be able to browse project information, view news, use distribution agent and project assistant tools, and perform related operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может использовать инструменты агента по дистрибуции.",
+      "source": "“Users should be able to browse project information, view news, use distribution agent and project assistant tools, and perform related operations.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может использовать инструменты помощника по проектам.",
+      "source": "“Users should be able to browse project information, view news, use distribution agent and project assistant tools, and perform related operations.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна работать как мини-приложение WeChat.",
+      "source": "“Please implement a WeChat mini-program to display project information and industry news for Hai Luo industrial factory buildings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `linen white`.",
+      "source": "“Assign linen white to body backgrounds and burlywood to main components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`).",
+      "source": "“Assign linen white to body backgrounds and burlywood to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "task_index": 1006,
+  "webgen_id": "train_001007",
+  "query": "Please implement a digital human bank explanation website that displays digital human virtual images and explanation content. The website should have the functionality to display images, videos, text, and audio. Users should be able to browse digital human virtual images and view corresponding explanation content, including text and audio. The website should also have a search function, allowing users to quickly find specific digital humans and explanation content. Choose papaya whip for the background; set all component colors to peru.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна отображать изображения.",
+      "source": "“The website should have the functionality to display images, videos, text, and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна отображать видео.",
+      "source": "“The website should have the functionality to display images, videos, text, and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна отображать текст.",
+      "source": "“The website should have the functionality to display images, videos, text, and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна воспроизводить аудио.",
+      "source": "“The website should have the functionality to display images, videos, text, and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать виртуальных цифровых персонажей.",
+      "source": "“Users should be able to browse digital human virtual images and view corresponding explanation content, including text and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать связанные с персонажем пояснения.",
+      "source": "“Users should be able to browse digital human virtual images and view corresponding explanation content, including text and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "Пользователь может читать текст пояснений.",
+      "source": "“Users should be able to browse digital human virtual images and view corresponding explanation content, including text and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.2",
+      "criteria": "Пользователь может слушать аудиопояснения.",
+      "source": "“Users should be able to browse digital human virtual images and view corresponding explanation content, including text and audio.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может искать цифровых персонажей.",
+      "source": "“The website should also have a search function, allowing users to quickly find specific digital humans and explanation content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может искать поясняющие материалы.",
+      "source": "“The website should also have a search function, allowing users to quickly find specific digital humans and explanation content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `papaya whip` (`#FFEFD5`).",
+      "source": "“Choose papaya whip for the background; set all component colors to peru.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `peru` (`#CD853F`).",
+      "source": "“Choose papaya whip for the background; set all component colors to peru.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

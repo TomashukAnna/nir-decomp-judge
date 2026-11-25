@@ -1,0 +1,115 @@
+{
+  "task_index": 4034,
+  "webgen_id": "train_004035",
+  "query": "Please implement a payment system for gas stations to manage payments, orders, and products. The system should have functionalities for payment processing, order management, product management, business statistics, and marketing activities. Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis. Assign salmon as the background color and apply crimson to all elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать маркетинговые акции.",
+      "source": "“The system should have functionalities for payment processing, order management, product management, business statistics, and marketing activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оплачивать заказы.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать состояние заказа.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять товарными остатками.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять ценами товаров.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать отчёты о продажах.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать аналитические данные.",
+      "source": "“Users should be able to log in, browse products, place orders, make payments, view order status, manage product inventory and prices, and view sales reports and data analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `salmon` (`#FA8072`).",
+      "source": "“Assign salmon as the background color and apply crimson to all elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `crimson` (`#DC143C`).",
+      "source": "“Assign salmon as the background color and apply crimson to all elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

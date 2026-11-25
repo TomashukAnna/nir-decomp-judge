@@ -1,0 +1,97 @@
+{
+  "task_index": 2091,
+  "webgen_id": "train_002092",
+  "query": "Please implement an Oracle database development tool website that provides database development functions. The website should have functionalities such as text editing, SQL console, and common SQL tools. Users should be able to log in, use the text editor to write SQL code, execute SQL commands, and use tools for data analysis and management. Apply caramel to the canvas background and saddle brown to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать работу с Oracle.",
+      "source": "“Please implement an Oracle database development tool website that provides database development functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять SQL-консоль.",
+      "source": "“The website should have functionalities such as text editing, SQL console, and common SQL tools.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять общие SQL-инструменты.",
+      "source": "“The website should have functionalities such as text editing, SQL console, and common SQL tools.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, use the text editor to write SQL code, execute SQL commands, and use tools for data analysis and management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может писать SQL в текстовом редакторе.",
+      "source": "“Users should be able to log in, use the text editor to write SQL code, execute SQL commands, and use tools for data analysis and management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может выполнять SQL-команды.",
+      "source": "“Users should be able to log in, use the text editor to write SQL code, execute SQL commands, and use tools for data analysis and management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может анализировать данные.",
+      "source": "“Users should be able to log in, use the text editor to write SQL code, execute SQL commands, and use tools for data analysis and management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять данными.",
+      "source": "“Users should be able to log in, use the text editor to write SQL code, execute SQL commands, and use tools for data analysis and management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Фон рабочей области имеет цвет `caramel`.",
+      "source": "“Apply caramel to the canvas background and saddle brown to all visible components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`).",
+      "source": "“Apply caramel to the canvas background and saddle brown to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

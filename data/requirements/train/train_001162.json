@@ -1,0 +1,106 @@
+{
+  "task_index": 1161,
+  "webgen_id": "train_001162",
+  "query": "Please implement a form approval system for managing approval processes and configuring forms. The system should have functionalities for managing approval workflows, configuring forms, customizing configurations, and completing processes. Users should be able to log in, create and manage approval workflows, configure form fields, customize form content, and submit approval requests. The system should also be able to implement complex interactions between fields, automatically updating the values of related fields. Apply snow as the background; style all components with dim gray.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать завершение процесса согласования.",
+      "source": "“The system should have functionalities for managing approval workflows, configuring forms, customizing configurations, and completing processes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and manage approval workflows, configure form fields, customize form content, and submit approval requests.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать процессы согласования.",
+      "source": "“Users should be able to log in, create and manage approval workflows, configure form fields, customize form content, and submit approval requests.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может управлять процессами согласования.",
+      "source": "“Users should be able to log in, create and manage approval workflows, configure form fields, customize form content, and submit approval requests.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может настраивать поля формы.",
+      "source": "“Users should be able to log in, create and manage approval workflows, configure form fields, customize form content, and submit approval requests.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может изменять содержимое формы.",
+      "source": "“Users should be able to log in, create and manage approval workflows, configure form fields, customize form content, and submit approval requests.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отправлять заявку на согласование.",
+      "source": "“Users should be able to log in, create and manage approval workflows, configure form fields, customize form content, and submit approval requests.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать взаимодействие между полями.",
+      "source": "“The system should also be able to implement complex interactions between fields, automatically updating the values of related fields.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна автоматически обновлять значения связанных полей.",
+      "source": "“The system should also be able to implement complex interactions between fields, automatically updating the values of related fields.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `snow` (`#FFFAFA`).",
+      "source": "“Apply snow as the background; style all components with dim gray.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Все компоненты интерфейса имеют цвет `dim gray` (`#696969`).",
+      "source": "“Apply snow as the background; style all components with dim gray.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

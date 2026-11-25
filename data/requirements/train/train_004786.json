@@ -1,0 +1,79 @@
+{
+  "task_index": 4785,
+  "webgen_id": "train_004786",
+  "query": "Please implement a Grasshopper SMS compliance website for managing and sending text messages. The website should have functionalities for managing message templates, querying send records, and contact management. Users should be able to log in, create and edit message templates, send messages, query send records, and manage contact lists. Use cream for the outer layout and dark teal for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and edit message templates, send messages, query send records, and manage contact lists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать шаблоны сообщений.",
+      "source": "“Users should be able to log in, create and edit message templates, send messages, query send records, and manage contact lists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать шаблоны сообщений.",
+      "source": "“Users should be able to log in, create and edit message templates, send messages, query send records, and manage contact lists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять сообщения.",
+      "source": "“Users should be able to log in, create and edit message templates, send messages, query send records, and manage contact lists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может запрашивать записи отправки.",
+      "source": "“Users should be able to log in, create and edit message templates, send messages, query send records, and manage contact lists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять контактами.",
+      "source": "“Users should be able to log in, create and edit message templates, send messages, query send records, and manage contact lists.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Внешний фон страницы имеет цвет `cream`.",
+      "source": "“Use cream for the outer layout and dark teal for UI blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `dark teal`.",
+      "source": "“Use cream for the outer layout and dark teal for UI blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

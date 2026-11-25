@@ -1,0 +1,88 @@
+{
+  "task_index": 1376,
+  "webgen_id": "train_001377",
+  "query": "Please implement an AI tool product website for generating text, images, and videos. The website should have functionalities for generating text, images, and videos. Users should be able to log in, input relevant parameters, and generate the required text, images, or videos. The website should also have features for previewing and downloading the generated content. Use alabaster for the background and dark cyan for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, input relevant parameters, and generate the required text, images, or videos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может вводить параметры генерации.",
+      "source": "“Users should be able to log in, input relevant parameters, and generate the required text, images, or videos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может генерировать текст.",
+      "source": "“Users should be able to log in, input relevant parameters, and generate the required text, images, or videos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может генерировать изображения.",
+      "source": "“Users should be able to log in, input relevant parameters, and generate the required text, images, or videos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может генерировать видео.",
+      "source": "“Users should be able to log in, input relevant parameters, and generate the required text, images, or videos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может предварительно просматривать созданный материал.",
+      "source": "“The website should also have features for previewing and downloading the generated content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может скачивать созданный материал.",
+      "source": "“The website should also have features for previewing and downloading the generated content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `alabaster`.",
+      "source": "“Use alabaster for the background and dark cyan for components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `dark cyan` (`#008B8B`).",
+      "source": "“Use alabaster for the background and dark cyan for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

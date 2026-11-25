@@ -1,0 +1,79 @@
+{
+  "task_index": 2169,
+  "webgen_id": "train_002170",
+  "query": "Please implement a website based on TEMPLI php to display and manage data. The website should have functionalities for displaying data, adding data, modifying data, and deleting data. Users should be able to log in, browse data, add new data, modify existing data, and delete unnecessary data. Configure your theme with cool gray as background and charcoal as component color.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать TEMPLI PHP.",
+      "source": "“Please implement a website based on TEMPLI php to display and manage data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse data, add new data, modify existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать данные.",
+      "source": "“Users should be able to log in, browse data, add new data, modify existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может добавлять данные.",
+      "source": "“Users should be able to log in, browse data, add new data, modify existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может изменять существующие данные.",
+      "source": "“Users should be able to log in, browse data, add new data, modify existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может удалять данные.",
+      "source": "“Users should be able to log in, browse data, add new data, modify existing data, and delete unnecessary data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `cool gray`.",
+      "source": "“Configure your theme with cool gray as background and charcoal as component color.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `charcoal`.",
+      "source": "“Configure your theme with cool gray as background and charcoal as component color.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task_index": 5495,
+  "webgen_id": "train_005496",
+  "query": "Please implement a database management website for browsing and editing Access databases. The website should have functionalities for browsing table content, adding new records, editing existing records, and deleting records. Users should be able to log in, browse tables in the database, add new records, edit existing records, and delete unnecessary records. Set turquoise as the body background and use cadet blue for the UI.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать базы Access.",
+      "source": "“Please implement a database management website for browsing and editing Access databases.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse tables in the database, add new records, edit existing records, and delete unnecessary records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать таблицы.",
+      "source": "“Users should be able to log in, browse tables in the database, add new records, edit existing records, and delete unnecessary records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может добавлять записи.",
+      "source": "“Users should be able to log in, browse tables in the database, add new records, edit existing records, and delete unnecessary records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может редактировать записи.",
+      "source": "“Users should be able to log in, browse tables in the database, add new records, edit existing records, and delete unnecessary records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может удалять записи.",
+      "source": "“Users should be able to log in, browse tables in the database, add new records, edit existing records, and delete unnecessary records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `turquoise` (`#40E0D0`).",
+      "source": "“Set turquoise as the body background and use cadet blue for the UI.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`).",
+      "source": "“Set turquoise as the body background and use cadet blue for the UI.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

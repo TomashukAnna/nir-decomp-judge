@@ -1,0 +1,313 @@
+{
+  "task_index": 3981,
+  "webgen_id": "train_003982",
+  "query": "Please implement a web and mobile application similar to Uber for ride-hailing services. The application should include an admin portal, a driver version, and a customer version. The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication. The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support. The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications. Initialize the background color with morning mist and component color with navy.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять веб-приложение.",
+      "source": "“Please implement a web and mobile application similar to Uber for ride-hailing services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять мобильное приложение.",
+      "source": "“Please implement a web and mobile application similar to Uber for ride-hailing services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять административный портал.",
+      "source": "“The application should include an admin portal, a driver version, and a customer version.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять версию для водителей.",
+      "source": "“The application should include an admin portal, a driver version, and a customer version.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять версию для клиентов.",
+      "source": "“The application should include an admin portal, a driver version, and a customer version.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Администратор может управлять пользователями.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Администратор может управлять поездками.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Администратор может управлять платежами.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Администратор может просматривать отчётность.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Администратор может анализировать данные.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может задавать настройки и конфигурацию.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Администратор может предоставлять поддержку.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Администратор может обмениваться сообщениями.",
+      "source": "“The admin portal should have functionalities such as user management, trip management, payment management, reporting and analytics, settings and configuration, support and communication.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Водитель может зарегистрироваться.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Водитель может управлять своим профилем.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Водитель может получать запросы на поездки.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Водитель может пользоваться навигацией.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R18",
+      "criteria": "Водитель может просматривать заработок.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R19",
+      "criteria": "Водитель может управлять выплатами.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R20",
+      "criteria": "Водитель может просматривать оценки.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R21",
+      "criteria": "Водитель может получать отзывы.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R22",
+      "criteria": "Водитель может получать уведомления.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R23",
+      "criteria": "Водитель может обращаться в поддержку.",
+      "source": "“The driver version should have features such as registration and profile management, trip requests, navigation, earnings and payments, ratings and feedback, notifications, and support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R24",
+      "criteria": "Клиент может зарегистрироваться.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R25",
+      "criteria": "Клиент может управлять своим профилем.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R26",
+      "criteria": "Клиент может бронировать поездки.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R27",
+      "criteria": "Клиент может отслеживать поездку в реальном времени.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R28",
+      "criteria": "Клиент может оплачивать поездки через интегрированный платёжный механизм.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R29",
+      "criteria": "Клиент может оставлять оценки.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R30",
+      "criteria": "Клиент может оставлять отзывы.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R31",
+      "criteria": "Клиент может просматривать историю поездок.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R32",
+      "criteria": "Клиент может получать уведомления.",
+      "source": "“The customer version should have features such as registration and profile management, ride booking, real-time tracking, payment integration, ratings and feedback, ride history, and notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R33",
+      "criteria": "Основной фон интерфейса имеет цвет `morning mist`.",
+      "source": "“Initialize the background color with morning mist and component color with navy.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R34",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Initialize the background color with morning mist and component color with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

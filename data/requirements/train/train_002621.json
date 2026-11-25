@@ -1,0 +1,88 @@
+{
+  "task_index": 2620,
+  "webgen_id": "train_002621",
+  "query": "Please create a business-focused brand awareness landing page to showcase the company's products and services. The page should have features such as company introduction, product display, and contact information. Users should be able to browse the company's history, product information, and get in touch with the company through the contact information. The page should have a clear navigation menu to help users quickly find the information they need. Apply melon for the layout background and tomato for interactive elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать описание компании.",
+      "source": "“The page should have features such as company introduction, product display, and contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать товары.",
+      "source": "“The page should have features such as company introduction, product display, and contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна показывать контакты.",
+      "source": "“The page should have features such as company introduction, product display, and contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать историю компании.",
+      "source": "“Users should be able to browse the company's history, product information, and get in touch with the company through the contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать сведения о товарах.",
+      "source": "“Users should be able to browse the company's history, product information, and get in touch with the company through the contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может связываться с компанией по указанным контактам.",
+      "source": "“Users should be able to browse the company's history, product information, and get in touch with the company through the contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять понятное навигационное меню.",
+      "source": "“The page should have a clear navigation menu to help users quickly find the information they need.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `melon`.",
+      "source": "“Apply melon for the layout background and tomato for interactive elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Элементы управления имеют цвет `tomato` (`#FF6347`).",
+      "source": "“Apply melon for the layout background and tomato for interactive elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

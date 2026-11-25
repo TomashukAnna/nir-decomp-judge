@@ -1,0 +1,97 @@
+{
+  "task_index": 3085,
+  "webgen_id": "train_003086",
+  "query": "Please implement a web application that supports multiple payment methods, allowing users to choose from different payment options. The application should have functionalities for adding, editing, and deleting payment methods, as well as handling payment success and failure logic. Users should be able to view payment history and balance information. Set page background to floral white; color all components with dark red.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может выбирать способ оплаты из нескольких вариантов.",
+      "source": "“Please implement a web application that supports multiple payment methods, allowing users to choose from different payment options.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может добавлять способы оплаты.",
+      "source": "“The application should have functionalities for adding, editing, and deleting payment methods, as well as handling payment success and failure logic.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать способы оплаты.",
+      "source": "“The application should have functionalities for adding, editing, and deleting payment methods, as well as handling payment success and failure logic.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может удалять способы оплаты.",
+      "source": "“The application should have functionalities for adding, editing, and deleting payment methods, as well as handling payment success and failure logic.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна обрабатывать успешный платёж.",
+      "source": "“The application should have functionalities for adding, editing, and deleting payment methods, as well as handling payment success and failure logic.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна обрабатывать неуспешный платёж.",
+      "source": "“The application should have functionalities for adding, editing, and deleting payment methods, as well as handling payment success and failure logic.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать историю платежей.",
+      "source": "“Users should be able to view payment history and balance information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать баланс.",
+      "source": "“Users should be able to view payment history and balance information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `floral white` (`#FFFAF0`).",
+      "source": "“Set page background to floral white; color all components with dark red.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `dark red` (`#8B0000`).",
+      "source": "“Set page background to floral white; color all components with dark red.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

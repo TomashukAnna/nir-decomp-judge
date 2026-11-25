@@ -1,0 +1,115 @@
+{
+  "task_index": 3679,
+  "webgen_id": "train_003680",
+  "query": "Please implement a charity donation website and mini-program for collecting donations. The website and mini-program should have a donation function, allowing users to choose the donation amount and payment method, including WeChat pay and Alipay. Users should also be able to browse donation projects and donation records, and view the use of donations. Set primary background to cloud white and elements to midnight blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять сайт.",
+      "source": "“Please implement a charity donation website and mini-program for collecting donations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять мини-приложение.",
+      "source": "“Please implement a charity donation website and mini-program for collecting donations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может совершать пожертвования.",
+      "source": "“The website and mini-program should have a donation function, allowing users to choose the donation amount and payment method, including WeChat pay and Alipay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Пользователь может выбирать сумму пожертвования.",
+      "source": "“The website and mini-program should have a donation function, allowing users to choose the donation amount and payment method, including WeChat pay and Alipay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Пользователь может выбирать способ оплаты.",
+      "source": "“The website and mini-program should have a donation function, allowing users to choose the donation amount and payment method, including WeChat pay and Alipay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Пользователь может платить через WeChat Pay.",
+      "source": "“The website and mini-program should have a donation function, allowing users to choose the donation amount and payment method, including WeChat pay and Alipay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.4",
+      "criteria": "Пользователь может платить через Alipay.",
+      "source": "“The website and mini-program should have a donation function, allowing users to choose the donation amount and payment method, including WeChat pay and Alipay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать благотворительные проекты.",
+      "source": "“Users should also be able to browse donation projects and donation records, and view the use of donations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать записи пожертвований.",
+      "source": "“Users should also be able to browse donation projects and donation records, and view the use of donations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения об использовании пожертвований.",
+      "source": "“Users should also be able to browse donation projects and donation records, and view the use of donations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `cloud white`.",
+      "source": "“Set primary background to cloud white and elements to midnight blue.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `midnight blue` (`#191970`).",
+      "source": "“Set primary background to cloud white and elements to midnight blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "task_index": 3165,
+  "webgen_id": "train_003166",
+  "query": "Please implement a blockchain multichain DApp for cryptocurrency trading. The DApp should have a user-friendly interface, making it easy for cryptocurrency traders to use. Users should be able to log in, browse and manage their cryptocurrency assets, conduct transactions, view market trends, and utilize DeFi functionalities. The DApp should provide real-time market data and trading information, ensuring users can make informed trading decisions. Set overall background to azure, then style components with slate blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать работу с несколькими блокчейн-сетями.",
+      "source": "“Please implement a blockchain multichain DApp for cryptocurrency trading.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять удобный интерфейс для криптотрейдеров.",
+      "source": "“The DApp should have a user-friendly interface, making it easy for cryptocurrency traders to use.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and manage their cryptocurrency assets, conduct transactions, view market trends, and utilize DeFi functionalities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать криптовалютные активы.",
+      "source": "“Users should be able to log in, browse and manage their cryptocurrency assets, conduct transactions, view market trends, and utilize DeFi functionalities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять криптовалютными активами.",
+      "source": "“Users should be able to log in, browse and manage their cryptocurrency assets, conduct transactions, view market trends, and utilize DeFi functionalities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может совершать сделки.",
+      "source": "“Users should be able to log in, browse and manage their cryptocurrency assets, conduct transactions, view market trends, and utilize DeFi functionalities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать рыночные тенденции.",
+      "source": "“Users should be able to log in, browse and manage their cryptocurrency assets, conduct transactions, view market trends, and utilize DeFi functionalities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может использовать функции DeFi.",
+      "source": "“Users should be able to log in, browse and manage their cryptocurrency assets, conduct transactions, view market trends, and utilize DeFi functionalities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна показывать рыночные данные в реальном времени.",
+      "source": "“The DApp should provide real-time market data and trading information, ensuring users can make informed trading decisions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна показывать торговую информацию в реальном времени.",
+      "source": "“The DApp should provide real-time market data and trading information, ensuring users can make informed trading decisions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `azure` (`#F0FFFF`).",
+      "source": "“Set overall background to azure, then style components with slate blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `slate blue` (`#6A5ACD`).",
+      "source": "“Set overall background to azure, then style components with slate blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

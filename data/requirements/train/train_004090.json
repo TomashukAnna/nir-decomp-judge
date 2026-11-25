@@ -1,0 +1,79 @@
+{
+  "task_index": 4089,
+  "webgen_id": "train_004090",
+  "query": "Please implement a multi-language supported website where users can choose different languages to browse the site. The website should have functionalities for user registration, login, browsing products, and placing orders. Users should be able to register an account, log in, browse product information in different languages, place orders for selected products, and view order status. Initialize the background color with light coral and component color with brown.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может выбирать язык просмотра сайта.",
+      "source": "“Please implement a multi-language supported website where users can choose different languages to browse the site.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register an account, log in, browse product information in different languages, place orders for selected products, and view order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register an account, log in, browse product information in different languages, place orders for selected products, and view order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать сведения о товарах на разных языках.",
+      "source": "“Users should be able to register an account, log in, browse product information in different languages, place orders for selected products, and view order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оформлять заказ выбранных товаров.",
+      "source": "“Users should be able to register an account, log in, browse product information in different languages, place orders for selected products, and view order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать состояние заказа.",
+      "source": "“Users should be able to register an account, log in, browse product information in different languages, place orders for selected products, and view order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `light coral` (`#F08080`).",
+      "source": "“Initialize the background color with light coral and component color with brown.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `brown` (`#A52A2A`).",
+      "source": "“Initialize the background color with light coral and component color with brown.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

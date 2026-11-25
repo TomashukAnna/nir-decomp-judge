@@ -1,0 +1,70 @@
+{
+  "task_index": 1027,
+  "webgen_id": "train_001028",
+  "query": "Please implement a big data city tourism display page to showcase city tourism information. The page should have functionalities for map display, data display, search, and filtering. Users should be able to browse city tourism information, view maps, search for specific information, and filter data. The page should also be able to update data in real-time, providing the latest tourism information. Implement pale green for the page background and forest green for the elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать туристическую информацию города.",
+      "source": "“Users should be able to browse city tourism information, view maps, search for specific information, and filter data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать карту.",
+      "source": "“Users should be able to browse city tourism information, view maps, search for specific information, and filter data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может искать нужную информацию.",
+      "source": "“Users should be able to browse city tourism information, view maps, search for specific information, and filter data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может фильтровать данные.",
+      "source": "“Users should be able to browse city tourism information, view maps, search for specific information, and filter data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна обновлять туристическую информацию в реальном времени.",
+      "source": "“The page should also be able to update data in real-time, providing the latest tourism information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `pale green` (`#98FB98`).",
+      "source": "“Implement pale green for the page background and forest green for the elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `forest green` (`#228B22`).",
+      "source": "“Implement pale green for the page background and forest green for the elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "task_index": 6535,
+  "webgen_id": "train_006536",
+  "query": "Please implement an audio editing website for cutting, adjusting, and converting audio files. The website should have functionalities for cutting audio, adjusting volume, merging files, and converting file formats. Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats. Apply light salmon to the canvas background and tomato to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может загружать аудиофайлы.",
+      "source": "“Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может задавать начальное время обрезки.",
+      "source": "“Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может задавать конечное время обрезки.",
+      "source": "“Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может обрезать аудио.",
+      "source": "“Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может изменять громкость.",
+      "source": "“Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может объединять несколько аудиофайлов.",
+      "source": "“Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может преобразовывать формат аудиофайла.",
+      "source": "“Users should be able to upload audio files, select the start and end times for cutting, adjust the volume, merge multiple files, and convert file formats.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Фон рабочей области имеет цвет `light salmon` (`#FFA07A`).",
+      "source": "“Apply light salmon to the canvas background and tomato to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `tomato` (`#FF6347`).",
+      "source": "“Apply light salmon to the canvas background and tomato to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "task_index": 1547,
+  "webgen_id": "train_001548",
+  "query": "Please implement an instant messaging website for real-time communication between users. The website should have functionalities for sending and receiving messages, creating group chats, adding friends, and viewing chat history. Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records. Set primary background to morning mist and elements to navy.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна передавать сообщения в реальном времени.",
+      "source": "“Please implement an instant messaging website for real-time communication between users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может получать сообщения.",
+      "source": "“The website should have functionalities for sending and receiving messages, creating group chats, adding friends, and viewing chat history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять текст.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отправлять изображения.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять видео.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может создавать групповые чаты.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может приглашать друзей в группу.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может добавлять друзей.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может управлять списком друзей.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может просматривать историю чата.",
+      "source": "“Users should be able to log in and send text, images, videos, and other types of messages, create group chats and invite friends to join, add friends and manage their friend list, and view historical chat records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `morning mist`.",
+      "source": "“Set primary background to morning mist and elements to navy.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Set primary background to morning mist and elements to navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

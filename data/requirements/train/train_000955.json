@@ -1,0 +1,151 @@
+{
+  "task_index": 954,
+  "webgen_id": "train_000955",
+  "query": "Please implement a personalized form customization website for creating and managing custom forms. The website should have functionalities for creating forms, editing forms, deleting forms, form caching, and restoring form states. Users should be able to create new forms, add or remove form fields, set field relationships, and save forms for later editing. The forms should support various field types, including text, selection, date, and more, and should allow for conditional judgments and logical operations. Define background as opal; define components with indigo.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может редактировать формы.",
+      "source": "“The website should have functionalities for creating forms, editing forms, deleting forms, form caching, and restoring form states.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может удалять формы.",
+      "source": "“The website should have functionalities for creating forms, editing forms, deleting forms, form caching, and restoring form states.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна кэшировать формы.",
+      "source": "“The website should have functionalities for creating forms, editing forms, deleting forms, form caching, and restoring form states.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна восстанавливать состояние формы.",
+      "source": "“The website should have functionalities for creating forms, editing forms, deleting forms, form caching, and restoring form states.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать формы.",
+      "source": "“Users should be able to create new forms, add or remove form fields, set field relationships, and save forms for later editing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может добавлять поля.",
+      "source": "“Users should be able to create new forms, add or remove form fields, set field relationships, and save forms for later editing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может удалять поля.",
+      "source": "“Users should be able to create new forms, add or remove form fields, set field relationships, and save forms for later editing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может задавать связи полей.",
+      "source": "“Users should be able to create new forms, add or remove form fields, set field relationships, and save forms for later editing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может сохранять форму для последующего редактирования.",
+      "source": "“Users should be able to create new forms, add or remove form fields, set field relationships, and save forms for later editing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна поддерживать текстовые поля.",
+      "source": "“The forms should support various field types, including text, selection, date, and more, and should allow for conditional judgments and logical operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна поддерживать поля выбора.",
+      "source": "“The forms should support various field types, including text, selection, date, and more, and should allow for conditional judgments and logical operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Система должна поддерживать поля даты.",
+      "source": "“The forms should support various field types, including text, selection, date, and more, and should allow for conditional judgments and logical operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна поддерживать условные проверки.",
+      "source": "“The forms should support various field types, including text, selection, date, and more, and should allow for conditional judgments and logical operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Система должна поддерживать логические операции.",
+      "source": "“The forms should support various field types, including text, selection, date, and more, and should allow for conditional judgments and logical operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Основной фон интерфейса имеет цвет `opal`.",
+      "source": "“Define background as opal; define components with indigo.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Компоненты интерфейса имеют цвет `indigo` (`#4B0082`).",
+      "source": "“Define background as opal; define components with indigo.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

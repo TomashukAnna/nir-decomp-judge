@@ -1,0 +1,70 @@
+{
+  "task_index": 5737,
+  "webgen_id": "train_005738",
+  "query": "Please implement a big data visualization page to display data from multiple systems. The page should have functionalities for data display, filtering, and sorting. Users should be able to browse different types of data, filter out data of interest, and sort data for easier analysis. The page should also have real-time update functionality to reflect changes in the data in a timely manner. Assign light salmon to body backgrounds and coral to main components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна объединять данные нескольких систем.",
+      "source": "“Please implement a big data visualization page to display data from multiple systems.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать разные типы данных.",
+      "source": "“Users should be able to browse different types of data, filter out data of interest, and sort data for easier analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может фильтровать данные.",
+      "source": "“Users should be able to browse different types of data, filter out data of interest, and sort data for easier analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может сортировать данные.",
+      "source": "“Users should be able to browse different types of data, filter out data of interest, and sort data for easier analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна обновлять данные в реальном времени.",
+      "source": "“The page should also have real-time update functionality to reflect changes in the data in a timely manner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`).",
+      "source": "“Assign light salmon to body backgrounds and coral to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `coral` (`#FF7F50`).",
+      "source": "“Assign light salmon to body backgrounds and coral to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task_index": 5642,
+  "webgen_id": "train_005643",
+  "query": "Please implement a database monitoring website to monitor database host and database performance. The website should have functionalities for real-time monitoring, historical data query, and alert setting. Users should be able to log in, view real-time performance data of database hosts and databases, query historical performance data, set alert thresholds, and receive alert notifications. Use a pale ash background and apply slate gray to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, view real-time performance data of database hosts and databases, query historical performance data, set alert thresholds, and receive alert notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать производительность хоста базы в реальном времени.",
+      "source": "“Users should be able to log in, view real-time performance data of database hosts and databases, query historical performance data, set alert thresholds, and receive alert notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать производительность базы в реальном времени.",
+      "source": "“Users should be able to log in, view real-time performance data of database hosts and databases, query historical performance data, set alert thresholds, and receive alert notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может запрашивать исторические данные производительности.",
+      "source": "“Users should be able to log in, view real-time performance data of database hosts and databases, query historical performance data, set alert thresholds, and receive alert notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может задавать пороги оповещений.",
+      "source": "“Users should be able to log in, view real-time performance data of database hosts and databases, query historical performance data, set alert thresholds, and receive alert notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может получать оповещения.",
+      "source": "“Users should be able to log in, view real-time performance data of database hosts and databases, query historical performance data, set alert thresholds, and receive alert notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `pale ash`.",
+      "source": "“Use a pale ash background and apply slate gray to the UI components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `slate gray` (`#708090`).",
+      "source": "“Use a pale ash background and apply slate gray to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

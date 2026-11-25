@@ -1,0 +1,142 @@
+{
+  "task_index": 1688,
+  "webgen_id": "train_001689",
+  "query": "Please implement an MES software system for managing warehouse and production processes. The system should have warehouse and production modules. The warehouse module should be able to provide online handover of material inventory documents, automatic printing of paper documents, real-time synchronization of inventory information, and other functions. The production module should be able to provide customized production processes for personnel, automatic import of various work orders, QR code recognition, and timely push of work order completion status, among other functions. Users should be able to log in to the system, browse warehouse information, production processes, work orders, and perform corresponding operations. Apply daisy white as the background; style all components with khaki.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять складской модуль.",
+      "source": "“The system should have warehouse and production modules.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять производственный модуль.",
+      "source": "“The system should have warehouse and production modules.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна обеспечивать онлайн-передачу документов материального учёта.",
+      "source": "“The warehouse module should be able to provide online handover of material inventory documents, automatic printing of paper documents, real-time synchronization of inventory information, and other functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна автоматически печатать бумажные документы.",
+      "source": "“The warehouse module should be able to provide online handover of material inventory documents, automatic printing of paper documents, real-time synchronization of inventory information, and other functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна синхронизировать сведения об остатках в реальном времени.",
+      "source": "“The warehouse module should be able to provide online handover of material inventory documents, automatic printing of paper documents, real-time synchronization of inventory information, and other functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна позволять настраивать производственные процессы для персонала.",
+      "source": "“The production module should be able to provide customized production processes for personnel, automatic import of various work orders, QR code recognition, and timely push of work order completion status, among other functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна автоматически импортировать производственные задания.",
+      "source": "“The production module should be able to provide customized production processes for personnel, automatic import of various work orders, QR code recognition, and timely push of work order completion status, among other functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна распознавать QR-коды.",
+      "source": "“The production module should be able to provide customized production processes for personnel, automatic import of various work orders, QR code recognition, and timely push of work order completion status, among other functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна отправлять уведомления о завершении заданий.",
+      "source": "“The production module should be able to provide customized production processes for personnel, automatic import of various work orders, QR code recognition, and timely push of work order completion status, among other functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in to the system, browse warehouse information, production processes, work orders, and perform corresponding operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может просматривать складскую информацию.",
+      "source": "“Users should be able to log in to the system, browse warehouse information, production processes, work orders, and perform corresponding operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может просматривать производственные процессы.",
+      "source": "“Users should be able to log in to the system, browse warehouse information, production processes, work orders, and perform corresponding operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может просматривать производственные задания.",
+      "source": "“Users should be able to log in to the system, browse warehouse information, production processes, work orders, and perform corresponding operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `daisy white`.",
+      "source": "“Apply daisy white as the background; style all components with khaki.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Все компоненты интерфейса имеют цвет `khaki` (`#F0E68C`).",
+      "source": "“Apply daisy white as the background; style all components with khaki.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "task_index": 243,
+  "webgen_id": "train_000244",
+  "query": "Please implement a 2D side-scrolling fighting game called Three Kingdoms War Chronicles. The game should have features such as character selection, skill release, and turn-based combat. Users should be able to select characters, release skills, engage in combat, and view game progress. The game should also have features such as leaderboards, stores, and character upgrades. Use a lavender blush background and apply pale violet red to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять двумерную игру с боковой прокруткой.",
+      "source": "“Please implement a 2D side-scrolling fighting game called Three Kingdoms War Chronicles.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна использовать название «Three Kingdoms War Chronicles».",
+      "source": "“Please implement a 2D side-scrolling fighting game called Three Kingdoms War Chronicles.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать пошаговый бой.",
+      "source": "“The game should have features such as character selection, skill release, and turn-based combat.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выбирать персонажа.",
+      "source": "“Users should be able to select characters, release skills, engage in combat, and view game progress.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может применять навыки персонажа.",
+      "source": "“Users should be able to select characters, release skills, engage in combat, and view game progress.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может участвовать в боях.",
+      "source": "“Users should be able to select characters, release skills, engage in combat, and view game progress.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать ход игры.",
+      "source": "“Users should be able to select characters, release skills, engage in combat, and view game progress.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна показывать таблицу лидеров.",
+      "source": "“The game should also have features such as leaderboards, stores, and character upgrades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна предоставлять игровой магазин.",
+      "source": "“The game should also have features such as leaderboards, stores, and character upgrades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна поддерживать повышение уровня персонажа.",
+      "source": "“The game should also have features such as leaderboards, stores, and character upgrades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `lavender blush` (`#FFF0F5`).",
+      "source": "“Use a lavender blush background and apply pale violet red to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `pale violet red` (`#DB7093`).",
+      "source": "“Use a lavender blush background and apply pale violet red to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

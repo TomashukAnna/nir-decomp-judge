@@ -1,0 +1,160 @@
+{
+  "task_index": 3340,
+  "webgen_id": "train_003341",
+  "query": "Please implement a farm produce shopping WeChat mini-program that connects farm produce suppliers with consumers. The mini-program should have a multi-merchant entry function, where merchants can put up goods, and the background can be reviewed and approved. At the same time, it should have a multi-pickup point function, where customers can choose the nearest pickup point, and the pickup point can receive a commission. The mini-program should also have a function to release supply and demand information, as well as marketing functions, such as recharge gifts, point redemption, and coupons. Users can browse products, place orders, choose pickup points, and view order status, etc. Configure the background color to medium aquamarine, with components using sea green.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Продавец может подключаться к площадке.",
+      "source": "“The mini-program should have a multi-merchant entry function, where merchants can put up goods, and the background can be reviewed and approved.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Продавец может выставлять товары.",
+      "source": "“The mini-program should have a multi-merchant entry function, where merchants can put up goods, and the background can be reviewed and approved.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Администратор может проверять заявки продавцов.",
+      "source": "“The mini-program should have a multi-merchant entry function, where merchants can put up goods, and the background can be reviewed and approved.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Администратор может одобрять заявки продавцов.",
+      "source": "“The mini-program should have a multi-merchant entry function, where merchants can put up goods, and the background can be reviewed and approved.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Клиент может выбирать ближайший пункт выдачи.",
+      "source": "“At the same time, it should have a multi-pickup point function, where customers can choose the nearest pickup point, and the pickup point can receive a commission.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна начислять комиссию пункту выдачи.",
+      "source": "“At the same time, it should have a multi-pickup point function, where customers can choose the nearest pickup point, and the pickup point can receive a commission.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может публиковать предложения товаров.",
+      "source": "“The mini-program should also have a function to release supply and demand information, as well as marketing functions, such as recharge gifts, point redemption, and coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может публиковать спрос на товары.",
+      "source": "“The mini-program should also have a function to release supply and demand information, as well as marketing functions, such as recharge gifts, point redemption, and coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может получать подарки за пополнение.",
+      "source": "“The mini-program should also have a function to release supply and demand information, as well as marketing functions, such as recharge gifts, point redemption, and coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может обменивать баллы.",
+      "source": "“The mini-program should also have a function to release supply and demand information, as well as marketing functions, such as recharge gifts, point redemption, and coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может использовать купоны.",
+      "source": "“The mini-program should also have a function to release supply and demand information, as well as marketing functions, such as recharge gifts, point redemption, and coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users can browse products, place orders, choose pickup points, and view order status, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users can browse products, place orders, choose pickup points, and view order status, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Пользователь может выбирать пункт выдачи.",
+      "source": "“Users can browse products, place orders, choose pickup points, and view order status, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Пользователь может просматривать состояние заказа.",
+      "source": "“Users can browse products, place orders, choose pickup points, and view order status, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Основной фон интерфейса имеет цвет `medium aquamarine` (`#66CDAA`).",
+      "source": "“Configure the background color to medium aquamarine, with components using sea green.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`).",
+      "source": "“Configure the background color to medium aquamarine, with components using sea green.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

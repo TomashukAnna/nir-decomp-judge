@@ -1,0 +1,79 @@
+{
+  "task_index": 1024,
+  "webgen_id": "train_001025",
+  "query": "Please implement a function to dynamically update the SEO title based on the query parameter string in the URL. The user should be able to input or modify the query parameters in the URL, and the website should automatically update the SEO title to reflect the new query parameters. The website should be able to parse the query parameters from the URL and integrate them into the SEO title, ensuring that the title accurately reflects the content of the current page. Set the background color to turquoise and the component color to cadet blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить параметры запроса в URL.",
+      "source": "“The user should be able to input or modify the query parameters in the URL, and the website should automatically update the SEO title to reflect the new query parameters.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может изменять параметры запроса в URL.",
+      "source": "“The user should be able to input or modify the query parameters in the URL, and the website should automatically update the SEO title to reflect the new query parameters.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна автоматически обновлять SEO-заголовок при изменении параметров.",
+      "source": "“The user should be able to input or modify the query parameters in the URL, and the website should automatically update the SEO title to reflect the new query parameters.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна разбирать параметры URL.",
+      "source": "“The website should be able to parse the query parameters from the URL and integrate them into the SEO title, ensuring that the title accurately reflects the content of the current page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна включать параметры в SEO-заголовок.",
+      "source": "“The website should be able to parse the query parameters from the URL and integrate them into the SEO title, ensuring that the title accurately reflects the content of the current page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна формировать заголовок, отражающий содержание текущей страницы.",
+      "source": "“The website should be able to parse the query parameters from the URL and integrate them into the SEO title, ensuring that the title accurately reflects the content of the current page.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `turquoise` (`#40E0D0`).",
+      "source": "“Set the background color to turquoise and the component color to cadet blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`).",
+      "source": "“Set the background color to turquoise and the component color to cadet blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

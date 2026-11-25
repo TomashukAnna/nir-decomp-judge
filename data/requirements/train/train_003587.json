@@ -1,0 +1,151 @@
+{
+  "task_index": 3586,
+  "webgen_id": "train_003587",
+  "query": "Please implement a 24-hour self-service car wash mini-program to display car wash store information and provide functions such as recharge and QR code scanning. Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials. Users can also recharge their accounts and use the QR code scanning function to enter and exit the store. Additionally, users can apply to join the franchise and log in to their franchise account. Define the background as gold and components as dark goldenrod.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать круглосуточное самообслуживание автомойки.",
+      "source": "“Please implement a 24-hour self-service car wash mini-program to display car wash store information and provide functions such as recharge and QR code scanning.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать список автомоек.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать сведения об автомойке.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Пользователь может просматривать адрес.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Пользователь может просматривать контакты.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Пользователь может просматривать сведения о моечных постах.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.4",
+      "criteria": "Пользователь может просматривать тарифы.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.5",
+      "criteria": "Пользователь может просматривать пакеты.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.6",
+      "criteria": "Пользователь может просматривать инструкции по мойке.",
+      "source": "“Users can browse the store list, view store details, including address, contact information, washing positions, fee information, package information, and washing tutorials.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может пополнять счёт.",
+      "source": "“Users can also recharge their accounts and use the QR code scanning function to enter and exit the store.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может сканировать QR-код для въезда.",
+      "source": "“Users can also recharge their accounts and use the QR code scanning function to enter and exit the store.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может сканировать QR-код для выезда.",
+      "source": "“Users can also recharge their accounts and use the QR code scanning function to enter and exit the store.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может подавать заявку на присоединение к франшизе.",
+      "source": "“Additionally, users can apply to join the franchise and log in to their franchise account.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может входить в учётную запись франчайзи.",
+      "source": "“Additionally, users can apply to join the franchise and log in to their franchise account.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `gold` (`#FFD700`).",
+      "source": "“Define the background as gold and components as dark goldenrod.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `dark goldenrod` (`#B8860B`).",
+      "source": "“Define the background as gold and components as dark goldenrod.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

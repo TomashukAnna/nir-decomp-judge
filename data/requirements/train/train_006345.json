@@ -1,0 +1,133 @@
+{
+  "task_index": 6344,
+  "webgen_id": "train_006345",
+  "query": "Please implement a credit bank website for managing students' certificates, course learning, and credits. The website should have functionalities for certificate management, course learning management, credit management, academic management, professional course management, fee management, and certificate authentication management. Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation. Apply light beige to the canvas background and sienna to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять академическое управление.",
+      "source": "“The website should have functionalities for certificate management, course learning management, credit management, academic management, professional course management, fee management, and certificate authentication management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление профессиональными курсами.",
+      "source": "“The website should have functionalities for certificate management, course learning management, credit management, academic management, professional course management, fee management, and certificate authentication management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять управление сборами.",
+      "source": "“The website should have functionalities for certificate management, course learning management, credit management, academic management, professional course management, fee management, and certificate authentication management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать проверку подлинности сертификатов.",
+      "source": "“The website should have functionalities for certificate management, course learning management, credit management, academic management, professional course management, fee management, and certificate authentication management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать собственные сертификаты.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять собственными сертификатами.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать учебные записи.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять учебными записями.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать сведения о зачётных единицах.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может управлять сведениями о зачётных единицах.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может запрашивать состояние своего обучения.",
+      "source": "“Users should be able to log in, browse and manage their own certificates, course learning records, and credit information, and query their learning situation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Фон рабочей области имеет цвет `light beige`.",
+      "source": "“Apply light beige to the canvas background and sienna to all visible components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Apply light beige to the canvas background and sienna to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "task_index": 6160,
+  "webgen_id": "train_006161",
+  "query": "Please implement a high school exam guidance website that provides related information and services. The website should have functionalities such as high school exam subject selection, professional assessment, high school exam data, volunteer registration, and information hotspots. Users should be able to log in, browse high school exam-related information, conduct professional assessments, view high school exam data, register volunteers, and obtain the latest information hotspots. Use light yellow in the background layer and goldenrod for the component layer.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может выбирать экзаменационные предметы.",
+      "source": "“The website should have functionalities such as high school exam subject selection, professional assessment, high school exam data, volunteer registration, and information hotspots.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse high school exam-related information, conduct professional assessments, view high school exam data, register volunteers, and obtain the latest information hotspots.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать сведения о выпускных экзаменах.",
+      "source": "“Users should be able to log in, browse high school exam-related information, conduct professional assessments, view high school exam data, register volunteers, and obtain the latest information hotspots.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может проходить профессиональную оценку.",
+      "source": "“Users should be able to log in, browse high school exam-related information, conduct professional assessments, view high school exam data, register volunteers, and obtain the latest information hotspots.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать данные экзаменов.",
+      "source": "“Users should be able to log in, browse high school exam-related information, conduct professional assessments, view high school exam data, register volunteers, and obtain the latest information hotspots.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может подавать предпочтения по поступлению.",
+      "source": "“Users should be able to log in, browse high school exam-related information, conduct professional assessments, view high school exam data, register volunteers, and obtain the latest information hotspots.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать актуальные информационные материалы.",
+      "source": "“Users should be able to log in, browse high school exam-related information, conduct professional assessments, view high school exam data, register volunteers, and obtain the latest information hotspots.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`).",
+      "source": "“Use light yellow in the background layer and goldenrod for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `goldenrod` (`#DAA520`).",
+      "source": "“Use light yellow in the background layer and goldenrod for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

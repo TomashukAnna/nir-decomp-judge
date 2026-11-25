@@ -1,0 +1,115 @@
+{
+  "task_index": 429,
+  "webgen_id": "train_000430",
+  "query": "Please implement a Hippopotamus supply chain management website for managing supply chain orders and entry audits. The website should have functionalities for entry, product library, product selection, ordering, after-sales, and risk control. Users should be able to log in, browse the product library, select products, place orders, view after-sales information, and perform risk control management. The backend should have order management and entry audit functions, and administrators should be able to view and manage orders, and audit entry applications. Select aquamarine for layout background and dark turquoise for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать процедуру допуска в цепочку поставок.",
+      "source": "“The website should have functionalities for entry, product library, product selection, ordering, after-sales, and risk control.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse the product library, select products, place orders, view after-sales information, and perform risk control management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать каталог товаров.",
+      "source": "“Users should be able to log in, browse the product library, select products, place orders, view after-sales information, and perform risk control management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выбирать товары.",
+      "source": "“Users should be able to log in, browse the product library, select products, place orders, view after-sales information, and perform risk control management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users should be able to log in, browse the product library, select products, place orders, view after-sales information, and perform risk control management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о послепродажном обслуживании.",
+      "source": "“Users should be able to log in, browse the product library, select products, place orders, view after-sales information, and perform risk control management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может выполнять операции контроля рисков.",
+      "source": "“Users should be able to log in, browse the product library, select products, place orders, view after-sales information, and perform risk control management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Администратор может просматривать заказы.",
+      "source": "“The backend should have order management and entry audit functions, and administrators should be able to view and manage orders, and audit entry applications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Администратор может управлять заказами.",
+      "source": "“The backend should have order management and entry audit functions, and administrators should be able to view and manage orders, and audit entry applications.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Администратор может проверять заявки на допуск.",
+      "source": "“The backend should have order management and entry audit functions, and administrators should be able to view and manage orders, and audit entry applications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`).",
+      "source": "“Select aquamarine for layout background and dark turquoise for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Детали компонентов имеют цвет `dark turquoise` (`#00CED1`).",
+      "source": "“Select aquamarine for layout background and dark turquoise for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

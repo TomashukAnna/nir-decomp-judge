@@ -1,0 +1,79 @@
+{
+  "task_index": 4764,
+  "webgen_id": "train_004765",
+  "query": "Please implement a rate limiting website to control access frequency. The website should have functionalities for setting rate limiting rules, monitoring access frequency, and limiting access that exceeds the rate limit. Users should be able to set rate limiting rules, monitor access frequency, and limit access that exceeds the rate limit. The website should be able to record access logs, provide access statistics and analysis functions. Use lemon mist for the background and dark orange for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может задавать правила ограничения частоты обращений.",
+      "source": "“Users should be able to set rate limiting rules, monitor access frequency, and limit access that exceeds the rate limit.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может наблюдать частоту обращений.",
+      "source": "“Users should be able to set rate limiting rules, monitor access frequency, and limit access that exceeds the rate limit.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может ограничивать обращения, превышающие установленный лимит.",
+      "source": "“Users should be able to set rate limiting rules, monitor access frequency, and limit access that exceeds the rate limit.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна записывать журнал обращений.",
+      "source": "“The website should be able to record access logs, provide access statistics and analysis functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять статистику обращений.",
+      "source": "“The website should be able to record access logs, provide access statistics and analysis functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предоставлять анализ обращений.",
+      "source": "“The website should be able to record access logs, provide access statistics and analysis functions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `lemon mist`.",
+      "source": "“Use lemon mist for the background and dark orange for components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`).",
+      "source": "“Use lemon mist for the background and dark orange for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

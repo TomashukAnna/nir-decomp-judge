@@ -1,0 +1,88 @@
+{
+  "task_index": 916,
+  "webgen_id": "train_000917",
+  "query": "Please update and redesign a PHP web form, including form fields, a submit button, and validation functionality. Users should be able to fill out the form, submit it, and receive feedback upon successful submission. The form should have basic validation, such as checking for required fields and email format. Use a alice blue background and apply cornflower blue to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать PHP для веб-формы.",
+      "source": "“Please update and redesign a PHP web form, including form fields, a submit button, and validation functionality.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять кнопку отправки.",
+      "source": "“Please update and redesign a PHP web form, including form fields, a submit button, and validation functionality.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может заполнять форму.",
+      "source": "“Users should be able to fill out the form, submit it, and receive feedback upon successful submission.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять форму.",
+      "source": "“Users should be able to fill out the form, submit it, and receive feedback upon successful submission.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может получать подтверждение успешной отправки.",
+      "source": "“Users should be able to fill out the form, submit it, and receive feedback upon successful submission.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна проверять обязательные поля.",
+      "source": "“The form should have basic validation, such as checking for required fields and email format.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна проверять формат email.",
+      "source": "“The form should have basic validation, such as checking for required fields and email format.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `alice blue` (`#F0F8FF`).",
+      "source": "“Use a alice blue background and apply cornflower blue to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `cornflower blue` (`#6495ED`).",
+      "source": "“Use a alice blue background and apply cornflower blue to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

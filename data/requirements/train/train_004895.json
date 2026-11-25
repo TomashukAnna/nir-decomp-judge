@@ -1,0 +1,106 @@
+{
+  "task_index": 4894,
+  "webgen_id": "train_004895",
+  "query": "Please implement a database structure comparison tool to compare the structures of different databases. The tool should support multiple database types, such as mysql, oracle, and sql server. Users should be able to select two databases for comparison, and the tool will display the differences in the structures of the two databases, including table names, field names, data types, and other information. Users can manually adjust the databases based on the comparison results to ensure consistency across different environments. Use eggshell as the screen background and dark moss green for component highlights.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать MySQL.",
+      "source": "“The tool should support multiple database types, such as mysql, oracle, and sql server.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать Oracle.",
+      "source": "“The tool should support multiple database types, such as mysql, oracle, and sql server.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать SQL Server.",
+      "source": "“The tool should support multiple database types, such as mysql, oracle, and sql server.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выбирать две базы для сравнения.",
+      "source": "“Users should be able to select two databases for comparison, and the tool will display the differences in the structures of the two databases, including table names, field names, data types, and other information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать различия структур баз.",
+      "source": "“Users should be able to select two databases for comparison, and the tool will display the differences in the structures of the two databases, including table names, field names, data types, and other information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Система должна показывать различия имён таблиц.",
+      "source": "“Users should be able to select two databases for comparison, and the tool will display the differences in the structures of the two databases, including table names, field names, data types, and other information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.2",
+      "criteria": "Система должна показывать различия имён полей.",
+      "source": "“Users should be able to select two databases for comparison, and the tool will display the differences in the structures of the two databases, including table names, field names, data types, and other information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.3",
+      "criteria": "Система должна показывать различия типов данных.",
+      "source": "“Users should be able to select two databases for comparison, and the tool will display the differences in the structures of the two databases, including table names, field names, data types, and other information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может вручную изменять базы по результатам сравнения.",
+      "source": "“Users can manually adjust the databases based on the comparison results to ensure consistency across different environments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `eggshell`.",
+      "source": "“Use eggshell as the screen background and dark moss green for component highlights.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Выделения компонентов имеют цвет `dark moss green`.",
+      "source": "“Use eggshell as the screen background and dark moss green for component highlights.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

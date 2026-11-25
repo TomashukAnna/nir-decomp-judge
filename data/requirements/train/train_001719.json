@@ -1,0 +1,115 @@
+{
+  "task_index": 1718,
+  "webgen_id": "train_001719",
+  "query": "Please implement an online form system for collecting and managing user information. The system should have functionalities for building forms, filling out forms, synchronizing data, and data interaction. Users should be able to create and edit forms, fill out form information, and submit forms. The system should be able to automatically save and update form data and provide data query and statistical functions. Define the background as gainsboro and components as dark slate blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна синхронизировать данные форм.",
+      "source": "“The system should have functionalities for building forms, filling out forms, synchronizing data, and data interaction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать взаимодействие данных.",
+      "source": "“The system should have functionalities for building forms, filling out forms, synchronizing data, and data interaction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать формы.",
+      "source": "“Users should be able to create and edit forms, fill out form information, and submit forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать формы.",
+      "source": "“Users should be able to create and edit forms, fill out form information, and submit forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может заполнять формы.",
+      "source": "“Users should be able to create and edit forms, fill out form information, and submit forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять формы.",
+      "source": "“Users should be able to create and edit forms, fill out form information, and submit forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна автоматически сохранять данные формы.",
+      "source": "“The system should be able to automatically save and update form data and provide data query and statistical functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна автоматически обновлять данные формы.",
+      "source": "“The system should be able to automatically save and update form data and provide data query and statistical functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна предоставлять запросы к данным.",
+      "source": "“The system should be able to automatically save and update form data and provide data query and statistical functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна предоставлять статистику данных.",
+      "source": "“The system should be able to automatically save and update form data and provide data query and statistical functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `gainsboro` (`#DCDCDC`).",
+      "source": "“Define the background as gainsboro and components as dark slate blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate blue` (`#483D8B`).",
+      "source": "“Define the background as gainsboro and components as dark slate blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

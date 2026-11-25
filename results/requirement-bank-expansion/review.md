@@ -1,0 +1,3357 @@
+# Просмотр групп-кандидатов
+
+Все строки ниже — кандидаты по текстовому поиску, а не подтверждённые объединения.
+code/llm показан из исходной разметки и не назначает правило будущему шаблону.
+
+## Вход в систему — auth.login
+
+Разделить наличие формы и успешный вход; не придумывать учётные данные и способ авторизации.
+
+- [webgen-train-000026-R1](../../docs/requirements/train/train_000026.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000091-R3](../../docs/requirements/train/train_000091.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000215-R4](../../docs/requirements/train/train_000215.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000219-R1](../../docs/requirements/train/train_000219.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000238-R2](../../docs/requirements/train/train_000238.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000239-R2](../../docs/requirements/train/train_000239.md): Пользователь может войти в мини-приложение. (explicit, code)
+- [webgen-train-000286-R5](../../docs/requirements/train/train_000286.md): Учащийся может войти в систему. (explicit, code)
+- [webgen-train-000300-R2](../../docs/requirements/train/train_000300.md): Учащийся может войти в систему. (explicit, code)
+- [webgen-train-000381-R1](../../docs/requirements/train/train_000381.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000426-R6](../../docs/requirements/train/train_000426.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000430-R2](../../docs/requirements/train/train_000430.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000485-R3](../../docs/requirements/train/train_000485.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000501-R5](../../docs/requirements/train/train_000501.md): Пользователь может войти в мини-приложение. (explicit, code)
+- [webgen-train-000762-R8](../../docs/requirements/train/train_000762.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000798-R4](../../docs/requirements/train/train_000798.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000803-R1](../../docs/requirements/train/train_000803.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000934-R3](../../docs/requirements/train/train_000934.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-000991-R1](../../docs/requirements/train/train_000991.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001040-R2](../../docs/requirements/train/train_001040.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001055-R4](../../docs/requirements/train/train_001055.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001056-R4](../../docs/requirements/train/train_001056.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001058-R1](../../docs/requirements/train/train_001058.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001120-R3](../../docs/requirements/train/train_001120.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001162-R2](../../docs/requirements/train/train_001162.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001232-R1](../../docs/requirements/train/train_001232.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001377-R1](../../docs/requirements/train/train_001377.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001387-R1](../../docs/requirements/train/train_001387.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001463-R2](../../docs/requirements/train/train_001463.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001473-R1](../../docs/requirements/train/train_001473.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001548-R3](../../docs/requirements/train/train_001548.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001549-R12](../../docs/requirements/train/train_001549.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001552-R1](../../docs/requirements/train/train_001552.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001569-R1](../../docs/requirements/train/train_001569.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001594-R2](../../docs/requirements/train/train_001594.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001689-R10](../../docs/requirements/train/train_001689.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001700-R4](../../docs/requirements/train/train_001700.md): Пользователь может войти в приложение. (explicit, code)
+- [webgen-train-001738-R4](../../docs/requirements/train/train_001738.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001762-R2](../../docs/requirements/train/train_001762.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001860-R2](../../docs/requirements/train/train_001860.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001870-R1](../../docs/requirements/train/train_001870.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001940-R6](../../docs/requirements/train/train_001940.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-001977-R8](../../docs/requirements/train/train_001977.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002092-R4](../../docs/requirements/train/train_002092.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002104-R1](../../docs/requirements/train/train_002104.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002127-R1](../../docs/requirements/train/train_002127.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002170-R2](../../docs/requirements/train/train_002170.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002267-R3](../../docs/requirements/train/train_002267.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002285-R1](../../docs/requirements/train/train_002285.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002379-R2](../../docs/requirements/train/train_002379.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002397-R1](../../docs/requirements/train/train_002397.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002477-R1](../../docs/requirements/train/train_002477.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002494-R6](../../docs/requirements/train/train_002494.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002508-R1](../../docs/requirements/train/train_002508.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002522-R1](../../docs/requirements/train/train_002522.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002536-R1](../../docs/requirements/train/train_002536.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002549-R1](../../docs/requirements/train/train_002549.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002559-R1](../../docs/requirements/train/train_002559.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-002795-R6](../../docs/requirements/train/train_002795.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003061-R5](../../docs/requirements/train/train_003061.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003119-R8](../../docs/requirements/train/train_003119.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003142-R2](../../docs/requirements/train/train_003142.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003166-R3](../../docs/requirements/train/train_003166.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003193-R1](../../docs/requirements/train/train_003193.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003348-R5](../../docs/requirements/train/train_003348.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003370-R3](../../docs/requirements/train/train_003370.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003411-R5](../../docs/requirements/train/train_003411.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003592-R4](../../docs/requirements/train/train_003592.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003621-R7](../../docs/requirements/train/train_003621.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003634-R1](../../docs/requirements/train/train_003634.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003663-R5](../../docs/requirements/train/train_003663.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003673-R1](../../docs/requirements/train/train_003673.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003678-R5](../../docs/requirements/train/train_003678.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003759-R2](../../docs/requirements/train/train_003759.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003809-R2](../../docs/requirements/train/train_003809.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003839-R3](../../docs/requirements/train/train_003839.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003852-R4](../../docs/requirements/train/train_003852.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003881-R2](../../docs/requirements/train/train_003881.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003889-R5](../../docs/requirements/train/train_003889.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003918-R1](../../docs/requirements/train/train_003918.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003987-R2](../../docs/requirements/train/train_003987.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003990-R4](../../docs/requirements/train/train_003990.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-003999-R9](../../docs/requirements/train/train_003999.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004035-R2](../../docs/requirements/train/train_004035.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004090-R3](../../docs/requirements/train/train_004090.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004145-R3](../../docs/requirements/train/train_004145.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004145-R11](../../docs/requirements/train/train_004145.md): Администратор может войти в систему. (explicit, code)
+- [webgen-train-004161-R5](../../docs/requirements/train/train_004161.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004280-R2](../../docs/requirements/train/train_004280.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004345-R5](../../docs/requirements/train/train_004345.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004388-R1](../../docs/requirements/train/train_004388.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004391-R3](../../docs/requirements/train/train_004391.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004535-R1](../../docs/requirements/train/train_004535.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004627-R4](../../docs/requirements/train/train_004627.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004711-R6](../../docs/requirements/train/train_004711.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004711-R8](../../docs/requirements/train/train_004711.md): Система должна разрешать миграции только авторизованным пользователям. (explicit, code)
+- [webgen-train-004786-R1](../../docs/requirements/train/train_004786.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004791-R1](../../docs/requirements/train/train_004791.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004922-R1](../../docs/requirements/train/train_004922.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004927-R1](../../docs/requirements/train/train_004927.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004951-R1](../../docs/requirements/train/train_004951.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004959-R1](../../docs/requirements/train/train_004959.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-004960-R3](../../docs/requirements/train/train_004960.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005051-R4](../../docs/requirements/train/train_005051.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005121-R3](../../docs/requirements/train/train_005121.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005173-R2](../../docs/requirements/train/train_005173.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005199-R1](../../docs/requirements/train/train_005199.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005220-R1](../../docs/requirements/train/train_005220.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005247-R1](../../docs/requirements/train/train_005247.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005271-R3](../../docs/requirements/train/train_005271.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005400-R1](../../docs/requirements/train/train_005400.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005496-R2](../../docs/requirements/train/train_005496.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005640-R2](../../docs/requirements/train/train_005640.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005643-R1](../../docs/requirements/train/train_005643.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005653-R3](../../docs/requirements/train/train_005653.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005810-R1](../../docs/requirements/train/train_005810.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-005848-R4](../../docs/requirements/train/train_005848.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006063-R5](../../docs/requirements/train/train_006063.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006122-R4](../../docs/requirements/train/train_006122.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006148-R2](../../docs/requirements/train/train_006148.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006153-R5](../../docs/requirements/train/train_006153.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006161-R2](../../docs/requirements/train/train_006161.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006180-R1](../../docs/requirements/train/train_006180.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006217-R1](../../docs/requirements/train/train_006217.md): Преподаватель может войти в систему. (explicit, code)
+- [webgen-train-006217-R8](../../docs/requirements/train/train_006217.md): Учащийся может войти в систему. (explicit, code)
+- [webgen-train-006231-R6](../../docs/requirements/train/train_006231.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006239-R5](../../docs/requirements/train/train_006239.md): Учащийся может войти в систему. (explicit, code)
+- [webgen-train-006239-R10](../../docs/requirements/train/train_006239.md): Преподаватель может войти в систему. (explicit, code)
+- [webgen-train-006246-R1](../../docs/requirements/train/train_006246.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006253-R2](../../docs/requirements/train/train_006253.md): Учащийся может войти в систему. (explicit, code)
+- [webgen-train-006269-R6](../../docs/requirements/train/train_006269.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006276-R8](../../docs/requirements/train/train_006276.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006278-R1](../../docs/requirements/train/train_006278.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006345-R5](../../docs/requirements/train/train_006345.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006379-R3](../../docs/requirements/train/train_006379.md): Учащийся может войти в мини-приложение. (explicit, code)
+- [webgen-train-006398-R9](../../docs/requirements/train/train_006398.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006470-R4](../../docs/requirements/train/train_006470.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006472-R6](../../docs/requirements/train/train_006472.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006592-R2](../../docs/requirements/train/train_006592.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006596-R2](../../docs/requirements/train/train_006596.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006599-R2](../../docs/requirements/train/train_006599.md): Пользователь может войти в систему. (explicit, code)
+- [webgen-train-006607-R9](../../docs/requirements/train/train_006607.md): Пользователь может войти в систему. (explicit, code)
+
+## Регистрация — auth.registration
+
+Исключить регистрацию заявок, заказов и событий; сохранять заданные роли.
+
+- [webgen-047-R3.2](../../docs/requirements/47.md): Администратор может получать статистические сводки по зарегистрированной посещаемости. (explicit, code)
+- [webgen-047-R5.3](../../docs/requirements/47.md): Зарегистрированные отметки доступны при последующем просмотре записей посещаемости. (implicit, code)
+- [webgen-train-000091-R2](../../docs/requirements/train/train_000091.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-000219-R2](../../docs/requirements/train/train_000219.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-000238-R1](../../docs/requirements/train/train_000238.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-000485-R2](../../docs/requirements/train/train_000485.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-000501-R4](../../docs/requirements/train/train_000501.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-001040-R1](../../docs/requirements/train/train_001040.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-001549-R11](../../docs/requirements/train/train_001549.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-001700-R3](../../docs/requirements/train/train_001700.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-001762-R1](../../docs/requirements/train/train_001762.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-001860-R1](../../docs/requirements/train/train_001860.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-003370-R6](../../docs/requirements/train/train_003370.md): Продавец может зарегистрироваться. (explicit, code)
+- [webgen-train-003621-R6](../../docs/requirements/train/train_003621.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-003685-R1](../../docs/requirements/train/train_003685.md): Продавец может зарегистрироваться. (explicit, code)
+- [webgen-train-003809-R1](../../docs/requirements/train/train_003809.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-003881-R1](../../docs/requirements/train/train_003881.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-003982-R14](../../docs/requirements/train/train_003982.md): Водитель может зарегистрироваться. (explicit, code)
+- [webgen-train-003982-R24](../../docs/requirements/train/train_003982.md): Клиент может зарегистрироваться. (explicit, code)
+- [webgen-train-004090-R2](../../docs/requirements/train/train_004090.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-004288-R4](../../docs/requirements/train/train_004288.md): Продавец может зарегистрироваться. (explicit, code)
+- [webgen-train-004791-R2](../../docs/requirements/train/train_004791.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006063-R4](../../docs/requirements/train/train_006063.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006253-R1](../../docs/requirements/train/train_006253.md): Учащийся может зарегистрироваться. (explicit, code)
+- [webgen-train-006276-R7](../../docs/requirements/train/train_006276.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006354-R3](../../docs/requirements/train/train_006354.md): Учащийся может зарегистрироваться. (explicit, code)
+- [webgen-train-006398-R8](../../docs/requirements/train/train_006398.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006470-R3](../../docs/requirements/train/train_006470.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006472-R5](../../docs/requirements/train/train_006472.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006592-R1](../../docs/requirements/train/train_006592.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006596-R1](../../docs/requirements/train/train_006596.md): Пользователь может зарегистрироваться. (explicit, code)
+- [webgen-train-006607-R8](../../docs/requirements/train/train_006607.md): Пользователь может зарегистрироваться. (explicit, code)
+
+## Доступ в личный кабинет — account.access
+
+Связать с одноимённым шаблоном старого банка; не включать автоматически редактирование профиля.
+
+- [webgen-028-R6](../../docs/requirements/28.md): Пользователю доступен личный кабинет. (explicit, code)
+- [webgen-058-R5](../../docs/requirements/58.md): Пользователю доступен личный кабинет. (explicit, code)
+- [webgen-train-000762-R7](../../docs/requirements/train/train_000762.md): Пользователь может открывать личный кабинет. (explicit, code)
+- [webgen-train-001040-R5](../../docs/requirements/train/train_001040.md): Пользователь может открывать личный кабинет после входа. (explicit, code)
+- [webgen-train-001232-R6](../../docs/requirements/train/train_001232.md): Пользователь может открывать личный кабинет. (explicit, code)
+- [webgen-train-003809-R6](../../docs/requirements/train/train_003809.md): Пользователь может открывать личный кабинет. (explicit, code)
+- [webgen-train-003852-R2](../../docs/requirements/train/train_003852.md): Система должна предоставлять личный кабинет. (explicit, code)
+- [webgen-train-004174-R2](../../docs/requirements/train/train_004174.md): Система должна предоставлять личный кабинет. (explicit, code)
+- [webgen-train-006470-R1](../../docs/requirements/train/train_006470.md): Система должна предоставлять личный кабинет. (explicit, code)
+
+## Просмотр своих данных — account.view_own_information
+
+Связать со старым банком; просмотр любых пользователей и просмотр собственных данных различаются.
+
+- [webgen-028-R6.3](../../docs/requirements/28.md): В личном кабинете пользователь может просматривать свою персональную информацию. (explicit, code)
+- [webgen-057-R2.1](../../docs/requirements/57.md): Пользователь может просматривать и изменять данные своего профиля. (explicit, code)
+- [webgen-058-R5.1](../../docs/requirements/58.md): В личном кабинете пользователь может просматривать свою персональную информацию. (explicit, code)
+- [webgen-train-000219-R10](../../docs/requirements/train/train_000219.md): Пользователь может просматривать сводки данных. (explicit, code)
+- [webgen-train-000219-R14](../../docs/requirements/train/train_000219.md): Система должна отображать сводные таблицы данных. (explicit, code)
+- [webgen-train-000485-R4](../../docs/requirements/train/train_000485.md): Пользователь может просматривать персональную информацию. (explicit, code)
+- [webgen-train-006153-R10](../../docs/requirements/train/train_006153.md): Пользователь может просматривать свой профиль. (explicit, code)
+
+## Изменение профиля — account.edit_profile
+
+Разделить изменение своего профиля и управление чужими учётными записями; не добавлять поля от себя.
+
+- [webgen-057-R2.1](../../docs/requirements/57.md): Пользователь может просматривать и изменять данные своего профиля. (explicit, code)
+- [webgen-train-000485-R5](../../docs/requirements/train/train_000485.md): Пользователь может управлять персональной информацией. (explicit, llm)
+- [webgen-train-000501-R7](../../docs/requirements/train/train_000501.md): Пользователь может редактировать свой профиль. (explicit, code)
+- [webgen-train-000798-R7](../../docs/requirements/train/train_000798.md): Пользователь может управлять персональной информацией. (explicit, llm)
+- [webgen-train-001549-R13](../../docs/requirements/train/train_001549.md): Пользователь может управлять персональной информацией. (explicit, llm)
+- [webgen-train-002589-R5](../../docs/requirements/train/train_002589.md): Пользователь может управлять персональной информацией. (explicit, llm)
+- [webgen-train-002795-R10](../../docs/requirements/train/train_002795.md): Пользователь может управлять сведениями своей учётной записи. (explicit, llm)
+- [webgen-train-003080-R8](../../docs/requirements/train/train_003080.md): Пользователь может управлять персональной информацией. (explicit, llm)
+- [webgen-train-003621-R8](../../docs/requirements/train/train_003621.md): Пользователь может управлять персональной информацией. (explicit, llm)
+- [webgen-train-003852-R7](../../docs/requirements/train/train_003852.md): Пользователь может управлять персональной информацией. (explicit, llm)
+- [webgen-train-003982-R15](../../docs/requirements/train/train_003982.md): Водитель может управлять своим профилем. (explicit, llm)
+- [webgen-train-003982-R25](../../docs/requirements/train/train_003982.md): Клиент может управлять своим профилем. (explicit, llm)
+- [webgen-train-004020-R11](../../docs/requirements/train/train_004020.md): Пользователь может управлять сведениями своей учётной записи. (explicit, llm)
+- [webgen-train-004174-R6](../../docs/requirements/train/train_004174.md): Пользователь может управлять персональной информацией. (explicit, llm)
+
+## Просмотр списков и каталогов — collection.browse
+
+Сохранить тип объектов и ограничения видимости; карточка одного объекта — отдельная проверка.
+
+- [webgen-026-R1](../../docs/requirements/26.md): Список акций доступен для просмотра. (explicit, code)
+- [webgen-026-R4.1](../../docs/requirements/26.md): Администратор может просматривать список пользователей и изменять их данные. (explicit, llm)
+- [webgen-084-R3.1](../../docs/requirements/84.md): Пользователь может изменять сроки и просматривать актуальное расписание проекта. (explicit, code)
+- [webgen-train-000215-R5](../../docs/requirements/train/train_000215.md): Пользователь может просматривать список услуг. (explicit, code)
+- [webgen-train-000430-R3](../../docs/requirements/train/train_000430.md): Пользователь может просматривать каталог товаров. (explicit, code)
+- [webgen-train-000820-R5](../../docs/requirements/train/train_000820.md): Пользователь может просматривать список музыки. (explicit, code)
+- [webgen-train-001013-R3](../../docs/requirements/train/train_001013.md): Пользователь может просматривать список автобусов. (explicit, code)
+- [webgen-train-002536-R3](../../docs/requirements/train/train_002536.md): Пользователь может просматривать список товаров. (explicit, code)
+- [webgen-train-002549-R2](../../docs/requirements/train/train_002549.md): Пользователь может просматривать список проектов. (explicit, code)
+- [webgen-train-002589-R2](../../docs/requirements/train/train_002589.md): Пользователь может просматривать список мероприятий. (explicit, code)
+- [webgen-train-002678-R1](../../docs/requirements/train/train_002678.md): Пользователь может просматривать список местных компаний. (explicit, code)
+- [webgen-train-003587-R2](../../docs/requirements/train/train_003587.md): Пользователь может просматривать список автомоек. (explicit, code)
+- [webgen-train-004174-R5](../../docs/requirements/train/train_004174.md): Пользователь может просматривать список заказов. (explicit, code)
+- [webgen-train-004927-R2](../../docs/requirements/train/train_004927.md): Пользователь может просматривать список серверов. (explicit, code)
+
+## Просмотр сведений об объекте — entity.details
+
+Составные требования к карточке могут потребовать разделения; обязательные поля берутся только из ТЗ.
+
+- [webgen-026-R1.1](../../docs/requirements/26.md): Карточка акции показывает описание, скидку, категорию и автора. (implicit, llm)
+- [webgen-082-R1](../../docs/requirements/82.md): Пользователь может просматривать информацию о делах детективного агентства. (explicit, code)
+- [webgen-train-000355-R6](../../docs/requirements/train/train_000355.md): Пользователь может просматривать сведения о видео. (explicit, code)
+- [webgen-train-000430-R6](../../docs/requirements/train/train_000430.md): Пользователь может просматривать сведения о послепродажном обслуживании. (explicit, code)
+- [webgen-train-000820-R8](../../docs/requirements/train/train_000820.md): Пользователь может просматривать сведения о музыке. (explicit, code)
+- [webgen-train-000836-R6](../../docs/requirements/train/train_000836.md): Пользователь может просматривать подробную информацию. (explicit, code)
+- [webgen-train-001013-R4](../../docs/requirements/train/train_001013.md): Пользователь может просматривать сведения о пригородных автобусах. (explicit, code)
+- [webgen-train-001013-R5](../../docs/requirements/train/train_001013.md): Пользователь может просматривать сведения о коротких специальных маршрутах. (explicit, code)
+- [webgen-train-001013-R6](../../docs/requirements/train/train_001013.md): Пользователь может просматривать сведения о шаттлах. (explicit, code)
+- [webgen-train-001207-R3](../../docs/requirements/train/train_001207.md): Пользователь может просматривать сведения о команде. (explicit, code)
+- [webgen-train-001738-R5](../../docs/requirements/train/train_001738.md): Пользователь может просматривать сведения о заказах. (explicit, code)
+- [webgen-train-001940-R7](../../docs/requirements/train/train_001940.md): Пользователь может просматривать информацию о заказах. (explicit, code)
+- [webgen-train-002267-R6](../../docs/requirements/train/train_002267.md): Пользователь может просматривать сведения о классе. (explicit, code)
+- [webgen-train-002536-R2](../../docs/requirements/train/train_002536.md): Пользователь может просматривать информацию о пользователях. (explicit, code)
+- [webgen-train-002621-R5](../../docs/requirements/train/train_002621.md): Пользователь может просматривать сведения о товарах. (explicit, code)
+- [webgen-train-002652-R5](../../docs/requirements/train/train_002652.md): Пользователь может просматривать сведения об услугах. (explicit, code)
+- [webgen-train-002678-R2](../../docs/requirements/train/train_002678.md): Пользователь может просматривать сведения о скидках. (explicit, code)
+- [webgen-train-002712-R6](../../docs/requirements/train/train_002712.md): Пользователь может просматривать сведения о товарах. (explicit, code)
+- [webgen-train-002766-R1](../../docs/requirements/train/train_002766.md): Пользователь может просматривать сведения о проектах. (explicit, code)
+- [webgen-train-002804-R2](../../docs/requirements/train/train_002804.md): Пользователь может просматривать подробные сведения о компоненте. (explicit, code)
+- [webgen-train-002889-R4](../../docs/requirements/train/train_002889.md): Пользователь может просматривать сведения об автомобилях. (explicit, code)
+- [webgen-train-003587-R3](../../docs/requirements/train/train_003587.md): Пользователь может просматривать сведения об автомойке. (explicit, code)
+- [webgen-train-003587-R3.3](../../docs/requirements/train/train_003587.md): Пользователь может просматривать сведения о моечных постах. (explicit, code)
+- [webgen-train-003634-R2](../../docs/requirements/train/train_003634.md): Пользователь может просматривать сведения о сельхозтехнике. (explicit, code)
+- [webgen-train-003678-R6](../../docs/requirements/train/train_003678.md): Пользователь может просматривать сведения о старых векселях. (explicit, code)
+- [webgen-train-003680-R6](../../docs/requirements/train/train_003680.md): Пользователь может просматривать сведения об использовании пожертвований. (explicit, code)
+- [webgen-train-003881-R3](../../docs/requirements/train/train_003881.md): Пользователь может просматривать информацию о своём счёте. (explicit, code)
+- [webgen-train-003912-R3](../../docs/requirements/train/train_003912.md): Пользователь может просматривать сведения об автомобилях. (explicit, code)
+- [webgen-train-003918-R6](../../docs/requirements/train/train_003918.md): Клиент может просматривать сведения о перевозчиках. (explicit, code)
+- [webgen-train-003987-R3](../../docs/requirements/train/train_003987.md): Пользователь может просматривать сведения о заказах. (explicit, code)
+- [webgen-train-003990-R5](../../docs/requirements/train/train_003990.md): Пользователь может просматривать сведения о поставщиках услуг. (explicit, code)
+- [webgen-train-003990-R6](../../docs/requirements/train/train_003990.md): Пользователь может просматривать сведения об автомобилях. (explicit, code)
+- [webgen-train-004090-R4](../../docs/requirements/train/train_004090.md): Пользователь может просматривать сведения о товарах на разных языках. (explicit, code)
+- [webgen-train-004145-R6](../../docs/requirements/train/train_004145.md): Пользователь может просматривать сведения о комнатах. (explicit, code)
+- [webgen-train-004922-R2](../../docs/requirements/train/train_004922.md): Пользователь может просматривать сведения о базе. (explicit, code)
+- [webgen-train-004927-R6](../../docs/requirements/train/train_004927.md): Пользователь может просматривать сведения о сервере. (explicit, code)
+- [webgen-train-004983-R6](../../docs/requirements/train/train_004983.md): Пользователь может просматривать собранные сведения о сотрудниках. (explicit, code)
+- [webgen-train-005247-R2](../../docs/requirements/train/train_005247.md): Пользователь может просматривать сведения о локомотивных бригадах. (explicit, code)
+- [webgen-train-005639-R7](../../docs/requirements/train/train_005639.md): Пользователь может просматривать сведения о фильмах. (explicit, code)
+- [webgen-train-006161-R3](../../docs/requirements/train/train_006161.md): Пользователь может просматривать сведения о выпускных экзаменах. (explicit, code)
+- [webgen-train-006180-R4](../../docs/requirements/train/train_006180.md): Пользователь может просматривать сведения об учащихся. (explicit, code)
+- [webgen-train-006246-R2](../../docs/requirements/train/train_006246.md): Пользователь может просматривать сведения о курсах. (explicit, code)
+- [webgen-train-006333-R7](../../docs/requirements/train/train_006333.md): Учащийся может просматривать сведения об учебном заведении. (explicit, code)
+- [webgen-train-006345-R10](../../docs/requirements/train/train_006345.md): Пользователь может просматривать сведения о зачётных единицах. (explicit, code)
+- [webgen-train-006379-R6](../../docs/requirements/train/train_006379.md): Учащийся может просматривать подробные оценки. (explicit, code)
+
+## Поиск — collection.search
+
+Наличие поля поиска и корректные результаты различаются; поиск по тексту и по категории не равнозначны.
+
+- [webgen-026-R3](../../docs/requirements/26.md): Пользователь может искать акции. (explicit, code)
+- [webgen-026-R3.1](../../docs/requirements/26.md): Поиск находит акции по теме запроса, включая поиск по категории. (implicit, llm)
+- [webgen-028-R4](../../docs/requirements/28.md): Пользователь может искать публикации. (explicit, code)
+- [webgen-028-R4.1](../../docs/requirements/28.md): Результаты поиска содержат публикации, соответствующие запросу. (implicit, llm)
+- [webgen-057-R3](../../docs/requirements/57.md): Пользователь может искать и выбирать коучей для индивидуальной работы. (explicit, code)
+- [webgen-057-R3.1](../../docs/requirements/57.md): Результаты поиска соответствуют заданному запросу или условиям поиска. (implicit, llm)
+- [webgen-096-R2](../../docs/requirements/96.md): Пользователь может искать достопримечательности и кемпинги. (explicit, code)
+- [webgen-096-R2.1](../../docs/requirements/96.md): Результаты поиска соответствуют запросу или выбранным условиям. (implicit, llm)
+- [webgen-train-000153-R1](../../docs/requirements/train/train_000153.md): Система должна поддерживать поиск по одному символу. (explicit, code)
+- [webgen-train-000153-R2](../../docs/requirements/train/train_000153.md): Пользователь может искать сикигами или загадочные подсказки по ключевым словам. (explicit, code)
+- [webgen-train-000153-R3](../../docs/requirements/train/train_000153.md): Пользователь может просматривать недавно популярные поисковые запросы о демонах. (explicit, code)
+- [webgen-train-000153-R4](../../docs/requirements/train/train_000153.md): Пользователь может просматривать собственную историю поиска. (explicit, code)
+- [webgen-train-000326-R5](../../docs/requirements/train/train_000326.md): Пользователь может искать аудиоматериалы. (explicit, code)
+- [webgen-train-000355-R5](../../docs/requirements/train/train_000355.md): Пользователь может искать видео. (explicit, code)
+- [webgen-train-000355-R7](../../docs/requirements/train/train_000355.md): Система должна улучшать позиции сайта в поисковой выдаче. (explicit, llm)
+- [webgen-train-000467-R7](../../docs/requirements/train/train_000467.md): Система должна предоставлять страницу поиска. (explicit, code)
+- [webgen-train-000820-R6](../../docs/requirements/train/train_000820.md): Пользователь может искать музыку. (explicit, code)
+- [webgen-train-000934-R1](../../docs/requirements/train/train_000934.md): Система должна корректно отображаться в поисковой выдаче. (explicit, llm)
+- [webgen-train-000934-R7](../../docs/requirements/train/train_000934.md): Система должна обеспечивать высокое место в поисковой выдаче. (explicit, llm)
+- [webgen-train-001007-R7](../../docs/requirements/train/train_001007.md): Пользователь может искать цифровых персонажей. (explicit, code)
+- [webgen-train-001007-R8](../../docs/requirements/train/train_001007.md): Пользователь может искать поясняющие материалы. (explicit, code)
+- [webgen-train-001028-R3](../../docs/requirements/train/train_001028.md): Пользователь может искать нужную информацию. (explicit, code)
+- [webgen-train-001058-R5](../../docs/requirements/train/train_001058.md): Пользователь может искать интересующие признания. (explicit, code)
+- [webgen-train-001387-R7](../../docs/requirements/train/train_001387.md): Пользователь может просматривать позиции сайта в поиске. (explicit, code)
+- [webgen-train-001549-R15](../../docs/requirements/train/train_001549.md): Пользователь может искать чат-комнаты. (explicit, code)
+- [webgen-train-001549-R16](../../docs/requirements/train/train_001549.md): Пользователь может искать сообщения. (explicit, code)
+- [webgen-train-001700-R6](../../docs/requirements/train/train_001700.md): Пользователь может искать информацию. (explicit, code)
+- [webgen-train-001714-R4](../../docs/requirements/train/train_001714.md): Пользователь может задавать радиус поиска. (explicit, code)
+- [webgen-train-001977-R10](../../docs/requirements/train/train_001977.md): Пользователь может искать проекты. (explicit, code)
+- [webgen-train-002681-R2](../../docs/requirements/train/train_002681.md): Пользователь может искать информацию о шинах. (explicit, code)
+- [webgen-train-002795-R8](../../docs/requirements/train/train_002795.md): Пользователь может искать содержимое. (explicit, code)
+- [webgen-train-002804-R3](../../docs/requirements/train/train_002804.md): Пользователь может искать компоненты. (explicit, code)
+- [webgen-train-003119-R13](../../docs/requirements/train/train_003119.md): Пользователь может искать информацию об оздоровлении. (explicit, code)
+- [webgen-train-003142-R5](../../docs/requirements/train/train_003142.md): Пользователь может искать исторические платёжные записи. (explicit, code)
+- [webgen-train-003592-R8](../../docs/requirements/train/train_003592.md): Пользователь может искать платёжные поручения. (explicit, code)
+- [webgen-train-003673-R3](../../docs/requirements/train/train_003673.md): Пользователь может искать нужные товары. (explicit, code)
+- [webgen-train-003999-R4](../../docs/requirements/train/train_003999.md): Система должна предоставлять анализ популярных поисковых слов. (explicit, llm)
+- [webgen-train-004288-R1](../../docs/requirements/train/train_004288.md): Пользователь может искать ближайшие зарядные станции. (explicit, code)
+- [webgen-train-004391-R12](../../docs/requirements/train/train_004391.md): Пользователь может искать данные. (explicit, code)
+- [webgen-train-004951-R3](../../docs/requirements/train/train_004951.md): Пользователь может искать опубликованные объявления. (explicit, code)
+- [webgen-train-004983-R7](../../docs/requirements/train/train_004983.md): Пользователь может искать сведения о сотрудниках. (explicit, code)
+- [webgen-train-005583-R2](../../docs/requirements/train/train_005583.md): Система должна искать заданные фразы в группах Telegram. (explicit, code)
+- [webgen-train-005583-R4](../../docs/requirements/train/train_005583.md): Система должна совершать звонок при выполнении условия поиска. (explicit, code)
+- [webgen-train-005583-R5](../../docs/requirements/train/train_005583.md): Пользователь может задавать условия поиска. (explicit, code)
+- [webgen-train-005859-R9](../../docs/requirements/train/train_005859.md): Пользователь может искать данные. (explicit, code)
+- [webgen-train-006063-R7](../../docs/requirements/train/train_006063.md): Пользователь может искать произведения. (explicit, code)
+- [webgen-train-006148-R4](../../docs/requirements/train/train_006148.md): Пользователь может искать вопросы. (explicit, code)
+- [webgen-train-006333-R6](../../docs/requirements/train/train_006333.md): Учащийся может искать учебные заведения. (explicit, code)
+- [webgen-train-006592-R6](../../docs/requirements/train/train_006592.md): Пользователь может искать материалы. (explicit, code)
+
+## Фильтрация — collection.filter
+
+Не приписывать фильтры, которых нет в ТЗ; не смешивать фильтрацию данных с сетевыми фильтрами.
+
+- [webgen-train-000991-R5](../../docs/requirements/train/train_000991.md): Пользователь может просматривать результаты фильтрации. (explicit, code)
+- [webgen-train-001028-R4](../../docs/requirements/train/train_001028.md): Пользователь может фильтровать данные. (explicit, code)
+- [webgen-train-001549-R17](../../docs/requirements/train/train_001549.md): Пользователь может фильтровать чат-комнаты. (explicit, code)
+- [webgen-train-001549-R18](../../docs/requirements/train/train_001549.md): Пользователь может фильтровать сообщения. (explicit, code)
+- [webgen-train-001714-R5](../../docs/requirements/train/train_001714.md): Система должна фильтровать соревнования в заданном радиусе. (explicit, code)
+- [webgen-train-002509-R7](../../docs/requirements/train/train_002509.md): Система должна фильтровать скрипты. (explicit, llm)
+- [webgen-train-002804-R4](../../docs/requirements/train/train_002804.md): Пользователь может фильтровать компоненты. (explicit, code)
+- [webgen-train-004627-R2](../../docs/requirements/train/train_004627.md): Система должна фильтровать предупреждения по заданным правилам. (explicit, code)
+- [webgen-train-004943-R4](../../docs/requirements/train/train_004943.md): Пользователь может фильтровать данные. (explicit, code)
+- [webgen-train-004983-R9](../../docs/requirements/train/train_004983.md): Пользователь может фильтровать сведения о сотрудниках. (explicit, code)
+- [webgen-train-005193-R2](../../docs/requirements/train/train_005193.md): Разработчик может определять фильтры с помощью аннотаций. (explicit, code)
+- [webgen-train-005738-R3](../../docs/requirements/train/train_005738.md): Пользователь может фильтровать данные. (explicit, code)
+- [webgen-train-005859-R8](../../docs/requirements/train/train_005859.md): Пользователь может фильтровать данные. (explicit, code)
+
+## Создание объекта — entity.create
+
+Создание сущности, добавление связи и настройка интерфейса могут требовать отдельных шаблонов.
+
+- [webgen-011-R2.1](../../docs/requirements/11.md): Пользователь может добавлять игроков в состав команды и исключать их из состава. (implicit, code)
+- [webgen-028-R2](../../docs/requirements/28.md): Пользователь может создавать новые публикации. (explicit, code)
+- [webgen-057-R2](../../docs/requirements/57.md): Пользователь может создать свой профиль. (explicit, code)
+- [webgen-057-R5](../../docs/requirements/57.md): Пользователь может создавать цели для работы с коучем. (explicit, code)
+- [webgen-058-R1](../../docs/requirements/58.md): Пользователь может создавать учебные группы. (explicit, code)
+- [webgen-072-R1](../../docs/requirements/72.md): Пользователь может создать собственную страницу со списком ссылок. (explicit, code)
+- [webgen-072-R2](../../docs/requirements/72.md): Пользователь может добавлять новые ссылки в свою подборку. (explicit, code)
+- [webgen-084-R1](../../docs/requirements/84.md): Пользователь может создавать строительные проекты. (explicit, code)
+- [webgen-084-R2](../../docs/requirements/84.md): Пользователь может добавлять и просматривать документы проекта. (explicit, code)
+- [webgen-084-R8](../../docs/requirements/84.md): Пользователь может добавлять ресурсы в проект и просматривать их. (explicit, code)
+- [webgen-train-000001-R1](../../docs/requirements/train/train_000001.md): Пользователь может добавлять заказы. (explicit, code)
+- [webgen-train-000326-R6](../../docs/requirements/train/train_000326.md): Пользователь может создавать плейлисты. (explicit, code)
+- [webgen-train-000381-R2](../../docs/requirements/train/train_000381.md): Пользователь может создавать шаблоны сообщений. (explicit, code)
+- [webgen-train-000955-R5](../../docs/requirements/train/train_000955.md): Пользователь может создавать формы. (explicit, code)
+- [webgen-train-000955-R6](../../docs/requirements/train/train_000955.md): Пользователь может добавлять поля. (explicit, code)
+- [webgen-train-000972-R1](../../docs/requirements/train/train_000972.md): Пользователь может добавлять задачи. (explicit, code)
+- [webgen-train-000972-R5](../../docs/requirements/train/train_000972.md): Пользователь может добавлять заметки. (explicit, code)
+- [webgen-train-001120-R7](../../docs/requirements/train/train_001120.md): Пользователь может создавать альбомы. (explicit, code)
+- [webgen-train-001162-R3](../../docs/requirements/train/train_001162.md): Пользователь может создавать процессы согласования. (explicit, code)
+- [webgen-train-001387-R2](../../docs/requirements/train/train_001387.md): Пользователь может создавать содержимое. (explicit, code)
+- [webgen-train-001463-R3](../../docs/requirements/train/train_001463.md): Пользователь может создавать формы. (explicit, code)
+- [webgen-train-001473-R2](../../docs/requirements/train/train_001473.md): Пользователь может создавать формы. (explicit, code)
+- [webgen-train-001548-R7](../../docs/requirements/train/train_001548.md): Пользователь может создавать групповые чаты. (explicit, code)
+- [webgen-train-001548-R9](../../docs/requirements/train/train_001548.md): Пользователь может добавлять друзей. (explicit, code)
+- [webgen-train-001549-R3](../../docs/requirements/train/train_001549.md): Пользователь может создавать чат-комнаты. (explicit, code)
+- [webgen-train-001569-R5](../../docs/requirements/train/train_001569.md): Пользователь может создавать групповые разговоры. (explicit, code)
+- [webgen-train-001569-R6](../../docs/requirements/train/train_001569.md): Пользователь может создавать приватные разговоры. (explicit, code)
+- [webgen-train-001719-R3](../../docs/requirements/train/train_001719.md): Пользователь может создавать формы. (explicit, code)
+- [webgen-train-001738-R6](../../docs/requirements/train/train_001738.md): Пользователь может добавлять заказы. (explicit, code)
+- [webgen-train-001762-R3](../../docs/requirements/train/train_001762.md): Пользователь может создавать собственные микросервисные системы. (explicit, code)
+- [webgen-train-001762-R5](../../docs/requirements/train/train_001762.md): Пользователь может добавлять модули. (explicit, code)
+- [webgen-train-001762-R8](../../docs/requirements/train/train_001762.md): Пользователь может добавлять плагины. (explicit, code)
+- [webgen-train-001860-R3](../../docs/requirements/train/train_001860.md): Пользователь может создавать собственные метавселенные. (explicit, code)
+- [webgen-train-001860-R5](../../docs/requirements/train/train_001860.md): Пользователь может создавать блокчейн-приложения. (explicit, code)
+- [webgen-train-001870-R5](../../docs/requirements/train/train_001870.md): Пользователь может создавать записи. (explicit, code)
+- [webgen-train-001983-R1](../../docs/requirements/train/train_001983.md): Пользователь может создавать схемы баз данных. (explicit, code)
+- [webgen-train-001983-R2](../../docs/requirements/train/train_001983.md): Пользователь может добавлять данные. (explicit, code)
+- [webgen-train-001983-R5](../../docs/requirements/train/train_001983.md): Пользователь может создавать формы для своих данных. (explicit, code)
+- [webgen-train-002019-R2](../../docs/requirements/train/train_002019.md): Разработчик может создавать веб-приложения. (explicit, code)
+- [webgen-train-002104-R2](../../docs/requirements/train/train_002104.md): Пользователь может создавать смарт-контракты. (explicit, code)
+- [webgen-train-002170-R4](../../docs/requirements/train/train_002170.md): Пользователь может добавлять данные. (explicit, code)
+- [webgen-train-002267-R7](../../docs/requirements/train/train_002267.md): Пользователь может создавать анкеты. (explicit, code)
+- [webgen-train-002285-R2](../../docs/requirements/train/train_002285.md): Пользователь может создавать формы. (explicit, code)
+- [webgen-train-002379-R3](../../docs/requirements/train/train_002379.md): Пользователь может создавать шаблоны SMS. (explicit, code)
+- [webgen-train-002397-R3](../../docs/requirements/train/train_002397.md): Пользователь может создавать проекты. (explicit, code)
+- [webgen-train-002477-R3](../../docs/requirements/train/train_002477.md): Пользователь может добавлять данные. (explicit, code)
+- [webgen-train-002494-R2](../../docs/requirements/train/train_002494.md): Пользователь может создавать трёхмерные модели трасс. (explicit, code)
+- [webgen-train-002536-R5](../../docs/requirements/train/train_002536.md): Пользователь может добавлять пользователей. (explicit, code)
+- [webgen-train-002536-R9](../../docs/requirements/train/train_002536.md): Пользователь может добавлять товары. (explicit, code)
+- [webgen-train-002549-R3](../../docs/requirements/train/train_002549.md): Пользователь может создавать проекты Playdoh. (explicit, code)
+- [webgen-train-002559-R2](../../docs/requirements/train/train_002559.md): Пользователь может создавать проекты. (explicit, code)
+- [webgen-train-002804-R5](../../docs/requirements/train/train_002804.md): Администратор может добавлять сведения о компонентах. (explicit, code)
+- [webgen-train-003086-R2](../../docs/requirements/train/train_003086.md): Пользователь может добавлять способы оплаты. (explicit, code)
+- [webgen-train-003193-R6](../../docs/requirements/train/train_003193.md): Пользователь может создавать PDF в заданном формате. (explicit, code)
+- [webgen-train-003685-R2](../../docs/requirements/train/train_003685.md): Продавец может создавать собственный магазин. (explicit, code)
+- [webgen-train-003685-R8](../../docs/requirements/train/train_003685.md): Продавец может добавлять собственные способы оплаты. (explicit, code)
+- [webgen-train-003987-R4](../../docs/requirements/train/train_003987.md): Пользователь может создавать заказы. (explicit, code)
+- [webgen-train-004388-R2](../../docs/requirements/train/train_004388.md): Пользователь может добавлять сведения об активах. (explicit, code)
+- [webgen-train-004515-R3](../../docs/requirements/train/train_004515.md): Пользователь может добавлять сведения о файле в базу данных. (explicit, code)
+- [webgen-train-004603-R1](../../docs/requirements/train/train_004603.md): Пользователь может создавать базы. (explicit, code)
+- [webgen-train-004603-R2](../../docs/requirements/train/train_004603.md): Пользователь может создавать таблицы. (explicit, code)
+- [webgen-train-004603-R3](../../docs/requirements/train/train_004603.md): Пользователь может добавлять данные. (explicit, code)
+- [webgen-train-004711-R1](../../docs/requirements/train/train_004711.md): Пользователь может создавать скрипты миграции. (explicit, code)
+- [webgen-train-004786-R2](../../docs/requirements/train/train_004786.md): Пользователь может создавать шаблоны сообщений. (explicit, code)
+- [webgen-train-004922-R3](../../docs/requirements/train/train_004922.md): Пользователь может создавать резервную копию базы. (explicit, code)
+- [webgen-train-004927-R3](../../docs/requirements/train/train_004927.md): Пользователь может добавлять серверы. (explicit, code)
+- [webgen-train-004959-R4](../../docs/requirements/train/train_004959.md): Пользователь может добавлять данные. (explicit, code)
+- [webgen-train-004971-R2](../../docs/requirements/train/train_004971.md): Пользователь может создавать файлы. (explicit, code)
+- [webgen-train-004971-R3](../../docs/requirements/train/train_004971.md): Пользователь может создавать папки. (explicit, code)
+- [webgen-train-004983-R1](../../docs/requirements/train/train_004983.md): Администратор может создавать формы приёма на работу. (explicit, code)
+- [webgen-train-005051-R5](../../docs/requirements/train/train_005051.md): Пользователь может создавать собственные базы. (explicit, code)
+- [webgen-train-005247-R3](../../docs/requirements/train/train_005247.md): Пользователь может добавлять членов бригады. (explicit, code)
+- [webgen-train-005271-R1](../../docs/requirements/train/train_005271.md): Пользователь может создавать резервную копию базы. (explicit, code)
+- [webgen-train-005397-R5](../../docs/requirements/train/train_005397.md): Разработчик может создавать серверы пользовательских протоколов. (explicit, code)
+- [webgen-train-005397-R6](../../docs/requirements/train/train_005397.md): Разработчик может создавать клиентов пользовательских протоколов. (explicit, code)
+- [webgen-train-005496-R4](../../docs/requirements/train/train_005496.md): Пользователь может добавлять записи. (explicit, code)
+- [webgen-train-005583-R1](../../docs/requirements/train/train_005583.md): Пользователь может создавать ботов. (explicit, code)
+- [webgen-train-005640-R5](../../docs/requirements/train/train_005640.md): Пользователь может создавать диаграммы. (explicit, code)
+- [webgen-train-005653-R6](../../docs/requirements/train/train_005653.md): Пользователь может создавать отчёты. (explicit, code)
+- [webgen-train-005653-R8](../../docs/requirements/train/train_005653.md): Пользователь может создавать визуализации. (explicit, code)
+- [webgen-train-006001-R6](../../docs/requirements/train/train_006001.md): Пользователь может создавать интерактивные истории. (explicit, code)
+- [webgen-train-006001-R10](../../docs/requirements/train/train_006001.md): Пользователь может добавлять аудио. (explicit, code)
+- [webgen-train-006001-R11](../../docs/requirements/train/train_006001.md): Пользователь может добавлять кнопки. (explicit, code)
+- [webgen-train-006001-R12](../../docs/requirements/train/train_006001.md): Пользователь может добавлять ссылки. (explicit, code)
+- [webgen-train-006122-R1](../../docs/requirements/train/train_006122.md): Пользователь может добавлять изображения. (explicit, code)
+- [webgen-train-006122-R2](../../docs/requirements/train/train_006122.md): Пользователь может добавлять ссылки. (explicit, code)
+- [webgen-train-006122-R6](../../docs/requirements/train/train_006122.md): Пользователь может добавлять страницы. (explicit, code)
+- [webgen-train-006153-R6](../../docs/requirements/train/train_006153.md): Пользователь может создавать собственные курсы. (explicit, code)
+- [webgen-train-006217-R2](../../docs/requirements/train/train_006217.md): Преподаватель может создавать банки вопросов. (explicit, code)
+- [webgen-train-006217-R4](../../docs/requirements/train/train_006217.md): Преподаватель может создавать экзамены. (explicit, code)
+- [webgen-train-006226-R1](../../docs/requirements/train/train_006226.md): Пользователь может создавать опросы и экзаменационные вопросы. (explicit, code)
+- [webgen-train-006226-R4](../../docs/requirements/train/train_006226.md): Пользователь может добавлять вопросы. (explicit, code)
+- [webgen-train-006226-R9](../../docs/requirements/train/train_006226.md): Пользователь может добавлять вопросы перетаскиванием. (explicit, code)
+- [webgen-train-006239-R11](../../docs/requirements/train/train_006239.md): Преподаватель может создавать курсы. (explicit, code)
+- [webgen-train-006276-R13](../../docs/requirements/train/train_006276.md): Преподаватель может создавать учебные материалы. (explicit, code)
+- [webgen-train-006278-R3](../../docs/requirements/train/train_006278.md): Пользователь может создавать экзаменационные работы. (explicit, code)
+- [webgen-train-006379-R9](../../docs/requirements/train/train_006379.md): Учащийся может добавлять ошибки в коллекцию. (explicit, code)
+- [webgen-train-006470-R5](../../docs/requirements/train/train_006470.md): Пользователь может добавлять друзей. (explicit, code)
+- [webgen-train-006470-R6](../../docs/requirements/train/train_006470.md): Пользователь может создавать разговоры. (explicit, code)
+- [webgen-train-006497-R8](../../docs/requirements/train/train_006497.md): Пользователь может создавать собственные группы. (explicit, code)
+- [webgen-train-006497-R10](../../docs/requirements/train/train_006497.md): Пользователь может добавлять участников. (explicit, code)
+- [webgen-train-006592-R9](../../docs/requirements/train/train_006592.md): Администратор может добавлять материалы. (explicit, code)
+
+## Редактирование объекта — entity.update
+
+Изменение записи, конфигурации и состояния процесса пока не считать одной исполняемой проверкой.
+
+- [webgen-011-R2](../../docs/requirements/11.md): Пользователь может изменять настройки или состав команды. (explicit, code)
+- [webgen-011-R2.3](../../docs/requirements/11.md): Пользователь может изменять стратегию команды. (explicit, code)
+- [webgen-011-R2.4](../../docs/requirements/11.md): Пользователь может изменять игровой состав или порядок отбивания. (explicit, code)
+- [webgen-057-R5.1](../../docs/requirements/57.md): Пользователь может обновлять и просматривать прогресс по своим целям. (explicit, code)
+- [webgen-072-R3](../../docs/requirements/72.md): Пользователь может редактировать существующие ссылки в своей подборке. (explicit, code)
+- [webgen-084-R2.1](../../docs/requirements/84.md): Пользователь может изменять сведения о документе или удалять его из проекта. (implicit, code)
+- [webgen-084-R3.1](../../docs/requirements/84.md): Пользователь может изменять сроки и просматривать актуальное расписание проекта. (explicit, code)
+- [webgen-084-R8.1](../../docs/requirements/84.md): Пользователь может изменять данные ресурсов или их назначение проекту. (explicit, code)
+- [webgen-train-000098-R5](../../docs/requirements/train/train_000098.md): Пользователь может изменять структуру формы через конфигурацию. (explicit, code)
+- [webgen-train-000098-R6](../../docs/requirements/train/train_000098.md): Пользователь может изменять содержимое формы через конфигурацию. (explicit, code)
+- [webgen-train-000381-R3](../../docs/requirements/train/train_000381.md): Пользователь может редактировать шаблоны сообщений. (explicit, code)
+- [webgen-train-000485-R5.1](../../docs/requirements/train/train_000485.md): Пользователь может изменять основные данные профиля. (implicit, code)
+- [webgen-train-000485-R5.2](../../docs/requirements/train/train_000485.md): Пользователь может изменять аватар. (implicit, code)
+- [webgen-train-000485-R5.3](../../docs/requirements/train/train_000485.md): Пользователь может изменять пароль. (implicit, code)
+- [webgen-train-000501-R7](../../docs/requirements/train/train_000501.md): Пользователь может редактировать свой профиль. (explicit, code)
+- [webgen-train-000787-R4](../../docs/requirements/train/train_000787.md): Пользователь может редактировать главы. (explicit, code)
+- [webgen-train-000803-R5](../../docs/requirements/train/train_000803.md): Пользователь может редактировать расшифровку. (explicit, code)
+- [webgen-train-000955-R1](../../docs/requirements/train/train_000955.md): Пользователь может редактировать формы. (explicit, code)
+- [webgen-train-000972-R2](../../docs/requirements/train/train_000972.md): Пользователь может изменять задачи. (explicit, code)
+- [webgen-train-000972-R6](../../docs/requirements/train/train_000972.md): Пользователь может изменять заметки. (explicit, code)
+- [webgen-train-000972-R8](../../docs/requirements/train/train_000972.md): Пользователь может редактировать заметки встроенным редактором форматированного текста. (explicit, code)
+- [webgen-train-001025-R2](../../docs/requirements/train/train_001025.md): Пользователь может изменять параметры запроса в URL. (explicit, code)
+- [webgen-train-001120-R8](../../docs/requirements/train/train_001120.md): Пользователь может редактировать сведения об изображении. (explicit, code)
+- [webgen-train-001162-R6](../../docs/requirements/train/train_001162.md): Пользователь может изменять содержимое формы. (explicit, code)
+- [webgen-train-001232-R9](../../docs/requirements/train/train_001232.md): Пользователь может изменять сведения учётной записи. (explicit, code)
+- [webgen-train-001387-R3](../../docs/requirements/train/train_001387.md): Пользователь может редактировать содержимое. (explicit, code)
+- [webgen-train-001458-R5](../../docs/requirements/train/train_001458.md): Пользователь может изменять параметры обработки. (explicit, code)
+- [webgen-train-001463-R4](../../docs/requirements/train/train_001463.md): Пользователь может редактировать формы. (explicit, code)
+- [webgen-train-001470-R2](../../docs/requirements/train/train_001470.md): Пользователь может редактировать CSS-код. (explicit, code)
+- [webgen-train-001473-R3](../../docs/requirements/train/train_001473.md): Пользователь может редактировать формы. (explicit, code)
+- [webgen-train-001719-R4](../../docs/requirements/train/train_001719.md): Пользователь может редактировать формы. (explicit, code)
+- [webgen-train-001738-R7](../../docs/requirements/train/train_001738.md): Пользователь может обновлять состояние заказа. (explicit, code)
+- [webgen-train-001870-R6](../../docs/requirements/train/train_001870.md): Пользователь может изменять записи. (explicit, code)
+- [webgen-train-001983-R7](../../docs/requirements/train/train_001983.md): Пользователь может редактировать структуру базы. (explicit, code)
+- [webgen-train-002104-R3](../../docs/requirements/train/train_002104.md): Пользователь может редактировать смарт-контракты. (explicit, code)
+- [webgen-train-002127-R4](../../docs/requirements/train/train_002127.md): Пользователь может редактировать материалы. (explicit, code)
+- [webgen-train-002170-R5](../../docs/requirements/train/train_002170.md): Пользователь может изменять существующие данные. (explicit, code)
+- [webgen-train-002267-R5](../../docs/requirements/train/train_002267.md): Пользователь может изменять персональные данные. (explicit, code)
+- [webgen-train-002267-R8](../../docs/requirements/train/train_002267.md): Пользователь может редактировать анкеты. (explicit, code)
+- [webgen-train-002285-R3](../../docs/requirements/train/train_002285.md): Пользователь может редактировать формы. (explicit, code)
+- [webgen-train-002379-R4](../../docs/requirements/train/train_002379.md): Пользователь может редактировать шаблоны SMS. (explicit, code)
+- [webgen-train-002477-R4](../../docs/requirements/train/train_002477.md): Пользователь может редактировать данные. (explicit, code)
+- [webgen-train-002536-R7](../../docs/requirements/train/train_002536.md): Пользователь может изменять сведения о пользователях. (explicit, code)
+- [webgen-train-002549-R4](../../docs/requirements/train/train_002549.md): Пользователь может редактировать проекты. (explicit, code)
+- [webgen-train-002559-R3](../../docs/requirements/train/train_002559.md): Пользователь может редактировать код. (explicit, code)
+- [webgen-train-002589-R8](../../docs/requirements/train/train_002589.md): Пользователь может изменять мероприятия при наличии разрешения. (explicit, code)
+- [webgen-train-002804-R7](../../docs/requirements/train/train_002804.md): Администратор может изменять сведения о компонентах. (explicit, code)
+- [webgen-train-003086-R3](../../docs/requirements/train/train_003086.md): Пользователь может редактировать способы оплаты. (explicit, code)
+- [webgen-train-004388-R3](../../docs/requirements/train/train_004388.md): Пользователь может редактировать сведения об активах. (explicit, code)
+- [webgen-train-004603-R5](../../docs/requirements/train/train_004603.md): Пользователь может обновлять данные. (explicit, code)
+- [webgen-train-004711-R2](../../docs/requirements/train/train_004711.md): Пользователь может редактировать скрипты миграции. (explicit, code)
+- [webgen-train-004786-R3](../../docs/requirements/train/train_004786.md): Пользователь может редактировать шаблоны сообщений. (explicit, code)
+- [webgen-train-004791-R5](../../docs/requirements/train/train_004791.md): Пользователь может изменять настройки своих Wi-Fi-сетей. (explicit, code)
+- [webgen-train-004927-R5](../../docs/requirements/train/train_004927.md): Пользователь может изменять существующие серверы. (explicit, code)
+- [webgen-train-004959-R6](../../docs/requirements/train/train_004959.md): Пользователь может изменять выбранные данные. (explicit, code)
+- [webgen-train-005220-R4](../../docs/requirements/train/train_005220.md): Пользователь может редактировать данные. (explicit, code)
+- [webgen-train-005247-R4](../../docs/requirements/train/train_005247.md): Пользователь может изменять сведения о бригаде. (explicit, code)
+- [webgen-train-005400-R5](../../docs/requirements/train/train_005400.md): Пользователь может редактировать отправленные формы. (explicit, code)
+- [webgen-train-005496-R5](../../docs/requirements/train/train_005496.md): Пользователь может редактировать записи. (explicit, code)
+- [webgen-train-006001-R7](../../docs/requirements/train/train_006001.md): Пользователь может редактировать интерактивные истории. (explicit, code)
+- [webgen-train-006063-R2](../../docs/requirements/train/train_006063.md): Пользователь может редактировать статьи. (explicit, code)
+- [webgen-train-006122-R3](../../docs/requirements/train/train_006122.md): Пользователь может редактировать HTML. (explicit, code)
+- [webgen-train-006122-R5](../../docs/requirements/train/train_006122.md): Пользователь может редактировать содержимое сайта через панель инструментов. (explicit, code)
+- [webgen-train-006122-R7](../../docs/requirements/train/train_006122.md): Пользователь может редактировать существующие страницы. (explicit, code)
+- [webgen-train-006226-R2](../../docs/requirements/train/train_006226.md): Пользователь может редактировать опросы. (explicit, code)
+- [webgen-train-006226-R6](../../docs/requirements/train/train_006226.md): Пользователь может изменять порядок вопросов. (explicit, code)
+- [webgen-train-006276-R14](../../docs/requirements/train/train_006276.md): Преподаватель может редактировать учебные материалы. (explicit, code)
+- [webgen-train-006536-R5](../../docs/requirements/train/train_006536.md): Пользователь может изменять громкость. (explicit, code)
+- [webgen-train-006592-R11](../../docs/requirements/train/train_006592.md): Администратор может редактировать материалы. (explicit, code)
+- [webgen-train-006622-R7](../../docs/requirements/train/train_006622.md): Пользователь может изменять настройки системы. (explicit, code)
+
+## Удаление объекта — entity.delete
+
+Удаление объекта и исключение его из подборки различаются; не придумывать подтверждение удаления.
+
+- [webgen-072-R4](../../docs/requirements/72.md): Пользователь может удалять ссылки из своей подборки. (explicit, code)
+- [webgen-train-000955-R2](../../docs/requirements/train/train_000955.md): Пользователь может удалять формы. (explicit, code)
+- [webgen-train-000955-R7](../../docs/requirements/train/train_000955.md): Пользователь может удалять поля. (explicit, code)
+- [webgen-train-000972-R3](../../docs/requirements/train/train_000972.md): Пользователь может удалять задачи. (explicit, code)
+- [webgen-train-000972-R7](../../docs/requirements/train/train_000972.md): Пользователь может удалять заметки. (explicit, code)
+- [webgen-train-001120-R1](../../docs/requirements/train/train_001120.md): Пользователь может удалять изображения. (explicit, code)
+- [webgen-train-001473-R4](../../docs/requirements/train/train_001473.md): Пользователь может удалять формы. (explicit, code)
+- [webgen-train-001762-R6](../../docs/requirements/train/train_001762.md): Пользователь может удалять модули. (explicit, code)
+- [webgen-train-001762-R9](../../docs/requirements/train/train_001762.md): Пользователь может удалять плагины. (explicit, code)
+- [webgen-train-001870-R7](../../docs/requirements/train/train_001870.md): Пользователь может удалять записи. (explicit, code)
+- [webgen-train-002127-R5](../../docs/requirements/train/train_002127.md): Пользователь может удалять материалы. (explicit, code)
+- [webgen-train-002170-R6](../../docs/requirements/train/train_002170.md): Пользователь может удалять данные. (explicit, code)
+- [webgen-train-002267-R9](../../docs/requirements/train/train_002267.md): Пользователь может удалять анкеты. (explicit, code)
+- [webgen-train-002477-R5](../../docs/requirements/train/train_002477.md): Пользователь может удалять данные. (explicit, code)
+- [webgen-train-002536-R6](../../docs/requirements/train/train_002536.md): Пользователь может удалять пользователей. (explicit, code)
+- [webgen-train-002549-R5](../../docs/requirements/train/train_002549.md): Пользователь может удалять проекты. (explicit, code)
+- [webgen-train-002589-R7](../../docs/requirements/train/train_002589.md): Пользователь может удалять мероприятия при наличии разрешения. (explicit, code)
+- [webgen-train-002804-R6](../../docs/requirements/train/train_002804.md): Администратор может удалять сведения о компонентах. (explicit, code)
+- [webgen-train-003086-R4](../../docs/requirements/train/train_003086.md): Пользователь может удалять способы оплаты. (explicit, code)
+- [webgen-train-004388-R4](../../docs/requirements/train/train_004388.md): Пользователь может удалять сведения об активах. (explicit, code)
+- [webgen-train-004603-R6](../../docs/requirements/train/train_004603.md): Пользователь может удалять данные. (explicit, code)
+- [webgen-train-004927-R4](../../docs/requirements/train/train_004927.md): Пользователь может удалять существующие серверы. (explicit, code)
+- [webgen-train-004959-R5](../../docs/requirements/train/train_004959.md): Пользователь может удалять выбранные данные. (explicit, code)
+- [webgen-train-004971-R4](../../docs/requirements/train/train_004971.md): Пользователь может удалять файлы. (explicit, code)
+- [webgen-train-004971-R5](../../docs/requirements/train/train_004971.md): Пользователь может удалять папки. (explicit, code)
+- [webgen-train-005220-R5](../../docs/requirements/train/train_005220.md): Пользователь может удалять данные. (explicit, code)
+- [webgen-train-005247-R5](../../docs/requirements/train/train_005247.md): Пользователь может удалять сведения о бригаде. (explicit, code)
+- [webgen-train-005400-R6](../../docs/requirements/train/train_005400.md): Пользователь может удалять отправленные формы. (explicit, code)
+- [webgen-train-005496-R6](../../docs/requirements/train/train_005496.md): Пользователь может удалять записи. (explicit, code)
+- [webgen-train-006063-R3](../../docs/requirements/train/train_006063.md): Пользователь может удалять статьи. (explicit, code)
+- [webgen-train-006122-R8](../../docs/requirements/train/train_006122.md): Пользователь может удалять страницы. (explicit, code)
+- [webgen-train-006226-R5](../../docs/requirements/train/train_006226.md): Пользователь может удалять вопросы. (explicit, code)
+- [webgen-train-006497-R11](../../docs/requirements/train/train_006497.md): Пользователь может удалять участников. (explicit, code)
+- [webgen-train-006592-R10](../../docs/requirements/train/train_006592.md): Администратор может удалять материалы. (explicit, code)
+
+## Отправка формы — form.submit
+
+Заполнение и отправка — разные действия; форма не доказывает сохранение или доставку данных.
+
+- [webgen-049-R1](../../docs/requirements/49.md): Пользователь может заполнять анкету о здоровье. (explicit, code)
+- [webgen-049-R2](../../docs/requirements/49.md): Пользователь может отправить заполненную анкету. (explicit, code)
+- [webgen-092-R3](../../docs/requirements/92.md): Пользователь может отправить собственную идею через форму. (explicit, code)
+- [webgen-train-000098-R9](../../docs/requirements/train/train_000098.md): Система должна отправлять данные формы на сервер. (explicit, code)
+- [webgen-train-000762-R3](../../docs/requirements/train/train_000762.md): Пользователь может подавать заявку на выделение оборудования. (explicit, code)
+- [webgen-train-000762-R4](../../docs/requirements/train/train_000762.md): Пользователь может подавать заявку на списание. (explicit, code)
+- [webgen-train-000762-R5](../../docs/requirements/train/train_000762.md): Пользователь может подавать заявку на обслуживание. (explicit, code)
+- [webgen-train-000762-R9](../../docs/requirements/train/train_000762.md): Пользователь может подавать заявки в соответствии со своими разрешениями. (explicit, code)
+- [webgen-train-000917-R3](../../docs/requirements/train/train_000917.md): Пользователь может заполнять форму. (explicit, code)
+- [webgen-train-000917-R4](../../docs/requirements/train/train_000917.md): Пользователь может отправлять форму. (explicit, code)
+- [webgen-train-001162-R7](../../docs/requirements/train/train_001162.md): Пользователь может отправлять заявку на согласование. (explicit, code)
+- [webgen-train-001483-R6](../../docs/requirements/train/train_001483.md): Пользователь может отправлять форму. (explicit, code)
+- [webgen-train-001483-R7](../../docs/requirements/train/train_001483.md): Система должна обрабатывать отправленные данные формы. (explicit, code)
+- [webgen-train-001719-R5](../../docs/requirements/train/train_001719.md): Пользователь может заполнять формы. (explicit, code)
+- [webgen-train-001719-R6](../../docs/requirements/train/train_001719.md): Пользователь может отправлять формы. (explicit, code)
+- [webgen-train-002285-R5](../../docs/requirements/train/train_002285.md): Пользователь может управлять состоянием отправки формы. (explicit, llm)
+- [webgen-train-002670-R2](../../docs/requirements/train/train_002670.md): Пользователь может заполнять контактную форму. (explicit, code)
+- [webgen-train-002670-R3](../../docs/requirements/train/train_002670.md): Пользователь может отправлять контактную форму. (explicit, code)
+- [webgen-train-002670-R4](../../docs/requirements/train/train_002670.md): Система должна переводить пользователя на страницу благодарности после отправки формы. (explicit, code)
+- [webgen-train-002670-R5](../../docs/requirements/train/train_002670.md): Система должна отправлять данные формы в почтовый ящик владельца. (explicit, code)
+- [webgen-train-002712-R7](../../docs/requirements/train/train_002712.md): Пользователь может отправлять контактную форму. (explicit, code)
+- [webgen-train-003142-R3](../../docs/requirements/train/train_003142.md): Пользователь может отправлять заявку на платёж. (explicit, code)
+- [webgen-train-003587-R7](../../docs/requirements/train/train_003587.md): Пользователь может подавать заявку на присоединение к франшизе. (explicit, code)
+- [webgen-train-004983-R2](../../docs/requirements/train/train_004983.md): Администратор может массово отправлять формы договорным сотрудникам. (explicit, code)
+- [webgen-train-005173-R4](../../docs/requirements/train/train_005173.md): Пользователь может заполнять формы мнений. (explicit, code)
+- [webgen-train-005370-R7](../../docs/requirements/train/train_005370.md): Пользователь может отправлять форму. (explicit, code)
+- [webgen-train-005400-R2](../../docs/requirements/train/train_005400.md): Пользователь может заполнять формы. (explicit, code)
+- [webgen-train-005400-R3](../../docs/requirements/train/train_005400.md): Пользователь может отправлять формы. (explicit, code)
+- [webgen-train-005400-R5](../../docs/requirements/train/train_005400.md): Пользователь может редактировать отправленные формы. (explicit, code)
+- [webgen-train-005400-R6](../../docs/requirements/train/train_005400.md): Пользователь может удалять отправленные формы. (explicit, code)
+- [webgen-train-005570-R2](../../docs/requirements/train/train_005570.md): Пользователь может отправлять форму. (explicit, code)
+- [webgen-train-005592-R6](../../docs/requirements/train/train_005592.md): Система должна отправлять ссылки на формы. (explicit, code)
+- [webgen-train-006217-R2](../../docs/requirements/train/train_006217.md): Преподаватель может создавать банки вопросов. (explicit, code)
+- [webgen-train-006217-R3](../../docs/requirements/train/train_006217.md): Преподаватель может управлять банками вопросов. (explicit, llm)
+- [webgen-train-006269-R8](../../docs/requirements/train/train_006269.md): Пользователь может заполнять оценочные формы. (explicit, code)
+- [webgen-train-006333-R8](../../docs/requirements/train/train_006333.md): Учащийся может отправлять заявку на обучение за рубежом. (explicit, code)
+
+## Валидация ввода — form.validation
+
+Проверять только ограничения из ТЗ или явно отмеченные трактовки; не добавлять требования к паролю.
+
+- [webgen-026-R2.1](../../docs/requirements/26.md): Форма не позволяет опубликовать акцию с незаполненными обязательными полями. (implicit, code)
+- [webgen-train-000917-R6](../../docs/requirements/train/train_000917.md): Система должна проверять обязательные поля. (explicit, code)
+- [webgen-train-000917-R7](../../docs/requirements/train/train_000917.md): Система должна проверять формат email. (explicit, code)
+- [webgen-train-001040-R6](../../docs/requirements/train/train_001040.md): Система должна проверять корректность введённых регистрационных данных. (explicit, code)
+- [webgen-train-005370-R2](../../docs/requirements/train/train_005370.md): Система должна проверять заполненность обязательных текстовых полей. (explicit, code)
+- [webgen-train-005486-R2](../../docs/requirements/train/train_005486.md): Система должна проверять полноту данных перед отправкой. (explicit, code)
+- [webgen-train-005570-R4](../../docs/requirements/train/train_005570.md): Система должна проверять корректность введённых данных. (explicit, llm)
+
+## Загрузка файлов в приложение — file.upload
+
+Уточнить направление передачи; загрузка картинки браузером не равна пользовательскому upload.
+
+- [webgen-train-000091-R4](../../docs/requirements/train/train_000091.md): Пользователь может загружать файлы Figma. (explicit, code)
+- [webgen-train-000112-R3](../../docs/requirements/train/train_000112.md): Пользователь может загружать несколько табличных файлов. (explicit, code)
+- [webgen-train-000787-R1](../../docs/requirements/train/train_000787.md): Пользователь может загружать файлы аудиокниг. (explicit, code)
+- [webgen-train-001120-R5](../../docs/requirements/train/train_001120.md): Пользователь может загружать собственные изображения. (explicit, code)
+- [webgen-train-001458-R3](../../docs/requirements/train/train_001458.md): Пользователь может загружать изображения. (explicit, code)
+- [webgen-train-001604-R4](../../docs/requirements/train/train_001604.md): Пользователь может загружать файлы моделей. (explicit, code)
+- [webgen-train-001628-R4](../../docs/requirements/train/train_001628.md): Пользователь может загружать аудиофайлы. (explicit, code)
+- [webgen-train-001628-R5](../../docs/requirements/train/train_001628.md): Пользователь может загружать видеофайлы. (explicit, code)
+- [webgen-train-002087-R11](../../docs/requirements/train/train_002087.md): Пользователь может загружать изображения. (explicit, code)
+- [webgen-train-003535-R6](../../docs/requirements/train/train_003535.md): Система должна быстро загружать изображения товаров. (explicit, llm)
+- [webgen-train-003912-R2.2](../../docs/requirements/train/train_003912.md): Покупатель может загружать изображение лица. (explicit, code)
+- [webgen-train-004345-R6](../../docs/requirements/train/train_004345.md): Пользователь может загружать файлы в Google Drive. (explicit, code)
+- [webgen-train-004515-R2](../../docs/requirements/train/train_004515.md): Пользователь может загружать файлы в облачное хранилище. (explicit, code)
+- [webgen-train-005121-R4](../../docs/requirements/train/train_005121.md): Пользователь может загружать файлы. (explicit, code)
+- [webgen-train-005173-R7](../../docs/requirements/train/train_005173.md): Пользователь может загружать файлы. (explicit, code)
+- [webgen-train-005847-R1](../../docs/requirements/train/train_005847.md): Пользователь может загружать CSV-файл. (explicit, code)
+- [webgen-train-006226-R11](../../docs/requirements/train/train_006226.md): Пользователь может загружать файлы. (explicit, code)
+- [webgen-train-006354-R1](../../docs/requirements/train/train_006354.md): Преподаватель может загружать видео YouTube. (explicit, code)
+- [webgen-train-006536-R1](../../docs/requirements/train/train_006536.md): Пользователь может загружать аудиофайлы. (explicit, code)
+- [webgen-train-006596-R3](../../docs/requirements/train/train_006596.md): Пользователь может загружать собственные видео 360°. (explicit, code)
+
+## Скачивание файлов — file.download
+
+Проверять получение содержимого, а не одну кнопку; учитывать права доступа, если они заданы.
+
+- [webgen-058-R3.2](../../docs/requirements/58.md): Пользователь может скачивать доступные учебные ресурсы. (explicit, code)
+- [webgen-train-000091-R6](../../docs/requirements/train/train_000091.md): Пользователь может скачивать шаблоны Elementor. (explicit, code)
+- [webgen-train-000112-R6](../../docs/requirements/train/train_000112.md): Пользователь может скачивать результаты обработки. (explicit, code)
+- [webgen-train-000787-R5](../../docs/requirements/train/train_000787.md): Пользователь может скачивать изменённые файлы. (explicit, code)
+- [webgen-train-001377-R7](../../docs/requirements/train/train_001377.md): Пользователь может скачивать созданный материал. (explicit, code)
+- [webgen-train-001628-R8](../../docs/requirements/train/train_001628.md): Пользователь может скачивать преобразованные файлы. (explicit, code)
+- [webgen-train-001878-R3](../../docs/requirements/train/train_001878.md): Пользователь может скачивать последнюю версию. (explicit, code)
+- [webgen-train-001977-R12](../../docs/requirements/train/train_001977.md): Пользователь может скачивать данные. (explicit, code)
+- [webgen-train-002087-R12](../../docs/requirements/train/train_002087.md): Пользователь может скачивать размеченные материалы. (explicit, code)
+- [webgen-train-002677-R5](../../docs/requirements/train/train_002677.md): Пользователь может скачивать приложение. (explicit, code)
+- [webgen-train-002677-R6](../../docs/requirements/train/train_002677.md): Система должна показывать количество скачиваний. (explicit, code)
+- [webgen-train-005121-R5](../../docs/requirements/train/train_005121.md): Пользователь может скачивать файлы. (explicit, code)
+- [webgen-train-005173-R8](../../docs/requirements/train/train_005173.md): Пользователь может скачивать файлы. (explicit, code)
+- [webgen-train-006226-R12](../../docs/requirements/train/train_006226.md): Пользователь может скачивать файлы. (explicit, code)
+- [webgen-train-006398-R7](../../docs/requirements/train/train_006398.md): Пользователь может скачивать созданный логотип. (explicit, code)
+
+## Экспорт — data.export
+
+Экспорт не всегда означает скачивание; не добавлять CSV или PDF, если формат не задан.
+
+- [webgen-train-001473-R5](../../docs/requirements/train/train_001473.md): Пользователь может экспортировать форму в Word. (explicit, code)
+- [webgen-train-001473-R6](../../docs/requirements/train/train_001473.md): Пользователь может экспортировать форму в PDF. (explicit, code)
+- [webgen-train-001977-R2](../../docs/requirements/train/train_001977.md): Пользователь может экспортировать данные. (explicit, code)
+- [webgen-train-002087-R9](../../docs/requirements/train/train_002087.md): Пользователь может экспортировать данные разметки. (explicit, code)
+- [webgen-train-002522-R5](../../docs/requirements/train/train_002522.md): Пользователь может экспортировать отчёт об изменениях. (explicit, code)
+- [webgen-train-004391-R14](../../docs/requirements/train/train_004391.md): Пользователь может экспортировать данные. (explicit, code)
+
+## Сообщения и чат — communication.messages
+
+Отделить чат между пользователями, системное уведомление, ошибку и ответ бота.
+
+- [webgen-058-R4.1](../../docs/requirements/58.md): Пользователь может отправлять сообщения в обсуждение выбранного проекта. (explicit, code)
+- [webgen-058-R4.2](../../docs/requirements/58.md): Сообщения в обсуждении проекта доступны другим его участникам. (implicit, code)
+- [webgen-084-R4](../../docs/requirements/84.md): Пользователь может отправлять сообщения участникам команды проекта. (explicit, code)
+- [webgen-084-R4.1](../../docs/requirements/84.md): Отправленные сообщения доступны соответствующим участникам команды. (implicit, code)
+- [webgen-092-R4.1](../../docs/requirements/92.md): Пользователь может отправлять сообщения в выбранное обсуждение. (explicit, code)
+- [webgen-092-R4.2](../../docs/requirements/92.md): Сообщение отображается в выбранном обсуждении и доступно другим его участникам. (implicit, code)
+- [webgen-train-000286-R10](../../docs/requirements/train/train_000286.md): Учащийся может получать сообщения в реальном времени. (explicit, code)
+- [webgen-train-000381-R2](../../docs/requirements/train/train_000381.md): Пользователь может создавать шаблоны сообщений. (explicit, code)
+- [webgen-train-000381-R3](../../docs/requirements/train/train_000381.md): Пользователь может редактировать шаблоны сообщений. (explicit, code)
+- [webgen-train-000457-R2](../../docs/requirements/train/train_000457.md): Пользователь может отправлять голосовые сообщения. (explicit, code)
+- [webgen-train-000457-R13](../../docs/requirements/train/train_000457.md): Система должна ограничивать доступ к приватной переписке её участниками. (implicit, code)
+- [webgen-train-000467-R8](../../docs/requirements/train/train_000467.md): Система должна предоставлять страницу чата. (explicit, code)
+- [webgen-train-000501-R8](../../docs/requirements/train/train_000501.md): Пользователь может обмениваться сообщениями. (explicit, code)
+- [webgen-train-001052-R5](../../docs/requirements/train/train_001052.md): Система должна обновлять сообщения и материалы в реальном времени. (explicit, code)
+- [webgen-train-001052-R6](../../docs/requirements/train/train_001052.md): Система должна уведомлять о новых сообщениях. (explicit, code)
+- [webgen-train-001055-R7](../../docs/requirements/train/train_001055.md): Пользователь может получать сообщения других пользователей в реальном времени. (explicit, code)
+- [webgen-train-001056-R5](../../docs/requirements/train/train_001056.md): Пользователь может отправлять текстовые сообщения. (explicit, code)
+- [webgen-train-001056-R7](../../docs/requirements/train/train_001056.md): Пользователь может получать сообщения. (explicit, code)
+- [webgen-train-001056-R8](../../docs/requirements/train/train_001056.md): Пользователь может обмениваться сообщениями с другими пользователями. (explicit, code)
+- [webgen-train-001056-R9](../../docs/requirements/train/train_001056.md): Пользователь может обмениваться сообщениями с сервером в реальном времени. (explicit, code)
+- [webgen-train-001535-R1](../../docs/requirements/train/train_001535.md): Система должна принимать сообщения Telegram-бота. (explicit, code)
+- [webgen-train-001535-R5](../../docs/requirements/train/train_001535.md): Пользователь может участвовать в игре через сообщения Telegram. (explicit, code)
+- [webgen-train-001548-R1](../../docs/requirements/train/train_001548.md): Система должна передавать сообщения в реальном времени. (explicit, code)
+- [webgen-train-001548-R2](../../docs/requirements/train/train_001548.md): Пользователь может получать сообщения. (explicit, code)
+- [webgen-train-001548-R7](../../docs/requirements/train/train_001548.md): Пользователь может создавать групповые чаты. (explicit, code)
+- [webgen-train-001548-R11](../../docs/requirements/train/train_001548.md): Пользователь может просматривать историю чата. (explicit, code)
+- [webgen-train-001549-R3](../../docs/requirements/train/train_001549.md): Пользователь может создавать чат-комнаты. (explicit, code)
+- [webgen-train-001549-R4](../../docs/requirements/train/train_001549.md): Пользователь может присоединяться к чат-комнатам. (explicit, code)
+- [webgen-train-001549-R14](../../docs/requirements/train/train_001549.md): Пользователь может управлять историей чата. (explicit, llm)
+- [webgen-train-001549-R15](../../docs/requirements/train/train_001549.md): Пользователь может искать чат-комнаты. (explicit, code)
+- [webgen-train-001549-R16](../../docs/requirements/train/train_001549.md): Пользователь может искать сообщения. (explicit, code)
+- [webgen-train-001549-R17](../../docs/requirements/train/train_001549.md): Пользователь может фильтровать чат-комнаты. (explicit, code)
+- [webgen-train-001549-R18](../../docs/requirements/train/train_001549.md): Пользователь может фильтровать сообщения. (explicit, code)
+- [webgen-train-001569-R7](../../docs/requirements/train/train_001569.md): Пользователь может получать сообщения в реальном времени. (explicit, code)
+- [webgen-train-002379-R1](../../docs/requirements/train/train_002379.md): Система должна принимать входящие текстовые сообщения. (explicit, code)
+- [webgen-train-002379-R7](../../docs/requirements/train/train_002379.md): Пользователь может просматривать состояние отправленных сообщений. (explicit, code)
+- [webgen-train-002652-R3](../../docs/requirements/train/train_002652.md): Пользователь может отправлять онлайн-сообщение. (explicit, code)
+- [webgen-train-002670-R2.3](../../docs/requirements/train/train_002670.md): Пользователь может вводить вопрос или сообщение. (explicit, code)
+- [webgen-train-003155-R3](../../docs/requirements/train/train_003155.md): Пользователь может отправлять контактное сообщение владельцу сайта. (explicit, code)
+- [webgen-train-003155-R3.3](../../docs/requirements/train/train_003155.md): Пользователь может вводить текст сообщения. (explicit, code)
+- [webgen-train-003852-R3](../../docs/requirements/train/train_003852.md): Система должна предоставлять центр сообщений. (explicit, code)
+- [webgen-train-003852-R12](../../docs/requirements/train/train_003852.md): Система должна отправлять push-сообщения. (explicit, code)
+- [webgen-train-003982-R13](../../docs/requirements/train/train_003982.md): Администратор может обмениваться сообщениями. (explicit, code)
+- [webgen-train-004592-R2](../../docs/requirements/train/train_004592.md): Пользователь может публиковать сообщения в заданной теме. (explicit, code)
+- [webgen-train-004592-R4](../../docs/requirements/train/train_004592.md): Пользователь может получать сообщения подписанных тем через командную строку. (explicit, code)
+- [webgen-train-004786-R2](../../docs/requirements/train/train_004786.md): Пользователь может создавать шаблоны сообщений. (explicit, code)
+- [webgen-train-004786-R3](../../docs/requirements/train/train_004786.md): Пользователь может редактировать шаблоны сообщений. (explicit, code)
+- [webgen-train-004786-R4](../../docs/requirements/train/train_004786.md): Пользователь может отправлять сообщения. (explicit, code)
+- [webgen-train-005570-R3](../../docs/requirements/train/train_005570.md): Пользователь может просматривать сообщения об ошибках. (explicit, code)
+- [webgen-train-005583-R3](../../docs/requirements/train/train_005583.md): Система должна пересылать найденные сообщения в WhatsApp. (explicit, code)
+- [webgen-train-005592-R3](../../docs/requirements/train/train_005592.md): Система должна отправлять текстовые сообщения. (explicit, code)
+- [webgen-train-006354-R7](../../docs/requirements/train/train_006354.md): Учащийся может начинать чат с учащимся, предлагающим услугу. (explicit, code)
+- [webgen-train-006470-R7](../../docs/requirements/train/train_006470.md): Пользователь может отправлять сообщения. (explicit, code)
+- [webgen-train-006470-R8](../../docs/requirements/train/train_006470.md): Пользователь может получать сообщения. (explicit, code)
+- [webgen-train-006470-R10](../../docs/requirements/train/train_006470.md): Система должна доставлять сообщения в реальном времени. (explicit, code)
+- [webgen-train-006472-R3](../../docs/requirements/train/train_006472.md): Пользователь может пользоваться текстовым чатом. (explicit, code)
+- [webgen-train-006497-R1](../../docs/requirements/train/train_006497.md): Система должна доставлять сообщения в реальном времени. (explicit, code)
+- [webgen-train-006599-R1](../../docs/requirements/train/train_006599.md): Система должна автоматически отвечать на сообщения danmu. (explicit, code)
+- [webgen-train-006599-R4](../../docs/requirements/train/train_006599.md): Пользователь может наблюдать сообщения danmu в реальном времени. (explicit, code)
+- [webgen-train-006599-R7](../../docs/requirements/train/train_006599.md): Пользователь может планировать рекламные сообщения по времени. (explicit, code)
+
+## Комментарии и обсуждения — content.comments
+
+Разделить просмотр и публикацию; отзыв с оценкой не обязательно является обычным комментарием.
+
+- [webgen-028-R3.1](../../docs/requirements/28.md): Созданный ответ отображается у той публикации, на которую он отправлен. (implicit, code)
+- [webgen-049-R2.1](../../docs/requirements/49.md): Отправленные ответы автоматически сохраняются и доступны в системе. (explicit, code)
+- [webgen-049-R6.1](../../docs/requirements/49.md): Содержимое отчёта соответствует собранным данным, на которых он построен. (implicit, code)
+- [webgen-058-R4.1](../../docs/requirements/58.md): Пользователь может отправлять сообщения в обсуждение выбранного проекта. (explicit, code)
+- [webgen-058-R4.2](../../docs/requirements/58.md): Сообщения в обсуждении проекта доступны другим его участникам. (implicit, code)
+- [webgen-092-R4](../../docs/requirements/92.md): Пользователь может участвовать в обсуждениях. (explicit, code)
+- [webgen-092-R4.1](../../docs/requirements/92.md): Пользователь может отправлять сообщения в выбранное обсуждение. (explicit, code)
+- [webgen-092-R4.2](../../docs/requirements/92.md): Сообщение отображается в выбранном обсуждении и доступно другим его участникам. (implicit, code)
+- [webgen-train-001878-R5](../../docs/requirements/train/train_001878.md): Пользователь может участвовать в обсуждениях сообщества. (explicit, code)
+- [webgen-train-006063-R9](../../docs/requirements/train/train_006063.md): Пользователь может участвовать в обсуждениях. (explicit, code)
+- [webgen-train-006063-R12](../../docs/requirements/train/train_006063.md): Администратор может управлять комментариями. (explicit, llm)
+- [webgen-train-006148-R9](../../docs/requirements/train/train_006148.md): Пользователь может оставлять комментарии. (explicit, code)
+- [webgen-train-006148-R10](../../docs/requirements/train/train_006148.md): Пользователь может присоединяться к группам обсуждения. (explicit, code)
+- [webgen-train-006276-R4](../../docs/requirements/train/train_006276.md): Система должна предоставлять обсуждения. (explicit, code)
+
+## Корзина — commerce.cart
+
+Разделить добавление, изменение количества и удаление; открытие корзины не подтверждает остальные операции.
+
+- [webgen-train-000972-R14](../../docs/requirements/train/train_000972.md): Пользователь может открывать корзину удалённых объектов. (explicit, code)
+- [webgen-train-000972-R15](../../docs/requirements/train/train_000972.md): Пользователь может окончательно удалять заметки из корзины. (explicit, code)
+- [webgen-train-000972-R17](../../docs/requirements/train/train_000972.md): Пользователь может окончательно удалять задачи из корзины. (explicit, code)
+- [webgen-train-001232-R3](../../docs/requirements/train/train_001232.md): Пользователь может добавлять выбранные товары в корзину. (explicit, code)
+- [webgen-train-002859-R3](../../docs/requirements/train/train_002859.md): Пользователь может добавлять товары в корзину. (explicit, code)
+- [webgen-train-002859-R5](../../docs/requirements/train/train_002859.md): Пользователь может увеличивать количество товара в корзине. (explicit, code)
+- [webgen-train-002859-R6](../../docs/requirements/train/train_002859.md): Пользователь может уменьшать количество товара в корзине. (explicit, code)
+- [webgen-train-003080-R5](../../docs/requirements/train/train_003080.md): Пользователь может добавлять товары в корзину. (explicit, code)
+- [webgen-train-003155-R9](../../docs/requirements/train/train_003155.md): Пользователь может добавлять товары в корзину. (explicit, code)
+- [webgen-train-003155-R10](../../docs/requirements/train/train_003155.md): Пользователь может просматривать корзину. (explicit, code)
+- [webgen-train-003193-R4](../../docs/requirements/train/train_003193.md): Пользователь может добавлять проекты в корзину. (explicit, code)
+- [webgen-train-003286-R10](../../docs/requirements/train/train_003286.md): Пользователь может добавлять товары в корзину. (explicit, code)
+- [webgen-train-003621-R2](../../docs/requirements/train/train_003621.md): Пользователь может добавлять товары в корзину. (explicit, code)
+- [webgen-train-003673-R4](../../docs/requirements/train/train_003673.md): Пользователь может добавлять товары в корзину. (explicit, code)
+- [webgen-train-003759-R4](../../docs/requirements/train/train_003759.md): Пользователь может добавлять выбранные товары в корзину. (explicit, code)
+- [webgen-train-003759-R5](../../docs/requirements/train/train_003759.md): Пользователь может просматривать товары корзины. (explicit, code)
+- [webgen-train-003889-R3](../../docs/requirements/train/train_003889.md): Пользователь может пользоваться корзиной. (explicit, code)
+
+## Оплата — commerce.payment
+
+Способы оплаты — параметры; интеграция платёжного провайдера и форма-заглушка различаются.
+
+- [webgen-097-R4](../../docs/requirements/97.md): Пользователь может оплачивать бронирование несколькими способами. (explicit, code)
+- [webgen-097-R4.1](../../docs/requirements/97.md): Выбранный способ оплаты используется при обработке платежа, а результат оплаты отображается пользователю. (implicit, code)
+- [webgen-train-000001-R5](../../docs/requirements/train/train_000001.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-000026-R3](../../docs/requirements/train/train_000026.md): Пользователь может проводить платёжные операции. (explicit, code)
+- [webgen-train-000798-R9](../../docs/requirements/train/train_000798.md): Пользователь может оплачивать потребление контента. (explicit, code)
+- [webgen-train-001232-R5](../../docs/requirements/train/train_001232.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-001594-R5](../../docs/requirements/train/train_001594.md): Пользователь может управлять собственными сведениями об оплате. (explicit, llm)
+- [webgen-train-002859-R4](../../docs/requirements/train/train_002859.md): Пользователь может отправлять заказ к оплате. (explicit, code)
+- [webgen-train-002859-R10](../../docs/requirements/train/train_002859.md): Пользователь может оплачивать заказ. (explicit, code)
+- [webgen-train-002889-R5](../../docs/requirements/train/train_002889.md): Пользователь может оплачивать услуги. (explicit, code)
+- [webgen-train-002983-R1](../../docs/requirements/train/train_002983.md): Система должна поддерживать офлайн-платежи. (explicit, code)
+- [webgen-train-002983-R3](../../docs/requirements/train/train_002983.md): Система должна предоставлять модуль платежей. (explicit, code)
+- [webgen-train-002983-R7](../../docs/requirements/train/train_002983.md): Система должна объединять способы оплаты в единой точке входа. (explicit, code)
+- [webgen-train-002983-R12](../../docs/requirements/train/train_002983.md): Система должна корректировать состояние платежей после тайм-аута. (explicit, code)
+- [webgen-train-003061-R3](../../docs/requirements/train/train_003061.md): Пользователь может оплачивать услуги. (explicit, code)
+- [webgen-train-003086-R1](../../docs/requirements/train/train_003086.md): Пользователь может выбирать способ оплаты из нескольких вариантов. (explicit, code)
+- [webgen-train-003086-R2](../../docs/requirements/train/train_003086.md): Пользователь может добавлять способы оплаты. (explicit, code)
+- [webgen-train-003086-R3](../../docs/requirements/train/train_003086.md): Пользователь может редактировать способы оплаты. (explicit, code)
+- [webgen-train-003086-R4](../../docs/requirements/train/train_003086.md): Пользователь может удалять способы оплаты. (explicit, code)
+- [webgen-train-003086-R5](../../docs/requirements/train/train_003086.md): Система должна обрабатывать успешный платёж. (explicit, code)
+- [webgen-train-003086-R6](../../docs/requirements/train/train_003086.md): Система должна обрабатывать неуспешный платёж. (explicit, code)
+- [webgen-train-003086-R7](../../docs/requirements/train/train_003086.md): Пользователь может просматривать историю платежей. (explicit, code)
+- [webgen-train-003119-R14](../../docs/requirements/train/train_003119.md): Пользователь может оплачивать услуги и покупки. (explicit, code)
+- [webgen-train-003139-R5](../../docs/requirements/train/train_003139.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003142-R1](../../docs/requirements/train/train_003142.md): Система должна поддерживать подтверждение платежа. (explicit, code)
+- [webgen-train-003142-R3](../../docs/requirements/train/train_003142.md): Пользователь может отправлять заявку на платёж. (explicit, code)
+- [webgen-train-003142-R4](../../docs/requirements/train/train_003142.md): Пользователь может просматривать результат платежа. (explicit, code)
+- [webgen-train-003142-R5](../../docs/requirements/train/train_003142.md): Пользователь может искать исторические платёжные записи. (explicit, code)
+- [webgen-train-003155-R12](../../docs/requirements/train/train_003155.md): Пользователь может оплачивать заказ. (explicit, code)
+- [webgen-train-003193-R5](../../docs/requirements/train/train_003193.md): Пользователь может оплачивать выбранные проекты. (explicit, code)
+- [webgen-train-003259-R2](../../docs/requirements/train/train_003259.md): Пользователь может оплачивать сборы. (explicit, code)
+- [webgen-train-003259-R3](../../docs/requirements/train/train_003259.md): Пользователь может оплачивать через WeChat. (explicit, code)
+- [webgen-train-003259-R4](../../docs/requirements/train/train_003259.md): Пользователь может оплачивать другим доступным способом. (explicit, code)
+- [webgen-train-003259-R5](../../docs/requirements/train/train_003259.md): Система должна автоматически завершать платёжную операцию. (explicit, code)
+- [webgen-train-003286-R1](../../docs/requirements/train/train_003286.md): Система должна поддерживать оплату через WeChat. (explicit, code)
+- [webgen-train-003286-R11](../../docs/requirements/train/train_003286.md): Пользователь может оплачивать заказы онлайн. (explicit, code)
+- [webgen-train-003348-R4](../../docs/requirements/train/train_003348.md): Система должна поддерживать опрос нескольких платёжных каналов. (explicit, code)
+- [webgen-train-003348-R6](../../docs/requirements/train/train_003348.md): Пользователь может выбирать способ оплаты. (explicit, code)
+- [webgen-train-003348-R8](../../docs/requirements/train/train_003348.md): Пользователь может выполнять платёж. (explicit, code)
+- [webgen-train-003348-R9](../../docs/requirements/train/train_003348.md): Пользователь может получать callback с результатом платежа. (explicit, code)
+- [webgen-train-003348-R12](../../docs/requirements/train/train_003348.md): Система должна обеспечивать безопасность платежей. (explicit, llm)
+- [webgen-train-003348-R13](../../docs/requirements/train/train_003348.md): Система должна обеспечивать надёжность платежей. (explicit, llm)
+- [webgen-train-003370-R4](../../docs/requirements/train/train_003370.md): Пользователь может выполнять платежи. (explicit, code)
+- [webgen-train-003449-R5](../../docs/requirements/train/train_003449.md): Пользователь может оплачивать заказ онлайн. (explicit, code)
+- [webgen-train-003592-R1](../../docs/requirements/train/train_003592.md): Система должна поддерживать сверку платежей. (explicit, code)
+- [webgen-train-003592-R3](../../docs/requirements/train/train_003592.md): Система должна предоставлять управление платёжными поручениями. (explicit, llm)
+- [webgen-train-003592-R5](../../docs/requirements/train/train_003592.md): Пользователь может совершать платежи. (explicit, code)
+- [webgen-train-003592-R8](../../docs/requirements/train/train_003592.md): Пользователь может искать платёжные поручения. (explicit, code)
+- [webgen-train-003621-R4](../../docs/requirements/train/train_003621.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003678-R7](../../docs/requirements/train/train_003678.md): Пользователь может выполнять платёжные операции по векселям. (explicit, llm)
+- [webgen-train-003680-R3.2](../../docs/requirements/train/train_003680.md): Пользователь может выбирать способ оплаты. (explicit, code)
+- [webgen-train-003685-R8](../../docs/requirements/train/train_003685.md): Продавец может добавлять собственные способы оплаты. (explicit, code)
+- [webgen-train-003685-R12](../../docs/requirements/train/train_003685.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003759-R7](../../docs/requirements/train/train_003759.md): Пользователь может выбирать способ оплаты. (explicit, code)
+- [webgen-train-003759-R7.1](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать кредитной картой. (explicit, code)
+- [webgen-train-003759-R7.2](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать через PayPal. (explicit, code)
+- [webgen-train-003759-R7.3](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать банковским переводом. (explicit, code)
+- [webgen-train-003759-R7.4](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать через UPI. (explicit, code)
+- [webgen-train-003759-R7.5](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать через phone pay. (explicit, code)
+- [webgen-train-003759-R7.6](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать через Gpay. (explicit, code)
+- [webgen-train-003759-R7.7](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать через Amazon Pay. (explicit, code)
+- [webgen-train-003759-R7.8](../../docs/requirements/train/train_003759.md): Пользователь может оплачивать дебетовой картой. (explicit, code)
+- [webgen-train-003852-R1](../../docs/requirements/train/train_003852.md): Система должна активировать оплаченные приложения. (explicit, code)
+- [webgen-train-003881-R5](../../docs/requirements/train/train_003881.md): Пользователь может выполнять платежи. (explicit, code)
+- [webgen-train-003889-R9](../../docs/requirements/train/train_003889.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003982-R8](../../docs/requirements/train/train_003982.md): Администратор может управлять платежами. (explicit, llm)
+- [webgen-train-003982-R28](../../docs/requirements/train/train_003982.md): Клиент может оплачивать поездки через интегрированный платёжный механизм. (explicit, code)
+- [webgen-train-003987-R1](../../docs/requirements/train/train_003987.md): Система должна поддерживать оплату при доставке. (explicit, code)
+- [webgen-train-003987-R5](../../docs/requirements/train/train_003987.md): Пользователь может выполнять публичные платежи. (explicit, llm)
+- [webgen-train-003987-R6](../../docs/requirements/train/train_003987.md): Пользователь может проверять платёжные записи. (explicit, code)
+- [webgen-train-004020-R4](../../docs/requirements/train/train_004020.md): Система должна интегрироваться с платёжными системами. (explicit, code)
+- [webgen-train-004035-R5](../../docs/requirements/train/train_004035.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-004161-R3](../../docs/requirements/train/train_004161.md): Система должна предоставлять платёжный центр. (explicit, code)
+- [webgen-train-004161-R7](../../docs/requirements/train/train_004161.md): Пользователь может выполнять платёжные операции. (explicit, code)
+- [webgen-train-004161-R8](../../docs/requirements/train/train_004161.md): Пользователь может просматривать историю платежей. (explicit, code)
+- [webgen-train-004161-R13](../../docs/requirements/train/train_004161.md): Система должна обрабатывать платёжные запросы. (explicit, code)
+- [webgen-train-004280-R6](../../docs/requirements/train/train_004280.md): Пользователь может оплачивать услуги онлайн. (explicit, code)
+- [webgen-train-006246-R5](../../docs/requirements/train/train_006246.md): Пользователь может оплачивать курс онлайн. (explicit, code)
+- [webgen-train-006354-R8](../../docs/requirements/train/train_006354.md): Преподаватель может получать оплату. (explicit, code)
+
+## Бронирование — booking.create
+
+Разделить создание, просмотр, отмену и управление бронированиями; сохранять временные ограничения.
+
+- [webgen-096-R3](../../docs/requirements/96.md): Пользователь может бронировать достопримечательности и кемпинги. (explicit, code)
+- [webgen-096-R3.1](../../docs/requirements/96.md): При бронировании пользователь может указать дату посещения достопримечательности или период проживания в кемпинге. (implicit, code)
+- [webgen-096-R3.2](../../docs/requirements/96.md): После оформления пользователь видит подтверждение бронирования выбранного объекта с указанными датами. (implicit, code)
+- [webgen-097-R1.1](../../docs/requirements/97.md): Интерфейс позволяет понятно найти автомобиль и перейти к бронированию. (explicit, llm)
+- [webgen-097-R2](../../docs/requirements/97.md): Пользователь может забронировать выбранный автомобиль. (explicit, code)
+- [webgen-097-R2.2](../../docs/requirements/97.md): Бронирование содержит выбранный автомобиль и указанный период аренды. (implicit, code)
+- [webgen-097-R3](../../docs/requirements/97.md): Пользователь может просматривать свои бронирования. (explicit, code)
+- [webgen-097-R3.1](../../docs/requirements/97.md): Созданное бронирование появляется в списке бронирований пользователя. (implicit, code)
+- [webgen-097-R4](../../docs/requirements/97.md): Пользователь может оплачивать бронирование несколькими способами. (explicit, code)
+- [webgen-train-003061-R1](../../docs/requirements/train/train_003061.md): Пользователь может бронировать услуги прачечной. (explicit, code)
+- [webgen-train-003119-R11](../../docs/requirements/train/train_003119.md): Пользователь может бронировать проживание. (explicit, code)
+- [webgen-train-003982-R26](../../docs/requirements/train/train_003982.md): Клиент может бронировать поездки. (explicit, code)
+- [webgen-train-004145-R7](../../docs/requirements/train/train_004145.md): Пользователь может бронировать комнаты. (explicit, code)
+- [webgen-train-004288-R2](../../docs/requirements/train/train_004288.md): Пользователь может бронировать время зарядки. (explicit, code)
+- [webgen-train-005592-R7](../../docs/requirements/train/train_005592.md): Система должна бронировать время обратного звонка. (explicit, code)
+- [webgen-train-006153-R8](../../docs/requirements/train/train_006153.md): Пользователь может бронировать временные интервалы. (explicit, code)
+- [webgen-train-006153-R12](../../docs/requirements/train/train_006153.md): Пользователь может управлять бронированием временных интервалов. (explicit, llm)
+
+## Заказы — commerce.orders
+
+Разделить оформление, просмотр, изменение статуса и отмену; пока это тематическая семья.
+
+- [webgen-097-R5](../../docs/requirements/97.md): Пользователь может управлять заказами на аренду. (explicit, code)
+- [webgen-097-R5.1](../../docs/requirements/97.md): Пользователь может изменить или отменить существующий заказ. (implicit, code)
+- [webgen-097-R5.2](../../docs/requirements/97.md): После изменения или отмены заказа отображаются его актуальные данные или статус. (implicit, code)
+- [webgen-train-000001-R1](../../docs/requirements/train/train_000001.md): Пользователь может добавлять заказы. (explicit, code)
+- [webgen-train-000001-R2](../../docs/requirements/train/train_000001.md): Пользователь может просматривать отправленные заказы. (explicit, code)
+- [webgen-train-000001-R4](../../docs/requirements/train/train_000001.md): Пользователь может отменять заказы. (explicit, code)
+- [webgen-train-000001-R5](../../docs/requirements/train/train_000001.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-000001-R11](../../docs/requirements/train/train_000001.md): Пользователь может вводить сведения для заказа. (explicit, code)
+- [webgen-train-000001-R12](../../docs/requirements/train/train_000001.md): Пользователь может отправлять заказ. (explicit, code)
+- [webgen-train-000430-R5](../../docs/requirements/train/train_000430.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-000430-R8](../../docs/requirements/train/train_000430.md): Администратор может просматривать заказы. (explicit, code)
+- [webgen-train-000430-R9](../../docs/requirements/train/train_000430.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-000798-R10](../../docs/requirements/train/train_000798.md): Пользователь может просматривать состояние заказа. (explicit, code)
+- [webgen-train-000798-R13](../../docs/requirements/train/train_000798.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-001232-R4](../../docs/requirements/train/train_001232.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-001232-R5](../../docs/requirements/train/train_001232.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-001552-R9](../../docs/requirements/train/train_001552.md): Пользователь может отправлять карточки заказов. (explicit, code)
+- [webgen-train-001552-R10](../../docs/requirements/train/train_001552.md): Пользователь может получать карточки заказов. (explicit, code)
+- [webgen-train-001738-R5](../../docs/requirements/train/train_001738.md): Пользователь может просматривать сведения о заказах. (explicit, code)
+- [webgen-train-001738-R6](../../docs/requirements/train/train_001738.md): Пользователь может добавлять заказы. (explicit, code)
+- [webgen-train-001738-R7](../../docs/requirements/train/train_001738.md): Пользователь может обновлять состояние заказа. (explicit, code)
+- [webgen-train-001738-R8](../../docs/requirements/train/train_001738.md): Пользователь может поддерживать актуальность информации о заказах. (explicit, llm)
+- [webgen-train-001738-R9](../../docs/requirements/train/train_001738.md): Пользователь может запрашивать статистику заказов. (explicit, code)
+- [webgen-train-001940-R1](../../docs/requirements/train/train_001940.md): Агент может управлять заказами совместно с компанией. (explicit, llm)
+- [webgen-train-001940-R7](../../docs/requirements/train/train_001940.md): Пользователь может просматривать информацию о заказах. (explicit, code)
+- [webgen-train-001940-R9](../../docs/requirements/train/train_001940.md): Пользователь может формировать счета по заказам. (explicit, code)
+- [webgen-train-001940-R10](../../docs/requirements/train/train_001940.md): Система должна поддерживать учёт заказов. (explicit, code)
+- [webgen-train-002231-R2](../../docs/requirements/train/train_002231.md): Пользователь может формировать заказы. (explicit, code)
+- [webgen-train-002859-R4](../../docs/requirements/train/train_002859.md): Пользователь может отправлять заказ к оплате. (explicit, code)
+- [webgen-train-002859-R10](../../docs/requirements/train/train_002859.md): Пользователь может оплачивать заказ. (explicit, code)
+- [webgen-train-002889-R8](../../docs/requirements/train/train_002889.md): Пользователь может просматривать заказы. (explicit, code)
+- [webgen-train-002889-R15](../../docs/requirements/train/train_002889.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-003080-R3](../../docs/requirements/train/train_003080.md): Система должна предоставлять управление заказами. (explicit, llm)
+- [webgen-train-003080-R6](../../docs/requirements/train/train_003080.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003080-R7](../../docs/requirements/train/train_003080.md): Пользователь может просматривать состояние заказа. (explicit, code)
+- [webgen-train-003139-R4](../../docs/requirements/train/train_003139.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003139-R5](../../docs/requirements/train/train_003139.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003139-R6](../../docs/requirements/train/train_003139.md): Пользователь может проверять состояние заказа. (explicit, code)
+- [webgen-train-003139-R10](../../docs/requirements/train/train_003139.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-003155-R11](../../docs/requirements/train/train_003155.md): Пользователь может оформлять заказ. (explicit, code)
+- [webgen-train-003155-R12](../../docs/requirements/train/train_003155.md): Пользователь может оплачивать заказ. (explicit, code)
+- [webgen-train-003259-R8](../../docs/requirements/train/train_003259.md): Система должна предоставлять управление заказами. (explicit, llm)
+- [webgen-train-003286-R2](../../docs/requirements/train/train_003286.md): Система должна предоставлять управление заказами. (explicit, llm)
+- [webgen-train-003286-R11](../../docs/requirements/train/train_003286.md): Пользователь может оплачивать заказы онлайн. (explicit, code)
+- [webgen-train-003286-R12](../../docs/requirements/train/train_003286.md): Пользователь может просматривать состояние заказа. (explicit, code)
+- [webgen-train-003341-R13](../../docs/requirements/train/train_003341.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003341-R15](../../docs/requirements/train/train_003341.md): Пользователь может просматривать состояние заказа. (explicit, code)
+- [webgen-train-003370-R9](../../docs/requirements/train/train_003370.md): Система должна повышать эффективность обработки заказов. (explicit, llm)
+- [webgen-train-003411-R1](../../docs/requirements/train/train_003411.md): Система должна предоставлять управление заказами. (explicit, llm)
+- [webgen-train-003411-R7](../../docs/requirements/train/train_003411.md): Пользователь может оформлять заказы на обмен товаров. (explicit, code)
+- [webgen-train-003411-R8](../../docs/requirements/train/train_003411.md): Пользователь может проверять состояние заказа. (explicit, code)
+- [webgen-train-003449-R2](../../docs/requirements/train/train_003449.md): Пользователь может выбирать блюда для заказа. (explicit, code)
+- [webgen-train-003449-R3](../../docs/requirements/train/train_003449.md): Пользователь может отправлять заказ. (explicit, code)
+- [webgen-train-003449-R4](../../docs/requirements/train/train_003449.md): Пользователь может просматривать детали заказа. (explicit, code)
+- [webgen-train-003449-R5](../../docs/requirements/train/train_003449.md): Пользователь может оплачивать заказ онлайн. (explicit, code)
+- [webgen-train-003449-R6](../../docs/requirements/train/train_003449.md): Система должна сохранять историю заказов пользователя. (explicit, code)
+- [webgen-train-003621-R3](../../docs/requirements/train/train_003621.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003621-R4](../../docs/requirements/train/train_003621.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003621-R5](../../docs/requirements/train/train_003621.md): Пользователь может проверять состояние заказа. (explicit, code)
+- [webgen-train-003663-R7](../../docs/requirements/train/train_003663.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003673-R5](../../docs/requirements/train/train_003673.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003673-R6](../../docs/requirements/train/train_003673.md): Пользователь может управлять собственными заказами. (explicit, llm)
+- [webgen-train-003685-R11](../../docs/requirements/train/train_003685.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003685-R12](../../docs/requirements/train/train_003685.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003759-R6](../../docs/requirements/train/train_003759.md): Пользователь может оформлять заказ. (explicit, code)
+- [webgen-train-003889-R4](../../docs/requirements/train/train_003889.md): Пользователь может просматривать состояние заказа. (explicit, code)
+- [webgen-train-003889-R7](../../docs/requirements/train/train_003889.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-003889-R9](../../docs/requirements/train/train_003889.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-003918-R12](../../docs/requirements/train/train_003918.md): Поставщик услуг может управлять собственными заказами. (explicit, llm)
+- [webgen-train-003987-R3](../../docs/requirements/train/train_003987.md): Пользователь может просматривать сведения о заказах. (explicit, code)
+- [webgen-train-003987-R4](../../docs/requirements/train/train_003987.md): Пользователь может создавать заказы. (explicit, code)
+- [webgen-train-003987-R8](../../docs/requirements/train/train_003987.md): Система должна создавать заказы на основе веса транспортного средства. (explicit, code)
+- [webgen-train-003990-R9](../../docs/requirements/train/train_003990.md): Пользователь может управлять заказами. (explicit, llm)
+- [webgen-train-004020-R10](../../docs/requirements/train/train_004020.md): Пользователь может управлять заказами. (explicit, llm)
+- [webgen-train-004035-R4](../../docs/requirements/train/train_004035.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-004035-R5](../../docs/requirements/train/train_004035.md): Пользователь может оплачивать заказы. (explicit, code)
+- [webgen-train-004035-R6](../../docs/requirements/train/train_004035.md): Пользователь может просматривать состояние заказа. (explicit, code)
+- [webgen-train-004090-R5](../../docs/requirements/train/train_004090.md): Пользователь может оформлять заказ выбранных товаров. (explicit, code)
+- [webgen-train-004090-R6](../../docs/requirements/train/train_004090.md): Пользователь может просматривать состояние заказа. (explicit, code)
+- [webgen-train-004145-R8](../../docs/requirements/train/train_004145.md): Пользователь может заказывать еду. (explicit, code)
+- [webgen-train-004174-R4](../../docs/requirements/train/train_004174.md): Пользователь может оформлять заказы. (explicit, code)
+- [webgen-train-004174-R5](../../docs/requirements/train/train_004174.md): Пользователь может просматривать список заказов. (explicit, code)
+- [webgen-train-004288-R6](../../docs/requirements/train/train_004288.md): Продавец может управлять заказами на зарядку. (explicit, llm)
+
+## Права доступа — access.permissions
+
+Отделить управление правами и применение запрета; наличие админ-панели не доказывает защищённость.
+
+- [webgen-026-R4.2](../../docs/requirements/26.md): Административный раздел доступен только администратору. (implicit, code)
+- [webgen-047-R5.1](../../docs/requirements/47.md): Система различает сотрудника и администратора: сотруднику доступны только свои записи, администратору — все; доступ сотрудника к админ-панели блокируется. (implicit, code)
+- [webgen-049-R2.1](../../docs/requirements/49.md): Отправленные ответы автоматически сохраняются и доступны в системе. (explicit, code)
+- [webgen-049-R4](../../docs/requirements/49.md): В системе можно назначать или изменять права доступа пользователей. (explicit, code)
+- [webgen-049-R4.1](../../docs/requirements/49.md): Пользователь не может выполнить действие, на которое у него нет разрешения. (implicit, code)
+- [webgen-082-R3.1](../../docs/requirements/82.md): Отправленный отчёт доступен для просмотра сразу после отправки. (explicit, code)
+- [webgen-084-R4.1](../../docs/requirements/84.md): Отправленные сообщения доступны соответствующим участникам команды. (implicit, code)
+- [webgen-092-R3.1](../../docs/requirements/92.md): Отправленная идея доступна для просмотра другим пользователям. (implicit, code)
+- [webgen-train-000317-R4](../../docs/requirements/train/train_000317.md): Система должна адаптироваться к разным разрешениям экранов. (explicit, llm)
+- [webgen-train-000457-R13](../../docs/requirements/train/train_000457.md): Система должна ограничивать доступ к приватной переписке её участниками. (implicit, code)
+- [webgen-train-000762-R9](../../docs/requirements/train/train_000762.md): Пользователь может подавать заявки в соответствии со своими разрешениями. (explicit, code)
+- [webgen-train-000762-R10](../../docs/requirements/train/train_000762.md): Пользователь может одобрять заявки в соответствии со своими разрешениями. (explicit, code)
+- [webgen-train-000762-R11](../../docs/requirements/train/train_000762.md): Пользователь может отклонять заявки в соответствии со своими разрешениями. (explicit, code)
+- [webgen-train-001569-R8](../../docs/requirements/train/train_001569.md): Система должна ограничивать доступ к приватным разговорам их участниками. (implicit, code)
+- [webgen-train-001762-R15](../../docs/requirements/train/train_001762.md): Система должна предоставлять управление разрешениями в общем сервисном слое. (explicit, llm)
+- [webgen-train-001883-R5](../../docs/requirements/train/train_001883.md): Пользователь может настраивать разрешения. (explicit, code)
+- [webgen-train-002127-R9](../../docs/requirements/train/train_002127.md): Пользователь может управлять разрешениями. (explicit, code)
+- [webgen-train-002477-R7](../../docs/requirements/train/train_002477.md): Пользователь может управлять разрешениями. (explicit, llm)
+- [webgen-train-002509-R3](../../docs/requirements/train/train_002509.md): Пользователь может настраивать разрешения на действия кнопок. (explicit, code)
+- [webgen-train-002509-R4](../../docs/requirements/train/train_002509.md): Пользователь может настраивать разрешения доступа к данным. (explicit, code)
+- [webgen-train-002509-R5](../../docs/requirements/train/train_002509.md): Пользователь может настраивать разрешения на данные по подразделениям. (explicit, code)
+- [webgen-train-002536-R8](../../docs/requirements/train/train_002536.md): Пользователь может управлять разрешениями пользователей. (explicit, code)
+- [webgen-train-002589-R6](../../docs/requirements/train/train_002589.md): Пользователь может публиковать мероприятия при наличии разрешения. (explicit, code)
+- [webgen-train-002589-R7](../../docs/requirements/train/train_002589.md): Пользователь может удалять мероприятия при наличии разрешения. (explicit, code)
+- [webgen-train-002589-R8](../../docs/requirements/train/train_002589.md): Пользователь может изменять мероприятия при наличии разрешения. (explicit, code)
+- [webgen-train-002589-R9](../../docs/requirements/train/train_002589.md): Система должна запрещать изменение мероприятий пользователям без соответствующих разрешений. (implicit, code)
+- [webgen-train-002889-R11](../../docs/requirements/train/train_002889.md): Администратор может управлять разрешениями. (explicit, llm)
+- [webgen-train-003852-R10](../../docs/requirements/train/train_003852.md): Администратор может настраивать разрешения. (explicit, code)
+- [webgen-train-004711-R7](../../docs/requirements/train/train_004711.md): Система должна предоставлять управление разрешениями. (explicit, code)
+- [webgen-train-005121-R8](../../docs/requirements/train/train_005121.md): Пользователь может задавать разрешения доступа к файлам. (explicit, code)
+- [webgen-train-005400-R7](../../docs/requirements/train/train_005400.md): Система должна проверять разрешения по ролям. (explicit, code)
+- [webgen-train-005400-R10](../../docs/requirements/train/train_005400.md): Система должна запрещать согласование форм пользователям без соответствующего разрешения. (implicit, code)
+- [webgen-train-005848-R3](../../docs/requirements/train/train_005848.md): Система должна контролировать разрешения доступа. (explicit, code)
+- [webgen-train-006497-R12](../../docs/requirements/train/train_006497.md): Пользователь может задавать разрешения группы. (explicit, code)
+
+## Администрирование — admin.management
+
+Тематическая семья: управление пользователями, контентом и настройками требует отдельных шаблонов.
+
+- [webgen-026-R4](../../docs/requirements/26.md): Доступен административный раздел для управления пользователями, акциями и настройками сайта. (explicit, code)
+- [webgen-026-R4.1](../../docs/requirements/26.md): Администратор может просматривать список пользователей и изменять их данные. (explicit, llm)
+- [webgen-026-R4.2](../../docs/requirements/26.md): Административный раздел доступен только администратору. (implicit, code)
+- [webgen-047-R3.1](../../docs/requirements/47.md): Администратор может просматривать записи посещаемости всех сотрудников. (explicit, code)
+- [webgen-047-R3.2](../../docs/requirements/47.md): Администратор может получать статистические сводки по зарегистрированной посещаемости. (explicit, code)
+- [webgen-047-R3.3](../../docs/requirements/47.md): Администратору доступны средства анализа данных посещаемости. (explicit, llm)
+- [webgen-047-R5.1](../../docs/requirements/47.md): Система различает сотрудника и администратора: сотруднику доступны только свои записи, администратору — все; доступ сотрудника к админ-панели блокируется. (implicit, code)
+- [webgen-047-R5.4](../../docs/requirements/47.md): Одна и та же запись содержит одинаковые данные в представлениях сотрудника и администратора. (implicit, code)
+- [webgen-train-000300-R1](../../docs/requirements/train/train_000300.md): Система должна предоставлять управление пользователями. (explicit, llm)
+- [webgen-train-000430-R8](../../docs/requirements/train/train_000430.md): Администратор может просматривать заказы. (explicit, code)
+- [webgen-train-000430-R9](../../docs/requirements/train/train_000430.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-000430-R10](../../docs/requirements/train/train_000430.md): Администратор может проверять заявки на допуск. (explicit, code)
+- [webgen-train-000798-R11](../../docs/requirements/train/train_000798.md): Администратор может управлять пользователями. (explicit, llm)
+- [webgen-train-000798-R12](../../docs/requirements/train/train_000798.md): Администратор может управлять финансами. (explicit, llm)
+- [webgen-train-000798-R13](../../docs/requirements/train/train_000798.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-000798-R14](../../docs/requirements/train/train_000798.md): Администратор может управлять видеоматериалами. (explicit, llm)
+- [webgen-train-001253-R2](../../docs/requirements/train/train_001253.md): Система должна различать роли трейдера, администратора и сотрудника поддержки. (explicit, code)
+- [webgen-train-001253-R6](../../docs/requirements/train/train_001253.md): Администратор может управлять пользователями. (explicit, llm)
+- [webgen-train-001253-R7](../../docs/requirements/train/train_001253.md): Администратор может управлять записями операций. (explicit, llm)
+- [webgen-train-001762-R14](../../docs/requirements/train/train_001762.md): Система должна предоставлять управление пользователями в общем сервисном слое. (explicit, llm)
+- [webgen-train-002795-R5](../../docs/requirements/train/train_002795.md): Система должна предоставлять встроенную административную панель. (explicit, code)
+- [webgen-train-002804-R5](../../docs/requirements/train/train_002804.md): Администратор может добавлять сведения о компонентах. (explicit, code)
+- [webgen-train-002804-R6](../../docs/requirements/train/train_002804.md): Администратор может удалять сведения о компонентах. (explicit, code)
+- [webgen-train-002804-R7](../../docs/requirements/train/train_002804.md): Администратор может изменять сведения о компонентах. (explicit, code)
+- [webgen-train-002804-R8](../../docs/requirements/train/train_002804.md): Администратор может поддерживать актуальность информации о компонентах. (explicit, llm)
+- [webgen-train-002889-R9](../../docs/requirements/train/train_002889.md): Администратор может управлять отчётами. (explicit, llm)
+- [webgen-train-002889-R10](../../docs/requirements/train/train_002889.md): Администратор может управлять меню. (explicit, llm)
+- [webgen-train-002889-R11](../../docs/requirements/train/train_002889.md): Администратор может управлять разрешениями. (explicit, llm)
+- [webgen-train-002889-R12](../../docs/requirements/train/train_002889.md): Администратор может управлять ролями. (explicit, llm)
+- [webgen-train-002889-R13](../../docs/requirements/train/train_002889.md): Администратор может управлять новостями. (explicit, llm)
+- [webgen-train-002889-R14](../../docs/requirements/train/train_002889.md): Администратор может управлять дневником. (explicit, llm)
+- [webgen-train-002889-R15](../../docs/requirements/train/train_002889.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-002889-R16](../../docs/requirements/train/train_002889.md): Администратор может управлять пользователями. (explicit, llm)
+- [webgen-train-002889-R17](../../docs/requirements/train/train_002889.md): Администратор может управлять клиентами. (explicit, llm)
+- [webgen-train-002889-R18](../../docs/requirements/train/train_002889.md): Администратор может управлять продавцами. (explicit, llm)
+- [webgen-train-003061-R6](../../docs/requirements/train/train_003061.md): Администратор может управлять устройствами прачечных шкафов. (explicit, llm)
+- [webgen-train-003061-R7](../../docs/requirements/train/train_003061.md): Администратор может управлять рекламой. (explicit, llm)
+- [webgen-train-003061-R8](../../docs/requirements/train/train_003061.md): Система должна предоставлять административный раздел. (explicit, code)
+- [webgen-train-003080-R1](../../docs/requirements/train/train_003080.md): Система должна предоставлять управление пользователями. (explicit, llm)
+- [webgen-train-003139-R9](../../docs/requirements/train/train_003139.md): Администратор может управлять сведениями о товарах. (explicit, llm)
+- [webgen-train-003139-R10](../../docs/requirements/train/train_003139.md): Администратор может управлять заказами. (explicit, llm)
+- [webgen-train-003139-R11](../../docs/requirements/train/train_003139.md): Администратор может управлять участниками. (explicit, llm)
+- [webgen-train-003139-R12](../../docs/requirements/train/train_003139.md): Администратор может проводить маркетинговые акции. (explicit, code)
+- [webgen-train-003341-R3](../../docs/requirements/train/train_003341.md): Администратор может проверять заявки продавцов. (explicit, code)
+- [webgen-train-003341-R4](../../docs/requirements/train/train_003341.md): Администратор может одобрять заявки продавцов. (explicit, code)
+- [webgen-train-003382-R6](../../docs/requirements/train/train_003382.md): Администратор может управлять участниками. (explicit, llm)
+- [webgen-train-003852-R10](../../docs/requirements/train/train_003852.md): Администратор может настраивать разрешения. (explicit, code)
+- [webgen-train-003852-R11](../../docs/requirements/train/train_003852.md): Администратор может управлять авторизацией. (explicit, llm)
+- [webgen-train-003889-R10](../../docs/requirements/train/train_003889.md): Администратор может настраивать основные данные магазинов. (explicit, code)
+- [webgen-train-003889-R11](../../docs/requirements/train/train_003889.md): Администратор может управлять сотрудниками. (explicit, llm)
+- [webgen-train-003889-R12](../../docs/requirements/train/train_003889.md): Администратор может выполнять взаиморасчёты по операциям. (explicit, llm)
+- [webgen-train-003889-R13](../../docs/requirements/train/train_003889.md): Администратор может управлять продавцами. (explicit, llm)
+- [webgen-train-003889-R14](../../docs/requirements/train/train_003889.md): Администратор может просматривать операционные отчёты. (explicit, code)
+- [webgen-train-003982-R3](../../docs/requirements/train/train_003982.md): Система должна предоставлять административный портал. (explicit, code)
+- [webgen-train-003982-R6](../../docs/requirements/train/train_003982.md): Администратор может управлять пользователями. (explicit, llm)
+- [webgen-train-003982-R7](../../docs/requirements/train/train_003982.md): Администратор может управлять поездками. (explicit, llm)
+- [webgen-train-003982-R8](../../docs/requirements/train/train_003982.md): Администратор может управлять платежами. (explicit, llm)
+- [webgen-train-003982-R9](../../docs/requirements/train/train_003982.md): Администратор может просматривать отчётность. (explicit, code)
+- [webgen-train-003982-R10](../../docs/requirements/train/train_003982.md): Администратор может анализировать данные. (explicit, llm)
+- [webgen-train-003982-R11](../../docs/requirements/train/train_003982.md): Администратор может задавать настройки и конфигурацию. (explicit, code)
+- [webgen-train-003982-R12](../../docs/requirements/train/train_003982.md): Администратор может предоставлять поддержку. (explicit, llm)
+- [webgen-train-003982-R13](../../docs/requirements/train/train_003982.md): Администратор может обмениваться сообщениями. (explicit, code)
+- [webgen-train-004145-R1](../../docs/requirements/train/train_004145.md): Администратор может публиковать мероприятия. (explicit, code)
+- [webgen-train-004145-R2](../../docs/requirements/train/train_004145.md): Администратор может настраивать розыгрыши. (explicit, llm)
+- [webgen-train-004145-R11](../../docs/requirements/train/train_004145.md): Администратор может войти в систему. (explicit, code)
+- [webgen-train-004145-R12](../../docs/requirements/train/train_004145.md): Администратор может управлять товарами. (explicit, llm)
+- [webgen-train-004145-R13](../../docs/requirements/train/train_004145.md): Администратор может управлять запасами. (explicit, llm)
+- [webgen-train-004145-R14](../../docs/requirements/train/train_004145.md): Администратор может управлять обслуживанием оборудования. (explicit, llm)
+- [webgen-train-004145-R15](../../docs/requirements/train/train_004145.md): Администратор может просматривать аналитические отчёты. (explicit, code)
+- [webgen-train-004983-R1](../../docs/requirements/train/train_004983.md): Администратор может создавать формы приёма на работу. (explicit, code)
+- [webgen-train-004983-R2](../../docs/requirements/train/train_004983.md): Администратор может массово отправлять формы договорным сотрудникам. (explicit, code)
+- [webgen-train-004983-R3](../../docs/requirements/train/train_004983.md): Администратор может управлять собранными данными. (explicit, llm)
+- [webgen-train-005400-R8](../../docs/requirements/train/train_005400.md): Администратор может управлять пользователями. (explicit, llm)
+- [webgen-train-005400-R9](../../docs/requirements/train/train_005400.md): Администратор может согласовывать формы. (explicit, code)
+- [webgen-train-006063-R10](../../docs/requirements/train/train_006063.md): Администратор может управлять пользователями. (explicit, llm)
+- [webgen-train-006063-R11](../../docs/requirements/train/train_006063.md): Администратор может управлять статьями. (explicit, llm)
+- [webgen-train-006063-R12](../../docs/requirements/train/train_006063.md): Администратор может управлять комментариями. (explicit, llm)
+- [webgen-train-006246-R7](../../docs/requirements/train/train_006246.md): Администратор может управлять сведениями о курсах. (explicit, llm)
+- [webgen-train-006246-R8](../../docs/requirements/train/train_006246.md): Администратор может просматривать состояние записей. (explicit, code)
+- [webgen-train-006246-R9](../../docs/requirements/train/train_006246.md): Администратор может управлять сведениями о пользователях. (explicit, llm)
+- [webgen-train-006276-R1](../../docs/requirements/train/train_006276.md): Система должна предоставлять управление пользователями. (explicit, llm)
+- [webgen-train-006592-R9](../../docs/requirements/train/train_006592.md): Администратор может добавлять материалы. (explicit, code)
+- [webgen-train-006592-R10](../../docs/requirements/train/train_006592.md): Администратор может удалять материалы. (explicit, code)
+- [webgen-train-006592-R11](../../docs/requirements/train/train_006592.md): Администратор может редактировать материалы. (explicit, code)
+
+## Отчёты и аналитика — analytics.reports
+
+Картинка, вычисление показателя и отчёт не равнозначны; график работы исключить из аналитики.
+
+- [webgen-011-R1](../../docs/requirements/11.md): Пользователь может просматривать статистику игроков. (explicit, code)
+- [webgen-011-R1.1](../../docs/requirements/11.md): Статистика игрока содержит несколько бейсбольных показателей его выступления. (explicit, llm)
+- [webgen-011-R1.2](../../docs/requirements/11.md): Статистика игроков обновляется по результатам симулируемых матчей. (implicit, code)
+- [webgen-049-R6](../../docs/requirements/49.md): В системе можно сформировать и просмотреть отчёт по собранным данным. (explicit, code)
+- [webgen-049-R6.1](../../docs/requirements/49.md): Содержимое отчёта соответствует собранным данным, на которых он построен. (implicit, code)
+- [webgen-082-R3](../../docs/requirements/82.md): Пользователь может отправлять оперативные отчёты по делу. (explicit, code)
+- [webgen-082-R3.1](../../docs/requirements/82.md): Отправленный отчёт доступен для просмотра сразу после отправки. (explicit, code)
+- [webgen-082-R3.2](../../docs/requirements/82.md): Отправленный отчёт отображается у того дела, к которому он относится. (implicit, code)
+- [webgen-train-000219-R12](../../docs/requirements/train/train_000219.md): Пользователь может просматривать графики тенденций. (explicit, code)
+- [webgen-train-000274-R1](../../docs/requirements/train/train_000274.md): Система должна показывать столбчатые диаграммы. (explicit, code)
+- [webgen-train-000274-R2](../../docs/requirements/train/train_000274.md): Система должна показывать линейные диаграммы. (explicit, code)
+- [webgen-train-000274-R3](../../docs/requirements/train/train_000274.md): Система должна показывать круговые диаграммы. (explicit, code)
+- [webgen-train-000274-R4](../../docs/requirements/train/train_000274.md): Пользователь может настраивать стиль диаграмм CSS-классами. (explicit, code)
+- [webgen-train-000274-R5](../../docs/requirements/train/train_000274.md): Пользователь может настраивать расположение диаграмм CSS-классами. (explicit, code)
+- [webgen-train-000274-R6](../../docs/requirements/train/train_000274.md): Пользователь может получать подробности при наведении на диаграмму. (explicit, code)
+- [webgen-train-000274-R7](../../docs/requirements/train/train_000274.md): Пользователь может получать подробности по щелчку на диаграмме. (explicit, code)
+- [webgen-train-000426-R10](../../docs/requirements/train/train_000426.md): Пользователь может просматривать бизнес-статистику. (explicit, code)
+- [webgen-train-000835-R5](../../docs/requirements/train/train_000835.md): Система должна визуализировать данные на диаграммах. (explicit, code)
+- [webgen-train-000991-R4](../../docs/requirements/train/train_000991.md): Пользователь может просматривать статистику данных. (explicit, code)
+- [webgen-train-000991-R9](../../docs/requirements/train/train_000991.md): Система должна показывать столбчатые диаграммы статистики. (explicit, code)
+- [webgen-train-000991-R10](../../docs/requirements/train/train_000991.md): Система должна показывать круговые диаграммы статистики. (explicit, code)
+- [webgen-train-000991-R11](../../docs/requirements/train/train_000991.md): Система должна показывать линейные диаграммы статистики. (explicit, code)
+- [webgen-train-001604-R1](../../docs/requirements/train/train_001604.md): Система должна использовать WebGL для графики. (explicit, code)
+- [webgen-train-001604-R2](../../docs/requirements/train/train_001604.md): Система должна отображать двумерную графику. (explicit, code)
+- [webgen-train-001604-R3](../../docs/requirements/train/train_001604.md): Система должна отображать трёхмерную графику. (explicit, code)
+- [webgen-train-001719-R10](../../docs/requirements/train/train_001719.md): Система должна предоставлять статистику данных. (explicit, code)
+- [webgen-train-001738-R3](../../docs/requirements/train/train_001738.md): Система должна предоставлять статистику послепродажного обслуживания. (explicit, code)
+- [webgen-train-001738-R9](../../docs/requirements/train/train_001738.md): Пользователь может запрашивать статистику заказов. (explicit, code)
+- [webgen-train-001983-R9](../../docs/requirements/train/train_001983.md): Пользователь может анализировать данные. (explicit, llm)
+- [webgen-train-002092-R7](../../docs/requirements/train/train_002092.md): Пользователь может анализировать данные. (explicit, llm)
+- [webgen-train-002127-R6](../../docs/requirements/train/train_002127.md): Пользователь может просматривать статистику. (explicit, code)
+- [webgen-train-002127-R7](../../docs/requirements/train/train_002127.md): Пользователь может просматривать аналитические отчёты. (explicit, code)
+- [webgen-train-002522-R5](../../docs/requirements/train/train_002522.md): Пользователь может экспортировать отчёт об изменениях. (explicit, code)
+- [webgen-train-002536-R4](../../docs/requirements/train/train_002536.md): Пользователь может просматривать статистику данных. (explicit, code)
+- [webgen-train-002536-R11](../../docs/requirements/train/train_002536.md): Пользователь может анализировать данные с помощью диаграмм. (explicit, llm)
+- [webgen-train-002677-R7](../../docs/requirements/train/train_002677.md): Система должна показывать аналитику использования приложения. (explicit, llm)
+- [webgen-train-002889-R3](../../docs/requirements/train/train_002889.md): Система должна предоставлять страницу отчёта. (explicit, code)
+- [webgen-train-002889-R7](../../docs/requirements/train/train_002889.md): Пользователь может запрашивать отчёты. (explicit, code)
+- [webgen-train-002889-R9](../../docs/requirements/train/train_002889.md): Администратор может управлять отчётами. (explicit, llm)
+- [webgen-train-003839-R8](../../docs/requirements/train/train_003839.md): Система должна показывать статистику трафика в реальном времени. (explicit, code)
+- [webgen-train-003889-R14](../../docs/requirements/train/train_003889.md): Администратор может просматривать операционные отчёты. (explicit, code)
+- [webgen-train-003982-R9](../../docs/requirements/train/train_003982.md): Администратор может просматривать отчётность. (explicit, code)
+- [webgen-train-003982-R10](../../docs/requirements/train/train_003982.md): Администратор может анализировать данные. (explicit, llm)
+- [webgen-train-003990-R7](../../docs/requirements/train/train_003990.md): Пользователь может запрашивать отчёты об обслуживании и ремонте. (explicit, code)
+- [webgen-train-003990-R8](../../docs/requirements/train/train_003990.md): Пользователь может запрашивать отчёты об авариях. (explicit, code)
+- [webgen-train-003999-R11](../../docs/requirements/train/train_003999.md): Пользователь может анализировать данные. (explicit, llm)
+- [webgen-train-004035-R9](../../docs/requirements/train/train_004035.md): Пользователь может просматривать отчёты о продажах. (explicit, code)
+- [webgen-train-004145-R15](../../docs/requirements/train/train_004145.md): Администратор может просматривать аналитические отчёты. (explicit, code)
+- [webgen-train-004388-R6](../../docs/requirements/train/train_004388.md): Пользователь может просматривать статистику количества активов. (explicit, code)
+- [webgen-train-004388-R7](../../docs/requirements/train/train_004388.md): Пользователь может просматривать статистику распределения активов. (explicit, code)
+- [webgen-train-004391-R10](../../docs/requirements/train/train_004391.md): Пользователь может просматривать аналитические отчёты. (explicit, code)
+- [webgen-train-004765-R5](../../docs/requirements/train/train_004765.md): Система должна предоставлять статистику обращений. (explicit, code)
+- [webgen-train-005051-R10](../../docs/requirements/train/train_005051.md): Пользователь может анализировать данные. (explicit, llm)
+- [webgen-train-005234-R7](../../docs/requirements/train/train_005234.md): Система должна формировать отчёты безопасности в реальном времени. (explicit, code)
+- [webgen-train-005247-R6](../../docs/requirements/train/train_005247.md): Пользователь может получать статистику по бригадам. (explicit, code)
+- [webgen-train-005583-R8](../../docs/requirements/train/train_005583.md): Пользователь может просматривать отчёты об ошибках. (explicit, code)
+- [webgen-train-005639-R4](../../docs/requirements/train/train_005639.md): Система должна предоставлять столбчатую диаграмму. (explicit, code)
+- [webgen-train-005639-R5](../../docs/requirements/train/train_005639.md): Система должна предоставлять линейную диаграмму. (explicit, code)
+- [webgen-train-005640-R5](../../docs/requirements/train/train_005640.md): Пользователь может создавать диаграммы. (explicit, code)
+- [webgen-train-005640-R6](../../docs/requirements/train/train_005640.md): Пользователь может анализировать данные. (explicit, llm)
+- [webgen-train-005653-R1](../../docs/requirements/train/train_005653.md): Система должна предоставлять статистику по отчётам. (explicit, code)
+- [webgen-train-005653-R2](../../docs/requirements/train/train_005653.md): Система должна поддерживать передачу отчётных данных. (explicit, code)
+- [webgen-train-005653-R5](../../docs/requirements/train/train_005653.md): Пользователь может анализировать данные. (explicit, llm)
+- [webgen-train-005653-R6](../../docs/requirements/train/train_005653.md): Пользователь может создавать отчёты. (explicit, code)
+- [webgen-train-005653-R7](../../docs/requirements/train/train_005653.md): Пользователь может управлять отчётами. (explicit, llm)
+- [webgen-train-005847-R4](../../docs/requirements/train/train_005847.md): Система должна показывать данные CSV на графике с осями X и Y. (explicit, code)
+- [webgen-train-005847-R5](../../docs/requirements/train/train_005847.md): Система должна использовать линейный график. (explicit, code)
+- [webgen-train-005848-R7](../../docs/requirements/train/train_005848.md): Пользователь может формировать заданные отчёты. (explicit, code)
+- [webgen-train-005848-R8](../../docs/requirements/train/train_005848.md): Пользователь может настраивать собственные отчёты. (explicit, code)
+- [webgen-train-005859-R2](../../docs/requirements/train/train_005859.md): Система должна отображать столбчатые диаграммы. (explicit, code)
+- [webgen-train-005859-R3](../../docs/requirements/train/train_005859.md): Система должна отображать круговые диаграммы. (explicit, code)
+- [webgen-train-005859-R6](../../docs/requirements/train/train_005859.md): Пользователь может просматривать диаграммы. (explicit, code)
+- [webgen-train-005859-R7](../../docs/requirements/train/train_005859.md): Пользователь может анализировать данные. (explicit, llm)
+- [webgen-train-005893-R1](../../docs/requirements/train/train_005893.md): Система должна показывать статистику станций наблюдения на карте Китая. (explicit, code)
+- [webgen-train-005893-R2](../../docs/requirements/train/train_005893.md): Система должна показывать статистику в реальном времени. (explicit, code)
+- [webgen-train-005893-R4](../../docs/requirements/train/train_005893.md): Система должна отображать статистику на диаграммах. (explicit, code)
+- [webgen-train-005893-R9](../../docs/requirements/train/train_005893.md): Пользователь может просматривать историческую статистику. (explicit, code)
+- [webgen-train-005893-R11](../../docs/requirements/train/train_005893.md): Пользователь может анализировать диаграммы и ЭКГ. (explicit, llm)
+- [webgen-train-005922-R6.1](../../docs/requirements/train/train_005922.md): Пользователь может просматривать графики связей переменных. (explicit, code)
+- [webgen-train-005968-R5](../../docs/requirements/train/train_005968.md): Система должна отображать эпидемиологические показатели на диаграммах. (explicit, code)
+- [webgen-train-006180-R8](../../docs/requirements/train/train_006180.md): Пользователь может просматривать аналитические отчёты. (explicit, code)
+- [webgen-train-006226-R13](../../docs/requirements/train/train_006226.md): Система должна предоставлять статистику ответов. (explicit, code)
+- [webgen-train-006226-R15](../../docs/requirements/train/train_006226.md): Система должна формировать отчёты. (explicit, code)
+- [webgen-train-006226-R16](../../docs/requirements/train/train_006226.md): Система должна строить диаграммы. (explicit, code)
+- [webgen-train-006269-R9](../../docs/requirements/train/train_006269.md): Пользователь может отправлять оценочные отчёты. (explicit, code)
+- [webgen-train-006269-R11](../../docs/requirements/train/train_006269.md): Система должна вычислять статистику оценивания. (explicit, code)
+- [webgen-train-006269-R13](../../docs/requirements/train/train_006269.md): Система должна формировать отчёты по результатам. (explicit, code)
+- [webgen-train-006269-R14](../../docs/requirements/train/train_006269.md): Система должна строить диаграммы по результатам. (explicit, code)
+- [webgen-train-006276-R5](../../docs/requirements/train/train_006276.md): Система должна анализировать учебные данные. (explicit, llm)
+- [webgen-train-006276-R6](../../docs/requirements/train/train_006276.md): Система должна формировать отчёты. (explicit, code)
+- [webgen-train-006278-R5](../../docs/requirements/train/train_006278.md): Пользователь может просматривать аналитические отчёты. (explicit, code)
+- [webgen-train-006278-R9](../../docs/requirements/train/train_006278.md): Система должна формировать отчёты об оценках. (explicit, code)
+
+## Расписание и календарь — schedule.calendar
+
+Разделить отображение календаря, создание события и выбор времени; не придумывать предотвращение конфликтов.
+
+- [webgen-057-R4](../../docs/requirements/57.md): Пользователь может запланировать индивидуальную сессию с выбранным коучем. (explicit, code)
+- [webgen-057-R4.1](../../docs/requirements/57.md): При планировании сессии пользователь может выбрать дату и время. (implicit, code)
+- [webgen-057-R4.2](../../docs/requirements/57.md): Пользователь может просматривать запланированные сессии и изменять их время или отменять их. (explicit, code)
+- [webgen-084-R3.1](../../docs/requirements/84.md): Пользователь может изменять сроки и просматривать актуальное расписание проекта. (explicit, code)
+- [webgen-train-006180-R7](../../docs/requirements/train/train_006180.md): Пользователь может составлять расписание занятий. (explicit, code)
+
+## Цвет фона — ui.background_color
+
+Основной фон, внешний слой и фон всех страниц различаются по области. Не придумывать HEX для неизвестного названия.
+
+- [webgen-011-R4](../../docs/requirements/11.md): Основной фон сайта имеет цвет `floralwhite` (`#FFFAF0`). (explicit, code)
+- [webgen-012-R2.1](../../docs/requirements/12.md): Основной видимый фон страницы имеет цвет `linen` (`#FAF0E6`). (explicit, code)
+- [webgen-012-R2.2](../../docs/requirements/12.md): Основной фон плиток, кнопок и панелей имеет цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-016-R3.1](../../docs/requirements/16.md): Основной видимый фон страницы имеет цвет `cornsilk` (`#FFF8DC`). (explicit, code)
+- [webgen-026-R5](../../docs/requirements/26.md): Внешний фон сайта имеет цвет `ivory` (`#FFFFF0`), а блоки интерфейса — `forestgreen` (`#228B22`). (explicit, code)
+- [webgen-028-R7](../../docs/requirements/28.md): Глобальный фон страницы имеет цвет `ghostwhite` (`#F8F8FF`). (explicit, code)
+- [webgen-047-R4.1](../../docs/requirements/47.md): Основной видимый фон страницы имеет цвет `papayawhip` (`#FFEFD5`). (explicit, code)
+- [webgen-047-R4.2](../../docs/requirements/47.md): Основной фон кнопок, карточек и панелей имеет цвет `darkorange` (`#FF8C00`). (explicit, code)
+- [webgen-049-R7](../../docs/requirements/49.md): Основной фон сайта имеет цвет `whitesmoke` (`#F5F5F5`). (explicit, code)
+- [webgen-057-R6](../../docs/requirements/57.md): Основной фон приложения имеет цвет `beige` (`#F5F5DC`). (explicit, code)
+- [webgen-058-R6](../../docs/requirements/58.md): Все фоны страниц имеют цвет `aliceblue` (`#F0F8FF`). (explicit, code)
+- [webgen-072-R6](../../docs/requirements/72.md): Основной фон сайта имеет цвет `papayawhip` (`#FFEFD5`). (explicit, code)
+- [webgen-082-R7](../../docs/requirements/82.md): Основной фон приложения имеет цвет `beige` (`#F5F5DC`). (explicit, code)
+- [webgen-084-R9](../../docs/requirements/84.md): Основной фон сайта имеет цвет `lightgray` (`#D3D3D3`). (explicit, code)
+- [webgen-092-R6](../../docs/requirements/92.md): Основной фон сайта имеет цвет `azure` (`#F0FFFF`). (explicit, code)
+- [webgen-096-R5](../../docs/requirements/96.md): Основной фон сайта имеет цвет `lightpink` (`#FFB6C1`). (explicit, code)
+- [webgen-097-R6](../../docs/requirements/97.md): Основной фон платформы имеет цвет `papayawhip` (`#FFEFD5`). (explicit, code)
+- [webgen-train-000001-R13](../../docs/requirements/train/train_000001.md): Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`). (explicit, code)
+- [webgen-train-000026-R9](../../docs/requirements/train/train_000026.md): Основной фон интерфейса имеет цвет `ghost white` (`#F8F8FF`). (explicit, code)
+- [webgen-train-000091-R8](../../docs/requirements/train/train_000091.md): Основной фон интерфейса имеет цвет `mint`. (explicit, llm)
+- [webgen-train-000098-R10](../../docs/requirements/train/train_000098.md): Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`). (explicit, code)
+- [webgen-train-000112-R7](../../docs/requirements/train/train_000112.md): Фон контейнеров имеет цвет `wheat` (`#F5DEB3`). (explicit, code)
+- [webgen-train-000130-R9](../../docs/requirements/train/train_000130.md): Основной фон интерфейса имеет цвет `magenta` (`#FF00FF`). (explicit, code)
+- [webgen-train-000153-R6](../../docs/requirements/train/train_000153.md): Основной фон интерфейса имеет цвет `ice blue`. (explicit, llm)
+- [webgen-train-000215-R8](../../docs/requirements/train/train_000215.md): Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`). (explicit, code)
+- [webgen-train-000219-R16](../../docs/requirements/train/train_000219.md): Основной фон интерфейса имеет цвет `light goldenrod`. (explicit, llm)
+- [webgen-train-000238-R8](../../docs/requirements/train/train_000238.md): Основной фон интерфейса имеет цвет `lemon mist`. (explicit, llm)
+- [webgen-train-000239-R7](../../docs/requirements/train/train_000239.md): Основной фон интерфейса имеет цвет `amber`. (explicit, llm)
+- [webgen-train-000244-R11](../../docs/requirements/train/train_000244.md): Основной фон интерфейса имеет цвет `lavender blush` (`#FFF0F5`). (explicit, code)
+- [webgen-train-000274-R8](../../docs/requirements/train/train_000274.md): Основной фон интерфейса имеет цвет `light steel blue` (`#B0C4DE`). (explicit, code)
+- [webgen-train-000286-R14](../../docs/requirements/train/train_000286.md): Основной фон интерфейса имеет цвет `pale turquoise` (`#AFEEEE`). (explicit, code)
+- [webgen-train-000300-R12](../../docs/requirements/train/train_000300.md): Основной фон интерфейса имеет цвет `eggshell`. (explicit, llm)
+- [webgen-train-000317-R6](../../docs/requirements/train/train_000317.md): Основной фон интерфейса имеет цвет `white smoke` (`#F5F5F5`). (explicit, code)
+- [webgen-train-000326-R10](../../docs/requirements/train/train_000326.md): Основной фон интерфейса имеет цвет `blanched almond` (`#FFEBCD`). (explicit, code)
+- [webgen-train-000327-R10](../../docs/requirements/train/train_000327.md): Основной фон интерфейса имеет цвет `bisque` (`#FFE4C4`). (explicit, code)
+- [webgen-train-000355-R10](../../docs/requirements/train/train_000355.md): Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`). (explicit, code)
+- [webgen-train-000381-R7](../../docs/requirements/train/train_000381.md): Основной фон интерфейса имеет цвет `pale rose`. (explicit, llm)
+- [webgen-train-000426-R12](../../docs/requirements/train/train_000426.md): Основной фон интерфейса имеет цвет `orchid` (`#DA70D6`). (explicit, code)
+- [webgen-train-000430-R11](../../docs/requirements/train/train_000430.md): Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`). (explicit, code)
+- [webgen-train-000457-R14](../../docs/requirements/train/train_000457.md): Основной фон интерфейса имеет цвет `cotton`. (explicit, llm)
+- [webgen-train-000467-R10](../../docs/requirements/train/train_000467.md): Основной фон интерфейса имеет цвет `light slate gray` (`#778899`). (explicit, code)
+- [webgen-train-000485-R9](../../docs/requirements/train/train_000485.md): Основной фон интерфейса имеет цвет `magenta` (`#FF00FF`). (explicit, code)
+- [webgen-train-000501-R9](../../docs/requirements/train/train_000501.md): Основной фон интерфейса имеет цвет `feather white`. (explicit, llm)
+- [webgen-train-000714-R4](../../docs/requirements/train/train_000714.md): Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`). (explicit, code)
+- [webgen-train-000734-R8](../../docs/requirements/train/train_000734.md): Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`). (explicit, code)
+- [webgen-train-000762-R14](../../docs/requirements/train/train_000762.md): Основной фон интерфейса имеет цвет `buttermilk`. (explicit, llm)
+- [webgen-train-000787-R6](../../docs/requirements/train/train_000787.md): Основной фон интерфейса имеет цвет `faint peach`. (explicit, llm)
+- [webgen-train-000798-R15](../../docs/requirements/train/train_000798.md): Основной фон интерфейса имеет цвет `gainsboro` (`#DCDCDC`). (explicit, code)
+- [webgen-train-000803-R7](../../docs/requirements/train/train_000803.md): Фон рабочей области имеет цвет `thistle` (`#D8BFD8`). (explicit, code)
+- [webgen-train-000814-R7](../../docs/requirements/train/train_000814.md): Основной фон интерфейса имеет цвет `light blue` (`#ADD8E6`). (explicit, code)
+- [webgen-train-000820-R10](../../docs/requirements/train/train_000820.md): Основной фон интерфейса имеет цвет `baby blue`. (explicit, llm)
+- [webgen-train-000835-R7](../../docs/requirements/train/train_000835.md): Основной фон интерфейса имеет цвет `snow` (`#FFFAFA`). (explicit, code)
+- [webgen-train-000836-R9](../../docs/requirements/train/train_000836.md): Основной фон интерфейса имеет цвет `ghost white` (`#F8F8FF`). (explicit, code)
+- [webgen-train-000895-R11](../../docs/requirements/train/train_000895.md): Основной фон интерфейса имеет цвет `blanched almond` (`#FFEBCD`). (explicit, code)
+- [webgen-train-000917-R8](../../docs/requirements/train/train_000917.md): Основной фон интерфейса имеет цвет `alice blue` (`#F0F8FF`). (explicit, code)
+- [webgen-train-000934-R8](../../docs/requirements/train/train_000934.md): Основной фон интерфейса имеет цвет `pale turquoise` (`#AFEEEE`). (explicit, code)
+- [webgen-train-000955-R15](../../docs/requirements/train/train_000955.md): Основной фон интерфейса имеет цвет `opal`. (explicit, llm)
+- [webgen-train-000972-R19](../../docs/requirements/train/train_000972.md): Фон всех страниц имеет цвет `feather white`. (explicit, llm)
+- [webgen-train-000973-R6](../../docs/requirements/train/train_000973.md): Основной фон интерфейса имеет цвет `pale ash`. (explicit, llm)
+- [webgen-train-000991-R12](../../docs/requirements/train/train_000991.md): Фон контейнеров имеет цвет `light sky blue` (`#87CEFA`). (explicit, code)
+- [webgen-train-001007-R9](../../docs/requirements/train/train_001007.md): Основной фон интерфейса имеет цвет `papaya whip` (`#FFEFD5`). (explicit, code)
+- [webgen-train-001013-R11](../../docs/requirements/train/train_001013.md): Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`). (explicit, code)
+- [webgen-train-001025-R7](../../docs/requirements/train/train_001025.md): Основной фон интерфейса имеет цвет `turquoise` (`#40E0D0`). (explicit, code)
+- [webgen-train-001028-R6](../../docs/requirements/train/train_001028.md): Основной фон интерфейса имеет цвет `pale green` (`#98FB98`). (explicit, code)
+- [webgen-train-001040-R7](../../docs/requirements/train/train_001040.md): Основной фон интерфейса имеет цвет `silver` (`#C0C0C0`). (explicit, code)
+- [webgen-train-001052-R8](../../docs/requirements/train/train_001052.md): Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`). (explicit, code)
+- [webgen-train-001055-R8](../../docs/requirements/train/train_001055.md): Основной фон интерфейса имеет цвет `baby blue`. (explicit, llm)
+- [webgen-train-001056-R10](../../docs/requirements/train/train_001056.md): Основной фон интерфейса имеет цвет `pearl`. (explicit, llm)
+- [webgen-train-001058-R8](../../docs/requirements/train/train_001058.md): Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`). (explicit, code)
+- [webgen-train-001120-R10](../../docs/requirements/train/train_001120.md): Основной фон интерфейса имеет цвет `old lace` (`#FDF5E6`). (explicit, code)
+- [webgen-train-001162-R10](../../docs/requirements/train/train_001162.md): Основной фон интерфейса имеет цвет `snow` (`#FFFAFA`). (explicit, code)
+- [webgen-train-001207-R5](../../docs/requirements/train/train_001207.md): Основной фон интерфейса имеет цвет `morning mist`. (explicit, llm)
+- [webgen-train-001232-R10](../../docs/requirements/train/train_001232.md): Основной фон интерфейса имеет цвет `eggshell`. (explicit, llm)
+- [webgen-train-001253-R10](../../docs/requirements/train/train_001253.md): Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`). (explicit, code)
+- [webgen-train-001377-R8](../../docs/requirements/train/train_001377.md): Основной фон интерфейса имеет цвет `alabaster`. (explicit, llm)
+- [webgen-train-001387-R9](../../docs/requirements/train/train_001387.md): Основной фон интерфейса имеет цвет `bisque` (`#FFE4C4`). (explicit, code)
+- [webgen-train-001458-R13](../../docs/requirements/train/train_001458.md): Основной фон интерфейса имеет цвет `glacier blue`. (explicit, llm)
+- [webgen-train-001463-R11](../../docs/requirements/train/train_001463.md): Основной фон интерфейса имеет цвет `faint peach`. (explicit, llm)
+- [webgen-train-001470-R7](../../docs/requirements/train/train_001470.md): Основной фон интерфейса имеет цвет `lemon mist`. (explicit, llm)
+- [webgen-train-001473-R7](../../docs/requirements/train/train_001473.md): Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`). (explicit, code)
+- [webgen-train-001483-R8](../../docs/requirements/train/train_001483.md): Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`). (explicit, code)
+- [webgen-train-001514-R11](../../docs/requirements/train/train_001514.md): Основной фон интерфейса имеет цвет `peach puff` (`#FFDAB9`). (explicit, code)
+- [webgen-train-001535-R6](../../docs/requirements/train/train_001535.md): Основной фон интерфейса имеет цвет `light beige`. (explicit, llm)
+- [webgen-train-001548-R12](../../docs/requirements/train/train_001548.md): Основной фон интерфейса имеет цвет `morning mist`. (explicit, llm)
+- [webgen-train-001549-R19](../../docs/requirements/train/train_001549.md): Основной фон интерфейса имеет цвет `glacier blue`. (explicit, llm)
+- [webgen-train-001552-R11](../../docs/requirements/train/train_001552.md): Фон рабочей области имеет цвет `cotton`. (explicit, llm)
+- [webgen-train-001569-R9](../../docs/requirements/train/train_001569.md): Фон рабочей области имеет цвет `honeydew` (`#F0FFF0`). (explicit, code)
+- [webgen-train-001594-R7](../../docs/requirements/train/train_001594.md): Основной фон интерфейса имеет цвет `thistle` (`#D8BFD8`). (explicit, code)
+- [webgen-train-001604-R12](../../docs/requirements/train/train_001604.md): Основной фон интерфейса имеет цвет `light sea green` (`#20B2AA`). (explicit, code)
+- [webgen-train-001628-R10](../../docs/requirements/train/train_001628.md): Основной фон интерфейса имеет цвет `daisy white`. (explicit, llm)
+- [webgen-train-001689-R14](../../docs/requirements/train/train_001689.md): Основной фон интерфейса имеет цвет `daisy white`. (explicit, llm)
+- [webgen-train-001698-R6](../../docs/requirements/train/train_001698.md): Внешний фон страницы имеет цвет `gainsboro` (`#DCDCDC`). (explicit, code)
+- [webgen-train-001700-R9](../../docs/requirements/train/train_001700.md): Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`). (explicit, code)
+- [webgen-train-001714-R10](../../docs/requirements/train/train_001714.md): Основной фон интерфейса имеет цвет `pearl`. (explicit, llm)
+- [webgen-train-001719-R11](../../docs/requirements/train/train_001719.md): Основной фон интерфейса имеет цвет `gainsboro` (`#DCDCDC`). (explicit, code)
+- [webgen-train-001738-R10](../../docs/requirements/train/train_001738.md): Основной фон интерфейса имеет цвет `linen` (`#FAF0E6`). (explicit, code)
+- [webgen-train-001762-R17](../../docs/requirements/train/train_001762.md): Основной фон интерфейса имеет цвет `light pink` (`#FFB6C1`). (explicit, code)
+- [webgen-train-001860-R9](../../docs/requirements/train/train_001860.md): Фон рабочей области имеет цвет `plum` (`#DDA0DD`). (explicit, code)
+- [webgen-train-001870-R8](../../docs/requirements/train/train_001870.md): Основной фон интерфейса имеет цвет `mint cream` (`#F5FFFA`). (explicit, code)
+- [webgen-train-001878-R7](../../docs/requirements/train/train_001878.md): Основной фон интерфейса имеет цвет `apricot`. (explicit, llm)
+- [webgen-train-001883-R10](../../docs/requirements/train/train_001883.md): Основной фон интерфейса имеет цвет `alabaster`. (explicit, llm)
+- [webgen-train-001940-R12](../../docs/requirements/train/train_001940.md): Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`). (explicit, code)
+- [webgen-train-001977-R14](../../docs/requirements/train/train_001977.md): Фон рабочей области имеет цвет `pale rose`. (explicit, llm)
+- [webgen-train-001983-R10](../../docs/requirements/train/train_001983.md): Основной фон интерфейса имеет цвет `opal`. (explicit, llm)
+- [webgen-train-002019-R9](../../docs/requirements/train/train_002019.md): Основной фон интерфейса имеет цвет `platinum`. (explicit, llm)
+- [webgen-train-002087-R14](../../docs/requirements/train/train_002087.md): Основной фон интерфейса имеет цвет `white smoke` (`#F5F5F5`). (explicit, code)
+- [webgen-train-002092-R9](../../docs/requirements/train/train_002092.md): Фон рабочей области имеет цвет `caramel`. (explicit, llm)
+- [webgen-train-002104-R7](../../docs/requirements/train/train_002104.md): Основной фон интерфейса имеет цвет `light sea green` (`#20B2AA`). (explicit, code)
+- [webgen-train-002127-R10](../../docs/requirements/train/train_002127.md): Основной фон интерфейса имеет цвет `peach puff` (`#FFDAB9`). (explicit, code)
+- [webgen-train-002170-R7](../../docs/requirements/train/train_002170.md): Основной фон интерфейса имеет цвет `cool gray`. (explicit, llm)
+- [webgen-train-002231-R5](../../docs/requirements/train/train_002231.md): Основной фон интерфейса имеет цвет `plum` (`#DDA0DD`). (explicit, code)
+- [webgen-train-002267-R10](../../docs/requirements/train/train_002267.md): Основной фон интерфейса имеет цвет `ice blue`. (explicit, llm)
+- [webgen-train-002285-R7](../../docs/requirements/train/train_002285.md): Основной фон интерфейса имеет цвет `navajo white` (`#FFDEAD`). (explicit, code)
+- [webgen-train-002379-R8](../../docs/requirements/train/train_002379.md): Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`). (explicit, code)
+- [webgen-train-002397-R11](../../docs/requirements/train/train_002397.md): Основной фон интерфейса имеет цвет `azure` (`#F0FFFF`). (explicit, code)
+- [webgen-train-002477-R10](../../docs/requirements/train/train_002477.md): Основной фон интерфейса имеет цвет `pale goldenrod` (`#EEE8AA`). (explicit, code)
+- [webgen-train-002494-R9](../../docs/requirements/train/train_002494.md): Основной фон интерфейса имеет цвет `seashell` (`#FFF5EE`). (explicit, code)
+- [webgen-train-002508-R9](../../docs/requirements/train/train_002508.md): Основной фон интерфейса имеет цвет `powder blue` (`#B0E0E6`). (explicit, code)
+- [webgen-train-002509-R10](../../docs/requirements/train/train_002509.md): Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`). (explicit, code)
+- [webgen-train-002522-R6](../../docs/requirements/train/train_002522.md): Основной фон интерфейса имеет цвет `medium spring green` (`#00FA9A`). (explicit, code)
+- [webgen-train-002536-R12](../../docs/requirements/train/train_002536.md): Основной фон интерфейса имеет цвет `pale lilac`. (explicit, llm)
+- [webgen-train-002549-R8](../../docs/requirements/train/train_002549.md): Основной фон интерфейса имеет цвет `ice blue`. (explicit, llm)
+- [webgen-train-002559-R6](../../docs/requirements/train/train_002559.md): Основной фон интерфейса имеет цвет `sunlight`. (explicit, llm)
+- [webgen-train-002583-R9](../../docs/requirements/train/train_002583.md): Основной фон интерфейса имеет цвет `pearl`. (explicit, llm)
+- [webgen-train-002589-R10](../../docs/requirements/train/train_002589.md): Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`). (explicit, code)
+- [webgen-train-002621-R8](../../docs/requirements/train/train_002621.md): Основной фон интерфейса имеет цвет `melon`. (explicit, llm)
+- [webgen-train-002636-R10](../../docs/requirements/train/train_002636.md): Основной фон интерфейса имеет цвет `smoke`. (explicit, llm)
+- [webgen-train-002643-R10](../../docs/requirements/train/train_002643.md): Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`). (explicit, code)
+- [webgen-train-002652-R6](../../docs/requirements/train/train_002652.md): Основной фон интерфейса имеет цвет `light slate gray` (`#778899`). (explicit, code)
+- [webgen-train-002670-R7](../../docs/requirements/train/train_002670.md): Основной фон интерфейса имеет цвет `light cyan` (`#E0FFFF`). (explicit, code)
+- [webgen-train-002677-R8](../../docs/requirements/train/train_002677.md): Основной фон интерфейса имеет цвет `violet` (`#EE82EE`). (explicit, code)
+- [webgen-train-002678-R6](../../docs/requirements/train/train_002678.md): Основной фон интерфейса имеет цвет `pink` (`#FFC0CB`). (explicit, code)
+- [webgen-train-002681-R6](../../docs/requirements/train/train_002681.md): Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`). (explicit, code)
+- [webgen-train-002706-R14](../../docs/requirements/train/train_002706.md): Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`). (explicit, code)
+- [webgen-train-002712-R9](../../docs/requirements/train/train_002712.md): Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`). (explicit, code)
+- [webgen-train-002748-R12](../../docs/requirements/train/train_002748.md): Внешний фон страницы имеет цвет `light beige`. (explicit, llm)
+- [webgen-train-002766-R6](../../docs/requirements/train/train_002766.md): Основной фон интерфейса имеет цвет `linen white`. (explicit, llm)
+- [webgen-train-002795-R11](../../docs/requirements/train/train_002795.md): Основной фон интерфейса имеет цвет `azure` (`#F0FFFF`). (explicit, code)
+- [webgen-train-002804-R9](../../docs/requirements/train/train_002804.md): Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`). (explicit, code)
+- [webgen-train-002859-R11](../../docs/requirements/train/train_002859.md): Основной фон интерфейса имеет цвет `alice blue` (`#F0F8FF`). (explicit, code)
+- [webgen-train-002889-R19](../../docs/requirements/train/train_002889.md): Основной фон интерфейса имеет цвет `eggshell`. (explicit, llm)
+- [webgen-train-002983-R15](../../docs/requirements/train/train_002983.md): Основной фон интерфейса имеет цвет `lavender blush` (`#FFF0F5`). (explicit, code)
+- [webgen-train-003061-R9](../../docs/requirements/train/train_003061.md): Фон всех страниц имеет цвет `cotton`. (explicit, llm)
+- [webgen-train-003080-R11](../../docs/requirements/train/train_003080.md): Основной фон интерфейса имеет цвет `mint`. (explicit, llm)
+- [webgen-train-003086-R9](../../docs/requirements/train/train_003086.md): Основной фон интерфейса имеет цвет `floral white` (`#FFFAF0`). (explicit, code)
+- [webgen-train-003119-R17](../../docs/requirements/train/train_003119.md): Фон всех страниц имеет цвет `lavender blush` (`#FFF0F5`). (explicit, code)
+- [webgen-train-003139-R13](../../docs/requirements/train/train_003139.md): Основной фон интерфейса имеет цвет `amber`. (explicit, llm)
+- [webgen-train-003142-R6](../../docs/requirements/train/train_003142.md): Фон рабочей области имеет цвет `bisque` (`#FFE4C4`). (explicit, code)
+- [webgen-train-003155-R13](../../docs/requirements/train/train_003155.md): Основной фон интерфейса имеет цвет `light slate gray` (`#778899`). (explicit, code)
+- [webgen-train-003166-R11](../../docs/requirements/train/train_003166.md): Основной фон интерфейса имеет цвет `azure` (`#F0FFFF`). (explicit, code)
+- [webgen-train-003193-R9](../../docs/requirements/train/train_003193.md): Основной фон интерфейса имеет цвет `peach`. (explicit, llm)
+- [webgen-train-003259-R9](../../docs/requirements/train/train_003259.md): Основной фон интерфейса имеет цвет `medium aquamarine` (`#66CDAA`). (explicit, code)
+- [webgen-train-003286-R17](../../docs/requirements/train/train_003286.md): Основной фон интерфейса имеет цвет `cool gray`. (explicit, llm)
+- [webgen-train-003341-R16](../../docs/requirements/train/train_003341.md): Основной фон интерфейса имеет цвет `medium aquamarine` (`#66CDAA`). (explicit, code)
+- [webgen-train-003348-R14](../../docs/requirements/train/train_003348.md): Фон всех страниц имеет цвет `khaki` (`#F0E68C`). (explicit, code)
+- [webgen-train-003370-R10](../../docs/requirements/train/train_003370.md): Основной фон интерфейса имеет цвет `desert sand`. (explicit, llm)
+- [webgen-train-003382-R7](../../docs/requirements/train/train_003382.md): Внешний фон страницы имеет цвет `powder blue` (`#B0E0E6`). (explicit, code)
+- [webgen-train-003411-R12](../../docs/requirements/train/train_003411.md): Основной фон интерфейса имеет цвет `light coral` (`#F08080`). (explicit, code)
+- [webgen-train-003449-R8](../../docs/requirements/train/train_003449.md): Фон контейнеров имеет цвет `linen white`. (explicit, llm)
+- [webgen-train-003535-R8](../../docs/requirements/train/train_003535.md): Фон рабочей области имеет цвет `lemon mist`. (explicit, llm)
+- [webgen-train-003587-R9](../../docs/requirements/train/train_003587.md): Основной фон интерфейса имеет цвет `gold` (`#FFD700`). (explicit, code)
+- [webgen-train-003592-R9](../../docs/requirements/train/train_003592.md): Основной фон интерфейса имеет цвет `frost white`. (explicit, llm)
+- [webgen-train-003621-R11](../../docs/requirements/train/train_003621.md): Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`). (explicit, code)
+- [webgen-train-003634-R6](../../docs/requirements/train/train_003634.md): Фон рабочей области имеет цвет `platinum`. (explicit, llm)
+- [webgen-train-003663-R11](../../docs/requirements/train/train_003663.md): Основной фон интерфейса имеет цвет `medium aquamarine` (`#66CDAA`). (explicit, code)
+- [webgen-train-003673-R7](../../docs/requirements/train/train_003673.md): Все фоновые области имеют цвет `buttermilk`. (explicit, llm)
+- [webgen-train-003678-R12](../../docs/requirements/train/train_003678.md): Основной фон интерфейса имеет цвет `eggshell`. (explicit, llm)
+- [webgen-train-003680-R7](../../docs/requirements/train/train_003680.md): Основной фон интерфейса имеет цвет `cloud white`. (explicit, llm)
+- [webgen-train-003685-R13](../../docs/requirements/train/train_003685.md): Основной фон интерфейса имеет цвет `pewter`. (explicit, llm)
+- [webgen-train-003759-R8](../../docs/requirements/train/train_003759.md): Фон всех страниц имеет цвет `faint peach`. (explicit, llm)
+- [webgen-train-003809-R8](../../docs/requirements/train/train_003809.md): Внешний фон страницы имеет цвет `pale green` (`#98FB98`). (explicit, code)
+- [webgen-train-003839-R11](../../docs/requirements/train/train_003839.md): Основной фон интерфейса имеет цвет `bisque` (`#FFE4C4`). (explicit, code)
+- [webgen-train-003852-R13](../../docs/requirements/train/train_003852.md): Основной фон интерфейса имеет цвет `cream`. (explicit, llm)
+- [webgen-train-003881-R6](../../docs/requirements/train/train_003881.md): Основной фон интерфейса имеет цвет `pink` (`#FFC0CB`). (explicit, code)
+- [webgen-train-003889-R15](../../docs/requirements/train/train_003889.md): Основной фон интерфейса имеет цвет `light beige`. (explicit, llm)
+- [webgen-train-003912-R9](../../docs/requirements/train/train_003912.md): Фон рабочей области имеет цвет `white smoke` (`#F5F5F5`). (explicit, code)
+- [webgen-train-003918-R13](../../docs/requirements/train/train_003918.md): Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`). (explicit, code)
+- [webgen-train-003982-R33](../../docs/requirements/train/train_003982.md): Основной фон интерфейса имеет цвет `morning mist`. (explicit, llm)
+- [webgen-train-003987-R9](../../docs/requirements/train/train_003987.md): Основной фон интерфейса имеет цвет `desert sand`. (explicit, llm)
+- [webgen-train-003990-R11](../../docs/requirements/train/train_003990.md): Основной фон интерфейса имеет цвет `white smoke` (`#F5F5F5`). (explicit, code)
+- [webgen-train-003999-R13](../../docs/requirements/train/train_003999.md): Основной фон интерфейса имеет цвет `light steel blue` (`#B0C4DE`). (explicit, code)
+- [webgen-train-004020-R14](../../docs/requirements/train/train_004020.md): Основной фон интерфейса имеет цвет `floral white` (`#FFFAF0`). (explicit, code)
+- [webgen-train-004035-R11](../../docs/requirements/train/train_004035.md): Основной фон интерфейса имеет цвет `salmon` (`#FA8072`). (explicit, code)
+- [webgen-train-004090-R7](../../docs/requirements/train/train_004090.md): Основной фон интерфейса имеет цвет `light coral` (`#F08080`). (explicit, code)
+- [webgen-train-004145-R16](../../docs/requirements/train/train_004145.md): Основной фон интерфейса имеет цвет `cool gray`. (explicit, llm)
+- [webgen-train-004161-R15](../../docs/requirements/train/train_004161.md): Фон рабочей области имеет цвет `light yellow` (`#FFFFE0`). (explicit, code)
+- [webgen-train-004174-R9](../../docs/requirements/train/train_004174.md): Основной фон интерфейса имеет цвет `baby blue`. (explicit, llm)
+- [webgen-train-004280-R8](../../docs/requirements/train/train_004280.md): Основной фон интерфейса имеет цвет `rosy brown` (`#BC8F8F`). (explicit, code)
+- [webgen-train-004288-R8](../../docs/requirements/train/train_004288.md): Основной фон интерфейса имеет цвет `light sea green` (`#20B2AA`). (explicit, code)
+- [webgen-train-004345-R8](../../docs/requirements/train/train_004345.md): Основной фон интерфейса имеет цвет `baby blue`. (explicit, llm)
+- [webgen-train-004388-R8](../../docs/requirements/train/train_004388.md): Основной фон интерфейса имеет цвет `pale turquoise` (`#AFEEEE`). (explicit, code)
+- [webgen-train-004391-R15](../../docs/requirements/train/train_004391.md): Основной фон интерфейса имеет цвет `medium turquoise` (`#48D1CC`). (explicit, code)
+- [webgen-train-004462-R8](../../docs/requirements/train/train_004462.md): Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`). (explicit, code)
+- [webgen-train-004515-R6](../../docs/requirements/train/train_004515.md): Основной фон интерфейса имеет цвет `melon`. (explicit, llm)
+- [webgen-train-004535-R6](../../docs/requirements/train/train_004535.md): Основной фон интерфейса имеет цвет `ice blue`. (explicit, llm)
+- [webgen-train-004592-R5](../../docs/requirements/train/train_004592.md): Фон интерфейса имеет цвет `papaya whip` (`#FFEFD5`). (explicit, llm)
+- [webgen-train-004627-R8](../../docs/requirements/train/train_004627.md): Фон рабочей области имеет цвет `peach`. (explicit, llm)
+- [webgen-train-004711-R9](../../docs/requirements/train/train_004711.md): Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`). (explicit, code)
+- [webgen-train-004729-R8](../../docs/requirements/train/train_004729.md): Основной фон интерфейса имеет цвет `mint cream` (`#F5FFFA`). (explicit, code)
+- [webgen-train-004764-R6](../../docs/requirements/train/train_004764.md): Основной фон интерфейса имеет цвет `sunlight`. (explicit, llm)
+- [webgen-train-004765-R7](../../docs/requirements/train/train_004765.md): Основной фон интерфейса имеет цвет `lemon mist`. (explicit, llm)
+- [webgen-train-004786-R7](../../docs/requirements/train/train_004786.md): Внешний фон страницы имеет цвет `cream`. (explicit, llm)
+- [webgen-train-004791-R8](../../docs/requirements/train/train_004791.md): Основной фон интерфейса имеет цвет `platinum`. (explicit, llm)
+- [webgen-train-004856-R6](../../docs/requirements/train/train_004856.md): Основной фон интерфейса имеет цвет `dust white`. (explicit, llm)
+- [webgen-train-004895-R7](../../docs/requirements/train/train_004895.md): Основной фон интерфейса имеет цвет `eggshell`. (explicit, llm)
+- [webgen-train-004922-R7](../../docs/requirements/train/train_004922.md): Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`). (explicit, code)
+- [webgen-train-004927-R10](../../docs/requirements/train/train_004927.md): Основной фон интерфейса имеет цвет `rosy brown` (`#BC8F8F`). (explicit, code)
+- [webgen-train-004943-R7](../../docs/requirements/train/train_004943.md): Фон всех страниц имеет цвет `pale green` (`#98FB98`). (explicit, code)
+- [webgen-train-004951-R5](../../docs/requirements/train/train_004951.md): Основной фон интерфейса имеет цвет `melon`. (explicit, llm)
+- [webgen-train-004959-R7](../../docs/requirements/train/train_004959.md): Основной фон интерфейса имеет цвет `mint frost`. (explicit, llm)
+- [webgen-train-004960-R7](../../docs/requirements/train/train_004960.md): Основной фон интерфейса имеет цвет `cloud white`. (explicit, llm)
+- [webgen-train-004971-R10](../../docs/requirements/train/train_004971.md): Основной фон интерфейса имеет цвет `glacier blue`. (explicit, llm)
+- [webgen-train-004983-R11](../../docs/requirements/train/train_004983.md): Основной фон интерфейса имеет цвет `pale ash`. (explicit, llm)
+- [webgen-train-005051-R11](../../docs/requirements/train/train_005051.md): Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`). (explicit, code)
+- [webgen-train-005121-R10](../../docs/requirements/train/train_005121.md): Все фоновые области имеют цвет `pearl`. (explicit, llm)
+- [webgen-train-005173-R10](../../docs/requirements/train/train_005173.md): Основной фон интерфейса имеет цвет `gold` (`#FFD700`). (explicit, code)
+- [webgen-train-005193-R9](../../docs/requirements/train/train_005193.md): Основной фон интерфейса имеет цвет `moonstone`. (explicit, llm)
+- [webgen-train-005199-R11](../../docs/requirements/train/train_005199.md): Основной фон интерфейса имеет цвет `desert sand`. (explicit, llm)
+- [webgen-train-005220-R6](../../docs/requirements/train/train_005220.md): Все фоновые области имеют цвет `light slate gray` (`#778899`). (explicit, code)
+- [webgen-train-005234-R11](../../docs/requirements/train/train_005234.md): Основной фон интерфейса имеет цвет `linen` (`#FAF0E6`). (explicit, code)
+- [webgen-train-005247-R7](../../docs/requirements/train/train_005247.md): Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`). (explicit, code)
+- [webgen-train-005271-R8](../../docs/requirements/train/train_005271.md): Основной фон интерфейса имеет цвет `medium spring green` (`#00FA9A`). (explicit, code)
+- [webgen-train-005370-R9](../../docs/requirements/train/train_005370.md): Основной фон интерфейса имеет цвет `salmon` (`#FA8072`). (explicit, code)
+- [webgen-train-005397-R9](../../docs/requirements/train/train_005397.md): Основной фон интерфейса имеет цвет `frost white`. (explicit, llm)
+- [webgen-train-005400-R11](../../docs/requirements/train/train_005400.md): Внешний фон страницы имеет цвет `pale rose`. (explicit, llm)
+- [webgen-train-005450-R9](../../docs/requirements/train/train_005450.md): Основной фон интерфейса имеет цвет `pale green` (`#98FB98`). (explicit, code)
+- [webgen-train-005486-R10](../../docs/requirements/train/train_005486.md): Основной фон интерфейса имеет цвет `misty rose` (`#FFE4E1`). (explicit, code)
+- [webgen-train-005496-R7](../../docs/requirements/train/train_005496.md): Основной фон интерфейса имеет цвет `turquoise` (`#40E0D0`). (explicit, code)
+- [webgen-train-005551-R10](../../docs/requirements/train/train_005551.md): Основной фон интерфейса имеет цвет `navajo white` (`#FFDEAD`). (explicit, code)
+- [webgen-train-005570-R5](../../docs/requirements/train/train_005570.md): Все фоновые области имеют цвет `vanilla`. (explicit, llm)
+- [webgen-train-005583-R9](../../docs/requirements/train/train_005583.md): Основной фон интерфейса имеет цвет `papaya whip` (`#FFEFD5`). (explicit, code)
+- [webgen-train-005592-R13](../../docs/requirements/train/train_005592.md): Основной фон интерфейса имеет цвет `powder blue` (`#B0E0E6`). (explicit, code)
+- [webgen-train-005639-R10](../../docs/requirements/train/train_005639.md): Внешний фон страницы имеет цвет `cotton`. (explicit, llm)
+- [webgen-train-005640-R7](../../docs/requirements/train/train_005640.md): Основной фон интерфейса имеет цвет `linen white`. (explicit, llm)
+- [webgen-train-005643-R7](../../docs/requirements/train/train_005643.md): Основной фон интерфейса имеет цвет `pale ash`. (explicit, llm)
+- [webgen-train-005653-R10](../../docs/requirements/train/train_005653.md): Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`). (explicit, code)
+- [webgen-train-005738-R6](../../docs/requirements/train/train_005738.md): Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`). (explicit, code)
+- [webgen-train-005751-R4](../../docs/requirements/train/train_005751.md): Фон рабочей области имеет цвет `honeydew` (`#F0FFF0`). (explicit, code)
+- [webgen-train-005810-R5](../../docs/requirements/train/train_005810.md): Основной фон интерфейса имеет цвет `desert sand`. (explicit, llm)
+- [webgen-train-005847-R7](../../docs/requirements/train/train_005847.md): Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`). (explicit, code)
+- [webgen-train-005848-R13](../../docs/requirements/train/train_005848.md): Основной фон интерфейса имеет цвет `azure` (`#F0FFFF`). (explicit, code)
+- [webgen-train-005859-R10](../../docs/requirements/train/train_005859.md): Основной фон интерфейса имеет цвет `light cyan` (`#E0FFFF`). (explicit, code)
+- [webgen-train-005893-R12](../../docs/requirements/train/train_005893.md): Основной фон интерфейса имеет цвет `pale lilac`. (explicit, llm)
+- [webgen-train-005922-R7](../../docs/requirements/train/train_005922.md): Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`). (explicit, code)
+- [webgen-train-005968-R7](../../docs/requirements/train/train_005968.md): Основной фон интерфейса имеет цвет `light goldenrod yellow` (`#FAFAD2`). (explicit, code)
+- [webgen-train-006001-R13](../../docs/requirements/train/train_006001.md): Основной фон интерфейса имеет цвет `thistle` (`#D8BFD8`). (explicit, code)
+- [webgen-train-006063-R13](../../docs/requirements/train/train_006063.md): Основной фон интерфейса имеет цвет `faint gold`. (explicit, llm)
+- [webgen-train-006122-R10](../../docs/requirements/train/train_006122.md): Основной фон интерфейса имеет цвет `glacier blue`. (explicit, llm)
+- [webgen-train-006148-R14](../../docs/requirements/train/train_006148.md): Основной фон интерфейса имеет цвет `cream`. (explicit, llm)
+- [webgen-train-006153-R13](../../docs/requirements/train/train_006153.md): Основной фон интерфейса имеет цвет `linen` (`#FAF0E6`). (explicit, code)
+- [webgen-train-006161-R8](../../docs/requirements/train/train_006161.md): Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`). (explicit, code)
+- [webgen-train-006180-R9](../../docs/requirements/train/train_006180.md): Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`). (explicit, code)
+- [webgen-train-006217-R12](../../docs/requirements/train/train_006217.md): Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`). (explicit, code)
+- [webgen-train-006226-R17](../../docs/requirements/train/train_006226.md): Фон всех страниц имеет цвет `pale green` (`#98FB98`). (explicit, code)
+- [webgen-train-006239-R15](../../docs/requirements/train/train_006239.md): Основной фон интерфейса имеет цвет `beige` (`#F5F5DC`). (explicit, code)
+- [webgen-train-006246-R10](../../docs/requirements/train/train_006246.md): Основной фон интерфейса имеет цвет `light steel blue` (`#B0C4DE`). (explicit, code)
+- [webgen-train-006253-R11](../../docs/requirements/train/train_006253.md): Основной фон интерфейса имеет цвет `rosy brown` (`#BC8F8F`). (explicit, code)
+- [webgen-train-006269-R15](../../docs/requirements/train/train_006269.md): Основной фон интерфейса имеет цвет `peach`. (explicit, llm)
+- [webgen-train-006276-R20](../../docs/requirements/train/train_006276.md): Основной фон интерфейса имеет цвет `mint frost`. (explicit, llm)
+- [webgen-train-006278-R10](../../docs/requirements/train/train_006278.md): Основной фон интерфейса имеет цвет `faint gray`. (explicit, llm)
+- [webgen-train-006333-R10](../../docs/requirements/train/train_006333.md): Основной фон интерфейса имеет цвет `magenta` (`#FF00FF`). (explicit, code)
+- [webgen-train-006345-R13](../../docs/requirements/train/train_006345.md): Фон рабочей области имеет цвет `light beige`. (explicit, llm)
+- [webgen-train-006354-R9](../../docs/requirements/train/train_006354.md): Основной фон интерфейса имеет цвет `faint gray`. (explicit, llm)
+- [webgen-train-006379-R10](../../docs/requirements/train/train_006379.md): Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`). (explicit, code)
+- [webgen-train-006398-R12](../../docs/requirements/train/train_006398.md): Основной фон интерфейса имеет цвет `ghost white` (`#F8F8FF`). (explicit, code)
+- [webgen-train-006470-R11](../../docs/requirements/train/train_006470.md): Основной фон интерфейса имеет цвет `snow` (`#FFFAFA`). (explicit, code)
+- [webgen-train-006472-R13](../../docs/requirements/train/train_006472.md): Основной фон интерфейса имеет цвет `light steel blue` (`#B0C4DE`). (explicit, code)
+- [webgen-train-006497-R15](../../docs/requirements/train/train_006497.md): Основной фон интерфейса имеет цвет `bisque` (`#FFE4C4`). (explicit, code)
+- [webgen-train-006536-R8](../../docs/requirements/train/train_006536.md): Фон рабочей области имеет цвет `light salmon` (`#FFA07A`). (explicit, code)
+- [webgen-train-006581-R14](../../docs/requirements/train/train_006581.md): Основной фон интерфейса имеет цвет `morning mist`. (explicit, llm)
+- [webgen-train-006592-R12](../../docs/requirements/train/train_006592.md): Основной фон интерфейса имеет цвет `porcelain`. (explicit, llm)
+- [webgen-train-006596-R10](../../docs/requirements/train/train_006596.md): Основной фон интерфейса имеет цвет `amber`. (explicit, llm)
+- [webgen-train-006599-R8](../../docs/requirements/train/train_006599.md): Внешний фон страницы имеет цвет `bisque` (`#FFE4C4`). (explicit, code)
+- [webgen-train-006607-R10](../../docs/requirements/train/train_006607.md): Основной фон интерфейса имеет цвет `light coral` (`#F08080`). (explicit, code)
+- [webgen-train-006622-R10](../../docs/requirements/train/train_006622.md): Основной фон интерфейса имеет цвет `vanilla`. (explicit, llm)
+
+## Цвет компонентов — ui.component_color
+
+Цвет всех компонентов, кнопок и отдельных акцентов — разные области проверки; сохранить формулировку ТЗ.
+
+- [webgen-011-R5](../../docs/requirements/11.md): Интерактивные элементы оформлены цветом `darkgoldenrod` (`#B8860B`). (explicit, code)
+- [webgen-016-R3.2](../../docs/requirements/16.md): Элементы управления используют `peru` (`#CD853F`) как основной цвет оформления. (explicit, code)
+- [webgen-028-R8](../../docs/requirements/28.md): Все компоненты интерфейса оформлены цветом `slategray` (`#708090`). (explicit, code)
+- [webgen-049-R8](../../docs/requirements/49.md): Компоненты интерфейса оформлены цветом `darkcyan` (`#008B8B`). (explicit, code)
+- [webgen-057-R7](../../docs/requirements/57.md): Компоненты интерфейса оформлены цветом `saddlebrown` (`#8B4513`). (explicit, code)
+- [webgen-058-R7](../../docs/requirements/58.md): Все компоненты интерфейса оформлены цветом `steelblue` (`#4682B4`). (explicit, code)
+- [webgen-072-R7](../../docs/requirements/72.md): Компоненты интерфейса оформлены цветом `darkorange` (`#FF8C00`). (explicit, code)
+- [webgen-082-R8](../../docs/requirements/82.md): Все компоненты интерфейса оформлены цветом `saddlebrown` (`#8B4513`). (explicit, code)
+- [webgen-084-R10](../../docs/requirements/84.md): Элементы интерфейса оформлены цветом `darkred` (`#8B0000`). (explicit, code)
+- [webgen-092-R7](../../docs/requirements/92.md): Все компоненты интерфейса оформлены цветом `darkslateblue` (`#483D8B`). (explicit, code)
+- [webgen-096-R6](../../docs/requirements/96.md): Элементы управления оформлены цветом `mediumvioletred` (`#C71585`). (explicit, code)
+- [webgen-097-R7](../../docs/requirements/97.md): Компоненты интерфейса оформлены цветом `darkorange` (`#FF8C00`). (explicit, code)
+- [webgen-train-000001-R14](../../docs/requirements/train/train_000001.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-000026-R10](../../docs/requirements/train/train_000026.md): Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`). (explicit, code)
+- [webgen-train-000091-R9](../../docs/requirements/train/train_000091.md): Компоненты интерфейса имеют цвет `dark sea green` (`#8FBC8F`). (explicit, code)
+- [webgen-train-000098-R11](../../docs/requirements/train/train_000098.md): Все компоненты интерфейса имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-000112-R8](../../docs/requirements/train/train_000112.md): Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-000130-R10](../../docs/requirements/train/train_000130.md): Детали компонентов имеют цвет `dark violet` (`#9400D3`). (explicit, code)
+- [webgen-train-000153-R7](../../docs/requirements/train/train_000153.md): Все компоненты интерфейса имеют цвет `teal` (`#008080`). (explicit, code)
+- [webgen-train-000215-R9](../../docs/requirements/train/train_000215.md): Элементы управления имеют цвет `dark turquoise` (`#00CED1`). (explicit, code)
+- [webgen-train-000219-R17](../../docs/requirements/train/train_000219.md): Компоненты интерфейса имеют цвет `goldenrod` (`#DAA520`). (explicit, code)
+- [webgen-train-000238-R9](../../docs/requirements/train/train_000238.md): Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`). (explicit, code)
+- [webgen-train-000239-R8](../../docs/requirements/train/train_000239.md): Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-000244-R12](../../docs/requirements/train/train_000244.md): Компоненты интерфейса имеют цвет `pale violet red` (`#DB7093`). (explicit, code)
+- [webgen-train-000274-R9](../../docs/requirements/train/train_000274.md): Все компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-000286-R15](../../docs/requirements/train/train_000286.md): Компоненты интерфейса имеют цвет `medium turquoise` (`#48D1CC`). (explicit, code)
+- [webgen-train-000300-R13](../../docs/requirements/train/train_000300.md): Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-000317-R7](../../docs/requirements/train/train_000317.md): Все компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`). (explicit, code)
+- [webgen-train-000326-R11](../../docs/requirements/train/train_000326.md): Выделения компонентов имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-000327-R11](../../docs/requirements/train/train_000327.md): Детали компонентов имеют цвет `dark salmon` (`#E9967A`). (explicit, code)
+- [webgen-train-000355-R11](../../docs/requirements/train/train_000355.md): Кнопки и карточки имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-000381-R8](../../docs/requirements/train/train_000381.md): Компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-000426-R13](../../docs/requirements/train/train_000426.md): Компоненты интерфейса имеют цвет `purple` (`#800080`). (explicit, code)
+- [webgen-train-000430-R12](../../docs/requirements/train/train_000430.md): Детали компонентов имеют цвет `dark turquoise` (`#00CED1`). (explicit, code)
+- [webgen-train-000457-R15](../../docs/requirements/train/train_000457.md): Компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-000467-R11](../../docs/requirements/train/train_000467.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-000485-R10](../../docs/requirements/train/train_000485.md): Компоненты интерфейса имеют цвет `dark violet` (`#9400D3`). (explicit, code)
+- [webgen-train-000501-R10](../../docs/requirements/train/train_000501.md): Компоненты интерфейса имеют цвет `dark green` (`#006400`). (explicit, code)
+- [webgen-train-000714-R5](../../docs/requirements/train/train_000714.md): Элементы управления имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-000734-R9](../../docs/requirements/train/train_000734.md): Выделения компонентов имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-000762-R15](../../docs/requirements/train/train_000762.md): Кнопки и карточки имеют цвет `peru` (`#CD853F`). (explicit, code)
+- [webgen-train-000787-R7](../../docs/requirements/train/train_000787.md): Элементы управления имеют цвет `coral` (`#FF7F50`). (explicit, code)
+- [webgen-train-000798-R16](../../docs/requirements/train/train_000798.md): Компоненты интерфейса имеют цвет `dark slate blue` (`#483D8B`). (explicit, code)
+- [webgen-train-000803-R8](../../docs/requirements/train/train_000803.md): Компоненты интерфейса имеют цвет `medium purple` (`#9370DB`). (explicit, code)
+- [webgen-train-000814-R8](../../docs/requirements/train/train_000814.md): Компоненты интерфейса имеют цвет `dark blue` (`#00008B`). (explicit, code)
+- [webgen-train-000820-R11](../../docs/requirements/train/train_000820.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-000835-R8](../../docs/requirements/train/train_000835.md): Кнопки и карточки имеют цвет `dim gray` (`#696969`). (explicit, code)
+- [webgen-train-000836-R10](../../docs/requirements/train/train_000836.md): Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`). (explicit, code)
+- [webgen-train-000895-R12](../../docs/requirements/train/train_000895.md): Выделения компонентов имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-000917-R9](../../docs/requirements/train/train_000917.md): Компоненты интерфейса имеют цвет `cornflower blue` (`#6495ED`). (explicit, code)
+- [webgen-train-000934-R9](../../docs/requirements/train/train_000934.md): Все компоненты интерфейса имеют цвет `medium turquoise` (`#48D1CC`). (explicit, code)
+- [webgen-train-000955-R16](../../docs/requirements/train/train_000955.md): Компоненты интерфейса имеют цвет `indigo` (`#4B0082`). (explicit, code)
+- [webgen-train-000972-R20](../../docs/requirements/train/train_000972.md): Компоненты интерфейса имеют цвет `dark green` (`#006400`). (explicit, code)
+- [webgen-train-000973-R7](../../docs/requirements/train/train_000973.md): Компоненты интерфейса имеют цвет `slate gray` (`#708090`). (explicit, code)
+- [webgen-train-000991-R13](../../docs/requirements/train/train_000991.md): Компоненты интерфейса имеют цвет `dodger blue` (`#1E90FF`). (explicit, code)
+- [webgen-train-001007-R10](../../docs/requirements/train/train_001007.md): Все компоненты интерфейса имеют цвет `peru` (`#CD853F`). (explicit, code)
+- [webgen-train-001013-R12](../../docs/requirements/train/train_001013.md): Компоненты интерфейса имеют цвет `deepskyblue` (`#00BFFF`). (explicit, code)
+- [webgen-train-001025-R8](../../docs/requirements/train/train_001025.md): Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`). (explicit, code)
+- [webgen-train-001028-R7](../../docs/requirements/train/train_001028.md): Компоненты интерфейса имеют цвет `forest green` (`#228B22`). (explicit, code)
+- [webgen-train-001040-R8](../../docs/requirements/train/train_001040.md): Кнопки и карточки имеют цвет `dark slate blue` (`#483D8B`). (explicit, code)
+- [webgen-train-001052-R9](../../docs/requirements/train/train_001052.md): Кнопки и карточки имеют цвет `dodger blue` (`#1E90FF`). (explicit, code)
+- [webgen-train-001055-R9](../../docs/requirements/train/train_001055.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-001056-R11](../../docs/requirements/train/train_001056.md): Компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-001058-R9](../../docs/requirements/train/train_001058.md): Компоненты интерфейса имеют цвет `steel blue` (`#4682B4`). (explicit, code)
+- [webgen-train-001120-R11](../../docs/requirements/train/train_001120.md): Компоненты интерфейса имеют цвет `tan` (`#D2B48C`). (explicit, code)
+- [webgen-train-001162-R11](../../docs/requirements/train/train_001162.md): Все компоненты интерфейса имеют цвет `dim gray` (`#696969`). (explicit, code)
+- [webgen-train-001207-R6](../../docs/requirements/train/train_001207.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-001232-R11](../../docs/requirements/train/train_001232.md): Компоненты интерфейса имеют цвет `dark moss green`. (explicit, llm)
+- [webgen-train-001253-R11](../../docs/requirements/train/train_001253.md): Все компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-001377-R9](../../docs/requirements/train/train_001377.md): Компоненты интерфейса имеют цвет `dark cyan` (`#008B8B`). (explicit, code)
+- [webgen-train-001387-R10](../../docs/requirements/train/train_001387.md): Кнопки и карточки имеют цвет `dark salmon` (`#E9967A`). (explicit, code)
+- [webgen-train-001458-R14](../../docs/requirements/train/train_001458.md): Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-001463-R12](../../docs/requirements/train/train_001463.md): Компоненты интерфейса имеют цвет `coral` (`#FF7F50`). (explicit, code)
+- [webgen-train-001470-R8](../../docs/requirements/train/train_001470.md): Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`). (explicit, code)
+- [webgen-train-001473-R8](../../docs/requirements/train/train_001473.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-001483-R9](../../docs/requirements/train/train_001483.md): Компоненты интерфейса имеют цвет `sandy brown` (`#F4A460`). (explicit, code)
+- [webgen-train-001514-R12](../../docs/requirements/train/train_001514.md): Компоненты интерфейса имеют цвет `firebrick` (`#B22222`). (explicit, code)
+- [webgen-train-001535-R7](../../docs/requirements/train/train_001535.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-001548-R13](../../docs/requirements/train/train_001548.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-001549-R20](../../docs/requirements/train/train_001549.md): Все компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-001552-R12](../../docs/requirements/train/train_001552.md): Компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-001569-R10](../../docs/requirements/train/train_001569.md): Компоненты интерфейса имеют цвет `forest green` (`#228B22`). (explicit, code)
+- [webgen-train-001594-R8](../../docs/requirements/train/train_001594.md): Компоненты интерфейса имеют цвет `rebecca purple` (`#663399`). (explicit, code)
+- [webgen-train-001604-R13](../../docs/requirements/train/train_001604.md): Все компоненты интерфейса имеют цвет `medium sea green` (`#3CB371`). (explicit, code)
+- [webgen-train-001628-R11](../../docs/requirements/train/train_001628.md): Компоненты интерфейса имеют цвет `khaki` (`#F0E68C`). (explicit, code)
+- [webgen-train-001689-R15](../../docs/requirements/train/train_001689.md): Все компоненты интерфейса имеют цвет `khaki` (`#F0E68C`). (explicit, code)
+- [webgen-train-001698-R7](../../docs/requirements/train/train_001698.md): Компоненты интерфейса имеют цвет `dark slate blue` (`#483D8B`). (explicit, code)
+- [webgen-train-001700-R10](../../docs/requirements/train/train_001700.md): Все компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`). (explicit, code)
+- [webgen-train-001714-R11](../../docs/requirements/train/train_001714.md): Блоки содержимого имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-001719-R12](../../docs/requirements/train/train_001719.md): Компоненты интерфейса имеют цвет `dark slate blue` (`#483D8B`). (explicit, code)
+- [webgen-train-001738-R11](../../docs/requirements/train/train_001738.md): Компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`). (explicit, code)
+- [webgen-train-001762-R18](../../docs/requirements/train/train_001762.md): Компоненты интерфейса имеют цвет `hotpink` (`#FF69B4`). (explicit, code)
+- [webgen-train-001860-R10](../../docs/requirements/train/train_001860.md): Компоненты интерфейса имеют цвет `dark magenta` (`#8B008B`). (explicit, code)
+- [webgen-train-001870-R9](../../docs/requirements/train/train_001870.md): Компоненты интерфейса имеют цвет `dark green` (`#006400`). (explicit, code)
+- [webgen-train-001878-R8](../../docs/requirements/train/train_001878.md): Все компоненты интерфейса имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-001883-R11](../../docs/requirements/train/train_001883.md): Компоненты интерфейса имеют цвет `dark cyan` (`#008B8B`). (explicit, code)
+- [webgen-train-001940-R13](../../docs/requirements/train/train_001940.md): Компоненты интерфейса имеют цвет `goldenrod` (`#DAA520`). (explicit, code)
+- [webgen-train-001977-R15](../../docs/requirements/train/train_001977.md): Компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-001983-R11](../../docs/requirements/train/train_001983.md): Компоненты интерфейса имеют цвет `indigo` (`#4B0082`). (explicit, code)
+- [webgen-train-002019-R10](../../docs/requirements/train/train_002019.md): Компоненты интерфейса имеют цвет `midnight blue` (`#191970`). (explicit, code)
+- [webgen-train-002087-R15](../../docs/requirements/train/train_002087.md): Все компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`). (explicit, code)
+- [webgen-train-002092-R10](../../docs/requirements/train/train_002092.md): Компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`). (explicit, code)
+- [webgen-train-002104-R8](../../docs/requirements/train/train_002104.md): Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-002127-R11](../../docs/requirements/train/train_002127.md): Компоненты интерфейса имеют цвет `firebrick` (`#B22222`). (explicit, code)
+- [webgen-train-002170-R8](../../docs/requirements/train/train_002170.md): Компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-002231-R6](../../docs/requirements/train/train_002231.md): Компоненты интерфейса имеют цвет `dark magenta` (`#8B008B`). (explicit, code)
+- [webgen-train-002267-R11](../../docs/requirements/train/train_002267.md): Детали компонентов имеют цвет `teal` (`#008080`). (explicit, code)
+- [webgen-train-002285-R8](../../docs/requirements/train/train_002285.md): Компоненты интерфейса имеют цвет `tan` (`#D2B48C`). (explicit, code)
+- [webgen-train-002379-R9](../../docs/requirements/train/train_002379.md): Детали компонентов имеют цвет `dodger blue` (`#1E90FF`). (explicit, code)
+- [webgen-train-002397-R12](../../docs/requirements/train/train_002397.md): Компоненты интерфейса имеют цвет `slate blue` (`#6A5ACD`). (explicit, code)
+- [webgen-train-002477-R11](../../docs/requirements/train/train_002477.md): Компоненты интерфейса имеют цвет `dark olive green` (`#556B2F`). (explicit, code)
+- [webgen-train-002494-R10](../../docs/requirements/train/train_002494.md): Все компоненты интерфейса имеют цвет `indian red` (`#CD5C5C`). (explicit, code)
+- [webgen-train-002508-R10](../../docs/requirements/train/train_002508.md): Блоки содержимого имеют цвет `medium blue` (`#0000CD`). (explicit, code)
+- [webgen-train-002509-R11](../../docs/requirements/train/train_002509.md): Все компоненты интерфейса имеют цвет `tomato` (`#FF6347`). (explicit, code)
+- [webgen-train-002522-R7](../../docs/requirements/train/train_002522.md): Компоненты интерфейса имеют цвет `green` (`#008000`). (explicit, code)
+- [webgen-train-002536-R13](../../docs/requirements/train/train_002536.md): Блоки содержимого имеют цвет `dark orchid` (`#9932CC`). (explicit, code)
+- [webgen-train-002549-R9](../../docs/requirements/train/train_002549.md): Компоненты интерфейса имеют цвет `teal` (`#008080`). (explicit, code)
+- [webgen-train-002559-R7](../../docs/requirements/train/train_002559.md): Выделения компонентов имеют цвет `gold` (`#FFD700`). (explicit, code)
+- [webgen-train-002583-R10](../../docs/requirements/train/train_002583.md): Все компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-002589-R11](../../docs/requirements/train/train_002589.md): Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-002621-R9](../../docs/requirements/train/train_002621.md): Элементы управления имеют цвет `tomato` (`#FF6347`). (explicit, code)
+- [webgen-train-002636-R11](../../docs/requirements/train/train_002636.md): Компоненты интерфейса имеют цвет `midnight blue` (`#191970`). (explicit, code)
+- [webgen-train-002643-R11](../../docs/requirements/train/train_002643.md): Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`). (explicit, code)
+- [webgen-train-002652-R7](../../docs/requirements/train/train_002652.md): Все компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-002670-R8](../../docs/requirements/train/train_002670.md): Компоненты интерфейса имеют цвет `teal` (`#008080`). (explicit, code)
+- [webgen-train-002677-R9](../../docs/requirements/train/train_002677.md): Детали компонентов имеют цвет `indigo` (`#4B0082`). (explicit, code)
+- [webgen-train-002678-R7](../../docs/requirements/train/train_002678.md): Компоненты интерфейса имеют цвет `deeppink` (`#FF1493`). (explicit, code)
+- [webgen-train-002681-R7](../../docs/requirements/train/train_002681.md): Компоненты интерфейса имеют цвет `dark turquoise` (`#00CED1`). (explicit, code)
+- [webgen-train-002706-R15](../../docs/requirements/train/train_002706.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-002712-R10](../../docs/requirements/train/train_002712.md): Кнопки и карточки имеют цвет `sandy brown` (`#F4A460`). (explicit, code)
+- [webgen-train-002748-R13](../../docs/requirements/train/train_002748.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-002766-R7](../../docs/requirements/train/train_002766.md): Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`). (explicit, code)
+- [webgen-train-002795-R12](../../docs/requirements/train/train_002795.md): Компоненты интерфейса имеют цвет `slate blue` (`#6A5ACD`). (explicit, code)
+- [webgen-train-002804-R10](../../docs/requirements/train/train_002804.md): Компоненты интерфейса имеют цвет `tomato` (`#FF6347`). (explicit, code)
+- [webgen-train-002859-R12](../../docs/requirements/train/train_002859.md): Компоненты интерфейса имеют цвет `cornflower blue` (`#6495ED`). (explicit, code)
+- [webgen-train-002889-R20](../../docs/requirements/train/train_002889.md): Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-002983-R16](../../docs/requirements/train/train_002983.md): Компоненты интерфейса имеют цвет `pale violet red` (`#DB7093`). (explicit, code)
+- [webgen-train-003061-R10](../../docs/requirements/train/train_003061.md): Компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-003080-R12](../../docs/requirements/train/train_003080.md): Компоненты интерфейса имеют цвет `dark sea green` (`#8FBC8F`). (explicit, code)
+- [webgen-train-003086-R10](../../docs/requirements/train/train_003086.md): Все компоненты интерфейса имеют цвет `dark red` (`#8B0000`). (explicit, code)
+- [webgen-train-003119-R18](../../docs/requirements/train/train_003119.md): Компоненты интерфейса имеют цвет `deep pink` (`#FF1493`). (explicit, code)
+- [webgen-train-003139-R14](../../docs/requirements/train/train_003139.md): Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-003142-R7](../../docs/requirements/train/train_003142.md): Компоненты интерфейса имеют цвет `dark salmon` (`#E9967A`). (explicit, code)
+- [webgen-train-003155-R14](../../docs/requirements/train/train_003155.md): Элементы управления имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-003166-R12](../../docs/requirements/train/train_003166.md): Компоненты интерфейса имеют цвет `slate blue` (`#6A5ACD`). (explicit, code)
+- [webgen-train-003193-R10](../../docs/requirements/train/train_003193.md): Все компоненты интерфейса имеют цвет `orangered` (`#FF4500`). (explicit, code)
+- [webgen-train-003259-R10](../../docs/requirements/train/train_003259.md): Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`). (explicit, code)
+- [webgen-train-003286-R18](../../docs/requirements/train/train_003286.md): Компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-003341-R17](../../docs/requirements/train/train_003341.md): Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`). (explicit, code)
+- [webgen-train-003348-R15](../../docs/requirements/train/train_003348.md): Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`). (explicit, code)
+- [webgen-train-003370-R11](../../docs/requirements/train/train_003370.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-003382-R8](../../docs/requirements/train/train_003382.md): Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-003411-R13](../../docs/requirements/train/train_003411.md): Все компоненты интерфейса имеют цвет `indian red` (`#CD5C5C`). (explicit, code)
+- [webgen-train-003449-R9](../../docs/requirements/train/train_003449.md): Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`). (explicit, code)
+- [webgen-train-003535-R9](../../docs/requirements/train/train_003535.md): Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`). (explicit, code)
+- [webgen-train-003587-R10](../../docs/requirements/train/train_003587.md): Компоненты интерфейса имеют цвет `dark goldenrod` (`#B8860B`). (explicit, code)
+- [webgen-train-003592-R10](../../docs/requirements/train/train_003592.md): Все компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-003621-R12](../../docs/requirements/train/train_003621.md): Все компоненты интерфейса имеют цвет `coral` (`#FF7F50`). (explicit, code)
+- [webgen-train-003634-R7](../../docs/requirements/train/train_003634.md): Компоненты интерфейса имеют цвет `midnight blue` (`#191970`). (explicit, code)
+- [webgen-train-003663-R12](../../docs/requirements/train/train_003663.md): Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`). (explicit, code)
+- [webgen-train-003673-R8](../../docs/requirements/train/train_003673.md): Все компоненты интерфейса имеют цвет `peru` (`#CD853F`). (explicit, code)
+- [webgen-train-003678-R13](../../docs/requirements/train/train_003678.md): Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-003680-R8](../../docs/requirements/train/train_003680.md): Компоненты интерфейса имеют цвет `midnight blue` (`#191970`). (explicit, code)
+- [webgen-train-003685-R14](../../docs/requirements/train/train_003685.md): Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`). (explicit, code)
+- [webgen-train-003759-R9](../../docs/requirements/train/train_003759.md): Компоненты интерфейса имеют цвет `coral` (`#FF7F50`). (explicit, code)
+- [webgen-train-003809-R9](../../docs/requirements/train/train_003809.md): Компоненты интерфейса имеют цвет `forest green` (`#228B22`). (explicit, code)
+- [webgen-train-003839-R12](../../docs/requirements/train/train_003839.md): Компоненты интерфейса имеют цвет `dark salmon` (`#E9967A`). (explicit, code)
+- [webgen-train-003852-R14](../../docs/requirements/train/train_003852.md): Элементы управления имеют цвет `dark teal`. (explicit, llm)
+- [webgen-train-003881-R7](../../docs/requirements/train/train_003881.md): Компоненты интерфейса имеют цвет `deeppink` (`#FF1493`). (explicit, code)
+- [webgen-train-003889-R16](../../docs/requirements/train/train_003889.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-003912-R10](../../docs/requirements/train/train_003912.md): Компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`). (explicit, code)
+- [webgen-train-003918-R14](../../docs/requirements/train/train_003918.md): Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`). (explicit, code)
+- [webgen-train-003982-R34](../../docs/requirements/train/train_003982.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-003987-R10](../../docs/requirements/train/train_003987.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-003990-R12](../../docs/requirements/train/train_003990.md): Компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`). (explicit, code)
+- [webgen-train-003999-R14](../../docs/requirements/train/train_003999.md): Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-004020-R15](../../docs/requirements/train/train_004020.md): Компоненты интерфейса имеют цвет `dark red` (`#8B0000`). (explicit, code)
+- [webgen-train-004035-R12](../../docs/requirements/train/train_004035.md): Компоненты интерфейса имеют цвет `crimson` (`#DC143C`). (explicit, code)
+- [webgen-train-004090-R8](../../docs/requirements/train/train_004090.md): Компоненты интерфейса имеют цвет `brown` (`#A52A2A`). (explicit, code)
+- [webgen-train-004145-R17](../../docs/requirements/train/train_004145.md): Компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-004161-R16](../../docs/requirements/train/train_004161.md): Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`). (explicit, code)
+- [webgen-train-004174-R10](../../docs/requirements/train/train_004174.md): Элементы управления имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-004280-R9](../../docs/requirements/train/train_004280.md): Компоненты интерфейса имеют цвет `brown` (`#A52A2A`). (explicit, code)
+- [webgen-train-004288-R9](../../docs/requirements/train/train_004288.md): Компоненты интерфейса имеют цвет `medium sea green` (`#3CB371`). (explicit, code)
+- [webgen-train-004345-R9](../../docs/requirements/train/train_004345.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-004388-R9](../../docs/requirements/train/train_004388.md): Компоненты интерфейса имеют цвет `medium turquoise` (`#48D1CC`). (explicit, code)
+- [webgen-train-004391-R16](../../docs/requirements/train/train_004391.md): Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`). (explicit, code)
+- [webgen-train-004462-R9](../../docs/requirements/train/train_004462.md): Блоки содержимого имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-004515-R7](../../docs/requirements/train/train_004515.md): Компоненты интерфейса имеют цвет `tomato` (`#FF6347`). (explicit, code)
+- [webgen-train-004535-R7](../../docs/requirements/train/train_004535.md): Блоки содержимого имеют цвет `teal` (`#008080`). (explicit, code)
+- [webgen-train-004592-R6](../../docs/requirements/train/train_004592.md): Элементы интерфейса имеют цвет `peru` (`#CD853F`). (explicit, llm)
+- [webgen-train-004603-R9](../../docs/requirements/train/train_004603.md): Все компоненты интерфейса имеют цвет `crimson` (`#DC143C`). (explicit, code)
+- [webgen-train-004627-R9](../../docs/requirements/train/train_004627.md): Компоненты интерфейса имеют цвет `orangered` (`#FF4500`). (explicit, code)
+- [webgen-train-004711-R10](../../docs/requirements/train/train_004711.md): Все компоненты интерфейса имеют цвет `deepskyblue` (`#00BFFF`). (explicit, code)
+- [webgen-train-004729-R9](../../docs/requirements/train/train_004729.md): Компоненты интерфейса имеют цвет `dark green` (`#006400`). (explicit, code)
+- [webgen-train-004764-R7](../../docs/requirements/train/train_004764.md): Компоненты интерфейса имеют цвет `gold` (`#FFD700`). (explicit, code)
+- [webgen-train-004765-R8](../../docs/requirements/train/train_004765.md): Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`). (explicit, code)
+- [webgen-train-004786-R8](../../docs/requirements/train/train_004786.md): Компоненты интерфейса имеют цвет `dark teal`. (explicit, llm)
+- [webgen-train-004791-R9](../../docs/requirements/train/train_004791.md): Компоненты интерфейса имеют цвет `midnight blue` (`#191970`). (explicit, code)
+- [webgen-train-004856-R7](../../docs/requirements/train/train_004856.md): Компоненты интерфейса имеют цвет `forest green` (`#228B22`). (explicit, code)
+- [webgen-train-004895-R8](../../docs/requirements/train/train_004895.md): Выделения компонентов имеют цвет `dark moss green`. (explicit, llm)
+- [webgen-train-004922-R8](../../docs/requirements/train/train_004922.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-004927-R11](../../docs/requirements/train/train_004927.md): Выделения компонентов имеют цвет `brown` (`#A52A2A`). (explicit, code)
+- [webgen-train-004943-R8](../../docs/requirements/train/train_004943.md): Компоненты интерфейса имеют цвет `forest green` (`#228B22`). (explicit, code)
+- [webgen-train-004951-R6](../../docs/requirements/train/train_004951.md): Компоненты интерфейса имеют цвет `tomato` (`#FF6347`). (explicit, code)
+- [webgen-train-004959-R8](../../docs/requirements/train/train_004959.md): Компоненты интерфейса имеют цвет `seagreen` (`#2E8B57`). (explicit, code)
+- [webgen-train-004960-R8](../../docs/requirements/train/train_004960.md): Компоненты интерфейса имеют цвет `midnight blue` (`#191970`). (explicit, code)
+- [webgen-train-004971-R11](../../docs/requirements/train/train_004971.md): Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-004983-R12](../../docs/requirements/train/train_004983.md): Компоненты интерфейса имеют цвет `slate gray` (`#708090`). (explicit, code)
+- [webgen-train-005051-R12](../../docs/requirements/train/train_005051.md): Компоненты интерфейса имеют цвет `dark turquoise` (`#00CED1`). (explicit, code)
+- [webgen-train-005121-R11](../../docs/requirements/train/train_005121.md): Все компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-005173-R11](../../docs/requirements/train/train_005173.md): Компоненты интерфейса имеют цвет `dark goldenrod` (`#B8860B`). (explicit, code)
+- [webgen-train-005193-R10](../../docs/requirements/train/train_005193.md): Все компоненты интерфейса имеют цвет `steel blue` (`#4682B4`). (explicit, code)
+- [webgen-train-005199-R12](../../docs/requirements/train/train_005199.md): Все компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-005220-R7](../../docs/requirements/train/train_005220.md): Все компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-005234-R12](../../docs/requirements/train/train_005234.md): Компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`). (explicit, code)
+- [webgen-train-005247-R8](../../docs/requirements/train/train_005247.md): Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`). (explicit, code)
+- [webgen-train-005271-R9](../../docs/requirements/train/train_005271.md): Детали компонентов имеют цвет `green` (`#008000`). (explicit, code)
+- [webgen-train-005370-R10](../../docs/requirements/train/train_005370.md): Компоненты интерфейса имеют цвет `crimson` (`#DC143C`). (explicit, code)
+- [webgen-train-005397-R10](../../docs/requirements/train/train_005397.md): Компоненты интерфейса имеют цвет `charcoal`. (explicit, llm)
+- [webgen-train-005400-R12](../../docs/requirements/train/train_005400.md): Компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-005450-R10](../../docs/requirements/train/train_005450.md): Детали компонентов имеют цвет `sea green` (`#2E8B57`). (explicit, code)
+- [webgen-train-005486-R11](../../docs/requirements/train/train_005486.md): Компоненты интерфейса имеют цвет `medium violet red` (`#C71585`). (explicit, code)
+- [webgen-train-005496-R8](../../docs/requirements/train/train_005496.md): Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`). (explicit, code)
+- [webgen-train-005551-R11](../../docs/requirements/train/train_005551.md): Детали компонентов имеют цвет `tan` (`#D2B48C`). (explicit, code)
+- [webgen-train-005570-R6](../../docs/requirements/train/train_005570.md): Все компоненты интерфейса имеют цвет `dark goldenrod` (`#B8860B`). (explicit, code)
+- [webgen-train-005583-R10](../../docs/requirements/train/train_005583.md): Компоненты интерфейса имеют цвет `peru` (`#CD853F`). (explicit, code)
+- [webgen-train-005592-R14](../../docs/requirements/train/train_005592.md): Компоненты интерфейса имеют цвет `medium blue` (`#0000CD`). (explicit, code)
+- [webgen-train-005639-R11](../../docs/requirements/train/train_005639.md): Компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-005640-R8](../../docs/requirements/train/train_005640.md): Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`). (explicit, code)
+- [webgen-train-005643-R8](../../docs/requirements/train/train_005643.md): Компоненты интерфейса имеют цвет `slate gray` (`#708090`). (explicit, code)
+- [webgen-train-005653-R11](../../docs/requirements/train/train_005653.md): Компоненты интерфейса имеют цвет `sandy brown` (`#F4A460`). (explicit, code)
+- [webgen-train-005738-R7](../../docs/requirements/train/train_005738.md): Компоненты интерфейса имеют цвет `coral` (`#FF7F50`). (explicit, code)
+- [webgen-train-005751-R5](../../docs/requirements/train/train_005751.md): Компоненты интерфейса имеют цвет `forest green` (`#228B22`). (explicit, code)
+- [webgen-train-005810-R6](../../docs/requirements/train/train_005810.md): Все компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-005847-R8](../../docs/requirements/train/train_005847.md): Все компоненты интерфейса имеют цвет `maroon` (`#800000`). (explicit, code)
+- [webgen-train-005848-R14](../../docs/requirements/train/train_005848.md): Компоненты интерфейса имеют цвет `slate blue` (`#6A5ACD`). (explicit, code)
+- [webgen-train-005859-R11](../../docs/requirements/train/train_005859.md): Все компоненты интерфейса имеют цвет `teal` (`#008080`). (explicit, code)
+- [webgen-train-005893-R13](../../docs/requirements/train/train_005893.md): Компоненты интерфейса имеют цвет `dark orchid` (`#9932CC`). (explicit, code)
+- [webgen-train-005922-R8](../../docs/requirements/train/train_005922.md): Компоненты интерфейса имеют цвет `sandy brown` (`#F4A460`). (explicit, code)
+- [webgen-train-005968-R8](../../docs/requirements/train/train_005968.md): Компоненты интерфейса имеют цвет `olive drab` (`#6B8E23`). (explicit, code)
+- [webgen-train-006001-R14](../../docs/requirements/train/train_006001.md): Компоненты интерфейса имеют цвет `medium purple` (`#9370DB`). (explicit, code)
+- [webgen-train-006063-R14](../../docs/requirements/train/train_006063.md): Все компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`). (explicit, code)
+- [webgen-train-006122-R11](../../docs/requirements/train/train_006122.md): Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-006148-R15](../../docs/requirements/train/train_006148.md): Компоненты интерфейса имеют цвет `dark teal`. (explicit, llm)
+- [webgen-train-006153-R14](../../docs/requirements/train/train_006153.md): Компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`). (explicit, code)
+- [webgen-train-006161-R9](../../docs/requirements/train/train_006161.md): Компоненты интерфейса имеют цвет `goldenrod` (`#DAA520`). (explicit, code)
+- [webgen-train-006180-R10](../../docs/requirements/train/train_006180.md): Компоненты интерфейса имеют цвет `dark turquoise` (`#00CED1`). (explicit, code)
+- [webgen-train-006217-R13](../../docs/requirements/train/train_006217.md): Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`). (explicit, code)
+- [webgen-train-006226-R18](../../docs/requirements/train/train_006226.md): Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`). (explicit, code)
+- [webgen-train-006231-R12](../../docs/requirements/train/train_006231.md): Все компоненты интерфейса имеют цвет `midnight blue` (`#191970`). (explicit, code)
+- [webgen-train-006239-R16](../../docs/requirements/train/train_006239.md): Компоненты интерфейса имеют цвет `brown` (`#A52A2A`). (explicit, code)
+- [webgen-train-006246-R11](../../docs/requirements/train/train_006246.md): Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-006253-R12](../../docs/requirements/train/train_006253.md): Компоненты интерфейса имеют цвет `brown` (`#A52A2A`). (explicit, code)
+- [webgen-train-006269-R16](../../docs/requirements/train/train_006269.md): Все компоненты интерфейса имеют цвет `orangered` (`#FF4500`). (explicit, code)
+- [webgen-train-006276-R21](../../docs/requirements/train/train_006276.md): Детали компонентов имеют цвет `seagreen` (`#2E8B57`). (explicit, code)
+- [webgen-train-006278-R11](../../docs/requirements/train/train_006278.md): Компоненты интерфейса имеют цвет `slate gray` (`#708090`). (explicit, code)
+- [webgen-train-006333-R11](../../docs/requirements/train/train_006333.md): Компоненты интерфейса имеют цвет `dark violet` (`#9400D3`). (explicit, code)
+- [webgen-train-006345-R14](../../docs/requirements/train/train_006345.md): Компоненты интерфейса имеют цвет `sienna` (`#A0522D`). (explicit, code)
+- [webgen-train-006354-R10](../../docs/requirements/train/train_006354.md): Компоненты интерфейса имеют цвет `slate gray` (`#708090`). (explicit, code)
+- [webgen-train-006379-R11](../../docs/requirements/train/train_006379.md): Все компоненты интерфейса имеют цвет `dodger blue` (`#1E90FF`). (explicit, code)
+- [webgen-train-006398-R13](../../docs/requirements/train/train_006398.md): Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`). (explicit, code)
+- [webgen-train-006470-R12](../../docs/requirements/train/train_006470.md): Компоненты интерфейса имеют цвет `dim gray` (`#696969`). (explicit, code)
+- [webgen-train-006472-R14](../../docs/requirements/train/train_006472.md): Все компоненты интерфейса имеют цвет `royal blue` (`#4169E1`). (explicit, code)
+- [webgen-train-006497-R16](../../docs/requirements/train/train_006497.md): Компоненты интерфейса имеют цвет `dark salmon` (`#E9967A`). (explicit, code)
+- [webgen-train-006536-R9](../../docs/requirements/train/train_006536.md): Компоненты интерфейса имеют цвет `tomato` (`#FF6347`). (explicit, code)
+- [webgen-train-006581-R15](../../docs/requirements/train/train_006581.md): Компоненты интерфейса имеют цвет `navy` (`#000080`). (explicit, code)
+- [webgen-train-006592-R13](../../docs/requirements/train/train_006592.md): Компоненты интерфейса имеют цвет `olive` (`#808000`). (explicit, code)
+- [webgen-train-006596-R11](../../docs/requirements/train/train_006596.md): Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`). (explicit, code)
+- [webgen-train-006599-R9](../../docs/requirements/train/train_006599.md): Компоненты интерфейса имеют цвет `dark salmon` (`#E9967A`). (explicit, code)
+- [webgen-train-006607-R11](../../docs/requirements/train/train_006607.md): Выделения компонентов имеют цвет `brown` (`#A52A2A`). (explicit, code)
+- [webgen-train-006622-R11](../../docs/requirements/train/train_006622.md): Компоненты интерфейса имеют цвет `dark goldenrod` (`#B8860B`). (explicit, code)
+
+## Адаптивность интерфейса — ui.responsive
+
+Поддержка мобильного браузера и отдельное мобильное приложение различаются; не придумывать размеры экрана.
+
+- [webgen-train-000317-R4](../../docs/requirements/train/train_000317.md): Система должна адаптироваться к разным разрешениям экранов. (explicit, llm)
+- [webgen-train-000467-R2](../../docs/requirements/train/train_000467.md): Система должна адаптировать компоновку к разным экранам, включая мобильные устройства. (explicit, llm)
+- [webgen-train-002494-R4](../../docs/requirements/train/train_002494.md): Пользователь может размещать адаптивные семейства вдоль трасс. (explicit, code)
+- [webgen-train-002509-R1](../../docs/requirements/train/train_002509.md): Система должна обеспечивать адаптивную компоновку при доступе с разных устройств. (explicit, llm)
+- [webgen-train-002636-R9](../../docs/requirements/train/train_002636.md): Система должна адаптировать оформление к разным устройствам и размерам экранов. (explicit, llm)
+- [webgen-train-002670-R6](../../docs/requirements/train/train_002670.md): Система должна обеспечивать адаптивность на разных устройствах и размерах экранов. (explicit, llm)
+- [webgen-train-002706-R13](../../docs/requirements/train/train_002706.md): Система должна адаптировать оформление к разным устройствам и размерам экранов. (explicit, llm)
+- [webgen-train-002712-R5](../../docs/requirements/train/train_002712.md): Система должна адаптировать оформление к разным устройствам и размерам экранов. (explicit, llm)
+- [webgen-train-002748-R11](../../docs/requirements/train/train_002748.md): Система должна обеспечивать адаптивное оформление. (explicit, llm)
+- [webgen-train-002795-R4](../../docs/requirements/train/train_002795.md): Система должна адаптировать оформление к разным устройствам. (explicit, llm)
+- [webgen-train-003535-R3](../../docs/requirements/train/train_003535.md): Система должна корректно адаптироваться к мобильным устройствам. (explicit, llm)
+- [webgen-train-006379-R5](../../docs/requirements/train/train_006379.md): Учащийся может проходить экзамены с мобильного устройства. (explicit, code)
+
+## Пока без группы
+
+- [webgen-011-R2.2](../../docs/requirements/11.md): Пользователь может просматривать финансы команды и выполнять действия, изменяющие их.
+- [webgen-011-R2.3.1](../../docs/requirements/11.md): Выбранная стратегия команды учитывается при симуляции матча.
+- [webgen-011-R2.4.1](../../docs/requirements/11.md): Симуляция матча использует выбранный игровой состав или порядок отбивания.
+- [webgen-011-R3](../../docs/requirements/11.md): Пользователь может запускать симуляцию бейсбольного матча.
+- [webgen-011-R3.1](../../docs/requirements/11.md): Симуляция рассчитывает ход матча и его итоговый счёт.
+- [webgen-011-R3.1.1](../../docs/requirements/11.md): Игровые события и состояния симуляции соответствуют бейсболу.
+- [webgen-011-R3.2](../../docs/requirements/11.md): Пользователь видит обновления хода матча во время симуляции.
+- [webgen-011-R3.3](../../docs/requirements/11.md): Пользователь может просмотреть команды и итоговый счёт завершённого матча.
+- [webgen-011-R3.3.1](../../docs/requirements/11.md): Отображаемый итоговый счёт совпадает с результатом симуляции.
+- [webgen-012-R1.1](../../docs/requirements/12.md): Пользователь может начать новую игру: предыдущая партия заменяется начальным игровым состоянием, игра активна.
+- [webgen-012-R1.1.2](../../docs/requirements/12.md): В начале игры на доске находятся ровно две плитки со значениями 2 или 4.
+- [webgen-012-R1.2](../../docs/requirements/12.md): Пользователь может перемещать плитки вверх, вниз, влево и вправо.
+- [webgen-012-R1.2.1](../../docs/requirements/12.md): При движении вверх плитки сдвигаются к верхней границе, сохраняя порядок в столбцах, кроме слияний.
+- [webgen-012-R1.2.2](../../docs/requirements/12.md): При движении вниз плитки сдвигаются к нижней границе, сохраняя порядок в столбцах, кроме слияний.
+- [webgen-012-R1.2.3](../../docs/requirements/12.md): При движении влево плитки сдвигаются к левой границе, сохраняя порядок в строках, кроме слияний.
+- [webgen-012-R1.2.4](../../docs/requirements/12.md): При движении вправо плитки сдвигаются к правой границе, сохраняя порядок в строках, кроме слияний.
+- [webgen-012-R1.2.5](../../docs/requirements/12.md): После хода, изменившего доску, в случайной свободной ячейке появляется ровно одна новая плитка со значением 2 или 4.
+- [webgen-012-R1.2.6](../../docs/requirements/12.md): Команда движения, не изменяющая доску, не создаёт новую плитку.
+- [webgen-012-R1.3](../../docs/requirements/12.md): Две одинаковые плитки, столкнувшиеся при движении, объединяются в одну с удвоенным значением.
+- [webgen-012-R1.3.2](../../docs/requirements/12.md): Плитки с разными значениями не объединяются.
+- [webgen-012-R1.3.3](../../docs/requirements/12.md): Плитка, созданная слиянием, не объединяется повторно в том же ходу.
+- [webgen-012-R1.4.1](../../docs/requirements/12.md): При появлении плитки 2048 приложение обозначает победу.
+- [webgen-012-R1.4.2](../../docs/requirements/12.md): Приложение обозначает окончание игры, когда нет ходов, позволяющих сдвинуть или объединить плитки.
+- [webgen-012-R1.4.3](../../docs/requirements/12.md): После окончания игры пользователь может активировать возрождение.
+- [webgen-012-R1.4.4](../../docs/requirements/12.md): Возрождение снимает состояние окончания игры, сохраняет часть прогресса и позволяет сделать ход, изменяющий доску.
+- [webgen-012-R2.3](../../docs/requirements/12.md): Игровая доска содержит 16 ячеек, расположенных в четыре строки и четыре столбца.
+- [webgen-016-R1.1](../../docs/requirements/16.md): Введение, отзывы, предложения и сведения о компании доступны на одной странице.
+- [webgen-016-R2.1](../../docs/requirements/16.md): На странице есть видимый непустой раздел введения в Fundraiser Day.
+- [webgen-016-R2.1.1](../../docs/requirements/16.md): Введение объясняет, что такое Fundraiser Day и с какой целью он проводится.
+- [webgen-016-R2.2](../../docs/requirements/16.md): На странице есть видимый раздел с непустыми текстами отзывов.
+- [webgen-016-R2.2.1](../../docs/requirements/16.md): Отзывы описывают опыт или мнение участников сбора средств.
+- [webgen-016-R2.3](../../docs/requirements/16.md): На странице есть непустые предложения, доступные для просмотра.
+- [webgen-016-R2.3.1](../../docs/requirements/16.md): Каждое предложение объясняет, что предлагается и как это связано с Fundraiser Day.
+- [webgen-016-R2.3.2](../../docs/requirements/16.md): Карусель показывает предложения и при перемещении открывает разные предложения.
+- [webgen-016-R2.3.3](../../docs/requirements/16.md): Карусель автоматически меняет отображаемые предложения без действий пользователя.
+- [webgen-016-R2.4](../../docs/requirements/16.md): На странице есть видимый непустой раздел со сведениями о компании.
+- [webgen-016-R2.4.1](../../docs/requirements/16.md): Сведения о компании позволяют понять, чем она занимается.
+- [webgen-026-R2](../../docs/requirements/26.md): Пользователь может опубликовать акцию через форму.
+- [webgen-026-R2.2](../../docs/requirements/26.md): Опубликованная акция доступна для просмотра другим пользователям.
+- [webgen-028-R1](../../docs/requirements/28.md): Пользователь может просматривать публикации форума.
+- [webgen-028-R1.1](../../docs/requirements/28.md): Пользователь может просмотреть полный текст выбранной публикации.
+- [webgen-028-R2.1](../../docs/requirements/28.md): Созданная публикация появляется среди публикаций форума.
+- [webgen-028-R3](../../docs/requirements/28.md): Пользователь может отвечать на чужие публикации.
+- [webgen-028-R5](../../docs/requirements/28.md): Пользователь может просматривать публикации по выбранной категории.
+- [webgen-028-R5.1](../../docs/requirements/28.md): При выборе категории отображаются только публикации этой категории.
+- [webgen-028-R6.1](../../docs/requirements/28.md): В личном кабинете пользователь может просматривать свои публикации.
+- [webgen-028-R6.2](../../docs/requirements/28.md): В личном кабинете пользователь может просматривать историю своих ответов.
+- [webgen-047-R1.1](../../docs/requirements/47.md): При начале работы система сохраняет дату и время начала, связанные с текущим сотрудником.
+- [webgen-047-R1.2](../../docs/requirements/47.md): При окончании работы система сохраняет дату и время окончания и закрывает открытый период текущего сотрудника.
+- [webgen-047-R2.1](../../docs/requirements/47.md): Сотрудник может просматривать свою историю посещаемости с датами и отметками начала и окончания работы.
+- [webgen-047-R2.2](../../docs/requirements/47.md): В истории отображается продолжительность присутствия сотрудника.
+- [webgen-047-R2.3](../../docs/requirements/47.md): В истории отображается продолжительность отсутствия сотрудника.
+- [webgen-049-R1.1](../../docs/requirements/49.md): Вопросы анкеты относятся к сбору информации о здоровье женщин.
+- [webgen-049-R3](../../docs/requirements/49.md): В системе доступны просмотр собранных анкет и действия по управлению ими.
+- [webgen-049-R3.1](../../docs/requirements/49.md): При просмотре анкеты отображаются ответы, отправленные пользователем.
+- [webgen-049-R5](../../docs/requirements/49.md): В системе можно проверять собранные анкеты и фиксировать результат проверки.
+- [webgen-057-R1](../../docs/requirements/57.md): Пользователь может пройти оценку личности.
+- [webgen-057-R1.1](../../docs/requirements/57.md): Вопросы оценки направлены на выявление личностных особенностей пользователя.
+- [webgen-057-R1.2](../../docs/requirements/57.md): После завершения оценки пользователь получает результат на основе своих ответов.
+- [webgen-057-R3.2](../../docs/requirements/57.md): Пользователь может просмотреть сведения о коуче, позволяющие оценить его соответствие своим потребностям.
+- [webgen-057-R3.3](../../docs/requirements/57.md): Система подбирает коучей или наставников с учётом данных или предпочтений пользователя.
+- [webgen-058-R1.1](../../docs/requirements/58.md): Созданная группа доступна другим пользователям для вступления.
+- [webgen-058-R2](../../docs/requirements/58.md): Пользователь может вступать в существующие учебные группы.
+- [webgen-058-R2.1](../../docs/requirements/58.md): После вступления пользователь отображается как участник выбранной группы.
+- [webgen-058-R3](../../docs/requirements/58.md): Пользователь может делиться учебными ресурсами в группе.
+- [webgen-058-R3.1](../../docs/requirements/58.md): Ресурс, которым поделился пользователь, доступен другим участникам группы.
+- [webgen-058-R4](../../docs/requirements/58.md): Пользователи могут совместно обсуждать проекты.
+- [webgen-072-R1.1](../../docs/requirements/72.md): На странице отображаются добавленные пользователем ссылки.
+- [webgen-072-R1.2](../../docs/requirements/72.md): Каждая отображаемая ссылка позволяет перейти по заданному адресу.
+- [webgen-072-R3.1](../../docs/requirements/72.md): После редактирования ссылка отображает актуальные данные и ведёт по обновлённому адресу.
+- [webgen-072-R5](../../docs/requirements/72.md): Пользователь может получить ссылку для доступа к своей подборке.
+- [webgen-072-R5.1](../../docs/requirements/72.md): Другой пользователь может открыть подборку по её общей ссылке и просмотреть добавленные ссылки.
+- [webgen-082-R1.1](../../docs/requirements/82.md): Отображаемая информация позволяет определить дело и понять его содержание.
+- [webgen-082-R2](../../docs/requirements/82.md): Пользователь может вносить и сохранять данные по делу.
+- [webgen-082-R2.1](../../docs/requirements/82.md): Сохранённые данные доступны при повторном открытии дела.
+- [webgen-082-R4](../../docs/requirements/82.md): Пользователь может записывать отработанное время.
+- [webgen-082-R4.1](../../docs/requirements/82.md): Записи рабочего времени связаны с соответствующими делами и доступны для просмотра.
+- [webgen-082-R4.2](../../docs/requirements/82.md): Система подсчитывает суммарное рабочее время по записям.
+- [webgen-082-R5](../../docs/requirements/82.md): Система формирует предварительную смету расходов по делу.
+- [webgen-082-R5.1](../../docs/requirements/82.md): Пользователь может просматривать сформированную смету расходов.
+- [webgen-082-R5.2](../../docs/requirements/82.md): Смета содержит предполагаемые расходы и их суммы.
+- [webgen-082-R6](../../docs/requirements/82.md): Пользователь может просматривать лист служебного задания по делу.
+- [webgen-082-R6.1](../../docs/requirements/82.md): Лист служебного задания содержит назначенную работу и её исполнителя.
+- [webgen-084-R1.1](../../docs/requirements/84.md): Пользователь может просматривать и изменять данные созданного проекта.
+- [webgen-084-R3](../../docs/requirements/84.md): Пользователь может задавать сроки выполнения проекта.
+- [webgen-084-R5](../../docs/requirements/84.md): Пользователь может рассчитывать предварительную стоимость проекта.
+- [webgen-084-R5.1](../../docs/requirements/84.md): Итоговая оценка стоимости пересчитывается при изменении исходных затрат.
+- [webgen-084-R6](../../docs/requirements/84.md): Пользователь может записывать затраченное на проект рабочее время.
+- [webgen-084-R6.1](../../docs/requirements/84.md): Пользователь может просматривать записи рабочего времени по проекту.
+- [webgen-084-R7](../../docs/requirements/84.md): Пользователь может просматривать прогресс проекта.
+- [webgen-084-R7.1](../../docs/requirements/84.md): Прогресс проекта обновляется при изменении данных о выполнении работ.
+- [webgen-092-R1](../../docs/requirements/92.md): На сайте отображается название «World of Imagination».
+- [webgen-092-R2](../../docs/requirements/92.md): Пользователь может просматривать творческие работы других пользователей.
+- [webgen-092-R2.1](../../docs/requirements/92.md): Представленные работы содержат творческий контент и связаны с их авторами.
+- [webgen-092-R5](../../docs/requirements/92.md): Пользователь может взаимодействовать с другими пользователями.
+- [webgen-092-R5.1](../../docs/requirements/92.md): Действие взаимодействия связано с конкретным пользователем или его публикацией и имеет видимый результат.
+- [webgen-096-R1](../../docs/requirements/96.md): Пользователь может просматривать туристические достопримечательности и кемпинги Европы.
+- [webgen-096-R1.1](../../docs/requirements/96.md): Представленные объекты расположены в Европе и содержат сведения, позволяющие понять, что это за место.
+- [webgen-096-R1.2](../../docs/requirements/96.md): Пользователь может просматривать объекты по выбранной стране и городу.
+- [webgen-096-R4](../../docs/requirements/96.md): Пользователь может оставлять отзывы о достопримечательностях и кемпингах.
+- [webgen-096-R4.1](../../docs/requirements/96.md): Опубликованный отзыв отображается у соответствующего объекта и доступен другим пользователям.
+- [webgen-097-R1](../../docs/requirements/97.md): Пользователь может просматривать автомобили разных типов, доступные для аренды.
+- [webgen-097-R2.1](../../docs/requirements/97.md): Пользователь может выбрать даты и время начала и окончания аренды.
+- [webgen-train-000001-R3](../../docs/requirements/train/train_000001.md): Пользователь может оформлять возврат средств.
+- [webgen-train-000001-R6](../../docs/requirements/train/train_000001.md): Пользователь может открывать центр продвижения.
+- [webgen-train-000001-R7](../../docs/requirements/train/train_000001.md): Пользователь может просматривать условия комиссионного вознаграждения.
+- [webgen-train-000001-R8](../../docs/requirements/train/train_000001.md): Пользователь может входить через свою учётную запись WeChat.
+- [webgen-train-000001-R9](../../docs/requirements/train/train_000001.md): Пользователь может просматривать услуги медицинского сопровождения.
+- [webgen-train-000001-R10](../../docs/requirements/train/train_000001.md): Пользователь может выбирать услуги.
+- [webgen-train-000026-R2](../../docs/requirements/train/train_000026.md): Пользователь может просматривать расход мобильного трафика.
+- [webgen-train-000026-R4](../../docs/requirements/train/train_000026.md): Пользователь может просматривать баланс счёта.
+- [webgen-train-000026-R5](../../docs/requirements/train/train_000026.md): Пользователь может управлять использованием мобильного трафика.
+- [webgen-train-000026-R6](../../docs/requirements/train/train_000026.md): Система должна диагностировать проблемы использования.
+- [webgen-train-000026-R7](../../docs/requirements/train/train_000026.md): Система должна помогать устранять обнаруженные проблемы.
+- [webgen-train-000026-R8](../../docs/requirements/train/train_000026.md): Система должна предоставлять мобильные услуги пользователям разных стран.
+- [webgen-train-000091-R1](../../docs/requirements/train/train_000091.md): Система должна преобразовывать файл Figma в шаблон Elementor для WordPress.
+- [webgen-train-000091-R5](../../docs/requirements/train/train_000091.md): Пользователь может выбирать параметры преобразования.
+- [webgen-train-000091-R7](../../docs/requirements/train/train_000091.md): Пользователь может управлять историей преобразований.
+- [webgen-train-000098-R1](../../docs/requirements/train/train_000098.md): Система должна создавать форму по конфигурационным данным.
+- [webgen-train-000098-R2](../../docs/requirements/train/train_000098.md): Система должна поддерживать текстовые поля.
+- [webgen-train-000098-R3](../../docs/requirements/train/train_000098.md): Система должна поддерживать списки выбора.
+- [webgen-train-000098-R4](../../docs/requirements/train/train_000098.md): Система должна поддерживать флажки.
+- [webgen-train-000098-R7](../../docs/requirements/train/train_000098.md): Пользователь может предварительно просматривать форму в реальном времени.
+- [webgen-train-000098-R8](../../docs/requirements/train/train_000098.md): Система должна проверять введённые данные.
+- [webgen-train-000112-R1](../../docs/requirements/train/train_000112.md): Система должна разбирать данные табличных файлов.
+- [webgen-train-000112-R2](../../docs/requirements/train/train_000112.md): Система должна преобразовывать формат данных.
+- [webgen-train-000112-R4](../../docs/requirements/train/train_000112.md): Пользователь может выбирать формат разбора и преобразования.
+- [webgen-train-000112-R5](../../docs/requirements/train/train_000112.md): Пользователь может запускать пакетную обработку.
+- [webgen-train-000130-R1](../../docs/requirements/train/train_000130.md): Пользователь может вводить китайский текст.
+- [webgen-train-000130-R2](../../docs/requirements/train/train_000130.md): Пользователь может просматривать результат сегментации.
+- [webgen-train-000130-R3](../../docs/requirements/train/train_000130.md): Система должна автоматически разбивать китайский текст на слова.
+- [webgen-train-000130-R4](../../docs/requirements/train/train_000130.md): Система должна поддерживать UTF-8.
+- [webgen-train-000130-R5](../../docs/requirements/train/train_000130.md): Система должна поддерживать GBK.
+- [webgen-train-000130-R6](../../docs/requirements/train/train_000130.md): Система должна обеспечивать высокую производительность.
+- [webgen-train-000130-R7](../../docs/requirements/train/train_000130.md): Пользователь может выбирать режим сегментации.
+- [webgen-train-000130-R8](../../docs/requirements/train/train_000130.md): Пользователь может настраивать словарь сегментации.
+- [webgen-train-000153-R5](../../docs/requirements/train/train_000153.md): Пользователь может отправлять обратную связь.
+- [webgen-train-000215-R1](../../docs/requirements/train/train_000215.md): Система должна собирать сведения о потенциальных клиентах.
+- [webgen-train-000215-R2](../../docs/requirements/train/train_000215.md): Система должна распределять потенциальных клиентов по категориям.
+- [webgen-train-000215-R3](../../docs/requirements/train/train_000215.md): Система должна поддерживать дальнейшее сопровождение потенциальных клиентов.
+- [webgen-train-000215-R5.1](../../docs/requirements/train/train_000215.md): Пользователь может просматривать услуги веб-дизайна и разработки.
+- [webgen-train-000215-R5.2](../../docs/requirements/train/train_000215.md): Пользователь может просматривать услуги SEO.
+- [webgen-train-000215-R5.3](../../docs/requirements/train/train_000215.md): Пользователь может просматривать услуги маркетинга в социальных сетях.
+- [webgen-train-000215-R5.4](../../docs/requirements/train/train_000215.md): Пользователь может просматривать услуги виртуального помощника.
+- [webgen-train-000215-R6](../../docs/requirements/train/train_000215.md): Пользователь может отправлять сведения о потенциальном клиенте.
+- [webgen-train-000215-R7](../../docs/requirements/train/train_000215.md): Пользователь может отслеживать состояние потенциального клиента.
+- [webgen-train-000219-R3](../../docs/requirements/train/train_000219.md): Пользователь может восстановить доступ к паролю.
+- [webgen-train-000219-R4](../../docs/requirements/train/train_000219.md): Пользователь может сбросить пароль.
+- [webgen-train-000219-R5](../../docs/requirements/train/train_000219.md): Пользователь может согласовывать товары.
+- [webgen-train-000219-R6](../../docs/requirements/train/train_000219.md): Пользователь может привязывать инфлюенсеров.
+- [webgen-train-000219-R7](../../docs/requirements/train/train_000219.md): Пользователь может публиковать товары на витрине.
+- [webgen-train-000219-R8](../../docs/requirements/train/train_000219.md): Пользователь может снимать товары с витрины.
+- [webgen-train-000219-R9](../../docs/requirements/train/train_000219.md): Пользователь может управлять каналами доставки.
+- [webgen-train-000219-R11](../../docs/requirements/train/train_000219.md): Пользователь может просматривать исторические записи.
+- [webgen-train-000219-R13](../../docs/requirements/train/train_000219.md): Система должна отображать карусель.
+- [webgen-train-000219-R15](../../docs/requirements/train/train_000219.md): Система должна поддерживать динамическую маршрутизацию.
+- [webgen-train-000238-R3](../../docs/requirements/train/train_000238.md): Пользователь может просматривать задания.
+- [webgen-train-000238-R4](../../docs/requirements/train/train_000238.md): Пользователь может выполнять задания для получения корма.
+- [webgen-train-000238-R5](../../docs/requirements/train/train_000238.md): Пользователь может кормить кур.
+- [webgen-train-000238-R6](../../docs/requirements/train/train_000238.md): Пользователь может собирать яйца.
+- [webgen-train-000238-R7](../../docs/requirements/train/train_000238.md): Пользователь может обменивать яйца на товары.
+- [webgen-train-000239-R1](../../docs/requirements/train/train_000239.md): Система должна поддерживать вход с мобильной авторизацией.
+- [webgen-train-000239-R3](../../docs/requirements/train/train_000239.md): Пользователь может играть в «Ударь крота».
+- [webgen-train-000239-R4](../../docs/requirements/train/train_000239.md): Пользователь может получать игровые награды.
+- [webgen-train-000239-R5](../../docs/requirements/train/train_000239.md): Пользователь может отправлять другим пользователям подарочные конверты.
+- [webgen-train-000239-R6](../../docs/requirements/train/train_000239.md): Пользователь может просматривать игровые записи.
+- [webgen-train-000244-R1](../../docs/requirements/train/train_000244.md): Система должна предоставлять двумерную игру с боковой прокруткой.
+- [webgen-train-000244-R2](../../docs/requirements/train/train_000244.md): Система должна использовать название «Three Kingdoms War Chronicles».
+- [webgen-train-000244-R3](../../docs/requirements/train/train_000244.md): Система должна поддерживать пошаговый бой.
+- [webgen-train-000244-R4](../../docs/requirements/train/train_000244.md): Пользователь может выбирать персонажа.
+- [webgen-train-000244-R5](../../docs/requirements/train/train_000244.md): Пользователь может применять навыки персонажа.
+- [webgen-train-000244-R6](../../docs/requirements/train/train_000244.md): Пользователь может участвовать в боях.
+- [webgen-train-000244-R7](../../docs/requirements/train/train_000244.md): Пользователь может просматривать ход игры.
+- [webgen-train-000244-R8](../../docs/requirements/train/train_000244.md): Система должна показывать таблицу лидеров.
+- [webgen-train-000244-R9](../../docs/requirements/train/train_000244.md): Система должна предоставлять игровой магазин.
+- [webgen-train-000244-R10](../../docs/requirements/train/train_000244.md): Система должна поддерживать повышение уровня персонажа.
+- [webgen-train-000286-R1](../../docs/requirements/train/train_000286.md): Система должна поддерживать общение в реальном времени.
+- [webgen-train-000286-R2](../../docs/requirements/train/train_000286.md): Система должна обеспечивать стабильные соединения.
+- [webgen-train-000286-R3](../../docs/requirements/train/train_000286.md): Система должна поддерживать асинхронную обработку.
+- [webgen-train-000286-R4](../../docs/requirements/train/train_000286.md): Система должна предоставлять защитные меры.
+- [webgen-train-000286-R6](../../docs/requirements/train/train_000286.md): Учащийся может просматривать курсы.
+- [webgen-train-000286-R7](../../docs/requirements/train/train_000286.md): Учащийся может участвовать во взаимодействиях на занятии.
+- [webgen-train-000286-R8](../../docs/requirements/train/train_000286.md): Учащийся может отправлять задания.
+- [webgen-train-000286-R9](../../docs/requirements/train/train_000286.md): Учащийся может получать учебный материал в реальном времени.
+- [webgen-train-000286-R11](../../docs/requirements/train/train_000286.md): Система должна обрабатывать параллельные запросы.
+- [webgen-train-000286-R12](../../docs/requirements/train/train_000286.md): Система должна обеспечивать безопасность данных учащихся.
+- [webgen-train-000286-R13](../../docs/requirements/train/train_000286.md): Система должна обеспечивать конфиденциальность данных учащихся.
+- [webgen-train-000300-R3](../../docs/requirements/train/train_000300.md): Учащийся может просматривать курсы.
+- [webgen-train-000300-R4](../../docs/requirements/train/train_000300.md): Учащийся может выбирать курсы.
+- [webgen-train-000300-R5](../../docs/requirements/train/train_000300.md): Учащийся может отправлять задания.
+- [webgen-train-000300-R6](../../docs/requirements/train/train_000300.md): Учащийся может просматривать учебные записи.
+- [webgen-train-000300-R7](../../docs/requirements/train/train_000300.md): Учащийся может общаться с преподавателем.
+- [webgen-train-000300-R8](../../docs/requirements/train/train_000300.md): Преподаватель может управлять курсами.
+- [webgen-train-000300-R9](../../docs/requirements/train/train_000300.md): Преподаватель может загружать учебные материалы.
+- [webgen-train-000300-R10](../../docs/requirements/train/train_000300.md): Преподаватель может оценивать задания.
+- [webgen-train-000300-R11](../../docs/requirements/train/train_000300.md): Преподаватель может просматривать учебные записи учащихся.
+- [webgen-train-000317-R1](../../docs/requirements/train/train_000317.md): Пользователь может вводить счёт.
+- [webgen-train-000317-R2](../../docs/requirements/train/train_000317.md): Пользователь может начислять очки.
+- [webgen-train-000317-R3](../../docs/requirements/train/train_000317.md): Пользователь может запускать голосовое озвучивание счёта.
+- [webgen-train-000317-R5](../../docs/requirements/train/train_000317.md): Система должна сохранять совместимость с разными устройствами.
+- [webgen-train-000326-R1](../../docs/requirements/train/train_000326.md): Пользователь может запускать воспроизведение.
+- [webgen-train-000326-R2](../../docs/requirements/train/train_000326.md): Пользователь может приостанавливать воспроизведение.
+- [webgen-train-000326-R3](../../docs/requirements/train/train_000326.md): Пользователь может останавливать воспроизведение.
+- [webgen-train-000326-R4](../../docs/requirements/train/train_000326.md): Пользователь может просматривать аудиоматериалы.
+- [webgen-train-000326-R7](../../docs/requirements/train/train_000326.md): Пользователь может слушать выбранный материал потоково.
+- [webgen-train-000326-R8](../../docs/requirements/train/train_000326.md): Система должна контролировать качество звука.
+- [webgen-train-000326-R9](../../docs/requirements/train/train_000326.md): Система должна обрабатывать ошибки воспроизведения.
+- [webgen-train-000327-R1](../../docs/requirements/train/train_000327.md): Система должна предоставлять раздел «Моё».
+- [webgen-train-000327-R2](../../docs/requirements/train/train_000327.md): Система должна предоставлять раздел театра.
+- [webgen-train-000327-R3](../../docs/requirements/train/train_000327.md): Система должна предоставлять раздел истории.
+- [webgen-train-000327-R4](../../docs/requirements/train/train_000327.md): Система должна предоставлять раздел обоев.
+- [webgen-train-000327-R5](../../docs/requirements/train/train_000327.md): Пользователь может просматривать сериалы в театре.
+- [webgen-train-000327-R6](../../docs/requirements/train/train_000327.md): Пользователь может просматривать историю просмотренных сериалов.
+- [webgen-train-000327-R7](../../docs/requirements/train/train_000327.md): Пользователь может управлять личным кабинетом.
+- [webgen-train-000327-R8](../../docs/requirements/train/train_000327.md): Пользователь может пополнять баланс H-монет.
+- [webgen-train-000327-R9](../../docs/requirements/train/train_000327.md): Пользователь может смотреть сериалы с использованием H-монет.
+- [webgen-train-000355-R1](../../docs/requirements/train/train_000355.md): Пользователь может публиковать видео.
+- [webgen-train-000355-R2](../../docs/requirements/train/train_000355.md): Пользователь может распределять видео по категориям.
+- [webgen-train-000355-R3](../../docs/requirements/train/train_000355.md): Пользователь может помечать видео тегами.
+- [webgen-train-000355-R4](../../docs/requirements/train/train_000355.md): Пользователь может просматривать видео.
+- [webgen-train-000355-R8](../../docs/requirements/train/train_000355.md): Система должна повышать эффективность индексации.
+- [webgen-train-000355-R9](../../docs/requirements/train/train_000355.md): Система должна поддерживать несколько языков.
+- [webgen-train-000381-R4](../../docs/requirements/train/train_000381.md): Пользователь может отправлять SMS.
+- [webgen-train-000381-R5](../../docs/requirements/train/train_000381.md): Пользователь может просматривать записи отправки.
+- [webgen-train-000381-R6](../../docs/requirements/train/train_000381.md): Пользователь может управлять сведениями учётной записи.
+- [webgen-train-000426-R1](../../docs/requirements/train/train_000426.md): Пользователь может управлять предприятиями.
+- [webgen-train-000426-R2](../../docs/requirements/train/train_000426.md): Пользователь может управлять персоналом.
+- [webgen-train-000426-R3](../../docs/requirements/train/train_000426.md): Пользователь может обслуживать меню.
+- [webgen-train-000426-R4](../../docs/requirements/train/train_000426.md): Пользователь может обслуживать бизнес-коды.
+- [webgen-train-000426-R5](../../docs/requirements/train/train_000426.md): Система должна автоматически обнаруживать ошибки.
+- [webgen-train-000426-R7](../../docs/requirements/train/train_000426.md): Пользователь может просматривать бизнес-данные клиентов.
+- [webgen-train-000426-R8](../../docs/requirements/train/train_000426.md): Пользователь может поддерживать актуальность бизнес-данных клиентов.
+- [webgen-train-000426-R9](../../docs/requirements/train/train_000426.md): Пользователь может вручную исправлять ошибки выполнения скриптов.
+- [webgen-train-000426-R11](../../docs/requirements/train/train_000426.md): Пользователь может выполнять запросы к журналам.
+- [webgen-train-000430-R1](../../docs/requirements/train/train_000430.md): Система должна поддерживать процедуру допуска в цепочку поставок.
+- [webgen-train-000430-R4](../../docs/requirements/train/train_000430.md): Пользователь может выбирать товары.
+- [webgen-train-000430-R7](../../docs/requirements/train/train_000430.md): Пользователь может выполнять операции контроля рисков.
+- [webgen-train-000457-R1](../../docs/requirements/train/train_000457.md): Пользователь может отправлять текст.
+- [webgen-train-000457-R3](../../docs/requirements/train/train_000457.md): Пользователь может отправлять видео.
+- [webgen-train-000457-R4](../../docs/requirements/train/train_000457.md): Пользователь может отправлять изображения.
+- [webgen-train-000457-R5](../../docs/requirements/train/train_000457.md): Пользователь может отправлять эмодзи.
+- [webgen-train-000457-R6](../../docs/requirements/train/train_000457.md): Пользователь может отправлять подарочные конверты.
+- [webgen-train-000457-R7](../../docs/requirements/train/train_000457.md): Пользователь может отправлять геопозицию.
+- [webgen-train-000457-R8](../../docs/requirements/train/train_000457.md): Пользователь может отправлять файлы.
+- [webgen-train-000457-R9](../../docs/requirements/train/train_000457.md): Пользователь может отправлять визитки.
+- [webgen-train-000457-R10](../../docs/requirements/train/train_000457.md): Пользователь может публиковать обновления в социальной ленте.
+- [webgen-train-000457-R11](../../docs/requirements/train/train_000457.md): Пользователь может участвовать в групповых чатах.
+- [webgen-train-000457-R12](../../docs/requirements/train/train_000457.md): Пользователь может участвовать в приватных чатах.
+- [webgen-train-000467-R1](../../docs/requirements/train/train_000467.md): Система должна содержать шестнадцать страниц.
+- [webgen-train-000467-R3](../../docs/requirements/train/train_000467.md): Система должна предоставлять главную страницу.
+- [webgen-train-000467-R4](../../docs/requirements/train/train_000467.md): Система должна предоставлять страницу регистрации.
+- [webgen-train-000467-R5](../../docs/requirements/train/train_000467.md): Система должна предоставлять страницу входа.
+- [webgen-train-000467-R6](../../docs/requirements/train/train_000467.md): Система должна предоставлять страницу профиля.
+- [webgen-train-000467-R9](../../docs/requirements/train/train_000467.md): Пользователь может просматривать страницы сообщества знакомств.
+- [webgen-train-000485-R1](../../docs/requirements/train/train_000485.md): Система должна использовать Flamego.
+- [webgen-train-000485-R6](../../docs/requirements/train/train_000485.md): Система должна поддерживать настройку маршрутов.
+- [webgen-train-000485-R7](../../docs/requirements/train/train_000485.md): Система должна передавать параметры запросов.
+- [webgen-train-000485-R8](../../docs/requirements/train/train_000485.md): Система должна обрабатывать ошибки.
+- [webgen-train-000501-R1](../../docs/requirements/train/train_000501.md): Соискатель может просматривать вакансии компаний.
+- [webgen-train-000501-R2](../../docs/requirements/train/train_000501.md): Рекрутер может получать объявления о вознаграждениях.
+- [webgen-train-000501-R3](../../docs/requirements/train/train_000501.md): Владелец компании может публиковать вознаграждения по вакансиям.
+- [webgen-train-000501-R6](../../docs/requirements/train/train_000501.md): Пользователь может просматривать собственную информацию.
+- [webgen-train-000714-R1](../../docs/requirements/train/train_000714.md): Учащийся может раскрывать содержимое обучающего диалога щелчком.
+- [webgen-train-000714-R2](../../docs/requirements/train/train_000714.md): Система должна предоставлять интерфейс базы данных для практики во время обучения.
+- [webgen-train-000714-R3](../../docs/requirements/train/train_000714.md): Учащийся может выполнять практические задания по указаниям диалога.
+- [webgen-train-000734-R1](../../docs/requirements/train/train_000734.md): Система должна обрабатывать HTTP-запросы.
+- [webgen-train-000734-R2](../../docs/requirements/train/train_000734.md): Система должна возвращать HTTP-ответы.
+- [webgen-train-000734-R3](../../docs/requirements/train/train_000734.md): Система должна поддерживать доступ с разных устройств.
+- [webgen-train-000734-R4](../../docs/requirements/train/train_000734.md): Система должна разбирать встроенный код.
+- [webgen-train-000734-R5](../../docs/requirements/train/train_000734.md): Система должна выполнять встроенный код.
+- [webgen-train-000734-R6](../../docs/requirements/train/train_000734.md): Пользователь может открывать сайт через браузер.
+- [webgen-train-000734-R7](../../docs/requirements/train/train_000734.md): Пользователь может отправлять HTTP-запросы.
+- [webgen-train-000762-R1](../../docs/requirements/train/train_000762.md): Пользователь может принимать оборудование под управление.
+- [webgen-train-000762-R2](../../docs/requirements/train/train_000762.md): Пользователь может проводить инвентаризацию цеха.
+- [webgen-train-000762-R6](../../docs/requirements/train/train_000762.md): Пользователь может управлять метками.
+- [webgen-train-000762-R12](../../docs/requirements/train/train_000762.md): Система должна показывать меню в зависимости от роли.
+- [webgen-train-000762-R13](../../docs/requirements/train/train_000762.md): Система должна предоставлять функции в зависимости от роли.
+- [webgen-train-000787-R2](../../docs/requirements/train/train_000787.md): Пользователь может объединять аудиокниги.
+- [webgen-train-000787-R3](../../docs/requirements/train/train_000787.md): Пользователь может разделять аудиокниги.
+- [webgen-train-000798-R1](../../docs/requirements/train/train_000798.md): Система должна предоставлять управление авторизацией.
+- [webgen-train-000798-R2](../../docs/requirements/train/train_000798.md): Система должна предоставлять управление уведомлениями.
+- [webgen-train-000798-R3](../../docs/requirements/train/train_000798.md): Система должна предоставлять управление потреблением.
+- [webgen-train-000798-R5](../../docs/requirements/train/train_000798.md): Пользователь может просматривать короткие сериалы.
+- [webgen-train-000798-R6](../../docs/requirements/train/train_000798.md): Пользователь может воспроизводить короткие сериалы.
+- [webgen-train-000798-R8](../../docs/requirements/train/train_000798.md): Пользователь может пополнять счёт.
+- [webgen-train-000803-R2](../../docs/requirements/train/train_000803.md): Пользователь может передавать речевой материал.
+- [webgen-train-000803-R3](../../docs/requirements/train/train_000803.md): Система должна автоматически распознавать речь и формировать соответствующий текст.
+- [webgen-train-000803-R4](../../docs/requirements/train/train_000803.md): Пользователь может просматривать расшифровку.
+- [webgen-train-000803-R6](../../docs/requirements/train/train_000803.md): Пользователь может воспроизводить исходную речь.
+- [webgen-train-000814-R1](../../docs/requirements/train/train_000814.md): Система должна поддерживать несколько экранов.
+- [webgen-train-000814-R2](../../docs/requirements/train/train_000814.md): Система должна показывать содержимое на вертикальных экранах.
+- [webgen-train-000814-R3](../../docs/requirements/train/train_000814.md): Система должна показывать содержимое на горизонтальных экранах.
+- [webgen-train-000814-R4](../../docs/requirements/train/train_000814.md): Посетитель может выбирать содержимое через сенсорный экран.
+- [webgen-train-000814-R5](../../docs/requirements/train/train_000814.md): Посетитель может просматривать выставочные материалы.
+- [webgen-train-000814-R6](../../docs/requirements/train/train_000814.md): Посетитель может взаимодействовать с выставочными материалами.
+- [webgen-train-000820-R1](../../docs/requirements/train/train_000820.md): Пользователь может запускать воспроизведение.
+- [webgen-train-000820-R2](../../docs/requirements/train/train_000820.md): Пользователь может приостанавливать воспроизведение.
+- [webgen-train-000820-R3](../../docs/requirements/train/train_000820.md): Пользователь может переключаться на предыдущий трек.
+- [webgen-train-000820-R4](../../docs/requirements/train/train_000820.md): Пользователь может переключаться на следующий трек.
+- [webgen-train-000820-R7](../../docs/requirements/train/train_000820.md): Пользователь может выбирать музыку для прослушивания.
+- [webgen-train-000820-R9](../../docs/requirements/train/train_000820.md): Пользователь может управлять собственными плейлистами.
+- [webgen-train-000835-R1](../../docs/requirements/train/train_000835.md): Система должна собирать эпидемиологические данные.
+- [webgen-train-000835-R2](../../docs/requirements/train/train_000835.md): Система должна выполнять интеллектуальный анализ эпидемиологических данных.
+- [webgen-train-000835-R3](../../docs/requirements/train/train_000835.md): Пользователь может просматривать текущие данные.
+- [webgen-train-000835-R4](../../docs/requirements/train/train_000835.md): Пользователь может просматривать исторические данные.
+- [webgen-train-000835-R4.1](../../docs/requirements/train/train_000835.md): Пользователь может просматривать число заболевших.
+- [webgen-train-000835-R4.2](../../docs/requirements/train/train_000835.md): Пользователь может просматривать число умерших.
+- [webgen-train-000835-R4.3](../../docs/requirements/train/train_000835.md): Пользователь может просматривать число выздоровевших.
+- [webgen-train-000835-R6](../../docs/requirements/train/train_000835.md): Система должна визуализировать данные на картах.
+- [webgen-train-000836-R1](../../docs/requirements/train/train_000836.md): Система должна предоставлять общий обзор данных.
+- [webgen-train-000836-R2](../../docs/requirements/train/train_000836.md): Система должна отображать данные высокой ценности.
+- [webgen-train-000836-R3](../../docs/requirements/train/train_000836.md): Система должна отображать данные средней ценности.
+- [webgen-train-000836-R4](../../docs/requirements/train/train_000836.md): Система должна отображать данные низкой ценности.
+- [webgen-train-000836-R5](../../docs/requirements/train/train_000836.md): Пользователь может просматривать типы данных.
+- [webgen-train-000836-R7](../../docs/requirements/train/train_000836.md): Пользователь может переходить от обобщённых данных к детализации.
+- [webgen-train-000836-R8](../../docs/requirements/train/train_000836.md): Система должна обновлять визуализацию при изменении данных в реальном времени.
+- [webgen-train-000895-R1](../../docs/requirements/train/train_000895.md): Система должна использовать название «Space Station Docking».
+- [webgen-train-000895-R2](../../docs/requirements/train/train_000895.md): Пользователь может управлять топливом.
+- [webgen-train-000895-R3](../../docs/requirements/train/train_000895.md): Пользователь может перепрыгивать на следующую планету для заправки или получения очков.
+- [webgen-train-000895-R4](../../docs/requirements/train/train_000895.md): Пользователь может следовать указаниям радара.
+- [webgen-train-000895-R5](../../docs/requirements/train/train_000895.md): Пользователь может набирать очки в пределах отведённого времени.
+- [webgen-train-000895-R6](../../docs/requirements/train/train_000895.md): Пользователь может достигать космической станции.
+- [webgen-train-000895-R7](../../docs/requirements/train/train_000895.md): Пользователь может войти на сайт.
+- [webgen-train-000895-R8](../../docs/requirements/train/train_000895.md): Пользователь может начинать игру.
+- [webgen-train-000895-R9](../../docs/requirements/train/train_000895.md): Пользователь может управлять игровым персонажем.
+- [webgen-train-000895-R10](../../docs/requirements/train/train_000895.md): Пользователь может просматривать таблицу результатов.
+- [webgen-train-000917-R1](../../docs/requirements/train/train_000917.md): Система должна использовать PHP для веб-формы.
+- [webgen-train-000917-R2](../../docs/requirements/train/train_000917.md): Система должна предоставлять кнопку отправки.
+- [webgen-train-000917-R5](../../docs/requirements/train/train_000917.md): Пользователь может получать подтверждение успешной отправки.
+- [webgen-train-000934-R2](../../docs/requirements/train/train_000934.md): Система должна загружать все страницы без ошибок.
+- [webgen-train-000934-R4](../../docs/requirements/train/train_000934.md): Пользователь может просматривать сайт.
+- [webgen-train-000934-R5](../../docs/requirements/train/train_000934.md): Система должна корректно отображать содержимое.
+- [webgen-train-000934-R6](../../docs/requirements/train/train_000934.md): Система должна корректно применять SEO-настройки.
+- [webgen-train-000955-R3](../../docs/requirements/train/train_000955.md): Система должна кэшировать формы.
+- [webgen-train-000955-R4](../../docs/requirements/train/train_000955.md): Система должна восстанавливать состояние формы.
+- [webgen-train-000955-R8](../../docs/requirements/train/train_000955.md): Пользователь может задавать связи полей.
+- [webgen-train-000955-R9](../../docs/requirements/train/train_000955.md): Пользователь может сохранять форму для последующего редактирования.
+- [webgen-train-000955-R10](../../docs/requirements/train/train_000955.md): Система должна поддерживать текстовые поля.
+- [webgen-train-000955-R11](../../docs/requirements/train/train_000955.md): Система должна поддерживать поля выбора.
+- [webgen-train-000955-R12](../../docs/requirements/train/train_000955.md): Система должна поддерживать поля даты.
+- [webgen-train-000955-R13](../../docs/requirements/train/train_000955.md): Система должна поддерживать условные проверки.
+- [webgen-train-000955-R14](../../docs/requirements/train/train_000955.md): Система должна поддерживать логические операции.
+- [webgen-train-000972-R4](../../docs/requirements/train/train_000972.md): Пользователь может устанавливать высший приоритет задачи.
+- [webgen-train-000972-R9](../../docs/requirements/train/train_000972.md): Пользователь может регистрироваться с email.
+- [webgen-train-000972-R10](../../docs/requirements/train/train_000972.md): Пользователь может входить с email.
+- [webgen-train-000972-R11](../../docs/requirements/train/train_000972.md): Пользователь может менять пароль.
+- [webgen-train-000972-R12](../../docs/requirements/train/train_000972.md): Пользователь может сохранять заметки в избранное.
+- [webgen-train-000972-R13](../../docs/requirements/train/train_000972.md): Пользователь может делиться заметками.
+- [webgen-train-000972-R16](../../docs/requirements/train/train_000972.md): Пользователь может восстанавливать заметки.
+- [webgen-train-000972-R18](../../docs/requirements/train/train_000972.md): Пользователь может восстанавливать задачи.
+- [webgen-train-000973-R1](../../docs/requirements/train/train_000973.md): Пользователь может загружать JavaScript-код.
+- [webgen-train-000973-R2](../../docs/requirements/train/train_000973.md): Система должна анализировать производительность кода.
+- [webgen-train-000973-R3](../../docs/requirements/train/train_000973.md): Система должна предлагать способы оптимизации.
+- [webgen-train-000973-R4](../../docs/requirements/train/train_000973.md): Система должна обнаруживать ошибки кода.
+- [webgen-train-000973-R5](../../docs/requirements/train/train_000973.md): Система должна исправлять ошибки кода.
+- [webgen-train-000991-R2](../../docs/requirements/train/train_000991.md): Пользователь может проектировать собственные формы.
+- [webgen-train-000991-R3](../../docs/requirements/train/train_000991.md): Пользователь может управлять собственными формами.
+- [webgen-train-000991-R6](../../docs/requirements/train/train_000991.md): Система должна поддерживать текстовые поля.
+- [webgen-train-000991-R7](../../docs/requirements/train/train_000991.md): Система должна поддерживать выпадающие списки.
+- [webgen-train-000991-R8](../../docs/requirements/train/train_000991.md): Система должна поддерживать флажки.
+- [webgen-train-001007-R1](../../docs/requirements/train/train_001007.md): Система должна отображать изображения.
+- [webgen-train-001007-R2](../../docs/requirements/train/train_001007.md): Система должна отображать видео.
+- [webgen-train-001007-R3](../../docs/requirements/train/train_001007.md): Система должна отображать текст.
+- [webgen-train-001007-R4](../../docs/requirements/train/train_001007.md): Система должна воспроизводить аудио.
+- [webgen-train-001007-R5](../../docs/requirements/train/train_001007.md): Пользователь может просматривать виртуальных цифровых персонажей.
+- [webgen-train-001007-R6](../../docs/requirements/train/train_001007.md): Пользователь может просматривать связанные с персонажем пояснения.
+- [webgen-train-001007-R6.1](../../docs/requirements/train/train_001007.md): Пользователь может читать текст пояснений.
+- [webgen-train-001007-R6.2](../../docs/requirements/train/train_001007.md): Пользователь может слушать аудиопояснения.
+- [webgen-train-001013-R1](../../docs/requirements/train/train_001013.md): Система должна рекомендовать маршруты.
+- [webgen-train-001013-R2](../../docs/requirements/train/train_001013.md): Система должна показывать общую схему маршрутов.
+- [webgen-train-001013-R7](../../docs/requirements/train/train_001013.md): Пользователь может просматривать текущее положение автобуса.
+- [webgen-train-001013-R8](../../docs/requirements/train/train_001013.md): Пользователь может просматривать время прибытия автобуса.
+- [webgen-train-001013-R9](../../docs/requirements/train/train_001013.md): Система должна обновлять карту в реальном времени.
+- [webgen-train-001013-R10](../../docs/requirements/train/train_001013.md): Система должна показывать на карте положение и маршрут автобуса.
+- [webgen-train-001025-R1](../../docs/requirements/train/train_001025.md): Пользователь может вводить параметры запроса в URL.
+- [webgen-train-001025-R3](../../docs/requirements/train/train_001025.md): Система должна автоматически обновлять SEO-заголовок при изменении параметров.
+- [webgen-train-001025-R4](../../docs/requirements/train/train_001025.md): Система должна разбирать параметры URL.
+- [webgen-train-001025-R5](../../docs/requirements/train/train_001025.md): Система должна включать параметры в SEO-заголовок.
+- [webgen-train-001025-R6](../../docs/requirements/train/train_001025.md): Система должна формировать заголовок, отражающий содержание текущей страницы.
+- [webgen-train-001028-R1](../../docs/requirements/train/train_001028.md): Пользователь может просматривать туристическую информацию города.
+- [webgen-train-001028-R2](../../docs/requirements/train/train_001028.md): Пользователь может просматривать карту.
+- [webgen-train-001028-R5](../../docs/requirements/train/train_001028.md): Система должна обновлять туристическую информацию в реальном времени.
+- [webgen-train-001040-R3](../../docs/requirements/train/train_001040.md): Пользователь может восстановить пароль.
+- [webgen-train-001040-R4](../../docs/requirements/train/train_001040.md): Система должна принимать регистрационные данные.
+- [webgen-train-001040-R4.1](../../docs/requirements/train/train_001040.md): Система должна принимать имя пользователя.
+- [webgen-train-001040-R4.2](../../docs/requirements/train/train_001040.md): Система должна принимать пароль.
+- [webgen-train-001040-R4.3](../../docs/requirements/train/train_001040.md): Система должна принимать email.
+- [webgen-train-001040-R4.4](../../docs/requirements/train/train_001040.md): Система должна принимать номер телефона.
+- [webgen-train-001052-R1](../../docs/requirements/train/train_001052.md): Пользователь может выбирать эмотиконы.
+- [webgen-train-001052-R2](../../docs/requirements/train/train_001052.md): Пользователь может отправлять эмотиконы.
+- [webgen-train-001052-R3](../../docs/requirements/train/train_001052.md): Пользователь может получать эмотиконы.
+- [webgen-train-001052-R4](../../docs/requirements/train/train_001052.md): Пользователь может настраивать собственные эмотиконы.
+- [webgen-train-001052-R7](../../docs/requirements/train/train_001052.md): Система должна уведомлять об обновлениях.
+- [webgen-train-001055-R1](../../docs/requirements/train/train_001055.md): Система должна использовать WebSocket.
+- [webgen-train-001055-R2](../../docs/requirements/train/train_001055.md): Пользователь может устанавливать соединение.
+- [webgen-train-001055-R3](../../docs/requirements/train/train_001055.md): Пользователь может закрывать соединение.
+- [webgen-train-001055-R5](../../docs/requirements/train/train_001055.md): Пользователь может отправлять текст в реальном времени.
+- [webgen-train-001055-R6](../../docs/requirements/train/train_001055.md): Пользователь может отправлять изображения.
+- [webgen-train-001056-R1](../../docs/requirements/train/train_001056.md): Система должна использовать WebSocket.
+- [webgen-train-001056-R2](../../docs/requirements/train/train_001056.md): Система должна устанавливать соединение WebSocket.
+- [webgen-train-001056-R3](../../docs/requirements/train/train_001056.md): Система должна закрывать соединение WebSocket.
+- [webgen-train-001056-R6](../../docs/requirements/train/train_001056.md): Пользователь может отправлять изображения.
+- [webgen-train-001058-R2](../../docs/requirements/train/train_001058.md): Пользователь может публиковать свои признания.
+- [webgen-train-001058-R3](../../docs/requirements/train/train_001058.md): Пользователь может просматривать признания других.
+- [webgen-train-001058-R4](../../docs/requirements/train/train_001058.md): Пользователь может отвечать на признания.
+- [webgen-train-001058-R6](../../docs/requirements/train/train_001058.md): Пользователь может управлять личным кабинетом.
+- [webgen-train-001058-R7](../../docs/requirements/train/train_001058.md): Система должна поддерживать аутентификацию пользователей.
+- [webgen-train-001120-R2](../../docs/requirements/train/train_001120.md): Пользователь может распределять изображения по категориям.
+- [webgen-train-001120-R4](../../docs/requirements/train/train_001120.md): Пользователь может просматривать изображения.
+- [webgen-train-001120-R6](../../docs/requirements/train/train_001120.md): Пользователь может управлять собственными изображениями.
+- [webgen-train-001120-R9](../../docs/requirements/train/train_001120.md): Пользователь может делиться альбомами с другими пользователями.
+- [webgen-train-001162-R1](../../docs/requirements/train/train_001162.md): Система должна поддерживать завершение процесса согласования.
+- [webgen-train-001162-R4](../../docs/requirements/train/train_001162.md): Пользователь может управлять процессами согласования.
+- [webgen-train-001162-R5](../../docs/requirements/train/train_001162.md): Пользователь может настраивать поля формы.
+- [webgen-train-001162-R8](../../docs/requirements/train/train_001162.md): Система должна поддерживать взаимодействие между полями.
+- [webgen-train-001162-R9](../../docs/requirements/train/train_001162.md): Система должна автоматически обновлять значения связанных полей.
+- [webgen-train-001207-R1](../../docs/requirements/train/train_001207.md): Пользователь может просматривать описание консультационных услуг по ИИ и машинному обучению.
+- [webgen-train-001207-R2](../../docs/requirements/train/train_001207.md): Пользователь может просматривать выполненные проекты.
+- [webgen-train-001207-R4](../../docs/requirements/train/train_001207.md): Пользователь может получать контакты для обращения за консультацией.
+- [webgen-train-001232-R2](../../docs/requirements/train/train_001232.md): Пользователь может просматривать категории предметов роскоши.
+- [webgen-train-001232-R7](../../docs/requirements/train/train_001232.md): Пользователь может управлять пользовательскими данными.
+- [webgen-train-001232-R8](../../docs/requirements/train/train_001232.md): Пользователь может просматривать историю покупок.
+- [webgen-train-001253-R1](../../docs/requirements/train/train_001253.md): Система должна показывать валютные курсы в реальном времени.
+- [webgen-train-001253-R3](../../docs/requirements/train/train_001253.md): Трейдер может выполнять сделки вручную.
+- [webgen-train-001253-R4](../../docs/requirements/train/train_001253.md): Трейдер может настраивать автоматическую торговлю.
+- [webgen-train-001253-R5](../../docs/requirements/train/train_001253.md): Трейдер может копировать сделки других трейдеров.
+- [webgen-train-001253-R8](../../docs/requirements/train/train_001253.md): Сотрудник поддержки может оказывать помощь пользователям.
+- [webgen-train-001253-R9](../../docs/requirements/train/train_001253.md): Сотрудник поддержки может решать проблемы пользователей.
+- [webgen-train-001377-R2](../../docs/requirements/train/train_001377.md): Пользователь может вводить параметры генерации.
+- [webgen-train-001377-R3](../../docs/requirements/train/train_001377.md): Пользователь может генерировать текст.
+- [webgen-train-001377-R4](../../docs/requirements/train/train_001377.md): Пользователь может генерировать изображения.
+- [webgen-train-001377-R5](../../docs/requirements/train/train_001377.md): Пользователь может генерировать видео.
+- [webgen-train-001377-R6](../../docs/requirements/train/train_001377.md): Пользователь может предварительно просматривать созданный материал.
+- [webgen-train-001387-R4](../../docs/requirements/train/train_001387.md): Пользователь может настраивать ключевые слова сайта.
+- [webgen-train-001387-R5](../../docs/requirements/train/train_001387.md): Пользователь может настраивать описания сайта.
+- [webgen-train-001387-R6](../../docs/requirements/train/train_001387.md): Пользователь может просматривать трафик сайта.
+- [webgen-train-001387-R8](../../docs/requirements/train/train_001387.md): Система должна поддерживать SEO для улучшения позиций.
+- [webgen-train-001458-R1](../../docs/requirements/train/train_001458.md): Пользователь может настраивать пользовательские узлы обработки.
+- [webgen-train-001458-R2](../../docs/requirements/train/train_001458.md): Система должна оптимизировать процесс обработки.
+- [webgen-train-001458-R4](../../docs/requirements/train/train_001458.md): Пользователь может выбирать режим очистки.
+- [webgen-train-001458-R6](../../docs/requirements/train/train_001458.md): Пользователь может предварительно просматривать результат.
+- [webgen-train-001458-R7](../../docs/requirements/train/train_001458.md): Пользователь может сохранять восстановленное изображение.
+- [webgen-train-001458-R8](../../docs/requirements/train/train_001458.md): Система должна автоматически обнаруживать границы изображения.
+- [webgen-train-001458-R9](../../docs/requirements/train/train_001458.md): Система должна удалять границы изображения.
+- [webgen-train-001458-R10](../../docs/requirements/train/train_001458.md): Система должна автоматически обнаруживать артефакты.
+- [webgen-train-001458-R11](../../docs/requirements/train/train_001458.md): Система должна удалять артефакты.
+- [webgen-train-001458-R12](../../docs/requirements/train/train_001458.md): Система должна показывать предварительный результат в реальном времени.
+- [webgen-train-001463-R1](../../docs/requirements/train/train_001463.md): Система должна генерировать формы на основе XML.
+- [webgen-train-001463-R5](../../docs/requirements/train/train_001463.md): Пользователь может управлять созданными формами.
+- [webgen-train-001463-R6](../../docs/requirements/train/train_001463.md): Система должна поддерживать текстовые поля.
+- [webgen-train-001463-R7](../../docs/requirements/train/train_001463.md): Система должна поддерживать поля выбора.
+- [webgen-train-001463-R8](../../docs/requirements/train/train_001463.md): Система должна поддерживать поля даты.
+- [webgen-train-001463-R9](../../docs/requirements/train/train_001463.md): Пользователь может настраивать расположение формы.
+- [webgen-train-001463-R10](../../docs/requirements/train/train_001463.md): Пользователь может настраивать оформление формы.
+- [webgen-train-001470-R1](../../docs/requirements/train/train_001470.md): Пользователь может вводить CSS-код.
+- [webgen-train-001470-R3](../../docs/requirements/train/train_001470.md): Пользователь может проверять синтаксис CSS.
+- [webgen-train-001470-R4](../../docs/requirements/train/train_001470.md): Пользователь может использовать вложенные селекторы.
+- [webgen-train-001470-R5](../../docs/requirements/train/train_001470.md): Пользователь может смешивать цвета.
+- [webgen-train-001470-R6](../../docs/requirements/train/train_001470.md): Пользователь может получать обработанный CSS-код.
+- [webgen-train-001483-R1](../../docs/requirements/train/train_001483.md): Пользователь может вводить JSON-конфигурацию.
+- [webgen-train-001483-R2](../../docs/requirements/train/train_001483.md): Система должна автоматически создавать форму по JSON-конфигурации.
+- [webgen-train-001483-R3](../../docs/requirements/train/train_001483.md): Система должна поддерживать текстовые поля.
+- [webgen-train-001483-R4](../../docs/requirements/train/train_001483.md): Система должна поддерживать списки выбора.
+- [webgen-train-001483-R5](../../docs/requirements/train/train_001483.md): Система должна поддерживать флажки.
+- [webgen-train-001514-R1](../../docs/requirements/train/train_001514.md): Пользователь может начинать игру.
+- [webgen-train-001514-R2](../../docs/requirements/train/train_001514.md): Пользователь может приостанавливать игру.
+- [webgen-train-001514-R3](../../docs/requirements/train/train_001514.md): Пользователь может перезапускать игру.
+- [webgen-train-001514-R4](../../docs/requirements/train/train_001514.md): Пользователь может управлять ракеткой мышью или клавиатурой.
+- [webgen-train-001514-R5](../../docs/requirements/train/train_001514.md): Пользователь может отбивать мяч.
+- [webgen-train-001514-R6](../../docs/requirements/train/train_001514.md): Пользователь может набирать очки.
+- [webgen-train-001514-R7](../../docs/requirements/train/train_001514.md): Пользователь может пытаться превысить рекорд.
+- [webgen-train-001514-R8](../../docs/requirements/train/train_001514.md): Система должна показывать текущий счёт.
+- [webgen-train-001514-R9](../../docs/requirements/train/train_001514.md): Система должна показывать рекорд.
+- [webgen-train-001514-R10](../../docs/requirements/train/train_001514.md): Система должна показывать ход игры.
+- [webgen-train-001535-R2](../../docs/requirements/train/train_001535.md): Система должна запускать игры.
+- [webgen-train-001535-R3](../../docs/requirements/train/train_001535.md): Система должна определять попадание участника на «мину» по полученным конвертам.
+- [webgen-train-001535-R4](../../docs/requirements/train/train_001535.md): Система должна выполнять расчёт по результату игры.
+- [webgen-train-001548-R4](../../docs/requirements/train/train_001548.md): Пользователь может отправлять текст.
+- [webgen-train-001548-R5](../../docs/requirements/train/train_001548.md): Пользователь может отправлять изображения.
+- [webgen-train-001548-R6](../../docs/requirements/train/train_001548.md): Пользователь может отправлять видео.
+- [webgen-train-001548-R8](../../docs/requirements/train/train_001548.md): Пользователь может приглашать друзей в группу.
+- [webgen-train-001548-R10](../../docs/requirements/train/train_001548.md): Пользователь может управлять списком друзей.
+- [webgen-train-001549-R1](../../docs/requirements/train/train_001549.md): Система должна обеспечивать безопасность общения.
+- [webgen-train-001549-R2](../../docs/requirements/train/train_001549.md): Система должна обеспечивать конфиденциальность общения.
+- [webgen-train-001549-R5](../../docs/requirements/train/train_001549.md): Пользователь может отправлять текст.
+- [webgen-train-001549-R6](../../docs/requirements/train/train_001549.md): Пользователь может получать текст.
+- [webgen-train-001549-R7](../../docs/requirements/train/train_001549.md): Пользователь может отправлять изображения.
+- [webgen-train-001549-R8](../../docs/requirements/train/train_001549.md): Пользователь может получать изображения.
+- [webgen-train-001549-R9](../../docs/requirements/train/train_001549.md): Пользователь может отправлять файлы.
+- [webgen-train-001549-R10](../../docs/requirements/train/train_001549.md): Пользователь может получать файлы.
+- [webgen-train-001552-R2](../../docs/requirements/train/train_001552.md): Пользователь может общаться с другими пользователями в реальном времени.
+- [webgen-train-001552-R3](../../docs/requirements/train/train_001552.md): Пользователь может отправлять текст.
+- [webgen-train-001552-R4](../../docs/requirements/train/train_001552.md): Пользователь может получать текст.
+- [webgen-train-001552-R5](../../docs/requirements/train/train_001552.md): Пользователь может отправлять изображения.
+- [webgen-train-001552-R6](../../docs/requirements/train/train_001552.md): Пользователь может получать изображения.
+- [webgen-train-001552-R7](../../docs/requirements/train/train_001552.md): Пользователь может отправлять геопозицию.
+- [webgen-train-001552-R8](../../docs/requirements/train/train_001552.md): Пользователь может получать геопозицию.
+- [webgen-train-001569-R2](../../docs/requirements/train/train_001569.md): Пользователь может отправлять текст в реальном времени.
+- [webgen-train-001569-R3](../../docs/requirements/train/train_001569.md): Пользователь может отправлять изображения.
+- [webgen-train-001569-R4](../../docs/requirements/train/train_001569.md): Пользователь может отправлять видео.
+- [webgen-train-001594-R1](../../docs/requirements/train/train_001594.md): Пользователь может пополнять баланс телевизионной приставки.
+- [webgen-train-001594-R3](../../docs/requirements/train/train_001594.md): Пользователь может просматривать телевизионные видео.
+- [webgen-train-001594-R4](../../docs/requirements/train/train_001594.md): Пользователь может воспроизводить телевизионные видео.
+- [webgen-train-001594-R6](../../docs/requirements/train/train_001594.md): Пользователь может пополнять баланс мобильного телефона.
+- [webgen-train-001604-R5](../../docs/requirements/train/train_001604.md): Пользователь может настраивать освещение.
+- [webgen-train-001604-R6](../../docs/requirements/train/train_001604.md): Пользователь может настраивать материалы.
+- [webgen-train-001604-R7](../../docs/requirements/train/train_001604.md): Пользователь может настраивать цвета.
+- [webgen-train-001604-R8](../../docs/requirements/train/train_001604.md): Система должна показывать изменения в предварительном просмотре в реальном времени.
+- [webgen-train-001604-R9](../../docs/requirements/train/train_001604.md): Пользователь может вращать изображение модели.
+- [webgen-train-001604-R10](../../docs/requirements/train/train_001604.md): Пользователь может масштабировать изображение модели.
+- [webgen-train-001604-R11](../../docs/requirements/train/train_001604.md): Пользователь может перемещать изображение модели.
+- [webgen-train-001628-R1](../../docs/requirements/train/train_001628.md): Система должна поддерживать запись аудио.
+- [webgen-train-001628-R2](../../docs/requirements/train/train_001628.md): Система должна поддерживать запись видео.
+- [webgen-train-001628-R3](../../docs/requirements/train/train_001628.md): Система должна преобразовывать мультимедийные файлы в выбранный формат.
+- [webgen-train-001628-R6](../../docs/requirements/train/train_001628.md): Пользователь может выбирать формат преобразования.
+- [webgen-train-001628-R7](../../docs/requirements/train/train_001628.md): Пользователь может задавать параметры преобразования.
+- [webgen-train-001628-R9](../../docs/requirements/train/train_001628.md): Пользователь может предварительно просматривать загруженные файлы.
+- [webgen-train-001689-R1](../../docs/requirements/train/train_001689.md): Система должна предоставлять складской модуль.
+- [webgen-train-001689-R2](../../docs/requirements/train/train_001689.md): Система должна предоставлять производственный модуль.
+- [webgen-train-001689-R3](../../docs/requirements/train/train_001689.md): Система должна обеспечивать онлайн-передачу документов материального учёта.
+- [webgen-train-001689-R4](../../docs/requirements/train/train_001689.md): Система должна автоматически печатать бумажные документы.
+- [webgen-train-001689-R5](../../docs/requirements/train/train_001689.md): Система должна синхронизировать сведения об остатках в реальном времени.
+- [webgen-train-001689-R6](../../docs/requirements/train/train_001689.md): Система должна позволять настраивать производственные процессы для персонала.
+- [webgen-train-001689-R7](../../docs/requirements/train/train_001689.md): Система должна автоматически импортировать производственные задания.
+- [webgen-train-001689-R8](../../docs/requirements/train/train_001689.md): Система должна распознавать QR-коды.
+- [webgen-train-001689-R9](../../docs/requirements/train/train_001689.md): Система должна отправлять уведомления о завершении заданий.
+- [webgen-train-001689-R11](../../docs/requirements/train/train_001689.md): Пользователь может просматривать складскую информацию.
+- [webgen-train-001689-R12](../../docs/requirements/train/train_001689.md): Пользователь может просматривать производственные процессы.
+- [webgen-train-001689-R13](../../docs/requirements/train/train_001689.md): Пользователь может просматривать производственные задания.
+- [webgen-train-001698-R1](../../docs/requirements/train/train_001698.md): Система должна обновлять дорожную информацию в реальном времени.
+- [webgen-train-001698-R2](../../docs/requirements/train/train_001698.md): Пользователь может просматривать дорожную информацию.
+- [webgen-train-001698-R3](../../docs/requirements/train/train_001698.md): Пользователь может планировать маршруты.
+- [webgen-train-001698-R4](../../docs/requirements/train/train_001698.md): Пользователь может получать дорожные новости.
+- [webgen-train-001698-R5](../../docs/requirements/train/train_001698.md): Пользователь может получать дорожные предупреждения.
+- [webgen-train-001700-R1](../../docs/requirements/train/train_001700.md): Система должна работать на разных платформах.
+- [webgen-train-001700-R2](../../docs/requirements/train/train_001700.md): Система должна предоставлять удобный и интуитивный интерфейс.
+- [webgen-train-001700-R5](../../docs/requirements/train/train_001700.md): Пользователь может просматривать информацию.
+- [webgen-train-001700-R7](../../docs/requirements/train/train_001700.md): Система должна предоставлять понятную навигацию.
+- [webgen-train-001700-R8](../../docs/requirements/train/train_001700.md): Система должна понятно отображать информацию.
+- [webgen-train-001714-R1](../../docs/requirements/train/train_001714.md): Система должна показывать сетку беговых соревнований Германии.
+- [webgen-train-001714-R2](../../docs/requirements/train/train_001714.md): Пользователь может вводить населённый пункт.
+- [webgen-train-001714-R3](../../docs/requirements/train/train_001714.md): Пользователь может вводить почтовый индекс.
+- [webgen-train-001714-R6](../../docs/requirements/train/train_001714.md): Система должна сохранять совместимость с Elementor.
+- [webgen-train-001714-R7](../../docs/requirements/train/train_001714.md): Система должна сохранять совместимость с Crocoblock.
+- [webgen-train-001714-R8](../../docs/requirements/train/train_001714.md): Система должна не удалять сведения из базы данных.
+- [webgen-train-001714-R9](../../docs/requirements/train/train_001714.md): Система должна обрабатывать около 6000 записей не дольше четырёх секунд.
+- [webgen-train-001719-R1](../../docs/requirements/train/train_001719.md): Система должна синхронизировать данные форм.
+- [webgen-train-001719-R2](../../docs/requirements/train/train_001719.md): Система должна поддерживать взаимодействие данных.
+- [webgen-train-001719-R7](../../docs/requirements/train/train_001719.md): Система должна автоматически сохранять данные формы.
+- [webgen-train-001719-R8](../../docs/requirements/train/train_001719.md): Система должна автоматически обновлять данные формы.
+- [webgen-train-001719-R9](../../docs/requirements/train/train_001719.md): Система должна предоставлять запросы к данным.
+- [webgen-train-001738-R1](../../docs/requirements/train/train_001738.md): Система должна поддерживать предпродажное управление.
+- [webgen-train-001738-R2](../../docs/requirements/train/train_001738.md): Система должна поддерживать послепродажное управление.
+- [webgen-train-001762-R4](../../docs/requirements/train/train_001762.md): Пользователь может управлять собственными микросервисными системами.
+- [webgen-train-001762-R7](../../docs/requirements/train/train_001762.md): Пользователь может настраивать модули.
+- [webgen-train-001762-R10](../../docs/requirements/train/train_001762.md): Пользователь может настраивать плагины.
+- [webgen-train-001762-R11](../../docs/requirements/train/train_001762.md): Пользователь может выбирать модули и плагины под бизнес-задачи.
+- [webgen-train-001762-R12](../../docs/requirements/train/train_001762.md): Пользователь может комбинировать выбранные модули и плагины.
+- [webgen-train-001762-R13](../../docs/requirements/train/train_001762.md): Система должна предоставлять общий сервисный слой.
+- [webgen-train-001762-R16](../../docs/requirements/train/train_001762.md): Система должна предоставлять управление журналами в общем сервисном слое.
+- [webgen-train-001860-R4](../../docs/requirements/train/train_001860.md): Пользователь может управлять собственными метавселенными.
+- [webgen-train-001860-R6](../../docs/requirements/train/train_001860.md): Пользователь может развёртывать блокчейн-приложения.
+- [webgen-train-001860-R7](../../docs/requirements/train/train_001860.md): Пользователь может управлять цифровыми активами.
+- [webgen-train-001860-R8](../../docs/requirements/train/train_001860.md): Пользователь может управлять цифровыми идентичностями.
+- [webgen-train-001870-R2](../../docs/requirements/train/train_001870.md): Пользователь может подключаться к разным базам.
+- [webgen-train-001870-R3](../../docs/requirements/train/train_001870.md): Пользователь может наблюдать производительность компьютера.
+- [webgen-train-001870-R4](../../docs/requirements/train/train_001870.md): Пользователь может просматривать данные базы.
+- [webgen-train-001878-R1](../../docs/requirements/train/train_001878.md): Система должна показывать характеристики фреймворка.
+- [webgen-train-001878-R2](../../docs/requirements/train/train_001878.md): Пользователь может просматривать описание фреймворка.
+- [webgen-train-001878-R4](../../docs/requirements/train/train_001878.md): Пользователь может просматривать историю обновлений.
+- [webgen-train-001878-R6](../../docs/requirements/train/train_001878.md): Пользователь может отправлять предложения.
+- [webgen-train-001883-R1](../../docs/requirements/train/train_001883.md): Пользователь может проектировать интерфейс процессной формы.
+- [webgen-train-001883-R2](../../docs/requirements/train/train_001883.md): Пользователь может применять элементы управления.
+- [webgen-train-001883-R3](../../docs/requirements/train/train_001883.md): Пользователь может управлять процессными формами.
+- [webgen-train-001883-R4](../../docs/requirements/train/train_001883.md): Пользователь может настраивать процессы.
+- [webgen-train-001883-R6](../../docs/requirements/train/train_001883.md): Пользователь может задавать условия процессов.
+- [webgen-train-001883-R7](../../docs/requirements/train/train_001883.md): Пользователь может управлять логикой переходов.
+- [webgen-train-001883-R8](../../docs/requirements/train/train_001883.md): Пользователь может связывать формы с процессами.
+- [webgen-train-001883-R9](../../docs/requirements/train/train_001883.md): Пользователь может задавать триггерные связи между формами и процессами.
+- [webgen-train-001940-R2](../../docs/requirements/train/train_001940.md): Система должна предоставлять отдельную версию для агента.
+- [webgen-train-001940-R3](../../docs/requirements/train/train_001940.md): Система должна предоставлять отдельную версию для производителя.
+- [webgen-train-001940-R4](../../docs/requirements/train/train_001940.md): Производитель может отслеживать процесс обработки изделий.
+- [webgen-train-001940-R5](../../docs/requirements/train/train_001940.md): Производитель может отслеживать состояние производства изделий.
+- [webgen-train-001940-R8](../../docs/requirements/train/train_001940.md): Пользователь может отслеживать производственный статус.
+- [webgen-train-001940-R11](../../docs/requirements/train/train_001940.md): Система должна обновлять производственный статус в реальном времени.
+- [webgen-train-001977-R1](../../docs/requirements/train/train_001977.md): Пользователь может импортировать данные.
+- [webgen-train-001977-R3](../../docs/requirements/train/train_001977.md): Система должна поддерживать TXT.
+- [webgen-train-001977-R4](../../docs/requirements/train/train_001977.md): Система должна поддерживать Excel.
+- [webgen-train-001977-R5](../../docs/requirements/train/train_001977.md): Система должна проверять нормализованность загруженных Excel-данных.
+- [webgen-train-001977-R6](../../docs/requirements/train/train_001977.md): Система должна возвращать результат проверки загруженного Excel-файла.
+- [webgen-train-001977-R7](../../docs/requirements/train/train_001977.md): Система должна рекомендовать похожие технологии по содержанию проекта.
+- [webgen-train-001977-R9](../../docs/requirements/train/train_001977.md): Пользователь может просматривать проекты низкоуглеродных технологий.
+- [webgen-train-001977-R11](../../docs/requirements/train/train_001977.md): Пользователь может загружать данные.
+- [webgen-train-001977-R13](../../docs/requirements/train/train_001977.md): Пользователь может просматривать рекомендации похожих технологий.
+- [webgen-train-001983-R3](../../docs/requirements/train/train_001983.md): Пользователь может выполнять запросы.
+- [webgen-train-001983-R4](../../docs/requirements/train/train_001983.md): Пользователь может обрабатывать данные.
+- [webgen-train-001983-R6](../../docs/requirements/train/train_001983.md): Система должна сохранять объекты базы данных.
+- [webgen-train-001983-R6.1](../../docs/requirements/train/train_001983.md): Система должна сохранять таблицы.
+- [webgen-train-001983-R6.2](../../docs/requirements/train/train_001983.md): Система должна сохранять запросы.
+- [webgen-train-001983-R6.3](../../docs/requirements/train/train_001983.md): Система должна сохранять формы.
+- [webgen-train-001983-R8](../../docs/requirements/train/train_001983.md): Пользователь может управлять структурой базы.
+- [webgen-train-002019-R1](../../docs/requirements/train/train_002019.md): Система должна использовать язык Go.
+- [webgen-train-002019-R3](../../docs/requirements/train/train_002019.md): Разработчик может управлять маршрутами.
+- [webgen-train-002019-R4](../../docs/requirements/train/train_002019.md): Разработчик может обрабатывать HTTP-запросы.
+- [webgen-train-002019-R5](../../docs/requirements/train/train_002019.md): Разработчик может генерировать ответы.
+- [webgen-train-002019-R6](../../docs/requirements/train/train_002019.md): Разработчик может обрабатывать ошибки.
+- [webgen-train-002019-R7](../../docs/requirements/train/train_002019.md): Система должна поддерживать несколько шаблонизаторов.
+- [webgen-train-002019-R8](../../docs/requirements/train/train_002019.md): Система должна поддерживать подключения к базам данных.
+- [webgen-train-002087-R1](../../docs/requirements/train/train_002087.md): Система должна поддерживать одновременную онлайн-разметку несколькими пользователями.
+- [webgen-train-002087-R2](../../docs/requirements/train/train_002087.md): Система должна синхронизировать совместную разметку в реальном времени.
+- [webgen-train-002087-R3](../../docs/requirements/train/train_002087.md): Пользователь может размечать прямоугольниками.
+- [webgen-train-002087-R4](../../docs/requirements/train/train_002087.md): Пользователь может размечать свободными кривыми.
+- [webgen-train-002087-R5](../../docs/requirements/train/train_002087.md): Пользователь может размечать многоугольниками.
+- [webgen-train-002087-R6](../../docs/requirements/train/train_002087.md): Пользователь может задавать типы аннотаций.
+- [webgen-train-002087-R7](../../docs/requirements/train/train_002087.md): Пользователь может задавать атрибуты аннотаций.
+- [webgen-train-002087-R8](../../docs/requirements/train/train_002087.md): Пользователь может импортировать данные разметки.
+- [webgen-train-002087-R10](../../docs/requirements/train/train_002087.md): Пользователь может управлять данными разметки.
+- [webgen-train-002087-R13](../../docs/requirements/train/train_002087.md): Система должна автоматически разбирать загруженные ресурсы изображений.
+- [webgen-train-002092-R1](../../docs/requirements/train/train_002092.md): Система должна поддерживать работу с Oracle.
+- [webgen-train-002092-R2](../../docs/requirements/train/train_002092.md): Система должна предоставлять SQL-консоль.
+- [webgen-train-002092-R3](../../docs/requirements/train/train_002092.md): Система должна предоставлять общие SQL-инструменты.
+- [webgen-train-002092-R5](../../docs/requirements/train/train_002092.md): Пользователь может писать SQL в текстовом редакторе.
+- [webgen-train-002092-R6](../../docs/requirements/train/train_002092.md): Пользователь может выполнять SQL-команды.
+- [webgen-train-002092-R8](../../docs/requirements/train/train_002092.md): Пользователь может управлять данными.
+- [webgen-train-002104-R4](../../docs/requirements/train/train_002104.md): Пользователь может развёртывать смарт-контракты.
+- [webgen-train-002104-R5](../../docs/requirements/train/train_002104.md): Пользователь может просматривать результат выполнения контракта.
+- [webgen-train-002104-R6](../../docs/requirements/train/train_002104.md): Пользователь может управлять данными контракта.
+- [webgen-train-002127-R2](../../docs/requirements/train/train_002127.md): Пользователь может управлять несколькими учётными записями Xiaohongshu.
+- [webgen-train-002127-R3](../../docs/requirements/train/train_002127.md): Пользователь может публиковать материалы.
+- [webgen-train-002127-R8](../../docs/requirements/train/train_002127.md): Пользователь может настраивать учётные записи.
+- [webgen-train-002170-R1](../../docs/requirements/train/train_002170.md): Система должна использовать TEMPLI PHP.
+- [webgen-train-002170-R3](../../docs/requirements/train/train_002170.md): Пользователь может просматривать данные.
+- [webgen-train-002231-R1](../../docs/requirements/train/train_002231.md): Пользователь может вводить сведения об образцах.
+- [webgen-train-002231-R3](../../docs/requirements/train/train_002231.md): Система должна автоматически создавать электронные документы в зависимости от типа образца.
+- [webgen-train-002231-R4](../../docs/requirements/train/train_002231.md): Система должна поддерживать настройку под требования нескольких сотрудничающих фабрик.
+- [webgen-train-002267-R1](../../docs/requirements/train/train_002267.md): Система должна показывать основные сведения о пользователях.
+- [webgen-train-002267-R2](../../docs/requirements/train/train_002267.md): Система должна показывать подробные сведения о классах.
+- [webgen-train-002267-R4](../../docs/requirements/train/train_002267.md): Пользователь может просматривать собственные данные.
+- [webgen-train-002285-R4](../../docs/requirements/train/train_002285.md): Пользователь может задавать шаги обработки формы.
+- [webgen-train-002285-R6](../../docs/requirements/train/train_002285.md): Пользователь может управлять состоянием согласования формы.
+- [webgen-train-002379-R5](../../docs/requirements/train/train_002379.md): Пользователь может управлять списками контактов.
+- [webgen-train-002379-R6](../../docs/requirements/train/train_002379.md): Пользователь может отправлять SMS выбранным контактам.
+- [webgen-train-002397-R2](../../docs/requirements/train/train_002397.md): Пользователь может управлять информацией о клиентах.
+- [webgen-train-002397-R4](../../docs/requirements/train/train_002397.md): Пользователь может управлять проектами.
+- [webgen-train-002397-R5](../../docs/requirements/train/train_002397.md): Пользователь может выполнять управление кредитованием.
+- [webgen-train-002397-R6](../../docs/requirements/train/train_002397.md): Пользователь может выдавать предкредитные квоты.
+- [webgen-train-002397-R7](../../docs/requirements/train/train_002397.md): Система должна записывать процессы кредитного этапа.
+- [webgen-train-002397-R8](../../docs/requirements/train/train_002397.md): Система должна отслеживать процессы кредитного этапа.
+- [webgen-train-002397-R9](../../docs/requirements/train/train_002397.md): Система должна записывать процессы после выдачи кредита.
+- [webgen-train-002397-R10](../../docs/requirements/train/train_002397.md): Система должна отслеживать процессы после выдачи кредита.
+- [webgen-train-002477-R2](../../docs/requirements/train/train_002477.md): Пользователь может просматривать данные.
+- [webgen-train-002477-R6](../../docs/requirements/train/train_002477.md): Пользователь может управлять пользователями.
+- [webgen-train-002477-R8](../../docs/requirements/train/train_002477.md): Пользователь может просматривать записи журналов.
+- [webgen-train-002477-R9](../../docs/requirements/train/train_002477.md): Система должна предоставлять управление журналами.
+- [webgen-train-002494-R1](../../docs/requirements/train/train_002494.md): Система должна поддерживать BIM-проектирование дорог, мостов и тоннелей в контексте Revit.
+- [webgen-train-002494-R3](../../docs/requirements/train/train_002494.md): Пользователь может размещать обычные семейства вдоль трасс.
+- [webgen-train-002494-R5](../../docs/requirements/train/train_002494.md): Пользователь может запускать имитацию движения по трассе.
+- [webgen-train-002494-R7](../../docs/requirements/train/train_002494.md): Пользователь может просматривать проектные модули.
+- [webgen-train-002494-R8](../../docs/requirements/train/train_002494.md): Пользователь может выбирать функции проектирования и моделирования.
+- [webgen-train-002508-R2](../../docs/requirements/train/train_002508.md): Пользователь может отправлять задания на подготовку текста.
+- [webgen-train-002508-R3](../../docs/requirements/train/train_002508.md): Система должна подготавливать текст по заданию.
+- [webgen-train-002508-R4](../../docs/requirements/train/train_002508.md): Система должна редактировать текст по заданию.
+- [webgen-train-002508-R5](../../docs/requirements/train/train_002508.md): Система должна рецензировать текст по заданию.
+- [webgen-train-002508-R6](../../docs/requirements/train/train_002508.md): Система должна возвращать результат, соответствующий требованиям задания.
+- [webgen-train-002508-R7](../../docs/requirements/train/train_002508.md): Пользователь может отслеживать выполнение заданий.
+- [webgen-train-002508-R8](../../docs/requirements/train/train_002508.md): Пользователь может общаться с виртуальным помощником.
+- [webgen-train-002509-R2](../../docs/requirements/train/train_002509.md): Пользователь может настраивать источники данных.
+- [webgen-train-002509-R6](../../docs/requirements/train/train_002509.md): Система должна предотвращать XSS.
+- [webgen-train-002509-R8](../../docs/requirements/train/train_002509.md): Система должна поддерживать интернационализацию.
+- [webgen-train-002509-R9](../../docs/requirements/train/train_002509.md): Система должна вести журналы событий.
+- [webgen-train-002522-R2](../../docs/requirements/train/train_002522.md): Пользователь может записывать изменения базы.
+- [webgen-train-002522-R3](../../docs/requirements/train/train_002522.md): Пользователь может просматривать историю изменений.
+- [webgen-train-002522-R4](../../docs/requirements/train/train_002522.md): Пользователь может сравнивать разные версии изменений.
+- [webgen-train-002536-R10](../../docs/requirements/train/train_002536.md): Пользователь может управлять товарами.
+- [webgen-train-002549-R6](../../docs/requirements/train/train_002549.md): Пользователь может предварительно просматривать проект.
+- [webgen-train-002549-R7](../../docs/requirements/train/train_002549.md): Пользователь может делиться проектом.
+- [webgen-train-002559-R4](../../docs/requirements/train/train_002559.md): Пользователь может отлаживать приложения.
+- [webgen-train-002559-R5](../../docs/requirements/train/train_002559.md): Пользователь может управлять версиями проектов.
+- [webgen-train-002583-R1](../../docs/requirements/train/train_002583.md): Система должна выполнять торговые операции каждую минуту.
+- [webgen-train-002583-R2](../../docs/requirements/train/train_002583.md): Система должна быстро обнаруживать изменения цены.
+- [webgen-train-002583-R3](../../docs/requirements/train/train_002583.md): Система должна быстро реагировать на изменения цены.
+- [webgen-train-002583-R4](../../docs/requirements/train/train_002583.md): Пользователь может задавать торговые пары.
+- [webgen-train-002583-R5](../../docs/requirements/train/train_002583.md): Пользователь может задавать криптовалюты для торговли.
+- [webgen-train-002583-R6](../../docs/requirements/train/train_002583.md): Система должна торговать в соответствии с выбранными парами и криптовалютами.
+- [webgen-train-002583-R7](../../docs/requirements/train/train_002583.md): Система должна показывать торговые записи в реальном времени.
+- [webgen-train-002583-R8](../../docs/requirements/train/train_002583.md): Система должна показывать баланс счёта.
+- [webgen-train-002589-R1](../../docs/requirements/train/train_002589.md): Пользователь может просматривать участников мероприятий.
+- [webgen-train-002589-R3](../../docs/requirements/train/train_002589.md): Пользователь может записываться на мероприятие.
+- [webgen-train-002589-R4](../../docs/requirements/train/train_002589.md): Пользователь может просматривать собственные записи.
+- [webgen-train-002621-R1](../../docs/requirements/train/train_002621.md): Система должна показывать описание компании.
+- [webgen-train-002621-R2](../../docs/requirements/train/train_002621.md): Система должна показывать товары.
+- [webgen-train-002621-R3](../../docs/requirements/train/train_002621.md): Система должна показывать контакты.
+- [webgen-train-002621-R4](../../docs/requirements/train/train_002621.md): Пользователь может просматривать историю компании.
+- [webgen-train-002621-R6](../../docs/requirements/train/train_002621.md): Пользователь может связываться с компанией по указанным контактам.
+- [webgen-train-002621-R7](../../docs/requirements/train/train_002621.md): Система должна предоставлять понятное навигационное меню.
+- [webgen-train-002636-R1](../../docs/requirements/train/train_002636.md): Система должна предоставлять главную страницу.
+- [webgen-train-002636-R2](../../docs/requirements/train/train_002636.md): Система должна предоставлять страницу о компании.
+- [webgen-train-002636-R3](../../docs/requirements/train/train_002636.md): Система должна предоставлять страницу услуг.
+- [webgen-train-002636-R4](../../docs/requirements/train/train_002636.md): Система должна предоставлять страницу контактов.
+- [webgen-train-002636-R5](../../docs/requirements/train/train_002636.md): Пользователь может просматривать услуги доставки дронами.
+- [webgen-train-002636-R6](../../docs/requirements/train/train_002636.md): Пользователь может смотреть видео.
+- [webgen-train-002636-R7](../../docs/requirements/train/train_002636.md): Пользователь может просматривать изображения.
+- [webgen-train-002636-R8](../../docs/requirements/train/train_002636.md): Пользователь может отправлять контактные сведения.
+- [webgen-train-002643-R1](../../docs/requirements/train/train_002643.md): Система должна строить приложение на основе статических веб-страниц.
+- [webgen-train-002643-R2](../../docs/requirements/train/train_002643.md): Система должна динамически отображать стили.
+- [webgen-train-002643-R3](../../docs/requirements/train/train_002643.md): Система должна кэшировать данные.
+- [webgen-train-002643-R4](../../docs/requirements/train/train_002643.md): Система должна оптимизировать производительность страниц.
+- [webgen-train-002643-R5](../../docs/requirements/train/train_002643.md): Система должна разрешать проблемы совместимости браузеров.
+- [webgen-train-002643-R6](../../docs/requirements/train/train_002643.md): Пользователь может просматривать данные.
+- [webgen-train-002643-R7](../../docs/requirements/train/train_002643.md): Пользователь может управлять данными.
+- [webgen-train-002643-R8](../../docs/requirements/train/train_002643.md): Система должна отображать данные через API бэкенда.
+- [webgen-train-002643-R9](../../docs/requirements/train/train_002643.md): Система должна обновлять данные через API бэкенда.
+- [webgen-train-002652-R1](../../docs/requirements/train/train_002652.md): Пользователь может просматривать услуги бухгалтерской фирмы.
+- [webgen-train-002652-R2](../../docs/requirements/train/train_002652.md): Пользователь может записываться на консультацию.
+- [webgen-train-002652-R4](../../docs/requirements/train/train_002652.md): Пользователь может просматривать цены услуг.
+- [webgen-train-002670-R1](../../docs/requirements/train/train_002670.md): Система должна предоставлять лаконичный и удобный дизайн.
+- [webgen-train-002670-R2.1](../../docs/requirements/train/train_002670.md): Пользователь может вводить имя.
+- [webgen-train-002670-R2.2](../../docs/requirements/train/train_002670.md): Пользователь может вводить email.
+- [webgen-train-002677-R1](../../docs/requirements/train/train_002677.md): Система должна показывать приложение в главном hero-блоке.
+- [webgen-train-002677-R2](../../docs/requirements/train/train_002677.md): Система должна показывать слоган, подчёркивающий особенности приложения.
+- [webgen-train-002677-R3](../../docs/requirements/train/train_002677.md): Пользователь может просматривать описание возможностей приложения.
+- [webgen-train-002677-R4](../../docs/requirements/train/train_002677.md): Пользователь может просматривать преимущества приложения.
+- [webgen-train-002678-R3](../../docs/requirements/train/train_002678.md): Пользователь может запускать навигацию к компании одним действием.
+- [webgen-train-002678-R4](../../docs/requirements/train/train_002678.md): Пользователь может связываться с компанией напрямую.
+- [webgen-train-002678-R5](../../docs/requirements/train/train_002678.md): Система должна показывать сведения о компаниях.
+- [webgen-train-002681-R1](../../docs/requirements/train/train_002681.md): Пользователь может просматривать описания шин.
+- [webgen-train-002681-R3](../../docs/requirements/train/train_002681.md): Пользователь может находить ближайшие магазины.
+- [webgen-train-002681-R4](../../docs/requirements/train/train_002681.md): Пользователь может просматривать действующие акции.
+- [webgen-train-002681-R5](../../docs/requirements/train/train_002681.md): Система должна поддерживать несколько языков.
+- [webgen-train-002706-R1](../../docs/requirements/train/train_002706.md): Система должна использовать WordPress.
+- [webgen-train-002706-R2](../../docs/requirements/train/train_002706.md): Система должна содержать восемь страниц.
+- [webgen-train-002706-R3](../../docs/requirements/train/train_002706.md): Система должна предоставлять главную страницу.
+- [webgen-train-002706-R4](../../docs/requirements/train/train_002706.md): Система должна предоставлять страницу о компании.
+- [webgen-train-002706-R5](../../docs/requirements/train/train_002706.md): Система должна предоставлять страницу услуг.
+- [webgen-train-002706-R6](../../docs/requirements/train/train_002706.md): Система должна предоставлять страницу товаров.
+- [webgen-train-002706-R7](../../docs/requirements/train/train_002706.md): Система должна предоставлять страницу новостей.
+- [webgen-train-002706-R8](../../docs/requirements/train/train_002706.md): Система должна предоставлять страницу контактов.
+- [webgen-train-002706-R9](../../docs/requirements/train/train_002706.md): Система должна предоставлять FAQ.
+- [webgen-train-002706-R10](../../docs/requirements/train/train_002706.md): Система должна предоставлять страницу входа и регистрации.
+- [webgen-train-002706-R11](../../docs/requirements/train/train_002706.md): Пользователь может просматривать анимации.
+- [webgen-train-002706-R12](../../docs/requirements/train/train_002706.md): Пользователь может переходить между страницами.
+- [webgen-train-002712-R1](../../docs/requirements/train/train_002712.md): Система должна предоставлять главную страницу.
+- [webgen-train-002712-R2](../../docs/requirements/train/train_002712.md): Система должна предоставлять страницы товаров.
+- [webgen-train-002712-R3](../../docs/requirements/train/train_002712.md): Система должна предоставлять страницу о компании.
+- [webgen-train-002712-R4](../../docs/requirements/train/train_002712.md): Система должна предоставлять страницу контактов.
+- [webgen-train-002712-R8](../../docs/requirements/train/train_002712.md): Пользователь может переходить между страницами.
+- [webgen-train-002748-R1](../../docs/requirements/train/train_002748.md): Система должна использовать WordPress после преобразования.
+- [webgen-train-002748-R2](../../docs/requirements/train/train_002748.md): Система должна сохранять функциональность исходного HTML-сайта.
+- [webgen-train-002748-R3](../../docs/requirements/train/train_002748.md): Система должна сохранять компоновку исходного сайта.
+- [webgen-train-002748-R4](../../docs/requirements/train/train_002748.md): Система должна предоставлять главную страницу.
+- [webgen-train-002748-R5](../../docs/requirements/train/train_002748.md): Система должна предоставлять страницу о компании.
+- [webgen-train-002748-R6](../../docs/requirements/train/train_002748.md): Система должна предоставлять страницу контактов.
+- [webgen-train-002748-R7](../../docs/requirements/train/train_002748.md): Система должна корректно отображать содержимое.
+- [webgen-train-002748-R8](../../docs/requirements/train/train_002748.md): Система должна корректно отображать изображения.
+- [webgen-train-002748-R9](../../docs/requirements/train/train_002748.md): Система должна предоставлять удобный интерфейс.
+- [webgen-train-002748-R10](../../docs/requirements/train/train_002748.md): Система должна поддерживать SEO.
+- [webgen-train-002766-R2](../../docs/requirements/train/train_002766.md): Пользователь может просматривать отраслевые новости.
+- [webgen-train-002766-R3](../../docs/requirements/train/train_002766.md): Пользователь может использовать инструменты агента по дистрибуции.
+- [webgen-train-002766-R4](../../docs/requirements/train/train_002766.md): Пользователь может использовать инструменты помощника по проектам.
+- [webgen-train-002766-R5](../../docs/requirements/train/train_002766.md): Система должна работать как мини-приложение WeChat.
+- [webgen-train-002795-R1](../../docs/requirements/train/train_002795.md): Система должна поддерживать несколько языков.
+- [webgen-train-002795-R2](../../docs/requirements/train/train_002795.md): Система должна предоставлять удобный интерфейс.
+- [webgen-train-002795-R3](../../docs/requirements/train/train_002795.md): Система должна поддерживать разные типы содержимого.
+- [webgen-train-002795-R7](../../docs/requirements/train/train_002795.md): Пользователь может просматривать бухгалтерскую информацию.
+- [webgen-train-002795-R9](../../docs/requirements/train/train_002795.md): Пользователь может просматривать виды бухгалтерских услуг.
+- [webgen-train-002804-R1](../../docs/requirements/train/train_002804.md): Пользователь может просматривать категории полупроводниковых компонентов.
+- [webgen-train-002859-R1](../../docs/requirements/train/train_002859.md): Пользователь может просматривать товары.
+- [webgen-train-002859-R2](../../docs/requirements/train/train_002859.md): Пользователь может делиться товарами с друзьями.
+- [webgen-train-002859-R7](../../docs/requirements/train/train_002859.md): Пользователь может выбирать способ доставки.
+- [webgen-train-002859-R8](../../docs/requirements/train/train_002859.md): Пользователь может вводить адрес доставки.
+- [webgen-train-002859-R9](../../docs/requirements/train/train_002859.md): Пользователь может выбирать время получения.
+- [webgen-train-002889-R1](../../docs/requirements/train/train_002889.md): Система должна предоставлять главную страницу.
+- [webgen-train-002889-R2](../../docs/requirements/train/train_002889.md): Система должна предоставлять страницу товара.
+- [webgen-train-002889-R6](../../docs/requirements/train/train_002889.md): Пользователь может выбирать пакеты.
+- [webgen-train-002983-R2](../../docs/requirements/train/train_002983.md): Система должна поддерживать раздельные расчёты.
+- [webgen-train-002983-R4](../../docs/requirements/train/train_002983.md): Система должна предоставлять модуль продавцов.
+- [webgen-train-002983-R5](../../docs/requirements/train/train_002983.md): Система должна предоставлять модуль счетов.
+- [webgen-train-002983-R6](../../docs/requirements/train/train_002983.md): Система должна предоставлять модуль ежедневных расчётов.
+- [webgen-train-002983-R8](../../docs/requirements/train/train_002983.md): Система должна управлять сведениями о продавцах.
+- [webgen-train-002983-R9](../../docs/requirements/train/train_002983.md): Система должна записывать операции продавцов.
+- [webgen-train-002983-R10](../../docs/requirements/train/train_002983.md): Система должна выполнять сверку ежедневных расчётов.
+- [webgen-train-002983-R11](../../docs/requirements/train/train_002983.md): Система должна обрабатывать ошибки расчётов.
+- [webgen-train-002983-R13](../../docs/requirements/train/train_002983.md): Система должна повторять неуспешные возвраты.
+- [webgen-train-002983-R14](../../docs/requirements/train/train_002983.md): Система должна выполнять ежедневную сверку.
+- [webgen-train-003061-R2](../../docs/requirements/train/train_003061.md): Пользователь может проверять состояние стирки.
+- [webgen-train-003061-R4](../../docs/requirements/train/train_003061.md): Пользователь может выполнять эти действия через мобильное приложение или мини-приложение.
+- [webgen-train-003080-R2](../../docs/requirements/train/train_003080.md): Система должна предоставлять управление купонами.
+- [webgen-train-003080-R4](../../docs/requirements/train/train_003080.md): Пользователь может просматривать товары.
+- [webgen-train-003080-R9](../../docs/requirements/train/train_003080.md): Пользователь может получать купоны.
+- [webgen-train-003080-R10](../../docs/requirements/train/train_003080.md): Пользователь может применять купоны.
+- [webgen-train-003086-R8](../../docs/requirements/train/train_003086.md): Пользователь может просматривать баланс.
+- [webgen-train-003119-R1](../../docs/requirements/train/train_003119.md): Система должна предоставлять раздел баз ухода за пожилыми.
+- [webgen-train-003119-R2](../../docs/requirements/train/train_003119.md): Система должна предоставлять раздел гостевых размещений и гостиниц.
+- [webgen-train-003119-R3](../../docs/requirements/train/train_003119.md): Система должна предоставлять раздел оздоровительного магазина.
+- [webgen-train-003119-R4](../../docs/requirements/train/train_003119.md): Система должна предоставлять раздел оздоровительных парков.
+- [webgen-train-003119-R5](../../docs/requirements/train/train_003119.md): Система должна предоставлять раздел здорового питания.
+- [webgen-train-003119-R6](../../docs/requirements/train/train_003119.md): Система должна предоставлять раздел совместных магазинов.
+- [webgen-train-003119-R7](../../docs/requirements/train/train_003119.md): Система должна предоставлять раздел агентских точек.
+- [webgen-train-003119-R9](../../docs/requirements/train/train_003119.md): Пользователь может просматривать разделы сайта.
+- [webgen-train-003119-R10](../../docs/requirements/train/train_003119.md): Пользователь может покупать товары онлайн.
+- [webgen-train-003119-R12](../../docs/requirements/train/train_003119.md): Пользователь может смотреть прямые трансляции.
+- [webgen-train-003119-R15](../../docs/requirements/train/train_003119.md): Система должна защищать персональную информацию пользователей.
+- [webgen-train-003119-R16](../../docs/requirements/train/train_003119.md): Система должна обеспечивать безопасность операций.
+- [webgen-train-003139-R1](../../docs/requirements/train/train_003139.md): Система должна поддерживать выбор способа доставки.
+- [webgen-train-003139-R2](../../docs/requirements/train/train_003139.md): Система должна поддерживать настройку цен товаров.
+- [webgen-train-003139-R3](../../docs/requirements/train/train_003139.md): Пользователь может просматривать товары.
+- [webgen-train-003139-R7](../../docs/requirements/train/train_003139.md): Пользователь может регистрироваться в качестве участника.
+- [webgen-train-003139-R8](../../docs/requirements/train/train_003139.md): Пользователь может получать скидки участника.
+- [webgen-train-003155-R1](../../docs/requirements/train/train_003155.md): Система должна предоставлять минималистичное оформление.
+- [webgen-train-003155-R2](../../docs/requirements/train/train_003155.md): Система должна обеспечивать удобную навигацию.
+- [webgen-train-003155-R3.1](../../docs/requirements/train/train_003155.md): Пользователь может вводить имя в контактной форме.
+- [webgen-train-003155-R3.2](../../docs/requirements/train/train_003155.md): Пользователь может вводить email в контактной форме.
+- [webgen-train-003155-R4](../../docs/requirements/train/train_003155.md): Пользователь может просматривать товары.
+- [webgen-train-003155-R5](../../docs/requirements/train/train_003155.md): Пользователь может покупать товары.
+- [webgen-train-003155-R6](../../docs/requirements/train/train_003155.md): Система должна показывать описание товара.
+- [webgen-train-003155-R7](../../docs/requirements/train/train_003155.md): Система должна показывать цену товара.
+- [webgen-train-003155-R8](../../docs/requirements/train/train_003155.md): Система должна показывать изображение товара.
+- [webgen-train-003166-R1](../../docs/requirements/train/train_003166.md): Система должна поддерживать работу с несколькими блокчейн-сетями.
+- [webgen-train-003166-R2](../../docs/requirements/train/train_003166.md): Система должна предоставлять удобный интерфейс для криптотрейдеров.
+- [webgen-train-003166-R4](../../docs/requirements/train/train_003166.md): Пользователь может просматривать криптовалютные активы.
+- [webgen-train-003166-R5](../../docs/requirements/train/train_003166.md): Пользователь может управлять криптовалютными активами.
+- [webgen-train-003166-R6](../../docs/requirements/train/train_003166.md): Пользователь может совершать сделки.
+- [webgen-train-003166-R7](../../docs/requirements/train/train_003166.md): Пользователь может просматривать рыночные тенденции.
+- [webgen-train-003166-R8](../../docs/requirements/train/train_003166.md): Пользователь может использовать функции DeFi.
+- [webgen-train-003166-R9](../../docs/requirements/train/train_003166.md): Система должна показывать рыночные данные в реальном времени.
+- [webgen-train-003166-R10](../../docs/requirements/train/train_003166.md): Система должна показывать торговую информацию в реальном времени.
+- [webgen-train-003193-R2](../../docs/requirements/train/train_003193.md): Пользователь может просматривать доступные проекты.
+- [webgen-train-003193-R3](../../docs/requirements/train/train_003193.md): Пользователь может заполнять поля.
+- [webgen-train-003193-R7](../../docs/requirements/train/train_003193.md): Система должна формировать PDF в табличном виде.
+- [webgen-train-003193-R8](../../docs/requirements/train/train_003193.md): Система должна заполнять строки PDF данными из базы.
+- [webgen-train-003259-R1](../../docs/requirements/train/train_003259.md): Пользователь может выполнять денежные переводы.
+- [webgen-train-003259-R6](../../docs/requirements/train/train_003259.md): Пользователь может просматривать историю своих операций.
+- [webgen-train-003259-R7](../../docs/requirements/train/train_003259.md): Пользователь может управлять своими записями операций.
+- [webgen-train-003286-R3](../../docs/requirements/train/train_003286.md): Система должна предоставлять управление участниками.
+- [webgen-train-003286-R4](../../docs/requirements/train/train_003286.md): Система должна предоставлять управление товарами.
+- [webgen-train-003286-R5](../../docs/requirements/train/train_003286.md): Система должна предоставлять управление остатками.
+- [webgen-train-003286-R6](../../docs/requirements/train/train_003286.md): Система должна предоставлять управление категориями.
+- [webgen-train-003286-R7](../../docs/requirements/train/train_003286.md): Система должна распределять товары по категориям.
+- [webgen-train-003286-R8](../../docs/requirements/train/train_003286.md): Система должна поддерживать дистрибуцию.
+- [webgen-train-003286-R9](../../docs/requirements/train/train_003286.md): Пользователь может просматривать товары.
+- [webgen-train-003286-R13](../../docs/requirements/train/train_003286.md): Пользователь может управлять своими данными участника.
+- [webgen-train-003286-R14](../../docs/requirements/train/train_003286.md): Пользователь может участвовать в быстрых распродажах.
+- [webgen-train-003286-R15](../../docs/requirements/train/train_003286.md): Пользователь может обменивать баллы.
+- [webgen-train-003286-R16](../../docs/requirements/train/train_003286.md): Пользователь может применять купоны.
+- [webgen-train-003341-R1](../../docs/requirements/train/train_003341.md): Продавец может подключаться к площадке.
+- [webgen-train-003341-R2](../../docs/requirements/train/train_003341.md): Продавец может выставлять товары.
+- [webgen-train-003341-R5](../../docs/requirements/train/train_003341.md): Клиент может выбирать ближайший пункт выдачи.
+- [webgen-train-003341-R6](../../docs/requirements/train/train_003341.md): Система должна начислять комиссию пункту выдачи.
+- [webgen-train-003341-R7](../../docs/requirements/train/train_003341.md): Пользователь может публиковать предложения товаров.
+- [webgen-train-003341-R8](../../docs/requirements/train/train_003341.md): Пользователь может публиковать спрос на товары.
+- [webgen-train-003341-R9](../../docs/requirements/train/train_003341.md): Пользователь может получать подарки за пополнение.
+- [webgen-train-003341-R10](../../docs/requirements/train/train_003341.md): Пользователь может обменивать баллы.
+- [webgen-train-003341-R11](../../docs/requirements/train/train_003341.md): Пользователь может использовать купоны.
+- [webgen-train-003341-R12](../../docs/requirements/train/train_003341.md): Пользователь может просматривать товары.
+- [webgen-train-003341-R14](../../docs/requirements/train/train_003341.md): Пользователь может выбирать пункт выдачи.
+- [webgen-train-003348-R1](../../docs/requirements/train/train_003348.md): Система должна поддерживать подключение нескольких агентов.
+- [webgen-train-003348-R2](../../docs/requirements/train/train_003348.md): Система должна поддерживать подключение нескольких продавцов.
+- [webgen-train-003348-R3](../../docs/requirements/train/train_003348.md): Система должна поддерживать контроль баланса.
+- [webgen-train-003348-R7](../../docs/requirements/train/train_003348.md): Пользователь может просматривать баланс.
+- [webgen-train-003348-R10](../../docs/requirements/train/train_003348.md): Система должна поддерживать высокую параллельную нагрузку.
+- [webgen-train-003348-R11](../../docs/requirements/train/train_003348.md): Система должна быстро возвращать callback.
+- [webgen-train-003370-R1](../../docs/requirements/train/train_003370.md): Система должна предоставлять управление баллами.
+- [webgen-train-003370-R2](../../docs/requirements/train/train_003370.md): Система должна поддерживать сверку расчётов.
+- [webgen-train-003370-R5](../../docs/requirements/train/train_003370.md): Пользователь может проверять баллы.
+- [webgen-train-003370-R7](../../docs/requirements/train/train_003370.md): Продавец может выполнять расчёты по своей деятельности.
+- [webgen-train-003370-R8](../../docs/requirements/train/train_003370.md): Система должна упрощать сверку счетов.
+- [webgen-train-003382-R1](../../docs/requirements/train/train_003382.md): Пользователь может просматривать ювелирные товары.
+- [webgen-train-003382-R2](../../docs/requirements/train/train_003382.md): Пользователь может становиться участником.
+- [webgen-train-003382-R3](../../docs/requirements/train/train_003382.md): Пользователь может накапливать баллы.
+- [webgen-train-003382-R4](../../docs/requirements/train/train_003382.md): Пользователь может участвовать в реферальных маркетинговых акциях.
+- [webgen-train-003382-R5](../../docs/requirements/train/train_003382.md): Пользователь может участвовать в дистрибуции.
+- [webgen-train-003411-R2](../../docs/requirements/train/train_003411.md): Система должна предоставлять управление участниками.
+- [webgen-train-003411-R3](../../docs/requirements/train/train_003411.md): Система должна предоставлять управление баллами.
+- [webgen-train-003411-R4](../../docs/requirements/train/train_003411.md): Система должна предоставлять управление товарными карточками.
+- [webgen-train-003411-R6](../../docs/requirements/train/train_003411.md): Пользователь может просматривать товары.
+- [webgen-train-003411-R9](../../docs/requirements/train/train_003411.md): Пользователь может управлять своими данными участника.
+- [webgen-train-003411-R10](../../docs/requirements/train/train_003411.md): Пользователь может проверять баланс баллов.
+- [webgen-train-003411-R11](../../docs/requirements/train/train_003411.md): Пользователь может обменивать виртуальные товары.
+- [webgen-train-003449-R1](../../docs/requirements/train/train_003449.md): Пользователь может просматривать блюда.
+- [webgen-train-003449-R7](../../docs/requirements/train/train_003449.md): Система должна сохранять историю покупок пользователя.
+- [webgen-train-003535-R1](../../docs/requirements/train/train_003535.md): Система должна загружаться менее чем за три секунды.
+- [webgen-train-003535-R2](../../docs/requirements/train/train_003535.md): Система должна повышать оценку Google PageSpeed Insights.
+- [webgen-train-003535-R4](../../docs/requirements/train/train_003535.md): Пользователь может просматривать товары.
+- [webgen-train-003535-R5](../../docs/requirements/train/train_003535.md): Пользователь может покупать товары.
+- [webgen-train-003535-R7](../../docs/requirements/train/train_003535.md): Система должна быстро загружать описания товаров.
+- [webgen-train-003587-R1](../../docs/requirements/train/train_003587.md): Система должна поддерживать круглосуточное самообслуживание автомойки.
+- [webgen-train-003587-R3.1](../../docs/requirements/train/train_003587.md): Пользователь может просматривать адрес.
+- [webgen-train-003587-R3.2](../../docs/requirements/train/train_003587.md): Пользователь может просматривать контакты.
+- [webgen-train-003587-R3.4](../../docs/requirements/train/train_003587.md): Пользователь может просматривать тарифы.
+- [webgen-train-003587-R3.5](../../docs/requirements/train/train_003587.md): Пользователь может просматривать пакеты.
+- [webgen-train-003587-R3.6](../../docs/requirements/train/train_003587.md): Пользователь может просматривать инструкции по мойке.
+- [webgen-train-003587-R4](../../docs/requirements/train/train_003587.md): Пользователь может пополнять счёт.
+- [webgen-train-003587-R5](../../docs/requirements/train/train_003587.md): Пользователь может сканировать QR-код для въезда.
+- [webgen-train-003587-R6](../../docs/requirements/train/train_003587.md): Пользователь может сканировать QR-код для выезда.
+- [webgen-train-003587-R8](../../docs/requirements/train/train_003587.md): Пользователь может входить в учётную запись франчайзи.
+- [webgen-train-003592-R2](../../docs/requirements/train/train_003592.md): Система должна поддерживать расчёты.
+- [webgen-train-003592-R6](../../docs/requirements/train/train_003592.md): Пользователь может просматривать выписки.
+- [webgen-train-003592-R7](../../docs/requirements/train/train_003592.md): Пользователь может управлять денежными счетами.
+- [webgen-train-003621-R1](../../docs/requirements/train/train_003621.md): Пользователь может просматривать товары.
+- [webgen-train-003621-R9](../../docs/requirements/train/train_003621.md): Пользователь может просматривать историю покупок.
+- [webgen-train-003621-R10](../../docs/requirements/train/train_003621.md): Пользователь может оценивать товары.
+- [webgen-train-003634-R3](../../docs/requirements/train/train_003634.md): Пользователь может арендовать сельхозтехнику.
+- [webgen-train-003634-R4](../../docs/requirements/train/train_003634.md): Пользователь может записываться на техническое обслуживание.
+- [webgen-train-003634-R5](../../docs/requirements/train/train_003634.md): Пользователь может просматривать записи обслуживания.
+- [webgen-train-003663-R1](../../docs/requirements/train/train_003663.md): Система должна предоставлять общий режим очереди.
+- [webgen-train-003663-R2](../../docs/requirements/train/train_003663.md): Система должна предоставлять региональный режим очереди.
+- [webgen-train-003663-R3](../../docs/requirements/train/train_003663.md): Пользователь может выбирать подходящий режим очереди.
+- [webgen-train-003663-R4](../../docs/requirements/train/train_003663.md): Система должна предоставлять возможность взвешенного распределения дивидендов с учётом суммы покупок.
+- [webgen-train-003663-R6](../../docs/requirements/train/train_003663.md): Пользователь может просматривать товары.
+- [webgen-train-003663-R8](../../docs/requirements/train/train_003663.md): Пользователь может вставать в очередь.
+- [webgen-train-003663-R9](../../docs/requirements/train/train_003663.md): Пользователь может получать взвешенные дивиденды.
+- [webgen-train-003663-R10](../../docs/requirements/train/train_003663.md): Пользователь может просматривать историю потребления.
+- [webgen-train-003673-R2](../../docs/requirements/train/train_003673.md): Пользователь может просматривать канцелярские товары.
+- [webgen-train-003678-R1](../../docs/requirements/train/train_003678.md): Система должна поддерживать перенос данных старых векселей.
+- [webgen-train-003678-R2](../../docs/requirements/train/train_003678.md): Система должна объединять перенесённые данные.
+- [webgen-train-003678-R3](../../docs/requirements/train/train_003678.md): Система должна проверять непрерывность данных.
+- [webgen-train-003678-R4](../../docs/requirements/train/train_003678.md): Система должна проверять данные.
+- [webgen-train-003678-R8](../../docs/requirements/train/train_003678.md): Пользователь может отслеживать операции.
+- [webgen-train-003678-R9](../../docs/requirements/train/train_003678.md): Пользователь может просматривать результат переноса данных.
+- [webgen-train-003678-R10](../../docs/requirements/train/train_003678.md): Пользователь может просматривать результат объединения данных.
+- [webgen-train-003678-R11](../../docs/requirements/train/train_003678.md): Пользователь может запускать проверку данных.
+- [webgen-train-003680-R1](../../docs/requirements/train/train_003680.md): Система должна предоставлять сайт.
+- [webgen-train-003680-R2](../../docs/requirements/train/train_003680.md): Система должна предоставлять мини-приложение.
+- [webgen-train-003680-R3](../../docs/requirements/train/train_003680.md): Пользователь может совершать пожертвования.
+- [webgen-train-003680-R3.1](../../docs/requirements/train/train_003680.md): Пользователь может выбирать сумму пожертвования.
+- [webgen-train-003680-R3.3](../../docs/requirements/train/train_003680.md): Пользователь может платить через WeChat Pay.
+- [webgen-train-003680-R3.4](../../docs/requirements/train/train_003680.md): Пользователь может платить через Alipay.
+- [webgen-train-003680-R4](../../docs/requirements/train/train_003680.md): Пользователь может просматривать благотворительные проекты.
+- [webgen-train-003680-R5](../../docs/requirements/train/train_003680.md): Пользователь может просматривать записи пожертвований.
+- [webgen-train-003685-R3](../../docs/requirements/train/train_003685.md): Продавец может приглашать других продавцов в магазин.
+- [webgen-train-003685-R4](../../docs/requirements/train/train_003685.md): Продавец может совместно размещать товары.
+- [webgen-train-003685-R5](../../docs/requirements/train/train_003685.md): Система должна ограничивать число продавцов в магазине.
+- [webgen-train-003685-R6](../../docs/requirements/train/train_003685.md): Продавец может общаться с другими продавцами своего магазина.
+- [webgen-train-003685-R7](../../docs/requirements/train/train_003685.md): Продавец может просматривать результаты продаж других продавцов своего магазина.
+- [webgen-train-003685-R9](../../docs/requirements/train/train_003685.md): Пользователь может просматривать магазины.
+- [webgen-train-003685-R10](../../docs/requirements/train/train_003685.md): Пользователь может просматривать товары.
+- [webgen-train-003759-R1](../../docs/requirements/train/train_003759.md): Система должна включать в ассортимент закуски, напитки, выпечку, мёд и пыльцу.
+- [webgen-train-003759-R3](../../docs/requirements/train/train_003759.md): Пользователь может просматривать категории продуктов.
+- [webgen-train-003809-R3](../../docs/requirements/train/train_003809.md): Пользователь может просматривать варианты криптовалютных инвестиций.
+- [webgen-train-003809-R4](../../docs/requirements/train/train_003809.md): Пользователь может оформлять инвестиции.
+- [webgen-train-003809-R5](../../docs/requirements/train/train_003809.md): Пользователь может приглашать других пользователей к участию.
+- [webgen-train-003809-R6.1](../../docs/requirements/train/train_003809.md): Пользователь может просматривать историю своих инвестиций.
+- [webgen-train-003809-R6.2](../../docs/requirements/train/train_003809.md): Пользователь может просматривать историю приглашений.
+- [webgen-train-003809-R6.3](../../docs/requirements/train/train_003809.md): Пользователь может просматривать баланс счёта.
+- [webgen-train-003809-R7](../../docs/requirements/train/train_003809.md): Система должна поддерживать многоуровневый маркетинг.
+- [webgen-train-003839-R1](../../docs/requirements/train/train_003839.md): Система должна поддерживать выпуск цифровых коллекционных объектов.
+- [webgen-train-003839-R2](../../docs/requirements/train/train_003839.md): Система должна предоставлять управление цифровыми коллекционными объектами.
+- [webgen-train-003839-R4](../../docs/requirements/train/train_003839.md): Пользователь может просматривать цифровые коллекционные объекты.
+- [webgen-train-003839-R5](../../docs/requirements/train/train_003839.md): Пользователь может покупать цифровые коллекционные объекты.
+- [webgen-train-003839-R6](../../docs/requirements/train/train_003839.md): Пользователь может просматривать собственную коллекцию.
+- [webgen-train-003839-R7](../../docs/requirements/train/train_003839.md): Пользователь может проводить сделки с коллекционными объектами.
+- [webgen-train-003839-R9](../../docs/requirements/train/train_003839.md): Система должна показывать состояние сделок в реальном времени.
+- [webgen-train-003839-R10](../../docs/requirements/train/train_003839.md): Система должна предоставлять аналитические функции.
+- [webgen-train-003852-R5](../../docs/requirements/train/train_003852.md): Пользователь может просматривать приложения.
+- [webgen-train-003852-R6](../../docs/requirements/train/train_003852.md): Пользователь может покупать приложения.
+- [webgen-train-003852-R8](../../docs/requirements/train/train_003852.md): Пользователь может получать уведомления.
+- [webgen-train-003852-R9](../../docs/requirements/train/train_003852.md): Пользователь может получать доступ к разным приложениям через единый вход.
+- [webgen-train-003881-R3.1](../../docs/requirements/train/train_003881.md): Пользователь может просматривать баланс.
+- [webgen-train-003881-R3.2](../../docs/requirements/train/train_003881.md): Пользователь может просматривать историю операций.
+- [webgen-train-003881-R4](../../docs/requirements/train/train_003881.md): Пользователь может выполнять денежные переводы.
+- [webgen-train-003889-R1](../../docs/requirements/train/train_003889.md): Система должна поддерживать раздельное обслуживание нескольких арендаторов.
+- [webgen-train-003889-R2](../../docs/requirements/train/train_003889.md): Пользователь может просматривать расположение магазинов.
+- [webgen-train-003889-R6](../../docs/requirements/train/train_003889.md): Пользователь может просматривать меню.
+- [webgen-train-003889-R8](../../docs/requirements/train/train_003889.md): Пользователь может записываться на обслуживание.
+- [webgen-train-003912-R1](../../docs/requirements/train/train_003912.md): Продавец может загружать сведения об автомобиле.
+- [webgen-train-003912-R2](../../docs/requirements/train/train_003912.md): Покупатель может загружать персональные сведения.
+- [webgen-train-003912-R2.1](../../docs/requirements/train/train_003912.md): Покупатель может загружать удостоверение личности.
+- [webgen-train-003912-R2.3](../../docs/requirements/train/train_003912.md): Покупатель может загружать водительское удостоверение.
+- [webgen-train-003912-R4](../../docs/requirements/train/train_003912.md): Пользователь может совершать сделки.
+- [webgen-train-003912-R5](../../docs/requirements/train/train_003912.md): Система должна распознавать удостоверения личности.
+- [webgen-train-003912-R6](../../docs/requirements/train/train_003912.md): Система должна распознавать лица.
+- [webgen-train-003912-R7](../../docs/requirements/train/train_003912.md): Система должна распознавать водительские удостоверения.
+- [webgen-train-003912-R8](../../docs/requirements/train/train_003912.md): Система должна распознавать лицензии на ведение бизнеса.
+- [webgen-train-003918-R2](../../docs/requirements/train/train_003918.md): Клиент может вводить сведения, необходимые для перевозки.
+- [webgen-train-003918-R3](../../docs/requirements/train/train_003918.md): Поставщик услуг может вводить сведения о перевозчике.
+- [webgen-train-003918-R4](../../docs/requirements/train/train_003918.md): Система должна показывать карту.
+- [webgen-train-003918-R5](../../docs/requirements/train/train_003918.md): Система должна рекомендовать подходящих перевозчиков на основе данных клиента.
+- [webgen-train-003918-R7](../../docs/requirements/train/train_003918.md): Клиент может сравнивать цены.
+- [webgen-train-003918-R8](../../docs/requirements/train/train_003918.md): Клиент может сравнивать услуги.
+- [webgen-train-003918-R9](../../docs/requirements/train/train_003918.md): Клиент может выбирать перевозчика.
+- [webgen-train-003918-R10](../../docs/requirements/train/train_003918.md): Поставщик услуг может просматривать запросы клиентов.
+- [webgen-train-003918-R11](../../docs/requirements/train/train_003918.md): Поставщик услуг может отправлять ценовые предложения.
+- [webgen-train-003982-R1](../../docs/requirements/train/train_003982.md): Система должна предоставлять веб-приложение.
+- [webgen-train-003982-R2](../../docs/requirements/train/train_003982.md): Система должна предоставлять мобильное приложение.
+- [webgen-train-003982-R4](../../docs/requirements/train/train_003982.md): Система должна предоставлять версию для водителей.
+- [webgen-train-003982-R5](../../docs/requirements/train/train_003982.md): Система должна предоставлять версию для клиентов.
+- [webgen-train-003982-R16](../../docs/requirements/train/train_003982.md): Водитель может получать запросы на поездки.
+- [webgen-train-003982-R17](../../docs/requirements/train/train_003982.md): Водитель может пользоваться навигацией.
+- [webgen-train-003982-R18](../../docs/requirements/train/train_003982.md): Водитель может просматривать заработок.
+- [webgen-train-003982-R19](../../docs/requirements/train/train_003982.md): Водитель может управлять выплатами.
+- [webgen-train-003982-R20](../../docs/requirements/train/train_003982.md): Водитель может просматривать оценки.
+- [webgen-train-003982-R21](../../docs/requirements/train/train_003982.md): Водитель может получать отзывы.
+- [webgen-train-003982-R22](../../docs/requirements/train/train_003982.md): Водитель может получать уведомления.
+- [webgen-train-003982-R23](../../docs/requirements/train/train_003982.md): Водитель может обращаться в поддержку.
+- [webgen-train-003982-R27](../../docs/requirements/train/train_003982.md): Клиент может отслеживать поездку в реальном времени.
+- [webgen-train-003982-R29](../../docs/requirements/train/train_003982.md): Клиент может оставлять оценки.
+- [webgen-train-003982-R30](../../docs/requirements/train/train_003982.md): Клиент может оставлять отзывы.
+- [webgen-train-003982-R31](../../docs/requirements/train/train_003982.md): Клиент может просматривать историю поездок.
+- [webgen-train-003982-R32](../../docs/requirements/train/train_003982.md): Клиент может получать уведомления.
+- [webgen-train-003987-R7](../../docs/requirements/train/train_003987.md): Система должна подключаться к системе грузоперевозок.
+- [webgen-train-003990-R1](../../docs/requirements/train/train_003990.md): Система должна предоставлять функции операционного продвижения.
+- [webgen-train-003990-R2](../../docs/requirements/train/train_003990.md): Система должна предоставлять управление дистрибуцией.
+- [webgen-train-003990-R3](../../docs/requirements/train/train_003990.md): Система должна принимать заявки на билеты.
+- [webgen-train-003990-R10](../../docs/requirements/train/train_003990.md): Пользователь может управлять поставщиками услуг.
+- [webgen-train-003999-R1](../../docs/requirements/train/train_003999.md): Система должна предоставлять центр мониторинга.
+- [webgen-train-003999-R2](../../docs/requirements/train/train_003999.md): Система должна предоставлять анализ товаров.
+- [webgen-train-003999-R3](../../docs/requirements/train/train_003999.md): Система должна предоставлять анализ магазинов.
+- [webgen-train-003999-R5](../../docs/requirements/train/train_003999.md): Система должна предоставлять анализ отрасли.
+- [webgen-train-003999-R6](../../docs/requirements/train/train_003999.md): Система должна предоставлять анализ площадок.
+- [webgen-train-003999-R7](../../docs/requirements/train/train_003999.md): Система должна предоставлять анализ брендов.
+- [webgen-train-003999-R8](../../docs/requirements/train/train_003999.md): Система должна предоставлять анализ прямых трансляций.
+- [webgen-train-003999-R10](../../docs/requirements/train/train_003999.md): Пользователь может просматривать данные.
+- [webgen-train-003999-R12](../../docs/requirements/train/train_003999.md): Пользователь может оптимизировать собственный магазин на основе данных.
+- [webgen-train-004020-R1](../../docs/requirements/train/train_004020.md): Система должна поддерживать немецкий язык.
+- [webgen-train-004020-R2](../../docs/requirements/train/train_004020.md): Система должна поддерживать английский язык.
+- [webgen-train-004020-R3](../../docs/requirements/train/train_004020.md): Система должна поддерживать испанский язык.
+- [webgen-train-004020-R5](../../docs/requirements/train/train_004020.md): Система должна интегрироваться с системами поставщиков.
+- [webgen-train-004020-R6](../../docs/requirements/train/train_004020.md): Пользователь может просматривать товары.
+- [webgen-train-004020-R7](../../docs/requirements/train/train_004020.md): Пользователь может покупать товары.
+- [webgen-train-004020-R8](../../docs/requirements/train/train_004020.md): Пользователь может просматривать описание товара.
+- [webgen-train-004020-R9](../../docs/requirements/train/train_004020.md): Пользователь может просматривать фотографии товара.
+- [webgen-train-004020-R12](../../docs/requirements/train/train_004020.md): Система должна поддерживать SEO.
+- [webgen-train-004020-R13](../../docs/requirements/train/train_004020.md): Система должна использовать SSL для защищённого соединения.
+- [webgen-train-004035-R1](../../docs/requirements/train/train_004035.md): Система должна поддерживать маркетинговые акции.
+- [webgen-train-004035-R3](../../docs/requirements/train/train_004035.md): Пользователь может просматривать товары.
+- [webgen-train-004035-R7](../../docs/requirements/train/train_004035.md): Пользователь может управлять товарными остатками.
+- [webgen-train-004035-R8](../../docs/requirements/train/train_004035.md): Пользователь может управлять ценами товаров.
+- [webgen-train-004035-R10](../../docs/requirements/train/train_004035.md): Пользователь может просматривать аналитические данные.
+- [webgen-train-004090-R1](../../docs/requirements/train/train_004090.md): Пользователь может выбирать язык просмотра сайта.
+- [webgen-train-004145-R4](../../docs/requirements/train/train_004145.md): Пользователь может просматривать товары.
+- [webgen-train-004145-R5](../../docs/requirements/train/train_004145.md): Пользователь может просматривать мероприятия.
+- [webgen-train-004145-R9](../../docs/requirements/train/train_004145.md): Пользователь может обменивать баллы.
+- [webgen-train-004145-R10](../../docs/requirements/train/train_004145.md): Пользователь может участвовать в розыгрышах.
+- [webgen-train-004161-R1](../../docs/requirements/train/train_004161.md): Система должна предоставлять центр продавца.
+- [webgen-train-004161-R2](../../docs/requirements/train/train_004161.md): Система должна предоставлять центр агента.
+- [webgen-train-004161-R4](../../docs/requirements/train/train_004161.md): Система должна предоставлять расчётный центр.
+- [webgen-train-004161-R6](../../docs/requirements/train/train_004161.md): Пользователь может просматривать доступные услуги.
+- [webgen-train-004161-R9](../../docs/requirements/train/train_004161.md): Пользователь может управлять сведениями своего счёта.
+- [webgen-train-004161-R10](../../docs/requirements/train/train_004161.md): Продавец может управлять своими товарами.
+- [webgen-train-004161-R11](../../docs/requirements/train/train_004161.md): Продавец может управлять своими услугами.
+- [webgen-train-004161-R12](../../docs/requirements/train/train_004161.md): Агент может управлять агентской деятельностью.
+- [webgen-train-004161-R14](../../docs/requirements/train/train_004161.md): Система должна обрабатывать расчётные операции.
+- [webgen-train-004174-R1](../../docs/requirements/train/train_004174.md): Система должна предоставлять категории товаров.
+- [webgen-train-004174-R3](../../docs/requirements/train/train_004174.md): Пользователь может просматривать товары.
+- [webgen-train-004174-R7](../../docs/requirements/train/train_004174.md): Пользователь может участвовать в акциях.
+- [webgen-train-004174-R8](../../docs/requirements/train/train_004174.md): Пользователь может обменивать баллы.
+- [webgen-train-004280-R1](../../docs/requirements/train/train_004280.md): Пользователь может регистрироваться на медицинские услуги.
+- [webgen-train-004280-R3](../../docs/requirements/train/train_004280.md): Пользователь может просматривать доступные медицинские услуги.
+- [webgen-train-004280-R4](../../docs/requirements/train/train_004280.md): Пользователь может записываться на медицинскую услугу.
+- [webgen-train-004280-R5](../../docs/requirements/train/train_004280.md): Пользователь может отменять существующую запись.
+- [webgen-train-004280-R7](../../docs/requirements/train/train_004280.md): Система должна работать как мини-приложение Alipay.
+- [webgen-train-004288-R3](../../docs/requirements/train/train_004288.md): Пользователь может просматривать историю зарядок.
+- [webgen-train-004288-R5](../../docs/requirements/train/train_004288.md): Продавец может настраивать собственные зарядные станции.
+- [webgen-train-004288-R7](../../docs/requirements/train/train_004288.md): Продавец может просматривать данные зарядных станций.
+- [webgen-train-004345-R1](../../docs/requirements/train/train_004345.md): Система должна предоставлять вызов сервисов Google через Google API.
+- [webgen-train-004345-R2](../../docs/requirements/train/train_004345.md): Пользователь может обращаться к Google+.
+- [webgen-train-004345-R3](../../docs/requirements/train/train_004345.md): Пользователь может обращаться к Google Drive.
+- [webgen-train-004345-R4](../../docs/requirements/train/train_004345.md): Пользователь может обращаться к YouTube.
+- [webgen-train-004345-R7](../../docs/requirements/train/train_004345.md): Пользователь может публиковать видео в YouTube.
+- [webgen-train-004388-R5](../../docs/requirements/train/train_004388.md): Пользователь может запрашивать подробные сведения об активе.
+- [webgen-train-004391-R1](../../docs/requirements/train/train_004391.md): Система должна предоставлять управление закупками.
+- [webgen-train-004391-R2](../../docs/requirements/train/train_004391.md): Система должна предоставлять управление оборудованием.
+- [webgen-train-004391-R4](../../docs/requirements/train/train_004391.md): Пользователь может просматривать активы.
+- [webgen-train-004391-R5](../../docs/requirements/train/train_004391.md): Пользователь может управлять активами.
+- [webgen-train-004391-R6](../../docs/requirements/train/train_004391.md): Пользователь может выделять активы.
+- [webgen-train-004391-R7](../../docs/requirements/train/train_004391.md): Пользователь может возвращать активы.
+- [webgen-train-004391-R8](../../docs/requirements/train/train_004391.md): Пользователь может передавать активы.
+- [webgen-train-004391-R9](../../docs/requirements/train/train_004391.md): Пользователь может проводить инвентаризацию.
+- [webgen-train-004391-R11](../../docs/requirements/train/train_004391.md): Пользователь может настраивать пользовательские поля.
+- [webgen-train-004391-R13](../../docs/requirements/train/train_004391.md): Пользователь может импортировать данные.
+- [webgen-train-004462-R1](../../docs/requirements/train/train_004462.md): Система должна принимать HTTP-запросы.
+- [webgen-train-004462-R2](../../docs/requirements/train/train_004462.md): Система должна обрабатывать HTTP-запросы.
+- [webgen-train-004462-R3](../../docs/requirements/train/train_004462.md): Система должна возвращать HTTP-ответы.
+- [webgen-train-004462-R4](../../docs/requirements/train/train_004462.md): Пользователь может отправлять HTTP-запросы через сайт.
+- [webgen-train-004462-R5](../../docs/requirements/train/train_004462.md): Пользователь может просматривать результаты запросов.
+- [webgen-train-004462-R6](../../docs/requirements/train/train_004462.md): Пользователь может управлять API-интерфейсами.
+- [webgen-train-004462-R7](../../docs/requirements/train/train_004462.md): Пользователь может просматривать журналы запросов.
+- [webgen-train-004515-R1](../../docs/requirements/train/train_004515.md): Пользователь может выбирать файлы.
+- [webgen-train-004515-R4](../../docs/requirements/train/train_004515.md): Система должна поддерживать несколько типов файлов.
+- [webgen-train-004515-R5](../../docs/requirements/train/train_004515.md): Система должна поддерживать загрузку больших файлов.
+- [webgen-train-004535-R2](../../docs/requirements/train/train_004535.md): Пользователь может отправлять SMS на указанный номер.
+- [webgen-train-004535-R3](../../docs/requirements/train/train_004535.md): Пользователь может получать SMS других пользователей.
+- [webgen-train-004535-R4](../../docs/requirements/train/train_004535.md): Пользователь может управлять шаблонами SMS.
+- [webgen-train-004535-R5](../../docs/requirements/train/train_004535.md): Пользователь может просматривать историю SMS.
+- [webgen-train-004592-R1](../../docs/requirements/train/train_004592.md): Система должна предоставлять клиент MQTT с командным интерфейсом.
+- [webgen-train-004592-R3](../../docs/requirements/train/train_004592.md): Пользователь может подписываться на выбранные темы.
+- [webgen-train-004603-R4](../../docs/requirements/train/train_004603.md): Пользователь может запрашивать данные.
+- [webgen-train-004603-R7](../../docs/requirements/train/train_004603.md): Система должна предоставлять командный либо графический интерфейс.
+- [webgen-train-004603-R8](../../docs/requirements/train/train_004603.md): Базовый слой интерфейса имеет цвет `salmon` (`#FA8072`).
+- [webgen-train-004627-R1](../../docs/requirements/train/train_004627.md): Система должна принимать предупреждения.
+- [webgen-train-004627-R3](../../docs/requirements/train/train_004627.md): Система должна отправлять предупреждения через несколько каналов.
+- [webgen-train-004627-R3.1](../../docs/requirements/train/train_004627.md): Система должна поддерживать SMS.
+- [webgen-train-004627-R3.2](../../docs/requirements/train/train_004627.md): Система должна поддерживать WeChat.
+- [webgen-train-004627-R3.3](../../docs/requirements/train/train_004627.md): Система должна поддерживать email.
+- [webgen-train-004627-R3.4](../../docs/requirements/train/train_004627.md): Система должна поддерживать уведомления приложения.
+- [webgen-train-004627-R5](../../docs/requirements/train/train_004627.md): Пользователь может просматривать предупреждения.
+- [webgen-train-004627-R6](../../docs/requirements/train/train_004627.md): Пользователь может управлять правилами предупреждений.
+- [webgen-train-004627-R7](../../docs/requirements/train/train_004627.md): Пользователь может выбирать способ получения предупреждений.
+- [webgen-train-004711-R3](../../docs/requirements/train/train_004711.md): Пользователь может выполнять скрипты миграции.
+- [webgen-train-004711-R4](../../docs/requirements/train/train_004711.md): Пользователь может управлять версиями базы.
+- [webgen-train-004711-R5](../../docs/requirements/train/train_004711.md): Пользователь может просматривать историю миграций.
+- [webgen-train-004729-R1](../../docs/requirements/train/train_004729.md): Система должна поддерживать выполнение в WeChat и в веб-среде.
+- [webgen-train-004729-R2](../../docs/requirements/train/train_004729.md): Система должна обеспечивать прямой перенос веб-кода в среду мини-приложения.
+- [webgen-train-004729-R3](../../docs/requirements/train/train_004729.md): Система должна сохранять одинаковое содержимое в обеих средах.
+- [webgen-train-004729-R4](../../docs/requirements/train/train_004729.md): Система должна сохранять одинаковую функциональность в обеих средах.
+- [webgen-train-004729-R5](../../docs/requirements/train/train_004729.md): Система должна сохранять согласованную компоновку страниц.
+- [webgen-train-004729-R6](../../docs/requirements/train/train_004729.md): Система должна сохранять эффекты взаимодействия.
+- [webgen-train-004729-R7](../../docs/requirements/train/train_004729.md): Система должна сохранять обработку данных в обеих средах.
+- [webgen-train-004764-R1](../../docs/requirements/train/train_004764.md): Система должна поддерживать несколько языков.
+- [webgen-train-004764-R2](../../docs/requirements/train/train_004764.md): Система должна автоматически переводить содержимое сайта между языками.
+- [webgen-train-004764-R3](../../docs/requirements/train/train_004764.md): Пользователь может выбирать язык перевода.
+- [webgen-train-004764-R4](../../docs/requirements/train/train_004764.md): Пользователь может просматривать переведённое содержимое.
+- [webgen-train-004764-R5](../../docs/requirements/train/train_004764.md): Пользователь может вручную редактировать перевод.
+- [webgen-train-004765-R1](../../docs/requirements/train/train_004765.md): Пользователь может задавать правила ограничения частоты обращений.
+- [webgen-train-004765-R2](../../docs/requirements/train/train_004765.md): Пользователь может наблюдать частоту обращений.
+- [webgen-train-004765-R3](../../docs/requirements/train/train_004765.md): Пользователь может ограничивать обращения, превышающие установленный лимит.
+- [webgen-train-004765-R4](../../docs/requirements/train/train_004765.md): Система должна записывать журнал обращений.
+- [webgen-train-004765-R6](../../docs/requirements/train/train_004765.md): Система должна предоставлять анализ обращений.
+- [webgen-train-004786-R5](../../docs/requirements/train/train_004786.md): Пользователь может запрашивать записи отправки.
+- [webgen-train-004786-R6](../../docs/requirements/train/train_004786.md): Пользователь может управлять контактами.
+- [webgen-train-004791-R3](../../docs/requirements/train/train_004791.md): Пользователь может сбросить пароль.
+- [webgen-train-004791-R4](../../docs/requirements/train/train_004791.md): Пользователь может просматривать состояние своих Wi-Fi-сетей.
+- [webgen-train-004791-R6](../../docs/requirements/train/train_004791.md): Система должна отслеживать состояние сети в реальном времени.
+- [webgen-train-004791-R7](../../docs/requirements/train/train_004791.md): Система должна отправлять оповещения о состоянии сети.
+- [webgen-train-004856-R1](../../docs/requirements/train/train_004856.md): Система должна отслеживать работу PHP-приложения.
+- [webgen-train-004856-R2](../../docs/requirements/train/train_004856.md): Система должна диагностировать состояние PHP-приложения.
+- [webgen-train-004856-R3](../../docs/requirements/train/train_004856.md): Система должна отображать результат диагностики.
+- [webgen-train-004856-R3.1](../../docs/requirements/train/train_004856.md): Система должна показывать информацию о файлах.
+- [webgen-train-004856-R3.2](../../docs/requirements/train/train_004856.md): Система должна показывать информацию о функциях.
+- [webgen-train-004856-R3.3](../../docs/requirements/train/train_004856.md): Система должна показывать информацию о вызывающих функциях.
+- [webgen-train-004856-R4](../../docs/requirements/train/train_004856.md): Пользователь может запускать инструмент диагностики.
+- [webgen-train-004856-R5](../../docs/requirements/train/train_004856.md): Пользователь может просматривать результаты диагностики.
+- [webgen-train-004895-R1](../../docs/requirements/train/train_004895.md): Система должна поддерживать MySQL.
+- [webgen-train-004895-R2](../../docs/requirements/train/train_004895.md): Система должна поддерживать Oracle.
+- [webgen-train-004895-R3](../../docs/requirements/train/train_004895.md): Система должна поддерживать SQL Server.
+- [webgen-train-004895-R4](../../docs/requirements/train/train_004895.md): Пользователь может выбирать две базы для сравнения.
+- [webgen-train-004895-R5](../../docs/requirements/train/train_004895.md): Система должна показывать различия структур баз.
+- [webgen-train-004895-R5.1](../../docs/requirements/train/train_004895.md): Система должна показывать различия имён таблиц.
+- [webgen-train-004895-R5.2](../../docs/requirements/train/train_004895.md): Система должна показывать различия имён полей.
+- [webgen-train-004895-R5.3](../../docs/requirements/train/train_004895.md): Система должна показывать различия типов данных.
+- [webgen-train-004895-R6](../../docs/requirements/train/train_004895.md): Пользователь может вручную изменять базы по результатам сравнения.
+- [webgen-train-004922-R4](../../docs/requirements/train/train_004922.md): Пользователь может восстанавливать базу.
+- [webgen-train-004922-R5](../../docs/requirements/train/train_004922.md): Пользователь может оптимизировать производительность базы.
+- [webgen-train-004922-R6](../../docs/requirements/train/train_004922.md): Пользователь может устранять неисправности базы.
+- [webgen-train-004927-R7](../../docs/requirements/train/train_004927.md): Пользователь может настраивать конфигурацию сервера.
+- [webgen-train-004927-R8](../../docs/requirements/train/train_004927.md): Пользователь может отслеживать состояние работы серверов.
+- [webgen-train-004927-R9](../../docs/requirements/train/train_004927.md): Пользователь может задавать политики безопасности.
+- [webgen-train-004943-R1](../../docs/requirements/train/train_004943.md): Пользователь может вводить SQL-запросы.
+- [webgen-train-004943-R2](../../docs/requirements/train/train_004943.md): Пользователь может выполнять запросы.
+- [webgen-train-004943-R3](../../docs/requirements/train/train_004943.md): Пользователь может просматривать результаты.
+- [webgen-train-004943-R5](../../docs/requirements/train/train_004943.md): Пользователь может сортировать данные.
+- [webgen-train-004943-R6](../../docs/requirements/train/train_004943.md): Система должна использовать JavaScript для интерфейса запросов.
+- [webgen-train-004951-R2](../../docs/requirements/train/train_004951.md): Пользователь может публиковать сведения о потерянных вещах.
+- [webgen-train-004951-R4](../../docs/requirements/train/train_004951.md): Пользователь может заявлять права на найденную вещь.
+- [webgen-train-004959-R2](../../docs/requirements/train/train_004959.md): Пользователь может просматривать таблицы базы данных.
+- [webgen-train-004959-R3](../../docs/requirements/train/train_004959.md): Пользователь может запрашивать данные.
+- [webgen-train-004960-R1](../../docs/requirements/train/train_004960.md): Пользователь может вводить сведения об учётной записи Google.
+- [webgen-train-004960-R2](../../docs/requirements/train/train_004960.md): Пользователь может настраивать Google Calendar.
+- [webgen-train-004960-R4](../../docs/requirements/train/train_004960.md): Пользователь может проходить проверку приложения по подсказкам сайта.
+- [webgen-train-004960-R5](../../docs/requirements/train/train_004960.md): Система должна показывать ход проверки в реальном времени.
+- [webgen-train-004960-R6](../../docs/requirements/train/train_004960.md): Система должна показывать результат проверки.
+- [webgen-train-004971-R1](../../docs/requirements/train/train_004971.md): Пользователь может просматривать виртуальную файловую систему.
+- [webgen-train-004971-R6](../../docs/requirements/train/train_004971.md): Пользователь может переименовывать файлы.
+- [webgen-train-004971-R7](../../docs/requirements/train/train_004971.md): Пользователь может переименовывать папки.
+- [webgen-train-004971-R8](../../docs/requirements/train/train_004971.md): Пользователь может просматривать свойства файла.
+- [webgen-train-004971-R9](../../docs/requirements/train/train_004971.md): Пользователь может просматривать свойства папки.
+- [webgen-train-004983-R4](../../docs/requirements/train/train_004983.md): Система должна проверять доступ по ролям.
+- [webgen-train-004983-R5](../../docs/requirements/train/train_004983.md): Система должна шифровать данные.
+- [webgen-train-004983-R8](../../docs/requirements/train/train_004983.md): Пользователь может сортировать сведения о сотрудниках.
+- [webgen-train-004983-R10](../../docs/requirements/train/train_004983.md): Пользователь может управлять сведениями о сотрудниках.
+- [webgen-train-005051-R1](../../docs/requirements/train/train_005051.md): Система должна поддерживать распределённое хранение.
+- [webgen-train-005051-R2](../../docs/requirements/train/train_005051.md): Система должна обрабатывать крупные объёмы данных.
+- [webgen-train-005051-R3](../../docs/requirements/train/train_005051.md): Система должна обеспечивать высокую производительность.
+- [webgen-train-005051-R6](../../docs/requirements/train/train_005051.md): Пользователь может управлять собственными базами.
+- [webgen-train-005051-R7](../../docs/requirements/train/train_005051.md): Пользователь может сохранять данные.
+- [webgen-train-005051-R8](../../docs/requirements/train/train_005051.md): Пользователь может извлекать данные.
+- [webgen-train-005051-R9](../../docs/requirements/train/train_005051.md): Пользователь может выполнять запросы.
+- [webgen-train-005121-R1](../../docs/requirements/train/train_005121.md): Система должна шифровать файлы.
+- [webgen-train-005121-R2](../../docs/requirements/train/train_005121.md): Система должна обеспечивать защиту файлов.
+- [webgen-train-005121-R6](../../docs/requirements/train/train_005121.md): Пользователь может организовывать файлы.
+- [webgen-train-005121-R7](../../docs/requirements/train/train_005121.md): Пользователь может распределять файлы по категориям.
+- [webgen-train-005121-R9](../../docs/requirements/train/train_005121.md): Пользователь может просматривать историю доступа к файлам.
+- [webgen-train-005173-R1](../../docs/requirements/train/train_005173.md): Система должна предоставлять общие инструменты.
+- [webgen-train-005173-R3](../../docs/requirements/train/train_005173.md): Пользователь может публиковать мнения.
+- [webgen-train-005173-R5](../../docs/requirements/train/train_005173.md): Пользователь может согласовывать обращения.
+- [webgen-train-005173-R6](../../docs/requirements/train/train_005173.md): Пользователь может отправлять напоминания.
+- [webgen-train-005173-R9](../../docs/requirements/train/train_005173.md): Пользователь может проводить настраиваемые опросы.
+- [webgen-train-005193-R1](../../docs/requirements/train/train_005193.md): Разработчик может определять сервлеты с помощью аннотаций.
+- [webgen-train-005193-R3](../../docs/requirements/train/train_005193.md): Разработчик может заменять конфигурацию web.xml аннотациями.
+- [webgen-train-005193-R4](../../docs/requirements/train/train_005193.md): Разработчик может настраивать маршруты аннотациями.
+- [webgen-train-005193-R5](../../docs/requirements/train/train_005193.md): Разработчик может настраивать методы запросов аннотациями.
+- [webgen-train-005193-R6](../../docs/requirements/train/train_005193.md): Разработчик может настраивать параметры аннотациями.
+- [webgen-train-005193-R7](../../docs/requirements/train/train_005193.md): Система должна автоматически сканировать аннотации.
+- [webgen-train-005193-R8](../../docs/requirements/train/train_005193.md): Система должна автоматически регистрировать обнаруженные аннотации.
+- [webgen-train-005199-R2](../../docs/requirements/train/train_005199.md): Пользователь может управлять интерфейсами баз данных.
+- [webgen-train-005199-R3](../../docs/requirements/train/train_005199.md): Пользователь может генерировать SDK.
+- [webgen-train-005199-R4](../../docs/requirements/train/train_005199.md): Пользователь может выполнять онлайн-отладку.
+- [webgen-train-005199-R5](../../docs/requirements/train/train_005199.md): Пользователь может настраивать пересылку запросов.
+- [webgen-train-005199-R6](../../docs/requirements/train/train_005199.md): Система должна поддерживать единый вход.
+- [webgen-train-005199-R7](../../docs/requirements/train/train_005199.md): Система должна предоставлять управление хостами.
+- [webgen-train-005199-R8](../../docs/requirements/train/train_005199.md): Система должна наблюдать производительность базы.
+- [webgen-train-005199-R9](../../docs/requirements/train/train_005199.md): Система должна поддерживать аудит.
+- [webgen-train-005199-R10](../../docs/requirements/train/train_005199.md): Система должна предоставлять управление журналами.
+- [webgen-train-005220-R2](../../docs/requirements/train/train_005220.md): Пользователь может вводить новые данные.
+- [webgen-train-005220-R3](../../docs/requirements/train/train_005220.md): Пользователь может просматривать данные.
+- [webgen-train-005234-R1](../../docs/requirements/train/train_005234.md): Система должна обнаруживать DDoS-атаки.
+- [webgen-train-005234-R2](../../docs/requirements/train/train_005234.md): Система должна защищаться от DDoS-атак.
+- [webgen-train-005234-R3](../../docs/requirements/train/train_005234.md): Система должна предотвращать flood-атаки.
+- [webgen-train-005234-R4](../../docs/requirements/train/train_005234.md): Система должна блокировать вредоносные запросы.
+- [webgen-train-005234-R5](../../docs/requirements/train/train_005234.md): Система должна записывать журналы атак.
+- [webgen-train-005234-R6](../../docs/requirements/train/train_005234.md): Система должна анализировать журналы атак.
+- [webgen-train-005234-R8](../../docs/requirements/train/train_005234.md): Пользователь может настраивать параметры безопасности.
+- [webgen-train-005234-R9](../../docs/requirements/train/train_005234.md): Пользователь может настраивать собственные стратегии защиты.
+- [webgen-train-005234-R10](../../docs/requirements/train/train_005234.md): Пользователь может получать предупреждения безопасности.
+- [webgen-train-005271-R2](../../docs/requirements/train/train_005271.md): Пользователь может восстанавливать базу из резервной копии.
+- [webgen-train-005271-R4](../../docs/requirements/train/train_005271.md): Пользователь может выбирать базу для переноса.
+- [webgen-train-005271-R5](../../docs/requirements/train/train_005271.md): Пользователь может задавать параметры миграции.
+- [webgen-train-005271-R6](../../docs/requirements/train/train_005271.md): Пользователь может запускать миграцию.
+- [webgen-train-005271-R7](../../docs/requirements/train/train_005271.md): Пользователь может просматривать результат миграции.
+- [webgen-train-005370-R1](../../docs/requirements/train/train_005370.md): Система должна проверять email.
+- [webgen-train-005370-R3](../../docs/requirements/train/train_005370.md): Система должна проверять минимальную длину.
+- [webgen-train-005370-R4](../../docs/requirements/train/train_005370.md): Система должна проверять максимальную длину.
+- [webgen-train-005370-R5](../../docs/requirements/train/train_005370.md): Система должна допускать в проверяемом тексте только буквы и пробелы.
+- [webgen-train-005370-R6](../../docs/requirements/train/train_005370.md): Пользователь может вводить сведения.
+- [webgen-train-005370-R8](../../docs/requirements/train/train_005370.md): Пользователь может просматривать результаты проверки.
+- [webgen-train-005397-R1](../../docs/requirements/train/train_005397.md): Система должна поддерживать асинхронную событийную модель.
+- [webgen-train-005397-R2](../../docs/requirements/train/train_005397.md): Система должна поддерживать кроссплатформенную разработку.
+- [webgen-train-005397-R3](../../docs/requirements/train/train_005397.md): Система должна обеспечивать надёжные сетевые сервисы.
+- [webgen-train-005397-R4](../../docs/requirements/train/train_005397.md): Система должна обеспечивать быстрое создание и обслуживание сетевых сервисов.
+- [webgen-train-005397-R7](../../docs/requirements/train/train_005397.md): Система должна обеспечивать высокую производительность передачи данных.
+- [webgen-train-005397-R8](../../docs/requirements/train/train_005397.md): Система должна обеспечивать высокую производительность обработки данных.
+- [webgen-train-005400-R4](../../docs/requirements/train/train_005400.md): Пользователь может просматривать состояние согласования.
+- [webgen-train-005450-R1](../../docs/requirements/train/train_005450.md): Система должна проверять текстовые значения.
+- [webgen-train-005450-R2](../../docs/requirements/train/train_005450.md): Система должна проверять email.
+- [webgen-train-005450-R3](../../docs/requirements/train/train_005450.md): Система должна проверять номер телефона.
+- [webgen-train-005450-R4](../../docs/requirements/train/train_005450.md): Система должна автоматически обнаруживать ошибки ввода.
+- [webgen-train-005450-R5](../../docs/requirements/train/train_005450.md): Система должна показывать подсказки об ошибках.
+- [webgen-train-005450-R6](../../docs/requirements/train/train_005450.md): Система должна проверять исходное значение select.
+- [webgen-train-005450-R7](../../docs/requirements/train/train_005450.md): Система должна проверять исходное значение checkbox.
+- [webgen-train-005450-R8](../../docs/requirements/train/train_005450.md): Система должна проверять исходное значение radio.
+- [webgen-train-005486-R1](../../docs/requirements/train/train_005486.md): Система должна проверять точность данных перед отправкой.
+- [webgen-train-005486-R3](../../docs/requirements/train/train_005486.md): Система должна не отправлять декларацию до успешной проверки данных.
+- [webgen-train-005486-R4](../../docs/requirements/train/train_005486.md): Пользователь может вводить данные.
+- [webgen-train-005486-R5](../../docs/requirements/train/train_005486.md): Система должна автоматически формировать XML-декларацию.
+- [webgen-train-005486-R6](../../docs/requirements/train/train_005486.md): Система должна отправлять XML-декларацию в целевую систему.
+- [webgen-train-005486-R7](../../docs/requirements/train/train_005486.md): Система должна поддерживать текстовые данные.
+- [webgen-train-005486-R8](../../docs/requirements/train/train_005486.md): Система должна поддерживать числовые данные.
+- [webgen-train-005486-R9](../../docs/requirements/train/train_005486.md): Система должна поддерживать даты.
+- [webgen-train-005496-R1](../../docs/requirements/train/train_005496.md): Система должна поддерживать базы Access.
+- [webgen-train-005496-R3](../../docs/requirements/train/train_005496.md): Пользователь может просматривать таблицы.
+- [webgen-train-005551-R1](../../docs/requirements/train/train_005551.md): Система должна поддерживать подписку на push-уведомления.
+- [webgen-train-005551-R2](../../docs/requirements/train/train_005551.md): Система должна инициировать отправку push-уведомлений.
+- [webgen-train-005551-R3](../../docs/requirements/train/train_005551.md): Система должна обеспечивать получение push-уведомлений браузером.
+- [webgen-train-005551-R4](../../docs/requirements/train/train_005551.md): Пользователь может подписываться на push-уведомления в браузере.
+- [webgen-train-005551-R5](../../docs/requirements/train/train_005551.md): Система должна доставлять уведомления, когда браузер неактивен или свёрнут.
+- [webgen-train-005551-R6](../../docs/requirements/train/train_005551.md): Система должна поддерживать Chrome.
+- [webgen-train-005551-R7](../../docs/requirements/train/train_005551.md): Система должна поддерживать Firefox.
+- [webgen-train-005551-R8](../../docs/requirements/train/train_005551.md): Система должна поддерживать Edge.
+- [webgen-train-005551-R9](../../docs/requirements/train/train_005551.md): Система должна поддерживать Safari.
+- [webgen-train-005570-R1](../../docs/requirements/train/train_005570.md): Пользователь может вводить данные.
+- [webgen-train-005583-R6](../../docs/requirements/train/train_005583.md): Пользователь может задавать правила пересылки.
+- [webgen-train-005583-R7](../../docs/requirements/train/train_005583.md): Пользователь может просматривать системный журнал.
+- [webgen-train-005592-R1](../../docs/requirements/train/train_005592.md): Система должна отвечать на входящие звонки.
+- [webgen-train-005592-R2](../../docs/requirements/train/train_005592.md): Система должна отвечать на вопросы звонящего.
+- [webgen-train-005592-R4](../../docs/requirements/train/train_005592.md): Система должна отправлять ссылки на товары.
+- [webgen-train-005592-R5](../../docs/requirements/train/train_005592.md): Система должна отправлять ссылки на услуги.
+- [webgen-train-005592-R8](../../docs/requirements/train/train_005592.md): Система должна назначать встречи.
+- [webgen-train-005592-R9](../../docs/requirements/train/train_005592.md): Система должна отправлять полную расшифровку разговора.
+- [webgen-train-005592-R10](../../docs/requirements/train/train_005592.md): Пользователь может управлять системой голосовыми командами.
+- [webgen-train-005592-R11](../../docs/requirements/train/train_005592.md): Система должна понимать голосовые команды.
+- [webgen-train-005592-R12](../../docs/requirements/train/train_005592.md): Система должна выполнять действия, соответствующие распознанной команде.
+- [webgen-train-005639-R1](../../docs/requirements/train/train_005639.md): Система должна показывать подробную информацию о фильме.
+- [webgen-train-005639-R1.1](../../docs/requirements/train/train_005639.md): Система должна показывать место в рейтинге.
+- [webgen-train-005639-R1.2](../../docs/requirements/train/train_005639.md): Система должна показывать название.
+- [webgen-train-005639-R1.3](../../docs/requirements/train/train_005639.md): Система должна показывать оценку.
+- [webgen-train-005639-R1.4](../../docs/requirements/train/train_005639.md): Система должна показывать число отзывов.
+- [webgen-train-005639-R1.5](../../docs/requirements/train/train_005639.md): Система должна показывать краткое содержание.
+- [webgen-train-005639-R1.6](../../docs/requirements/train/train_005639.md): Система должна показывать описание фильма.
+- [webgen-train-005639-R2](../../docs/requirements/train/train_005639.md): Система должна отображать распределение оценок топ-250 фильмов Douban.
+- [webgen-train-005639-R3](../../docs/requirements/train/train_005639.md): Система должна предоставлять табличный просмотр данных.
+- [webgen-train-005639-R6](../../docs/requirements/train/train_005639.md): Система должна создавать облако слов на основе популярных слов.
+- [webgen-train-005639-R8](../../docs/requirements/train/train_005639.md): Пользователь может просматривать распределение оценок.
+- [webgen-train-005639-R9](../../docs/requirements/train/train_005639.md): Пользователь может просматривать облако слов.
+- [webgen-train-005640-R1](../../docs/requirements/train/train_005640.md): Система должна поддерживать исследование больших источников данных.
+- [webgen-train-005640-R3](../../docs/requirements/train/train_005640.md): Пользователь может импортировать данные.
+- [webgen-train-005640-R4](../../docs/requirements/train/train_005640.md): Пользователь может обрабатывать данные.
+- [webgen-train-005643-R2](../../docs/requirements/train/train_005643.md): Пользователь может просматривать производительность хоста базы в реальном времени.
+- [webgen-train-005643-R3](../../docs/requirements/train/train_005643.md): Пользователь может просматривать производительность базы в реальном времени.
+- [webgen-train-005643-R4](../../docs/requirements/train/train_005643.md): Пользователь может запрашивать исторические данные производительности.
+- [webgen-train-005643-R5](../../docs/requirements/train/train_005643.md): Пользователь может задавать пороги оповещений.
+- [webgen-train-005643-R6](../../docs/requirements/train/train_005643.md): Пользователь может получать оповещения.
+- [webgen-train-005653-R4](../../docs/requirements/train/train_005653.md): Пользователь может просматривать данные.
+- [webgen-train-005653-R9](../../docs/requirements/train/train_005653.md): Пользователь может выполнять самостоятельный BI-анализ.
+- [webgen-train-005738-R1](../../docs/requirements/train/train_005738.md): Система должна объединять данные нескольких систем.
+- [webgen-train-005738-R2](../../docs/requirements/train/train_005738.md): Пользователь может просматривать разные типы данных.
+- [webgen-train-005738-R4](../../docs/requirements/train/train_005738.md): Пользователь может сортировать данные.
+- [webgen-train-005738-R5](../../docs/requirements/train/train_005738.md): Система должна обновлять данные в реальном времени.
+- [webgen-train-005751-R1](../../docs/requirements/train/train_005751.md): Пользователь может настраивать соединения с внешними API.
+- [webgen-train-005751-R2](../../docs/requirements/train/train_005751.md): Пользователь может просматривать данные внешних API.
+- [webgen-train-005751-R3](../../docs/requirements/train/train_005751.md): Пользователь может управлять запросами к внешним API.
+- [webgen-train-005810-R2](../../docs/requirements/train/train_005810.md): Пользователь может просматривать данные покрытия тестами.
+- [webgen-train-005810-R3](../../docs/requirements/train/train_005810.md): Пользователь может просматривать покрытие в разные моменты времени.
+- [webgen-train-005810-R4](../../docs/requirements/train/train_005810.md): Пользователь может анализировать тенденцию изменения покрытия.
+- [webgen-train-005847-R2](../../docs/requirements/train/train_005847.md): Пользователь может настраивать ось X.
+- [webgen-train-005847-R3](../../docs/requirements/train/train_005847.md): Пользователь может настраивать ось Y.
+- [webgen-train-005847-R6](../../docs/requirements/train/train_005847.md): Система должна наглядно показывать тенденцию данных.
+- [webgen-train-005848-R1](../../docs/requirements/train/train_005848.md): Система должна собирать медицинские записи о травмах.
+- [webgen-train-005848-R2](../../docs/requirements/train/train_005848.md): Система должна анализировать медицинские записи о травмах.
+- [webgen-train-005848-R5](../../docs/requirements/train/train_005848.md): Пользователь может просматривать медицинские записи.
+- [webgen-train-005848-R6](../../docs/requirements/train/train_005848.md): Пользователь может управлять медицинскими записями.
+- [webgen-train-005848-R9](../../docs/requirements/train/train_005848.md): Пользователь может обслуживать данные.
+- [webgen-train-005848-R10](../../docs/requirements/train/train_005848.md): Система должна поддерживать догоспитальные записи.
+- [webgen-train-005848-R11](../../docs/requirements/train/train_005848.md): Система должна поддерживать госпитальные записи.
+- [webgen-train-005848-R12](../../docs/requirements/train/train_005848.md): Система должна поддерживать послегоспитальные записи.
+- [webgen-train-005859-R1](../../docs/requirements/train/train_005859.md): Система должна отображать облако слов.
+- [webgen-train-005859-R4](../../docs/requirements/train/train_005859.md): Система должна предоставлять линейный анализ.
+- [webgen-train-005859-R5](../../docs/requirements/train/train_005859.md): Пользователь может просматривать данные.
+- [webgen-train-005893-R3](../../docs/requirements/train/train_005893.md): Система должна показывать список текущих событий.
+- [webgen-train-005893-R5](../../docs/requirements/train/train_005893.md): Система должна показывать ЭКГ в реальном времени.
+- [webgen-train-005893-R6](../../docs/requirements/train/train_005893.md): Система должна показывать ЭКГ в сетке 3×3.
+- [webgen-train-005893-R7](../../docs/requirements/train/train_005893.md): Система должна предоставлять раздел мониторинга давления при хронических заболеваниях.
+- [webgen-train-005893-R8](../../docs/requirements/train/train_005893.md): Пользователь может просматривать текущие данные.
+- [webgen-train-005893-R10](../../docs/requirements/train/train_005893.md): Пользователь может отслеживать события в реальном времени.
+- [webgen-train-005922-R1](../../docs/requirements/train/train_005922.md): Система должна обнаруживать связи между переменными.
+- [webgen-train-005922-R2](../../docs/requirements/train/train_005922.md): Система должна прогнозировать связи между переменными.
+- [webgen-train-005922-R3](../../docs/requirements/train/train_005922.md): Система должна восстанавливать пропущенные значения.
+- [webgen-train-005922-R4](../../docs/requirements/train/train_005922.md): Система должна находить похожие записи базы.
+- [webgen-train-005922-R5](../../docs/requirements/train/train_005922.md): Пользователь может вводить запросы.
+- [webgen-train-005922-R6](../../docs/requirements/train/train_005922.md): Пользователь может просматривать результаты анализа.
+- [webgen-train-005922-R6.2](../../docs/requirements/train/train_005922.md): Пользователь может просматривать прогнозы.
+- [webgen-train-005922-R6.3](../../docs/requirements/train/train_005922.md): Пользователь может просматривать оценки пропущенных значений.
+- [webgen-train-005968-R1](../../docs/requirements/train/train_005968.md): Система должна автоматически обновлять эпидемиологические данные.
+- [webgen-train-005968-R2](../../docs/requirements/train/train_005968.md): Пользователь может просматривать данные об эпидемии.
+- [webgen-train-005968-R3](../../docs/requirements/train/train_005968.md): Пользователь может просматривать последние новости.
+- [webgen-train-005968-R4](../../docs/requirements/train/train_005968.md): Пользователь может отслеживать ситуацию в реальном времени.
+- [webgen-train-005968-R6](../../docs/requirements/train/train_005968.md): Система должна отображать эпидемиологические показатели на картах.
+- [webgen-train-006001-R1](../../docs/requirements/train/train_006001.md): Система должна предоставлять удобный интерфейс.
+- [webgen-train-006001-R2](../../docs/requirements/train/train_006001.md): Система должна поддерживать фотографии.
+- [webgen-train-006001-R3](../../docs/requirements/train/train_006001.md): Система должна поддерживать видео.
+- [webgen-train-006001-R4](../../docs/requirements/train/train_006001.md): Система должна поддерживать карты.
+- [webgen-train-006001-R5](../../docs/requirements/train/train_006001.md): Система должна поддерживать опросы.
+- [webgen-train-006001-R8](../../docs/requirements/train/train_006001.md): Пользователь может управлять собственными интерактивными историями.
+- [webgen-train-006001-R9](../../docs/requirements/train/train_006001.md): Пользователь может встраивать истории в другие сайты.
+- [webgen-train-006063-R1](../../docs/requirements/train/train_006063.md): Пользователь может публиковать статьи.
+- [webgen-train-006063-R6](../../docs/requirements/train/train_006063.md): Пользователь может просматривать литературные произведения.
+- [webgen-train-006063-R8](../../docs/requirements/train/train_006063.md): Пользователь может отправлять собственные произведения.
+- [webgen-train-006122-R9](../../docs/requirements/train/train_006122.md): Система должна предоставлять простой и удобный интерфейс.
+- [webgen-train-006148-R1](../../docs/requirements/train/train_006148.md): Система должна предоставлять тематические учебные модули.
+- [webgen-train-006148-R3](../../docs/requirements/train/train_006148.md): Пользователь может просматривать банк вопросов.
+- [webgen-train-006148-R5](../../docs/requirements/train/train_006148.md): Пользователь может смотреть учебные видео.
+- [webgen-train-006148-R6](../../docs/requirements/train/train_006148.md): Пользователь может смотреть прямые трансляции.
+- [webgen-train-006148-R7](../../docs/requirements/train/train_006148.md): Пользователь может участвовать во взаимодействии во время трансляций.
+- [webgen-train-006148-R8](../../docs/requirements/train/train_006148.md): Пользователь может делиться опытом.
+- [webgen-train-006148-R11](../../docs/requirements/train/train_006148.md): Пользователь может вести заметки.
+- [webgen-train-006148-R12](../../docs/requirements/train/train_006148.md): Пользователь может отслеживать свои ошибки.
+- [webgen-train-006148-R13](../../docs/requirements/train/train_006148.md): Пользователь может просматривать историю обучения.
+- [webgen-train-006153-R1](../../docs/requirements/train/train_006153.md): Система должна предоставлять элементы геймификации.
+- [webgen-train-006153-R2](../../docs/requirements/train/train_006153.md): Система должна поддерживать создание профиля.
+- [webgen-train-006153-R3](../../docs/requirements/train/train_006153.md): Система должна предоставлять страницы курсов.
+- [webgen-train-006153-R4](../../docs/requirements/train/train_006153.md): Система должна предоставлять страницы индивидуальных занятий.
+- [webgen-train-006153-R7](../../docs/requirements/train/train_006153.md): Пользователь может управлять собственными курсами.
+- [webgen-train-006153-R9](../../docs/requirements/train/train_006153.md): Пользователь может участвовать в онлайн-видеозанятиях.
+- [webgen-train-006153-R11](../../docs/requirements/train/train_006153.md): Пользователь может просматривать страницы услуг.
+- [webgen-train-006161-R1](../../docs/requirements/train/train_006161.md): Пользователь может выбирать экзаменационные предметы.
+- [webgen-train-006161-R4](../../docs/requirements/train/train_006161.md): Пользователь может проходить профессиональную оценку.
+- [webgen-train-006161-R5](../../docs/requirements/train/train_006161.md): Пользователь может просматривать данные экзаменов.
+- [webgen-train-006161-R6](../../docs/requirements/train/train_006161.md): Пользователь может подавать предпочтения по поступлению.
+- [webgen-train-006161-R7](../../docs/requirements/train/train_006161.md): Пользователь может просматривать актуальные информационные материалы.
+- [webgen-train-006180-R2](../../docs/requirements/train/train_006180.md): Пользователь может просматривать курсы.
+- [webgen-train-006180-R3](../../docs/requirements/train/train_006180.md): Пользователь может управлять курсами.
+- [webgen-train-006180-R5](../../docs/requirements/train/train_006180.md): Пользователь может управлять сведениями об учащихся.
+- [webgen-train-006180-R6](../../docs/requirements/train/train_006180.md): Пользователь может записываться на встречи.
+- [webgen-train-006217-R5](../../docs/requirements/train/train_006217.md): Преподаватель может задавать баллы экзамена.
+- [webgen-train-006217-R6](../../docs/requirements/train/train_006217.md): Преподаватель может проводить онлайн-экзамен.
+- [webgen-train-006217-R7](../../docs/requirements/train/train_006217.md): Преподаватель может просматривать результаты экзамена в реальном времени.
+- [webgen-train-006217-R9](../../docs/requirements/train/train_006217.md): Учащийся может проходить онлайн-экзамены.
+- [webgen-train-006217-R10](../../docs/requirements/train/train_006217.md): Учащийся может просматривать результаты экзамена.
+- [webgen-train-006217-R11](../../docs/requirements/train/train_006217.md): Учащийся может просматривать полученные баллы.
+- [webgen-train-006226-R3](../../docs/requirements/train/train_006226.md): Пользователь может управлять опросами.
+- [webgen-train-006226-R7](../../docs/requirements/train/train_006226.md): Система должна поддерживать вопросы с выбором ответа.
+- [webgen-train-006226-R8](../../docs/requirements/train/train_006226.md): Система должна поддерживать вопросы с заполнением пропуска.
+- [webgen-train-006226-R10](../../docs/requirements/train/train_006226.md): Пользователь может переставлять вопросы перетаскиванием.
+- [webgen-train-006226-R14](../../docs/requirements/train/train_006226.md): Система должна анализировать ответы.
+- [webgen-train-006231-R1](../../docs/requirements/train/train_006231.md): Пользователь может изучать статьи.
+- [webgen-train-006231-R2](../../docs/requirements/train/train_006231.md): Пользователь может смотреть учебные видео.
+- [webgen-train-006231-R3](../../docs/requirements/train/train_006231.md): Пользователь может отвечать на вопросы.
+- [webgen-train-006231-R4](../../docs/requirements/train/train_006231.md): Система должна начислять баллы на основе времени обучения.
+- [webgen-train-006231-R5](../../docs/requirements/train/train_006231.md): Система должна показывать рейтинг по баллам.
+- [webgen-train-006231-R7](../../docs/requirements/train/train_006231.md): Пользователь может просматривать учебное содержимое.
+- [webgen-train-006231-R8](../../docs/requirements/train/train_006231.md): Пользователь может выполнять учебные задания.
+- [webgen-train-006231-R9](../../docs/requirements/train/train_006231.md): Пользователь может просматривать собственные баллы.
+- [webgen-train-006231-R10](../../docs/requirements/train/train_006231.md): Пользователь может просматривать своё место в рейтинге.
+- [webgen-train-006231-R11](../../docs/requirements/train/train_006231.md): Базовый слой интерфейса имеет цвет `platinum`.
+- [webgen-train-006239-R1](../../docs/requirements/train/train_006239.md): Система должна предоставлять обучение анализу тестирования уровня ISTQB Advanced.
+- [webgen-train-006239-R2](../../docs/requirements/train/train_006239.md): Система должна поддерживать проектирование тестов.
+- [webgen-train-006239-R3](../../docs/requirements/train/train_006239.md): Система должна предоставлять управление тестами.
+- [webgen-train-006239-R4](../../docs/requirements/train/train_006239.md): Система должна поддерживать автоматизацию тестирования.
+- [webgen-train-006239-R6](../../docs/requirements/train/train_006239.md): Учащийся может просматривать курсы.
+- [webgen-train-006239-R7](../../docs/requirements/train/train_006239.md): Учащийся может посещать онлайн-консультации.
+- [webgen-train-006239-R8](../../docs/requirements/train/train_006239.md): Учащийся может отправлять задания.
+- [webgen-train-006239-R9](../../docs/requirements/train/train_006239.md): Учащийся может просматривать оценки.
+- [webgen-train-006239-R12](../../docs/requirements/train/train_006239.md): Преподаватель может загружать материалы.
+- [webgen-train-006239-R13](../../docs/requirements/train/train_006239.md): Преподаватель может оценивать задания.
+- [webgen-train-006239-R14](../../docs/requirements/train/train_006239.md): Преподаватель может общаться с учащимися.
+- [webgen-train-006246-R3](../../docs/requirements/train/train_006246.md): Пользователь может выбирать курс для записи.
+- [webgen-train-006246-R4](../../docs/requirements/train/train_006246.md): Пользователь может записываться на курс.
+- [webgen-train-006246-R6](../../docs/requirements/train/train_006246.md): Пользователь может просматривать свои записи на курсы.
+- [webgen-train-006253-R3](../../docs/requirements/train/train_006253.md): Учащийся может просматривать курсы.
+- [webgen-train-006253-R4](../../docs/requirements/train/train_006253.md): Учащийся может выбирать курс.
+- [webgen-train-006253-R5](../../docs/requirements/train/train_006253.md): Учащийся может посещать онлайн-занятия.
+- [webgen-train-006253-R6](../../docs/requirements/train/train_006253.md): Учащийся может отправлять задания.
+- [webgen-train-006253-R7](../../docs/requirements/train/train_006253.md): Учащийся может просматривать оценки.
+- [webgen-train-006253-R8](../../docs/requirements/train/train_006253.md): Система должна включать в курс техники проектирования тестов.
+- [webgen-train-006253-R9](../../docs/requirements/train/train_006253.md): Система должна включать в курс управление тестированием.
+- [webgen-train-006253-R10](../../docs/requirements/train/train_006253.md): Система должна включать в курс автоматизацию тестирования.
+- [webgen-train-006269-R1](../../docs/requirements/train/train_006269.md): Система должна предоставлять модуль нравственного воспитания.
+- [webgen-train-006269-R2](../../docs/requirements/train/train_006269.md): Система должна предоставлять модуль интеллектуального развития.
+- [webgen-train-006269-R3](../../docs/requirements/train/train_006269.md): Система должна предоставлять модуль физического развития.
+- [webgen-train-006269-R4](../../docs/requirements/train/train_006269.md): Система должна предоставлять модуль эстетического воспитания.
+- [webgen-train-006269-R5](../../docs/requirements/train/train_006269.md): Система должна предоставлять модуль трудового воспитания.
+- [webgen-train-006269-R7](../../docs/requirements/train/train_006269.md): Пользователь может просматривать модули оценивания.
+- [webgen-train-006269-R10](../../docs/requirements/train/train_006269.md): Пользователь может просматривать результаты оценивания.
+- [webgen-train-006269-R12](../../docs/requirements/train/train_006269.md): Система должна анализировать результаты оценивания.
+- [webgen-train-006276-R2](../../docs/requirements/train/train_006276.md): Система должна предоставлять управление учебными ресурсами.
+- [webgen-train-006276-R3](../../docs/requirements/train/train_006276.md): Система должна поддерживать совместное использование учебных материалов.
+- [webgen-train-006276-R9](../../docs/requirements/train/train_006276.md): Пользователь может выйти из системы.
+- [webgen-train-006276-R10](../../docs/requirements/train/train_006276.md): Пользователь может поддерживать актуальность своих сведений.
+- [webgen-train-006276-R11](../../docs/requirements/train/train_006276.md): Преподаватель может составлять учебные планы.
+- [webgen-train-006276-R12](../../docs/requirements/train/train_006276.md): Преподаватель может проектировать курсы.
+- [webgen-train-006276-R15](../../docs/requirements/train/train_006276.md): Преподаватель может управлять домашними заданиями.
+- [webgen-train-006276-R16](../../docs/requirements/train/train_006276.md): Преподаватель может управлять экзаменами.
+- [webgen-train-006276-R17](../../docs/requirements/train/train_006276.md): Преподаватель может отслеживать учебный прогресс.
+- [webgen-train-006276-R18](../../docs/requirements/train/train_006276.md): Преподаватель может отслеживать успеваемость.
+- [webgen-train-006276-R19](../../docs/requirements/train/train_006276.md): Преподаватель может общаться с учащимися в реальном времени.
+- [webgen-train-006278-R2](../../docs/requirements/train/train_006278.md): Пользователь может управлять банком вопросов.
+- [webgen-train-006278-R4](../../docs/requirements/train/train_006278.md): Пользователь может загружать листы ответов.
+- [webgen-train-006278-R6](../../docs/requirements/train/train_006278.md): Система должна поддерживать несколько типов вопросов.
+- [webgen-train-006278-R7](../../docs/requirements/train/train_006278.md): Система должна поддерживать несколько уровней сложности.
+- [webgen-train-006278-R8](../../docs/requirements/train/train_006278.md): Система должна автоматически оценивать экзаменационные работы.
+- [webgen-train-006333-R1](../../docs/requirements/train/train_006333.md): Система должна подбирать подходящие зарубежные учебные заведения.
+- [webgen-train-006333-R2](../../docs/requirements/train/train_006333.md): Система должна предоставлять функции повышения языковых результатов.
+- [webgen-train-006333-R3](../../docs/requirements/train/train_006333.md): Преподаватель может управлять сведениями об учащихся.
+- [webgen-train-006333-R4](../../docs/requirements/train/train_006333.md): Преподаватель может рекомендовать программы с учётом оценок и намерений учащегося.
+- [webgen-train-006333-R5](../../docs/requirements/train/train_006333.md): Учащийся может просматривать учебные заведения.
+- [webgen-train-006333-R9](../../docs/requirements/train/train_006333.md): Учащийся может отслеживать состояние заявки.
+- [webgen-train-006345-R1](../../docs/requirements/train/train_006345.md): Система должна предоставлять академическое управление.
+- [webgen-train-006345-R2](../../docs/requirements/train/train_006345.md): Система должна предоставлять управление профессиональными курсами.
+- [webgen-train-006345-R3](../../docs/requirements/train/train_006345.md): Система должна предоставлять управление сборами.
+- [webgen-train-006345-R4](../../docs/requirements/train/train_006345.md): Система должна поддерживать проверку подлинности сертификатов.
+- [webgen-train-006345-R6](../../docs/requirements/train/train_006345.md): Пользователь может просматривать собственные сертификаты.
+- [webgen-train-006345-R7](../../docs/requirements/train/train_006345.md): Пользователь может управлять собственными сертификатами.
+- [webgen-train-006345-R8](../../docs/requirements/train/train_006345.md): Пользователь может просматривать учебные записи.
+- [webgen-train-006345-R9](../../docs/requirements/train/train_006345.md): Пользователь может управлять учебными записями.
+- [webgen-train-006345-R11](../../docs/requirements/train/train_006345.md): Пользователь может управлять сведениями о зачётных единицах.
+- [webgen-train-006345-R12](../../docs/requirements/train/train_006345.md): Пользователь может запрашивать состояние своего обучения.
+- [webgen-train-006354-R2](../../docs/requirements/train/train_006354.md): Учащийся может смотреть видео без регистрации.
+- [webgen-train-006354-R4](../../docs/requirements/train/train_006354.md): Учащийся может предлагать другим учащимся помощь с выполнением шагов курса.
+- [webgen-train-006354-R5](../../docs/requirements/train/train_006354.md): Система должна показывать объявления снизу или сбоку от видео.
+- [webgen-train-006354-R6](../../docs/requirements/train/train_006354.md): Учащийся может открывать объявление.
+- [webgen-train-006379-R1](../../docs/requirements/train/train_006379.md): Система должна предоставлять план оценивания.
+- [webgen-train-006379-R2](../../docs/requirements/train/train_006379.md): Система должна поддерживать оценивание в ходе обучения.
+- [webgen-train-006379-R4](../../docs/requirements/train/train_006379.md): Учащийся может проходить экзамены за компьютером.
+- [webgen-train-006379-R7](../../docs/requirements/train/train_006379.md): Учащийся может проходить самопроверку.
+- [webgen-train-006379-R8](../../docs/requirements/train/train_006379.md): Учащийся может просматривать коллекцию ошибок.
+- [webgen-train-006398-R1](../../docs/requirements/train/train_006398.md): Пользователь может выбирать шаблон логотипа.
+- [webgen-train-006398-R2](../../docs/requirements/train/train_006398.md): Пользователь может вводить название компании.
+- [webgen-train-006398-R3](../../docs/requirements/train/train_006398.md): Пользователь может вводить слоган.
+- [webgen-train-006398-R4](../../docs/requirements/train/train_006398.md): Пользователь может выбирать цвета логотипа.
+- [webgen-train-006398-R5](../../docs/requirements/train/train_006398.md): Пользователь может выбирать значки.
+- [webgen-train-006398-R6](../../docs/requirements/train/train_006398.md): Пользователь может предварительно просматривать логотип.
+- [webgen-train-006398-R10](../../docs/requirements/train/train_006398.md): Пользователь может сохранять собственные варианты логотипа.
+- [webgen-train-006398-R11](../../docs/requirements/train/train_006398.md): Пользователь может управлять собственными вариантами логотипа.
+- [webgen-train-006470-R2](../../docs/requirements/train/train_006470.md): Система должна предоставлять управление разговорами.
+- [webgen-train-006470-R9](../../docs/requirements/train/train_006470.md): Пользователь может управлять персональными данными.
+- [webgen-train-006472-R1](../../docs/requirements/train/train_006472.md): Система должна предоставлять улучшенный интерфейс и пользовательский опыт.
+- [webgen-train-006472-R2](../../docs/requirements/train/train_006472.md): Система должна случайным образом подбирать собеседников.
+- [webgen-train-006472-R4](../../docs/requirements/train/train_006472.md): Пользователь может демонстрировать экран.
+- [webgen-train-006472-R7](../../docs/requirements/train/train_006472.md): Пользователь может заполнять профиль.
+- [webgen-train-006472-R8](../../docs/requirements/train/train_006472.md): Пользователь может задавать предпочтения подбора.
+- [webgen-train-006472-R9](../../docs/requirements/train/train_006472.md): Пользователь может начинать случайный видеочат.
+- [webgen-train-006472-R10](../../docs/requirements/train/train_006472.md): Пользователь может отправлять текст в реальном времени.
+- [webgen-train-006472-R11](../../docs/requirements/train/train_006472.md): Пользователь может отправлять эмодзи.
+- [webgen-train-006472-R12](../../docs/requirements/train/train_006472.md): Пользователь может отправлять файлы.
+- [webgen-train-006497-R2](../../docs/requirements/train/train_006497.md): Пользователь может отправлять текст.
+- [webgen-train-006497-R3](../../docs/requirements/train/train_006497.md): Пользователь может получать текст.
+- [webgen-train-006497-R4](../../docs/requirements/train/train_006497.md): Пользователь может отправлять изображения.
+- [webgen-train-006497-R5](../../docs/requirements/train/train_006497.md): Пользователь может получать изображения.
+- [webgen-train-006497-R6](../../docs/requirements/train/train_006497.md): Пользователь может отправлять видео.
+- [webgen-train-006497-R7](../../docs/requirements/train/train_006497.md): Пользователь может получать видео.
+- [webgen-train-006497-R9](../../docs/requirements/train/train_006497.md): Пользователь может управлять собственными группами.
+- [webgen-train-006497-R13](../../docs/requirements/train/train_006497.md): Пользователь может отправлять файлы.
+- [webgen-train-006497-R14](../../docs/requirements/train/train_006497.md): Пользователь может получать файлы.
+- [webgen-train-006536-R2](../../docs/requirements/train/train_006536.md): Пользователь может задавать начальное время обрезки.
+- [webgen-train-006536-R3](../../docs/requirements/train/train_006536.md): Пользователь может задавать конечное время обрезки.
+- [webgen-train-006536-R4](../../docs/requirements/train/train_006536.md): Пользователь может обрезать аудио.
+- [webgen-train-006536-R6](../../docs/requirements/train/train_006536.md): Пользователь может объединять несколько аудиофайлов.
+- [webgen-train-006536-R7](../../docs/requirements/train/train_006536.md): Пользователь может преобразовывать формат аудиофайла.
+- [webgen-train-006581-R1](../../docs/requirements/train/train_006581.md): Система должна показывать местный прогноз на сегодня.
+- [webgen-train-006581-R2](../../docs/requirements/train/train_006581.md): Система должна показывать местный прогноз на следующие пять дней.
+- [webgen-train-006581-R3](../../docs/requirements/train/train_006581.md): Система должна воспроизводить локальное видео.
+- [webgen-train-006581-R4](../../docs/requirements/train/train_006581.md): Система должна воспроизводить музыку.
+- [webgen-train-006581-R5](../../docs/requirements/train/train_006581.md): Система должна показывать текст песни.
+- [webgen-train-006581-R6](../../docs/requirements/train/train_006581.md): Система должна показывать сведения о песне.
+- [webgen-train-006581-R7](../../docs/requirements/train/train_006581.md): Система должна показывать карту текущего положения.
+- [webgen-train-006581-R8](../../docs/requirements/train/train_006581.md): Пользователь может приостанавливать видео.
+- [webgen-train-006581-R9](../../docs/requirements/train/train_006581.md): Пользователь может переключать видео.
+- [webgen-train-006581-R10](../../docs/requirements/train/train_006581.md): Пользователь может управлять позицией воспроизведения видео.
+- [webgen-train-006581-R11](../../docs/requirements/train/train_006581.md): Пользователь может увеличивать масштаб карты.
+- [webgen-train-006581-R12](../../docs/requirements/train/train_006581.md): Пользователь может уменьшать масштаб карты.
+- [webgen-train-006581-R13](../../docs/requirements/train/train_006581.md): Пользователь может управлять системой через сенсорный экран.
+- [webgen-train-006592-R3](../../docs/requirements/train/train_006592.md): Пользователь может просматривать фильмы.
+- [webgen-train-006592-R4](../../docs/requirements/train/train_006592.md): Пользователь может просматривать телепередачи.
+- [webgen-train-006592-R5](../../docs/requirements/train/train_006592.md): Пользователь может просматривать прямые трансляции.
+- [webgen-train-006592-R7](../../docs/requirements/train/train_006592.md): Пользователь может воспроизводить выбранный материал.
+- [webgen-train-006592-R8](../../docs/requirements/train/train_006592.md): Пользователь может добавлять понравившийся материал в избранное.
+- [webgen-train-006596-R4](../../docs/requirements/train/train_006596.md): Пользователь может делиться видео 360°.
+- [webgen-train-006596-R5](../../docs/requirements/train/train_006596.md): Пользователь может оценивать видео других пользователей.
+- [webgen-train-006596-R6](../../docs/requirements/train/train_006596.md): Пользователь может комментировать видео других пользователей.
+- [webgen-train-006596-R7](../../docs/requirements/train/train_006596.md): Пользователь может управлять профилем.
+- [webgen-train-006596-R8](../../docs/requirements/train/train_006596.md): Пользователь может управлять сведениями учётной записи.
+- [webgen-train-006596-R9](../../docs/requirements/train/train_006596.md): Система должна поддерживать воспроизведение видео 360°.
+- [webgen-train-006599-R3](../../docs/requirements/train/train_006599.md): Пользователь может задавать правила ответов робота.
+- [webgen-train-006599-R5](../../docs/requirements/train/train_006599.md): Пользователь может отправлять благодарность за подарок.
+- [webgen-train-006599-R6](../../docs/requirements/train/train_006599.md): Пользователь может отправлять благодарность за подписку.
+- [webgen-train-006607-R1](../../docs/requirements/train/train_006607.md): Пользователь может вводить предпочтения для рекомендаций фильмов.
+- [webgen-train-006607-R1.1](../../docs/requirements/train/train_006607.md): Пользователь может указывать любимые жанры.
+- [webgen-train-006607-R1.2](../../docs/requirements/train/train_006607.md): Пользователь может указывать любимых актёров.
+- [webgen-train-006607-R1.3](../../docs/requirements/train/train_006607.md): Пользователь может указывать любимых режиссёров.
+- [webgen-train-006607-R2](../../docs/requirements/train/train_006607.md): Пользователь может отправлять предпочтения.
+- [webgen-train-006607-R3](../../docs/requirements/train/train_006607.md): Система должна после отправки предпочтений показывать десять рекомендаций.
+- [webgen-train-006607-R4](../../docs/requirements/train/train_006607.md): Система должна подбирать фильмы, соответствующие интересам пользователя.
+- [webgen-train-006607-R5](../../docs/requirements/train/train_006607.md): Система должна показывать название рекомендованного фильма.
+- [webgen-train-006607-R6](../../docs/requirements/train/train_006607.md): Система должна показывать жанр рекомендованного фильма.
+- [webgen-train-006607-R7](../../docs/requirements/train/train_006607.md): Система должна показывать краткое описание рекомендованного фильма.
+- [webgen-train-006622-R1](../../docs/requirements/train/train_006622.md): Система должна поддерживать навигацию.
+- [webgen-train-006622-R2](../../docs/requirements/train/train_006622.md): Пользователь может просматривать мультимедийные файлы.
+- [webgen-train-006622-R3](../../docs/requirements/train/train_006622.md): Пользователь может воспроизводить музыку.
+- [webgen-train-006622-R4](../../docs/requirements/train/train_006622.md): Пользователь может воспроизводить видео.
+- [webgen-train-006622-R5](../../docs/requirements/train/train_006622.md): Пользователь может просматривать текущую дорожную ситуацию.
+- [webgen-train-006622-R6](../../docs/requirements/train/train_006622.md): Пользователь может получать прогноз погоды.
+- [webgen-train-006622-R8](../../docs/requirements/train/train_006622.md): Система должна поддерживать голосовое управление.
+- [webgen-train-006622-R9](../../docs/requirements/train/train_006622.md): Система должна поддерживать управление жестами.

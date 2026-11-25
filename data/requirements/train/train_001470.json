@@ -1,0 +1,79 @@
+{
+  "task_index": 1469,
+  "webgen_id": "train_001470",
+  "query": "Please implement a CSS preprocessor website to accelerate CSS coding. The website should have functionalities for code editing, syntax checking, preprocessing, and output. Users should be able to input CSS code, edit and check the code, use preprocessing features to accelerate coding, such as nested selectors and color mixing, and output the preprocessed CSS code. Assign lemon mist as the background color and apply dark orange to all elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить CSS-код.",
+      "source": "“Users should be able to input CSS code, edit and check the code, use preprocessing features to accelerate coding, such as nested selectors and color mixing, and output the preprocessed CSS code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может редактировать CSS-код.",
+      "source": "“Users should be able to input CSS code, edit and check the code, use preprocessing features to accelerate coding, such as nested selectors and color mixing, and output the preprocessed CSS code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может проверять синтаксис CSS.",
+      "source": "“Users should be able to input CSS code, edit and check the code, use preprocessing features to accelerate coding, such as nested selectors and color mixing, and output the preprocessed CSS code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может использовать вложенные селекторы.",
+      "source": "“Users should be able to input CSS code, edit and check the code, use preprocessing features to accelerate coding, such as nested selectors and color mixing, and output the preprocessed CSS code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может смешивать цвета.",
+      "source": "“Users should be able to input CSS code, edit and check the code, use preprocessing features to accelerate coding, such as nested selectors and color mixing, and output the preprocessed CSS code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может получать обработанный CSS-код.",
+      "source": "“Users should be able to input CSS code, edit and check the code, use preprocessing features to accelerate coding, such as nested selectors and color mixing, and output the preprocessed CSS code.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `lemon mist`.",
+      "source": "“Assign lemon mist as the background color and apply dark orange to all elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`).",
+      "source": "“Assign lemon mist as the background color and apply dark orange to all elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

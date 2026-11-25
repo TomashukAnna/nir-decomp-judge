@@ -1,0 +1,97 @@
+{
+  "task_index": 1859,
+  "webgen_id": "train_001860",
+  "query": "Please implement a digital creation and blockchain integration platform to help creators and developers build immersive meta-universes and blockchain applications. The platform should have functionalities for creating and managing meta-universes, building and deploying blockchain applications, and managing digital assets and identities. Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities. Apply plum to the canvas background and dark magenta to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать собственные метавселенные.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может управлять собственными метавселенными.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать блокчейн-приложения.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может развёртывать блокчейн-приложения.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять цифровыми активами.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять цифровыми идентичностями.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own meta-universes, build and deploy blockchain applications, and manage their digital assets and identities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Фон рабочей области имеет цвет `plum` (`#DDA0DD`).",
+      "source": "“Apply plum to the canvas background and dark magenta to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `dark magenta` (`#8B008B`).",
+      "source": "“Apply plum to the canvas background and dark magenta to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

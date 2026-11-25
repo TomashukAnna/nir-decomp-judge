@@ -1,0 +1,88 @@
+{
+  "task_index": 3448,
+  "webgen_id": "train_003449",
+  "query": "Please implement a scan-to-order mini-program for customers to browse dishes, place orders, and make payments. The mini-program should have functionalities for displaying dishes, placing orders, and making payments. Users should be able to browse dishes, select the dishes they want to order, submit orders, view order details, and make online payments. The mini-program should also be able to record users' order history and consumption records. Use linen white for container backgrounds and burlywood for component visuals.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать блюда.",
+      "source": "“Users should be able to browse dishes, select the dishes they want to order, submit orders, view order details, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может выбирать блюда для заказа.",
+      "source": "“Users should be able to browse dishes, select the dishes they want to order, submit orders, view order details, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять заказ.",
+      "source": "“Users should be able to browse dishes, select the dishes they want to order, submit orders, view order details, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать детали заказа.",
+      "source": "“Users should be able to browse dishes, select the dishes they want to order, submit orders, view order details, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оплачивать заказ онлайн.",
+      "source": "“Users should be able to browse dishes, select the dishes they want to order, submit orders, view order details, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна сохранять историю заказов пользователя.",
+      "source": "“The mini-program should also be able to record users' order history and consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна сохранять историю покупок пользователя.",
+      "source": "“The mini-program should also be able to record users' order history and consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Фон контейнеров имеет цвет `linen white`.",
+      "source": "“Use linen white for container backgrounds and burlywood for component visuals.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`).",
+      "source": "“Use linen white for container backgrounds and burlywood for component visuals.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

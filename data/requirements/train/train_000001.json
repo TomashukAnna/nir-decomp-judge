@@ -1,0 +1,133 @@
+{
+  "task_index": 0,
+  "webgen_id": "train_000001",
+  "query": "Please implement a WeChat mini-program for managing orders and a promotion center for accompanying medical services. Users can add orders, view submitted orders, perform refund, cancellation, viewing, and payment operations. At the same time, users can enter the promotion center to view the promotion platform's commission benefits. The WeChat login function allows users to log in with their WeChat account. Users can browse the information of accompanying medical services, select service items, fill in relevant information, submit orders, and make payments. Set the background color to antique white and the component color to sienna.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может добавлять заказы.",
+      "source": "“Users can add orders, view submitted orders, perform refund, cancellation, viewing, and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать отправленные заказы.",
+      "source": "“Users can add orders, view submitted orders, perform refund, cancellation, viewing, and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может оформлять возврат средств.",
+      "source": "“Users can add orders, view submitted orders, perform refund, cancellation, viewing, and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отменять заказы.",
+      "source": "“Users can add orders, view submitted orders, perform refund, cancellation, viewing, and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оплачивать заказы.",
+      "source": "“Users can add orders, view submitted orders, perform refund, cancellation, viewing, and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может открывать центр продвижения.",
+      "source": "“At the same time, users can enter the promotion center to view the promotion platform's commission benefits.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать условия комиссионного вознаграждения.",
+      "source": "“At the same time, users can enter the promotion center to view the promotion platform's commission benefits.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может входить через свою учётную запись WeChat.",
+      "source": "“The WeChat login function allows users to log in with their WeChat account.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать услуги медицинского сопровождения.",
+      "source": "“Users can browse the information of accompanying medical services, select service items, fill in relevant information, submit orders, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может выбирать услуги.",
+      "source": "“Users can browse the information of accompanying medical services, select service items, fill in relevant information, submit orders, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может вводить сведения для заказа.",
+      "source": "“Users can browse the information of accompanying medical services, select service items, fill in relevant information, submit orders, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может отправлять заказ.",
+      "source": "“Users can browse the information of accompanying medical services, select service items, fill in relevant information, submit orders, and make payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`).",
+      "source": "“Set the background color to antique white and the component color to sienna.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Set the background color to antique white and the component color to sienna.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

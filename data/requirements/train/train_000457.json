@@ -1,0 +1,142 @@
+{
+  "task_index": 456,
+  "webgen_id": "train_000457",
+  "query": "Please implement an instant messaging APP for group and private chats. Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards. The APP should have a social circle feature where users can share their life updates. Users should be able to engage in group chats and private chats, sending various types of messages. Assign cotton to the background and maroon to the UI elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может отправлять текст.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправлять голосовые сообщения.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять видео.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять изображения.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отправлять эмодзи.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять подарочные конверты.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отправлять геопозицию.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может отправлять файлы.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может отправлять визитки.",
+      "source": "“Users should be able to send text, voice, video, images, emojis, red packets, locations, files, and business cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может публиковать обновления в социальной ленте.",
+      "source": "“The APP should have a social circle feature where users can share their life updates.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может участвовать в групповых чатах.",
+      "source": "“Users should be able to engage in group chats and private chats, sending various types of messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может участвовать в приватных чатах.",
+      "source": "“Users should be able to engage in group chats and private chats, sending various types of messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна ограничивать доступ к приватной переписке её участниками.",
+      "source": "“Users should be able to engage in group chats and private chats, sending various types of messages.”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `cotton`.",
+      "source": "“Assign cotton to the background and maroon to the UI elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Assign cotton to the background and maroon to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

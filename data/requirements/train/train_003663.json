@@ -1,0 +1,115 @@
+{
+  "task_index": 3662,
+  "webgen_id": "train_003663",
+  "query": "Please implement a queue ordering website to optimize the consumption environment and stimulate consumption potential. The website should have queue functionality, including public queue mode and regional queue mode, and consumers can choose the queue method according to their needs. The website should also have a weighted dividend function, and consumers can get a weighted dividend opportunity based on their consumption amount. Users can log in to the website, browse products, place orders, queue, get weighted dividends, and view their consumption records. Use medium aquamarine for the background and sea green for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять общий режим очереди.",
+      "source": "“The website should have queue functionality, including public queue mode and regional queue mode, and consumers can choose the queue method according to their needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять региональный режим очереди.",
+      "source": "“The website should have queue functionality, including public queue mode and regional queue mode, and consumers can choose the queue method according to their needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может выбирать подходящий режим очереди.",
+      "source": "“The website should have queue functionality, including public queue mode and regional queue mode, and consumers can choose the queue method according to their needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять возможность взвешенного распределения дивидендов с учётом суммы покупок.",
+      "source": "“The website should also have a weighted dividend function, and consumers can get a weighted dividend opportunity based on their consumption amount.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users can log in to the website, browse products, place orders, queue, get weighted dividends, and view their consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users can log in to the website, browse products, place orders, queue, get weighted dividends, and view their consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users can log in to the website, browse products, place orders, queue, get weighted dividends, and view their consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может вставать в очередь.",
+      "source": "“Users can log in to the website, browse products, place orders, queue, get weighted dividends, and view their consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может получать взвешенные дивиденды.",
+      "source": "“Users can log in to the website, browse products, place orders, queue, get weighted dividends, and view their consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать историю потребления.",
+      "source": "“Users can log in to the website, browse products, place orders, queue, get weighted dividends, and view their consumption records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `medium aquamarine` (`#66CDAA`).",
+      "source": "“Use medium aquamarine for the background and sea green for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`).",
+      "source": "“Use medium aquamarine for the background and sea green for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

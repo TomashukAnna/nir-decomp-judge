@@ -1,0 +1,97 @@
+{
+  "task_index": 2711,
+  "webgen_id": "train_002712",
+  "query": "Please design and rebuild a new business website, including a homepage, product pages, about us page, and contact us page. The website should have a responsive design, adapting to different devices and screen sizes. Users should be able to browse the website, view product information, submit a contact form, and navigate through the website. Apply moccasin for layout; use sandy brown for buttons and cards.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять главную страницу.",
+      "source": "“Please design and rebuild a new business website, including a homepage, product pages, about us page, and contact us page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять страницы товаров.",
+      "source": "“Please design and rebuild a new business website, including a homepage, product pages, about us page, and contact us page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять страницу о компании.",
+      "source": "“Please design and rebuild a new business website, including a homepage, product pages, about us page, and contact us page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять страницу контактов.",
+      "source": "“Please design and rebuild a new business website, including a homepage, product pages, about us page, and contact us page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна адаптировать оформление к разным устройствам и размерам экранов.",
+      "source": "“The website should have a responsive design, adapting to different devices and screen sizes.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о товарах.",
+      "source": "“Users should be able to browse the website, view product information, submit a contact form, and navigate through the website.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отправлять контактную форму.",
+      "source": "“Users should be able to browse the website, view product information, submit a contact form, and navigate through the website.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может переходить между страницами.",
+      "source": "“Users should be able to browse the website, view product information, submit a contact form, and navigate through the website.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`).",
+      "source": "“Apply moccasin for layout; use sandy brown for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Кнопки и карточки имеют цвет `sandy brown` (`#F4A460`).",
+      "source": "“Apply moccasin for layout; use sandy brown for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

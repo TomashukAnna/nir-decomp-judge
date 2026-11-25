@@ -1,0 +1,88 @@
+{
+  "task_index": 4287,
+  "webgen_id": "train_004288",
+  "query": "Please implement an electric vehicle charging appointment application for users to book charging and merchants to configure charging services. Users should be able to search for nearby charging stations, book charging appointments, and view charging records through the application. Merchants should be able to register through the application, configure their own charging stations, manage charging orders, and view charging data. Declare light sea green as the global background color and medium sea green for all UI pieces.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может искать ближайшие зарядные станции.",
+      "source": "“Users should be able to search for nearby charging stations, book charging appointments, and view charging records through the application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может бронировать время зарядки.",
+      "source": "“Users should be able to search for nearby charging stations, book charging appointments, and view charging records through the application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать историю зарядок.",
+      "source": "“Users should be able to search for nearby charging stations, book charging appointments, and view charging records through the application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Продавец может зарегистрироваться.",
+      "source": "“Merchants should be able to register through the application, configure their own charging stations, manage charging orders, and view charging data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Продавец может настраивать собственные зарядные станции.",
+      "source": "“Merchants should be able to register through the application, configure their own charging stations, manage charging orders, and view charging data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Продавец может управлять заказами на зарядку.",
+      "source": "“Merchants should be able to register through the application, configure their own charging stations, manage charging orders, and view charging data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Продавец может просматривать данные зарядных станций.",
+      "source": "“Merchants should be able to register through the application, configure their own charging stations, manage charging orders, and view charging data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `light sea green` (`#20B2AA`).",
+      "source": "“Declare light sea green as the global background color and medium sea green for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `medium sea green` (`#3CB371`).",
+      "source": "“Declare light sea green as the global background color and medium sea green for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

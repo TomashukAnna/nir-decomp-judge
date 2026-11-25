@@ -1,0 +1,124 @@
+{
+  "task_index": 2535,
+  "webgen_id": "train_002536",
+  "query": "Please implement a backend management website for managing users, products, and data. The website should have functionalities for user management, permission management, product management, and data visualization. Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts. Design the site using pale lilac as the background and dark orchid for content blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать информацию о пользователях.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать список товаров.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать статистику данных.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может добавлять пользователей.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может удалять пользователей.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может изменять сведения о пользователях.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять разрешениями пользователей.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может добавлять товары.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может управлять товарами.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может анализировать данные с помощью диаграмм.",
+      "source": "“Users should be able to log in, browse user information, product lists, and data statistics, perform user add, delete, and modify operations, manage user permissions, add and manage products, and analyze data through charts.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `pale lilac`.",
+      "source": "“Design the site using pale lilac as the background and dark orchid for content blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Блоки содержимого имеют цвет `dark orchid` (`#9932CC`).",
+      "source": "“Design the site using pale lilac as the background and dark orchid for content blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

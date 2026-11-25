@@ -1,0 +1,88 @@
+{
+  "task_index": 1051,
+  "webgen_id": "train_001052",
+  "query": "Please implement an instant messaging plugin to provide more chat emoticons. The plugin should have the functionality to send and receive emoticons, and users should be able to select and send various emoticons, as well as customize them. The plugin should also have real-time update and notification functionality, allowing users to receive new messages and updates in a timely manner. Apply light sky blue for layout; use dodger blue for buttons and cards.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может выбирать эмотиконы.",
+      "source": "“The plugin should have the functionality to send and receive emoticons, and users should be able to select and send various emoticons, as well as customize them.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправлять эмотиконы.",
+      "source": "“The plugin should have the functionality to send and receive emoticons, and users should be able to select and send various emoticons, as well as customize them.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может получать эмотиконы.",
+      "source": "“The plugin should have the functionality to send and receive emoticons, and users should be able to select and send various emoticons, as well as customize them.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может настраивать собственные эмотиконы.",
+      "source": "“The plugin should have the functionality to send and receive emoticons, and users should be able to select and send various emoticons, as well as customize them.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна обновлять сообщения и материалы в реальном времени.",
+      "source": "“The plugin should also have real-time update and notification functionality, allowing users to receive new messages and updates in a timely manner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна уведомлять о новых сообщениях.",
+      "source": "“The plugin should also have real-time update and notification functionality, allowing users to receive new messages and updates in a timely manner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна уведомлять об обновлениях.",
+      "source": "“The plugin should also have real-time update and notification functionality, allowing users to receive new messages and updates in a timely manner.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`).",
+      "source": "“Apply light sky blue for layout; use dodger blue for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Кнопки и карточки имеют цвет `dodger blue` (`#1E90FF`).",
+      "source": "“Apply light sky blue for layout; use dodger blue for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

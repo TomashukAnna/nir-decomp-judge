@@ -1,0 +1,97 @@
+{
+  "task_index": 3192,
+  "webgen_id": "train_003193",
+  "query": "Please implement a website that dynamically generates PDFs based on database information to create pre-formatted PDF files. The website should have functionalities for logging in, displaying a list of available projects, user input fields, adding to cart, payment, and generating PDF files. Users should be able to log in, browse the list of available projects, input fields, add projects to the cart, pay for selected projects, and generate pre-formatted PDF files. The PDF files should have a tabular format, with each row populated based on data from the database. Apply peach as the background; style all components with orangered.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse the list of available projects, input fields, add projects to the cart, pay for selected projects, and generate pre-formatted PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать доступные проекты.",
+      "source": "“Users should be able to log in, browse the list of available projects, input fields, add projects to the cart, pay for selected projects, and generate pre-formatted PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может заполнять поля.",
+      "source": "“Users should be able to log in, browse the list of available projects, input fields, add projects to the cart, pay for selected projects, and generate pre-formatted PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может добавлять проекты в корзину.",
+      "source": "“Users should be able to log in, browse the list of available projects, input fields, add projects to the cart, pay for selected projects, and generate pre-formatted PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оплачивать выбранные проекты.",
+      "source": "“Users should be able to log in, browse the list of available projects, input fields, add projects to the cart, pay for selected projects, and generate pre-formatted PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может создавать PDF в заданном формате.",
+      "source": "“Users should be able to log in, browse the list of available projects, input fields, add projects to the cart, pay for selected projects, and generate pre-formatted PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна формировать PDF в табличном виде.",
+      "source": "“The PDF files should have a tabular format, with each row populated based on data from the database.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна заполнять строки PDF данными из базы.",
+      "source": "“The PDF files should have a tabular format, with each row populated based on data from the database.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `peach`.",
+      "source": "“Apply peach as the background; style all components with orangered.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `orangered` (`#FF4500`).",
+      "source": "“Apply peach as the background; style all components with orangered.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

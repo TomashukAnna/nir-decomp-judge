@@ -1,0 +1,70 @@
+{
+  "task_index": 4763,
+  "webgen_id": "train_004764",
+  "query": "Please implement a website translation system that supports multiple languages. The system should have an automatic translation function that can translate website content from one language to another. Users should be able to select the target language and browse the translated website content. The system should also have a manual translation function that allows users to edit and modify the translated content themselves. Set the background color to sunlight and the component color to gold.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать несколько языков.",
+      "source": "“Please implement a website translation system that supports multiple languages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна автоматически переводить содержимое сайта между языками.",
+      "source": "“The system should have an automatic translation function that can translate website content from one language to another.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может выбирать язык перевода.",
+      "source": "“Users should be able to select the target language and browse the translated website content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать переведённое содержимое.",
+      "source": "“Users should be able to select the target language and browse the translated website content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может вручную редактировать перевод.",
+      "source": "“The system should also have a manual translation function that allows users to edit and modify the translated content themselves.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `sunlight`.",
+      "source": "“Set the background color to sunlight and the component color to gold.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `gold` (`#FFD700`).",
+      "source": "“Set the background color to sunlight and the component color to gold.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task_index": 4958,
+  "webgen_id": "train_004959",
+  "query": "Please implement a database operation website for managing and operating databases. The website should have functionalities for querying, adding, deleting, and modifying data. Users should be able to log in, browse database tables, query data, add new data, delete selected data, and modify selected data. Set overall background to mint frost, then style components with seagreen.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse database tables, query data, add new data, delete selected data, and modify selected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать таблицы базы данных.",
+      "source": "“Users should be able to log in, browse database tables, query data, add new data, delete selected data, and modify selected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может запрашивать данные.",
+      "source": "“Users should be able to log in, browse database tables, query data, add new data, delete selected data, and modify selected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может добавлять данные.",
+      "source": "“Users should be able to log in, browse database tables, query data, add new data, delete selected data, and modify selected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять выбранные данные.",
+      "source": "“Users should be able to log in, browse database tables, query data, add new data, delete selected data, and modify selected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может изменять выбранные данные.",
+      "source": "“Users should be able to log in, browse database tables, query data, add new data, delete selected data, and modify selected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `mint frost`.",
+      "source": "“Set overall background to mint frost, then style components with seagreen.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `seagreen` (`#2E8B57`).",
+      "source": "“Set overall background to mint frost, then style components with seagreen.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

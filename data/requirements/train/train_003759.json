@@ -1,0 +1,160 @@
+{
+  "task_index": 3758,
+  "webgen_id": "train_003759",
+  "query": "Please implement an e-commerce website for food products to sell snacks, beverages, bakery items, honey, and pollen. The website should have functionalities for browsing products, adding to cart, checkout, and payment. Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card. Style all pages with a faint peach background and coral components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна включать в ассортимент закуски, напитки, выпечку, мёд и пыльцу.",
+      "source": "“Please implement an e-commerce website for food products to sell snacks, beverages, bakery items, honey, and pollen.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать категории продуктов.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может добавлять выбранные товары в корзину.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать товары корзины.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может оформлять заказ.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может выбирать способ оплаты.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.1",
+      "criteria": "Пользователь может оплачивать кредитной картой.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.2",
+      "criteria": "Пользователь может оплачивать через PayPal.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.3",
+      "criteria": "Пользователь может оплачивать банковским переводом.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.4",
+      "criteria": "Пользователь может оплачивать через UPI.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.5",
+      "criteria": "Пользователь может оплачивать через phone pay.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.6",
+      "criteria": "Пользователь может оплачивать через Gpay.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.7",
+      "criteria": "Пользователь может оплачивать через Amazon Pay.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7.8",
+      "criteria": "Пользователь может оплачивать дебетовой картой.",
+      "source": "“Users should be able to log in, browse different types of food products, add selected products to the cart, view products in the cart, proceed to checkout, and choose from various payment methods, including credit card, PayPal, bank transfer, UPI, phone pay, Gpay, Amazon Pay, and debit card.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R7",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Фон всех страниц имеет цвет `faint peach`.",
+      "source": "“Style all pages with a faint peach background and coral components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `coral` (`#FF7F50`).",
+      "source": "“Style all pages with a faint peach background and coral components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

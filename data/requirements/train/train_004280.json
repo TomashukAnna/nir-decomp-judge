@@ -1,0 +1,88 @@
+{
+  "task_index": 4279,
+  "webgen_id": "train_004280",
+  "query": "Please implement a Tianjin medical insurance Alipay mini-program for medical service appointment and payment functions. The mini-program should have functionalities for registration, payment, appointment, and cancellation of appointments. Users should be able to log in, browse available medical services, make appointments for needed services, cancel existing appointments, and make online payments. Implement styling with rosy brown for the background and brown for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может регистрироваться на медицинские услуги.",
+      "source": "“The mini-program should have functionalities for registration, payment, appointment, and cancellation of appointments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse available medical services, make appointments for needed services, cancel existing appointments, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать доступные медицинские услуги.",
+      "source": "“Users should be able to log in, browse available medical services, make appointments for needed services, cancel existing appointments, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может записываться на медицинскую услугу.",
+      "source": "“Users should be able to log in, browse available medical services, make appointments for needed services, cancel existing appointments, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отменять существующую запись.",
+      "source": "“Users should be able to log in, browse available medical services, make appointments for needed services, cancel existing appointments, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может оплачивать услуги онлайн.",
+      "source": "“Users should be able to log in, browse available medical services, make appointments for needed services, cancel existing appointments, and make online payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна работать как мини-приложение Alipay.",
+      "source": "“Please implement a Tianjin medical insurance Alipay mini-program for medical service appointment and payment functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `rosy brown` (`#BC8F8F`).",
+      "source": "“Implement styling with rosy brown for the background and brown for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `brown` (`#A52A2A`).",
+      "source": "“Implement styling with rosy brown for the background and brown for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

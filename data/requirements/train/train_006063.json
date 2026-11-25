@@ -1,0 +1,133 @@
+{
+  "task_index": 6062,
+  "webgen_id": "train_006063",
+  "query": "Please implement a literature website portal content management system for managing and displaying literary works. The system should have functionalities for publishing, editing, and deleting articles. Users should be able to register, log in, browse and search for literary works, submit their own works, and participate in discussions. The system should also have backend management functionality, where administrators can manage users, articles, comments, and other content. Set page background to faint gold; color all components with saddle brown.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может публиковать статьи.",
+      "source": "“The system should have functionalities for publishing, editing, and deleting articles.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может редактировать статьи.",
+      "source": "“The system should have functionalities for publishing, editing, and deleting articles.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может удалять статьи.",
+      "source": "“The system should have functionalities for publishing, editing, and deleting articles.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register, log in, browse and search for literary works, submit their own works, and participate in discussions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register, log in, browse and search for literary works, submit their own works, and participate in discussions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать литературные произведения.",
+      "source": "“Users should be able to register, log in, browse and search for literary works, submit their own works, and participate in discussions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может искать произведения.",
+      "source": "“Users should be able to register, log in, browse and search for literary works, submit their own works, and participate in discussions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может отправлять собственные произведения.",
+      "source": "“Users should be able to register, log in, browse and search for literary works, submit their own works, and participate in discussions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может участвовать в обсуждениях.",
+      "source": "“Users should be able to register, log in, browse and search for literary works, submit their own works, and participate in discussions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Администратор может управлять пользователями.",
+      "source": "“The system should also have backend management functionality, where administrators can manage users, articles, comments, and other content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может управлять статьями.",
+      "source": "“The system should also have backend management functionality, where administrators can manage users, articles, comments, and other content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Администратор может управлять комментариями.",
+      "source": "“The system should also have backend management functionality, where administrators can manage users, articles, comments, and other content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `faint gold`.",
+      "source": "“Set page background to faint gold; color all components with saddle brown.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Все компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`).",
+      "source": "“Set page background to faint gold; color all components with saddle brown.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

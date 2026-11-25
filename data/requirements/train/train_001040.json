@@ -1,0 +1,117 @@
+{
+  "task_index": 1039,
+  "webgen_id": "train_001040",
+  "query": "Please implement a Baidu user registration page for user registration and login. The page should have functionalities for registration, login, and password recovery. Users should be able to input their username, password, email, and phone number to register, and after logging in, they can access their personal center and other related functions. The registration page should include input validation to ensure that the user's input information is legal and valid. Apply silver for layout; use dark slate blue for buttons and cards.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“The page should have functionalities for registration, login, and password recovery.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“The page should have functionalities for registration, login, and password recovery.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может восстановить пароль.",
+      "source": "“The page should have functionalities for registration, login, and password recovery.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна принимать регистрационные данные.",
+      "source": "“Users should be able to input their username, password, email, and phone number to register, and after logging in, they can access their personal center and other related functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Система должна принимать имя пользователя.",
+      "source": "“Users should be able to input their username, password, email, and phone number to register, and after logging in, they can access their personal center and other related functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Система должна принимать пароль.",
+      "source": "“Users should be able to input their username, password, email, and phone number to register, and after logging in, they can access their personal center and other related functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.3",
+      "criteria": "Система должна принимать email.",
+      "source": "“Users should be able to input their username, password, email, and phone number to register, and after logging in, they can access their personal center and other related functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.4",
+      "criteria": "Система должна принимать номер телефона.",
+      "source": "“Users should be able to input their username, password, email, and phone number to register, and after logging in, they can access their personal center and other related functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может открывать личный кабинет после входа.",
+      "source": "“Users should be able to input their username, password, email, and phone number to register, and after logging in, they can access their personal center and other related functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна проверять корректность введённых регистрационных данных.",
+      "source": "“The registration page should include input validation to ensure that the user's input information is legal and valid.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `silver` (`#C0C0C0`).",
+      "source": "“Apply silver for layout; use dark slate blue for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Кнопки и карточки имеют цвет `dark slate blue` (`#483D8B`).",
+      "source": "“Apply silver for layout; use dark slate blue for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

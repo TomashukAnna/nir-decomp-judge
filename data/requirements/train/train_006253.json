@@ -1,0 +1,115 @@
+{
+  "task_index": 6252,
+  "webgen_id": "train_006253",
+  "query": "Please develop an online training website to provide ISTQB advanced level test analyst training courses. The website should have functionalities for registration, login, course browsing, online teaching, assignment submission, and grade evaluation. Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations. The course content should include topics such as test design techniques, test management, and test automation. Define the background as rosy brown and components as brown.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Учащийся может зарегистрироваться.",
+      "source": "“Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Учащийся может войти в систему.",
+      "source": "“Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Учащийся может просматривать курсы.",
+      "source": "“Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Учащийся может выбирать курс.",
+      "source": "“Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Учащийся может посещать онлайн-занятия.",
+      "source": "“Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Учащийся может отправлять задания.",
+      "source": "“Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Учащийся может просматривать оценки.",
+      "source": "“Users should be able to register and log in to the website, browse and select courses, attend online classes, submit assignments, and view grade evaluations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна включать в курс техники проектирования тестов.",
+      "source": "“The course content should include topics such as test design techniques, test management, and test automation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна включать в курс управление тестированием.",
+      "source": "“The course content should include topics such as test design techniques, test management, and test automation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна включать в курс автоматизацию тестирования.",
+      "source": "“The course content should include topics such as test design techniques, test management, and test automation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `rosy brown` (`#BC8F8F`).",
+      "source": "“Define the background as rosy brown and components as brown.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `brown` (`#A52A2A`).",
+      "source": "“Define the background as rosy brown and components as brown.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

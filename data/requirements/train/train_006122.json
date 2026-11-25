@@ -1,0 +1,106 @@
+{
+  "task_index": 6121,
+  "webgen_id": "train_006122",
+  "query": "Please implement a simple CMS management system for editing and managing website content. The system should have functionalities for adding images, links, and editing HTML. Users should be able to log in and use the toolbox to edit the entire website's content, including adding new pages, editing existing pages, and deleting pages. The system should provide a simple and user-friendly interface for easy operation. Assign glacier blue as the background color and apply royal blue to all elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может добавлять изображения.",
+      "source": "“The system should have functionalities for adding images, links, and editing HTML.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может добавлять ссылки.",
+      "source": "“The system should have functionalities for adding images, links, and editing HTML.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать HTML.",
+      "source": "“The system should have functionalities for adding images, links, and editing HTML.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and use the toolbox to edit the entire website's content, including adding new pages, editing existing pages, and deleting pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может редактировать содержимое сайта через панель инструментов.",
+      "source": "“Users should be able to log in and use the toolbox to edit the entire website's content, including adding new pages, editing existing pages, and deleting pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может добавлять страницы.",
+      "source": "“Users should be able to log in and use the toolbox to edit the entire website's content, including adding new pages, editing existing pages, and deleting pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может редактировать существующие страницы.",
+      "source": "“Users should be able to log in and use the toolbox to edit the entire website's content, including adding new pages, editing existing pages, and deleting pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может удалять страницы.",
+      "source": "“Users should be able to log in and use the toolbox to edit the entire website's content, including adding new pages, editing existing pages, and deleting pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна предоставлять простой и удобный интерфейс.",
+      "source": "“The system should provide a simple and user-friendly interface for easy operation.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `glacier blue`.",
+      "source": "“Assign glacier blue as the background color and apply royal blue to all elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`).",
+      "source": "“Assign glacier blue as the background color and apply royal blue to all elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

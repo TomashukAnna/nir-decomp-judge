@@ -1,0 +1,124 @@
+{
+  "task_index": 990,
+  "webgen_id": "train_000991",
+  "query": "Please implement a cloud-based form designer website for designing and managing forms. The website should have functionalities for form design, data statistics, and filtering. Users should be able to log in, design and manage their own forms, and view data statistics and filtering results. The form designer should support various controls, including text boxes, drop-down menus, and checkboxes. Data statistics should support various charts, including bar charts, pie charts, and line charts. Use light sky blue for container backgrounds and dodger blue for component visuals.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, design and manage their own forms, and view data statistics and filtering results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может проектировать собственные формы.",
+      "source": "“Users should be able to log in, design and manage their own forms, and view data statistics and filtering results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может управлять собственными формами.",
+      "source": "“Users should be able to log in, design and manage their own forms, and view data statistics and filtering results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать статистику данных.",
+      "source": "“Users should be able to log in, design and manage their own forms, and view data statistics and filtering results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать результаты фильтрации.",
+      "source": "“Users should be able to log in, design and manage their own forms, and view data statistics and filtering results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна поддерживать текстовые поля.",
+      "source": "“The form designer should support various controls, including text boxes, drop-down menus, and checkboxes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать выпадающие списки.",
+      "source": "“The form designer should support various controls, including text boxes, drop-down menus, and checkboxes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать флажки.",
+      "source": "“The form designer should support various controls, including text boxes, drop-down menus, and checkboxes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна показывать столбчатые диаграммы статистики.",
+      "source": "“Data statistics should support various charts, including bar charts, pie charts, and line charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна показывать круговые диаграммы статистики.",
+      "source": "“Data statistics should support various charts, including bar charts, pie charts, and line charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна показывать линейные диаграммы статистики.",
+      "source": "“Data statistics should support various charts, including bar charts, pie charts, and line charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Фон контейнеров имеет цвет `light sky blue` (`#87CEFA`).",
+      "source": "“Use light sky blue for container backgrounds and dodger blue for component visuals.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `dodger blue` (`#1E90FF`).",
+      "source": "“Use light sky blue for container backgrounds and dodger blue for component visuals.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

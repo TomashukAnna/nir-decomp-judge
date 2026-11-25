@@ -1,0 +1,124 @@
+{
+  "task_index": 3911,
+  "webgen_id": "train_003912",
+  "query": "Please implement a second-hand car trading WeChat mini-program for buying and selling vehicles. Sellers can upload vehicle information, and buyers can upload personal information, including ID cards, faces, driver's licenses, etc. At the same time, buyers and sellers can browse vehicle information and conduct transactions. The system should have functions such as ID recognition, face recognition, driver's license recognition, and business license recognition. Apply white smoke to the canvas background and rosy brown to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Продавец может загружать сведения об автомобиле.",
+      "source": "“Sellers can upload vehicle information, and buyers can upload personal information, including ID cards, faces, driver's licenses, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Покупатель может загружать персональные сведения.",
+      "source": "“Sellers can upload vehicle information, and buyers can upload personal information, including ID cards, faces, driver's licenses, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Покупатель может загружать удостоверение личности.",
+      "source": "“Sellers can upload vehicle information, and buyers can upload personal information, including ID cards, faces, driver's licenses, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "Покупатель может загружать изображение лица.",
+      "source": "“Sellers can upload vehicle information, and buyers can upload personal information, including ID cards, faces, driver's licenses, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.3",
+      "criteria": "Покупатель может загружать водительское удостоверение.",
+      "source": "“Sellers can upload vehicle information, and buyers can upload personal information, including ID cards, faces, driver's licenses, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать сведения об автомобилях.",
+      "source": "“At the same time, buyers and sellers can browse vehicle information and conduct transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может совершать сделки.",
+      "source": "“At the same time, buyers and sellers can browse vehicle information and conduct transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна распознавать удостоверения личности.",
+      "source": "“The system should have functions such as ID recognition, face recognition, driver's license recognition, and business license recognition.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна распознавать лица.",
+      "source": "“The system should have functions such as ID recognition, face recognition, driver's license recognition, and business license recognition.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна распознавать водительские удостоверения.",
+      "source": "“The system should have functions such as ID recognition, face recognition, driver's license recognition, and business license recognition.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна распознавать лицензии на ведение бизнеса.",
+      "source": "“The system should have functions such as ID recognition, face recognition, driver's license recognition, and business license recognition.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Фон рабочей области имеет цвет `white smoke` (`#F5F5F5`).",
+      "source": "“Apply white smoke to the canvas background and rosy brown to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`).",
+      "source": "“Apply white smoke to the canvas background and rosy brown to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "task_index": 4626,
+  "webgen_id": "train_004627",
+  "query": "Please implement a warning system for receiving and sending warning messages. The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP). Users should be able to log in to the system, view warning messages, manage warning rules, and set up how they receive warning messages. Apply peach to the canvas background and orangered to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна принимать предупреждения.",
+      "source": "“The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна фильтровать предупреждения по заданным правилам.",
+      "source": "“The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна отправлять предупреждения через несколько каналов.",
+      "source": "“The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Система должна поддерживать SMS.",
+      "source": "“The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Система должна поддерживать WeChat.",
+      "source": "“The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Система должна поддерживать email.",
+      "source": "“The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.4",
+      "criteria": "Система должна поддерживать уведомления приложения.",
+      "source": "“The system should have the functionality to receive warning messages, filter them based on predefined rules, and send the warnings to relevant personnel through multiple channels (such as SMS, WeChat, email, APP).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in to the system, view warning messages, manage warning rules, and set up how they receive warning messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать предупреждения.",
+      "source": "“Users should be able to log in to the system, view warning messages, manage warning rules, and set up how they receive warning messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять правилами предупреждений.",
+      "source": "“Users should be able to log in to the system, view warning messages, manage warning rules, and set up how they receive warning messages.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может выбирать способ получения предупреждений.",
+      "source": "“Users should be able to log in to the system, view warning messages, manage warning rules, and set up how they receive warning messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Фон рабочей области имеет цвет `peach`.",
+      "source": "“Apply peach to the canvas background and orangered to all visible components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `orangered` (`#FF4500`).",
+      "source": "“Apply peach to the canvas background and orangered to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

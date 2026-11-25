@@ -1,0 +1,160 @@
+{
+  "task_index": 218,
+  "webgen_id": "train_000219",
+  "query": "Please implement a commercial network technology system for managing team and company data. The system should have user login, registration, password recovery, and password reset functions. The system should also have product approval, influencer binding, data overview, product shelving and unshelving, and shipping channel control functions. Users can view data summaries, historical records, and trend charts through the system. The system should also have carousel, data summary tables, and dynamic routing functions. Apply theme using light goldenrod as background and goldenrod for elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“The system should have user login, registration, password recovery, and password reset functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“The system should have user login, registration, password recovery, and password reset functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может восстановить доступ к паролю.",
+      "source": "“The system should have user login, registration, password recovery, and password reset functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может сбросить пароль.",
+      "source": "“The system should have user login, registration, password recovery, and password reset functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может согласовывать товары.",
+      "source": "“The system should also have product approval, influencer binding, data overview, product shelving and unshelving, and shipping channel control functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может привязывать инфлюенсеров.",
+      "source": "“The system should also have product approval, influencer binding, data overview, product shelving and unshelving, and shipping channel control functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может публиковать товары на витрине.",
+      "source": "“The system should also have product approval, influencer binding, data overview, product shelving and unshelving, and shipping channel control functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может снимать товары с витрины.",
+      "source": "“The system should also have product approval, influencer binding, data overview, product shelving and unshelving, and shipping channel control functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять каналами доставки.",
+      "source": "“The system should also have product approval, influencer binding, data overview, product shelving and unshelving, and shipping channel control functions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать сводки данных.",
+      "source": "“Users can view data summaries, historical records, and trend charts through the system.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может просматривать исторические записи.",
+      "source": "“Users can view data summaries, historical records, and trend charts through the system.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может просматривать графики тенденций.",
+      "source": "“Users can view data summaries, historical records, and trend charts through the system.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна отображать карусель.",
+      "source": "“The system should also have carousel, data summary tables, and dynamic routing functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Система должна отображать сводные таблицы данных.",
+      "source": "“The system should also have carousel, data summary tables, and dynamic routing functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Система должна поддерживать динамическую маршрутизацию.",
+      "source": "“The system should also have carousel, data summary tables, and dynamic routing functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Основной фон интерфейса имеет цвет `light goldenrod`.",
+      "source": "“Apply theme using light goldenrod as background and goldenrod for elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Компоненты интерфейса имеют цвет `goldenrod` (`#DAA520`).",
+      "source": "“Apply theme using light goldenrod as background and goldenrod for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

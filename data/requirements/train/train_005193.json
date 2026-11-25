@@ -1,0 +1,97 @@
+{
+  "task_index": 5192,
+  "webgen_id": "train_005193",
+  "query": "Please implement a web application framework that uses annotations for configuration. The framework should be able to replace traditional web.xml configuration files, allowing developers to use annotations to define servlets, filters, and other web components. Users should be able to use annotations to configure routing, request methods, parameters, and other information, and the framework should be able to automatically scan and register these annotations. Set page background to moonstone; color all components with steel blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Разработчик может определять сервлеты с помощью аннотаций.",
+      "source": "“The framework should be able to replace traditional web.xml configuration files, allowing developers to use annotations to define servlets, filters, and other web components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Разработчик может определять фильтры с помощью аннотаций.",
+      "source": "“The framework should be able to replace traditional web.xml configuration files, allowing developers to use annotations to define servlets, filters, and other web components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Разработчик может заменять конфигурацию web.xml аннотациями.",
+      "source": "“The framework should be able to replace traditional web.xml configuration files, allowing developers to use annotations to define servlets, filters, and other web components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Разработчик может настраивать маршруты аннотациями.",
+      "source": "“Users should be able to use annotations to configure routing, request methods, parameters, and other information, and the framework should be able to automatically scan and register these annotations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Разработчик может настраивать методы запросов аннотациями.",
+      "source": "“Users should be able to use annotations to configure routing, request methods, parameters, and other information, and the framework should be able to automatically scan and register these annotations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Разработчик может настраивать параметры аннотациями.",
+      "source": "“Users should be able to use annotations to configure routing, request methods, parameters, and other information, and the framework should be able to automatically scan and register these annotations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна автоматически сканировать аннотации.",
+      "source": "“Users should be able to use annotations to configure routing, request methods, parameters, and other information, and the framework should be able to automatically scan and register these annotations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна автоматически регистрировать обнаруженные аннотации.",
+      "source": "“Users should be able to use annotations to configure routing, request methods, parameters, and other information, and the framework should be able to automatically scan and register these annotations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `moonstone`.",
+      "source": "“Set page background to moonstone; color all components with steel blue.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `steel blue` (`#4682B4`).",
+      "source": "“Set page background to moonstone; color all components with steel blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

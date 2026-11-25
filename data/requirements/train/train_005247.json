@@ -1,0 +1,79 @@
+{
+  "task_index": 5246,
+  "webgen_id": "train_005247",
+  "query": "Please implement a locomotive crew management website for managing locomotive crew information. The website should have functionalities for adding, modifying, and deleting locomotive crew information. Users should be able to log in, browse locomotive crew information, add new crew members, modify existing crew information, delete unnecessary crew information, and generate statistics on crew information. Use moccasin as the default background and burlywood for component styling.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse locomotive crew information, add new crew members, modify existing crew information, delete unnecessary crew information, and generate statistics on crew information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать сведения о локомотивных бригадах.",
+      "source": "“Users should be able to log in, browse locomotive crew information, add new crew members, modify existing crew information, delete unnecessary crew information, and generate statistics on crew information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может добавлять членов бригады.",
+      "source": "“Users should be able to log in, browse locomotive crew information, add new crew members, modify existing crew information, delete unnecessary crew information, and generate statistics on crew information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может изменять сведения о бригаде.",
+      "source": "“Users should be able to log in, browse locomotive crew information, add new crew members, modify existing crew information, delete unnecessary crew information, and generate statistics on crew information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять сведения о бригаде.",
+      "source": "“Users should be able to log in, browse locomotive crew information, add new crew members, modify existing crew information, delete unnecessary crew information, and generate statistics on crew information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может получать статистику по бригадам.",
+      "source": "“Users should be able to log in, browse locomotive crew information, add new crew members, modify existing crew information, delete unnecessary crew information, and generate statistics on crew information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`).",
+      "source": "“Use moccasin as the default background and burlywood for component styling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`).",
+      "source": "“Use moccasin as the default background and burlywood for component styling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

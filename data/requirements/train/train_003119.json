@@ -1,0 +1,169 @@
+{
+  "task_index": 3118,
+  "webgen_id": "train_003119",
+  "query": "Please implement a Tian Shun Wisdom Health Care website that provides services such as elderly care, homestays, malls, and live streaming. The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets. Users should be able to log in, browse different sections, shop online, book homestays, watch live streams, and query health information. The website should have payment and login functions to ensure the security of users' personal information and transactions. Set all pages to have a lavender blush background and deep pink components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять раздел баз ухода за пожилыми.",
+      "source": "“The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять раздел гостевых размещений и гостиниц.",
+      "source": "“The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять раздел оздоровительного магазина.",
+      "source": "“The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять раздел оздоровительных парков.",
+      "source": "“The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять раздел здорового питания.",
+      "source": "“The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предоставлять раздел совместных магазинов.",
+      "source": "“The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять раздел агентских точек.",
+      "source": "“The website should have functionalities such as elderly care bases, homestay hotels, health care malls, online live streaming, health care parks, healthy food courts, shared stores, and agency outlets.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse different sections, shop online, book homestays, watch live streams, and query health information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать разделы сайта.",
+      "source": "“Users should be able to log in, browse different sections, shop online, book homestays, watch live streams, and query health information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может покупать товары онлайн.",
+      "source": "“Users should be able to log in, browse different sections, shop online, book homestays, watch live streams, and query health information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может бронировать проживание.",
+      "source": "“Users should be able to log in, browse different sections, shop online, book homestays, watch live streams, and query health information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может смотреть прямые трансляции.",
+      "source": "“Users should be able to log in, browse different sections, shop online, book homestays, watch live streams, and query health information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может искать информацию об оздоровлении.",
+      "source": "“Users should be able to log in, browse different sections, shop online, book homestays, watch live streams, and query health information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Пользователь может оплачивать услуги и покупки.",
+      "source": "“The website should have payment and login functions to ensure the security of users' personal information and transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Система должна защищать персональную информацию пользователей.",
+      "source": "“The website should have payment and login functions to ensure the security of users' personal information and transactions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Система должна обеспечивать безопасность операций.",
+      "source": "“The website should have payment and login functions to ensure the security of users' personal information and transactions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Фон всех страниц имеет цвет `lavender blush` (`#FFF0F5`).",
+      "source": "“Set all pages to have a lavender blush background and deep pink components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R18",
+      "criteria": "Компоненты интерфейса имеют цвет `deep pink` (`#FF1493`).",
+      "source": "“Set all pages to have a lavender blush background and deep pink components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

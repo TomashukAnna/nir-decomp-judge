@@ -1,0 +1,115 @@
+{
+  "task_index": 5198,
+  "webgen_id": "train_005199",
+  "query": "Please implement a cloud database management platform to unify database interface management and provide peripheral capabilities. The platform should have functionalities such as interface management, SDK generation, online debugging, and forwarding support. Users should be able to log in to the platform, manage database interfaces, generate SDKs, perform online debugging, and configure forwarding support. The platform should also provide peripheral capabilities, such as unified login, host management, database performance monitoring, auditing, and log management. Choose desert sand for global background and sienna for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in to the platform, manage database interfaces, generate SDKs, perform online debugging, and configure forwarding support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может управлять интерфейсами баз данных.",
+      "source": "“Users should be able to log in to the platform, manage database interfaces, generate SDKs, perform online debugging, and configure forwarding support.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может генерировать SDK.",
+      "source": "“Users should be able to log in to the platform, manage database interfaces, generate SDKs, perform online debugging, and configure forwarding support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выполнять онлайн-отладку.",
+      "source": "“Users should be able to log in to the platform, manage database interfaces, generate SDKs, perform online debugging, and configure forwarding support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может настраивать пересылку запросов.",
+      "source": "“Users should be able to log in to the platform, manage database interfaces, generate SDKs, perform online debugging, and configure forwarding support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна поддерживать единый вход.",
+      "source": "“The platform should also provide peripheral capabilities, such as unified login, host management, database performance monitoring, auditing, and log management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять управление хостами.",
+      "source": "“The platform should also provide peripheral capabilities, such as unified login, host management, database performance monitoring, auditing, and log management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна наблюдать производительность базы.",
+      "source": "“The platform should also provide peripheral capabilities, such as unified login, host management, database performance monitoring, auditing, and log management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна поддерживать аудит.",
+      "source": "“The platform should also provide peripheral capabilities, such as unified login, host management, database performance monitoring, auditing, and log management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна предоставлять управление журналами.",
+      "source": "“The platform should also provide peripheral capabilities, such as unified login, host management, database performance monitoring, auditing, and log management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `desert sand`.",
+      "source": "“Choose desert sand for global background and sienna for all components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Все компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Choose desert sand for global background and sienna for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

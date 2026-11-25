@@ -1,0 +1,124 @@
+{
+  "task_index": 2747,
+  "webgen_id": "train_002748",
+  "query": "Please convert the existing HTML website to a WordPress website, ensuring that the converted website has the same functionality and layout as the original website. The website should have a user-friendly interface, including a homepage, about page, contact page, and more, and should display all content and images correctly. The converted website should also support search engine optimization and responsive design. Use light beige for the outer layout and sienna for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать WordPress после преобразования.",
+      "source": "“Please convert the existing HTML website to a WordPress website, ensuring that the converted website has the same functionality and layout as the original website.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна сохранять функциональность исходного HTML-сайта.",
+      "source": "“Please convert the existing HTML website to a WordPress website, ensuring that the converted website has the same functionality and layout as the original website.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна сохранять компоновку исходного сайта.",
+      "source": "“Please convert the existing HTML website to a WordPress website, ensuring that the converted website has the same functionality and layout as the original website.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять главную страницу.",
+      "source": "“The website should have a user-friendly interface, including a homepage, about page, contact page, and more, and should display all content and images correctly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять страницу о компании.",
+      "source": "“The website should have a user-friendly interface, including a homepage, about page, contact page, and more, and should display all content and images correctly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предоставлять страницу контактов.",
+      "source": "“The website should have a user-friendly interface, including a homepage, about page, contact page, and more, and should display all content and images correctly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна корректно отображать содержимое.",
+      "source": "“The website should have a user-friendly interface, including a homepage, about page, contact page, and more, and should display all content and images correctly.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна корректно отображать изображения.",
+      "source": "“The website should have a user-friendly interface, including a homepage, about page, contact page, and more, and should display all content and images correctly.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна предоставлять удобный интерфейс.",
+      "source": "“The website should have a user-friendly interface, including a homepage, about page, contact page, and more, and should display all content and images correctly.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна поддерживать SEO.",
+      "source": "“The converted website should also support search engine optimization and responsive design.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна обеспечивать адаптивное оформление.",
+      "source": "“The converted website should also support search engine optimization and responsive design.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Внешний фон страницы имеет цвет `light beige`.",
+      "source": "“Use light beige for the outer layout and sienna for UI blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Use light beige for the outer layout and sienna for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

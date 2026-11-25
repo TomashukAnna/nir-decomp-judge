@@ -1,0 +1,70 @@
+{
+  "task_index": 4534,
+  "webgen_id": "train_004535",
+  "query": "Please implement an SMS gateway website for sending and receiving text messages. The website should have functionalities for sending SMS, receiving SMS, managing SMS templates, and viewing SMS records. Users should be able to log in, send SMS to specific phone numbers, receive SMS from other users, manage SMS templates, and view historical SMS records. Design the site using ice blue as the background and teal for content blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, send SMS to specific phone numbers, receive SMS from other users, manage SMS templates, and view historical SMS records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправлять SMS на указанный номер.",
+      "source": "“Users should be able to log in, send SMS to specific phone numbers, receive SMS from other users, manage SMS templates, and view historical SMS records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может получать SMS других пользователей.",
+      "source": "“Users should be able to log in, send SMS to specific phone numbers, receive SMS from other users, manage SMS templates, and view historical SMS records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может управлять шаблонами SMS.",
+      "source": "“Users should be able to log in, send SMS to specific phone numbers, receive SMS from other users, manage SMS templates, and view historical SMS records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать историю SMS.",
+      "source": "“Users should be able to log in, send SMS to specific phone numbers, receive SMS from other users, manage SMS templates, and view historical SMS records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `ice blue`.",
+      "source": "“Design the site using ice blue as the background and teal for content blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Блоки содержимого имеют цвет `teal` (`#008080`).",
+      "source": "“Design the site using ice blue as the background and teal for content blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

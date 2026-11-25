@@ -1,0 +1,142 @@
+{
+  "task_index": 285,
+  "webgen_id": "train_000286",
+  "query": "Please implement an online learning system for providing cloud classroom services. The system should have functionalities for real-time communication, stable connections, asynchronous processing, and security measures. Users should be able to log in, browse courses, participate in interactions, submit assignments, and receive real-time classroom content and interactive messages. The system should be able to handle concurrent requests and ensure the security and privacy of user data. Assign pale turquoise to body backgrounds and medium turquoise to main components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать общение в реальном времени.",
+      "source": "“The system should have functionalities for real-time communication, stable connections, asynchronous processing, and security measures.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна обеспечивать стабильные соединения.",
+      "source": "“The system should have functionalities for real-time communication, stable connections, asynchronous processing, and security measures.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать асинхронную обработку.",
+      "source": "“The system should have functionalities for real-time communication, stable connections, asynchronous processing, and security measures.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять защитные меры.",
+      "source": "“The system should have functionalities for real-time communication, stable connections, asynchronous processing, and security measures.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Учащийся может войти в систему.",
+      "source": "“Users should be able to log in, browse courses, participate in interactions, submit assignments, and receive real-time classroom content and interactive messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Учащийся может просматривать курсы.",
+      "source": "“Users should be able to log in, browse courses, participate in interactions, submit assignments, and receive real-time classroom content and interactive messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Учащийся может участвовать во взаимодействиях на занятии.",
+      "source": "“Users should be able to log in, browse courses, participate in interactions, submit assignments, and receive real-time classroom content and interactive messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Учащийся может отправлять задания.",
+      "source": "“Users should be able to log in, browse courses, participate in interactions, submit assignments, and receive real-time classroom content and interactive messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Учащийся может получать учебный материал в реальном времени.",
+      "source": "“Users should be able to log in, browse courses, participate in interactions, submit assignments, and receive real-time classroom content and interactive messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Учащийся может получать сообщения в реальном времени.",
+      "source": "“Users should be able to log in, browse courses, participate in interactions, submit assignments, and receive real-time classroom content and interactive messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна обрабатывать параллельные запросы.",
+      "source": "“The system should be able to handle concurrent requests and ensure the security and privacy of user data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Система должна обеспечивать безопасность данных учащихся.",
+      "source": "“The system should be able to handle concurrent requests and ensure the security and privacy of user data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна обеспечивать конфиденциальность данных учащихся.",
+      "source": "“The system should be able to handle concurrent requests and ensure the security and privacy of user data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `pale turquoise` (`#AFEEEE`).",
+      "source": "“Assign pale turquoise to body backgrounds and medium turquoise to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Компоненты интерфейса имеют цвет `medium turquoise` (`#48D1CC`).",
+      "source": "“Assign pale turquoise to body backgrounds and medium turquoise to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

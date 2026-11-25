@@ -1,0 +1,112 @@
+{
+  "task_index": 5485,
+  "webgen_id": "train_005486",
+  "query": "Please implement a software that generates and submits XML declarations. The software should have data validation capabilities to check the accuracy and completeness of data and ensure its correctness before submission. Users should be able to input data, and the software will automatically validate the data, generate the XML declaration, and submit it to the relevant system. The software should also be able to handle different types of data, including but not limited to text, numbers, and dates. Use misty rose for the background and medium violet red for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна проверять точность данных перед отправкой.",
+      "source": "“The software should have data validation capabilities to check the accuracy and completeness of data and ensure its correctness before submission.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна проверять полноту данных перед отправкой.",
+      "source": "“The software should have data validation capabilities to check the accuracy and completeness of data and ensure its correctness before submission.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна не отправлять декларацию до успешной проверки данных.",
+      "source": "“The software should have data validation capabilities to check the accuracy and completeness of data and ensure its correctness before submission.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может вводить данные.",
+      "source": "“Users should be able to input data, and the software will automatically validate the data, generate the XML declaration, and submit it to the relevant system.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна автоматически формировать XML-декларацию.",
+      "source": "“Users should be able to input data, and the software will automatically validate the data, generate the XML declaration, and submit it to the relevant system.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R4"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна отправлять XML-декларацию в целевую систему.",
+      "source": "“Users should be able to input data, and the software will automatically validate the data, generate the XML declaration, and submit it to the relevant system.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R5",
+        "R1",
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать текстовые данные.",
+      "source": "“The software should also be able to handle different types of data, including but not limited to text, numbers, and dates.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать числовые данные.",
+      "source": "“The software should also be able to handle different types of data, including but not limited to text, numbers, and dates.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна поддерживать даты.",
+      "source": "“The software should also be able to handle different types of data, including but not limited to text, numbers, and dates.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `misty rose` (`#FFE4E1`).",
+      "source": "“Use misty rose for the background and medium violet red for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `medium violet red` (`#C71585`).",
+      "source": "“Use misty rose for the background and medium violet red for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

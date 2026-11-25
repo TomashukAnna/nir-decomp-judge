@@ -1,0 +1,79 @@
+{
+  "task_index": 813,
+  "webgen_id": "train_000814",
+  "query": "Please implement a large screen display system for the Jinhua People's Congress Exhibition Hall. The system should have multiple screens, including vertical and horizontal screens, to display different content. Visitors can choose the content they want to view through touch screens. The system should have interactive functions, allowing users to browse and view exhibition content. Implement light blue for the page background and dark blue for the elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать несколько экранов.",
+      "source": "“The system should have multiple screens, including vertical and horizontal screens, to display different content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать содержимое на вертикальных экранах.",
+      "source": "“The system should have multiple screens, including vertical and horizontal screens, to display different content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна показывать содержимое на горизонтальных экранах.",
+      "source": "“The system should have multiple screens, including vertical and horizontal screens, to display different content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Посетитель может выбирать содержимое через сенсорный экран.",
+      "source": "“Visitors can choose the content they want to view through touch screens.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Посетитель может просматривать выставочные материалы.",
+      "source": "“The system should have interactive functions, allowing users to browse and view exhibition content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Посетитель может взаимодействовать с выставочными материалами.",
+      "source": "“The system should have interactive functions, allowing users to browse and view exhibition content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `light blue` (`#ADD8E6`).",
+      "source": "“Implement light blue for the page background and dark blue for the elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `dark blue` (`#00008B`).",
+      "source": "“Implement light blue for the page background and dark blue for the elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

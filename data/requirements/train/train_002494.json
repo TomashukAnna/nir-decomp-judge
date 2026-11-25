@@ -1,0 +1,97 @@
+{
+  "task_index": 2493,
+  "webgen_id": "train_002494",
+  "query": "Please implement a Revit modeling assistant website for roads, bridges, and tunnels to aid in BIM design. The website should have functionalities such as 3D modeling of routes, placement of regular and adaptive families along routes, and simulated driving. Users should be able to log in, browse different design modules, and select corresponding functions for design and modeling. Choose seashell for global background and indian red for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать BIM-проектирование дорог, мостов и тоннелей в контексте Revit.",
+      "source": "“Please implement a Revit modeling assistant website for roads, bridges, and tunnels to aid in BIM design.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать трёхмерные модели трасс.",
+      "source": "“The website should have functionalities such as 3D modeling of routes, placement of regular and adaptive families along routes, and simulated driving.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может размещать обычные семейства вдоль трасс.",
+      "source": "“The website should have functionalities such as 3D modeling of routes, placement of regular and adaptive families along routes, and simulated driving.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может размещать адаптивные семейства вдоль трасс.",
+      "source": "“The website should have functionalities such as 3D modeling of routes, placement of regular and adaptive families along routes, and simulated driving.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может запускать имитацию движения по трассе.",
+      "source": "“The website should have functionalities such as 3D modeling of routes, placement of regular and adaptive families along routes, and simulated driving.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse different design modules, and select corresponding functions for design and modeling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать проектные модули.",
+      "source": "“Users should be able to log in, browse different design modules, and select corresponding functions for design and modeling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может выбирать функции проектирования и моделирования.",
+      "source": "“Users should be able to log in, browse different design modules, and select corresponding functions for design and modeling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `seashell` (`#FFF5EE`).",
+      "source": "“Choose seashell for global background and indian red for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `indian red` (`#CD5C5C`).",
+      "source": "“Choose seashell for global background and indian red for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

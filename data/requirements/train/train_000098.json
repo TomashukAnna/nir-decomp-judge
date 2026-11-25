@@ -1,0 +1,108 @@
+{
+  "task_index": 97,
+  "webgen_id": "train_000098",
+  "query": "Please implement a web application that dynamically generates forms. The application should be able to generate different types of forms based on configuration data, including text input boxes, select boxes, checkboxes, and more. Users should be able to customize the structure and content of the form through configuration data and preview the generated form in real-time. The application should also have form validation and submission functionality, checking whether user input data is valid and submitting it to the server. Apply ivory as the background; style all components with chocolate.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна создавать форму по конфигурационным данным.",
+      "source": "“The application should be able to generate different types of forms based on configuration data, including text input boxes, select boxes, checkboxes, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать текстовые поля.",
+      "source": "“The application should be able to generate different types of forms based on configuration data, including text input boxes, select boxes, checkboxes, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать списки выбора.",
+      "source": "“The application should be able to generate different types of forms based on configuration data, including text input boxes, select boxes, checkboxes, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать флажки.",
+      "source": "“The application should be able to generate different types of forms based on configuration data, including text input boxes, select boxes, checkboxes, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может изменять структуру формы через конфигурацию.",
+      "source": "“Users should be able to customize the structure and content of the form through configuration data and preview the generated form in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может изменять содержимое формы через конфигурацию.",
+      "source": "“Users should be able to customize the structure and content of the form through configuration data and preview the generated form in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может предварительно просматривать форму в реальном времени.",
+      "source": "“Users should be able to customize the structure and content of the form through configuration data and preview the generated form in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна проверять введённые данные.",
+      "source": "“The application should also have form validation and submission functionality, checking whether user input data is valid and submitting it to the server.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна отправлять данные формы на сервер.",
+      "source": "“The application should also have form validation and submission functionality, checking whether user input data is valid and submitting it to the server.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`).",
+      "source": "“Apply ivory as the background; style all components with chocolate.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Все компоненты интерфейса имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Apply ivory as the background; style all components with chocolate.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

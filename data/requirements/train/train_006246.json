@@ -1,0 +1,106 @@
+{
+  "task_index": 6245,
+  "webgen_id": "train_006246",
+  "query": "Please implement a cultural center course registration website to solve course registration and management issues. The website should have functionalities for browsing courses, registering for courses, making payments, and management. Users should be able to log in, browse course information, select courses for registration, make online payments, and view registration records. Administrators should be able to manage course information, view registration status, and manage user information. Initialize the background color with light steel blue and component color with royal blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse course information, select courses for registration, make online payments, and view registration records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать сведения о курсах.",
+      "source": "“Users should be able to log in, browse course information, select courses for registration, make online payments, and view registration records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может выбирать курс для записи.",
+      "source": "“Users should be able to log in, browse course information, select courses for registration, make online payments, and view registration records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может записываться на курс.",
+      "source": "“Users should be able to log in, browse course information, select courses for registration, make online payments, and view registration records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оплачивать курс онлайн.",
+      "source": "“Users should be able to log in, browse course information, select courses for registration, make online payments, and view registration records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать свои записи на курсы.",
+      "source": "“Users should be able to log in, browse course information, select courses for registration, make online payments, and view registration records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Администратор может управлять сведениями о курсах.",
+      "source": "“Administrators should be able to manage course information, view registration status, and manage user information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Администратор может просматривать состояние записей.",
+      "source": "“Administrators should be able to manage course information, view registration status, and manage user information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Администратор может управлять сведениями о пользователях.",
+      "source": "“Administrators should be able to manage course information, view registration status, and manage user information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `light steel blue` (`#B0C4DE`).",
+      "source": "“Initialize the background color with light steel blue and component color with royal blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`).",
+      "source": "“Initialize the background color with light steel blue and component color with royal blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

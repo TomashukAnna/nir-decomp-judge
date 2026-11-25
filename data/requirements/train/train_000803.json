@@ -1,0 +1,79 @@
+{
+  "task_index": 802,
+  "webgen_id": "train_000803",
+  "query": "Please implement a speech recognition website for recognizing and transcribing speech. The website should have functionalities for speech input, recognition, transcription, and playback. Users should be able to log in, input speech, and the website will automatically recognize and transcribe the speech. Users can view and edit the transcription results and play back the original speech. Apply thistle to the canvas background and medium purple to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, input speech, and the website will automatically recognize and transcribe the speech.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может передавать речевой материал.",
+      "source": "“Users should be able to log in, input speech, and the website will automatically recognize and transcribe the speech.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна автоматически распознавать речь и формировать соответствующий текст.",
+      "source": "“Users should be able to log in, input speech, and the website will automatically recognize and transcribe the speech.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать расшифровку.",
+      "source": "“Users can view and edit the transcription results and play back the original speech.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может редактировать расшифровку.",
+      "source": "“Users can view and edit the transcription results and play back the original speech.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может воспроизводить исходную речь.",
+      "source": "“Users can view and edit the transcription results and play back the original speech.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Фон рабочей области имеет цвет `thistle` (`#D8BFD8`).",
+      "source": "“Apply thistle to the canvas background and medium purple to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `medium purple` (`#9370DB`).",
+      "source": "“Apply thistle to the canvas background and medium purple to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

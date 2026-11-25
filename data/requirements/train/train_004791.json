@@ -1,0 +1,88 @@
+{
+  "task_index": 4790,
+  "webgen_id": "train_004791",
+  "query": "Please implement a website to control Wi-Fi networks for user authentication. The website should have functionalities for user login, registration, and password reset. Users should be able to log in and manage their Wi-Fi networks, including viewing network status and modifying network settings. The website should also have real-time monitoring and alert functions to keep users informed about network conditions. Set overall background to platinum, then style components with midnight blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“The website should have functionalities for user login, registration, and password reset.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“The website should have functionalities for user login, registration, and password reset.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может сбросить пароль.",
+      "source": "“The website should have functionalities for user login, registration, and password reset.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать состояние своих Wi-Fi-сетей.",
+      "source": "“Users should be able to log in and manage their Wi-Fi networks, including viewing network status and modifying network settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может изменять настройки своих Wi-Fi-сетей.",
+      "source": "“Users should be able to log in and manage their Wi-Fi networks, including viewing network status and modifying network settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна отслеживать состояние сети в реальном времени.",
+      "source": "“The website should also have real-time monitoring and alert functions to keep users informed about network conditions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна отправлять оповещения о состоянии сети.",
+      "source": "“The website should also have real-time monitoring and alert functions to keep users informed about network conditions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `platinum`.",
+      "source": "“Set overall background to platinum, then style components with midnight blue.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `midnight blue` (`#191970`).",
+      "source": "“Set overall background to platinum, then style components with midnight blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

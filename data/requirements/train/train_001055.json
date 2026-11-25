@@ -1,0 +1,88 @@
+{
+  "task_index": 1054,
+  "webgen_id": "train_001055",
+  "query": "Please implement a real-time communication website based on WebSocket, allowing users to establish connections, send and receive real-time messages. The website should have functionalities for establishing connections, sending messages, receiving messages, and disconnecting. Users should be able to log in, establish real-time communication with other users, send text, images, and other types of messages, and receive messages sent by other users. Set the background color to baby blue and the component color to navy.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать WebSocket.",
+      "source": "“Please implement a real-time communication website based on WebSocket, allowing users to establish connections, send and receive real-time messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может устанавливать соединение.",
+      "source": "“The website should have functionalities for establishing connections, sending messages, receiving messages, and disconnecting.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может закрывать соединение.",
+      "source": "“The website should have functionalities for establishing connections, sending messages, receiving messages, and disconnecting.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, establish real-time communication with other users, send text, images, and other types of messages, and receive messages sent by other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отправлять текст в реальном времени.",
+      "source": "“Users should be able to log in, establish real-time communication with other users, send text, images, and other types of messages, and receive messages sent by other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять изображения.",
+      "source": "“Users should be able to log in, establish real-time communication with other users, send text, images, and other types of messages, and receive messages sent by other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может получать сообщения других пользователей в реальном времени.",
+      "source": "“Users should be able to log in, establish real-time communication with other users, send text, images, and other types of messages, and receive messages sent by other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `baby blue`.",
+      "source": "“Set the background color to baby blue and the component color to navy.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Set the background color to baby blue and the component color to navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

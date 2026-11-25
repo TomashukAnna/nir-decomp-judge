@@ -1,0 +1,79 @@
+{
+  "task_index": 2284,
+  "webgen_id": "train_002285",
+  "query": "Please implement a smart form website for creating and managing custom forms. The website should have functionalities for creating forms, defining process steps, and managing form submissions. Users should be able to log in, create and edit forms, define the process steps for forms, and manage the submission and approval status of forms. Color the background using navajo white and set component styles to tan.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and edit forms, define the process steps for forms, and manage the submission and approval status of forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать формы.",
+      "source": "“Users should be able to log in, create and edit forms, define the process steps for forms, and manage the submission and approval status of forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать формы.",
+      "source": "“Users should be able to log in, create and edit forms, define the process steps for forms, and manage the submission and approval status of forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может задавать шаги обработки формы.",
+      "source": "“Users should be able to log in, create and edit forms, define the process steps for forms, and manage the submission and approval status of forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять состоянием отправки формы.",
+      "source": "“Users should be able to log in, create and edit forms, define the process steps for forms, and manage the submission and approval status of forms.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять состоянием согласования формы.",
+      "source": "“Users should be able to log in, create and edit forms, define the process steps for forms, and manage the submission and approval status of forms.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `navajo white` (`#FFDEAD`).",
+      "source": "“Color the background using navajo white and set component styles to tan.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `tan` (`#D2B48C`).",
+      "source": "“Color the background using navajo white and set component styles to tan.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

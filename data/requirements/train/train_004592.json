@@ -1,0 +1,61 @@
+{
+  "task_index": 4591,
+  "webgen_id": "train_004592",
+  "query": "Please implement a command-line MQTT client tool for publishing and subscribing to messages. The tool should have functionalities for publishing messages, subscribing to topics, and receiving messages. Users should be able to publish messages to specific topics, subscribe to topics of interest, and receive messages from subscribed topics through the command-line interface. Assign papaya whip as the background color and apply peru to all elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять клиент MQTT с командным интерфейсом.",
+      "source": "“Please implement a command-line MQTT client tool for publishing and subscribing to messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может публиковать сообщения в заданной теме.",
+      "source": "“Users should be able to publish messages to specific topics, subscribe to topics of interest, and receive messages from subscribed topics through the command-line interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может подписываться на выбранные темы.",
+      "source": "“Users should be able to publish messages to specific topics, subscribe to topics of interest, and receive messages from subscribed topics through the command-line interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может получать сообщения подписанных тем через командную строку.",
+      "source": "“Users should be able to publish messages to specific topics, subscribe to topics of interest, and receive messages from subscribed topics through the command-line interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Фон интерфейса имеет цвет `papaya whip` (`#FFEFD5`).",
+      "source": "“Assign papaya whip as the background color and apply peru to all elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Элементы интерфейса имеют цвет `peru` (`#CD853F`).",
+      "source": "“Assign papaya whip as the background color and apply peru to all elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

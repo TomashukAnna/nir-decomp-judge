@@ -1,0 +1,79 @@
+{
+  "task_index": 111,
+  "webgen_id": "train_000112",
+  "query": "Please implement a form parsing tool website for bulk processing of spreadsheet files. The website should have functionalities for uploading spreadsheet files, parsing spreadsheet data, converting data formats, and downloading conversion results. Users should be able to upload multiple spreadsheet files, select the data format for parsing and conversion, process spreadsheet files in bulk, and download the processed results. Use wheat for container backgrounds and chocolate for component visuals.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна разбирать данные табличных файлов.",
+      "source": "“The website should have functionalities for uploading spreadsheet files, parsing spreadsheet data, converting data formats, and downloading conversion results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна преобразовывать формат данных.",
+      "source": "“The website should have functionalities for uploading spreadsheet files, parsing spreadsheet data, converting data formats, and downloading conversion results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может загружать несколько табличных файлов.",
+      "source": "“Users should be able to upload multiple spreadsheet files, select the data format for parsing and conversion, process spreadsheet files in bulk, and download the processed results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выбирать формат разбора и преобразования.",
+      "source": "“Users should be able to upload multiple spreadsheet files, select the data format for parsing and conversion, process spreadsheet files in bulk, and download the processed results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может запускать пакетную обработку.",
+      "source": "“Users should be able to upload multiple spreadsheet files, select the data format for parsing and conversion, process spreadsheet files in bulk, and download the processed results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может скачивать результаты обработки.",
+      "source": "“Users should be able to upload multiple spreadsheet files, select the data format for parsing and conversion, process spreadsheet files in bulk, and download the processed results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Фон контейнеров имеет цвет `wheat` (`#F5DEB3`).",
+      "source": "“Use wheat for container backgrounds and chocolate for component visuals.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Use wheat for container backgrounds and chocolate for component visuals.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

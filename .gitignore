@@ -34,6 +34,10 @@ data/requirements/*
 !data/requirements/92.json
 !data/requirements/96.json
 !data/requirements/97.json
+# Derived train annotations; raw WebGen-Bench datasets stay ignored.
+!data/requirements/train/
+data/requirements/train/*
+!data/requirements/train/*.json
 mlflow.db
 mlruns/
 mlartifacts/

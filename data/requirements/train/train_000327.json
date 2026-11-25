@@ -1,0 +1,106 @@
+{
+  "task_index": 326,
+  "webgen_id": "train_000327",
+  "query": "Please implement a short drama APP for watching and managing short dramas. The APP should have four modules: mine, theater, history, and wallpaper. Users can browse multiple dramas in the theater module, view watched dramas in the history module, and manage their personal center in the mine module, including functions such as recharging H coins. Users can recharge H coins to watch dramas. Select bisque for layout background and dark salmon for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять раздел «Моё».",
+      "source": "“The APP should have four modules: mine, theater, history, and wallpaper.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять раздел театра.",
+      "source": "“The APP should have four modules: mine, theater, history, and wallpaper.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять раздел истории.",
+      "source": "“The APP should have four modules: mine, theater, history, and wallpaper.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять раздел обоев.",
+      "source": "“The APP should have four modules: mine, theater, history, and wallpaper.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать сериалы в театре.",
+      "source": "“Users can browse multiple dramas in the theater module, view watched dramas in the history module, and manage their personal center in the mine module, including functions such as recharging H coins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать историю просмотренных сериалов.",
+      "source": "“Users can browse multiple dramas in the theater module, view watched dramas in the history module, and manage their personal center in the mine module, including functions such as recharging H coins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять личным кабинетом.",
+      "source": "“Users can browse multiple dramas in the theater module, view watched dramas in the history module, and manage their personal center in the mine module, including functions such as recharging H coins.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может пополнять баланс H-монет.",
+      "source": "“Users can recharge H coins to watch dramas.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может смотреть сериалы с использованием H-монет.",
+      "source": "“Users can recharge H coins to watch dramas.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `bisque` (`#FFE4C4`).",
+      "source": "“Select bisque for layout background and dark salmon for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Детали компонентов имеют цвет `dark salmon` (`#E9967A`).",
+      "source": "“Select bisque for layout background and dark salmon for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

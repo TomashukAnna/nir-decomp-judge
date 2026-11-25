@@ -1,0 +1,133 @@
+{
+  "task_index": 6152,
+  "webgen_id": "train_006153",
+  "query": "Please implement an online learning platform for creating and managing courses, booking time slots, and conducting video sessions. The platform should have functionalities for course creation and management, time slot booking management, online video sessions, gamification features, user profile creation, and service (course or private class) web pages. Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages. Assign linen to the background and saddle brown to the UI elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять элементы геймификации.",
+      "source": "“The platform should have functionalities for course creation and management, time slot booking management, online video sessions, gamification features, user profile creation, and service (course or private class) web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать создание профиля.",
+      "source": "“The platform should have functionalities for course creation and management, time slot booking management, online video sessions, gamification features, user profile creation, and service (course or private class) web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять страницы курсов.",
+      "source": "“The platform should have functionalities for course creation and management, time slot booking management, online video sessions, gamification features, user profile creation, and service (course or private class) web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять страницы индивидуальных занятий.",
+      "source": "“The platform should have functionalities for course creation and management, time slot booking management, online video sessions, gamification features, user profile creation, and service (course or private class) web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может создавать собственные курсы.",
+      "source": "“Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять собственными курсами.",
+      "source": "“Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может бронировать временные интервалы.",
+      "source": "“Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может участвовать в онлайн-видеозанятиях.",
+      "source": "“Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать свой профиль.",
+      "source": "“Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может просматривать страницы услуг.",
+      "source": "“Users should be able to log in, create and manage their own courses, book time slots, attend online video sessions, view their user profiles, and browse service web pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может управлять бронированием временных интервалов.",
+      "source": "“The platform should have functionalities for course creation and management, time slot booking management, online video sessions, gamification features, user profile creation, and service (course or private class) web pages.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `linen` (`#FAF0E6`).",
+      "source": "“Assign linen to the background and saddle brown to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `saddle brown` (`#8B4513`).",
+      "source": "“Assign linen to the background and saddle brown to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

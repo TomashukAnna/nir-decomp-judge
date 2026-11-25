@@ -1,0 +1,106 @@
+{
+  "task_index": 6378,
+  "webgen_id": "train_006379",
+  "query": "Please implement an integrated examination mini-program for students to take machine-based and mobile exams. The mini-program should have functionalities such as process assessment, score details, assessment plan, self-testing, and error collection. Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors. Choose light sky blue for the background; set all component colors to dodger blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять план оценивания.",
+      "source": "“The mini-program should have functionalities such as process assessment, score details, assessment plan, self-testing, and error collection.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать оценивание в ходе обучения.",
+      "source": "“The mini-program should have functionalities such as process assessment, score details, assessment plan, self-testing, and error collection.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Учащийся может войти в мини-приложение.",
+      "source": "“Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Учащийся может проходить экзамены за компьютером.",
+      "source": "“Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Учащийся может проходить экзамены с мобильного устройства.",
+      "source": "“Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Учащийся может просматривать подробные оценки.",
+      "source": "“Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Учащийся может проходить самопроверку.",
+      "source": "“Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Учащийся может просматривать коллекцию ошибок.",
+      "source": "“Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Учащийся может добавлять ошибки в коллекцию.",
+      "source": "“Students should be able to log in to the mini-program, take machine-based and mobile exams, view score details, self-test, view error collections, and accumulate errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`).",
+      "source": "“Choose light sky blue for the background; set all component colors to dodger blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Все компоненты интерфейса имеют цвет `dodger blue` (`#1E90FF`).",
+      "source": "“Choose light sky blue for the background; set all component colors to dodger blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "task_index": 6332,
+  "webgen_id": "train_006333",
+  "query": "Please implement a study abroad application to help students complete their study abroad applications and improve their language scores. The application should have matching and language score improvement functions to help students quickly find suitable study abroad institutions. Teachers can use the application to manage student information, recommend suitable study abroad programs based on students' scores and study abroad intentions. Students can browse and search for different study abroad institutions, view institution information, submit study abroad applications, and track application status. Set the background to magenta, and apply dark violet to components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна подбирать подходящие зарубежные учебные заведения.",
+      "source": "“The application should have matching and language score improvement functions to help students quickly find suitable study abroad institutions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять функции повышения языковых результатов.",
+      "source": "“The application should have matching and language score improvement functions to help students quickly find suitable study abroad institutions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Преподаватель может управлять сведениями об учащихся.",
+      "source": "“Teachers can use the application to manage student information, recommend suitable study abroad programs based on students' scores and study abroad intentions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Преподаватель может рекомендовать программы с учётом оценок и намерений учащегося.",
+      "source": "“Teachers can use the application to manage student information, recommend suitable study abroad programs based on students' scores and study abroad intentions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Учащийся может просматривать учебные заведения.",
+      "source": "“Students can browse and search for different study abroad institutions, view institution information, submit study abroad applications, and track application status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Учащийся может искать учебные заведения.",
+      "source": "“Students can browse and search for different study abroad institutions, view institution information, submit study abroad applications, and track application status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Учащийся может просматривать сведения об учебном заведении.",
+      "source": "“Students can browse and search for different study abroad institutions, view institution information, submit study abroad applications, and track application status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Учащийся может отправлять заявку на обучение за рубежом.",
+      "source": "“Students can browse and search for different study abroad institutions, view institution information, submit study abroad applications, and track application status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Учащийся может отслеживать состояние заявки.",
+      "source": "“Students can browse and search for different study abroad institutions, view institution information, submit study abroad applications, and track application status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `magenta` (`#FF00FF`).",
+      "source": "“Set the background to magenta, and apply dark violet to components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `dark violet` (`#9400D3`).",
+      "source": "“Set the background to magenta, and apply dark violet to components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

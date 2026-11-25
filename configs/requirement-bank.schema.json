@@ -1,0 +1,127 @@
+{
+  "$defs": {
+    "Template": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z][a-z0-9_]*)+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "criterion": {
+          "minLength": 1,
+          "title": "Criterion",
+          "type": "string"
+        },
+        "applies_when": {
+          "minLength": 1,
+          "title": "Applies When",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "rule": {
+          "enum": [
+            "code",
+            "llm"
+          ],
+          "title": "Rule",
+          "type": "string"
+        },
+        "parameters": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Parameters",
+          "type": "object"
+        },
+        "checker": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Checker"
+        },
+        "instructions": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Instructions"
+        },
+        "checker_status": {
+          "anyOf": [
+            {
+              "enum": [
+                "implemented",
+                "planned",
+                "not_applicable"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Checker Status"
+        },
+        "validation_status": {
+          "const": "not_evaluated",
+          "default": "not_evaluated",
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "source_notes": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Source Notes",
+          "type": "object"
+        },
+        "specializes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Specializes"
+        }
+      },
+      "required": [
+        "id",
+        "criterion",
+        "applies_when",
+        "source_ids",
+        "rule",
+        "parameters"
+      ],
+      "title": "Template",
+      "type": "object"
+    }
+  },
+  "items": {
+    "$ref": "#/$defs/Template"
+  },
+  "type": "array"
+}

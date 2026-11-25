@@ -1,0 +1,142 @@
+{
+  "task_index": 2086,
+  "webgen_id": "train_002087",
+  "query": "Please implement an online image annotation system for annotating image data. The system should have real-time collaboration functionality, supporting multiple users annotating online, and provide various annotation tools such as rectangles, free curves, and polygons. Users should be able to customize annotation types and attributes according to their needs. The system should also support data import and export and flexible data management. Users should be able to upload image resources, and the system should automatically parse them, and users should be able to download the annotated resources to their local machine. Choose white smoke for global background and rosy brown for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать одновременную онлайн-разметку несколькими пользователями.",
+      "source": "“The system should have real-time collaboration functionality, supporting multiple users annotating online, and provide various annotation tools such as rectangles, free curves, and polygons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна синхронизировать совместную разметку в реальном времени.",
+      "source": "“The system should have real-time collaboration functionality, supporting multiple users annotating online, and provide various annotation tools such as rectangles, free curves, and polygons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может размечать прямоугольниками.",
+      "source": "“The system should have real-time collaboration functionality, supporting multiple users annotating online, and provide various annotation tools such as rectangles, free curves, and polygons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может размечать свободными кривыми.",
+      "source": "“The system should have real-time collaboration functionality, supporting multiple users annotating online, and provide various annotation tools such as rectangles, free curves, and polygons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может размечать многоугольниками.",
+      "source": "“The system should have real-time collaboration functionality, supporting multiple users annotating online, and provide various annotation tools such as rectangles, free curves, and polygons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может задавать типы аннотаций.",
+      "source": "“Users should be able to customize annotation types and attributes according to their needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может задавать атрибуты аннотаций.",
+      "source": "“Users should be able to customize annotation types and attributes according to their needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может импортировать данные разметки.",
+      "source": "“The system should also support data import and export and flexible data management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может экспортировать данные разметки.",
+      "source": "“The system should also support data import and export and flexible data management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может управлять данными разметки.",
+      "source": "“The system should also support data import and export and flexible data management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может загружать изображения.",
+      "source": "“Users should be able to upload image resources, and the system should automatically parse them, and users should be able to download the annotated resources to their local machine.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может скачивать размеченные материалы.",
+      "source": "“Users should be able to upload image resources, and the system should automatically parse them, and users should be able to download the annotated resources to their local machine.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна автоматически разбирать загруженные ресурсы изображений.",
+      "source": "“Users should be able to upload image resources, and the system should automatically parse them, and users should be able to download the annotated resources to their local machine.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `white smoke` (`#F5F5F5`).",
+      "source": "“Choose white smoke for global background and rosy brown for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Все компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`).",
+      "source": "“Choose white smoke for global background and rosy brown for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

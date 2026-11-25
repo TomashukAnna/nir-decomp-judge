@@ -1,0 +1,106 @@
+{
+  "task_index": 5921,
+  "webgen_id": "train_005922",
+  "query": "Please implement a Bayes database table website for solving scientific data problems. The website should have functionalities for detecting and predicting relationships between variables, inferring missing values, and finding similar database entries. Users should be able to input query statements, view data analysis results, including variable relationship graphs, prediction results, and missing value inferences. Assign moccasin as the background color and apply sandy brown to all elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна обнаруживать связи между переменными.",
+      "source": "“The website should have functionalities for detecting and predicting relationships between variables, inferring missing values, and finding similar database entries.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна прогнозировать связи между переменными.",
+      "source": "“The website should have functionalities for detecting and predicting relationships between variables, inferring missing values, and finding similar database entries.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна восстанавливать пропущенные значения.",
+      "source": "“The website should have functionalities for detecting and predicting relationships between variables, inferring missing values, and finding similar database entries.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна находить похожие записи базы.",
+      "source": "“The website should have functionalities for detecting and predicting relationships between variables, inferring missing values, and finding similar database entries.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может вводить запросы.",
+      "source": "“Users should be able to input query statements, view data analysis results, including variable relationship graphs, prediction results, and missing value inferences.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать результаты анализа.",
+      "source": "“Users should be able to input query statements, view data analysis results, including variable relationship graphs, prediction results, and missing value inferences.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "Пользователь может просматривать графики связей переменных.",
+      "source": "“Users should be able to input query statements, view data analysis results, including variable relationship graphs, prediction results, and missing value inferences.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.2",
+      "criteria": "Пользователь может просматривать прогнозы.",
+      "source": "“Users should be able to input query statements, view data analysis results, including variable relationship graphs, prediction results, and missing value inferences.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.3",
+      "criteria": "Пользователь может просматривать оценки пропущенных значений.",
+      "source": "“Users should be able to input query statements, view data analysis results, including variable relationship graphs, prediction results, and missing value inferences.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`).",
+      "source": "“Assign moccasin as the background color and apply sandy brown to all elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `sandy brown` (`#F4A460`).",
+      "source": "“Assign moccasin as the background color and apply sandy brown to all elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

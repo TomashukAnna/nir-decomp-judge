@@ -1,0 +1,79 @@
+{
+  "task_index": 5846,
+  "webgen_id": "train_005847",
+  "query": "Please implement a log viewer webpage to display uploaded CSV file data. The webpage should have functionalities for uploading files, displaying data, and chart display. Users should be able to upload a CSV file, and the webpage will display the data as a chart, including x and y axes, and be able to adjust the axis settings as needed. The chart should be a line graph, clearly showing the trend of the data. Choose antique white for the background; set all component colors to maroon.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может загружать CSV-файл.",
+      "source": "“Users should be able to upload a CSV file, and the webpage will display the data as a chart, including x and y axes, and be able to adjust the axis settings as needed.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может настраивать ось X.",
+      "source": "“Users should be able to upload a CSV file, and the webpage will display the data as a chart, including x and y axes, and be able to adjust the axis settings as needed.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может настраивать ось Y.",
+      "source": "“Users should be able to upload a CSV file, and the webpage will display the data as a chart, including x and y axes, and be able to adjust the axis settings as needed.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна показывать данные CSV на графике с осями X и Y.",
+      "source": "“Users should be able to upload a CSV file, and the webpage will display the data as a chart, including x and y axes, and be able to adjust the axis settings as needed.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна использовать линейный график.",
+      "source": "“The chart should be a line graph, clearly showing the trend of the data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна наглядно показывать тенденцию данных.",
+      "source": "“The chart should be a line graph, clearly showing the trend of the data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`).",
+      "source": "“Choose antique white for the background; set all component colors to maroon.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Все компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Choose antique white for the background; set all component colors to maroon.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

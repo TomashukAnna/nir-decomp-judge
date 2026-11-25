@@ -1,0 +1,97 @@
+{
+  "task_index": 835,
+  "webgen_id": "train_000836",
+  "query": "Please implement a data visualization website for Guizhou mobile data to display interactive personalized information. The website should have functionalities for overall overview, high-value, medium-value, and low-value data display. Users should be able to browse different types of data, view detailed information, and support drill-down functionality. The website should be able to respond to data changes in real-time, providing dynamic data visualization. Configure your theme with ghost white as background and cadet blue as component color.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять общий обзор данных.",
+      "source": "“The website should have functionalities for overall overview, high-value, medium-value, and low-value data display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна отображать данные высокой ценности.",
+      "source": "“The website should have functionalities for overall overview, high-value, medium-value, and low-value data display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна отображать данные средней ценности.",
+      "source": "“The website should have functionalities for overall overview, high-value, medium-value, and low-value data display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна отображать данные низкой ценности.",
+      "source": "“The website should have functionalities for overall overview, high-value, medium-value, and low-value data display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать типы данных.",
+      "source": "“Users should be able to browse different types of data, view detailed information, and support drill-down functionality.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать подробную информацию.",
+      "source": "“Users should be able to browse different types of data, view detailed information, and support drill-down functionality.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может переходить от обобщённых данных к детализации.",
+      "source": "“Users should be able to browse different types of data, view detailed information, and support drill-down functionality.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна обновлять визуализацию при изменении данных в реальном времени.",
+      "source": "“The website should be able to respond to data changes in real-time, providing dynamic data visualization.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `ghost white` (`#F8F8FF`).",
+      "source": "“Configure your theme with ghost white as background and cadet blue as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`).",
+      "source": "“Configure your theme with ghost white as background and cadet blue as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

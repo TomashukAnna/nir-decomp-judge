@@ -5,6 +5,7 @@ check: lint types test requirements
 
 requirements:
 	uv run python -m decomp_judge.requirements_bank check --require-complete
+	uv run python -m decomp_judge.requirement_templates
 
 lint:
 	uv run ruff format --check .

@@ -1,0 +1,97 @@
+{
+  "task_index": 5369,
+  "webgen_id": "train_005370",
+  "query": "Please implement a form validation website to validate user input information. The website should have functionalities to validate email addresses, required text fields, minimum length, maximum length, and letters and spaces only. Users should be able to input information, submit the form, and view the validation results. Configure your theme with salmon as background and crimson as component color.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна проверять email.",
+      "source": "“The website should have functionalities to validate email addresses, required text fields, minimum length, maximum length, and letters and spaces only.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна проверять заполненность обязательных текстовых полей.",
+      "source": "“The website should have functionalities to validate email addresses, required text fields, minimum length, maximum length, and letters and spaces only.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна проверять минимальную длину.",
+      "source": "“The website should have functionalities to validate email addresses, required text fields, minimum length, maximum length, and letters and spaces only.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна проверять максимальную длину.",
+      "source": "“The website should have functionalities to validate email addresses, required text fields, minimum length, maximum length, and letters and spaces only.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна допускать в проверяемом тексте только буквы и пробелы.",
+      "source": "“The website should have functionalities to validate email addresses, required text fields, minimum length, maximum length, and letters and spaces only.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может вводить сведения.",
+      "source": "“Users should be able to input information, submit the form, and view the validation results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отправлять форму.",
+      "source": "“Users should be able to input information, submit the form, and view the validation results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать результаты проверки.",
+      "source": "“Users should be able to input information, submit the form, and view the validation results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `salmon` (`#FA8072`).",
+      "source": "“Configure your theme with salmon as background and crimson as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `crimson` (`#DC143C`).",
+      "source": "“Configure your theme with salmon as background and crimson as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

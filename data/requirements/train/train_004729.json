@@ -1,0 +1,88 @@
+{
+  "task_index": 4728,
+  "webgen_id": "train_004729",
+  "query": "Please implement a website that supports the same structure for WeChat mini-programs and the web. The website should have the functionality to be compatible with both WeChat mini-programs and the web, allowing for direct migration of web code to the mini-program environment. Users should be able to access the same content and functionality on both WeChat mini-programs and the web, including page layout, interaction effects, and data processing. Initialize the background color with mint cream and component color with dark green.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать выполнение в WeChat и в веб-среде.",
+      "source": "“The website should have the functionality to be compatible with both WeChat mini-programs and the web, allowing for direct migration of web code to the mini-program environment.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна обеспечивать прямой перенос веб-кода в среду мини-приложения.",
+      "source": "“The website should have the functionality to be compatible with both WeChat mini-programs and the web, allowing for direct migration of web code to the mini-program environment.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна сохранять одинаковое содержимое в обеих средах.",
+      "source": "“Users should be able to access the same content and functionality on both WeChat mini-programs and the web, including page layout, interaction effects, and data processing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна сохранять одинаковую функциональность в обеих средах.",
+      "source": "“Users should be able to access the same content and functionality on both WeChat mini-programs and the web, including page layout, interaction effects, and data processing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна сохранять согласованную компоновку страниц.",
+      "source": "“Users should be able to access the same content and functionality on both WeChat mini-programs and the web, including page layout, interaction effects, and data processing.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна сохранять эффекты взаимодействия.",
+      "source": "“Users should be able to access the same content and functionality on both WeChat mini-programs and the web, including page layout, interaction effects, and data processing.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна сохранять обработку данных в обеих средах.",
+      "source": "“Users should be able to access the same content and functionality on both WeChat mini-programs and the web, including page layout, interaction effects, and data processing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `mint cream` (`#F5FFFA`).",
+      "source": "“Initialize the background color with mint cream and component color with dark green.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `dark green` (`#006400`).",
+      "source": "“Initialize the background color with mint cream and component color with dark green.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

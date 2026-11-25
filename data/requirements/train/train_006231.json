@@ -1,0 +1,115 @@
+{
+  "task_index": 6230,
+  "webgen_id": "train_006231",
+  "query": "Please implement a party discipline learning check-in website for party members to learn and record points. The website should have functionalities for learning articles, watching videos, and answering questions, and record points based on learning time, displaying a points ranking list. Users should be able to log in, browse learning content, complete learning tasks, and view their personal points and ranking. Specify platinum as the base color and midnight blue for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может изучать статьи.",
+      "source": "“The website should have functionalities for learning articles, watching videos, and answering questions, and record points based on learning time, displaying a points ranking list.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может смотреть учебные видео.",
+      "source": "“The website should have functionalities for learning articles, watching videos, and answering questions, and record points based on learning time, displaying a points ranking list.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отвечать на вопросы.",
+      "source": "“The website should have functionalities for learning articles, watching videos, and answering questions, and record points based on learning time, displaying a points ranking list.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна начислять баллы на основе времени обучения.",
+      "source": "“The website should have functionalities for learning articles, watching videos, and answering questions, and record points based on learning time, displaying a points ranking list.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать рейтинг по баллам.",
+      "source": "“The website should have functionalities for learning articles, watching videos, and answering questions, and record points based on learning time, displaying a points ranking list.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse learning content, complete learning tasks, and view their personal points and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать учебное содержимое.",
+      "source": "“Users should be able to log in, browse learning content, complete learning tasks, and view their personal points and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может выполнять учебные задания.",
+      "source": "“Users should be able to log in, browse learning content, complete learning tasks, and view their personal points and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать собственные баллы.",
+      "source": "“Users should be able to log in, browse learning content, complete learning tasks, and view their personal points and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать своё место в рейтинге.",
+      "source": "“Users should be able to log in, browse learning content, complete learning tasks, and view their personal points and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Базовый слой интерфейса имеет цвет `platinum`.",
+      "source": "“Specify platinum as the base color and midnight blue for all components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Все компоненты интерфейса имеют цвет `midnight blue` (`#191970`).",
+      "source": "“Specify platinum as the base color and midnight blue for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

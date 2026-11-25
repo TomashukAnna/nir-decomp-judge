@@ -1,0 +1,106 @@
+{
+  "task_index": 6621,
+  "webgen_id": "train_006622",
+  "query": "Please implement a multimedia in-vehicle entertainment system to provide in-vehicle information and entertainment services. The system should have functionalities for playing music, videos, navigation, and weather forecasting. Users should be able to browse and play multimedia files, view real-time traffic information, get weather forecasts, and control system settings. The system should also have voice control and gesture control functions to facilitate user operation. Use vanilla in the background layer and dark goldenrod for the component layer.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать навигацию.",
+      "source": "“The system should have functionalities for playing music, videos, navigation, and weather forecasting.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать мультимедийные файлы.",
+      "source": "“Users should be able to browse and play multimedia files, view real-time traffic information, get weather forecasts, and control system settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может воспроизводить музыку.",
+      "source": "“Users should be able to browse and play multimedia files, view real-time traffic information, get weather forecasts, and control system settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может воспроизводить видео.",
+      "source": "“Users should be able to browse and play multimedia files, view real-time traffic information, get weather forecasts, and control system settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать текущую дорожную ситуацию.",
+      "source": "“Users should be able to browse and play multimedia files, view real-time traffic information, get weather forecasts, and control system settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может получать прогноз погоды.",
+      "source": "“Users should be able to browse and play multimedia files, view real-time traffic information, get weather forecasts, and control system settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может изменять настройки системы.",
+      "source": "“Users should be able to browse and play multimedia files, view real-time traffic information, get weather forecasts, and control system settings.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать голосовое управление.",
+      "source": "“The system should also have voice control and gesture control functions to facilitate user operation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна поддерживать управление жестами.",
+      "source": "“The system should also have voice control and gesture control functions to facilitate user operation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `vanilla`.",
+      "source": "“Use vanilla in the background layer and dark goldenrod for the component layer.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `dark goldenrod` (`#B8860B`).",
+      "source": "“Use vanilla in the background layer and dark goldenrod for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

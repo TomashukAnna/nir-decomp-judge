@@ -1,0 +1,106 @@
+{
+  "task_index": 834,
+  "webgen_id": "train_000835",
+  "query": "Please implement a COVID-19 pandemic data visualization website to display coronavirus pandemic data. The website should have functionalities for data collection, data mining, and data visualization. Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms. Apply snow for layout; use dim gray for buttons and cards.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна собирать эпидемиологические данные.",
+      "source": "“The website should have functionalities for data collection, data mining, and data visualization.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна выполнять интеллектуальный анализ эпидемиологических данных.",
+      "source": "“The website should have functionalities for data collection, data mining, and data visualization.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать текущие данные.",
+      "source": "“Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать исторические данные.",
+      "source": "“Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.1",
+      "criteria": "Пользователь может просматривать число заболевших.",
+      "source": "“Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.2",
+      "criteria": "Пользователь может просматривать число умерших.",
+      "source": "“Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4.3",
+      "criteria": "Пользователь может просматривать число выздоровевших.",
+      "source": "“Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R4",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна визуализировать данные на диаграммах.",
+      "source": "“Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна визуализировать данные на картах.",
+      "source": "“Users should be able to browse the website, view real-time data and historical data, including the number of infected people, deaths, and recoveries, and visualize the data through charts, maps, and other forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `snow` (`#FFFAFA`).",
+      "source": "“Apply snow for layout; use dim gray for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Кнопки и карточки имеют цвет `dim gray` (`#696969`).",
+      "source": "“Apply snow for layout; use dim gray for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

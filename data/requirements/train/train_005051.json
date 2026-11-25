@@ -1,0 +1,115 @@
+{
+  "task_index": 5050,
+  "webgen_id": "train_005051",
+  "query": "Please implement a high-performance distributed database website for storing and managing large-scale data. The website should have functionalities for data storage, data retrieval, and data management. Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data. Use aquamarine in the background layer and dark turquoise for the component layer.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать распределённое хранение.",
+      "source": "“Please implement a high-performance distributed database website for storing and managing large-scale data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна обрабатывать крупные объёмы данных.",
+      "source": "“Please implement a high-performance distributed database website for storing and managing large-scale data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна обеспечивать высокую производительность.",
+      "source": "“Please implement a high-performance distributed database website for storing and managing large-scale data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать собственные базы.",
+      "source": "“Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять собственными базами.",
+      "source": "“Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может сохранять данные.",
+      "source": "“Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может извлекать данные.",
+      "source": "“Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может выполнять запросы.",
+      "source": "“Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может анализировать данные.",
+      "source": "“Users should be able to log in, create and manage their own databases, store and retrieve data, and perform queries and analysis on the data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`).",
+      "source": "“Use aquamarine in the background layer and dark turquoise for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `dark turquoise` (`#00CED1`).",
+      "source": "“Use aquamarine in the background layer and dark turquoise for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

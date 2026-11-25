@@ -1,0 +1,97 @@
+{
+  "task_index": 129,
+  "webgen_id": "train_000130",
+  "query": "Please implement a Chinese word segmentation web application where users can input Chinese text, and the application will automatically segment the words and display the results. The application should support multiple encodings (such as UTF-8, GBK) and have high-performance processing capabilities. Users should be able to select different segmentation modes and customize the segmentation dictionary. Select magenta for layout background and dark violet for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить китайский текст.",
+      "source": "“Please implement a Chinese word segmentation web application where users can input Chinese text, and the application will automatically segment the words and display the results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать результат сегментации.",
+      "source": "“Please implement a Chinese word segmentation web application where users can input Chinese text, and the application will automatically segment the words and display the results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна автоматически разбивать китайский текст на слова.",
+      "source": "“Please implement a Chinese word segmentation web application where users can input Chinese text, and the application will automatically segment the words and display the results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать UTF-8.",
+      "source": "“The application should support multiple encodings (such as UTF-8, GBK) and have high-performance processing capabilities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна поддерживать GBK.",
+      "source": "“The application should support multiple encodings (such as UTF-8, GBK) and have high-performance processing capabilities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна обеспечивать высокую производительность.",
+      "source": "“The application should support multiple encodings (such as UTF-8, GBK) and have high-performance processing capabilities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может выбирать режим сегментации.",
+      "source": "“Users should be able to select different segmentation modes and customize the segmentation dictionary.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может настраивать словарь сегментации.",
+      "source": "“Users should be able to select different segmentation modes and customize the segmentation dictionary.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `magenta` (`#FF00FF`).",
+      "source": "“Select magenta for layout background and dark violet for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Детали компонентов имеют цвет `dark violet` (`#9400D3`).",
+      "source": "“Select magenta for layout background and dark violet for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "task_index": 3986,
+  "webgen_id": "train_003987",
+  "query": "Please implement a fund account management website for managing order account funds. The website should have functionalities for generating orders, making public payments, and collecting payments upon delivery. Users should be able to log in, browse order information, generate orders, make public payments, and verify payment records. The website should also be able to connect with the cargo transportation system to generate orders based on vehicle weight. Set the background color to desert sand and the component color to sienna.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать оплату при доставке.",
+      "source": "“The website should have functionalities for generating orders, making public payments, and collecting payments upon delivery.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse order information, generate orders, make public payments, and verify payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать сведения о заказах.",
+      "source": "“Users should be able to log in, browse order information, generate orders, make public payments, and verify payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может создавать заказы.",
+      "source": "“Users should be able to log in, browse order information, generate orders, make public payments, and verify payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может выполнять публичные платежи.",
+      "source": "“Users should be able to log in, browse order information, generate orders, make public payments, and verify payment records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может проверять платёжные записи.",
+      "source": "“Users should be able to log in, browse order information, generate orders, make public payments, and verify payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна подключаться к системе грузоперевозок.",
+      "source": "“The website should also be able to connect with the cargo transportation system to generate orders based on vehicle weight.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна создавать заказы на основе веса транспортного средства.",
+      "source": "“The website should also be able to connect with the cargo transportation system to generate orders based on vehicle weight.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `desert sand`.",
+      "source": "“Set the background color to desert sand and the component color to sienna.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Set the background color to desert sand and the component color to sienna.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

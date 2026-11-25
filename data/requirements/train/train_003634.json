@@ -1,0 +1,70 @@
+{
+  "task_index": 3633,
+  "webgen_id": "train_003634",
+  "query": "Please implement a Farm Machinery Hero mini-program for farm machinery management and services. The mini-program should have functionalities for querying farm machinery information, renting farm machinery, and maintaining farm machinery. Users should be able to log in, browse farm machinery information, rent farm machinery, schedule maintenance services, and view maintenance records. Apply platinum to the canvas background and midnight blue to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse farm machinery information, rent farm machinery, schedule maintenance services, and view maintenance records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать сведения о сельхозтехнике.",
+      "source": "“Users should be able to log in, browse farm machinery information, rent farm machinery, schedule maintenance services, and view maintenance records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может арендовать сельхозтехнику.",
+      "source": "“Users should be able to log in, browse farm machinery information, rent farm machinery, schedule maintenance services, and view maintenance records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может записываться на техническое обслуживание.",
+      "source": "“Users should be able to log in, browse farm machinery information, rent farm machinery, schedule maintenance services, and view maintenance records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать записи обслуживания.",
+      "source": "“Users should be able to log in, browse farm machinery information, rent farm machinery, schedule maintenance services, and view maintenance records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Фон рабочей области имеет цвет `platinum`.",
+      "source": "“Apply platinum to the canvas background and midnight blue to all visible components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `midnight blue` (`#191970`).",
+      "source": "“Apply platinum to the canvas background and midnight blue to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

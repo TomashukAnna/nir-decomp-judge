@@ -1,0 +1,88 @@
+{
+  "task_index": 273,
+  "webgen_id": "train_000274",
+  "query": "Please implement a data visualization webpage that displays various charts and graphs. The webpage should have the functionality to display different types of charts (such as bar charts, line charts, pie charts, etc.). Users should be able to customize the style and layout of the charts using simple CSS classes. The webpage should also have interactive features, allowing users to hover, click, and perform other operations to view detailed information about the charts. Apply light steel blue as the background; style all components with royal blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать столбчатые диаграммы.",
+      "source": "“The webpage should have the functionality to display different types of charts (such as bar charts, line charts, pie charts, etc.).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать линейные диаграммы.",
+      "source": "“The webpage should have the functionality to display different types of charts (such as bar charts, line charts, pie charts, etc.).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна показывать круговые диаграммы.",
+      "source": "“The webpage should have the functionality to display different types of charts (such as bar charts, line charts, pie charts, etc.).”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может настраивать стиль диаграмм CSS-классами.",
+      "source": "“Users should be able to customize the style and layout of the charts using simple CSS classes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может настраивать расположение диаграмм CSS-классами.",
+      "source": "“Users should be able to customize the style and layout of the charts using simple CSS classes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может получать подробности при наведении на диаграмму.",
+      "source": "“The webpage should also have interactive features, allowing users to hover, click, and perform other operations to view detailed information about the charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может получать подробности по щелчку на диаграмме.",
+      "source": "“The webpage should also have interactive features, allowing users to hover, click, and perform other operations to view detailed information about the charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `light steel blue` (`#B0C4DE`).",
+      "source": "“Apply light steel blue as the background; style all components with royal blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Все компоненты интерфейса имеют цвет `royal blue` (`#4169E1`).",
+      "source": "“Apply light steel blue as the background; style all components with royal blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

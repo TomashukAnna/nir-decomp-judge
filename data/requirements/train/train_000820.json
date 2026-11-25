@@ -1,0 +1,106 @@
+{
+  "task_index": 819,
+  "webgen_id": "train_000820",
+  "query": "Please implement a music player application for playing and managing music. The application should have functionalities for playing, pausing, previous track, and next track. Users should be able to browse music lists, search for music, play selected music, view music details, and manage their own music playlists. Set baby blue as the body background and use navy for the UI.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может запускать воспроизведение.",
+      "source": "“The application should have functionalities for playing, pausing, previous track, and next track.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может приостанавливать воспроизведение.",
+      "source": "“The application should have functionalities for playing, pausing, previous track, and next track.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может переключаться на предыдущий трек.",
+      "source": "“The application should have functionalities for playing, pausing, previous track, and next track.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может переключаться на следующий трек.",
+      "source": "“The application should have functionalities for playing, pausing, previous track, and next track.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать список музыки.",
+      "source": "“Users should be able to browse music lists, search for music, play selected music, view music details, and manage their own music playlists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может искать музыку.",
+      "source": "“Users should be able to browse music lists, search for music, play selected music, view music details, and manage their own music playlists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может выбирать музыку для прослушивания.",
+      "source": "“Users should be able to browse music lists, search for music, play selected music, view music details, and manage their own music playlists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать сведения о музыке.",
+      "source": "“Users should be able to browse music lists, search for music, play selected music, view music details, and manage their own music playlists.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять собственными плейлистами.",
+      "source": "“Users should be able to browse music lists, search for music, play selected music, view music details, and manage their own music playlists.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `baby blue`.",
+      "source": "“Set baby blue as the body background and use navy for the UI.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Set baby blue as the body background and use navy for the UI.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "task_index": 2378,
+  "webgen_id": "train_002379",
+  "query": "Please implement a mobile marketing campaign website for sending and managing text messages. The website should have functionalities for creating and editing text message templates, managing contact lists, sending and receiving text messages, and tracking the status of sent messages. Users should be able to log in, create and edit text message templates, manage contact lists, send text messages to selected contacts, and view the status of sent messages. Select light sky blue for layout background and dodger blue for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна принимать входящие текстовые сообщения.",
+      "source": "“The website should have functionalities for creating and editing text message templates, managing contact lists, sending and receiving text messages, and tracking the status of sent messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and edit text message templates, manage contact lists, send text messages to selected contacts, and view the status of sent messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать шаблоны SMS.",
+      "source": "“Users should be able to log in, create and edit text message templates, manage contact lists, send text messages to selected contacts, and view the status of sent messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать шаблоны SMS.",
+      "source": "“Users should be able to log in, create and edit text message templates, manage contact lists, send text messages to selected contacts, and view the status of sent messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять списками контактов.",
+      "source": "“Users should be able to log in, create and edit text message templates, manage contact lists, send text messages to selected contacts, and view the status of sent messages.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять SMS выбранным контактам.",
+      "source": "“Users should be able to log in, create and edit text message templates, manage contact lists, send text messages to selected contacts, and view the status of sent messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать состояние отправленных сообщений.",
+      "source": "“Users should be able to log in, create and edit text message templates, manage contact lists, send text messages to selected contacts, and view the status of sent messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`).",
+      "source": "“Select light sky blue for layout background and dodger blue for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Детали компонентов имеют цвет `dodger blue` (`#1E90FF`).",
+      "source": "“Select light sky blue for layout background and dodger blue for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

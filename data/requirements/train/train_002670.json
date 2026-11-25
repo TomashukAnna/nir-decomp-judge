@@ -1,0 +1,110 @@
+{
+  "task_index": 2669,
+  "webgen_id": "train_002670",
+  "query": "Please create a landing page with a contact form, featuring a clean and user-friendly design. The contact form should collect the visitor's name, email address, and specific questions or messages. After submitting the form, the user should be directed to a thank you page, and the information should be sent to my inbox. The page should be responsive and user-friendly across different devices and screen sizes. Apply theme using light cyan as background and teal for elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять лаконичный и удобный дизайн.",
+      "source": "“Please create a landing page with a contact form, featuring a clean and user-friendly design.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может заполнять контактную форму.",
+      "source": "“The contact form should collect the visitor's name, email address, and specific questions or messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.1",
+      "criteria": "Пользователь может вводить имя.",
+      "source": "“The contact form should collect the visitor's name, email address, and specific questions or messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.2",
+      "criteria": "Пользователь может вводить email.",
+      "source": "“The contact form should collect the visitor's name, email address, and specific questions or messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2.3",
+      "criteria": "Пользователь может вводить вопрос или сообщение.",
+      "source": "“The contact form should collect the visitor's name, email address, and specific questions or messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R2",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять контактную форму.",
+      "source": "“After submitting the form, the user should be directed to a thank you page, and the information should be sent to my inbox.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна переводить пользователя на страницу благодарности после отправки формы.",
+      "source": "“After submitting the form, the user should be directed to a thank you page, and the information should be sent to my inbox.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна отправлять данные формы в почтовый ящик владельца.",
+      "source": "“After submitting the form, the user should be directed to a thank you page, and the information should be sent to my inbox.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна обеспечивать адаптивность на разных устройствах и размерах экранов.",
+      "source": "“The page should be responsive and user-friendly across different devices and screen sizes.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `light cyan` (`#E0FFFF`).",
+      "source": "“Apply theme using light cyan as background and teal for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `teal` (`#008080`).",
+      "source": "“Apply theme using light cyan as background and teal for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "task_index": 3534,
+  "webgen_id": "train_003535",
+  "query": "Please optimize the speed of an e-commerce website, with the goal of reducing the loading time to less than 3 seconds and improving the Google PageSpeed Insights score. The website should have good mobile responsiveness, ensuring that users can quickly browse and purchase products. The website should be able to load product images, descriptions, and other content quickly, providing users with a smooth shopping experience. Apply lemon mist to the canvas background and dark orange to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна загружаться менее чем за три секунды.",
+      "source": "“Please optimize the speed of an e-commerce website, with the goal of reducing the loading time to less than 3 seconds and improving the Google PageSpeed Insights score.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна повышать оценку Google PageSpeed Insights.",
+      "source": "“Please optimize the speed of an e-commerce website, with the goal of reducing the loading time to less than 3 seconds and improving the Google PageSpeed Insights score.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна корректно адаптироваться к мобильным устройствам.",
+      "source": "“The website should have good mobile responsiveness, ensuring that users can quickly browse and purchase products.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“The website should have good mobile responsiveness, ensuring that users can quickly browse and purchase products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может покупать товары.",
+      "source": "“The website should have good mobile responsiveness, ensuring that users can quickly browse and purchase products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна быстро загружать изображения товаров.",
+      "source": "“The website should be able to load product images, descriptions, and other content quickly, providing users with a smooth shopping experience.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна быстро загружать описания товаров.",
+      "source": "“The website should be able to load product images, descriptions, and other content quickly, providing users with a smooth shopping experience.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Фон рабочей области имеет цвет `lemon mist`.",
+      "source": "“Apply lemon mist to the canvas background and dark orange to all visible components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`).",
+      "source": "“Apply lemon mist to the canvas background and dark orange to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

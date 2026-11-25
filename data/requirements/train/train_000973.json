@@ -1,0 +1,70 @@
+{
+  "task_index": 972,
+  "webgen_id": "train_000973",
+  "query": "Please implement a website for optimizing JavaScript performance and fixing errors. The website should have functionalities for code analysis, performance optimization, error detection, and error fixing. Users should be able to upload JavaScript code, and the website should analyze the code's performance, provide optimization suggestions, detect, and fix errors. Set the background color to pale ash and the component color to slate gray.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может загружать JavaScript-код.",
+      "source": "“Users should be able to upload JavaScript code, and the website should analyze the code's performance, provide optimization suggestions, detect, and fix errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна анализировать производительность кода.",
+      "source": "“Users should be able to upload JavaScript code, and the website should analyze the code's performance, provide optimization suggestions, detect, and fix errors.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предлагать способы оптимизации.",
+      "source": "“Users should be able to upload JavaScript code, and the website should analyze the code's performance, provide optimization suggestions, detect, and fix errors.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна обнаруживать ошибки кода.",
+      "source": "“Users should be able to upload JavaScript code, and the website should analyze the code's performance, provide optimization suggestions, detect, and fix errors.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна исправлять ошибки кода.",
+      "source": "“Users should be able to upload JavaScript code, and the website should analyze the code's performance, provide optimization suggestions, detect, and fix errors.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `pale ash`.",
+      "source": "“Set the background color to pale ash and the component color to slate gray.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `slate gray` (`#708090`).",
+      "source": "“Set the background color to pale ash and the component color to slate gray.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

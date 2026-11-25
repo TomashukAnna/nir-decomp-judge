@@ -1,0 +1,79 @@
+{
+  "task_index": 5639,
+  "webgen_id": "train_005640",
+  "query": "Please implement a web application for data research and visualization, used to study large data sources. The application should have functionalities for data import, data processing, and data visualization. Users should be able to log in, import data, process data, generate visualized charts, and analyze data. Set primary background to linen white and elements to burlywood.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать исследование больших источников данных.",
+      "source": "“Please implement a web application for data research and visualization, used to study large data sources.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, import data, process data, generate visualized charts, and analyze data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может импортировать данные.",
+      "source": "“Users should be able to log in, import data, process data, generate visualized charts, and analyze data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может обрабатывать данные.",
+      "source": "“Users should be able to log in, import data, process data, generate visualized charts, and analyze data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать диаграммы.",
+      "source": "“Users should be able to log in, import data, process data, generate visualized charts, and analyze data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может анализировать данные.",
+      "source": "“Users should be able to log in, import data, process data, generate visualized charts, and analyze data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `linen white`.",
+      "source": "“Set primary background to linen white and elements to burlywood.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `burlywood` (`#DEB887`).",
+      "source": "“Set primary background to linen white and elements to burlywood.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

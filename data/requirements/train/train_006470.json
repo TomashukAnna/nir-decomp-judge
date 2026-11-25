@@ -1,0 +1,115 @@
+{
+  "task_index": 6469,
+  "webgen_id": "train_006470",
+  "query": "Please implement an instant messaging software for real-time communication between users. The software should have functionalities for registration, login, friend management, conversation management, message sending and receiving, and personal center. Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information. Style the layout with snow in the background and dim gray for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять личный кабинет.",
+      "source": "“The software should have functionalities for registration, login, friend management, conversation management, message sending and receiving, and personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление разговорами.",
+      "source": "“The software should have functionalities for registration, login, friend management, conversation management, message sending and receiving, and personal center.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может добавлять друзей.",
+      "source": "“Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может создавать разговоры.",
+      "source": "“Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отправлять сообщения.",
+      "source": "“Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может получать сообщения.",
+      "source": "“Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять персональными данными.",
+      "source": "“Users should be able to register an account, log in to the software, add friends, create conversations, send and receive messages, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна доставлять сообщения в реальном времени.",
+      "source": "“Please implement an instant messaging software for real-time communication between users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `snow` (`#FFFAFA`).",
+      "source": "“Style the layout with snow in the background and dim gray for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `dim gray` (`#696969`).",
+      "source": "“Style the layout with snow in the background and dim gray for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}
