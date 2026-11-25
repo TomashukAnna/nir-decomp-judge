@@ -24,7 +24,6 @@ class Template(BaseModel):
     checker: str | None = None
     instructions: str | None = None
     checker_status: Literal["implemented", "planned", "not_applicable"] | None = None
-    validation_status: Literal["not_evaluated"] = "not_evaluated"
     source_notes: dict[str, str] = Field(default_factory=dict)
     specializes: str | None = None
 

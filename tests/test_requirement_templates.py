@@ -65,7 +65,6 @@ def test_planned_checks_cannot_claim_an_implemented_function() -> None:
     parsed = Template.model_validate(card)
     assert parsed.checker is None
     assert parsed.checker_status == "planned"
-    assert parsed.validation_status == "not_evaluated"
     with pytest.raises(ValidationError):
         Template.model_validate({**card, "checker": "check_background_color"})
     with pytest.raises(ValidationError):
@@ -79,7 +78,7 @@ def test_planned_checks_cannot_claim_an_implemented_function() -> None:
         {"source_notes": {"unknown-source": "Not in source_ids"}},
         {"parameters": {"field": " "}},
         {"instructions": " "},
-        {"validation_status": "validated"},
+        {"unexpected_metadata": "value"},
         {"rule": "llm", "checker_status": "implemented", "checker": "check_component_color"},
     ],
 )

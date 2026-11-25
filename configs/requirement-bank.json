@@ -16,8 +16,7 @@
       "observed_colors": "Вычисленные RGB цвета видимой фоновой области на проверенных страницах."
     },
     "checker": "check_background_color",
-    "checker_status": "implemented",
-    "validation_status": "not_evaluated"
+    "checker_status": "implemented"
   },
   {
     "id": "account.access",
@@ -34,8 +33,7 @@
       "actor": "Роль пользователя и состояние входа, если это указано в ТЗ."
     },
     "instructions": "Проверь под нужной ролью, что пользователь может открыть отведённую ему страницу, раздел или панель. Зафиксируй действие и наблюдаемый результат. Ссылка без открывающегося содержимого не подтверждает доступ. Если нужное состояние входа создать не удалось, оставь требование без функционального вердикта.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "account.view_own_information",
@@ -52,8 +50,7 @@
       "required_fields": "Поля, явно заданные в ТЗ. Пустой список допустим."
     },
     "instructions": "Открой кабинет пользователя с известными тестовыми данными. Сверь показанные значения с данными этой учётной записи. Посторонние данные и общие подписи не подтверждают требование. Если принадлежность данных установить не удалось, оставь требование без функционального вердикта.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "ui.component_color",
@@ -73,7 +70,6 @@
     },
     "instructions": "Определи нужную область и свойство цвета. Передай наблюдённые вычисленные цвета checker. Не сравнивай цвет текста с требованием к заливке. Пустой список наблюдений означает UNRESOLVED.",
     "checker_status": "implemented",
-    "validation_status": "not_evaluated",
     "checker": "check_component_color"
   },
   {
@@ -93,8 +89,7 @@
       "authenticated_state": "Наблюдаемый признак успешного входа."
     },
     "instructions": "Проверь переход из состояния без входа в авторизованное состояние нужной роли. Одна форма входа не подтверждает возможность авторизации. Если нет подходящих учётных данных, зафиксируй ограничение проверки.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "auth.registration",
@@ -112,7 +107,6 @@
     },
     "instructions": "Проверь создание новой учётной записи и наблюдаемый результат регистрации. Не требуй подтверждения email, телефона или конкретной сложности пароля, если этого нет в ТЗ.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "specializes": "entity.create"
   },
   {
@@ -130,8 +124,7 @@
       "recovery_channel": "Канал восстановления, только если задан."
     },
     "instructions": "Проверь предусмотренный механизм восстановления и его результат. Не считай ссылку на неработающую форму достаточной. Отсутствие доступа к внешнему каналу отметь как ограничение наблюдения.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "account.change_password",
@@ -147,8 +140,7 @@
       "constraints": "Ограничения на смену пароля только из ТЗ."
     },
     "instructions": "Проверь возможность сохранить новый пароль и использовать его для своей учётной записи. Не смешивай смену пароля после входа со сбросом забытого пароля.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "account.edit_profile",
@@ -165,7 +157,6 @@
     },
     "instructions": "Измени разрешённое поле и проверь отображение нового значения у того же пользователя. Просмотр профиля или редактирование чужих данных администратором не заменяют эту проверку.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "specializes": "entity.update"
   },
   {
@@ -184,8 +175,7 @@
       "visibility_scope": "Какие объекты должны быть доступны."
     },
     "instructions": "Найди представление коллекции и проверь доступность требуемых объектов. Пустое состояние допустимо оценивать только с учётом наличия данных; одна статичная надпись не доказывает просмотр коллекции.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "entity.details",
@@ -203,8 +193,7 @@
       "required_fields": "Обязательные сведения из ТЗ или согласованной разметки."
     },
     "instructions": "Открой конкретный объект и сверь показанные сведения с ним. Проверь только заданные поля. Название объекта в списке не заменяет подробности, если ТЗ их требует.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "entity.create",
@@ -223,8 +212,7 @@
       "creation_result": "Как распознаётся созданный объект."
     },
     "instructions": "Создай объект через доступный механизм и проверь результат создания. Не требуй конкретного маршрута, имени файла или backend, если они не заданы. Отдельно оценивай доступность объекта другим пользователям.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "entity.update",
@@ -242,8 +230,7 @@
       "editable_fields": "Поля, которые можно менять."
     },
     "instructions": "Измени данные существующего объекта и проверь актуальное значение у этого же объекта. Создание второй записи не подтверждает редактирование первой.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "entity.delete",
@@ -261,8 +248,7 @@
       "deletion_scope": "Удаление или архивирование согласно ТЗ."
     },
     "instructions": "Удали выбранный объект и проверь, что он больше не доступен в предусмотренной области. Не навязывай безвозвратное удаление из хранилища или диалог подтверждения без основания в ТЗ.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "collection.search",
@@ -281,8 +267,7 @@
       "query": "Запрос, связанный с доступными объектами."
     },
     "instructions": "Выполни запрос и оцени соответствие результатов требуемой области поиска. Поле ввода без изменения результатов не подтверждает поиск. Не требуй определённого ранжирования, если его нет в ТЗ.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "collection.search_by_category",
@@ -299,7 +284,6 @@
     },
     "instructions": "Будущий checker должен сверить результаты поиска по категории с известными объектами. Совпадение только по названию не подтверждает поиск по категории. Смысловое соответствие теме остаётся отдельной проверкой.",
     "checker_status": "planned",
-    "validation_status": "not_evaluated",
     "source_notes": {
       "webgen-026-R3.1": "Покрывается только учёт категории; соответствие теме запроса проверяется отдельно."
     }
@@ -321,8 +305,7 @@
       "observed_results": "Результаты применения фильтра."
     },
     "instructions": "Будущий checker должен вычислить ожидаемый набор по условию и сравнить его с результатами фильтра. Не подменяй требования к полям фильтра собственными предположениями.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "collection.sort",
@@ -339,8 +322,7 @@
       "observed_values": "Значения в показанном порядке."
     },
     "instructions": "Будущий checker должен проверить порядок по выбранному полю. Если критерий не задан, сначала требуется трактовка, а не произвольный выбор поля или направления.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "form.fill",
@@ -356,8 +338,7 @@
       "input_types": "Типы ввода, если заданы."
     },
     "instructions": "Проверь возможность ввода или выбора значений в нужной форме. Отправка и сохранение оцениваются отдельно. Не добавляй поля из представлений о типичном приложении.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "form.submit",
@@ -376,8 +357,7 @@
       "expected_result": "Наблюдаемый результат отправки."
     },
     "instructions": "Заполни форму и выполни отправку; проверь приём данных предусмотренной частью системы. Кнопка или локальное сообщение без обработки не подтверждают передачу на сервер, если сервер явно требуется.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "form.required_fields",
@@ -395,8 +375,7 @@
       "submission_observation": "Результат попытки отправки с пустым обязательным полем."
     },
     "instructions": "Будущий checker должен проверить блокировку отправки при пустом обязательном поле. Нельзя считать произвольные поля обязательными. Атрибут required сам по себе не доказывает блокировку реальной отправки.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "form.email_format",
@@ -413,8 +392,7 @@
       "observations": "Принятие или отклонение ввода."
     },
     "instructions": "Будущий checker должен проверять предусмотренные ограничения формата. Не добавляй проверку существования ящика, доставки письма или подтверждения email без требования в ТЗ.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "file.upload",
@@ -432,8 +410,7 @@
       "constraints": "Ограничения, только если заданы."
     },
     "instructions": "Передай файл и проверь его принятие в предусмотренный процесс. Поле выбора файла не подтверждает загрузку или обработку. Ошибку обработки отделяй от успешного приёма файла.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "file.download",
@@ -451,8 +428,7 @@
       "access_conditions": "Условия доступа из ТЗ."
     },
     "instructions": "Проверь получение содержимого нужного ресурса и соответствие его назначению. Кнопка, пустой файл или переименованное расширение не подтверждают результат.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "data.export",
@@ -470,8 +446,7 @@
       "required_content": "Что должно сохраниться в результате."
     },
     "instructions": "Выполни экспорт и проверь структуру, формат и соответствие содержимого исходным данным. Наличие пункта меню или нужного расширения не доказывает корректность экспорта.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "data.convert",
@@ -488,8 +463,7 @@
       "preserved_semantics": "Какие сведения или структура должны сохраниться."
     },
     "instructions": "Проверь обработку подходящего входа и пригодность результата для указанного назначения. Не считай замену расширения преобразованием. Предметные особенности форматов уточняются из ТЗ.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "data.persistence",
@@ -507,8 +481,7 @@
       "fields": "Проверяемые значения."
     },
     "instructions": "Сохрани данные и сравни их при повторном обращении в заданной области. Не требуй серверную базу или сохранность между устройствами, если ТЗ этого не задаёт.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "content.publish",
@@ -526,8 +499,7 @@
       "publication_destination": "Где появляется публикация."
     },
     "instructions": "Опубликуй материал и проверь его появление в предусмотренном разделе с введёнными данными. Показ другим пользователям и модерация включаются только при наличии соответствующего требования.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "content.reply",
@@ -545,7 +517,6 @@
     },
     "instructions": "Отправь ответ и проверь, что он связан с нужной публикацией или обсуждением. Общий чат или сообщение у другого объекта не подтверждают эту связь.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "specializes": "entity.create"
   },
   {
@@ -564,8 +535,7 @@
       "access_scope": "Публичный доступ или членство по ТЗ."
     },
     "instructions": "Проверь материал от лица разрешённого получателя, а не только автора. Локальное отображение в состоянии автора не подтверждает общий доступ. Не считай невозможность подготовить вторую роль доказанным FAIL.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "content.review_publish",
@@ -583,7 +553,6 @@
     },
     "instructions": "Оставь отзыв и проверь привязку к выбранному объекту и предусмотренную видимость. Не добавляй звёздочный рейтинг или проверку покупки, если этого нет в ТЗ.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "specializes": "content.publish"
   },
   {
@@ -600,8 +569,7 @@
       "actor": "Владелец подборки."
     },
     "instructions": "Добавь объект в избранное и проверь его наличие у этого пользователя. Копирование, публикация или удаление объекта не заменяют изменение членства в избранном.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "group.join",
@@ -620,8 +588,7 @@
       "membership_result": "Признак участия."
     },
     "instructions": "Присоединись к выбранной группе и проверь изменение членства или доступ к участию согласно ТЗ. Открытие страницы группы не доказывает вступление.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "sharing.public_link",
@@ -638,8 +605,7 @@
       "expected_content": "Что открывается по ссылке."
     },
     "instructions": "Получи ссылку и открой её как предусмотренный получатель. Проверь нужное содержимое. Копирование адреса текущей закрытой страницы не подтверждает доступ другим.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "messaging.send",
@@ -657,8 +623,7 @@
       "message_type": "Тип содержимого из ТЗ."
     },
     "instructions": "Отправь сообщение в нужный канал или адресату и проверь результат отправки. Системное уведомление и самостоятельный ответ бота не заменяют отправку пользователем.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "messaging.delivery",
@@ -676,8 +641,7 @@
       "timing": "Оперативность, только если задана."
     },
     "instructions": "Сверь отправленное сообщение с полученным в нужном канале. Собственное эхо отправителя не доказывает доставку другому участнику. Не задавай численный предел задержки без основания в ТЗ.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "notifications.event",
@@ -695,8 +659,7 @@
       "channel": "Канал, если задан."
     },
     "instructions": "Вызови предусмотренное событие и проверь соответствующее уведомление нужному пользователю. Раздел уведомлений без связи с событием не подтверждает работу механизма.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "cart.add",
@@ -712,8 +675,7 @@
       "cart_owner": "Пользователь или сессия по ТЗ."
     },
     "instructions": "Добавь выбранный товар и проверь его появление в корзине покупок. Запись должна соответствовать товару; корзина удалённых объектов не является торговой корзиной.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "cart.change_quantity",
@@ -732,8 +694,7 @@
       "constraints": "Допустимые границы, если заданы."
     },
     "instructions": "Будущий checker должен сравнить количество до и после нужного действия. Не добавляй правила остатков, минимального заказа или автоматического удаления при нуле без основания в ТЗ.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "checkout.create_order",
@@ -752,7 +713,6 @@
     },
     "instructions": "Оформи заказ и проверь его сохранённый результат. Если источник требует только просмотр заказов, этот шаблон не добавляй. Оплату и дальнейшие статусы оценивай отдельно.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "specializes": "entity.create"
   },
   {
@@ -771,7 +731,6 @@
     },
     "instructions": "Отмени существующий заказ и проверь актуальный статус или прекращение его действия. Не требуй возврата денег или удаления записи, если это не задано.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "source_notes": {
       "webgen-097-R5.1": "Только ветвь отмены; требование допускает изменение или отмену, не требует оба действия."
     }
@@ -794,7 +753,6 @@
     },
     "instructions": "Создай бронирование и проверь выбранный ресурс, период и предусмотренное подтверждение. Не добавляй оплату или проверку конфликтов, если их нет в ТЗ.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "specializes": "entity.create"
   },
   {
@@ -813,8 +771,7 @@
       "observed_values": "Значения, установленные при выборе или переданные в операцию согласно ТЗ."
     },
     "instructions": "Будущий checker должен сравнить выбранные и установленные значения. Передача в бронирование обязательна только при соответствующем требовании. Не придумывай временную зону, ограничения длительности или запрет пересечений.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "payment.pay",
@@ -832,8 +789,7 @@
       "expected_result": "Предусмотренный результат оплаты."
     },
     "instructions": "Проверь предусмотренный платёжный поток и его результат в разрешённом тестовом режиме. Наличие кнопки или ввод реквизитов не подтверждают оплату. Не выполняй реальные финансовые операции.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "payment.multiple_methods",
@@ -850,7 +806,6 @@
     },
     "instructions": "Будущий checker должен проверить наличие выбора требуемого набора способов. Их фактическая обработка проверяется payment.pay. Разные подписи одного и того же способа не считаются разными методами.",
     "checker_status": "planned",
-    "validation_status": "not_evaluated",
     "source_notes": {
       "webgen-097-R4": "Только выбор нескольких способов; возможность обработать платёж проверяется отдельно."
     }
@@ -871,8 +826,7 @@
       "observed_outcomes": "Результаты попыток выполнения операции."
     },
     "instructions": "Будущий checker должен сравнить разрешённые и запрещённые попытки с заданной политикой. Скрытие пункта меню не подтверждает запрет прямого доступа или операции.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "permissions.manage",
@@ -888,8 +842,7 @@
       "permissions": "Права из ТЗ."
     },
     "instructions": "Измени разрешение для выбранного пользователя и проверь применённую политику. Список ролей без возможности назначить или изменить права недостаточен.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "admin.users_manage",
@@ -905,8 +858,7 @@
       "operations": "Операции, заданные в ТЗ."
     },
     "instructions": "Открой список пользователей под нужной ролью и измени предусмотренные данные выбранной учётной записи. Не подменяй это редактированием только собственного профиля. Ограничение доступа проверяется отдельно.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "report.generate",
@@ -923,8 +875,7 @@
       "output_format": "Формат, если задан."
     },
     "instructions": "Сформируй или открой отчёт и сверь его содержание с исходными данными. Статичный шаблон с несвязанными числами не подтверждает формирование отчёта.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "statistics.view",
@@ -942,8 +893,7 @@
       "data_scope": "На каких данных основана статистика."
     },
     "instructions": "Проверь наличие требуемых показателей и их связь с данными. График без соответствующих данных не достаточен. Для заданной формулы нужна отдельная точная проверка расчёта.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "schedule.create",
@@ -960,8 +910,7 @@
       "time_fields": "Дата и время по ТЗ."
     },
     "instructions": "Создай запись расписания и проверь, что она относится к нужному событию и времени. Показ календаря не доказывает возможность планирования.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "schedule.manage",
@@ -977,8 +926,7 @@
       "expected_result": "Результат операции."
     },
     "instructions": "Выполни выбранное действие над существующим событием и проверь результат. Не превращай перечисление альтернатив в обязательность всех операций без основания.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "time.record",
@@ -996,8 +944,7 @@
       "actor": "Исполнитель."
     },
     "instructions": "Создай запись времени и проверь её связь с нужной работой. Не добавляй таймер, ставки или правила округления, если этого нет в ТЗ.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "time.total",
@@ -1013,8 +960,7 @@
       "rounding": "Правило округления только из ТЗ."
     },
     "instructions": "Будущий checker должен суммировать длительности и сравнить итог в согласованной единице. Если единицы или округление не определены, сначала требуется трактовка.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "progress.view",
@@ -1033,7 +979,6 @@
     },
     "instructions": "Проверь отображение прогресса и его соответствие связанным данным. Изменение прогресса обязательно только при соответствующем требовании; не вводи собственную процентную формулу.",
     "checker_status": "not_applicable",
-    "validation_status": "not_evaluated",
     "source_notes": {
       "webgen-084-R7.1": "Дополнительно требует обновление после изменения данных; этот аспект нельзя потерять при сопоставлении."
     }
@@ -1054,8 +999,7 @@
       "observed_text": "Наблюдаемый текст."
     },
     "instructions": "Будущий checker должен проверить наличие заданного названия в допустимой области. Не требуй одновременно favicon, домен и HTML title, если ТЗ задаёт лишь название.",
-    "checker_status": "planned",
-    "validation_status": "not_evaluated"
+    "checker_status": "planned"
   },
   {
     "id": "ui.responsive",
@@ -1072,8 +1016,7 @@
       "functional_scope": "Доступные функции и элементы."
     },
     "instructions": "Проверь компоновку и доступность функций на требуемых типах экранов. Не вводи конкретные breakpoints или отдельное мобильное приложение, если они не заданы.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "content.preview",
@@ -1091,8 +1034,7 @@
       "timing": "Обновление в реальном времени, только если задано."
     },
     "instructions": "Измени входные данные и проверь соответствие предварительного просмотра текущему результату. Если ТЗ не требует обновления в реальном времени, отдельная команда предпросмотра допустима.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   },
   {
     "id": "history.view",
@@ -1110,7 +1052,6 @@
       "required_fields": "Поля истории, если заданы."
     },
     "instructions": "Проверь наличие соответствующих прошлых записей и их связь с нужным пользователем или объектом. Пустая декоративная страница истории не подтверждает сохранение действий.",
-    "checker_status": "not_applicable",
-    "validation_status": "not_evaluated"
+    "checker_status": "not_applicable"
   }
 ]

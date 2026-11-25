@@ -82,12 +82,6 @@
           "default": null,
           "title": "Checker Status"
         },
-        "validation_status": {
-          "const": "not_evaluated",
-          "default": "not_evaluated",
-          "title": "Validation Status",
-          "type": "string"
-        },
         "source_notes": {
           "additionalProperties": {
             "type": "string"
