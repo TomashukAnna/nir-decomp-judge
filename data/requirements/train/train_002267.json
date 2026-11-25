@@ -1,0 +1,106 @@
+{
+  "task_index": 2266,
+  "webgen_id": "train_002267",
+  "query": "Please implement a questionnaire management system for managing user and class information. The system should have the functionality to display all user information and class information, including users' basic information and classes' detailed information. Users should be able to log in to the system, browse and manage their own information, including modifying personal information and viewing class information. The system should also have the functionality to manage questionnaires, including creating, editing, and deleting questionnaires. Select ice blue for layout background and teal for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать основные сведения о пользователях.",
+      "source": "“The system should have the functionality to display all user information and class information, including users' basic information and classes' detailed information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать подробные сведения о классах.",
+      "source": "“The system should have the functionality to display all user information and class information, including users' basic information and classes' detailed information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in to the system, browse and manage their own information, including modifying personal information and viewing class information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать собственные данные.",
+      "source": "“Users should be able to log in to the system, browse and manage their own information, including modifying personal information and viewing class information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может изменять персональные данные.",
+      "source": "“Users should be able to log in to the system, browse and manage their own information, including modifying personal information and viewing class information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о классе.",
+      "source": "“Users should be able to log in to the system, browse and manage their own information, including modifying personal information and viewing class information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может создавать анкеты.",
+      "source": "“The system should also have the functionality to manage questionnaires, including creating, editing, and deleting questionnaires.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может редактировать анкеты.",
+      "source": "“The system should also have the functionality to manage questionnaires, including creating, editing, and deleting questionnaires.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может удалять анкеты.",
+      "source": "“The system should also have the functionality to manage questionnaires, including creating, editing, and deleting questionnaires.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `ice blue`.",
+      "source": "“Select ice blue for layout background and teal for component details.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Детали компонентов имеют цвет `teal` (`#008080`).",
+      "source": "“Select ice blue for layout background and teal for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

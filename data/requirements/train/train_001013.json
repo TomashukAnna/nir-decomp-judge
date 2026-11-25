@@ -1,0 +1,115 @@
+{
+  "task_index": 1012,
+  "webgen_id": "train_001013",
+  "query": "Please implement a real-time commuting bus website that displays bus information and routes. The website should have functionalities such as bus list, recommended routes, and overall route overview. Users should be able to browse the bus list, view information about commuting buses, short-distance special lines, and shuttle buses, including the real-time location and arrival time of the buses. The website should also be able to update the map in real-time, showing the current location and route of the buses. Define background as light sky blue; define components with deepskyblue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна рекомендовать маршруты.",
+      "source": "“The website should have functionalities such as bus list, recommended routes, and overall route overview.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать общую схему маршрутов.",
+      "source": "“The website should have functionalities such as bus list, recommended routes, and overall route overview.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать список автобусов.",
+      "source": "“Users should be able to browse the bus list, view information about commuting buses, short-distance special lines, and shuttle buses, including the real-time location and arrival time of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать сведения о пригородных автобусах.",
+      "source": "“Users should be able to browse the bus list, view information about commuting buses, short-distance special lines, and shuttle buses, including the real-time location and arrival time of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать сведения о коротких специальных маршрутах.",
+      "source": "“Users should be able to browse the bus list, view information about commuting buses, short-distance special lines, and shuttle buses, including the real-time location and arrival time of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о шаттлах.",
+      "source": "“Users should be able to browse the bus list, view information about commuting buses, short-distance special lines, and shuttle buses, including the real-time location and arrival time of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать текущее положение автобуса.",
+      "source": "“Users should be able to browse the bus list, view information about commuting buses, short-distance special lines, and shuttle buses, including the real-time location and arrival time of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать время прибытия автобуса.",
+      "source": "“Users should be able to browse the bus list, view information about commuting buses, short-distance special lines, and shuttle buses, including the real-time location and arrival time of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна обновлять карту в реальном времени.",
+      "source": "“The website should also be able to update the map in real-time, showing the current location and route of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна показывать на карте положение и маршрут автобуса.",
+      "source": "“The website should also be able to update the map in real-time, showing the current location and route of the buses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`).",
+      "source": "“Define background as light sky blue; define components with deepskyblue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `deepskyblue` (`#00BFFF`).",
+      "source": "“Define background as light sky blue; define components with deepskyblue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

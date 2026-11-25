@@ -1,0 +1,124 @@
+{
+  "task_index": 3677,
+  "webgen_id": "train_003678",
+  "query": "Please implement a website for the New Bank of Xinjiang's electronic commercial bill system to handle the offline processing of old bills. The website should have functionalities for prompting payment and tracking related operations, migrating old bill data, merging data, verifying data continuity, and verifying data. Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification. Implement styling with eggshell for the background and dark slate gray for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать перенос данных старых векселей.",
+      "source": "“The website should have functionalities for prompting payment and tracking related operations, migrating old bill data, merging data, verifying data continuity, and verifying data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна объединять перенесённые данные.",
+      "source": "“The website should have functionalities for prompting payment and tracking related operations, migrating old bill data, merging data, verifying data continuity, and verifying data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна проверять непрерывность данных.",
+      "source": "“The website should have functionalities for prompting payment and tracking related operations, migrating old bill data, merging data, verifying data continuity, and verifying data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна проверять данные.",
+      "source": "“The website should have functionalities for prompting payment and tracking related operations, migrating old bill data, merging data, verifying data continuity, and verifying data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о старых векселях.",
+      "source": "“Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может выполнять платёжные операции по векселям.",
+      "source": "“Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может отслеживать операции.",
+      "source": "“Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать результат переноса данных.",
+      "source": "“Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать результат объединения данных.",
+      "source": "“Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может запускать проверку данных.",
+      "source": "“Users should be able to log in, browse old bill information, perform payment and tracking operations, view data migration and merging results, and perform data verification and verification.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `eggshell`.",
+      "source": "“Implement styling with eggshell for the background and dark slate gray for components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`).",
+      "source": "“Implement styling with eggshell for the background and dark slate gray for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

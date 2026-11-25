@@ -1,0 +1,70 @@
+{
+  "task_index": 2651,
+  "webgen_id": "train_002652",
+  "query": "Please implement a website for a CPA firm that provides accounting and financial services. The website should have functionalities for displaying services, scheduling consultations, and online messaging. Users should be able to browse the website, learn about the CPA firm's services, schedule consultations, submit online messages, and view service prices and related information. Choose light slate gray for global background and navy for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать услуги бухгалтерской фирмы.",
+      "source": "“Users should be able to browse the website, learn about the CPA firm's services, schedule consultations, submit online messages, and view service prices and related information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может записываться на консультацию.",
+      "source": "“Users should be able to browse the website, learn about the CPA firm's services, schedule consultations, submit online messages, and view service prices and related information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять онлайн-сообщение.",
+      "source": "“Users should be able to browse the website, learn about the CPA firm's services, schedule consultations, submit online messages, and view service prices and related information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать цены услуг.",
+      "source": "“Users should be able to browse the website, learn about the CPA firm's services, schedule consultations, submit online messages, and view service prices and related information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать сведения об услугах.",
+      "source": "“Users should be able to browse the website, learn about the CPA firm's services, schedule consultations, submit online messages, and view service prices and related information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `light slate gray` (`#778899`).",
+      "source": "“Choose light slate gray for global background and navy for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Все компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Choose light slate gray for global background and navy for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

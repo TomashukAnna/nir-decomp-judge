@@ -1,0 +1,169 @@
+{
+  "task_index": 1761,
+  "webgen_id": "train_001762",
+  "query": "Please implement a microservice development platform for building and managing microservice systems. The platform should have modular and plug-in functionality, allowing users to choose and combine different modules and plug-ins based on different business needs. Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins. The platform should also provide a public service layer, including user management, permission management, and log management. Use a light pink background and apply hotpink to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать собственные микросервисные системы.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может управлять собственными микросервисными системами.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может добавлять модули.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может удалять модули.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может настраивать модули.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может добавлять плагины.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может удалять плагины.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может настраивать плагины.",
+      "source": "“Users should be able to register and log in to the platform, create and manage their own microservice systems, including adding, deleting, and configuring modules and plug-ins.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может выбирать модули и плагины под бизнес-задачи.",
+      "source": "“The platform should have modular and plug-in functionality, allowing users to choose and combine different modules and plug-ins based on different business needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может комбинировать выбранные модули и плагины.",
+      "source": "“The platform should have modular and plug-in functionality, allowing users to choose and combine different modules and plug-ins based on different business needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна предоставлять общий сервисный слой.",
+      "source": "“The platform should also provide a public service layer, including user management, permission management, and log management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Система должна предоставлять управление пользователями в общем сервисном слое.",
+      "source": "“The platform should also provide a public service layer, including user management, permission management, and log management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Система должна предоставлять управление разрешениями в общем сервисном слое.",
+      "source": "“The platform should also provide a public service layer, including user management, permission management, and log management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Система должна предоставлять управление журналами в общем сервисном слое.",
+      "source": "“The platform should also provide a public service layer, including user management, permission management, and log management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Основной фон интерфейса имеет цвет `light pink` (`#FFB6C1`).",
+      "source": "“Use a light pink background and apply hotpink to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R18",
+      "criteria": "Компоненты интерфейса имеют цвет `hotpink` (`#FF69B4`).",
+      "source": "“Use a light pink background and apply hotpink to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

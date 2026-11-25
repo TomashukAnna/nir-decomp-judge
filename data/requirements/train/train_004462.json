@@ -1,0 +1,88 @@
+{
+  "task_index": 4461,
+  "webgen_id": "train_004462",
+  "query": "Please implement an API management website to handle client HTTP requests. The website should have functionalities for accepting and processing HTTP requests, returning responses, and more. Users should be able to send HTTP requests through the website, view request results, manage API interfaces, and monitor request logs. Design the site using ivory as the background and chocolate for content blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна принимать HTTP-запросы.",
+      "source": "“The website should have functionalities for accepting and processing HTTP requests, returning responses, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна обрабатывать HTTP-запросы.",
+      "source": "“The website should have functionalities for accepting and processing HTTP requests, returning responses, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна возвращать HTTP-ответы.",
+      "source": "“The website should have functionalities for accepting and processing HTTP requests, returning responses, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять HTTP-запросы через сайт.",
+      "source": "“Users should be able to send HTTP requests through the website, view request results, manage API interfaces, and monitor request logs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать результаты запросов.",
+      "source": "“Users should be able to send HTTP requests through the website, view request results, manage API interfaces, and monitor request logs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять API-интерфейсами.",
+      "source": "“Users should be able to send HTTP requests through the website, view request results, manage API interfaces, and monitor request logs.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать журналы запросов.",
+      "source": "“Users should be able to send HTTP requests through the website, view request results, manage API interfaces, and monitor request logs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`).",
+      "source": "“Design the site using ivory as the background and chocolate for content blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Блоки содержимого имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Design the site using ivory as the background and chocolate for content blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

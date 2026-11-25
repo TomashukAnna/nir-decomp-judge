@@ -1,0 +1,106 @@
+{
+  "task_index": 2126,
+  "webgen_id": "train_002127",
+  "query": "Please implement a video number management system to manage Xiaohongshu accounts. The system should have functionalities for account management, content management, and data analysis. Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management. Style the layout with peach puff in the background and firebrick for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может управлять несколькими учётными записями Xiaohongshu.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может публиковать материалы.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать материалы.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять материалы.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать статистику.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать аналитические отчёты.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может настраивать учётные записи.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять разрешениями.",
+      "source": "“Users should be able to log in, manage multiple Xiaohongshu accounts, publish, edit, and delete content, view data statistics and analysis reports, and perform account settings and permission management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `peach puff` (`#FFDAB9`).",
+      "source": "“Style the layout with peach puff in the background and firebrick for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `firebrick` (`#B22222`).",
+      "source": "“Style the layout with peach puff in the background and firebrick for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "task_index": 1386,
+  "webgen_id": "train_001387",
+  "query": "Please develop a website with editing and search engine optimization capabilities. The website should have an editor feature that allows users to create and edit content. At the same time, the website should have search engine optimization functionality to improve the website's ranking in search engines. Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking. Apply bisque for layout; use dark salmon for buttons and cards.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать содержимое.",
+      "source": "“Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать содержимое.",
+      "source": "“Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может настраивать ключевые слова сайта.",
+      "source": "“Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может настраивать описания сайта.",
+      "source": "“Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать трафик сайта.",
+      "source": "“Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать позиции сайта в поиске.",
+      "source": "“Users should be able to log in, create and edit content, optimize the website's keywords and descriptions, and view the website's traffic and ranking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать SEO для улучшения позиций.",
+      "source": "“At the same time, the website should have search engine optimization functionality to improve the website's ranking in search engines.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `bisque` (`#FFE4C4`).",
+      "source": "“Apply bisque for layout; use dark salmon for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Кнопки и карточки имеют цвет `dark salmon` (`#E9967A`).",
+      "source": "“Apply bisque for layout; use dark salmon for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "task_index": 5892,
+  "webgen_id": "train_005893",
+  "query": "Please implement a Yōu Jiā Lì exhibition hall system platform to display real-time data statistics and monitoring information. The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform. Users should be able to browse real-time data, view historical statistical data, monitor real-time events, and use charts and electrocardiograms for analysis. Set overall background to pale lilac, then style components with dark orchid.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать статистику станций наблюдения на карте Китая.",
+      "source": "“The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать статистику в реальном времени.",
+      "source": "“The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна показывать список текущих событий.",
+      "source": "“The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна отображать статистику на диаграммах.",
+      "source": "“The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать ЭКГ в реальном времени.",
+      "source": "“The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна показывать ЭКГ в сетке 3×3.",
+      "source": "“The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять раздел мониторинга давления при хронических заболеваниях.",
+      "source": "“The platform should have functionalities such as China map monitoring station data statistics, real-time statistics, real-time event list, chart statistics, real-time electrocardiogram, 3x3 grid electrocardiogram, chronic disease blood pressure platform, and real-time monitoring platform.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать текущие данные.",
+      "source": "“Users should be able to browse real-time data, view historical statistical data, monitor real-time events, and use charts and electrocardiograms for analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать историческую статистику.",
+      "source": "“Users should be able to browse real-time data, view historical statistical data, monitor real-time events, and use charts and electrocardiograms for analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может отслеживать события в реальном времени.",
+      "source": "“Users should be able to browse real-time data, view historical statistical data, monitor real-time events, and use charts and electrocardiograms for analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может анализировать диаграммы и ЭКГ.",
+      "source": "“Users should be able to browse real-time data, view historical statistical data, monitor real-time events, and use charts and electrocardiograms for analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `pale lilac`.",
+      "source": "“Set overall background to pale lilac, then style components with dark orchid.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `dark orchid` (`#9932CC`).",
+      "source": "“Set overall background to pale lilac, then style components with dark orchid.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

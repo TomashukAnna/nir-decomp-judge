@@ -1,0 +1,97 @@
+{
+  "task_index": 6179,
+  "webgen_id": "train_006180",
+  "query": "Please implement a marketing management platform for the education industry to improve the operating efficiency of educational institutions. The platform should have functionalities for course management, student information management, appointment scheduling, and class arrangement, meeting the core needs of the education industry. Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making. Define the background as aquamarine and components as dark turquoise.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать курсы.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может управлять курсами.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать сведения об учащихся.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять сведениями об учащихся.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может записываться на встречи.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может составлять расписание занятий.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать аналитические отчёты.",
+      "source": "“Users should be able to log in, browse and manage courses, student information, make appointments, and arrange classes, and view data analysis reports to support operational decision-making.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`).",
+      "source": "“Define the background as aquamarine and components as dark turquoise.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `dark turquoise` (`#00CED1`).",
+      "source": "“Define the background as aquamarine and components as dark turquoise.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

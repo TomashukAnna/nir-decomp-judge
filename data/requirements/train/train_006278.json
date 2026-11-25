@@ -1,0 +1,106 @@
+{
+  "task_index": 6277,
+  "webgen_id": "train_006278",
+  "query": "Please implement an online teaching platform for managing question banks, generating test papers, and analyzing student scores. The platform should have functionalities for question bank management, test paper generation, student answer sheet upload, and data analysis. Users should be able to log in, manage question banks, generate test papers, upload answer sheets, and view data analysis reports. The platform should support multiple question types and difficulty levels, and be able to automatically grade test papers and generate score reports. Set the background color to faint gray and the component color to slate gray.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, manage question banks, generate test papers, upload answer sheets, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может управлять банком вопросов.",
+      "source": "“Users should be able to log in, manage question banks, generate test papers, upload answer sheets, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать экзаменационные работы.",
+      "source": "“Users should be able to log in, manage question banks, generate test papers, upload answer sheets, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может загружать листы ответов.",
+      "source": "“Users should be able to log in, manage question banks, generate test papers, upload answer sheets, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать аналитические отчёты.",
+      "source": "“Users should be able to log in, manage question banks, generate test papers, upload answer sheets, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна поддерживать несколько типов вопросов.",
+      "source": "“The platform should support multiple question types and difficulty levels, and be able to automatically grade test papers and generate score reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать несколько уровней сложности.",
+      "source": "“The platform should support multiple question types and difficulty levels, and be able to automatically grade test papers and generate score reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна автоматически оценивать экзаменационные работы.",
+      "source": "“The platform should support multiple question types and difficulty levels, and be able to automatically grade test papers and generate score reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна формировать отчёты об оценках.",
+      "source": "“The platform should support multiple question types and difficulty levels, and be able to automatically grade test papers and generate score reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `faint gray`.",
+      "source": "“Set the background color to faint gray and the component color to slate gray.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `slate gray` (`#708090`).",
+      "source": "“Set the background color to faint gray and the component color to slate gray.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

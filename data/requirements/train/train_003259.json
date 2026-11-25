@@ -1,0 +1,97 @@
+{
+  "task_index": 3258,
+  "webgen_id": "train_003259",
+  "query": "Please implement a WeChat payment system to provide payment services. The system should have functionalities for payment, transfer, and payment of fees. Users can pay through WeChat or other payment methods, and the system will automatically complete the payment operation. The system should also have order management and transaction record functions, making it convenient for users to query and manage their transaction records. Declare medium aquamarine as the global background color and sea green for all UI pieces.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может выполнять денежные переводы.",
+      "source": "“The system should have functionalities for payment, transfer, and payment of fees.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может оплачивать сборы.",
+      "source": "“The system should have functionalities for payment, transfer, and payment of fees.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может оплачивать через WeChat.",
+      "source": "“Users can pay through WeChat or other payment methods, and the system will automatically complete the payment operation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оплачивать другим доступным способом.",
+      "source": "“Users can pay through WeChat or other payment methods, and the system will automatically complete the payment operation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна автоматически завершать платёжную операцию.",
+      "source": "“Users can pay through WeChat or other payment methods, and the system will automatically complete the payment operation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать историю своих операций.",
+      "source": "“The system should also have order management and transaction record functions, making it convenient for users to query and manage their transaction records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять своими записями операций.",
+      "source": "“The system should also have order management and transaction record functions, making it convenient for users to query and manage their transaction records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна предоставлять управление заказами.",
+      "source": "“The system should also have order management and transaction record functions, making it convenient for users to query and manage their transaction records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `medium aquamarine` (`#66CDAA`).",
+      "source": "“Declare medium aquamarine as the global background color and sea green for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`).",
+      "source": "“Declare medium aquamarine as the global background color and sea green for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "task_index": 2982,
+  "webgen_id": "train_002983",
+  "query": "Please implement a bank's aggregated payment settlement system for handling offline payments and split settlements. The system should have payment, merchant, account, and daily settlement modules. The payment section should aggregate all payment methods and provide a unified entrance. The merchant section should manage merchant information, the account section should record merchant transactions, and the daily settlement section should perform reconciliation and error handling. The system should establish a payment transaction guarantee mechanism, including payment timeout correction, refund retry, and daily reconciliation. Assign lavender blush to body backgrounds and pale violet red to main components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать офлайн-платежи.",
+      "source": "“Please implement a bank's aggregated payment settlement system for handling offline payments and split settlements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать раздельные расчёты.",
+      "source": "“Please implement a bank's aggregated payment settlement system for handling offline payments and split settlements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять модуль платежей.",
+      "source": "“The system should have payment, merchant, account, and daily settlement modules.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять модуль продавцов.",
+      "source": "“The system should have payment, merchant, account, and daily settlement modules.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять модуль счетов.",
+      "source": "“The system should have payment, merchant, account, and daily settlement modules.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предоставлять модуль ежедневных расчётов.",
+      "source": "“The system should have payment, merchant, account, and daily settlement modules.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна объединять способы оплаты в единой точке входа.",
+      "source": "“The payment section should aggregate all payment methods and provide a unified entrance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна управлять сведениями о продавцах.",
+      "source": "“The merchant section should manage merchant information, the account section should record merchant transactions, and the daily settlement section should perform reconciliation and error handling.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна записывать операции продавцов.",
+      "source": "“The merchant section should manage merchant information, the account section should record merchant transactions, and the daily settlement section should perform reconciliation and error handling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна выполнять сверку ежедневных расчётов.",
+      "source": "“The merchant section should manage merchant information, the account section should record merchant transactions, and the daily settlement section should perform reconciliation and error handling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна обрабатывать ошибки расчётов.",
+      "source": "“The merchant section should manage merchant information, the account section should record merchant transactions, and the daily settlement section should perform reconciliation and error handling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Система должна корректировать состояние платежей после тайм-аута.",
+      "source": "“The system should establish a payment transaction guarantee mechanism, including payment timeout correction, refund retry, and daily reconciliation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна повторять неуспешные возвраты.",
+      "source": "“The system should establish a payment transaction guarantee mechanism, including payment timeout correction, refund retry, and daily reconciliation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Система должна выполнять ежедневную сверку.",
+      "source": "“The system should establish a payment transaction guarantee mechanism, including payment timeout correction, refund retry, and daily reconciliation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Основной фон интерфейса имеет цвет `lavender blush` (`#FFF0F5`).",
+      "source": "“Assign lavender blush to body backgrounds and pale violet red to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Компоненты интерфейса имеют цвет `pale violet red` (`#DB7093`).",
+      "source": "“Assign lavender blush to body backgrounds and pale violet red to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "task_index": 1713,
+  "webgen_id": "train_001714",
+  "query": "Please implement a radius/perimeter search filter for a listing grid to find running competitions in Germany. Users should be able to input a place or zip code to search for competitions, and the system should filter the results based on the user's specified radius. The system should be compatible with the existing Elementor and Crocoblock plugins and should not delete any information from the database. The filter should be able to handle approximately 6,000 posts within 3-4 seconds. Design the site using pearl as the background and charcoal for content blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать сетку беговых соревнований Германии.",
+      "source": "“Please implement a radius/perimeter search filter for a listing grid to find running competitions in Germany.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может вводить населённый пункт.",
+      "source": "“Users should be able to input a place or zip code to search for competitions, and the system should filter the results based on the user's specified radius.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может вводить почтовый индекс.",
+      "source": "“Users should be able to input a place or zip code to search for competitions, and the system should filter the results based on the user's specified radius.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может задавать радиус поиска.",
+      "source": "“Users should be able to input a place or zip code to search for competitions, and the system should filter the results based on the user's specified radius.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна фильтровать соревнования в заданном радиусе.",
+      "source": "“Users should be able to input a place or zip code to search for competitions, and the system should filter the results based on the user's specified radius.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна сохранять совместимость с Elementor.",
+      "source": "“The system should be compatible with the existing Elementor and Crocoblock plugins and should not delete any information from the database.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна сохранять совместимость с Crocoblock.",
+      "source": "“The system should be compatible with the existing Elementor and Crocoblock plugins and should not delete any information from the database.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна не удалять сведения из базы данных.",
+      "source": "“The system should be compatible with the existing Elementor and Crocoblock plugins and should not delete any information from the database.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна обрабатывать около 6000 записей не дольше четырёх секунд.",
+      "source": "“The filter should be able to handle approximately 6,000 posts within 3-4 seconds.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `pearl`.",
+      "source": "“Design the site using pearl as the background and charcoal for content blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Блоки содержимого имеют цвет `charcoal`.",
+      "source": "“Design the site using pearl as the background and charcoal for content blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

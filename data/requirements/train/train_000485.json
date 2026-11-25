@@ -1,0 +1,124 @@
+{
+  "task_index": 484,
+  "webgen_id": "train_000485",
+  "query": "Please implement a web application based on Flamego, with functionalities such as user registration, login, browsing, and managing personal information. Users should be able to register an account, log in to the system, browse and manage their personal information, including basic profile, avatar, and password. The system should have routing configuration, parameter passing, and error handling functionalities. Define the background as magenta and components as dark violet.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать Flamego.",
+      "source": "“Please implement a web application based on Flamego, with functionalities such as user registration, login, browsing, and managing personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register an account, log in to the system, browse and manage their personal information, including basic profile, avatar, and password.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register an account, log in to the system, browse and manage their personal information, including basic profile, avatar, and password.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать персональную информацию.",
+      "source": "“The system should have routing configuration, parameter passing, and error handling functionalities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять персональной информацией.",
+      "source": "“The system should have routing configuration, parameter passing, and error handling functionalities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Пользователь может изменять основные данные профиля.",
+      "source": "“The system should have routing configuration, parameter passing, and error handling functionalities.”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.2",
+      "criteria": "Пользователь может изменять аватар.",
+      "source": "“The system should have routing configuration, parameter passing, and error handling functionalities.”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.3",
+      "criteria": "Пользователь может изменять пароль.",
+      "source": "“The system should have routing configuration, parameter passing, and error handling functionalities.”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна поддерживать настройку маршрутов.",
+      "source": "“Define the background as magenta and components as dark violet.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна передавать параметры запросов.",
+      "source": "“Define the background as magenta and components as dark violet.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна обрабатывать ошибки.",
+      "source": "“Define the background as magenta and components as dark violet.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `magenta` (`#FF00FF`).",
+      "source": "“Define the background as magenta and components as dark violet.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `dark violet` (`#9400D3`).",
+      "source": "“Define the background as magenta and components as dark violet.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

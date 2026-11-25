@@ -1,0 +1,8 @@
+dataset: ../data WebGen-Bench/train.jsonl
+annotated_directory: data/requirements
+output: data/train-sampling/pilot
+clusters: [12, 20, 30]
+components: 100
+silhouette_sample: 1500
+per_cluster: 3
+max_similarity: 0.90

@@ -1,0 +1,70 @@
+{
+  "task_index": 3141,
+  "webgen_id": "train_003142",
+  "query": "Please implement a bank payment automation system for handling payment transactions. The system should have functionalities for payment application, payment confirmation, and payment result inquiry. Users should be able to log in, submit payment applications, view payment results, and query historical payment records. Apply bisque to the canvas background and dark salmon to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать подтверждение платежа.",
+      "source": "“The system should have functionalities for payment application, payment confirmation, and payment result inquiry.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, submit payment applications, view payment results, and query historical payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять заявку на платёж.",
+      "source": "“Users should be able to log in, submit payment applications, view payment results, and query historical payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать результат платежа.",
+      "source": "“Users should be able to log in, submit payment applications, view payment results, and query historical payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может искать исторические платёжные записи.",
+      "source": "“Users should be able to log in, submit payment applications, view payment results, and query historical payment records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Фон рабочей области имеет цвет `bisque` (`#FFE4C4`).",
+      "source": "“Apply bisque to the canvas background and dark salmon to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `dark salmon` (`#E9967A`).",
+      "source": "“Apply bisque to the canvas background and dark salmon to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

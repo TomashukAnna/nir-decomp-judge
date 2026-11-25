@@ -1,0 +1,70 @@
+{
+  "task_index": 316,
+  "webgen_id": "train_000317",
+  "query": "Please implement a VS score counter website for scoring and voice broadcasting. The website should have functionalities for scoring, voice broadcasting, and user interaction. Users should be able to input scores, perform scoring, and conduct voice broadcasting. The website should also be able to adapt to different resolutions and device compatibility. Choose white smoke for global background and rosy brown for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить счёт.",
+      "source": "“Users should be able to input scores, perform scoring, and conduct voice broadcasting.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может начислять очки.",
+      "source": "“Users should be able to input scores, perform scoring, and conduct voice broadcasting.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может запускать голосовое озвучивание счёта.",
+      "source": "“Users should be able to input scores, perform scoring, and conduct voice broadcasting.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна адаптироваться к разным разрешениям экранов.",
+      "source": "“The website should also be able to adapt to different resolutions and device compatibility.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна сохранять совместимость с разными устройствами.",
+      "source": "“The website should also be able to adapt to different resolutions and device compatibility.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `white smoke` (`#F5F5F5`).",
+      "source": "“Choose white smoke for global background and rosy brown for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Все компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`).",
+      "source": "“Choose white smoke for global background and rosy brown for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

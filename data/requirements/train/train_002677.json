@@ -1,0 +1,88 @@
+{
+  "task_index": 2676,
+  "webgen_id": "train_002677",
+  "query": "Please implement a website that showcases a book reader application. The website should have a hero section that showcases the application, a tagline that emphasizes its unique features, and functionality to display application performance data such as downloads and analytics. Users should be able to browse the website, learn about the application's features and benefits, and download the application. The website should also provide application performance data, including download numbers and analytics. Select violet for layout background and indigo for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать приложение в главном hero-блоке.",
+      "source": "“The website should have a hero section that showcases the application, a tagline that emphasizes its unique features, and functionality to display application performance data such as downloads and analytics.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать слоган, подчёркивающий особенности приложения.",
+      "source": "“The website should have a hero section that showcases the application, a tagline that emphasizes its unique features, and functionality to display application performance data such as downloads and analytics.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать описание возможностей приложения.",
+      "source": "“Users should be able to browse the website, learn about the application's features and benefits, and download the application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать преимущества приложения.",
+      "source": "“Users should be able to browse the website, learn about the application's features and benefits, and download the application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может скачивать приложение.",
+      "source": "“Users should be able to browse the website, learn about the application's features and benefits, and download the application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна показывать количество скачиваний.",
+      "source": "“The website should also provide application performance data, including download numbers and analytics.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна показывать аналитику использования приложения.",
+      "source": "“The website should also provide application performance data, including download numbers and analytics.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `violet` (`#EE82EE`).",
+      "source": "“Select violet for layout background and indigo for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Детали компонентов имеют цвет `indigo` (`#4B0082`).",
+      "source": "“Select violet for layout background and indigo for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

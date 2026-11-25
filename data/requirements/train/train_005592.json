@@ -1,0 +1,133 @@
+{
+  "task_index": 5591,
+  "webgen_id": "train_005592",
+  "query": "Please implement a voice AI phone system that answers incoming calls and responds automatically. The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call. Users should be able to interact with the system through voice commands, and the system should be able to understand and execute the corresponding actions. Configure the background color to powder blue, with components using medium blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна отвечать на входящие звонки.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна отвечать на вопросы звонящего.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна отправлять текстовые сообщения.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна отправлять ссылки на товары.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна отправлять ссылки на услуги.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна отправлять ссылки на формы.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна бронировать время обратного звонка.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна назначать встречи.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна отправлять полную расшифровку разговора.",
+      "source": "“The system should have functionalities such as answering incoming calls, answering questions, sending text messages, sending links to products and services or forms, booking call-back times and setting up appointments, and sending a complete transcript of the call.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может управлять системой голосовыми командами.",
+      "source": "“Users should be able to interact with the system through voice commands, and the system should be able to understand and execute the corresponding actions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна понимать голосовые команды.",
+      "source": "“Users should be able to interact with the system through voice commands, and the system should be able to understand and execute the corresponding actions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Система должна выполнять действия, соответствующие распознанной команде.",
+      "source": "“Users should be able to interact with the system through voice commands, and the system should be able to understand and execute the corresponding actions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `powder blue` (`#B0E0E6`).",
+      "source": "“Configure the background color to powder blue, with components using medium blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `medium blue` (`#0000CD`).",
+      "source": "“Configure the background color to powder blue, with components using medium blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

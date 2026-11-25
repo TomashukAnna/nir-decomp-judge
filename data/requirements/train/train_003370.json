@@ -1,0 +1,106 @@
+{
+  "task_index": 3369,
+  "webgen_id": "train_003370",
+  "query": "Please implement a payment system for an e-commerce SaaS platform to handle payments and point settlements. The system should have functionalities for member payments, point management, merchant registration, business settlement, and account reconciliation. Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency. Style the layout with desert sand in the background and sienna for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять управление баллами.",
+      "source": "“The system should have functionalities for member payments, point management, merchant registration, business settlement, and account reconciliation.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать сверку расчётов.",
+      "source": "“The system should have functionalities for member payments, point management, merchant registration, business settlement, and account reconciliation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выполнять платежи.",
+      "source": "“Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может проверять баллы.",
+      "source": "“Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Продавец может зарегистрироваться.",
+      "source": "“Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Продавец может выполнять расчёты по своей деятельности.",
+      "source": "“Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна упрощать сверку счетов.",
+      "source": "“Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна повышать эффективность обработки заказов.",
+      "source": "“Users should be able to log in, make payments, and query points, while merchants can register and conduct business settlements, and the system should simplify the account reconciliation process and improve order processing efficiency.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `desert sand`.",
+      "source": "“Style the layout with desert sand in the background and sienna for the interface.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Style the layout with desert sand in the background and sienna for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

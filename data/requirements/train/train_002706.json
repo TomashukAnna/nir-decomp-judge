@@ -1,0 +1,142 @@
+{
+  "task_index": 2705,
+  "webgen_id": "train_002706",
+  "query": "Please implement an animated wordpress website with 8 pages. The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages. Users should be able to browse the website, view animations, and navigate to different pages. The website should have a responsive design to adapt to different devices and screen sizes. Assign antique white to body backgrounds and sienna to main components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать WordPress.",
+      "source": "“Please implement an animated wordpress website with 8 pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна содержать восемь страниц.",
+      "source": "“Please implement an animated wordpress website with 8 pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять главную страницу.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять страницу о компании.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять страницу услуг.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предоставлять страницу товаров.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять страницу новостей.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна предоставлять страницу контактов.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна предоставлять FAQ.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна предоставлять страницу входа и регистрации.",
+      "source": "“The website should have a home page, about us, services, products, news, contact us, FAQ, and login/registration pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может просматривать анимации.",
+      "source": "“Users should be able to browse the website, view animations, and navigate to different pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может переходить между страницами.",
+      "source": "“Users should be able to browse the website, view animations, and navigate to different pages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна адаптировать оформление к разным устройствам и размерам экранов.",
+      "source": "“The website should have a responsive design to adapt to different devices and screen sizes.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`).",
+      "source": "“Assign antique white to body backgrounds and sienna to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Assign antique white to body backgrounds and sienna to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

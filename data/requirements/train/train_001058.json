@@ -1,0 +1,88 @@
+{
+  "task_index": 1057,
+  "webgen_id": "train_001058",
+  "query": "Please implement a college confession wall website for users to post and interact with confessions. The website should have functionalities for user authentication, posting confessions, interacting with others, searching, and personal center management. Users should be able to log in, post their own confessions, browse and reply to others' confessions, search for confessions of interest, and manage their personal center. Define the background as sky blue and components as steel blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, post their own confessions, browse and reply to others' confessions, search for confessions of interest, and manage their personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может публиковать свои признания.",
+      "source": "“Users should be able to log in, post their own confessions, browse and reply to others' confessions, search for confessions of interest, and manage their personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать признания других.",
+      "source": "“Users should be able to log in, post their own confessions, browse and reply to others' confessions, search for confessions of interest, and manage their personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отвечать на признания.",
+      "source": "“Users should be able to log in, post their own confessions, browse and reply to others' confessions, search for confessions of interest, and manage their personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может искать интересующие признания.",
+      "source": "“Users should be able to log in, post their own confessions, browse and reply to others' confessions, search for confessions of interest, and manage their personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять личным кабинетом.",
+      "source": "“Users should be able to log in, post their own confessions, browse and reply to others' confessions, search for confessions of interest, and manage their personal center.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать аутентификацию пользователей.",
+      "source": "“The website should have functionalities for user authentication, posting confessions, interacting with others, searching, and personal center management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`).",
+      "source": "“Define the background as sky blue and components as steel blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `steel blue` (`#4682B4`).",
+      "source": "“Define the background as sky blue and components as steel blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

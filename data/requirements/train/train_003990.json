@@ -1,0 +1,115 @@
+{
+  "task_index": 3989,
+  "webgen_id": "train_003990",
+  "query": "Please implement a Lemon Check website that provides functions such as service provider management and vehicle information inquiry. The website should have functionalities for service provider management, operational promotion, distribution management, order management, and ticket application. Users should be able to log in, browse service provider information and vehicle information, query maintenance and repair reports and accident reports, and perform order management. Assign white smoke to the background and rosy brown to the UI elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять функции операционного продвижения.",
+      "source": "“The website should have functionalities for service provider management, operational promotion, distribution management, order management, and ticket application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление дистрибуцией.",
+      "source": "“The website should have functionalities for service provider management, operational promotion, distribution management, order management, and ticket application.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна принимать заявки на билеты.",
+      "source": "“The website should have functionalities for service provider management, operational promotion, distribution management, order management, and ticket application.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse service provider information and vehicle information, query maintenance and repair reports and accident reports, and perform order management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать сведения о поставщиках услуг.",
+      "source": "“Users should be able to log in, browse service provider information and vehicle information, query maintenance and repair reports and accident reports, and perform order management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения об автомобилях.",
+      "source": "“Users should be able to log in, browse service provider information and vehicle information, query maintenance and repair reports and accident reports, and perform order management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может запрашивать отчёты об обслуживании и ремонте.",
+      "source": "“Users should be able to log in, browse service provider information and vehicle information, query maintenance and repair reports and accident reports, and perform order management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может запрашивать отчёты об авариях.",
+      "source": "“Users should be able to log in, browse service provider information and vehicle information, query maintenance and repair reports and accident reports, and perform order management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять заказами.",
+      "source": "“Users should be able to log in, browse service provider information and vehicle information, query maintenance and repair reports and accident reports, and perform order management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может управлять поставщиками услуг.",
+      "source": "“The website should have functionalities for service provider management, operational promotion, distribution management, order management, and ticket application.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `white smoke` (`#F5F5F5`).",
+      "source": "“Assign white smoke to the background and rosy brown to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `rosy brown` (`#BC8F8F`).",
+      "source": "“Assign white smoke to the background and rosy brown to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

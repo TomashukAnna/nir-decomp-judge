@@ -1,0 +1,61 @@
+{
+  "task_index": 2230,
+  "webgen_id": "train_002231",
+  "query": "Please implement a mini-program for foreign trade commodity procurement and sampling, used for recording and managing sample information. The mini-program should have functionalities for entering sample information, unified ordering, and generating electronic documents. Users should be able to enter sample information, generate orders, and automatically create corresponding electronic document content based on different types. The mini-program should also have customizable and intelligent features to meet the standardized needs of multiple cooperative factories. Use a plum background and apply dark magenta to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить сведения об образцах.",
+      "source": "“Users should be able to enter sample information, generate orders, and automatically create corresponding electronic document content based on different types.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может формировать заказы.",
+      "source": "“Users should be able to enter sample information, generate orders, and automatically create corresponding electronic document content based on different types.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна автоматически создавать электронные документы в зависимости от типа образца.",
+      "source": "“Users should be able to enter sample information, generate orders, and automatically create corresponding electronic document content based on different types.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать настройку под требования нескольких сотрудничающих фабрик.",
+      "source": "“The mini-program should also have customizable and intelligent features to meet the standardized needs of multiple cooperative factories.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Основной фон интерфейса имеет цвет `plum` (`#DDA0DD`).",
+      "source": "“Use a plum background and apply dark magenta to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Компоненты интерфейса имеют цвет `dark magenta` (`#8B008B`).",
+      "source": "“Use a plum background and apply dark magenta to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

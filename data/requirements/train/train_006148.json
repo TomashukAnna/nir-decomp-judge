@@ -1,0 +1,142 @@
+{
+  "task_index": 6147,
+  "webgen_id": "train_006148",
+  "query": "Please implement a comprehensive Western medicine learning website that provides resources such as question banks, videos, and live streams. The website should have functionalities such as question banks, modules, videos, live streams, experience sharing, comments, discussion circles, note-taking, and error tracking. Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records. Set overall background to cream, then style components with dark teal.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять тематические учебные модули.",
+      "source": "“The website should have functionalities such as question banks, modules, videos, live streams, experience sharing, comments, discussion circles, note-taking, and error tracking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать банк вопросов.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может искать вопросы.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может смотреть учебные видео.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может смотреть прямые трансляции.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может участвовать во взаимодействии во время трансляций.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может делиться опытом.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может оставлять комментарии.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может присоединяться к группам обсуждения.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может вести заметки.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может отслеживать свои ошибки.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может просматривать историю обучения.",
+      "source": "“Users should be able to log in, browse and search the question bank, watch videos and live streams, participate in live interactions, share experiences and comments, join discussion circles, take notes and track errors, and view learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `cream`.",
+      "source": "“Set overall background to cream, then style components with dark teal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Компоненты интерфейса имеют цвет `dark teal`.",
+      "source": "“Set overall background to cream, then style components with dark teal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

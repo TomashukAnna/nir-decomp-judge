@@ -1,0 +1,160 @@
+{
+  "task_index": 4144,
+  "webgen_id": "train_004145",
+  "query": "Please implement a chain KTV management website that provides functions such as reservation, ordering, and rewards mall. The website should have functionalities for reservation, ordering, rewards mall, activity issuance, and various lottery activities. Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities. Administrators should be able to log in, manage products, inventory, equipment maintenance, and view data analysis reports. Use cool gray in the background layer and charcoal for the component layer.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Администратор может публиковать мероприятия.",
+      "source": "“The website should have functionalities for reservation, ordering, rewards mall, activity issuance, and various lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Администратор может настраивать розыгрыши.",
+      "source": "“The website should have functionalities for reservation, ordering, rewards mall, activity issuance, and various lottery activities.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать мероприятия.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о комнатах.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может бронировать комнаты.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может заказывать еду.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может обменивать баллы.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может участвовать в розыгрышах.",
+      "source": "“Users should be able to log in, browse products, activities, and room information, make reservations, order food, redeem points, and participate in lottery activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может войти в систему.",
+      "source": "“Administrators should be able to log in, manage products, inventory, equipment maintenance, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Администратор может управлять товарами.",
+      "source": "“Administrators should be able to log in, manage products, inventory, equipment maintenance, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Администратор может управлять запасами.",
+      "source": "“Administrators should be able to log in, manage products, inventory, equipment maintenance, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Администратор может управлять обслуживанием оборудования.",
+      "source": "“Administrators should be able to log in, manage products, inventory, equipment maintenance, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Администратор может просматривать аналитические отчёты.",
+      "source": "“Administrators should be able to log in, manage products, inventory, equipment maintenance, and view data analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Основной фон интерфейса имеет цвет `cool gray`.",
+      "source": "“Use cool gray in the background layer and charcoal for the component layer.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Компоненты интерфейса имеют цвет `charcoal`.",
+      "source": "“Use cool gray in the background layer and charcoal for the component layer.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

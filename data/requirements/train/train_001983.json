@@ -1,0 +1,133 @@
+{
+  "task_index": 1982,
+  "webgen_id": "train_001983",
+  "query": "Please implement a visual database application creation tool for creating and managing databases. The tool should have functionalities for creating database schemas, inserting data, executing queries, and processing data. Users should be able to create forms to provide customized interfaces for their data and store all database objects, such as tables, queries, and forms. The tool should also allow users to edit and manage database structures, execute data queries and analysis, and more. Assign opal to the background and indigo to the UI elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать схемы баз данных.",
+      "source": "“The tool should have functionalities for creating database schemas, inserting data, executing queries, and processing data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может добавлять данные.",
+      "source": "“The tool should have functionalities for creating database schemas, inserting data, executing queries, and processing data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может выполнять запросы.",
+      "source": "“The tool should have functionalities for creating database schemas, inserting data, executing queries, and processing data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может обрабатывать данные.",
+      "source": "“The tool should have functionalities for creating database schemas, inserting data, executing queries, and processing data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать формы для своих данных.",
+      "source": "“Users should be able to create forms to provide customized interfaces for their data and store all database objects, such as tables, queries, and forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна сохранять объекты базы данных.",
+      "source": "“Users should be able to create forms to provide customized interfaces for their data and store all database objects, such as tables, queries, and forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "Система должна сохранять таблицы.",
+      "source": "“Users should be able to create forms to provide customized interfaces for their data and store all database objects, such as tables, queries, and forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.2",
+      "criteria": "Система должна сохранять запросы.",
+      "source": "“Users should be able to create forms to provide customized interfaces for their data and store all database objects, such as tables, queries, and forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.3",
+      "criteria": "Система должна сохранять формы.",
+      "source": "“Users should be able to create forms to provide customized interfaces for their data and store all database objects, such as tables, queries, and forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может редактировать структуру базы.",
+      "source": "“The tool should also allow users to edit and manage database structures, execute data queries and analysis, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять структурой базы.",
+      "source": "“The tool should also allow users to edit and manage database structures, execute data queries and analysis, and more.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может анализировать данные.",
+      "source": "“The tool should also allow users to edit and manage database structures, execute data queries and analysis, and more.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `opal`.",
+      "source": "“Assign opal to the background and indigo to the UI elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `indigo` (`#4B0082`).",
+      "source": "“Assign opal to the background and indigo to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

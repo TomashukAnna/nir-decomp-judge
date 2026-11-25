@@ -1,0 +1,61 @@
+{
+  "task_index": 5809,
+  "webgen_id": "train_005810",
+  "query": "Please implement a website to display unit test coverage, used to show code coverage. The website should have the functionality to display coverage, including displaying changes in coverage at different time points. Users should be able to log in, browse coverage data, view coverage at different time points, and analyze the trend of coverage changes. Apply desert sand as the background; style all components with sienna.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse coverage data, view coverage at different time points, and analyze the trend of coverage changes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать данные покрытия тестами.",
+      "source": "“Users should be able to log in, browse coverage data, view coverage at different time points, and analyze the trend of coverage changes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать покрытие в разные моменты времени.",
+      "source": "“Users should be able to log in, browse coverage data, view coverage at different time points, and analyze the trend of coverage changes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может анализировать тенденцию изменения покрытия.",
+      "source": "“Users should be able to log in, browse coverage data, view coverage at different time points, and analyze the trend of coverage changes.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Основной фон интерфейса имеет цвет `desert sand`.",
+      "source": "“Apply desert sand as the background; style all components with sienna.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Все компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Apply desert sand as the background; style all components with sienna.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task_index": 3381,
+  "webgen_id": "train_003382",
+  "query": "Please implement a Xi Nian jewelry mall website for selling jewelry products. The website should have functionalities for product display, member management, point system, fission marketing, and distribution. Users should be able to browse products, join as members, earn points, participate in fission activities, and engage in distribution. Use powder blue for the outer layout and royal blue for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать ювелирные товары.",
+      "source": "“Users should be able to browse products, join as members, earn points, participate in fission activities, and engage in distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может становиться участником.",
+      "source": "“Users should be able to browse products, join as members, earn points, participate in fission activities, and engage in distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может накапливать баллы.",
+      "source": "“Users should be able to browse products, join as members, earn points, participate in fission activities, and engage in distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может участвовать в реферальных маркетинговых акциях.",
+      "source": "“Users should be able to browse products, join as members, earn points, participate in fission activities, and engage in distribution.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может участвовать в дистрибуции.",
+      "source": "“Users should be able to browse products, join as members, earn points, participate in fission activities, and engage in distribution.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Администратор может управлять участниками.",
+      "source": "“The website should have functionalities for product display, member management, point system, fission marketing, and distribution.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Внешний фон страницы имеет цвет `powder blue` (`#B0E0E6`).",
+      "source": "“Use powder blue for the outer layout and royal blue for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`).",
+      "source": "“Use powder blue for the outer layout and royal blue for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

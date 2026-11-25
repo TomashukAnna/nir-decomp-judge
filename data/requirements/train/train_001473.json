@@ -1,0 +1,79 @@
+{
+  "task_index": 1472,
+  "webgen_id": "train_001473",
+  "query": "Please implement a form tool system for generating and managing forms. The system should have functionalities for creating forms, editing forms, deleting forms, and exporting forms as Word or PDF files. Users should be able to log in, create new forms, edit existing forms, delete unnecessary forms, and export forms as Word or PDF files. Declare antique white as the global background color and sienna for all UI pieces.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, delete unnecessary forms, and export forms as Word or PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать формы.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, delete unnecessary forms, and export forms as Word or PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать формы.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, delete unnecessary forms, and export forms as Word or PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может удалять формы.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, delete unnecessary forms, and export forms as Word or PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может экспортировать форму в Word.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, delete unnecessary forms, and export forms as Word or PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может экспортировать форму в PDF.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, delete unnecessary forms, and export forms as Word or PDF files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `antique white` (`#FAEBD7`).",
+      "source": "“Declare antique white as the global background color and sienna for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Declare antique white as the global background color and sienna for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

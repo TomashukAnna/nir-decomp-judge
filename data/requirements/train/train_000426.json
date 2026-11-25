@@ -1,0 +1,124 @@
+{
+  "task_index": 425,
+  "webgen_id": "train_000426",
+  "query": "Please implement a logistics management and maintenance platform for maintaining customer business data. The platform should have functionalities such as enterprise management, personnel management, menu maintenance, business maintenance, business statistics, automatic error checking, business code maintenance, and log query. Users should be able to log in to the platform, browse and maintain customer business data, manually correct errors in script execution, and perform business statistics and log queries. Set overall background to orchid, then style components with purple.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может управлять предприятиями.",
+      "source": "“The platform should have functionalities such as enterprise management, personnel management, menu maintenance, business maintenance, business statistics, automatic error checking, business code maintenance, and log query.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может управлять персоналом.",
+      "source": "“The platform should have functionalities such as enterprise management, personnel management, menu maintenance, business maintenance, business statistics, automatic error checking, business code maintenance, and log query.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может обслуживать меню.",
+      "source": "“The platform should have functionalities such as enterprise management, personnel management, menu maintenance, business maintenance, business statistics, automatic error checking, business code maintenance, and log query.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может обслуживать бизнес-коды.",
+      "source": "“The platform should have functionalities such as enterprise management, personnel management, menu maintenance, business maintenance, business statistics, automatic error checking, business code maintenance, and log query.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна автоматически обнаруживать ошибки.",
+      "source": "“The platform should have functionalities such as enterprise management, personnel management, menu maintenance, business maintenance, business statistics, automatic error checking, business code maintenance, and log query.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in to the platform, browse and maintain customer business data, manually correct errors in script execution, and perform business statistics and log queries.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать бизнес-данные клиентов.",
+      "source": "“Users should be able to log in to the platform, browse and maintain customer business data, manually correct errors in script execution, and perform business statistics and log queries.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может поддерживать актуальность бизнес-данных клиентов.",
+      "source": "“Users should be able to log in to the platform, browse and maintain customer business data, manually correct errors in script execution, and perform business statistics and log queries.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может вручную исправлять ошибки выполнения скриптов.",
+      "source": "“Users should be able to log in to the platform, browse and maintain customer business data, manually correct errors in script execution, and perform business statistics and log queries.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать бизнес-статистику.",
+      "source": "“Users should be able to log in to the platform, browse and maintain customer business data, manually correct errors in script execution, and perform business statistics and log queries.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может выполнять запросы к журналам.",
+      "source": "“Users should be able to log in to the platform, browse and maintain customer business data, manually correct errors in script execution, and perform business statistics and log queries.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `orchid` (`#DA70D6`).",
+      "source": "“Set overall background to orchid, then style components with purple.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `purple` (`#800080`).",
+      "source": "“Set overall background to orchid, then style components with purple.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

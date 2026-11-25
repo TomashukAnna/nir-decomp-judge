@@ -1,0 +1,97 @@
+{
+  "task_index": 5449,
+  "webgen_id": "train_005450",
+  "query": "Please implement a web plugin for form validation, used to validate user-inputted form data. The plugin should support various types of form validation, including text, email, phone number, etc., and be able to automatically detect and prompt users for input errors. Additionally, the plugin should also support validation for default values of select, checkbox, and radio options. Select pale green for layout background and sea green for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна проверять текстовые значения.",
+      "source": "“The plugin should support various types of form validation, including text, email, phone number, etc., and be able to automatically detect and prompt users for input errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна проверять email.",
+      "source": "“The plugin should support various types of form validation, including text, email, phone number, etc., and be able to automatically detect and prompt users for input errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна проверять номер телефона.",
+      "source": "“The plugin should support various types of form validation, including text, email, phone number, etc., and be able to automatically detect and prompt users for input errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна автоматически обнаруживать ошибки ввода.",
+      "source": "“The plugin should support various types of form validation, including text, email, phone number, etc., and be able to automatically detect and prompt users for input errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать подсказки об ошибках.",
+      "source": "“The plugin should support various types of form validation, including text, email, phone number, etc., and be able to automatically detect and prompt users for input errors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна проверять исходное значение select.",
+      "source": "“Additionally, the plugin should also support validation for default values of select, checkbox, and radio options.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна проверять исходное значение checkbox.",
+      "source": "“Additionally, the plugin should also support validation for default values of select, checkbox, and radio options.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна проверять исходное значение radio.",
+      "source": "“Additionally, the plugin should also support validation for default values of select, checkbox, and radio options.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `pale green` (`#98FB98`).",
+      "source": "“Select pale green for layout background and sea green for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Детали компонентов имеют цвет `sea green` (`#2E8B57`).",
+      "source": "“Select pale green for layout background and sea green for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

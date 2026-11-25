@@ -1,0 +1,115 @@
+{
+  "task_index": 5399,
+  "webgen_id": "train_005400",
+  "query": "Please implement a form submission and approval system for internal company use. The system should have functionalities for filling out forms, submitting forms, and approving forms. Users should be able to log in, fill out forms, submit forms, view approval status, and edit or delete submitted forms. The system should also have role-based permission control, where administrators can manage users and approve forms. Use pale rose for the outer layout and maroon for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, fill out forms, submit forms, view approval status, and edit or delete submitted forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может заполнять формы.",
+      "source": "“Users should be able to log in, fill out forms, submit forms, view approval status, and edit or delete submitted forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять формы.",
+      "source": "“Users should be able to log in, fill out forms, submit forms, view approval status, and edit or delete submitted forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать состояние согласования.",
+      "source": "“Users should be able to log in, fill out forms, submit forms, view approval status, and edit or delete submitted forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может редактировать отправленные формы.",
+      "source": "“Users should be able to log in, fill out forms, submit forms, view approval status, and edit or delete submitted forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может удалять отправленные формы.",
+      "source": "“Users should be able to log in, fill out forms, submit forms, view approval status, and edit or delete submitted forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна проверять разрешения по ролям.",
+      "source": "“The system should also have role-based permission control, where administrators can manage users and approve forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Администратор может управлять пользователями.",
+      "source": "“The system should also have role-based permission control, where administrators can manage users and approve forms.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Администратор может согласовывать формы.",
+      "source": "“The system should also have role-based permission control, where administrators can manage users and approve forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна запрещать согласование форм пользователям без соответствующего разрешения.",
+      "source": "“The system should also have role-based permission control, where administrators can manage users and approve forms.”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Внешний фон страницы имеет цвет `pale rose`.",
+      "source": "“Use pale rose for the outer layout and maroon for UI blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Use pale rose for the outer layout and maroon for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

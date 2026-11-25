@@ -1,0 +1,70 @@
+{
+  "task_index": 2677,
+  "webgen_id": "train_002678",
+  "query": "Please implement a website that displays local business discount information. The website should have functionalities for displaying business information, discount details, navigation, and contacting businesses. Users should be able to browse the business list, view discount information, use the one-click navigation feature to navigate to the business location, and directly contact the business. Set the background color to pink and the component color to deeppink.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать список местных компаний.",
+      "source": "“Users should be able to browse the business list, view discount information, use the one-click navigation feature to navigate to the business location, and directly contact the business.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать сведения о скидках.",
+      "source": "“Users should be able to browse the business list, view discount information, use the one-click navigation feature to navigate to the business location, and directly contact the business.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может запускать навигацию к компании одним действием.",
+      "source": "“Users should be able to browse the business list, view discount information, use the one-click navigation feature to navigate to the business location, and directly contact the business.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может связываться с компанией напрямую.",
+      "source": "“Users should be able to browse the business list, view discount information, use the one-click navigation feature to navigate to the business location, and directly contact the business.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать сведения о компаниях.",
+      "source": "“The website should have functionalities for displaying business information, discount details, navigation, and contacting businesses.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `pink` (`#FFC0CB`).",
+      "source": "“Set the background color to pink and the component color to deeppink.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `deeppink` (`#FF1493`).",
+      "source": "“Set the background color to pink and the component color to deeppink.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

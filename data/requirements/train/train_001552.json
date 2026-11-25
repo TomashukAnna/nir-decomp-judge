@@ -1,0 +1,115 @@
+{
+  "task_index": 1551,
+  "webgen_id": "train_001552",
+  "query": "Please implement an instant messaging website for sending text, images, locations, and other messages. The website should have functionalities for sending text messages, image messages, location messages, and order card messages. Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards. Apply cotton to the canvas background and maroon to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может общаться с другими пользователями в реальном времени.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять текст.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может получать текст.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отправлять изображения.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может получать изображения.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отправлять геопозицию.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может получать геопозицию.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может отправлять карточки заказов.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может получать карточки заказов.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending and receiving various types of messages, including text, images, locations, and order cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Фон рабочей области имеет цвет `cotton`.",
+      "source": "“Apply cotton to the canvas background and maroon to all visible components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Apply cotton to the canvas background and maroon to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

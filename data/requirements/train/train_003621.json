@@ -1,0 +1,115 @@
+{
+  "task_index": 3620,
+  "webgen_id": "train_003621",
+  "query": "Please implement a Digimon e-commerce platform for online shopping of daily necessities, books, clothing, shoes, toys, software, records, home appliances, and other products. The platform should have functions for browsing products, adding to cart, placing orders, making payments, and checking order status. Users should be able to register and log in, manage personal information, view consumption records, and evaluate products. Set page background to light salmon; color all components with coral.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“The platform should have functions for browsing products, adding to cart, placing orders, making payments, and checking order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может добавлять товары в корзину.",
+      "source": "“The platform should have functions for browsing products, adding to cart, placing orders, making payments, and checking order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“The platform should have functions for browsing products, adding to cart, placing orders, making payments, and checking order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оплачивать заказы.",
+      "source": "“The platform should have functions for browsing products, adding to cart, placing orders, making payments, and checking order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может проверять состояние заказа.",
+      "source": "“The platform should have functions for browsing products, adding to cart, placing orders, making payments, and checking order status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register and log in, manage personal information, view consumption records, and evaluate products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register and log in, manage personal information, view consumption records, and evaluate products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять персональной информацией.",
+      "source": "“Users should be able to register and log in, manage personal information, view consumption records, and evaluate products.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать историю покупок.",
+      "source": "“Users should be able to register and log in, manage personal information, view consumption records, and evaluate products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может оценивать товары.",
+      "source": "“Users should be able to register and log in, manage personal information, view consumption records, and evaluate products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`).",
+      "source": "“Set page background to light salmon; color all components with coral.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Все компоненты интерфейса имеют цвет `coral` (`#FF7F50`).",
+      "source": "“Set page background to light salmon; color all components with coral.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

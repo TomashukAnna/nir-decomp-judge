@@ -1,0 +1,97 @@
+{
+  "task_index": 4710,
+  "webgen_id": "train_004711",
+  "query": "Please implement a web-based database migration tool for managing and executing database migration operations. The tool should allow users to create, edit, and execute migration scripts, manage database versions, and view migration history. It should also have user login and permission management features to ensure that only authorized users can perform migration operations. Choose light sky blue for the background; set all component colors to deepskyblue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать скрипты миграции.",
+      "source": "“The tool should allow users to create, edit, and execute migration scripts, manage database versions, and view migration history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может редактировать скрипты миграции.",
+      "source": "“The tool should allow users to create, edit, and execute migration scripts, manage database versions, and view migration history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может выполнять скрипты миграции.",
+      "source": "“The tool should allow users to create, edit, and execute migration scripts, manage database versions, and view migration history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может управлять версиями базы.",
+      "source": "“The tool should allow users to create, edit, and execute migration scripts, manage database versions, and view migration history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать историю миграций.",
+      "source": "“The tool should allow users to create, edit, and execute migration scripts, manage database versions, and view migration history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“It should also have user login and permission management features to ensure that only authorized users can perform migration operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять управление разрешениями.",
+      "source": "“It should also have user login and permission management features to ensure that only authorized users can perform migration operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна разрешать миграции только авторизованным пользователям.",
+      "source": "“It should also have user login and permission management features to ensure that only authorized users can perform migration operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `light sky blue` (`#87CEFA`).",
+      "source": "“Choose light sky blue for the background; set all component colors to deepskyblue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `deepskyblue` (`#00BFFF`).",
+      "source": "“Choose light sky blue for the background; set all component colors to deepskyblue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

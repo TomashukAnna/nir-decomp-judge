@@ -1,0 +1,106 @@
+{
+  "task_index": 6595,
+  "webgen_id": "train_006596",
+  "query": "Please implement an online platform that supports 360-degree videos for uploading, sharing, and rating. The platform should have functionalities for video uploading, sharing, rating, user account and profile creation, and a commenting system. Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information. Define background as amber; define components with chocolate.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может загружать собственные видео 360°.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может делиться видео 360°.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оценивать видео других пользователей.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может комментировать видео других пользователей.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять профилем.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять сведениями учётной записи.",
+      "source": "“Users should be able to register and log in to the platform, upload and share their own 360-degree videos, rate and comment on other users' videos, and manage their own profiles and account information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна поддерживать воспроизведение видео 360°.",
+      "source": "“Please implement an online platform that supports 360-degree videos for uploading, sharing, and rating.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `amber`.",
+      "source": "“Define background as amber; define components with chocolate.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Define background as amber; define components with chocolate.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "task_index": 4855,
+  "webgen_id": "train_004856",
+  "query": "Please implement a PHP application tracking and diagnostic tool to track and diagnose the running status of PHP applications. The tool should be able to display diagnostic results, including file, function, and calling function information. Users can run the tool to view diagnostic results and understand the application's running status. Use a dust white background and apply forest green to the UI components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна отслеживать работу PHP-приложения.",
+      "source": "“Please implement a PHP application tracking and diagnostic tool to track and diagnose the running status of PHP applications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна диагностировать состояние PHP-приложения.",
+      "source": "“Please implement a PHP application tracking and diagnostic tool to track and diagnose the running status of PHP applications.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна отображать результат диагностики.",
+      "source": "“The tool should be able to display diagnostic results, including file, function, and calling function information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Система должна показывать информацию о файлах.",
+      "source": "“The tool should be able to display diagnostic results, including file, function, and calling function information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Система должна показывать информацию о функциях.",
+      "source": "“The tool should be able to display diagnostic results, including file, function, and calling function information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.3",
+      "criteria": "Система должна показывать информацию о вызывающих функциях.",
+      "source": "“The tool should be able to display diagnostic results, including file, function, and calling function information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может запускать инструмент диагностики.",
+      "source": "“Users can run the tool to view diagnostic results and understand the application's running status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать результаты диагностики.",
+      "source": "“Users can run the tool to view diagnostic results and understand the application's running status.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `dust white`.",
+      "source": "“Use a dust white background and apply forest green to the UI components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `forest green` (`#228B22`).",
+      "source": "“Use a dust white background and apply forest green to the UI components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

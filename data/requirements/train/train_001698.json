@@ -1,0 +1,70 @@
+{
+  "task_index": 1697,
+  "webgen_id": "train_001698",
+  "query": "Please create a traffic website that provides traffic information and services. The website should have functionalities for real-time traffic updates, route planning, and traffic news. Users should be able to browse traffic information, plan routes, and get traffic-related news and alerts. Use gainsboro for the outer layout and dark slate blue for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна обновлять дорожную информацию в реальном времени.",
+      "source": "“The website should have functionalities for real-time traffic updates, route planning, and traffic news.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать дорожную информацию.",
+      "source": "“Users should be able to browse traffic information, plan routes, and get traffic-related news and alerts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может планировать маршруты.",
+      "source": "“Users should be able to browse traffic information, plan routes, and get traffic-related news and alerts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может получать дорожные новости.",
+      "source": "“Users should be able to browse traffic information, plan routes, and get traffic-related news and alerts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может получать дорожные предупреждения.",
+      "source": "“Users should be able to browse traffic information, plan routes, and get traffic-related news and alerts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Внешний фон страницы имеет цвет `gainsboro` (`#DCDCDC`).",
+      "source": "“Use gainsboro for the outer layout and dark slate blue for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate blue` (`#483D8B`).",
+      "source": "“Use gainsboro for the outer layout and dark slate blue for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

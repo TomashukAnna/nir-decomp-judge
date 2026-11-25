@@ -1,0 +1,133 @@
+{
+  "task_index": 3917,
+  "webgen_id": "train_003918",
+  "query": "Please implement a map-based pet transportation platform website that connects service providers with clients. The website should have user login functionality, allowing clients and transporters to insert key information. The website should also have a map feature, recommending suitable transporters to clients based on their information. Clients should be able to browse transporter information, compare prices and services, and choose a suitable transporter. Transporters should be able to browse client requests, submit quotes, and manage their own orders. Style the layout with light yellow in the background and dark khaki for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“The website should have user login functionality, allowing clients and transporters to insert key information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Клиент может вводить сведения, необходимые для перевозки.",
+      "source": "“The website should have user login functionality, allowing clients and transporters to insert key information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Поставщик услуг может вводить сведения о перевозчике.",
+      "source": "“The website should have user login functionality, allowing clients and transporters to insert key information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна показывать карту.",
+      "source": "“The website should also have a map feature, recommending suitable transporters to clients based on their information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна рекомендовать подходящих перевозчиков на основе данных клиента.",
+      "source": "“The website should also have a map feature, recommending suitable transporters to clients based on their information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Клиент может просматривать сведения о перевозчиках.",
+      "source": "“Clients should be able to browse transporter information, compare prices and services, and choose a suitable transporter.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Клиент может сравнивать цены.",
+      "source": "“Clients should be able to browse transporter information, compare prices and services, and choose a suitable transporter.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Клиент может сравнивать услуги.",
+      "source": "“Clients should be able to browse transporter information, compare prices and services, and choose a suitable transporter.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Клиент может выбирать перевозчика.",
+      "source": "“Clients should be able to browse transporter information, compare prices and services, and choose a suitable transporter.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Поставщик услуг может просматривать запросы клиентов.",
+      "source": "“Transporters should be able to browse client requests, submit quotes, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Поставщик услуг может отправлять ценовые предложения.",
+      "source": "“Transporters should be able to browse client requests, submit quotes, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Поставщик услуг может управлять собственными заказами.",
+      "source": "“Transporters should be able to browse client requests, submit quotes, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`).",
+      "source": "“Style the layout with light yellow in the background and dark khaki for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`).",
+      "source": "“Style the layout with light yellow in the background and dark khaki for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

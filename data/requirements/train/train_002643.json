@@ -1,0 +1,106 @@
+{
+  "task_index": 2642,
+  "webgen_id": "train_002643",
+  "query": "Please implement a web application based on static web pages to display and manage data. The application should have functionalities such as data rendering, dynamic style rendering, data caching, page performance optimization, and browser compatibility resolution. Users should be able to browse and manage data, and the application should be able to render and update data based on the API interfaces provided by the backend. Use light yellow in the background layer and dark khaki for the component layer.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна строить приложение на основе статических веб-страниц.",
+      "source": "“Please implement a web application based on static web pages to display and manage data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна динамически отображать стили.",
+      "source": "“The application should have functionalities such as data rendering, dynamic style rendering, data caching, page performance optimization, and browser compatibility resolution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна кэшировать данные.",
+      "source": "“The application should have functionalities such as data rendering, dynamic style rendering, data caching, page performance optimization, and browser compatibility resolution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна оптимизировать производительность страниц.",
+      "source": "“The application should have functionalities such as data rendering, dynamic style rendering, data caching, page performance optimization, and browser compatibility resolution.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна разрешать проблемы совместимости браузеров.",
+      "source": "“The application should have functionalities such as data rendering, dynamic style rendering, data caching, page performance optimization, and browser compatibility resolution.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать данные.",
+      "source": "“Users should be able to browse and manage data, and the application should be able to render and update data based on the API interfaces provided by the backend.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять данными.",
+      "source": "“Users should be able to browse and manage data, and the application should be able to render and update data based on the API interfaces provided by the backend.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна отображать данные через API бэкенда.",
+      "source": "“Users should be able to browse and manage data, and the application should be able to render and update data based on the API interfaces provided by the backend.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна обновлять данные через API бэкенда.",
+      "source": "“Users should be able to browse and manage data, and the application should be able to render and update data based on the API interfaces provided by the backend.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`).",
+      "source": "“Use light yellow in the background layer and dark khaki for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`).",
+      "source": "“Use light yellow in the background layer and dark khaki for the component layer.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

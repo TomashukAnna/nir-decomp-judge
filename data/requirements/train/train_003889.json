@@ -1,0 +1,151 @@
+{
+  "task_index": 3888,
+  "webgen_id": "train_003889",
+  "query": "Please implement a multi-tenant ordering system for store management and online ordering and cashier functions. The system should have functionalities such as store location, shopping cart, appointment, payment, and order status viewing. Users should be able to log in, browse menus, place orders, make appointments, and pay. The system should also have store management functions, including basic data configuration, staff management, and transaction settlement. Additionally, the system should have operational management functions, including merchant management and operational reports. Use light beige for the background and sienna for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать раздельное обслуживание нескольких арендаторов.",
+      "source": "“Please implement a multi-tenant ordering system for store management and online ordering and cashier functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать расположение магазинов.",
+      "source": "“The system should have functionalities such as store location, shopping cart, appointment, payment, and order status viewing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может пользоваться корзиной.",
+      "source": "“The system should have functionalities such as store location, shopping cart, appointment, payment, and order status viewing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать состояние заказа.",
+      "source": "“The system should have functionalities such as store location, shopping cart, appointment, payment, and order status viewing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse menus, place orders, make appointments, and pay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать меню.",
+      "source": "“Users should be able to log in, browse menus, place orders, make appointments, and pay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users should be able to log in, browse menus, place orders, make appointments, and pay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может записываться на обслуживание.",
+      "source": "“Users should be able to log in, browse menus, place orders, make appointments, and pay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может оплачивать заказы.",
+      "source": "“Users should be able to log in, browse menus, place orders, make appointments, and pay.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Администратор может настраивать основные данные магазинов.",
+      "source": "“The system should also have store management functions, including basic data configuration, staff management, and transaction settlement.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может управлять сотрудниками.",
+      "source": "“The system should also have store management functions, including basic data configuration, staff management, and transaction settlement.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Администратор может выполнять взаиморасчёты по операциям.",
+      "source": "“The system should also have store management functions, including basic data configuration, staff management, and transaction settlement.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Администратор может управлять продавцами.",
+      "source": "“Additionally, the system should have operational management functions, including merchant management and operational reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Администратор может просматривать операционные отчёты.",
+      "source": "“Additionally, the system should have operational management functions, including merchant management and operational reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Основной фон интерфейса имеет цвет `light beige`.",
+      "source": "“Use light beige for the background and sienna for components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Use light beige for the background and sienna for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

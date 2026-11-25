@@ -1,0 +1,133 @@
+{
+  "task_index": 6000,
+  "webgen_id": "train_006001",
+  "query": "Please implement an interactive story creation platform for making and sharing interactive stories. The platform should have a user-friendly design and support a variety of content types, such as photos, videos, maps, polls, and more. Users should be able to create, edit, and manage their own interactive stories and easily embed them into other websites. The platform should support multiple media formats, including images, audio, and video, and allow for the addition of interactive elements, such as buttons and links. Set the background color to thistle and the component color to medium purple.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять удобный интерфейс.",
+      "source": "“The platform should have a user-friendly design and support a variety of content types, such as photos, videos, maps, polls, and more.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать фотографии.",
+      "source": "“The platform should have a user-friendly design and support a variety of content types, such as photos, videos, maps, polls, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать видео.",
+      "source": "“The platform should have a user-friendly design and support a variety of content types, such as photos, videos, maps, polls, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать карты.",
+      "source": "“The platform should have a user-friendly design and support a variety of content types, such as photos, videos, maps, polls, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна поддерживать опросы.",
+      "source": "“The platform should have a user-friendly design and support a variety of content types, such as photos, videos, maps, polls, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может создавать интерактивные истории.",
+      "source": "“Users should be able to create, edit, and manage their own interactive stories and easily embed them into other websites.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может редактировать интерактивные истории.",
+      "source": "“Users should be able to create, edit, and manage their own interactive stories and easily embed them into other websites.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять собственными интерактивными историями.",
+      "source": "“Users should be able to create, edit, and manage their own interactive stories and easily embed them into other websites.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может встраивать истории в другие сайты.",
+      "source": "“Users should be able to create, edit, and manage their own interactive stories and easily embed them into other websites.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может добавлять аудио.",
+      "source": "“The platform should support multiple media formats, including images, audio, and video, and allow for the addition of interactive elements, such as buttons and links.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может добавлять кнопки.",
+      "source": "“The platform should support multiple media formats, including images, audio, and video, and allow for the addition of interactive elements, such as buttons and links.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может добавлять ссылки.",
+      "source": "“The platform should support multiple media formats, including images, audio, and video, and allow for the addition of interactive elements, such as buttons and links.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `thistle` (`#D8BFD8`).",
+      "source": "“Set the background color to thistle and the component color to medium purple.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `medium purple` (`#9370DB`).",
+      "source": "“Set the background color to thistle and the component color to medium purple.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

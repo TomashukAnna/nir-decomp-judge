@@ -1,0 +1,99 @@
+{
+  "task_index": 6353,
+  "webgen_id": "train_006354",
+  "query": "Please implement an online learning platform for selling online money-making courses. Teachers can upload YouTube videos, and students can watch videos without registering. After registering, students can offer services to other students who cannot complete the course steps. Students can browse ads below or beside the video, click on them, and start chatting with the students offering services. Teachers can receive payments. Use faint gray as the default background and slate gray for component styling.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Преподаватель может загружать видео YouTube.",
+      "source": "“Teachers can upload YouTube videos, and students can watch videos without registering.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Учащийся может смотреть видео без регистрации.",
+      "source": "“Teachers can upload YouTube videos, and students can watch videos without registering.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Учащийся может зарегистрироваться.",
+      "source": "“After registering, students can offer services to other students who cannot complete the course steps.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Учащийся может предлагать другим учащимся помощь с выполнением шагов курса.",
+      "source": "“After registering, students can offer services to other students who cannot complete the course steps.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R3"
+      ]
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать объявления снизу или сбоку от видео.",
+      "source": "“Students can browse ads below or beside the video, click on them, and start chatting with the students offering services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Учащийся может открывать объявление.",
+      "source": "“Students can browse ads below or beside the video, click on them, and start chatting with the students offering services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Учащийся может начинать чат с учащимся, предлагающим услугу.",
+      "source": "“Students can browse ads below or beside the video, click on them, and start chatting with the students offering services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Преподаватель может получать оплату.",
+      "source": "“Teachers can receive payments.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `faint gray`.",
+      "source": "“Use faint gray as the default background and slate gray for component styling.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `slate gray` (`#708090`).",
+      "source": "“Use faint gray as the default background and slate gray for component styling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

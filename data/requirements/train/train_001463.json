@@ -1,0 +1,115 @@
+{
+  "task_index": 1462,
+  "webgen_id": "train_001463",
+  "query": "Please implement a website that generates XML-based forms. The website should have functionalities for creating, editing, and managing forms. Users should be able to log in, create new forms, edit existing forms, and manage created forms. Forms should support various field types, including text, selection, and date, among others. Users should be able to customize the layout and style of forms according to their needs. Color the background using faint peach and set component styles to coral.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна генерировать формы на основе XML.",
+      "source": "“Please implement a website that generates XML-based forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, and manage created forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать формы.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, and manage created forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать формы.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, and manage created forms.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять созданными формами.",
+      "source": "“Users should be able to log in, create new forms, edit existing forms, and manage created forms.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна поддерживать текстовые поля.",
+      "source": "“Forms should support various field types, including text, selection, and date, among others.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать поля выбора.",
+      "source": "“Forms should support various field types, including text, selection, and date, among others.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать поля даты.",
+      "source": "“Forms should support various field types, including text, selection, and date, among others.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может настраивать расположение формы.",
+      "source": "“Users should be able to customize the layout and style of forms according to their needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может настраивать оформление формы.",
+      "source": "“Users should be able to customize the layout and style of forms according to their needs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `faint peach`.",
+      "source": "“Color the background using faint peach and set component styles to coral.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `coral` (`#FF7F50`).",
+      "source": "“Color the background using faint peach and set component styles to coral.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

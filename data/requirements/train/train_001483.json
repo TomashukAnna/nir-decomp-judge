@@ -1,0 +1,90 @@
+{
+  "task_index": 1482,
+  "webgen_id": "train_001483",
+  "query": "Please implement a website that can automatically generate web forms based on JSON data. The website should have the functionality to generate forms based on JSON-formatted data, allowing users to input JSON data and automatically generate the corresponding form. The form should support various types of input fields, such as text, select, and checkbox. Users should be able to submit the form, and the website should be able to process the form data. Implement moccasin for the page background and sandy brown for the elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить JSON-конфигурацию.",
+      "source": "“The website should have the functionality to generate forms based on JSON-formatted data, allowing users to input JSON data and automatically generate the corresponding form.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна автоматически создавать форму по JSON-конфигурации.",
+      "source": "“The website should have the functionality to generate forms based on JSON-formatted data, allowing users to input JSON data and automatically generate the corresponding form.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать текстовые поля.",
+      "source": "“The form should support various types of input fields, such as text, select, and checkbox.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать списки выбора.",
+      "source": "“The form should support various types of input fields, such as text, select, and checkbox.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна поддерживать флажки.",
+      "source": "“The form should support various types of input fields, such as text, select, and checkbox.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять форму.",
+      "source": "“Users should be able to submit the form, and the website should be able to process the form data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R2"
+      ]
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна обрабатывать отправленные данные формы.",
+      "source": "“Users should be able to submit the form, and the website should be able to process the form data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `moccasin` (`#FFE4B5`).",
+      "source": "“Implement moccasin for the page background and sandy brown for the elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `sandy brown` (`#F4A460`).",
+      "source": "“Implement moccasin for the page background and sandy brown for the elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

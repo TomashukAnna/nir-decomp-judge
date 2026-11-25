@@ -1,0 +1,70 @@
+{
+  "task_index": 786,
+  "webgen_id": "train_000787",
+  "query": "Please implement an audiobook file editing website for merging and splitting audiobook files. The website should have functionalities for merging, splitting, and editing audiobook files. Users should be able to upload audiobook files, select merge or split options, edit file chapters, and download the edited files. Establish faint peach as the main background and coral for the controls.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может загружать файлы аудиокниг.",
+      "source": "“Users should be able to upload audiobook files, select merge or split options, edit file chapters, and download the edited files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может объединять аудиокниги.",
+      "source": "“Users should be able to upload audiobook files, select merge or split options, edit file chapters, and download the edited files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может разделять аудиокниги.",
+      "source": "“Users should be able to upload audiobook files, select merge or split options, edit file chapters, and download the edited files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать главы.",
+      "source": "“Users should be able to upload audiobook files, select merge or split options, edit file chapters, and download the edited files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может скачивать изменённые файлы.",
+      "source": "“Users should be able to upload audiobook files, select merge or split options, edit file chapters, and download the edited files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `faint peach`.",
+      "source": "“Establish faint peach as the main background and coral for the controls.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Элементы управления имеют цвет `coral` (`#FF7F50`).",
+      "source": "“Establish faint peach as the main background and coral for the controls.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

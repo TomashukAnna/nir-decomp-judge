@@ -1,0 +1,90 @@
+{
+  "task_index": 90,
+  "webgen_id": "train_000091",
+  "query": "Please implement a website that converts Figma designs to Wordpress Elementor templates. The website should have functionalities for uploading Figma design files, converting them to Elementor templates, and downloading the converted templates. Users should be able to register and log in to the website, upload their own Figma design files, select conversion options, download the converted Elementor templates, and manage their conversion history. Initialize the background color with mint and component color with dark sea green.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна преобразовывать файл Figma в шаблон Elementor для WordPress.",
+      "source": "“The website should have functionalities for uploading Figma design files, converting them to Elementor templates, and downloading the converted templates.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register and log in to the website, upload their own Figma design files, select conversion options, download the converted Elementor templates, and manage their conversion history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register and log in to the website, upload their own Figma design files, select conversion options, download the converted Elementor templates, and manage their conversion history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может загружать файлы Figma.",
+      "source": "“Users should be able to register and log in to the website, upload their own Figma design files, select conversion options, download the converted Elementor templates, and manage their conversion history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может выбирать параметры преобразования.",
+      "source": "“Users should be able to register and log in to the website, upload their own Figma design files, select conversion options, download the converted Elementor templates, and manage their conversion history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может скачивать шаблоны Elementor.",
+      "source": "“Users should be able to register and log in to the website, upload their own Figma design files, select conversion options, download the converted Elementor templates, and manage their conversion history.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": [
+        "R1"
+      ]
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять историей преобразований.",
+      "source": "“Users should be able to register and log in to the website, upload their own Figma design files, select conversion options, download the converted Elementor templates, and manage their conversion history.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `mint`.",
+      "source": "“Initialize the background color with mint and component color with dark sea green.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `dark sea green` (`#8FBC8F`).",
+      "source": "“Initialize the background color with mint and component color with dark sea green.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

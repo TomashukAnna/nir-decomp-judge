@@ -1,0 +1,115 @@
+{
+  "task_index": 3079,
+  "webgen_id": "train_003080",
+  "query": "Please implement a WeChat mall mini-program for selling products and providing user services. The mini-program should have functionalities for browsing products, user management, coupon management, and order management. Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons. Use mint as the default background and dark sea green for component styling.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять управление пользователями.",
+      "source": "“The mini-program should have functionalities for browsing products, user management, coupon management, and order management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление купонами.",
+      "source": "“The mini-program should have functionalities for browsing products, user management, coupon management, and order management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять управление заказами.",
+      "source": "“The mini-program should have functionalities for browsing products, user management, coupon management, and order management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может добавлять товары в корзину.",
+      "source": "“Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать состояние заказа.",
+      "source": "“Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может управлять персональной информацией.",
+      "source": "“Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может получать купоны.",
+      "source": "“Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может применять купоны.",
+      "source": "“Users should be able to browse products, add products to their shopping cart, place orders, view order status, manage their personal information, and receive and use coupons.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `mint`.",
+      "source": "“Use mint as the default background and dark sea green for component styling.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `dark sea green` (`#8FBC8F`).",
+      "source": "“Use mint as the default background and dark sea green for component styling.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

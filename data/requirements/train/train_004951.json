@@ -1,0 +1,61 @@
+{
+  "task_index": 4950,
+  "webgen_id": "train_004951",
+  "query": "Please implement a lost and found system for publishing and managing lost item information. The system should have functionalities for posting lost item information, searching for lost items, and claiming lost items. Users should be able to log in, post their own lost item information, search for already posted lost item information, and claim their lost items. Implement styling with melon for the background and tomato for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, post their own lost item information, search for already posted lost item information, and claim their lost items.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может публиковать сведения о потерянных вещах.",
+      "source": "“Users should be able to log in, post their own lost item information, search for already posted lost item information, and claim their lost items.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может искать опубликованные объявления.",
+      "source": "“Users should be able to log in, post their own lost item information, search for already posted lost item information, and claim their lost items.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может заявлять права на найденную вещь.",
+      "source": "“Users should be able to log in, post their own lost item information, search for already posted lost item information, and claim their lost items.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Основной фон интерфейса имеет цвет `melon`.",
+      "source": "“Implement styling with melon for the background and tomato for components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Компоненты интерфейса имеют цвет `tomato` (`#FF6347`).",
+      "source": "“Implement styling with melon for the background and tomato for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

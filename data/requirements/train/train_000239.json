@@ -1,0 +1,79 @@
+{
+  "task_index": 238,
+  "webgen_id": "train_000239",
+  "query": "Please implement a Whac-A-Mole mini-program for mobile users' entertainment. The mini-program should have functionalities such as mobile authorization login, sending red packets, and playing Whac-A-Mole. Users should be able to log in to the mini-program, participate in the Whac-A-Mole game, receive rewards, send red packets to other users, and view their game records. Color the background using amber and set component styles to chocolate.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать вход с мобильной авторизацией.",
+      "source": "“The mini-program should have functionalities such as mobile authorization login, sending red packets, and playing Whac-A-Mole.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в мини-приложение.",
+      "source": "“Users should be able to log in to the mini-program, participate in the Whac-A-Mole game, receive rewards, send red packets to other users, and view their game records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может играть в «Ударь крота».",
+      "source": "“Users should be able to log in to the mini-program, participate in the Whac-A-Mole game, receive rewards, send red packets to other users, and view their game records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может получать игровые награды.",
+      "source": "“Users should be able to log in to the mini-program, participate in the Whac-A-Mole game, receive rewards, send red packets to other users, and view their game records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отправлять другим пользователям подарочные конверты.",
+      "source": "“Users should be able to log in to the mini-program, participate in the Whac-A-Mole game, receive rewards, send red packets to other users, and view their game records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать игровые записи.",
+      "source": "“Users should be able to log in to the mini-program, participate in the Whac-A-Mole game, receive rewards, send red packets to other users, and view their game records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `amber`.",
+      "source": "“Color the background using amber and set component styles to chocolate.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Color the background using amber and set component styles to chocolate.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

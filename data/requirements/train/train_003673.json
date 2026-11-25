@@ -1,0 +1,79 @@
+{
+  "task_index": 3672,
+  "webgen_id": "train_003673",
+  "query": "Please implement an office supplies mall website for selling office supplies. The website should have functionalities for browsing products, searching, shopping cart, placing orders, and order management. Users should be able to log in, browse office supplies, search for specific products, add items to the shopping cart, place orders for selected items, and manage their own orders. Configure all backgrounds with buttermilk and all components with peru.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse office supplies, search for specific products, add items to the shopping cart, place orders for selected items, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать канцелярские товары.",
+      "source": "“Users should be able to log in, browse office supplies, search for specific products, add items to the shopping cart, place orders for selected items, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может искать нужные товары.",
+      "source": "“Users should be able to log in, browse office supplies, search for specific products, add items to the shopping cart, place orders for selected items, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может добавлять товары в корзину.",
+      "source": "“Users should be able to log in, browse office supplies, search for specific products, add items to the shopping cart, place orders for selected items, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users should be able to log in, browse office supplies, search for specific products, add items to the shopping cart, place orders for selected items, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять собственными заказами.",
+      "source": "“Users should be able to log in, browse office supplies, search for specific products, add items to the shopping cart, place orders for selected items, and manage their own orders.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Все фоновые области имеют цвет `buttermilk`.",
+      "source": "“Configure all backgrounds with buttermilk and all components with peru.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Все компоненты интерфейса имеют цвет `peru` (`#CD853F`).",
+      "source": "“Configure all backgrounds with buttermilk and all components with peru.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

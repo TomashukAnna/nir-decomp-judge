@@ -1,0 +1,187 @@
+{
+  "task_index": 971,
+  "webgen_id": "train_000972",
+  "query": "Please implement a cloud note website for recording and managing notes and tasks. The website should have task management functionality, including adding new tasks, modifying tasks, deleting tasks, and setting tasks as top priority. At the same time, the website should have note management functionality, including adding new notes, modifying notes, deleting notes, and using a built-in rich text editor. Users should be able to register and log in with their email accounts, change their passwords, and collect and share notes. The website should also have a recycle bin feature, allowing users to permanently delete or restore deleted notes and tasks. Set all pages to have a feather white background and dark green components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может добавлять задачи.",
+      "source": "“The website should have task management functionality, including adding new tasks, modifying tasks, deleting tasks, and setting tasks as top priority.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может изменять задачи.",
+      "source": "“The website should have task management functionality, including adding new tasks, modifying tasks, deleting tasks, and setting tasks as top priority.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может удалять задачи.",
+      "source": "“The website should have task management functionality, including adding new tasks, modifying tasks, deleting tasks, and setting tasks as top priority.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может устанавливать высший приоритет задачи.",
+      "source": "“The website should have task management functionality, including adding new tasks, modifying tasks, deleting tasks, and setting tasks as top priority.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может добавлять заметки.",
+      "source": "“At the same time, the website should have note management functionality, including adding new notes, modifying notes, deleting notes, and using a built-in rich text editor.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может изменять заметки.",
+      "source": "“At the same time, the website should have note management functionality, including adding new notes, modifying notes, deleting notes, and using a built-in rich text editor.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может удалять заметки.",
+      "source": "“At the same time, the website should have note management functionality, including adding new notes, modifying notes, deleting notes, and using a built-in rich text editor.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может редактировать заметки встроенным редактором форматированного текста.",
+      "source": "“At the same time, the website should have note management functionality, including adding new notes, modifying notes, deleting notes, and using a built-in rich text editor.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может регистрироваться с email.",
+      "source": "“Users should be able to register and log in with their email accounts, change their passwords, and collect and share notes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может входить с email.",
+      "source": "“Users should be able to register and log in with their email accounts, change their passwords, and collect and share notes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может менять пароль.",
+      "source": "“Users should be able to register and log in with their email accounts, change their passwords, and collect and share notes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может сохранять заметки в избранное.",
+      "source": "“Users should be able to register and log in with their email accounts, change their passwords, and collect and share notes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может делиться заметками.",
+      "source": "“Users should be able to register and log in with their email accounts, change their passwords, and collect and share notes.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Пользователь может открывать корзину удалённых объектов.",
+      "source": "“The website should also have a recycle bin feature, allowing users to permanently delete or restore deleted notes and tasks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Пользователь может окончательно удалять заметки из корзины.",
+      "source": "“The website should also have a recycle bin feature, allowing users to permanently delete or restore deleted notes and tasks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Пользователь может восстанавливать заметки.",
+      "source": "“The website should also have a recycle bin feature, allowing users to permanently delete or restore deleted notes and tasks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Пользователь может окончательно удалять задачи из корзины.",
+      "source": "“The website should also have a recycle bin feature, allowing users to permanently delete or restore deleted notes and tasks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R18",
+      "criteria": "Пользователь может восстанавливать задачи.",
+      "source": "“The website should also have a recycle bin feature, allowing users to permanently delete or restore deleted notes and tasks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R19",
+      "criteria": "Фон всех страниц имеет цвет `feather white`.",
+      "source": "“Set all pages to have a feather white background and dark green components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R20",
+      "criteria": "Компоненты интерфейса имеют цвет `dark green` (`#006400`).",
+      "source": "“Set all pages to have a feather white background and dark green components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

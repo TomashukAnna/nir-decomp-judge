@@ -1,0 +1,97 @@
+{
+  "task_index": 5396,
+  "webgen_id": "train_005397",
+  "query": "Please implement a network application for rapid development of high-performance protocol servers and clients. The application should have asynchronous event-driven functionality, support cross-platform development, and enable rapid development and maintenance of reliable network services. Users should be able to use the application to create custom protocol servers and clients, achieving high-performance data transfer and processing. Implement styling with frost white for the background and charcoal for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать асинхронную событийную модель.",
+      "source": "“The application should have asynchronous event-driven functionality, support cross-platform development, and enable rapid development and maintenance of reliable network services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать кроссплатформенную разработку.",
+      "source": "“The application should have asynchronous event-driven functionality, support cross-platform development, and enable rapid development and maintenance of reliable network services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна обеспечивать надёжные сетевые сервисы.",
+      "source": "“The application should have asynchronous event-driven functionality, support cross-platform development, and enable rapid development and maintenance of reliable network services.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна обеспечивать быстрое создание и обслуживание сетевых сервисов.",
+      "source": "“The application should have asynchronous event-driven functionality, support cross-platform development, and enable rapid development and maintenance of reliable network services.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Разработчик может создавать серверы пользовательских протоколов.",
+      "source": "“Users should be able to use the application to create custom protocol servers and clients, achieving high-performance data transfer and processing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Разработчик может создавать клиентов пользовательских протоколов.",
+      "source": "“Users should be able to use the application to create custom protocol servers and clients, achieving high-performance data transfer and processing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна обеспечивать высокую производительность передачи данных.",
+      "source": "“Users should be able to use the application to create custom protocol servers and clients, achieving high-performance data transfer and processing.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна обеспечивать высокую производительность обработки данных.",
+      "source": "“Users should be able to use the application to create custom protocol servers and clients, achieving high-performance data transfer and processing.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `frost white`.",
+      "source": "“Implement styling with frost white for the background and charcoal for components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `charcoal`.",
+      "source": "“Implement styling with frost white for the background and charcoal for components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

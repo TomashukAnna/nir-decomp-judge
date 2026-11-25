@@ -1,0 +1,97 @@
+{
+  "task_index": 500,
+  "webgen_id": "train_000501",
+  "query": "Please implement a job hunting and bounty hunter mini-program for the interaction between job seekers, bounty hunters, and enterprise owners. Job seekers can browse job postings from enterprises, bounty hunters can receive bounty announcements from enterprise owners, and enterprise owners can post bounties based on job positions. Users can register and log in to the mini-program, view their personal information, edit their profiles, and engage in messaging. Set the background to feather white, and apply dark green to components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Соискатель может просматривать вакансии компаний.",
+      "source": "“Job seekers can browse job postings from enterprises, bounty hunters can receive bounty announcements from enterprise owners, and enterprise owners can post bounties based on job positions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Рекрутер может получать объявления о вознаграждениях.",
+      "source": "“Job seekers can browse job postings from enterprises, bounty hunters can receive bounty announcements from enterprise owners, and enterprise owners can post bounties based on job positions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Владелец компании может публиковать вознаграждения по вакансиям.",
+      "source": "“Job seekers can browse job postings from enterprises, bounty hunters can receive bounty announcements from enterprise owners, and enterprise owners can post bounties based on job positions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users can register and log in to the mini-program, view their personal information, edit their profiles, and engage in messaging.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в мини-приложение.",
+      "source": "“Users can register and log in to the mini-program, view their personal information, edit their profiles, and engage in messaging.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать собственную информацию.",
+      "source": "“Users can register and log in to the mini-program, view their personal information, edit their profiles, and engage in messaging.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может редактировать свой профиль.",
+      "source": "“Users can register and log in to the mini-program, view their personal information, edit their profiles, and engage in messaging.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может обмениваться сообщениями.",
+      "source": "“Users can register and log in to the mini-program, view their personal information, edit their profiles, and engage in messaging.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `feather white`.",
+      "source": "“Set the background to feather white, and apply dark green to components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `dark green` (`#006400`).",
+      "source": "“Set the background to feather white, and apply dark green to components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "task_index": 5120,
+  "webgen_id": "train_005121",
+  "query": "Please implement a comprehensive file management platform for uploading, downloading, and organizing files. The platform should have functionalities for file upload and download, file organization and categorization, user access control, file encryption, and security protection. Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records. Configure all backgrounds with pearl and all components with charcoal.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна шифровать файлы.",
+      "source": "“The platform should have functionalities for file upload and download, file organization and categorization, user access control, file encryption, and security protection.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна обеспечивать защиту файлов.",
+      "source": "“The platform should have functionalities for file upload and download, file organization and categorization, user access control, file encryption, and security protection.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может загружать файлы.",
+      "source": "“Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может скачивать файлы.",
+      "source": "“Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может организовывать файлы.",
+      "source": "“Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может распределять файлы по категориям.",
+      "source": "“Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может задавать разрешения доступа к файлам.",
+      "source": "“Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать историю доступа к файлам.",
+      "source": "“Users should be able to log in, upload and download files, organize and categorize files, control file access permissions, and view file access records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все фоновые области имеют цвет `pearl`.",
+      "source": "“Configure all backgrounds with pearl and all components with charcoal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Все компоненты интерфейса имеют цвет `charcoal`.",
+      "source": "“Configure all backgrounds with pearl and all components with charcoal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

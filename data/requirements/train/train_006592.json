@@ -1,0 +1,124 @@
+{
+  "task_index": 6591,
+  "webgen_id": "train_006592",
+  "query": "Please implement an online streaming platform that provides streaming services for various types of content. The platform should have functionalities for user registration, login, content browsing, playback, and collection. Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content. The platform should also have content management functionality, where administrators can add, delete, and edit content. Set the background to porcelain, and apply olive to components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать фильмы.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать телепередачи.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать прямые трансляции.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может искать материалы.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может воспроизводить выбранный материал.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может добавлять понравившийся материал в избранное.",
+      "source": "“Users should be able to register an account, log in to the platform, browse and search for various types of content such as movies, TV shows, live streams, etc., play selected content, and collect favorite content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Администратор может добавлять материалы.",
+      "source": "“The platform should also have content management functionality, where administrators can add, delete, and edit content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Администратор может удалять материалы.",
+      "source": "“The platform should also have content management functionality, where administrators can add, delete, and edit content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может редактировать материалы.",
+      "source": "“The platform should also have content management functionality, where administrators can add, delete, and edit content.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `porcelain`.",
+      "source": "“Set the background to porcelain, and apply olive to components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `olive` (`#808000`).",
+      "source": "“Set the background to porcelain, and apply olive to components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

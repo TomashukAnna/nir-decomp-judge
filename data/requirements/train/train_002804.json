@@ -1,0 +1,97 @@
+{
+  "task_index": 2803,
+  "webgen_id": "train_002804",
+  "query": "Please implement a website for showcasing semiconductor components, used for displaying and managing semiconductor component information. The website should have functionalities for component classification display, search, and filtering. Users should be able to browse different categories of components, view detailed component information, and perform searches and filtering. The backend management system should have functionalities for maintaining, adding, deleting, and modifying component information. Style the layout with light salmon in the background and tomato for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать категории полупроводниковых компонентов.",
+      "source": "“Users should be able to browse different categories of components, view detailed component information, and perform searches and filtering.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать подробные сведения о компоненте.",
+      "source": "“Users should be able to browse different categories of components, view detailed component information, and perform searches and filtering.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может искать компоненты.",
+      "source": "“Users should be able to browse different categories of components, view detailed component information, and perform searches and filtering.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может фильтровать компоненты.",
+      "source": "“Users should be able to browse different categories of components, view detailed component information, and perform searches and filtering.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Администратор может добавлять сведения о компонентах.",
+      "source": "“The backend management system should have functionalities for maintaining, adding, deleting, and modifying component information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Администратор может удалять сведения о компонентах.",
+      "source": "“The backend management system should have functionalities for maintaining, adding, deleting, and modifying component information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Администратор может изменять сведения о компонентах.",
+      "source": "“The backend management system should have functionalities for maintaining, adding, deleting, and modifying component information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Администратор может поддерживать актуальность информации о компонентах.",
+      "source": "“The backend management system should have functionalities for maintaining, adding, deleting, and modifying component information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`).",
+      "source": "“Style the layout with light salmon in the background and tomato for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `tomato` (`#FF6347`).",
+      "source": "“Style the layout with light salmon in the background and tomato for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

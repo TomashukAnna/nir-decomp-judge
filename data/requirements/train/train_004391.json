@@ -1,0 +1,151 @@
+{
+  "task_index": 4390,
+  "webgen_id": "train_004391",
+  "query": "Please implement a fixed asset management system for managing and tracking assets. The system should have functionalities for asset management, procurement management, equipment management, and inventory management. Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports. The system should also support custom fields, search, import, and export functions. Assign medium turquoise to the background and dark slate gray to the UI elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять управление закупками.",
+      "source": "“The system should have functionalities for asset management, procurement management, equipment management, and inventory management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление оборудованием.",
+      "source": "“The system should have functionalities for asset management, procurement management, equipment management, and inventory management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать активы.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять активами.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может выделять активы.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может возвращать активы.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может передавать активы.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может проводить инвентаризацию.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать аналитические отчёты.",
+      "source": "“Users should be able to log in, browse and manage assets, perform operations such as asset allocation, return, transfer, inventory, and view analysis reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может настраивать пользовательские поля.",
+      "source": "“The system should also support custom fields, search, import, and export functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может искать данные.",
+      "source": "“The system should also support custom fields, search, import, and export functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может импортировать данные.",
+      "source": "“The system should also support custom fields, search, import, and export functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Пользователь может экспортировать данные.",
+      "source": "“The system should also support custom fields, search, import, and export functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Основной фон интерфейса имеет цвет `medium turquoise` (`#48D1CC`).",
+      "source": "“Assign medium turquoise to the background and dark slate gray to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`).",
+      "source": "“Assign medium turquoise to the background and dark slate gray to the UI elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

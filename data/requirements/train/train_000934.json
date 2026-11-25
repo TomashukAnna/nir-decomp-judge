@@ -1,0 +1,88 @@
+{
+  "task_index": 933,
+  "webgen_id": "train_000934",
+  "query": "Please fix a website that is experiencing a drop in traffic and search engine optimization issues. The website should be able to display normally in search engine results and load all pages correctly. Users should be able to log in and browse the website normally, and the website's content should display correctly. The website's search engine optimization settings should work correctly to ensure the website ranks high in search engine results. Choose pale turquoise for global background and medium turquoise for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна корректно отображаться в поисковой выдаче.",
+      "source": "“The website should be able to display normally in search engine results and load all pages correctly.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна загружать все страницы без ошибок.",
+      "source": "“The website should be able to display normally in search engine results and load all pages correctly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and browse the website normally, and the website's content should display correctly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать сайт.",
+      "source": "“Users should be able to log in and browse the website normally, and the website's content should display correctly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна корректно отображать содержимое.",
+      "source": "“Users should be able to log in and browse the website normally, and the website's content should display correctly.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна корректно применять SEO-настройки.",
+      "source": "“The website's search engine optimization settings should work correctly to ensure the website ranks high in search engine results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна обеспечивать высокое место в поисковой выдаче.",
+      "source": "“The website's search engine optimization settings should work correctly to ensure the website ranks high in search engine results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `pale turquoise` (`#AFEEEE`).",
+      "source": "“Choose pale turquoise for global background and medium turquoise for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Все компоненты интерфейса имеют цвет `medium turquoise` (`#48D1CC`).",
+      "source": "“Choose pale turquoise for global background and medium turquoise for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

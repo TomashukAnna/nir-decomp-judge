@@ -1,0 +1,70 @@
+{
+  "task_index": 2521,
+  "webgen_id": "train_002522",
+  "query": "Please implement a database modification history recording tool to track changes made to the database. The tool should have functionalities for recording changes, viewing history records, and comparing different versions. Users should be able to log in, record database modifications, view history records, compare different versions of changes, and export modification reports. Configure your theme with medium spring green as background and green as component color.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, record database modifications, view history records, compare different versions of changes, and export modification reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может записывать изменения базы.",
+      "source": "“Users should be able to log in, record database modifications, view history records, compare different versions of changes, and export modification reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать историю изменений.",
+      "source": "“Users should be able to log in, record database modifications, view history records, compare different versions of changes, and export modification reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может сравнивать разные версии изменений.",
+      "source": "“Users should be able to log in, record database modifications, view history records, compare different versions of changes, and export modification reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может экспортировать отчёт об изменениях.",
+      "source": "“Users should be able to log in, record database modifications, view history records, compare different versions of changes, and export modification reports.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `medium spring green` (`#00FA9A`).",
+      "source": "“Configure your theme with medium spring green as background and green as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `green` (`#008000`).",
+      "source": "“Configure your theme with medium spring green as background and green as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

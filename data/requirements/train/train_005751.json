@@ -1,0 +1,52 @@
+{
+  "task_index": 5750,
+  "webgen_id": "train_005751",
+  "query": "Please implement an informational web application to integrate external API data. The application should have functionalities for configuring external API connections, displaying API data, and managing API requests. Users should be able to configure API connections, view API data, manage API requests, and perform corresponding actions as needed. Apply honeydew to the canvas background and forest green to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может настраивать соединения с внешними API.",
+      "source": "“Users should be able to configure API connections, view API data, manage API requests, and perform corresponding actions as needed.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать данные внешних API.",
+      "source": "“Users should be able to configure API connections, view API data, manage API requests, and perform corresponding actions as needed.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может управлять запросами к внешним API.",
+      "source": "“Users should be able to configure API connections, view API data, manage API requests, and perform corresponding actions as needed.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Фон рабочей области имеет цвет `honeydew` (`#F0FFF0`).",
+      "source": "“Apply honeydew to the canvas background and forest green to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Компоненты интерфейса имеют цвет `forest green` (`#228B22`).",
+      "source": "“Apply honeydew to the canvas background and forest green to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

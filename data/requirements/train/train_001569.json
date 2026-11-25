@@ -1,0 +1,97 @@
+{
+  "task_index": 1568,
+  "webgen_id": "train_001569",
+  "query": "Please implement a website with instant messaging functionality for real-time message delivery. The website should have functionalities for sending messages, receiving messages, group chats, and private chats. Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time. Apply honeydew to the canvas background and forest green to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправлять текст в реальном времени.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может отправлять изображения.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять видео.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать групповые разговоры.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может создавать приватные разговоры.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может получать сообщения в реальном времени.",
+      "source": "“Users should be able to log in and engage in real-time communication with other users, sending text, images, videos, and other types of messages, creating group and private chat sessions, and receiving messages in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна ограничивать доступ к приватным разговорам их участниками.",
+      "source": "“The website should have functionalities for sending messages, receiving messages, group chats, and private chats.”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Фон рабочей области имеет цвет `honeydew` (`#F0FFF0`).",
+      "source": "“Apply honeydew to the canvas background and forest green to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `forest green` (`#228B22`).",
+      "source": "“Apply honeydew to the canvas background and forest green to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

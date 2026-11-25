@@ -1,0 +1,88 @@
+{
+  "task_index": 1869,
+  "webgen_id": "train_001870",
+  "query": "Please implement a database visualization website for connecting to and managing databases. The website should have functionalities for connecting to databases, monitoring computer performance, and directly performing CRUD (create, read, update, delete) operations on databases. Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations. Style the layout with mint cream in the background and dark green for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может подключаться к разным базам.",
+      "source": "“Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может наблюдать производительность компьютера.",
+      "source": "“Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать данные базы.",
+      "source": "“Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может создавать записи.",
+      "source": "“Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может изменять записи.",
+      "source": "“Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может удалять записи.",
+      "source": "“Users should be able to log in, connect to different databases, monitor computer performance, browse and manage data within databases, and perform CRUD operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `mint cream` (`#F5FFFA`).",
+      "source": "“Style the layout with mint cream in the background and dark green for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `dark green` (`#006400`).",
+      "source": "“Style the layout with mint cream in the background and dark green for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

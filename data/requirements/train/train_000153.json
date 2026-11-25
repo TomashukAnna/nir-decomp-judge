@@ -1,0 +1,70 @@
+{
+  "task_index": 152,
+  "webgen_id": "train_000153",
+  "query": "Please implement a Yin Yang Master demon search mini-program for searching Shikigami and demons. The mini-program should have functionalities for single-character search, recent hot searches, personal search history, and feedback. Users should be able to input keywords to search for Shikigami or mysterious clues, view recently hot-searched demons, browse their personal search history, and submit feedback. Apply ice blue as the background; style all components with teal.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать поиск по одному символу.",
+      "source": "“The mini-program should have functionalities for single-character search, recent hot searches, personal search history, and feedback.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может искать сикигами или загадочные подсказки по ключевым словам.",
+      "source": "“Users should be able to input keywords to search for Shikigami or mysterious clues, view recently hot-searched demons, browse their personal search history, and submit feedback.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать недавно популярные поисковые запросы о демонах.",
+      "source": "“Users should be able to input keywords to search for Shikigami or mysterious clues, view recently hot-searched demons, browse their personal search history, and submit feedback.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать собственную историю поиска.",
+      "source": "“Users should be able to input keywords to search for Shikigami or mysterious clues, view recently hot-searched demons, browse their personal search history, and submit feedback.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отправлять обратную связь.",
+      "source": "“Users should be able to input keywords to search for Shikigami or mysterious clues, view recently hot-searched demons, browse their personal search history, and submit feedback.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `ice blue`.",
+      "source": "“Apply ice blue as the background; style all components with teal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Все компоненты интерфейса имеют цвет `teal` (`#008080`).",
+      "source": "“Apply ice blue as the background; style all components with teal.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

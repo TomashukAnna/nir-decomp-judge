@@ -1,0 +1,88 @@
+{
+  "task_index": 4344,
+  "webgen_id": "train_004345",
+  "query": "Please implement a website that uses the Google API to call Google services. The website should have functionalities for calling Google+, Drive, YouTube, and other services. Users should be able to log in and use the Google API to call Google services, such as uploading files to Google Drive, publishing videos to YouTube, and more. Initialize the background color with baby blue and component color with navy.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять вызов сервисов Google через Google API.",
+      "source": "“The website should have functionalities for calling Google+, Drive, YouTube, and other services.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может обращаться к Google+.",
+      "source": "“The website should have functionalities for calling Google+, Drive, YouTube, and other services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может обращаться к Google Drive.",
+      "source": "“The website should have functionalities for calling Google+, Drive, YouTube, and other services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может обращаться к YouTube.",
+      "source": "“The website should have functionalities for calling Google+, Drive, YouTube, and other services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and use the Google API to call Google services, such as uploading files to Google Drive, publishing videos to YouTube, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может загружать файлы в Google Drive.",
+      "source": "“Users should be able to log in and use the Google API to call Google services, such as uploading files to Google Drive, publishing videos to YouTube, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может публиковать видео в YouTube.",
+      "source": "“Users should be able to log in and use the Google API to call Google services, such as uploading files to Google Drive, publishing videos to YouTube, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `baby blue`.",
+      "source": "“Initialize the background color with baby blue and component color with navy.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Initialize the background color with baby blue and component color with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

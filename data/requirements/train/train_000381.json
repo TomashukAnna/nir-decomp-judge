@@ -1,0 +1,79 @@
+{
+  "task_index": 380,
+  "webgen_id": "train_000381",
+  "query": "Please develop a website similar to Twilio and Msg91 for sending and managing messages. The website should have functionalities for sending SMS, managing message templates, and viewing sending records. Users should be able to log in, create and edit message templates, send SMS, view sending records, and manage account information. Set pale rose as the body background and use maroon for the UI.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create and edit message templates, send SMS, view sending records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать шаблоны сообщений.",
+      "source": "“Users should be able to log in, create and edit message templates, send SMS, view sending records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать шаблоны сообщений.",
+      "source": "“Users should be able to log in, create and edit message templates, send SMS, view sending records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отправлять SMS.",
+      "source": "“Users should be able to log in, create and edit message templates, send SMS, view sending records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать записи отправки.",
+      "source": "“Users should be able to log in, create and edit message templates, send SMS, view sending records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять сведениями учётной записи.",
+      "source": "“Users should be able to log in, create and edit message templates, send SMS, view sending records, and manage account information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `pale rose`.",
+      "source": "“Set pale rose as the body background and use maroon for the UI.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Set pale rose as the body background and use maroon for the UI.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

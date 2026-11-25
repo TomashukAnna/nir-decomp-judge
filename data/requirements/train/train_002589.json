@@ -1,0 +1,106 @@
+{
+  "task_index": 2588,
+  "webgen_id": "train_002589",
+  "query": "Please implement an activity appointment assistant website for publishing and managing activities. The website should have functionalities for publishing activities, viewing participants, and organizing activities. Users should be able to browse activity lists, make appointments for activities of interest, view their appointment records, and manage their personal information. At the same time, users with corresponding permissions can publish, delete, and modify activities. Initialize the background color with ivory and component color with chocolate.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать участников мероприятий.",
+      "source": "“The website should have functionalities for publishing activities, viewing participants, and organizing activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать список мероприятий.",
+      "source": "“Users should be able to browse activity lists, make appointments for activities of interest, view their appointment records, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может записываться на мероприятие.",
+      "source": "“Users should be able to browse activity lists, make appointments for activities of interest, view their appointment records, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать собственные записи.",
+      "source": "“Users should be able to browse activity lists, make appointments for activities of interest, view their appointment records, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять персональной информацией.",
+      "source": "“Users should be able to browse activity lists, make appointments for activities of interest, view their appointment records, and manage their personal information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может публиковать мероприятия при наличии разрешения.",
+      "source": "“At the same time, users with corresponding permissions can publish, delete, and modify activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может удалять мероприятия при наличии разрешения.",
+      "source": "“At the same time, users with corresponding permissions can publish, delete, and modify activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может изменять мероприятия при наличии разрешения.",
+      "source": "“At the same time, users with corresponding permissions can publish, delete, and modify activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна запрещать изменение мероприятий пользователям без соответствующих разрешений.",
+      "source": "“At the same time, users with corresponding permissions can publish, delete, and modify activities.”",
+      "kind": "implicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`).",
+      "source": "“Initialize the background color with ivory and component color with chocolate.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Initialize the background color with ivory and component color with chocolate.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

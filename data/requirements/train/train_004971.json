@@ -1,0 +1,106 @@
+{
+  "task_index": 4970,
+  "webgen_id": "train_004971",
+  "query": "Please implement a web application for a virtual file system to simulate a real file system. The application should have functionalities for creating, deleting, and renaming files and folders. Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties. Configure the background color to glacier blue, with components using royal blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать виртуальную файловую систему.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать файлы.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать папки.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может удалять файлы.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять папки.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может переименовывать файлы.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может переименовывать папки.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать свойства файла.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать свойства папки.",
+      "source": "“Users should be able to browse the virtual file system, create new files and folders, delete unnecessary files and folders, rename files and folders, and view file and folder properties.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `glacier blue`.",
+      "source": "“Configure the background color to glacier blue, with components using royal blue.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`).",
+      "source": "“Configure the background color to glacier blue, with components using royal blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

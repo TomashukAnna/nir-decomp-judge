@@ -1,0 +1,97 @@
+{
+  "task_index": 25,
+  "webgen_id": "train_000026",
+  "query": "Please implement a mobile data service application to provide mobile data services to global users. The application should have functionalities for managing data usage, transaction payments, and account balance inquiries. Users should be able to log in, browse their data usage, make transactions, and view their account balance. The application should also have problem diagnosis and troubleshooting functions to help users resolve issues during use. Define the background as ghost white and components as cadet blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse their data usage, make transactions, and view their account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать расход мобильного трафика.",
+      "source": "“Users should be able to log in, browse their data usage, make transactions, and view their account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может проводить платёжные операции.",
+      "source": "“Users should be able to log in, browse their data usage, make transactions, and view their account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать баланс счёта.",
+      "source": "“Users should be able to log in, browse their data usage, make transactions, and view their account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять использованием мобильного трафика.",
+      "source": "“The application should have functionalities for managing data usage, transaction payments, and account balance inquiries.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна диагностировать проблемы использования.",
+      "source": "“The application should also have problem diagnosis and troubleshooting functions to help users resolve issues during use.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна помогать устранять обнаруженные проблемы.",
+      "source": "“The application should also have problem diagnosis and troubleshooting functions to help users resolve issues during use.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна предоставлять мобильные услуги пользователям разных стран.",
+      "source": "“Please implement a mobile data service application to provide mobile data services to global users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `ghost white` (`#F8F8FF`).",
+      "source": "“Define the background as ghost white and components as cadet blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`).",
+      "source": "“Define the background as ghost white and components as cadet blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

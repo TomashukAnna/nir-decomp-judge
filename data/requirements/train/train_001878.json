@@ -1,0 +1,79 @@
+{
+  "task_index": 1877,
+  "webgen_id": "train_001878",
+  "query": "Please implement an open-source development framework website for showcasing and downloading the framework. The website should have functionalities for displaying framework features, version update records, download links, community discussion, and suggestion collection. Users should be able to browse the framework introduction, download the latest version, view update history, participate in community discussions, and submit suggestions. Set page background to apricot; color all components with chocolate.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать характеристики фреймворка.",
+      "source": "“The website should have functionalities for displaying framework features, version update records, download links, community discussion, and suggestion collection.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать описание фреймворка.",
+      "source": "“Users should be able to browse the framework introduction, download the latest version, view update history, participate in community discussions, and submit suggestions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может скачивать последнюю версию.",
+      "source": "“Users should be able to browse the framework introduction, download the latest version, view update history, participate in community discussions, and submit suggestions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать историю обновлений.",
+      "source": "“Users should be able to browse the framework introduction, download the latest version, view update history, participate in community discussions, and submit suggestions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может участвовать в обсуждениях сообщества.",
+      "source": "“Users should be able to browse the framework introduction, download the latest version, view update history, participate in community discussions, and submit suggestions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять предложения.",
+      "source": "“Users should be able to browse the framework introduction, download the latest version, view update history, participate in community discussions, and submit suggestions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `apricot`.",
+      "source": "“Set page background to apricot; color all components with chocolate.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Все компоненты интерфейса имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Set page background to apricot; color all components with chocolate.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

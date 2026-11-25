@@ -1,0 +1,79 @@
+{
+  "task_index": 4942,
+  "webgen_id": "train_004943",
+  "query": "Please implement a JavaScript database query website for executing SQL queries. The website should have functionalities for querying and filtering data. Users should be able to input SQL statements, execute queries, view results, and filter and sort data. Style all pages with a pale green background and forest green components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить SQL-запросы.",
+      "source": "“Users should be able to input SQL statements, execute queries, view results, and filter and sort data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может выполнять запросы.",
+      "source": "“Users should be able to input SQL statements, execute queries, view results, and filter and sort data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать результаты.",
+      "source": "“Users should be able to input SQL statements, execute queries, view results, and filter and sort data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может фильтровать данные.",
+      "source": "“Users should be able to input SQL statements, execute queries, view results, and filter and sort data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может сортировать данные.",
+      "source": "“Users should be able to input SQL statements, execute queries, view results, and filter and sort data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна использовать JavaScript для интерфейса запросов.",
+      "source": "“Please implement a JavaScript database query website for executing SQL queries.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Фон всех страниц имеет цвет `pale green` (`#98FB98`).",
+      "source": "“Style all pages with a pale green background and forest green components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `forest green` (`#228B22`).",
+      "source": "“Style all pages with a pale green background and forest green components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "task_index": 2635,
+  "webgen_id": "train_002636",
+  "query": "Please implement an introductory website for food delivery by drones, to showcase the company's services and products. The website should have functionalities such as a homepage, about us, services, and contact us. Users should be able to browse the website, learn about the company's services, watch videos, view images, and submit contact information. The website should have a responsive design, adapting to different devices and screen sizes. Declare smoke as the global background color and midnight blue for all UI pieces.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять главную страницу.",
+      "source": "“The website should have functionalities such as a homepage, about us, services, and contact us.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять страницу о компании.",
+      "source": "“The website should have functionalities such as a homepage, about us, services, and contact us.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять страницу услуг.",
+      "source": "“The website should have functionalities such as a homepage, about us, services, and contact us.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять страницу контактов.",
+      "source": "“The website should have functionalities such as a homepage, about us, services, and contact us.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать услуги доставки дронами.",
+      "source": "“Users should be able to browse the website, learn about the company's services, watch videos, view images, and submit contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может смотреть видео.",
+      "source": "“Users should be able to browse the website, learn about the company's services, watch videos, view images, and submit contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать изображения.",
+      "source": "“Users should be able to browse the website, learn about the company's services, watch videos, view images, and submit contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может отправлять контактные сведения.",
+      "source": "“Users should be able to browse the website, learn about the company's services, watch videos, view images, and submit contact information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна адаптировать оформление к разным устройствам и размерам экранов.",
+      "source": "“The website should have a responsive design, adapting to different devices and screen sizes.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `smoke`.",
+      "source": "“Declare smoke as the global background color and midnight blue for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `midnight blue` (`#191970`).",
+      "source": "“Declare smoke as the global background color and midnight blue for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

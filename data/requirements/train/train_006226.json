@@ -1,0 +1,169 @@
+{
+  "task_index": 6225,
+  "webgen_id": "train_006226",
+  "query": "Please implement a customizable survey module for creating and managing surveys or exam questions. The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc. Users should be able to add and arrange questions by dragging and dropping, and support file upload and download. The module should also have data statistics and analysis functionality, able to generate reports and charts. Set all pages to have a pale green background and sea green components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать опросы и экзаменационные вопросы.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может редактировать опросы.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может управлять опросами.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может добавлять вопросы.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять вопросы.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может изменять порядок вопросов.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать вопросы с выбором ответа.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать вопросы с заполнением пропуска.",
+      "source": "“The module should have the functionality to create, edit, and manage surveys, including adding, deleting, and sorting questions, and support various types of questions, such as multiple choice, fill-in-the-blank, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может добавлять вопросы перетаскиванием.",
+      "source": "“Users should be able to add and arrange questions by dragging and dropping, and support file upload and download.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может переставлять вопросы перетаскиванием.",
+      "source": "“Users should be able to add and arrange questions by dragging and dropping, and support file upload and download.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может загружать файлы.",
+      "source": "“Users should be able to add and arrange questions by dragging and dropping, and support file upload and download.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может скачивать файлы.",
+      "source": "“Users should be able to add and arrange questions by dragging and dropping, and support file upload and download.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна предоставлять статистику ответов.",
+      "source": "“The module should also have data statistics and analysis functionality, able to generate reports and charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Система должна анализировать ответы.",
+      "source": "“The module should also have data statistics and analysis functionality, able to generate reports and charts.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Система должна формировать отчёты.",
+      "source": "“The module should also have data statistics and analysis functionality, able to generate reports and charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Система должна строить диаграммы.",
+      "source": "“The module should also have data statistics and analysis functionality, able to generate reports and charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Фон всех страниц имеет цвет `pale green` (`#98FB98`).",
+      "source": "“Set all pages to have a pale green background and sea green components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R18",
+      "criteria": "Компоненты интерфейса имеют цвет `sea green` (`#2E8B57`).",
+      "source": "“Set all pages to have a pale green background and sea green components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

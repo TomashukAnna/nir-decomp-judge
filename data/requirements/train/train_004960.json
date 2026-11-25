@@ -1,0 +1,79 @@
+{
+  "task_index": 4959,
+  "webgen_id": "train_004960",
+  "query": "Please implement a website to assist users in verifying Google applications. The website should have functionalities to guide users through the verification process, including entering Google account information and configuring Google Calendar. Users should be able to log in and follow the prompts to complete the verification process, with the website displaying the verification progress and results in real-time. Assign cloud white as the background color and apply midnight blue to all elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить сведения об учётной записи Google.",
+      "source": "“The website should have functionalities to guide users through the verification process, including entering Google account information and configuring Google Calendar.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может настраивать Google Calendar.",
+      "source": "“The website should have functionalities to guide users through the verification process, including entering Google account information and configuring Google Calendar.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and follow the prompts to complete the verification process, with the website displaying the verification progress and results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может проходить проверку приложения по подсказкам сайта.",
+      "source": "“Users should be able to log in and follow the prompts to complete the verification process, with the website displaying the verification progress and results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать ход проверки в реальном времени.",
+      "source": "“Users should be able to log in and follow the prompts to complete the verification process, with the website displaying the verification progress and results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна показывать результат проверки.",
+      "source": "“Users should be able to log in and follow the prompts to complete the verification process, with the website displaying the verification progress and results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `cloud white`.",
+      "source": "“Assign cloud white as the background color and apply midnight blue to all elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `midnight blue` (`#191970`).",
+      "source": "“Assign cloud white as the background color and apply midnight blue to all elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

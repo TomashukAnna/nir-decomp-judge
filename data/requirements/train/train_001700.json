@@ -1,0 +1,97 @@
+{
+  "task_index": 1699,
+  "webgen_id": "train_001700",
+  "query": "Please develop a cross-platform informational app to provide information services. The app should have user registration and login functionality, ensuring the app is user-friendly and intuitive. Users should be able to register for an account, log in to the app, browse and search for information, and the app should provide clear navigation and information display. Choose light yellow for global background and dark khaki for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна работать на разных платформах.",
+      "source": "“Please develop a cross-platform informational app to provide information services.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять удобный и интуитивный интерфейс.",
+      "source": "“The app should have user registration and login functionality, ensuring the app is user-friendly and intuitive.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register for an account, log in to the app, browse and search for information, and the app should provide clear navigation and information display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в приложение.",
+      "source": "“Users should be able to register for an account, log in to the app, browse and search for information, and the app should provide clear navigation and information display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать информацию.",
+      "source": "“Users should be able to register for an account, log in to the app, browse and search for information, and the app should provide clear navigation and information display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может искать информацию.",
+      "source": "“Users should be able to register for an account, log in to the app, browse and search for information, and the app should provide clear navigation and information display.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять понятную навигацию.",
+      "source": "“Users should be able to register for an account, log in to the app, browse and search for information, and the app should provide clear navigation and information display.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна понятно отображать информацию.",
+      "source": "“Users should be able to register for an account, log in to the app, browse and search for information, and the app should provide clear navigation and information display.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`).",
+      "source": "“Choose light yellow for global background and dark khaki for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`).",
+      "source": "“Choose light yellow for global background and dark khaki for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "task_index": 3591,
+  "webgen_id": "train_003592",
+  "query": "Please implement a payment system website for payment and fund management. The website should have functionalities for payment, reconciliation, settlement, fund account management, and payment order management. Users should be able to log in, make payments, view statements, manage fund accounts, and query payment orders. Choose frost white for the background; set all component colors to charcoal.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать сверку платежей.",
+      "source": "“The website should have functionalities for payment, reconciliation, settlement, fund account management, and payment order management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать расчёты.",
+      "source": "“The website should have functionalities for payment, reconciliation, settlement, fund account management, and payment order management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять управление платёжными поручениями.",
+      "source": "“The website should have functionalities for payment, reconciliation, settlement, fund account management, and payment order management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, make payments, view statements, manage fund accounts, and query payment orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может совершать платежи.",
+      "source": "“Users should be able to log in, make payments, view statements, manage fund accounts, and query payment orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать выписки.",
+      "source": "“Users should be able to log in, make payments, view statements, manage fund accounts, and query payment orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять денежными счетами.",
+      "source": "“Users should be able to log in, make payments, view statements, manage fund accounts, and query payment orders.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может искать платёжные поручения.",
+      "source": "“Users should be able to log in, make payments, view statements, manage fund accounts, and query payment orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `frost white`.",
+      "source": "“Choose frost white for the background; set all component colors to charcoal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Все компоненты интерфейса имеют цвет `charcoal`.",
+      "source": "“Choose frost white for the background; set all component colors to charcoal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

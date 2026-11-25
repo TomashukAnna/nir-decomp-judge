@@ -1,0 +1,106 @@
+{
+  "task_index": 2508,
+  "webgen_id": "train_002509",
+  "query": "Please implement a management system for managing and configuring various data and permissions. The system should have a responsive layout, supporting access from various devices. The system should have robust data management capabilities, including data source configuration, button and data permission control, and customizable departmental data permissions. The system should have comprehensive security measures, including XSS prevention and script filtering. The system should support internationalization and logging. Choose light salmon for the background; set all component colors to tomato.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна обеспечивать адаптивную компоновку при доступе с разных устройств.",
+      "source": "“The system should have a responsive layout, supporting access from various devices.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может настраивать источники данных.",
+      "source": "“The system should have robust data management capabilities, including data source configuration, button and data permission control, and customizable departmental data permissions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может настраивать разрешения на действия кнопок.",
+      "source": "“The system should have robust data management capabilities, including data source configuration, button and data permission control, and customizable departmental data permissions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может настраивать разрешения доступа к данным.",
+      "source": "“The system should have robust data management capabilities, including data source configuration, button and data permission control, and customizable departmental data permissions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может настраивать разрешения на данные по подразделениям.",
+      "source": "“The system should have robust data management capabilities, including data source configuration, button and data permission control, and customizable departmental data permissions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предотвращать XSS.",
+      "source": "“The system should have comprehensive security measures, including XSS prevention and script filtering.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна фильтровать скрипты.",
+      "source": "“The system should have comprehensive security measures, including XSS prevention and script filtering.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать интернационализацию.",
+      "source": "“The system should support internationalization and logging.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна вести журналы событий.",
+      "source": "“The system should support internationalization and logging.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `light salmon` (`#FFA07A`).",
+      "source": "“Choose light salmon for the background; set all component colors to tomato.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Все компоненты интерфейса имеют цвет `tomato` (`#FF6347`).",
+      "source": "“Choose light salmon for the background; set all component colors to tomato.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

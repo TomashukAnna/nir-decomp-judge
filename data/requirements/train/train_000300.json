@@ -1,0 +1,124 @@
+{
+  "task_index": 299,
+  "webgen_id": "train_000300",
+  "query": "Please implement an e-learning platform to provide educational content. The platform should have functionalities for course management, user management, and learning record management. Users should be able to log in, browse and select courses, submit assignments, view learning records, and communicate with teachers. Teachers should be able to manage courses, upload educational content, grade assignments, and view student learning records. Define the background as eggshell and components as dark slate gray.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять управление пользователями.",
+      "source": "“The platform should have functionalities for course management, user management, and learning record management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Учащийся может войти в систему.",
+      "source": "“Users should be able to log in, browse and select courses, submit assignments, view learning records, and communicate with teachers.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Учащийся может просматривать курсы.",
+      "source": "“Users should be able to log in, browse and select courses, submit assignments, view learning records, and communicate with teachers.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Учащийся может выбирать курсы.",
+      "source": "“Users should be able to log in, browse and select courses, submit assignments, view learning records, and communicate with teachers.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Учащийся может отправлять задания.",
+      "source": "“Users should be able to log in, browse and select courses, submit assignments, view learning records, and communicate with teachers.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Учащийся может просматривать учебные записи.",
+      "source": "“Users should be able to log in, browse and select courses, submit assignments, view learning records, and communicate with teachers.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Учащийся может общаться с преподавателем.",
+      "source": "“Users should be able to log in, browse and select courses, submit assignments, view learning records, and communicate with teachers.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Преподаватель может управлять курсами.",
+      "source": "“Teachers should be able to manage courses, upload educational content, grade assignments, and view student learning records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Преподаватель может загружать учебные материалы.",
+      "source": "“Teachers should be able to manage courses, upload educational content, grade assignments, and view student learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Преподаватель может оценивать задания.",
+      "source": "“Teachers should be able to manage courses, upload educational content, grade assignments, and view student learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Преподаватель может просматривать учебные записи учащихся.",
+      "source": "“Teachers should be able to manage courses, upload educational content, grade assignments, and view student learning records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `eggshell`.",
+      "source": "“Define the background as eggshell and components as dark slate gray.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`).",
+      "source": "“Define the background as eggshell and components as dark slate gray.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

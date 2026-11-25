@@ -1,0 +1,124 @@
+{
+  "task_index": 214,
+  "webgen_id": "train_000215",
+  "query": "Please implement a B2B lead generation website for an Indian agency to provide potential clients. The website should have functionalities for collecting lead information, categorizing leads, and following up on leads. Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads. Apply aquamarine for the layout background and dark turquoise for interactive elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна собирать сведения о потенциальных клиентах.",
+      "source": "“The website should have functionalities for collecting lead information, categorizing leads, and following up on leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна распределять потенциальных клиентов по категориям.",
+      "source": "“The website should have functionalities for collecting lead information, categorizing leads, and following up on leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать дальнейшее сопровождение потенциальных клиентов.",
+      "source": "“The website should have functionalities for collecting lead information, categorizing leads, and following up on leads.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать список услуг.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.1",
+      "criteria": "Пользователь может просматривать услуги веб-дизайна и разработки.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.2",
+      "criteria": "Пользователь может просматривать услуги SEO.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.3",
+      "criteria": "Пользователь может просматривать услуги маркетинга в социальных сетях.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5.4",
+      "criteria": "Пользователь может просматривать услуги виртуального помощника.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R5",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять сведения о потенциальном клиенте.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отслеживать состояние потенциального клиента.",
+      "source": "“Users should be able to log in, browse the list of services including website design and development, SEO, social media marketing, and virtual assistance, submit lead information, and track the status of leads.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`).",
+      "source": "“Apply aquamarine for the layout background and dark turquoise for interactive elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Элементы управления имеют цвет `dark turquoise` (`#00CED1`).",
+      "source": "“Apply aquamarine for the layout background and dark turquoise for interactive elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

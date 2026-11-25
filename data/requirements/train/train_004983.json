@@ -1,0 +1,115 @@
+{
+  "task_index": 4982,
+  "webgen_id": "train_004983",
+  "query": "Please implement an onboarding form management application for creating and managing onboarding forms. The application should have functionalities for form creation, bulk sending, and data management. Administrators should be able to create forms, send them in bulk to contract employees, and efficiently manage collected data. The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information. Set the background to pale ash, and apply slate gray to components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Администратор может создавать формы приёма на работу.",
+      "source": "“Administrators should be able to create forms, send them in bulk to contract employees, and efficiently manage collected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Администратор может массово отправлять формы договорным сотрудникам.",
+      "source": "“Administrators should be able to create forms, send them in bulk to contract employees, and efficiently manage collected data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Администратор может управлять собранными данными.",
+      "source": "“Administrators should be able to create forms, send them in bulk to contract employees, and efficiently manage collected data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна проверять доступ по ролям.",
+      "source": "“The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна шифровать данные.",
+      "source": "“The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать собранные сведения о сотрудниках.",
+      "source": "“The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может искать сведения о сотрудниках.",
+      "source": "“The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может сортировать сведения о сотрудниках.",
+      "source": "“The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может фильтровать сведения о сотрудниках.",
+      "source": "“The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может управлять сведениями о сотрудниках.",
+      "source": "“The application should also have role-based access control, ensure data encryption, and have the ability to view, search, sort, filter, and manage collected employee information.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `pale ash`.",
+      "source": "“Set the background to pale ash, and apply slate gray to components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `slate gray` (`#708090`).",
+      "source": "“Set the background to pale ash, and apply slate gray to components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

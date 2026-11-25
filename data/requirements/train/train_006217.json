@@ -1,0 +1,124 @@
+{
+  "task_index": 6216,
+  "webgen_id": "train_006217",
+  "query": "Please implement an online question bank system for teachers and students to take exams and practice. The system should have functionalities for teachers to freely create and manage question banks, set scores, conduct online exams, and view exam results in real-time. Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time. Students can log in to the system, take online exams, view exam results and scores. Apply theme using light yellow as background and dark khaki for elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Преподаватель может войти в систему.",
+      "source": "“Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Преподаватель может создавать банки вопросов.",
+      "source": "“Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Преподаватель может управлять банками вопросов.",
+      "source": "“Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Преподаватель может создавать экзамены.",
+      "source": "“Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Преподаватель может задавать баллы экзамена.",
+      "source": "“Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Преподаватель может проводить онлайн-экзамен.",
+      "source": "“Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Преподаватель может просматривать результаты экзамена в реальном времени.",
+      "source": "“Teachers can log in to the system, create and manage question banks, create and set scores for exams, conduct online exams, and view exam results in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Учащийся может войти в систему.",
+      "source": "“Students can log in to the system, take online exams, view exam results and scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Учащийся может проходить онлайн-экзамены.",
+      "source": "“Students can log in to the system, take online exams, view exam results and scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Учащийся может просматривать результаты экзамена.",
+      "source": "“Students can log in to the system, take online exams, view exam results and scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Учащийся может просматривать полученные баллы.",
+      "source": "“Students can log in to the system, take online exams, view exam results and scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`).",
+      "source": "“Apply theme using light yellow as background and dark khaki for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `dark khaki` (`#BDB76B`).",
+      "source": "“Apply theme using light yellow as background and dark khaki for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

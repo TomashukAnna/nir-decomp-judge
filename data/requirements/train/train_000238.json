@@ -1,0 +1,88 @@
+{
+  "task_index": 237,
+  "webgen_id": "train_000238",
+  "query": "Please implement a casual game website for users to play and exchange goods. The website should have functionalities for user registration, login, task system, feeding chickens, collecting eggs, and exchanging goods. Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods. Apply theme using lemon mist as background and dark orange for elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать задания.",
+      "source": "“Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выполнять задания для получения корма.",
+      "source": "“Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может кормить кур.",
+      "source": "“Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может собирать яйца.",
+      "source": "“Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может обменивать яйца на товары.",
+      "source": "“Users should be able to register and log in, browse task lists, complete tasks to earn feed, feed chickens, collect eggs, and use eggs to exchange goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `lemon mist`.",
+      "source": "“Apply theme using lemon mist as background and dark orange for elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `dark orange` (`#FF8C00`).",
+      "source": "“Apply theme using lemon mist as background and dark orange for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

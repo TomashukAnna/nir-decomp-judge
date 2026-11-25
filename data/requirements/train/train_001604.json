@@ -1,0 +1,124 @@
+{
+  "task_index": 1603,
+  "webgen_id": "train_001604",
+  "query": "Please implement a website for rendering graphics using WebGL. The website should have the functionality to render 2D and 3D graphics, and users should be able to upload their own model files and adjust rendering parameters such as lighting, materials, and colors. The website should also have real-time preview and interaction capabilities, allowing users to rotate, zoom, and pan the graphics. Apply light sea green as the background; style all components with medium sea green.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна использовать WebGL для графики.",
+      "source": "“Please implement a website for rendering graphics using WebGL.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна отображать двумерную графику.",
+      "source": "“The website should have the functionality to render 2D and 3D graphics, and users should be able to upload their own model files and adjust rendering parameters such as lighting, materials, and colors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна отображать трёхмерную графику.",
+      "source": "“The website should have the functionality to render 2D and 3D graphics, and users should be able to upload their own model files and adjust rendering parameters such as lighting, materials, and colors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может загружать файлы моделей.",
+      "source": "“The website should have the functionality to render 2D and 3D graphics, and users should be able to upload their own model files and adjust rendering parameters such as lighting, materials, and colors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может настраивать освещение.",
+      "source": "“The website should have the functionality to render 2D and 3D graphics, and users should be able to upload their own model files and adjust rendering parameters such as lighting, materials, and colors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может настраивать материалы.",
+      "source": "“The website should have the functionality to render 2D and 3D graphics, and users should be able to upload their own model files and adjust rendering parameters such as lighting, materials, and colors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может настраивать цвета.",
+      "source": "“The website should have the functionality to render 2D and 3D graphics, and users should be able to upload their own model files and adjust rendering parameters such as lighting, materials, and colors.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна показывать изменения в предварительном просмотре в реальном времени.",
+      "source": "“The website should also have real-time preview and interaction capabilities, allowing users to rotate, zoom, and pan the graphics.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может вращать изображение модели.",
+      "source": "“The website should also have real-time preview and interaction capabilities, allowing users to rotate, zoom, and pan the graphics.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может масштабировать изображение модели.",
+      "source": "“The website should also have real-time preview and interaction capabilities, allowing users to rotate, zoom, and pan the graphics.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может перемещать изображение модели.",
+      "source": "“The website should also have real-time preview and interaction capabilities, allowing users to rotate, zoom, and pan the graphics.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `light sea green` (`#20B2AA`).",
+      "source": "“Apply light sea green as the background; style all components with medium sea green.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Все компоненты интерфейса имеют цвет `medium sea green` (`#3CB371`).",
+      "source": "“Apply light sea green as the background; style all components with medium sea green.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

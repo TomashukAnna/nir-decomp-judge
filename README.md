@@ -4,7 +4,11 @@
 
 Semester research project by Anna Tomashuk.
 
+[Reusable requirement bank (in Russian)](docs/requirement-bank.md): templates, source links and implementation status of checks.
+
 [DevAI data and smoke test (in Russian)](docs/devai-data.md): pinned data source, human-label summary, workspace availability, model response and task 39 comparison.
+
+[Requirement embeddings review (in Russian)](results/requirement-map/embeddings/README.md): supplied BGE-M3 maps, verified artifacts and candidates for extending the requirement bank.
 
 ## Problem and goal
 

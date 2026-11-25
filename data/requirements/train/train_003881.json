@@ -1,0 +1,88 @@
+{
+  "task_index": 3880,
+  "webgen_id": "train_003881",
+  "query": "Please implement a fintech customer portal website to provide financial services. The website should have functionalities for user registration, login, viewing account information, and transaction records. Users should be able to log in, view their account information, including balance and transaction records, and perform transfer and payment operations. Apply theme using pink as background and deeppink for elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“The website should have functionalities for user registration, login, viewing account information, and transaction records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, view their account information, including balance and transaction records, and perform transfer and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать информацию о своём счёте.",
+      "source": "“Users should be able to log in, view their account information, including balance and transaction records, and perform transfer and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.1",
+      "criteria": "Пользователь может просматривать баланс.",
+      "source": "“Users should be able to log in, view their account information, including balance and transaction records, and perform transfer and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3.2",
+      "criteria": "Пользователь может просматривать историю операций.",
+      "source": "“Users should be able to log in, view their account information, including balance and transaction records, and perform transfer and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R3",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выполнять денежные переводы.",
+      "source": "“Users should be able to log in, view their account information, including balance and transaction records, and perform transfer and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может выполнять платежи.",
+      "source": "“Users should be able to log in, view their account information, including balance and transaction records, and perform transfer and payment operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `pink` (`#FFC0CB`).",
+      "source": "“Apply theme using pink as background and deeppink for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `deeppink` (`#FF1493`).",
+      "source": "“Apply theme using pink as background and deeppink for elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "task_index": 3410,
+  "webgen_id": "train_003411",
+  "query": "Please implement a points exchange platform for exchanging goods and virtual goods. The platform should have functionalities for browsing goods, managing orders, managing members, managing points, managing product cards, and exchanging virtual goods. Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods. Apply light coral as the background; style all components with indian red.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять управление заказами.",
+      "source": "“The platform should have functionalities for browsing goods, managing orders, managing members, managing points, managing product cards, and exchanging virtual goods.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление участниками.",
+      "source": "“The platform should have functionalities for browsing goods, managing orders, managing members, managing points, managing product cards, and exchanging virtual goods.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять управление баллами.",
+      "source": "“The platform should have functionalities for browsing goods, managing orders, managing members, managing points, managing product cards, and exchanging virtual goods.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять управление товарными карточками.",
+      "source": "“The platform should have functionalities for browsing goods, managing orders, managing members, managing points, managing product cards, and exchanging virtual goods.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может оформлять заказы на обмен товаров.",
+      "source": "“Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может проверять состояние заказа.",
+      "source": "“Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может управлять своими данными участника.",
+      "source": "“Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может проверять баланс баллов.",
+      "source": "“Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может обменивать виртуальные товары.",
+      "source": "“Users should be able to log in, browse goods, place orders to exchange goods, check order status, manage personal member information, query point balances, and exchange virtual goods.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `light coral` (`#F08080`).",
+      "source": "“Apply light coral as the background; style all components with indian red.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Все компоненты интерфейса имеют цвет `indian red` (`#CD5C5C`).",
+      "source": "“Apply light coral as the background; style all components with indian red.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "task_index": 2558,
+  "webgen_id": "train_002559",
+  "query": "Please implement a fast and simple application development platform for rapid development of various applications. The platform should have functionalities for project management, code editing, and debugging. Users should be able to log in, create new projects, edit code, debug applications, and manage project versions. Use sunlight as the screen background and gold for component highlights.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create new projects, edit code, debug applications, and manage project versions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать проекты.",
+      "source": "“Users should be able to log in, create new projects, edit code, debug applications, and manage project versions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать код.",
+      "source": "“Users should be able to log in, create new projects, edit code, debug applications, and manage project versions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отлаживать приложения.",
+      "source": "“Users should be able to log in, create new projects, edit code, debug applications, and manage project versions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять версиями проектов.",
+      "source": "“Users should be able to log in, create new projects, edit code, debug applications, and manage project versions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `sunlight`.",
+      "source": "“Use sunlight as the screen background and gold for component highlights.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Выделения компонентов имеют цвет `gold` (`#FFD700`).",
+      "source": "“Use sunlight as the screen background and gold for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

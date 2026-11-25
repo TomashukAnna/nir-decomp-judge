@@ -1,0 +1,106 @@
+{
+  "task_index": 5550,
+  "webgen_id": "train_005551",
+  "query": "Please implement a web push notification system to send notifications to browsers. The system should have functionalities for subscribing to push notifications, triggering push notifications, and receiving push notifications. Users should be able to subscribe to push notifications in their browsers, and when the server triggers a push notification, the browser should be able to receive the notification even when it is not active or minimized. The system should support multiple browsers, such as Chrome, Firefox, Edge, and Safari. Select navajo white for layout background and tan for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать подписку на push-уведомления.",
+      "source": "“The system should have functionalities for subscribing to push notifications, triggering push notifications, and receiving push notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна инициировать отправку push-уведомлений.",
+      "source": "“The system should have functionalities for subscribing to push notifications, triggering push notifications, and receiving push notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна обеспечивать получение push-уведомлений браузером.",
+      "source": "“The system should have functionalities for subscribing to push notifications, triggering push notifications, and receiving push notifications.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может подписываться на push-уведомления в браузере.",
+      "source": "“Users should be able to subscribe to push notifications in their browsers, and when the server triggers a push notification, the browser should be able to receive the notification even when it is not active or minimized.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна доставлять уведомления, когда браузер неактивен или свёрнут.",
+      "source": "“Users should be able to subscribe to push notifications in their browsers, and when the server triggers a push notification, the browser should be able to receive the notification even when it is not active or minimized.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна поддерживать Chrome.",
+      "source": "“The system should support multiple browsers, such as Chrome, Firefox, Edge, and Safari.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать Firefox.",
+      "source": "“The system should support multiple browsers, such as Chrome, Firefox, Edge, and Safari.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна поддерживать Edge.",
+      "source": "“The system should support multiple browsers, such as Chrome, Firefox, Edge, and Safari.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна поддерживать Safari.",
+      "source": "“The system should support multiple browsers, such as Chrome, Firefox, Edge, and Safari.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `navajo white` (`#FFDEAD`).",
+      "source": "“Select navajo white for layout background and tan for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Детали компонентов имеют цвет `tan` (`#D2B48C`).",
+      "source": "“Select navajo white for layout background and tan for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "task_index": 5638,
+  "webgen_id": "train_005639",
+  "query": "Please implement a movie data visualization webpage to display movie-related information and data analysis. The webpage should have functionalities such as a movie section, a rating section, and a word cloud section. The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction. The rating section should provide a distribution graph of the top 250 movie ratings on Douban, including data views, bar charts, and line charts. The word cloud section should generate a word cloud based on hot words. Users should be able to browse movie information, view rating distributions, and word cloud analysis. Use cotton for the outer layout and maroon for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать подробную информацию о фильме.",
+      "source": "“The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.1",
+      "criteria": "Система должна показывать место в рейтинге.",
+      "source": "“The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.2",
+      "criteria": "Система должна показывать название.",
+      "source": "“The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.3",
+      "criteria": "Система должна показывать оценку.",
+      "source": "“The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.4",
+      "criteria": "Система должна показывать число отзывов.",
+      "source": "“The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.5",
+      "criteria": "Система должна показывать краткое содержание.",
+      "source": "“The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R1.6",
+      "criteria": "Система должна показывать описание фильма.",
+      "source": "“The movie section should display detailed movie information, including ranking, movie name, rating, number of reviews, a brief summary, and introduction.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R1",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна отображать распределение оценок топ-250 фильмов Douban.",
+      "source": "“The rating section should provide a distribution graph of the top 250 movie ratings on Douban, including data views, bar charts, and line charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять табличный просмотр данных.",
+      "source": "“The rating section should provide a distribution graph of the top 250 movie ratings on Douban, including data views, bar charts, and line charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять столбчатую диаграмму.",
+      "source": "“The rating section should provide a distribution graph of the top 250 movie ratings on Douban, including data views, bar charts, and line charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять линейную диаграмму.",
+      "source": "“The rating section should provide a distribution graph of the top 250 movie ratings on Douban, including data views, bar charts, and line charts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна создавать облако слов на основе популярных слов.",
+      "source": "“The word cloud section should generate a word cloud based on hot words.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать сведения о фильмах.",
+      "source": "“Users should be able to browse movie information, view rating distributions, and word cloud analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать распределение оценок.",
+      "source": "“Users should be able to browse movie information, view rating distributions, and word cloud analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать облако слов.",
+      "source": "“Users should be able to browse movie information, view rating distributions, and word cloud analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Внешний фон страницы имеет цвет `cotton`.",
+      "source": "“Use cotton for the outer layout and maroon for UI blocks.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Use cotton for the outer layout and maroon for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

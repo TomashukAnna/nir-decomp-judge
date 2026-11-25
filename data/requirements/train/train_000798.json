@@ -1,0 +1,151 @@
+{
+  "task_index": 797,
+  "webgen_id": "train_000798",
+  "query": "Please implement a short drama video service website for playing and managing short drama videos. The website should have functionalities for user management, financial management, order management, playback management, authorization management, notification management, and consumption management. Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more. The website should also have backend management functionality for managing users, finances, orders, and video content. Configure your theme with gainsboro as background and dark slate blue as component color.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять управление авторизацией.",
+      "source": "“The website should have functionalities for user management, financial management, order management, playback management, authorization management, notification management, and consumption management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление уведомлениями.",
+      "source": "“The website should have functionalities for user management, financial management, order management, playback management, authorization management, notification management, and consumption management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять управление потреблением.",
+      "source": "“The website should have functionalities for user management, financial management, order management, playback management, authorization management, notification management, and consumption management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать короткие сериалы.",
+      "source": "“Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может воспроизводить короткие сериалы.",
+      "source": "“Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять персональной информацией.",
+      "source": "“Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может пополнять счёт.",
+      "source": "“Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может оплачивать потребление контента.",
+      "source": "“Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать состояние заказа.",
+      "source": "“Users should be able to log in, browse and play short drama videos, manage personal information, perform recharge and consumption, view order status, and more.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может управлять пользователями.",
+      "source": "“The website should also have backend management functionality for managing users, finances, orders, and video content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Администратор может управлять финансами.",
+      "source": "“The website should also have backend management functionality for managing users, finances, orders, and video content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Администратор может управлять заказами.",
+      "source": "“The website should also have backend management functionality for managing users, finances, orders, and video content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Администратор может управлять видеоматериалами.",
+      "source": "“The website should also have backend management functionality for managing users, finances, orders, and video content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Основной фон интерфейса имеет цвет `gainsboro` (`#DCDCDC`).",
+      "source": "“Configure your theme with gainsboro as background and dark slate blue as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate blue` (`#483D8B`).",
+      "source": "“Configure your theme with gainsboro as background and dark slate blue as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

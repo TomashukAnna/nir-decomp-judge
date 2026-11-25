@@ -1,0 +1,106 @@
+{
+  "task_index": 325,
+  "webgen_id": "train_000326",
+  "query": "Please implement a real-time audio streaming system for playing audio content. The system should have basic control functions such as play, pause, and stop. Users should be able to browse and search for audio content, create playlists, and play selected audio in real-time. The system should also have audio quality control and error handling functions. Use blanched almond as the screen background and dark slate gray for component highlights.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может запускать воспроизведение.",
+      "source": "“The system should have basic control functions such as play, pause, and stop.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может приостанавливать воспроизведение.",
+      "source": "“The system should have basic control functions such as play, pause, and stop.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может останавливать воспроизведение.",
+      "source": "“The system should have basic control functions such as play, pause, and stop.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать аудиоматериалы.",
+      "source": "“Users should be able to browse and search for audio content, create playlists, and play selected audio in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может искать аудиоматериалы.",
+      "source": "“Users should be able to browse and search for audio content, create playlists, and play selected audio in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может создавать плейлисты.",
+      "source": "“Users should be able to browse and search for audio content, create playlists, and play selected audio in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может слушать выбранный материал потоково.",
+      "source": "“Users should be able to browse and search for audio content, create playlists, and play selected audio in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна контролировать качество звука.",
+      "source": "“The system should also have audio quality control and error handling functions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна обрабатывать ошибки воспроизведения.",
+      "source": "“The system should also have audio quality control and error handling functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `blanched almond` (`#FFEBCD`).",
+      "source": "“Use blanched almond as the screen background and dark slate gray for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Выделения компонентов имеют цвет `dark slate gray` (`#2F4F4F`).",
+      "source": "“Use blanched almond as the screen background and dark slate gray for component highlights.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

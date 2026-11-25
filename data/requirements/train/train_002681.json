@@ -1,0 +1,70 @@
+{
+  "task_index": 2680,
+  "webgen_id": "train_002681",
+  "query": "Please implement a Michelin tire website to display tire introductions and queries. The website should have functionalities for tire queries, store location queries, and promotional activities. Users should be able to browse tire introductions, query tire information, find nearby stores, and view related promotional activities. The website should also support multiple languages to facilitate access for users from different regions. Define the background as aquamarine and components as dark turquoise.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может просматривать описания шин.",
+      "source": "“Users should be able to browse tire introductions, query tire information, find nearby stores, and view related promotional activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может искать информацию о шинах.",
+      "source": "“Users should be able to browse tire introductions, query tire information, find nearby stores, and view related promotional activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может находить ближайшие магазины.",
+      "source": "“Users should be able to browse tire introductions, query tire information, find nearby stores, and view related promotional activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать действующие акции.",
+      "source": "“Users should be able to browse tire introductions, query tire information, find nearby stores, and view related promotional activities.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна поддерживать несколько языков.",
+      "source": "“The website should also support multiple languages to facilitate access for users from different regions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `aquamarine` (`#7FFFD4`).",
+      "source": "“Define the background as aquamarine and components as dark turquoise.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `dark turquoise` (`#00CED1`).",
+      "source": "“Define the background as aquamarine and components as dark turquoise.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

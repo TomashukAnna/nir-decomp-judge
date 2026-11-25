@@ -1,0 +1,97 @@
+{
+  "task_index": 4173,
+  "webgen_id": "train_004174",
+  "query": "Please implement a Shu Yi Shao Xian Cao mini-program for selling products and managing orders. The mini-program should have functionalities such as product categories, ordering, order lists, personal centers, promotional activities, and points malls. Users should be able to browse products, place orders, view order lists, manage personal information, participate in promotional activities, and redeem points. Establish baby blue as the main background and navy for the controls.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять категории товаров.",
+      "source": "“The mini-program should have functionalities such as product categories, ordering, order lists, personal centers, promotional activities, and points malls.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять личный кабинет.",
+      "source": "“The mini-program should have functionalities such as product categories, ordering, order lists, personal centers, promotional activities, and points malls.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать товары.",
+      "source": "“Users should be able to browse products, place orders, view order lists, manage personal information, participate in promotional activities, and redeem points.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оформлять заказы.",
+      "source": "“Users should be able to browse products, place orders, view order lists, manage personal information, participate in promotional activities, and redeem points.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать список заказов.",
+      "source": "“Users should be able to browse products, place orders, view order lists, manage personal information, participate in promotional activities, and redeem points.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять персональной информацией.",
+      "source": "“Users should be able to browse products, place orders, view order lists, manage personal information, participate in promotional activities, and redeem points.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может участвовать в акциях.",
+      "source": "“Users should be able to browse products, place orders, view order lists, manage personal information, participate in promotional activities, and redeem points.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может обменивать баллы.",
+      "source": "“Users should be able to browse products, place orders, view order lists, manage personal information, participate in promotional activities, and redeem points.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `baby blue`.",
+      "source": "“Establish baby blue as the main background and navy for the controls.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Элементы управления имеют цвет `navy` (`#000080`).",
+      "source": "“Establish baby blue as the main background and navy for the controls.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "task_index": 3808,
+  "webgen_id": "train_003809",
+  "query": "Please implement a multi-level marketing website for cryptocurrency investment. The website should have functionalities for registration, login, investment, and referral. Users should be able to register an account, log in to the website, browse different cryptocurrency investment opportunities, make investments, and refer other users to join the investment. The website should also have a personal center where users can view their investment records, referral records, and account balance. Use pale green for the outer layout and forest green for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“Users should be able to register an account, log in to the website, browse different cryptocurrency investment opportunities, make investments, and refer other users to join the investment.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to register an account, log in to the website, browse different cryptocurrency investment opportunities, make investments, and refer other users to join the investment.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать варианты криптовалютных инвестиций.",
+      "source": "“Users should be able to register an account, log in to the website, browse different cryptocurrency investment opportunities, make investments, and refer other users to join the investment.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может оформлять инвестиции.",
+      "source": "“Users should be able to register an account, log in to the website, browse different cryptocurrency investment opportunities, make investments, and refer other users to join the investment.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может приглашать других пользователей к участию.",
+      "source": "“Users should be able to register an account, log in to the website, browse different cryptocurrency investment opportunities, make investments, and refer other users to join the investment.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может открывать личный кабинет.",
+      "source": "“The website should also have a personal center where users can view their investment records, referral records, and account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.1",
+      "criteria": "Пользователь может просматривать историю своих инвестиций.",
+      "source": "“The website should also have a personal center where users can view their investment records, referral records, and account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.2",
+      "criteria": "Пользователь может просматривать историю приглашений.",
+      "source": "“The website should also have a personal center where users can view their investment records, referral records, and account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6.3",
+      "criteria": "Пользователь может просматривать баланс счёта.",
+      "source": "“The website should also have a personal center where users can view their investment records, referral records, and account balance.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": "R6",
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна поддерживать многоуровневый маркетинг.",
+      "source": "“Please implement a multi-level marketing website for cryptocurrency investment.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Внешний фон страницы имеет цвет `pale green` (`#98FB98`).",
+      "source": "“Use pale green for the outer layout and forest green for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `forest green` (`#228B22`).",
+      "source": "“Use pale green for the outer layout and forest green for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

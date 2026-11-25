@@ -1,0 +1,79 @@
+{
+  "task_index": 2103,
+  "webgen_id": "train_002104",
+  "query": "Please implement a blockchain smart contract development website for designing and deploying smart contracts. The website should have functionalities for designing, developing, and deploying smart contracts. Users should be able to log in, create, edit, and deploy smart contracts, view contract execution results, and manage contract-related data. Set light sea green as the body background and use dark slate gray for the UI.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, create, edit, and deploy smart contracts, view contract execution results, and manage contract-related data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать смарт-контракты.",
+      "source": "“Users should be able to log in, create, edit, and deploy smart contracts, view contract execution results, and manage contract-related data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать смарт-контракты.",
+      "source": "“Users should be able to log in, create, edit, and deploy smart contracts, view contract execution results, and manage contract-related data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может развёртывать смарт-контракты.",
+      "source": "“Users should be able to log in, create, edit, and deploy smart contracts, view contract execution results, and manage contract-related data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может просматривать результат выполнения контракта.",
+      "source": "“Users should be able to log in, create, edit, and deploy smart contracts, view contract execution results, and manage contract-related data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять данными контракта.",
+      "source": "“Users should be able to log in, create, edit, and deploy smart contracts, view contract execution results, and manage contract-related data.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `light sea green` (`#20B2AA`).",
+      "source": "“Set light sea green as the body background and use dark slate gray for the UI.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`).",
+      "source": "“Set light sea green as the body background and use dark slate gray for the UI.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

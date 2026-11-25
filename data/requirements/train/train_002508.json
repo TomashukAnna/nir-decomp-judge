@@ -1,0 +1,97 @@
+{
+  "task_index": 2507,
+  "webgen_id": "train_002508",
+  "query": "Please implement a virtual assistant website that provides brand development and copywriting services. The website should have functionalities for writing, editing, and reviewing. Users should be able to log in, submit writing tasks, and the virtual assistant can perform writing, editing, and reviewing based on the task requirements, returning high-quality results. The website should also have project management functionality, allowing users to track task progress and communicate with the virtual assistant. Design the site using powder blue as the background and medium blue for content blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, submit writing tasks, and the virtual assistant can perform writing, editing, and reviewing based on the task requirements, returning high-quality results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправлять задания на подготовку текста.",
+      "source": "“Users should be able to log in, submit writing tasks, and the virtual assistant can perform writing, editing, and reviewing based on the task requirements, returning high-quality results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна подготавливать текст по заданию.",
+      "source": "“Users should be able to log in, submit writing tasks, and the virtual assistant can perform writing, editing, and reviewing based on the task requirements, returning high-quality results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна редактировать текст по заданию.",
+      "source": "“Users should be able to log in, submit writing tasks, and the virtual assistant can perform writing, editing, and reviewing based on the task requirements, returning high-quality results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна рецензировать текст по заданию.",
+      "source": "“Users should be able to log in, submit writing tasks, and the virtual assistant can perform writing, editing, and reviewing based on the task requirements, returning high-quality results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна возвращать результат, соответствующий требованиям задания.",
+      "source": "“Users should be able to log in, submit writing tasks, and the virtual assistant can perform writing, editing, and reviewing based on the task requirements, returning high-quality results.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может отслеживать выполнение заданий.",
+      "source": "“The website should also have project management functionality, allowing users to track task progress and communicate with the virtual assistant.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может общаться с виртуальным помощником.",
+      "source": "“The website should also have project management functionality, allowing users to track task progress and communicate with the virtual assistant.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Основной фон интерфейса имеет цвет `powder blue` (`#B0E0E6`).",
+      "source": "“Design the site using powder blue as the background and medium blue for content blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Блоки содержимого имеют цвет `medium blue` (`#0000CD`).",
+      "source": "“Design the site using powder blue as the background and medium blue for content blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

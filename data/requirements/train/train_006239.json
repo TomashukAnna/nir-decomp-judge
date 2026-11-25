@@ -1,0 +1,151 @@
+{
+  "task_index": 6238,
+  "webgen_id": "train_006239",
+  "query": "Please develop an online tutoring website for providing ISTQB advanced level test analysis training. The website should have functionalities for online teaching, test design, test management, and test automation. Users should be able to log in, browse courses, attend online tutoring sessions, submit assignments, and view grades. Teachers should be able to log in, create courses, upload materials, grade assignments, and communicate with students. Implement styling with beige for the background and brown for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять обучение анализу тестирования уровня ISTQB Advanced.",
+      "source": "“Please develop an online tutoring website for providing ISTQB advanced level test analysis training.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна поддерживать проектирование тестов.",
+      "source": "“The website should have functionalities for online teaching, test design, test management, and test automation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять управление тестами.",
+      "source": "“The website should have functionalities for online teaching, test design, test management, and test automation.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать автоматизацию тестирования.",
+      "source": "“The website should have functionalities for online teaching, test design, test management, and test automation.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Учащийся может войти в систему.",
+      "source": "“Users should be able to log in, browse courses, attend online tutoring sessions, submit assignments, and view grades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Учащийся может просматривать курсы.",
+      "source": "“Users should be able to log in, browse courses, attend online tutoring sessions, submit assignments, and view grades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Учащийся может посещать онлайн-консультации.",
+      "source": "“Users should be able to log in, browse courses, attend online tutoring sessions, submit assignments, and view grades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Учащийся может отправлять задания.",
+      "source": "“Users should be able to log in, browse courses, attend online tutoring sessions, submit assignments, and view grades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Учащийся может просматривать оценки.",
+      "source": "“Users should be able to log in, browse courses, attend online tutoring sessions, submit assignments, and view grades.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Преподаватель может войти в систему.",
+      "source": "“Teachers should be able to log in, create courses, upload materials, grade assignments, and communicate with students.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Преподаватель может создавать курсы.",
+      "source": "“Teachers should be able to log in, create courses, upload materials, grade assignments, and communicate with students.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Преподаватель может загружать материалы.",
+      "source": "“Teachers should be able to log in, create courses, upload materials, grade assignments, and communicate with students.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Преподаватель может оценивать задания.",
+      "source": "“Teachers should be able to log in, create courses, upload materials, grade assignments, and communicate with students.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Преподаватель может общаться с учащимися.",
+      "source": "“Teachers should be able to log in, create courses, upload materials, grade assignments, and communicate with students.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Основной фон интерфейса имеет цвет `beige` (`#F5F5DC`).",
+      "source": "“Implement styling with beige for the background and brown for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Компоненты интерфейса имеют цвет `brown` (`#A52A2A`).",
+      "source": "“Implement styling with beige for the background and brown for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

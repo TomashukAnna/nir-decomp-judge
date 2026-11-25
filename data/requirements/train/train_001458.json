@@ -1,0 +1,133 @@
+{
+  "task_index": 1457,
+  "webgen_id": "train_001458",
+  "query": "Please implement an image repair tool to clean up image borders and artifacts. The tool should have functionalities for border cleaning, process optimization, and custom nodes. Users should be able to upload images, select cleaning modes, adjust parameters, preview effects, and save the repaired images. The tool should be able to automatically detect and remove image borders and artifacts, providing real-time preview and adjustment functions. Assign glacier blue to body backgrounds and royal blue to main components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может настраивать пользовательские узлы обработки.",
+      "source": "“The tool should have functionalities for border cleaning, process optimization, and custom nodes.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна оптимизировать процесс обработки.",
+      "source": "“The tool should have functionalities for border cleaning, process optimization, and custom nodes.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может загружать изображения.",
+      "source": "“Users should be able to upload images, select cleaning modes, adjust parameters, preview effects, and save the repaired images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выбирать режим очистки.",
+      "source": "“Users should be able to upload images, select cleaning modes, adjust parameters, preview effects, and save the repaired images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может изменять параметры обработки.",
+      "source": "“Users should be able to upload images, select cleaning modes, adjust parameters, preview effects, and save the repaired images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может предварительно просматривать результат.",
+      "source": "“Users should be able to upload images, select cleaning modes, adjust parameters, preview effects, and save the repaired images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может сохранять восстановленное изображение.",
+      "source": "“Users should be able to upload images, select cleaning modes, adjust parameters, preview effects, and save the repaired images.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна автоматически обнаруживать границы изображения.",
+      "source": "“The tool should be able to automatically detect and remove image borders and artifacts, providing real-time preview and adjustment functions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна удалять границы изображения.",
+      "source": "“The tool should be able to automatically detect and remove image borders and artifacts, providing real-time preview and adjustment functions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна автоматически обнаруживать артефакты.",
+      "source": "“The tool should be able to automatically detect and remove image borders and artifacts, providing real-time preview and adjustment functions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна удалять артефакты.",
+      "source": "“The tool should be able to automatically detect and remove image borders and artifacts, providing real-time preview and adjustment functions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Система должна показывать предварительный результат в реальном времени.",
+      "source": "“The tool should be able to automatically detect and remove image borders and artifacts, providing real-time preview and adjustment functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `glacier blue`.",
+      "source": "“Assign glacier blue to body backgrounds and royal blue to main components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `royal blue` (`#4169E1`).",
+      "source": "“Assign glacier blue to body backgrounds and royal blue to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

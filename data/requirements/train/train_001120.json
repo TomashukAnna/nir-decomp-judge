@@ -1,0 +1,106 @@
+{
+  "task_index": 1119,
+  "webgen_id": "train_001120",
+  "query": "Please implement an online photo gallery system for displaying and managing pictures. The system should have functionalities for uploading, deleting, editing, and categorizing. Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users. Declare old lace as the global background color and tan for all UI pieces.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может удалять изображения.",
+      "source": "“The system should have functionalities for uploading, deleting, editing, and categorizing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может распределять изображения по категориям.",
+      "source": "“The system should have functionalities for uploading, deleting, editing, and categorizing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать изображения.",
+      "source": "“Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может загружать собственные изображения.",
+      "source": "“Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять собственными изображениями.",
+      "source": "“Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может создавать альбомы.",
+      "source": "“Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может редактировать сведения об изображении.",
+      "source": "“Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может делиться альбомами с другими пользователями.",
+      "source": "“Users should be able to log in, browse, upload, and manage their own pictures, create albums, edit picture information, and share albums with other users.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `old lace` (`#FDF5E6`).",
+      "source": "“Declare old lace as the global background color and tan for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `tan` (`#D2B48C`).",
+      "source": "“Declare old lace as the global background color and tan for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

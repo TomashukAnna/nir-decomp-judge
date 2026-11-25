@@ -1,0 +1,133 @@
+{
+  "task_index": 3998,
+  "webgen_id": "train_003999",
+  "query": "Please implement a cross-border e-commerce big data analysis backend website for monitoring and analyzing e-commerce data. The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis. Users should be able to log in, browse and analyze various data, optimize their own stores, and enhance their competitiveness with competing products. Assign light steel blue to body backgrounds and dark slate gray to main components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять центр мониторинга.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять анализ товаров.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять анализ магазинов.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна предоставлять анализ популярных поисковых слов.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна предоставлять анализ отрасли.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна предоставлять анализ площадок.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять анализ брендов.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна предоставлять анализ прямых трансляций.",
+      "source": "“The website should have functionalities such as a monitoring center, product analysis, store analysis, hot search word analysis, industry analysis, site analysis, brand analysis, and live broadcast analysis.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and analyze various data, optimize their own stores, and enhance their competitiveness with competing products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может просматривать данные.",
+      "source": "“Users should be able to log in, browse and analyze various data, optimize their own stores, and enhance their competitiveness with competing products.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может анализировать данные.",
+      "source": "“Users should be able to log in, browse and analyze various data, optimize their own stores, and enhance their competitiveness with competing products.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может оптимизировать собственный магазин на основе данных.",
+      "source": "“Users should be able to log in, browse and analyze various data, optimize their own stores, and enhance their competitiveness with competing products.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Основной фон интерфейса имеет цвет `light steel blue` (`#B0C4DE`).",
+      "source": "“Assign light steel blue to body backgrounds and dark slate gray to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`).",
+      "source": "“Assign light steel blue to body backgrounds and dark slate gray to main components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

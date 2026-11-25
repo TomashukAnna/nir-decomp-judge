@@ -1,0 +1,142 @@
+{
+  "task_index": 6580,
+  "webgen_id": "train_006581",
+  "query": "Please implement an in-vehicle multimedia system that displays weather forecasts, plays videos and music, and shows maps. The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map. Users can operate the system through a touch screen. Implement morning mist for the page background and navy for the elements.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна показывать местный прогноз на сегодня.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна показывать местный прогноз на следующие пять дней.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна воспроизводить локальное видео.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна воспроизводить музыку.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна показывать текст песни.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна показывать сведения о песне.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна показывать карту текущего положения.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может приостанавливать видео.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может переключать видео.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может управлять позицией воспроизведения видео.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может увеличивать масштаб карты.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может уменьшать масштаб карты.",
+      "source": "“The system should have the functionality to display local weather forecasts for the current day and the next five days, play local video files, control video playback, pause, skip, and progress bar operations, play music, display lyrics and song information, display the current location map, and zoom in and out of the map.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может управлять системой через сенсорный экран.",
+      "source": "“Users can operate the system through a touch screen.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `morning mist`.",
+      "source": "“Implement morning mist for the page background and navy for the elements.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Implement morning mist for the page background and navy for the elements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

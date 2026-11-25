@@ -1,0 +1,100 @@
+{
+  "commit": "0765e5b7aa094894fb7f4cbf2eb76bb422b8b156",
+  "source_directory": "D:/ИТМО/3 семестр/НИР_3/nir-decomp-judge/data/requirement-bank/embeddings/received-2026-11-22",
+  "source": "Supervisor-supplied artifacts; original generation run ID not supplied",
+  "model_label_in_html": "BGE-M3",
+  "model_revision": null,
+  "encoding_settings": null,
+  "projection_and_clustering_settings": null,
+  "seed": 42,
+  "seed_used_for_audit": false,
+  "neighbors": 5,
+  "catalog_matches_original": true,
+  "files": {
+    "catalog-webgen-maps.html": {
+      "bytes": 5451940,
+      "sha256": "a022cdc826fe38da17c870df343a6f7150df90dc05b437849d1aa06cb047cf2c"
+    },
+    "catalog.json": {
+      "bytes": 4955623,
+      "sha256": "55ce3302567d2208d2b33d7099a8cd6f58ebbd1612bdcfa354ff84bb620d8b70"
+    },
+    "webgen-train-embeddings.json": {
+      "bytes": 90368038,
+      "sha256": "3e5e7b16b9dd914d522338f0bd8bff4eff7c6fed6ecb9efad632ef14837dbb78"
+    }
+  },
+  "maps": [
+    {
+      "key": "catalog-map",
+      "groups": [
+        "Явные",
+        "Неявные"
+      ],
+      "views": {
+        "BGE-M3": [
+          "t-SNE",
+          "UMAP"
+        ],
+        "TF-IDF": [
+          "t-SNE",
+          "UMAP"
+        ]
+      }
+    },
+    {
+      "key": "webgen-map",
+      "groups": [
+        "Админ-панели",
+        "Веб-платформы и API",
+        "Интернет-магазины",
+        "Мини-приложения",
+        "Управление контентом",
+        "Базы данных",
+        "Платежи",
+        "Аналитика",
+        "Корпоративные сайты",
+        "Видео и игры",
+        "Онлайн-обучение",
+        "Чаты",
+        "Формы и документы"
+      ],
+      "views": {
+        "BGE-M3": [
+          "t-SNE",
+          "UMAP"
+        ]
+      }
+    }
+  ],
+  "train_application_types": {
+    "E-commerce Web Applications": 1596,
+    "Internal Tools": 1422,
+    "Discussion Forums": 21,
+    "Productivity Applications": 212,
+    "News and Information Sites": 83,
+    "Project Management Tools": 1017,
+    "CRM Systems": 107,
+    "Browser-Based Games": 100,
+    "Analytics Platforms/Dashboards": 493,
+    "Learning Platforms": 357,
+    "Streaming and Interactive Platforms": 284,
+    "Company Brochure Sites": 336,
+    "Email Clients": 21,
+    "Publishing/Blogging Platforms": 258,
+    "ERP Platforms": 98,
+    "Social Media Platforms": 142,
+    "Personal Portfolio Sites": 36,
+    "Job Search Platforms": 27,
+    "News Aggregators": 12,
+    "Travel Booking Portals": 29,
+    "Personal Blog Sites": 16
+  },
+  "run_id": "d6649063966a4d828bb32c2ebdcad5da",
+  "metrics": {
+    "requirements": 217,
+    "requirement_tasks": 15,
+    "train_tasks": 6667,
+    "embedding_dimensions": 1024
+  }
+}

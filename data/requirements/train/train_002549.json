@@ -1,0 +1,88 @@
+{
+  "task_index": 2548,
+  "webgen_id": "train_002549",
+  "query": "Please implement a web-based application for creating and managing Playdoh projects. The application should have functionalities for creating, editing, and deleting projects. Users should be able to log in and browse the project list, create new projects, edit existing projects, and delete unnecessary projects. Additionally, the application should have project preview and sharing functions. Color the background using ice blue and set component styles to teal.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in and browse the project list, create new projects, edit existing projects, and delete unnecessary projects.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать список проектов.",
+      "source": "“Users should be able to log in and browse the project list, create new projects, edit existing projects, and delete unnecessary projects.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать проекты Playdoh.",
+      "source": "“Users should be able to log in and browse the project list, create new projects, edit existing projects, and delete unnecessary projects.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать проекты.",
+      "source": "“Users should be able to log in and browse the project list, create new projects, edit existing projects, and delete unnecessary projects.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять проекты.",
+      "source": "“Users should be able to log in and browse the project list, create new projects, edit existing projects, and delete unnecessary projects.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может предварительно просматривать проект.",
+      "source": "“Additionally, the application should have project preview and sharing functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может делиться проектом.",
+      "source": "“Additionally, the application should have project preview and sharing functions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `ice blue`.",
+      "source": "“Color the background using ice blue and set component styles to teal.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `teal` (`#008080`).",
+      "source": "“Color the background using ice blue and set component styles to teal.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

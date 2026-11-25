@@ -1,0 +1,79 @@
+{
+  "task_index": 4921,
+  "webgen_id": "train_004922",
+  "query": "Please implement a database management website for database maintenance and management. The website should have functionalities for database backup, recovery, performance optimization, and fault handling. Users should be able to log in, browse database information, perform database backups and recoveries, optimize database performance, and handle database faults. Set overall background to sky blue, then style components with navy.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse database information, perform database backups and recoveries, optimize database performance, and handle database faults.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать сведения о базе.",
+      "source": "“Users should be able to log in, browse database information, perform database backups and recoveries, optimize database performance, and handle database faults.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может создавать резервную копию базы.",
+      "source": "“Users should be able to log in, browse database information, perform database backups and recoveries, optimize database performance, and handle database faults.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может восстанавливать базу.",
+      "source": "“Users should be able to log in, browse database information, perform database backups and recoveries, optimize database performance, and handle database faults.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оптимизировать производительность базы.",
+      "source": "“Users should be able to log in, browse database information, perform database backups and recoveries, optimize database performance, and handle database faults.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может устранять неисправности базы.",
+      "source": "“Users should be able to log in, browse database information, perform database backups and recoveries, optimize database performance, and handle database faults.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `sky blue` (`#87CEEB`).",
+      "source": "“Set overall background to sky blue, then style components with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `navy` (`#000080`).",
+      "source": "“Set overall background to sky blue, then style components with navy.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

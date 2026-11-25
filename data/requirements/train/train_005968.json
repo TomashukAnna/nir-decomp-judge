@@ -1,0 +1,79 @@
+{
+  "task_index": 5967,
+  "webgen_id": "train_005968",
+  "query": "Please implement a website for visualizing epidemic data to display related information. The website should have functionalities for data display, automatic updates, and real-time tracking. Users should be able to browse epidemic data, view the latest news, and track the epidemic situation in real-time. The website should include various charts and maps to display different dimensions of epidemic data. Set primary background to light goldenrod yellow and elements to olive drab.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна автоматически обновлять эпидемиологические данные.",
+      "source": "“The website should have functionalities for data display, automatic updates, and real-time tracking.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать данные об эпидемии.",
+      "source": "“Users should be able to browse epidemic data, view the latest news, and track the epidemic situation in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать последние новости.",
+      "source": "“Users should be able to browse epidemic data, view the latest news, and track the epidemic situation in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может отслеживать ситуацию в реальном времени.",
+      "source": "“Users should be able to browse epidemic data, view the latest news, and track the epidemic situation in real-time.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна отображать эпидемиологические показатели на диаграммах.",
+      "source": "“The website should include various charts and maps to display different dimensions of epidemic data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна отображать эпидемиологические показатели на картах.",
+      "source": "“The website should include various charts and maps to display different dimensions of epidemic data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `light goldenrod yellow` (`#FAFAD2`).",
+      "source": "“Set primary background to light goldenrod yellow and elements to olive drab.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `olive drab` (`#6B8E23`).",
+      "source": "“Set primary background to light goldenrod yellow and elements to olive drab.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

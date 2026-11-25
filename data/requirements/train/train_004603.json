@@ -1,0 +1,88 @@
+{
+  "task_index": 4602,
+  "webgen_id": "train_004603",
+  "query": "Please implement a simple database system for storing and managing data. The system should have functionalities for creating databases, creating tables, inserting data, querying data, updating data, and deleting data. Users should be able to interact with the system through a command line or graphical interface, performing various database operations. Specify salmon as the base color and crimson for all components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать базы.",
+      "source": "“The system should have functionalities for creating databases, creating tables, inserting data, querying data, updating data, and deleting data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может создавать таблицы.",
+      "source": "“The system should have functionalities for creating databases, creating tables, inserting data, querying data, updating data, and deleting data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может добавлять данные.",
+      "source": "“The system should have functionalities for creating databases, creating tables, inserting data, querying data, updating data, and deleting data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может запрашивать данные.",
+      "source": "“The system should have functionalities for creating databases, creating tables, inserting data, querying data, updating data, and deleting data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может обновлять данные.",
+      "source": "“The system should have functionalities for creating databases, creating tables, inserting data, querying data, updating data, and deleting data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может удалять данные.",
+      "source": "“The system should have functionalities for creating databases, creating tables, inserting data, querying data, updating data, and deleting data.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна предоставлять командный либо графический интерфейс.",
+      "source": "“Users should be able to interact with the system through a command line or graphical interface, performing various database operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Базовый слой интерфейса имеет цвет `salmon` (`#FA8072`).",
+      "source": "“Specify salmon as the base color and crimson for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Все компоненты интерфейса имеют цвет `crimson` (`#DC143C`).",
+      "source": "“Specify salmon as the base color and crimson for all components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "task_index": 6598,
+  "webgen_id": "train_006599",
+  "query": "Please implement a danmu robot website for managing and automatically replying to danmu. The website should have functionalities for real-time danmu monitoring, gift thanks, follow thanks, timed advertising, and automatic replies. Users should be able to log in, set the robot's reply rules, monitor danmu, send gift thanks and follow thanks messages, and set timed advertisements. Use bisque for the outer layout and dark salmon for UI blocks.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна автоматически отвечать на сообщения danmu.",
+      "source": "“The website should have functionalities for real-time danmu monitoring, gift thanks, follow thanks, timed advertising, and automatic replies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, set the robot's reply rules, monitor danmu, send gift thanks and follow thanks messages, and set timed advertisements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может задавать правила ответов робота.",
+      "source": "“Users should be able to log in, set the robot's reply rules, monitor danmu, send gift thanks and follow thanks messages, and set timed advertisements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может наблюдать сообщения danmu в реальном времени.",
+      "source": "“Users should be able to log in, set the robot's reply rules, monitor danmu, send gift thanks and follow thanks messages, and set timed advertisements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отправлять благодарность за подарок.",
+      "source": "“Users should be able to log in, set the robot's reply rules, monitor danmu, send gift thanks and follow thanks messages, and set timed advertisements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может отправлять благодарность за подписку.",
+      "source": "“Users should be able to log in, set the robot's reply rules, monitor danmu, send gift thanks and follow thanks messages, and set timed advertisements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может планировать рекламные сообщения по времени.",
+      "source": "“Users should be able to log in, set the robot's reply rules, monitor danmu, send gift thanks and follow thanks messages, and set timed advertisements.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Внешний фон страницы имеет цвет `bisque` (`#FFE4C4`).",
+      "source": "“Use bisque for the outer layout and dark salmon for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `dark salmon` (`#E9967A`).",
+      "source": "“Use bisque for the outer layout and dark salmon for UI blocks.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

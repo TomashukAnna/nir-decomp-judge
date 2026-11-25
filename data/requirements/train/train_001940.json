@@ -1,0 +1,124 @@
+{
+  "task_index": 1939,
+  "webgen_id": "train_001940",
+  "query": "Please implement a package secretary website for agents and manufacturers to manage orders and track production status. The website should have functionalities for order accounting, process tracking, real-time production status updates, and order billing. The agent version should allow agents to manage orders in cooperation with the company, and the manufacturer version should allow manufacturers to track the processing process and production status of various crafts. Users can log in to the website, browse order information, track production status, and generate order bills. Implement styling with light yellow for the background and goldenrod for components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Агент может управлять заказами совместно с компанией.",
+      "source": "“The agent version should allow agents to manage orders in cooperation with the company, and the manufacturer version should allow manufacturers to track the processing process and production status of various crafts.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять отдельную версию для агента.",
+      "source": "“The agent version should allow agents to manage orders in cooperation with the company, and the manufacturer version should allow manufacturers to track the processing process and production status of various crafts.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять отдельную версию для производителя.",
+      "source": "“Users can log in to the website, browse order information, track production status, and generate order bills.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Производитель может отслеживать процесс обработки изделий.",
+      "source": "“Users can log in to the website, browse order information, track production status, and generate order bills.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Производитель может отслеживать состояние производства изделий.",
+      "source": "“Users can log in to the website, browse order information, track production status, and generate order bills.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Implement styling with light yellow for the background and goldenrod for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать информацию о заказах.",
+      "source": "“Implement styling with light yellow for the background and goldenrod for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может отслеживать производственный статус.",
+      "source": "“Implement styling with light yellow for the background and goldenrod for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может формировать счета по заказам.",
+      "source": "“Implement styling with light yellow for the background and goldenrod for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна поддерживать учёт заказов.",
+      "source": "“The website should have functionalities for order accounting, process tracking, real-time production status updates, and order billing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Система должна обновлять производственный статус в реальном времени.",
+      "source": "“The website should have functionalities for order accounting, process tracking, real-time production status updates, and order billing.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `light yellow` (`#FFFFE0`).",
+      "source": "“Implement styling with light yellow for the background and goldenrod for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `goldenrod` (`#DAA520`).",
+      "source": "“Implement styling with light yellow for the background and goldenrod for components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

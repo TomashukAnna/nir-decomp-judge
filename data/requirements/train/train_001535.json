@@ -1,0 +1,70 @@
+{
+  "task_index": 1534,
+  "webgen_id": "train_001535",
+  "query": "Please implement a Telegram-based game website for initiating red packet games. The website should have functionalities for receiving Telegram bot messages, initiating games, determining if a user has hit a \"mine\", and settling the game. Users can participate in the game by sending messages through Telegram, and the website will determine if a user has hit a \"mine\" based on the red packets they have obtained, and then settle the game accordingly. Define the background as light beige and components as sienna.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна принимать сообщения Telegram-бота.",
+      "source": "“The website should have functionalities for receiving Telegram bot messages, initiating games, determining if a user has hit a \"mine\", and settling the game.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна запускать игры.",
+      "source": "“The website should have functionalities for receiving Telegram bot messages, initiating games, determining if a user has hit a \"mine\", and settling the game.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна определять попадание участника на «мину» по полученным конвертам.",
+      "source": "“The website should have functionalities for receiving Telegram bot messages, initiating games, determining if a user has hit a \"mine\", and settling the game.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна выполнять расчёт по результату игры.",
+      "source": "“The website should have functionalities for receiving Telegram bot messages, initiating games, determining if a user has hit a \"mine\", and settling the game.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может участвовать в игре через сообщения Telegram.",
+      "source": "“Users can participate in the game by sending messages through Telegram, and the website will determine if a user has hit a \"mine\" based on the red packets they have obtained, and then settle the game accordingly.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Основной фон интерфейса имеет цвет `light beige`.",
+      "source": "“Define the background as light beige and components as sienna.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Компоненты интерфейса имеют цвет `sienna` (`#A0522D`).",
+      "source": "“Define the background as light beige and components as sienna.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

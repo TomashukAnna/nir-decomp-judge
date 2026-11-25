@@ -1,0 +1,88 @@
+{
+  "task_index": 4387,
+  "webgen_id": "train_004388",
+  "query": "Please implement an asset management website for managing and tracking physical assets. The website should have functionalities for asset registration, asset inquiry, and asset statistics. Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution. Set the background color to pale turquoise and the component color to medium turquoise.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может добавлять сведения об активах.",
+      "source": "“Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может редактировать сведения об активах.",
+      "source": "“Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может удалять сведения об активах.",
+      "source": "“Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может запрашивать подробные сведения об активе.",
+      "source": "“Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать статистику количества активов.",
+      "source": "“Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать статистику распределения активов.",
+      "source": "“Users should be able to log in, add, edit, and delete asset information, query detailed asset information, and statistics on asset quantities and distribution.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `pale turquoise` (`#AFEEEE`).",
+      "source": "“Set the background color to pale turquoise and the component color to medium turquoise.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Компоненты интерфейса имеют цвет `medium turquoise` (`#48D1CC`).",
+      "source": "“Set the background color to pale turquoise and the component color to medium turquoise.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

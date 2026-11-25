@@ -1,0 +1,115 @@
+{
+  "task_index": 3838,
+  "webgen_id": "train_003839",
+  "query": "Please implement a digital collectibles issuance platform for issuing and managing digital collectibles. The platform should have functionalities for issuing digital collectibles, managing digital collectibles, and user transactions. Users should be able to log in, browse and purchase digital collectibles, view their own collectibles library, and conduct transactions. The platform should also have statistical and analytical functions, enabling real-time monitoring of platform traffic and transaction situations. Declare bisque as the global background color and dark salmon for all UI pieces.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна поддерживать выпуск цифровых коллекционных объектов.",
+      "source": "“The platform should have functionalities for issuing digital collectibles, managing digital collectibles, and user transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять управление цифровыми коллекционными объектами.",
+      "source": "“The platform should have functionalities for issuing digital collectibles, managing digital collectibles, and user transactions.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and purchase digital collectibles, view their own collectibles library, and conduct transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать цифровые коллекционные объекты.",
+      "source": "“Users should be able to log in, browse and purchase digital collectibles, view their own collectibles library, and conduct transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может покупать цифровые коллекционные объекты.",
+      "source": "“Users should be able to log in, browse and purchase digital collectibles, view their own collectibles library, and conduct transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать собственную коллекцию.",
+      "source": "“Users should be able to log in, browse and purchase digital collectibles, view their own collectibles library, and conduct transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может проводить сделки с коллекционными объектами.",
+      "source": "“Users should be able to log in, browse and purchase digital collectibles, view their own collectibles library, and conduct transactions.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна показывать статистику трафика в реальном времени.",
+      "source": "“The platform should also have statistical and analytical functions, enabling real-time monitoring of platform traffic and transaction situations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна показывать состояние сделок в реальном времени.",
+      "source": "“The platform should also have statistical and analytical functions, enabling real-time monitoring of platform traffic and transaction situations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна предоставлять аналитические функции.",
+      "source": "“The platform should also have statistical and analytical functions, enabling real-time monitoring of platform traffic and transaction situations.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `bisque` (`#FFE4C4`).",
+      "source": "“Declare bisque as the global background color and dark salmon for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `dark salmon` (`#E9967A`).",
+      "source": "“Declare bisque as the global background color and dark salmon for all UI pieces.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

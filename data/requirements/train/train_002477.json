@@ -1,0 +1,106 @@
+{
+  "task_index": 2476,
+  "webgen_id": "train_002477",
+  "query": "Please implement a backend management system for managing and maintaining data. The system should have functionalities for data management, user management, permission management, and log management. Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records. Style the layout with pale goldenrod in the background and dark olive green for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может просматривать данные.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может добавлять данные.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может редактировать данные.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может удалять данные.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять пользователями.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может управлять разрешениями.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать записи журналов.",
+      "source": "“Users should be able to log in, browse, add, edit, and delete data, manage users and permissions, and view log records.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна предоставлять управление журналами.",
+      "source": "“The system should have functionalities for data management, user management, permission management, and log management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `pale goldenrod` (`#EEE8AA`).",
+      "source": "“Style the layout with pale goldenrod in the background and dark olive green for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Компоненты интерфейса имеют цвет `dark olive green` (`#556B2F`).",
+      "source": "“Style the layout with pale goldenrod in the background and dark olive green for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

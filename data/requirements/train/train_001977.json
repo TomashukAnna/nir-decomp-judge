@@ -1,0 +1,142 @@
+{
+  "task_index": 1976,
+  "webgen_id": "train_001977",
+  "query": "Please implement a low-carbon project database website for storing and managing low-carbon project data. The website should have data import and export functions, supporting txt and excel file formats, and be able to perform data normalization detection and feedback on uploaded excel files. The website should also have a semantic recommendation function, which can recommend similar technologies based on project content. Users should be able to log in, browse and search low-carbon project data, upload and download data, and view recommended similar technologies. Apply pale rose to the canvas background and maroon to all visible components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может импортировать данные.",
+      "source": "“The website should have data import and export functions, supporting txt and excel file formats, and be able to perform data normalization detection and feedback on uploaded excel files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может экспортировать данные.",
+      "source": "“The website should have data import and export functions, supporting txt and excel file formats, and be able to perform data normalization detection and feedback on uploaded excel files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна поддерживать TXT.",
+      "source": "“The website should have data import and export functions, supporting txt and excel file formats, and be able to perform data normalization detection and feedback on uploaded excel files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна поддерживать Excel.",
+      "source": "“The website should have data import and export functions, supporting txt and excel file formats, and be able to perform data normalization detection and feedback on uploaded excel files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Система должна проверять нормализованность загруженных Excel-данных.",
+      "source": "“The website should have data import and export functions, supporting txt and excel file formats, and be able to perform data normalization detection and feedback on uploaded excel files.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Система должна возвращать результат проверки загруженного Excel-файла.",
+      "source": "“The website should have data import and export functions, supporting txt and excel file formats, and be able to perform data normalization detection and feedback on uploaded excel files.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна рекомендовать похожие технологии по содержанию проекта.",
+      "source": "“The website should also have a semantic recommendation function, which can recommend similar technologies based on project content.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and search low-carbon project data, upload and download data, and view recommended similar technologies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может просматривать проекты низкоуглеродных технологий.",
+      "source": "“Users should be able to log in, browse and search low-carbon project data, upload and download data, and view recommended similar technologies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может искать проекты.",
+      "source": "“Users should be able to log in, browse and search low-carbon project data, upload and download data, and view recommended similar technologies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может загружать данные.",
+      "source": "“Users should be able to log in, browse and search low-carbon project data, upload and download data, and view recommended similar technologies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Пользователь может скачивать данные.",
+      "source": "“Users should be able to log in, browse and search low-carbon project data, upload and download data, and view recommended similar technologies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Пользователь может просматривать рекомендации похожих технологий.",
+      "source": "“Users should be able to log in, browse and search low-carbon project data, upload and download data, and view recommended similar technologies.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Фон рабочей области имеет цвет `pale rose`.",
+      "source": "“Apply pale rose to the canvas background and maroon to all visible components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Apply pale rose to the canvas background and maroon to all visible components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

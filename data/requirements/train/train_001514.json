@@ -1,0 +1,115 @@
+{
+  "task_index": 1513,
+  "webgen_id": "train_001514",
+  "query": "Please implement a ping pong game website for players to play ping pong games. The website should have functionalities for starting games, pausing games, and restarting games. Players should be able to use their mouse or keyboard to control the paddle, hit the ping pong ball, score points, and challenge high scores. The website should also display the player's current score, high score, and game progress. Style the layout with peach puff in the background and firebrick for the interface.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может начинать игру.",
+      "source": "“The website should have functionalities for starting games, pausing games, and restarting games.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может приостанавливать игру.",
+      "source": "“The website should have functionalities for starting games, pausing games, and restarting games.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может перезапускать игру.",
+      "source": "“The website should have functionalities for starting games, pausing games, and restarting games.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может управлять ракеткой мышью или клавиатурой.",
+      "source": "“Players should be able to use their mouse or keyboard to control the paddle, hit the ping pong ball, score points, and challenge high scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может отбивать мяч.",
+      "source": "“Players should be able to use their mouse or keyboard to control the paddle, hit the ping pong ball, score points, and challenge high scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может набирать очки.",
+      "source": "“Players should be able to use their mouse or keyboard to control the paddle, hit the ping pong ball, score points, and challenge high scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может пытаться превысить рекорд.",
+      "source": "“Players should be able to use their mouse or keyboard to control the paddle, hit the ping pong ball, score points, and challenge high scores.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна показывать текущий счёт.",
+      "source": "“The website should also display the player's current score, high score, and game progress.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна показывать рекорд.",
+      "source": "“The website should also display the player's current score, high score, and game progress.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Система должна показывать ход игры.",
+      "source": "“The website should also display the player's current score, high score, and game progress.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Основной фон интерфейса имеет цвет `peach puff` (`#FFDAB9`).",
+      "source": "“Style the layout with peach puff in the background and firebrick for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Компоненты интерфейса имеют цвет `firebrick` (`#B22222`).",
+      "source": "“Style the layout with peach puff in the background and firebrick for the interface.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

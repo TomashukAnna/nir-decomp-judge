@@ -1,0 +1,124 @@
+{
+  "task_index": 6397,
+  "webgen_id": "train_006398",
+  "query": "Please implement an online logo generator website that helps users create personalized logos. The website should have functionalities for selecting templates, customizing text, colors, and icons. Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos. The website should also have registration and login functionality, allowing users to save and manage their own logo designs. Set the background color to ghost white and the component color to cadet blue.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может выбирать шаблон логотипа.",
+      "source": "“Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может вводить название компании.",
+      "source": "“Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может вводить слоган.",
+      "source": "“Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выбирать цвета логотипа.",
+      "source": "“Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может выбирать значки.",
+      "source": "“Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может предварительно просматривать логотип.",
+      "source": "“Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может скачивать созданный логотип.",
+      "source": "“Users should be able to choose from different types of logo templates, input company names and slogans, select suitable colors and icons, preview, and download the generated logos.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может зарегистрироваться.",
+      "source": "“The website should also have registration and login functionality, allowing users to save and manage their own logo designs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“The website should also have registration and login functionality, allowing users to save and manage their own logo designs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может сохранять собственные варианты логотипа.",
+      "source": "“The website should also have registration and login functionality, allowing users to save and manage their own logo designs.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может управлять собственными вариантами логотипа.",
+      "source": "“The website should also have registration and login functionality, allowing users to save and manage their own logo designs.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Основной фон интерфейса имеет цвет `ghost white` (`#F8F8FF`).",
+      "source": "“Set the background color to ghost white and the component color to cadet blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Компоненты интерфейса имеют цвет `cadet blue` (`#5F9EA0`).",
+      "source": "“Set the background color to ghost white and the component color to cadet blue.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

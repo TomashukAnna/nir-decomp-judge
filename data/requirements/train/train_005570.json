@@ -1,0 +1,61 @@
+{
+  "task_index": 5569,
+  "webgen_id": "train_005570",
+  "query": "Please implement a lightweight validation website for verifying user input data. The website should have functionalities for form validation, data verification, and error notification. Users should be able to input data, submit forms, and the website will verify the correctness of the data and display error messages. Configure all backgrounds with vanilla and all components with dark goldenrod.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может вводить данные.",
+      "source": "“Users should be able to input data, submit forms, and the website will verify the correctness of the data and display error messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может отправлять форму.",
+      "source": "“Users should be able to input data, submit forms, and the website will verify the correctness of the data and display error messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать сообщения об ошибках.",
+      "source": "“Users should be able to input data, submit forms, and the website will verify the correctness of the data and display error messages.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Система должна проверять корректность введённых данных.",
+      "source": "“Users should be able to input data, submit forms, and the website will verify the correctness of the data and display error messages.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Все фоновые области имеют цвет `vanilla`.",
+      "source": "“Configure all backgrounds with vanilla and all components with dark goldenrod.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Все компоненты интерфейса имеют цвет `dark goldenrod` (`#B8860B`).",
+      "source": "“Configure all backgrounds with vanilla and all components with dark goldenrod.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "task_index": 354,
+  "webgen_id": "train_000355",
+  "query": "Please implement a video platform website to display a large video library and optimize search engine rankings. The website should have functionalities for video publishing, categorization, tagging, and searching. Users should be able to browse videos, search for videos, view video details, and the website should be able to optimize search engine rankings and improve search engine indexing efficiency. The website should also have multilingual support. Apply ivory for layout; use chocolate for buttons and cards.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может публиковать видео.",
+      "source": "“The website should have functionalities for video publishing, categorization, tagging, and searching.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может распределять видео по категориям.",
+      "source": "“The website should have functionalities for video publishing, categorization, tagging, and searching.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может помечать видео тегами.",
+      "source": "“The website should have functionalities for video publishing, categorization, tagging, and searching.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать видео.",
+      "source": "“Users should be able to browse videos, search for videos, view video details, and the website should be able to optimize search engine rankings and improve search engine indexing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может искать видео.",
+      "source": "“Users should be able to browse videos, search for videos, view video details, and the website should be able to optimize search engine rankings and improve search engine indexing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может просматривать сведения о видео.",
+      "source": "“Users should be able to browse videos, search for videos, view video details, and the website should be able to optimize search engine rankings and improve search engine indexing efficiency.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Система должна улучшать позиции сайта в поисковой выдаче.",
+      "source": "“Users should be able to browse videos, search for videos, view video details, and the website should be able to optimize search engine rankings and improve search engine indexing efficiency.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна повышать эффективность индексации.",
+      "source": "“Users should be able to browse videos, search for videos, view video details, and the website should be able to optimize search engine rankings and improve search engine indexing efficiency.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Система должна поддерживать несколько языков.",
+      "source": "“The website should also have multilingual support.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Основной фон интерфейса имеет цвет `ivory` (`#FFFFF0`).",
+      "source": "“Apply ivory for layout; use chocolate for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Кнопки и карточки имеют цвет `chocolate` (`#D2691E`).",
+      "source": "“Apply ivory for layout; use chocolate for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task_index": 1593,
+  "webgen_id": "train_001594",
+  "query": "Please implement a television video playback website for playing TV videos and managing charging functions. The website should have functionalities for video playback, TV set-top box charging, and mobile phone recharge. Users should be able to log in, browse and play TV videos, manage their own charging information, and perform mobile phone recharge operations. Configure your theme with thistle as background and rebecca purple as component color.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может пополнять баланс телевизионной приставки.",
+      "source": "“The website should have functionalities for video playback, TV set-top box charging, and mobile phone recharge.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, browse and play TV videos, manage their own charging information, and perform mobile phone recharge operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может просматривать телевизионные видео.",
+      "source": "“Users should be able to log in, browse and play TV videos, manage their own charging information, and perform mobile phone recharge operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может воспроизводить телевизионные видео.",
+      "source": "“Users should be able to log in, browse and play TV videos, manage their own charging information, and perform mobile phone recharge operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может управлять собственными сведениями об оплате.",
+      "source": "“Users should be able to log in, browse and play TV videos, manage their own charging information, and perform mobile phone recharge operations.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может пополнять баланс мобильного телефона.",
+      "source": "“Users should be able to log in, browse and play TV videos, manage their own charging information, and perform mobile phone recharge operations.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Основной фон интерфейса имеет цвет `thistle` (`#D8BFD8`).",
+      "source": "“Configure your theme with thistle as background and rebecca purple as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Компоненты интерфейса имеют цвет `rebecca purple` (`#663399`).",
+      "source": "“Configure your theme with thistle as background and rebecca purple as component color.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

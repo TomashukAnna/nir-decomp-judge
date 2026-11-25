@@ -1,0 +1,142 @@
+{
+  "task_index": 761,
+  "webgen_id": "train_000762",
+  "query": "Please implement a material intelligence cloud mini-program for device management and application processing. The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center. Users should be able to log in to the mini-program and perform device management according to their assigned permissions, including submitting various applications, approving and rejecting applications, etc. The mini-program should be able to display different menus and functions based on different user roles. Apply buttermilk for layout; use peru for buttons and cards.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может принимать оборудование под управление.",
+      "source": "“The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может проводить инвентаризацию цеха.",
+      "source": "“The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может подавать заявку на выделение оборудования.",
+      "source": "“The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может подавать заявку на списание.",
+      "source": "“The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может подавать заявку на обслуживание.",
+      "source": "“The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может управлять метками.",
+      "source": "“The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может открывать личный кабинет.",
+      "source": "“The mini-program should have functionalities such as device takeover, workshop inventory, allocation application, scrapping application, maintenance application, label management, and personal center.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in to the mini-program and perform device management according to their assigned permissions, including submitting various applications, approving and rejecting applications, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Пользователь может подавать заявки в соответствии со своими разрешениями.",
+      "source": "“Users should be able to log in to the mini-program and perform device management according to their assigned permissions, including submitting various applications, approving and rejecting applications, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Пользователь может одобрять заявки в соответствии со своими разрешениями.",
+      "source": "“Users should be able to log in to the mini-program and perform device management according to their assigned permissions, including submitting various applications, approving and rejecting applications, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Пользователь может отклонять заявки в соответствии со своими разрешениями.",
+      "source": "“Users should be able to log in to the mini-program and perform device management according to their assigned permissions, including submitting various applications, approving and rejecting applications, etc.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Система должна показывать меню в зависимости от роли.",
+      "source": "“The mini-program should be able to display different menus and functions based on different user roles.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Система должна предоставлять функции в зависимости от роли.",
+      "source": "“The mini-program should be able to display different menus and functions based on different user roles.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Основной фон интерфейса имеет цвет `buttermilk`.",
+      "source": "“Apply buttermilk for layout; use peru for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Кнопки и карточки имеют цвет `peru` (`#CD853F`).",
+      "source": "“Apply buttermilk for layout; use peru for buttons and cards.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

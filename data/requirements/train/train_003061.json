@@ -1,0 +1,97 @@
+{
+  "task_index": 3060,
+  "webgen_id": "train_003061",
+  "query": "Please implement a smart comprehensive laundry cabinet system for managing laundry processes. The system should have functionalities for user login, laundry appointment, laundry status inquiry, and payment management. Users should be able to book laundry services, check laundry status, and make payments through a mobile app or mini-program. The system should also have backend management functions for managing laundry cabinet devices, advertising, and other related features. Style all pages with a cotton background and maroon components.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может бронировать услуги прачечной.",
+      "source": "“Users should be able to book laundry services, check laundry status, and make payments through a mobile app or mini-program.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может проверять состояние стирки.",
+      "source": "“Users should be able to book laundry services, check laundry status, and make payments through a mobile app or mini-program.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может оплачивать услуги.",
+      "source": "“Users should be able to book laundry services, check laundry status, and make payments through a mobile app or mini-program.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выполнять эти действия через мобильное приложение или мини-приложение.",
+      "source": "“Users should be able to book laundry services, check laundry status, and make payments through a mobile app or mini-program.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“The system should have functionalities for user login, laundry appointment, laundry status inquiry, and payment management.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Администратор может управлять устройствами прачечных шкафов.",
+      "source": "“The system should also have backend management functions for managing laundry cabinet devices, advertising, and other related features.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Администратор может управлять рекламой.",
+      "source": "“The system should also have backend management functions for managing laundry cabinet devices, advertising, and other related features.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Система должна предоставлять административный раздел.",
+      "source": "“The system should also have backend management functions for managing laundry cabinet devices, advertising, and other related features.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Фон всех страниц имеет цвет `cotton`.",
+      "source": "“Style all pages with a cotton background and maroon components.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Компоненты интерфейса имеют цвет `maroon` (`#800000`).",
+      "source": "“Style all pages with a cotton background and maroon components.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

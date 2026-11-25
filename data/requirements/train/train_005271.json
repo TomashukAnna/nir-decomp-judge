@@ -1,0 +1,88 @@
+{
+  "task_index": 5270,
+  "webgen_id": "train_005271",
+  "query": "Please implement a database migration tool website to help users migrate databases. The website should have functionalities for database backup, restoration, and migration. Users should be able to log in, select the database to migrate, set migration parameters, execute the migration operation, and view the migration results. Select medium spring green for layout background and green for component details.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Пользователь может создавать резервную копию базы.",
+      "source": "“The website should have functionalities for database backup, restoration, and migration.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Пользователь может восстанавливать базу из резервной копии.",
+      "source": "“The website should have functionalities for database backup, restoration, and migration.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Пользователь может войти в систему.",
+      "source": "“Users should be able to log in, select the database to migrate, set migration parameters, execute the migration operation, and view the migration results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может выбирать базу для переноса.",
+      "source": "“Users should be able to log in, select the database to migrate, set migration parameters, execute the migration operation, and view the migration results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может задавать параметры миграции.",
+      "source": "“Users should be able to log in, select the database to migrate, set migration parameters, execute the migration operation, and view the migration results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может запускать миграцию.",
+      "source": "“Users should be able to log in, select the database to migrate, set migration parameters, execute the migration operation, and view the migration results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может просматривать результат миграции.",
+      "source": "“Users should be able to log in, select the database to migrate, set migration parameters, execute the migration operation, and view the migration results.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Основной фон интерфейса имеет цвет `medium spring green` (`#00FA9A`).",
+      "source": "“Select medium spring green for layout background and green for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Детали компонентов имеют цвет `green` (`#008000`).",
+      "source": "“Select medium spring green for layout background and green for component details.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}

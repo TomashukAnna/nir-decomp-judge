@@ -1,0 +1,187 @@
+{
+  "task_index": 2888,
+  "webgen_id": "train_002889",
+  "query": "Please implement a car inspection mini-program that displays car information and provides payment functionality. The mini-program should have features such as a homepage, product page, and report page. Users should be able to browse car information, make payments, select packages, query reports, and view orders. The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management. Set eggshell as the body background and use dark slate gray for the UI.",
+  "requirements": [
+    {
+      "requirement_id": "R1",
+      "criteria": "Система должна предоставлять главную страницу.",
+      "source": "“The mini-program should have features such as a homepage, product page, and report page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R2",
+      "criteria": "Система должна предоставлять страницу товара.",
+      "source": "“The mini-program should have features such as a homepage, product page, and report page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R3",
+      "criteria": "Система должна предоставлять страницу отчёта.",
+      "source": "“The mini-program should have features such as a homepage, product page, and report page.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R4",
+      "criteria": "Пользователь может просматривать сведения об автомобилях.",
+      "source": "“Users should be able to browse car information, make payments, select packages, query reports, and view orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R5",
+      "criteria": "Пользователь может оплачивать услуги.",
+      "source": "“Users should be able to browse car information, make payments, select packages, query reports, and view orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R6",
+      "criteria": "Пользователь может выбирать пакеты.",
+      "source": "“Users should be able to browse car information, make payments, select packages, query reports, and view orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R7",
+      "criteria": "Пользователь может запрашивать отчёты.",
+      "source": "“Users should be able to browse car information, make payments, select packages, query reports, and view orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R8",
+      "criteria": "Пользователь может просматривать заказы.",
+      "source": "“Users should be able to browse car information, make payments, select packages, query reports, and view orders.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R9",
+      "criteria": "Администратор может управлять отчётами.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R10",
+      "criteria": "Администратор может управлять меню.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R11",
+      "criteria": "Администратор может управлять разрешениями.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R12",
+      "criteria": "Администратор может управлять ролями.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R13",
+      "criteria": "Администратор может управлять новостями.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R14",
+      "criteria": "Администратор может управлять дневником.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R15",
+      "criteria": "Администратор может управлять заказами.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R16",
+      "criteria": "Администратор может управлять пользователями.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R17",
+      "criteria": "Администратор может управлять клиентами.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R18",
+      "criteria": "Администратор может управлять продавцами.",
+      "source": "“The mini-program should also have management functions such as report management, menu management, permission management, role management, news management, diary management, order management, user management, customer management, and merchant management.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R19",
+      "criteria": "Основной фон интерфейса имеет цвет `eggshell`.",
+      "source": "“Set eggshell as the body background and use dark slate gray for the UI.”",
+      "kind": "explicit",
+      "rule": "llm",
+      "parent": null,
+      "prerequisites": []
+    },
+    {
+      "requirement_id": "R20",
+      "criteria": "Компоненты интерфейса имеют цвет `dark slate gray` (`#2F4F4F`).",
+      "source": "“Set eggshell as the body background and use dark slate gray for the UI.”",
+      "kind": "explicit",
+      "rule": "code",
+      "parent": null,
+      "prerequisites": []
+    }
+  ]
+}
