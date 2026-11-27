@@ -1,0 +1,154 @@
+# Воспроизведение генерации приложений WebGen-Bench
+
+Ветка: `feat/webgen-generation`. Ниже — пример на втором ТЗ test,
+WebGen ID `000002`. Нужны Git, Docker с Linux-контейнерами и Python 3 для
+подготовки входа (Python >= 3.10). OpenCode, Python-зависимости и Node входят в Docker-образ;
+GPU и локальные веса Qwen не нужны. Новая генерация не требует наших локальных данных.
+Нужен действующий доступ к API выбранной модели: ключ проекта не публикуется.
+По умолчанию используется лабораторный эндпоинт; другой OpenAI-compatible
+провайдер с поддержкой streaming и tool calling задаётся полями `api_base` и `model`
+в конфигурации генерации. Это уже другой эксперимент. Изменённую
+конфигурацию нужно сохранить коммитом перед сборкой и использовать новую папку результата.
+
+## Как ТЗ передаётся модели
+
+1. Из WebGen-Bench выбираются только `id` и исходный `instruction`. Приёмочные
+   кейсы `ui_instruct`, наша декомпозиция и человеческие оценки не передаются.
+2. [webgen_generate.py](../src/decomp_judge/webgen_generate.py) создаёт пустой
+   каталог `task-000002/app/`. Инструкция агента берётся из
+   [webgen-builder.md](../configs/webgen-builder.md), пользовательское сообщение:
+
+   ```text
+   Implement this specification in the current directory:
+
+   <исходный instruction без изменения текста>
+   ```
+
+3. Запускается `opencode run --format json --agent webgen-builder --dir <app> <prompt>`.
+   OpenCode вызывает `iairlab/qwen3.8-27b` через OpenAI-compatible API
+   `https://api.duckduck.cloud/v1`. В этой генерации Python LiteLLM не вызывается:
+   HTTP-запросы делает OpenCode через `@ai-sdk/openai-compatible`.
+   `lab/` — локальное имя провайдера OpenCode, а не часть имени модели в API.
+4. Это агентный цикл: модель вызывает инструменты чтения, записи и shell,
+   OpenCode выполняет их и возвращает результат модели. Агент создаёт исходники,
+   устанавливает зависимости при необходимости и проверяет приложение.
+   На выходе нужны реальные файлы приложения, не только текстовый ответ модели.
+
+OpenCode закреплён на версии `1.19.4`. Настройки модели и агента:
+[webgen-generation.yaml](../configs/webgen-generation.yaml).
+`temperature: 0` задана в конфигурации агента. Ограничения числа шагов и общего
+времени отключены. [Локальный плагин](../configs/webgen-no-output-cap.mjs)
+убирает клиентский лимит ответа OpenCode в 32 000 токенов; пределы сервера и
+сетевые тайм-ауты остаются. Изоляция контейнера сохранена.
+
+## Получить код и подготовить ТЗ
+
+```bash
+git clone --branch feat/webgen-generation --single-branch https://github.com/TomashukAnna/nir-decomp-judge.git
+cd nir-decomp-judge
+python3 scripts/prepare_webgen_input.py --ids 000002 --output data/webgen-handoff/input
+```
+
+В Windows вместо `python3` можно использовать `python`.
+Скрипт скачивает `test.jsonl` из коммита
+`c89e0743438e458d617cebaf7a682e0e66e41049`, проверяет SHA-256 и сохраняет выбранное
+ТЗ в `data/webgen-handoff/input/test.jsonl`. В `selection.json` остаются источник,
+хэши и соответствие ID исходному индексу строки. Уже существующий вход не затирается.
+Источник закреплён в [webgen-source.json](../configs/webgen-source.json).
+
+Все исходные записи совпадают с нашим локальным файлом; различаются только
+переводы строк LF/CRLF. Поэтому проверяется также хэш после нормализации CRLF → LF.
+Если файл уже скачан, вместо обращения в сеть можно добавить
+`--source /path/to/test.jsonl`. Для нескольких ТЗ: `--ids 000002 000003 000004`.
+
+Чтобы подготовить всю выборку, вместо `--ids` указать `--all`:
+
+```bash
+python3 scripts/prepare_webgen_input.py --all --output data/webgen-all/input
+```
+
+После этого путь входа в командах запуска заменить на `data/webgen-all/input/test.jsonl`.
+Количество новых попыток задаётся `--limit N` в Linux или `-Count N` в PowerShell.
+Приложения генерируются последовательно. Повторный запуск той же партии с `--resume`
+продолжает необработанные ТЗ; успешные исходники не перезаписываются. FAILED и
+INTERRUPTED не повторяются автоматически. Для явного повтора нужен отдельный вход
+с нужными ID и новая папка результата. Изменять состав уже начатой партии нельзя.
+
+## Linux: собрать и выполнить одно ТЗ
+
+Ключ заранее задаётся в окружении как `LITELLM_API_KEY`. Его значение в команду
+не вставляется. Команды ниже выполняются из корня чистого клона; папка результата
+должна быть новой.
+
+```bash
+docker build -f docker/webgen.Dockerfile \
+  --build-arg SOURCE_COMMIT="$(git rev-parse HEAD)" \
+  -t nir-webgen-generator:1.19.4 .
+
+mkdir -p data/generated-apps/supervisor-task000002-001
+
+docker run --name nir-webgen-qwen --init \
+  --label org.nir-decomp-judge.purpose=webgen-generation \
+  --cpus 2 --memory 4g --pids-limit 256 \
+  --cap-drop ALL --security-opt no-new-privileges --read-only \
+  --tmpfs /tmp:rw,size=2g \
+  --tmpfs /home/generator:rw,uid=1000,gid=1000,size=512m \
+  --mount "type=bind,source=$(pwd)/data/webgen-handoff/input/test.jsonl,target=/input/test.jsonl,readonly" \
+  --mount "type=bind,source=$(pwd)/data/generated-apps/supervisor-task000002-001,target=/output" \
+  --env LITELLM_API_KEY \
+  --env npm_config_cache=/output/.cache/npm \
+  --env UV_CACHE_DIR=/output/.cache/uv --env PIP_CACHE_DIR=/output/.cache/pip \
+  nir-webgen-generator:1.19.4 \
+  --input /input/test.jsonl --output /output --execute --limit 1
+```
+
+Для проверки контейнера без обращения к модели в последней строке убрать
+`--execute`. Для фонового выполнения добавить `--detach` к `docker run`, журнал:
+`docker logs -f nir-webgen-qwen`. Используется одно имя контейнера. Если оно уже
+занято завершённым запуском, сохранить его журнал и удалить только остановленный
+контейнер перед повтором; папка результата не удаляется.
+
+На Linux выходная папка должна быть доступна на запись UID 1000, под которым
+работает образ. Если UID пользователя хоста другой, согласовать права на эту
+папку; запускать весь контейнер привилегированным не требуется.
+
+## Windows / PowerShell
+
+После той же подготовки входа и задания ключа в окружении:
+
+```powershell
+.\scripts\webgen.ps1 -Action Build
+.\scripts\webgen.ps1 -Action Start -Count 1 -InputPath data/webgen-handoff/input/test.jsonl -OutputPath data/generated-apps/supervisor-task000002-001
+.\scripts\webgen.ps1 -Action Status -OutputPath data/generated-apps/supervisor-task000002-001
+```
+
+Запуск фоновый. Скрипт сам сохраняет журнал завершённого контейнера и пересоздаёт
+его под тем же именем `nir-webgen-qwen`. Работающий контейнер не заменяется.
+Count / `--limit` — максимум новых попыток, не обещанное число успешных приложений.
+
+## Сохранение и передача результатов
+
+Результат находится в `data/generated-apps/supervisor-task000002-001/`.
+Сохранить файлы приложения `task-000002/app/`, `manifest.json`, `generation-config.yaml`,
+`summary.csv`, `status.json` и из `task-000002/`: `run.json`, `raw-output.jsonl`,
+`stderr.txt`, `tokens.json`, `files-sha256.json` (если создан), `prompt.txt`,
+`spec.txt`, `config.json`. Для сохранения MLflow — также `mlflow.db` и `mlartifacts/`.
+Полезно приложить `data/webgen-handoff/input/selection.json`.
+
+Передавать архивом, без `.cache`, `runtime`, `node_modules`, `.venv`, `.git` и файлов
+с ключами. Эти данные и архив не нужно коммитить в Git. Пути MLflow-артефактов
+в базе относятся к контейнеру `/output`; сами артефакты нужно сохранить рядом.
+
+Итог смотреть по `run.json`, не только по exit code контейнера: генератор сохраняет
+неудачную попытку как `FAILED` и может штатно завершиться с кодом 0.
+`GENERATED` означает сохранённые исходники, а не доказанное выполнение всех требований.
+
+## Что воспроизводим
+
+Локально длительные попытки завершались `ECONNRESET`. Последний запуск:
+MLflow `075cac56685e46e4a81d6381e6e754ab`, код генератора
+`2449a13a00e4dd493888239b701d36d69475374d`. Перед обрывом агент создал часть приложения;
+причина сброса соединения пока не установлена. Само приложение с нуля у руководителя
+может отличаться: параметры сервера и зависимости создаваемого приложения не
+полностью закреплены, seed модели не передаётся. Цель — повторить тот же способ
+передачи ТЗ и агентной генерации в другой среде, сохранив исходники и трассу.
