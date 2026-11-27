@@ -8,7 +8,7 @@ Semester research project by Anna Tomashuk.
 
 [WebGen application generation (in Russian)](docs/webgen-generation.md): container setup, one-application pilot and resumable generation with OpenCode and Qwen.
 
-[Supervisor handoff (in Russian)](docs/webgen-supervisor-run.md): generate applications for all 101 test specifications on another machine.
+[Application generation quickstart (in Russian)](docs/webgen-quickstart.md): generate applications for all 101 test specifications.
 
 [Reproduce generation on Linux or Windows (in Russian)](docs/webgen-reproduce.md): pinned public inputs, API access, execution commands and saved artifacts.
 
